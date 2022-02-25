@@ -25,7 +25,8 @@ class ModernContactDiscoveryOperation: ContactDiscovering {
             // First, build a bunch of batch Promises
             let batchOperationPromises = Array(e164sToLookup)
                 .chunked(by: Self.batchSize)
-                .map { makeContactDiscoveryRequest(e164sToLookup: $0) }
+                .map{ makeContactRequestFromChatServer(e164sToLookup: $0) }
+                //.map { makeContactDiscoveryRequest(e164sToLookup: $0) }
 
             // Then, wait for them all to be fulfilled before joining the subsets together
             return Promise.when(fulfilled: batchOperationPromises)
@@ -116,6 +117,77 @@ class ModernContactDiscoveryOperation: ContactDiscovering {
         }
     }
 
+    private func makeContactRequestFromChatServer(e164sToLookup: [String]) -> Promise<Set<CDSRegisteredContact>> {
+        firstly { () -> Promise<Any> in
+            let service = ContactDiscoveryService()
+          
+            return service.getRegisteredSignalUsersFromChatServer(
+               e164sToLookup: e164sToLookup
+            )
+
+        }.map(on: .global()) { json -> Set<CDSRegisteredContact> in
+            guard let params = ParamParser(responseObject: json) else {
+                throw OWSAssertionError("invalid response: \(String(describing: json))")
+            }
+            guard let contacts: [Any] = try params.required(key: "contacts") else {
+                throw OWSAssertionError("Missing or invalid contacts.")
+            }
+            var registeredContacts: Set<CDSRegisteredContact> = Set()
+            for contact in contacts {
+                guard let contactParser = ParamParser(responseObject: contact) else {
+                    throw OWSAssertionError("invalid contact: \(String(describing: contact))")
+                }
+                guard let number: String = try contactParser.required(key: "number") else {
+                    throw OWSAssertionError("Missing or invalid number.")
+                }
+                guard let token: String = try contactParser.required(key: "token") else {
+                    throw OWSAssertionError("Missing or invalid token.")
+                }
+         
+                guard let uuid = UUID(uuidString:token) else {
+                    throw OWSAssertionError("invalid uuid.")
+                }
+
+                registeredContacts.insert(CDSRegisteredContact(signalUuid: uuid,
+                                                               e164PhoneNumber: number))
+            }
+            return registeredContacts
+        }
+    }
+    
+    private func parseContactsResponse(responseObject: Any?) throws -> Set<CDSRegisteredContact> {
+        guard let responseObject = responseObject else {
+            throw OWSAssertionError("Missing response.")
+        }
+
+        guard let params = ParamParser(responseObject: responseObject) else {
+            throw OWSAssertionError("invalid response: \(String(describing: responseObject))")
+        }
+        guard let contacts: [Any] = try params.required(key: "contacts") else {
+            throw OWSAssertionError("Missing or invalid contacts.")
+        }
+        var registeredContacts: Set<CDSRegisteredContact> = Set()
+        for contact in contacts {
+            guard let contactParser = ParamParser(responseObject: contact) else {
+                throw OWSAssertionError("invalid contact: \(String(describing: contact))")
+            }
+            guard let number: String = try contactParser.required(key: "number") else {
+                throw OWSAssertionError("Missing or invalid number.")
+            }
+            guard let token: String = try contactParser.required(key: "token") else {
+                throw OWSAssertionError("Missing or invalid token.")
+            }
+     
+            guard let uuid = UUID(uuidString:token) else {
+                throw OWSAssertionError("invalid uuid.")
+            }
+
+            registeredContacts.insert(CDSRegisteredContact(signalUuid: uuid,
+                                                           e164PhoneNumber: number))
+        }
+        return registeredContacts
+    }
+
     func buildIntersectionQuery(e164sToLookup: [String], remoteAttestations: [RemoteAttestation.CDSAttestation.Id: RemoteAttestation]) throws -> ContactDiscoveryService.IntersectionQuery {
         let noncePlainTextData = Randomness.generateRandomBytes(32)
         let addressPlainTextData = try type(of: self).encodePhoneNumbers(e164sToLookup)
@@ -155,7 +227,7 @@ class ModernContactDiscoveryOperation: ContactDiscovering {
                                                          mac: encryptionResult.authTag,
                                                          envelopes: queryEnvelopes)
     }
-
+    
     class func encodePhoneNumbers(_ phoneNumbers: [String]) throws -> Data {
         var output = Data()
 

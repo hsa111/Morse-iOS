@@ -120,31 +120,31 @@ extension ConversationViewController {
             var barButtons = [UIBarButtonItem]()
             if self.canCall {
                 if self.isGroupConversation {
-                    let videoCallButton = UIBarButtonItem()
-
-                    if threadViewModel.groupCallInProgress {
-                        let pill = JoinGroupCallPill()
-                        pill.addTarget(self,
-                                       action: #selector(showGroupLobbyOrActiveCall),
-                                       for: .touchUpInside)
-                        let returnString = NSLocalizedString("RETURN_CALL_PILL_BUTTON",
-                                                             comment: "Button to return to current group call")
-                        let joinString = NSLocalizedString("JOIN_CALL_PILL_BUTTON",
-                                                           comment: "Button to join an active group call")
-                        pill.buttonText = self.isCurrentCallForThread ? returnString : joinString
-                        videoCallButton.customView = pill
-                    } else {
-                        videoCallButton.image = Theme.iconImage(.videoCall)
-                        videoCallButton.target = self
-                        videoCallButton.action = #selector(showGroupLobbyOrActiveCall)
-                    }
-
-                    videoCallButton.isEnabled = (self.callService.currentCall == nil
-                                                    || self.isCurrentCallForThread)
-                    videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL",
-                                                                           comment: "Accessibility label for placing a video call")
-                    self.groupCallBarButtonItem = videoCallButton
-                    barButtons.append(videoCallButton)
+//                    let videoCallButton = UIBarButtonItem()
+//
+//                    if threadViewModel.groupCallInProgress {
+//                        let pill = JoinGroupCallPill()
+//                        pill.addTarget(self,
+//                                       action: #selector(showGroupLobbyOrActiveCall),
+//                                       for: .touchUpInside)
+//                        let returnString = NSLocalizedString("RETURN_CALL_PILL_BUTTON",
+//                                                             comment: "Button to return to current group call")
+//                        let joinString = NSLocalizedString("JOIN_CALL_PILL_BUTTON",
+//                                                           comment: "Button to join an active group call")
+//                        pill.buttonText = self.isCurrentCallForThread ? returnString : joinString
+//                        videoCallButton.customView = pill
+//                    } else {
+//                        videoCallButton.image = Theme.iconImage(.videoCall)
+//                        videoCallButton.target = self
+//                        videoCallButton.action = #selector(showGroupLobbyOrActiveCall)
+//                    }
+//
+//                    videoCallButton.isEnabled = (self.callService.currentCall == nil
+//                                                    || self.isCurrentCallForThread)
+//                    videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL",
+//                                                                           comment: "Accessibility label for placing a video call")
+//                    self.groupCallBarButtonItem = videoCallButton
+//                    barButtons.append(videoCallButton)
                 } else {
                     let audioCallButton = UIBarButtonItem(
                         image: Theme.iconImage(.audioCall),

@@ -27,20 +27,20 @@ class OWSLinkPreviewTest: SSKBaseTestSwift {
     func testUrlSchemeValidation() {
         let testSuite: [String: String?] = [
             // Invalid: Explicit scheme is required
-            "signal.org": nil,
-            "www.signal.org": nil,
-            "https.signal.org": nil,
+            "signal-plus.org": nil,
+            "www.signal-plus.org": nil,
+            "https.signal-plus.org": nil,
 
             // Invalid: Scheme must be https
-            "http://www.signal.org": nil,
-            "ftp://www.signal.org": nil,
+            "http://www.signal-plus.org": nil,
+            "ftp://www.signal-plus.org": nil,
 
             // Valid
-            "https://signal.org": "https://signal.org",
-            "HTTPS://signal.org": "HTTPS://signal.org",
-            "https://www.signal.org": "https://www.signal.org",
-            "https://www.signal.org:443/blahh.html?query=value": "https://www.signal.org:443/blahh.html?query=value",
-            "https://test.signal.org/": "https://test.signal.org/"
+            "https://signal-plus.org": "https://signal-plus.org",
+            "HTTPS://signal-plus.org": "HTTPS://signal-plus.org",
+            "https://www.signal-plus.org": "https://www.signal-plus.org",
+            "https://www.signal-plus.org:443/blahh.html?query=value": "https://www.signal-plus.org:443/blahh.html?query=value",
+            "https://test.signal-plus.org/": "https://test.signal-plus.org/"
         ]
         testSuite.forEach { string, expectedString in
             let url = linkPreviewManager.findFirstValidUrl(in: string)
@@ -52,9 +52,9 @@ class OWSLinkPreviewTest: SSKBaseTestSwift {
     func testRejectedUrlFields() {
         let testSuite: [String: String?] = [
             // Invalid: Username/Password disallowed
-            "https://mlin@www.signal.org": nil,
-            "https://:pass@www.signal.org": nil,
-            "https://mlin:mypass@www.signal.org": nil,
+            "https://mlin@www.signal-plus.org": nil,
+            "https://:pass@www.signal-plus.org": nil,
+            "https://mlin:mypass@www.signal-plus.org": nil,
 
             // Invalid: .onion TLD explicitly disallowed
             "https://3g2upl4pq6kufc4m.onion": nil,
@@ -92,9 +92,9 @@ class OWSLinkPreviewTest: SSKBaseTestSwift {
             "https://中国互联网络信息中心.中国/nonASCIIPath": "https://xn--fiqa61au8b7zsevnm8ak20mc4a87e.xn--fiqs8s/nonASCIIPath",
             "https://中国互联网络信息中心.中国?nonASCIIQuery": "https://xn--fiqa61au8b7zsevnm8ak20mc4a87e.xn--fiqs8s?nonASCIIQuery",
             "https://中国互联网络信息中心.中国#fragment": "https://xn--fiqa61au8b7zsevnm8ak20mc4a87e.xn--fiqs8s#fragment",
-            "https://signal.org/你好": "https://signal.org/%E4%BD%A0%E5%A5%BD",
-            "https://signal.org?你好": "https://signal.org?%E4%BD%A0%E5%A5%BD",
-            "https://signal.org#你好": "https://signal.org#%E4%BD%A0%E5%A5%BD"
+            "https://signal-plus.org/你好": "https://signal-plus.org/%E4%BD%A0%E5%A5%BD",
+            "https://signal-plus.org?你好": "https://signal-plus.org?%E4%BD%A0%E5%A5%BD",
+            "https://signal-plus.org#你好": "https://signal-plus.org#%E4%BD%A0%E5%A5%BD"
         ]
 
         testSuite.forEach { string, expectedString in
@@ -379,7 +379,7 @@ extension OWSLinkPreviewTest {
                 let content = HTMLMetadata.construct(parsing: linkText)
                 XCTAssertNotNil(content)
 
-                XCTAssertEqual(content.ogTitle, "Signal on Instagram: “I link therefore I am: https://signal.org/blog/i-link-therefore-i-am/”")
+                XCTAssertEqual(content.ogTitle, "Signal on Instagram: “I link therefore I am: https://signal-plus.org/blog/i-link-therefore-i-am/”")
                 // Actual URL can change based on network response
                 //
                 // It seems like some parts of the URL are stable, so we can pattern match, but if this continues to be brittle we may choose
@@ -408,7 +408,7 @@ extension OWSLinkPreviewTest {
                 let content = HTMLMetadata.construct(parsing: linkText)
                 XCTAssertNotNil(content)
 
-                XCTAssertEqual(content.ogTitle, "Signal on Instagram: “I link therefore I am: https://signal.org/blog/i-link-therefore-i-am/”")
+                XCTAssertEqual(content.ogTitle, "Signal on Instagram: “I link therefore I am: https://signal-plus.org/blog/i-link-therefore-i-am/”")
                 // Actual URL can change based on network response
                 //
                 // It seems like some parts of the URL are stable, so we can pattern match, but if this continues to be brittle we may choose

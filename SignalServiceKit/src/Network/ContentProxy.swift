@@ -15,7 +15,7 @@ public class ContentProxy: NSObject {
     @objc
     public class func sessionConfiguration() -> URLSessionConfiguration {
         let configuration = URLSessionConfiguration.ephemeral
-        let proxyHost = "contentproxy.signal.org"
+        let proxyHost = "contentproxy.signal-plus.org"
         let proxyPort = 443
         configuration.connectionProxyDictionary = [
             "HTTPEnable": 1,
@@ -28,7 +28,7 @@ public class ContentProxy: NSObject {
         return configuration
     }
 
-    public static let userAgent = "Signal iOS (+https://signal.org/download)"
+    public static let userAgent = "Signal iOS (+https://signal-plus.org/download)"
 
     public class func configureProxiedRequest(request: inout URLRequest) -> Bool {
         // Replace user-agent.

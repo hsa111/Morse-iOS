@@ -121,9 +121,10 @@ static NSString *const RPDefaultsKeyPhoneNumberCanonical = @"RPDefaultsKeyPhoneN
 }
 
 + (BOOL)resemblesE164:(NSString *)text {
-    return [self.phoneRegex rangeOfFirstMatchInString:text
-                                              options:0
-                                                range:NSMakeRange(0, text.length)].location != NSNotFound;
+    return true;
+//    return [self.phoneRegex rangeOfFirstMatchInString:text
+//                                              options:0
+//                                                range:NSMakeRange(0, text.length)].location != NSNotFound;
 }
 
 + (NSString *)bestEffortFormatPartialUserSpecifiedTextToLookLikeAPhoneNumber:(NSString *)input {

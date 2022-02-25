@@ -58,7 +58,7 @@ class DownloadStickerOperation: CDNDownloadOperation {
 
         Logger.verbose("Downloading sticker: \(stickerInfo).")
 
-        // https://cdn.signal.org/stickers/<pack_id>/full/<sticker_id>
+        // https://cdn.signal-plus.org/stickers/<pack_id>/full/<sticker_id>
         let urlPath = "stickers/\(stickerInfo.packId.hexadecimalString)/full/\(stickerInfo.stickerId)"
 
         firstly {

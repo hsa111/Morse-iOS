@@ -18,7 +18,7 @@ class AppUpdateNag: NSObject {
 
     @objc
     public func showAppUpgradeNagIfNecessary() {
-
+        return
         guard let currentVersion = self.currentVersion else {
             owsFailDebug("currentVersion was unexpectedly nil")
             return

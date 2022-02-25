@@ -132,6 +132,8 @@ typedef NS_ENUM(NSUInteger, TSVerificationTransport) { TSVerificationTransportVo
                                          identityKey:(NSData *)identityKeyPublic
                                         signedPreKey:(SignedPreKeyRecord *)signedPreKey;
 
++ (TSRequest *)requestRandomNumber;
+
 #pragma mark - Storage Service
 
 + (TSRequest *)storageAuthRequest;

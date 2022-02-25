@@ -198,7 +198,7 @@ public class OWSAttachmentUploadV2: NSObject {
                 return (form, attachmentData)
             }
         }.then(on: Self.serialQueue) { (form: OWSUploadFormV2, attachmentData: Data) -> Promise<String> in
-            let uploadUrlPath = "attachments/"
+            let uploadUrlPath = ""
             return OWSUpload.uploadV2(data: attachmentData,
                                       uploadForm: form,
                                       uploadUrlPath: uploadUrlPath,

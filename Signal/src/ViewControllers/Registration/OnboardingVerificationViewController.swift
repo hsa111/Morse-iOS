@@ -435,6 +435,7 @@ public class OnboardingVerificationViewController: OnboardingBaseViewController 
         // it because of the equal spacing constraint
         errorSpacer.setContentHuggingPriority(.init(100), for: .vertical)
 
+        onboardingCodeView.set(verificationCode: onboardingController.randomCode ?? "")
         startCodeCountdown()
         updateResendButtons()
         UIView.performWithoutAnimation {

@@ -19,7 +19,7 @@ extension FeatureBuild {
     }
 }
 
-private let build: FeatureBuild = OWSIsDebugBuild() ? .dev : .production
+private let build: FeatureBuild = OWSIsDebugBuild() ? .dev : .beta
 
 // MARK: -
 
@@ -551,7 +551,7 @@ public class DebugFlags: BaseFlags {
     @objc
     public static let callingUseTestSFU = TestableFlag(false,
                                                        title: LocalizationNotNeeded("Calling: Use Test SFU"),
-                                                       details: LocalizationNotNeeded("Group calls will connect to sfu.test.voip.signal.org."))
+                                                       details: LocalizationNotNeeded("Group calls will connect to sfu.test.voip.signal-plus.org."))
 
     @objc
     public static let delayedMessageResend = TestableFlag(false,

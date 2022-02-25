@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #define textSecureHTTPTimeOut 10
 
-#define kLegalTermsUrlString @"https://signal.org/legal/"
+#define kLegalTermsUrlString @"https://signal-plus.org/legal/"
 
 #define textSecureAccountsAPI @"v1/accounts"
 #define textSecureAttributesAPI @"v1/accounts/attributes/"

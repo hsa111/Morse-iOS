@@ -56,6 +56,38 @@ public class AccountManager: NSObject {
                                                               transport: transport)
         }
     }
+    
+    func requestAccountRandomNumber() -> Promise<(number: String, code: String)> {
+        //self.accountServiceClient.requestRandomNumber()
+        let request = OWSRequestFactory.requestRandomNumber()
+        return firstly {
+            networkManager.makePromise(request: request)
+        }.map(on: .global()) { response in
+            guard let json = response.responseBodyJson else {
+                throw OWSAssertionError("Missing or invalid JSON.")
+            }
+            guard let parser = ParamParser(responseObject: json) else {
+                throw OWSAssertionError("Missing or invalid response.")
+            }
+
+            let number: String = try parser.required(key: "number")
+            let code: String = try parser.required(key: "code")
+
+            return (number: number, code: code)
+        }
+        
+//        let request = OWSRequestFactory.turnServerInfoRequest()
+//        return firstly {
+//            Self.networkManager.makePromise(request: request)
+//        }.map(on: .global()) { response in
+//            guard let json = response.responseBodyJson,
+//                  let responseDictionary = json as? [String: AnyObject],
+//                  let turnServerInfo = TurnServerInfo(attributes: responseDictionary) else {
+//                throw OWSAssertionError("Missing or invalid JSON")
+//            }
+//            return turnServerInfo
+//        }
+    }
 
     func getPreauthChallenge(recipientId: String) -> Promise<String?> {
         return firstly {

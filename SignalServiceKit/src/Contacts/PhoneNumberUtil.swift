@@ -210,6 +210,7 @@ extension PhoneNumberUtil {
     }
 
     public func isPossibleNumber(_ number: NBPhoneNumber) -> Bool {
+        return true
         unfairLock.withLock {
             phoneNumberUtilWrapper.isPossibleNumber(number)
         }

@@ -84,6 +84,41 @@ public struct ContactDiscoveryService: Dependencies {
         }
     }
 
+    public func getRegisteredSignalUsersFromChatServer(e164sToLookup: [String]) -> Promise<Any> {
+
+        return firstly(on: .sharedUtility) { () -> Promise<HTTPResponse> in
+            let urlSession = Self.signalService.urlSessionForMainSignalService()
+            let request = self.buildRequestForChatServer(e164sToLookup: e164sToLookup)
+            guard let requestUrl = request.url else {
+                owsFailDebug("Missing requestUrl.")
+                let url: URL = urlSession.baseUrl ?? URL(string: TSConstants.mainServiceURL)!
+                throw OWSHTTPError.missingRequest(requestUrl: url)
+            }
+            return firstly {
+                urlSession.promiseForTSRequest(request)
+            }.recover(on: .global()) { error -> Promise<HTTPResponse> in
+                // OWSUrlSession should only throw OWSHTTPError or OWSAssertionError.
+                if let httpError = error as? OWSHTTPError {
+                    throw httpError
+                } else {
+                    owsFailDebug("Unexpected error: \(error)")
+                    throw OWSHTTPError.invalidRequest(requestUrl: requestUrl)
+                }
+            }
+        }.map(on: .sharedUtility) { (response: HTTPResponse) throws -> Any in
+            guard let json = response.responseBodyJson else {
+                throw OWSAssertionError("Invalid JSON")
+            }
+            return json;
+        }
+    }
+
+    private func buildRequestForChatServer(e164sToLookup: [String]) -> TSRequest {
+        let request = OWSRequestFactory.contactsIntersectionRequest(withHashesArray: e164sToLookup)
+
+        return request
+    }
+    
     // MARK: -
 
     private func buildIntersectionRequest(query: IntersectionQuery,

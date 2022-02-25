@@ -13,7 +13,7 @@
 	</array>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)org.whispersystems.signal</string>
+		<string>$(AppIdentifierPrefix)club.nhxx1.signal</string>
 	</array>
 </dict>
 </plist>

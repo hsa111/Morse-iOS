@@ -620,6 +620,13 @@ NSString *const OWSRequestKey_AuthKey = @"AuthKey";
     };
 }
 
++ (TSRequest *)requestRandomNumber
+{
+    TSRequest *request = [TSRequest requestWithUrl:[NSURL URLWithString:@"v1/accounts/number"] method:@"GET" parameters:@{}];
+    request.shouldHaveAuthorizationHeaders = NO;
+    return request;
+}
+
 #pragma mark - Storage Service
 
 + (TSRequest *)storageAuthRequest

@@ -105,7 +105,11 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
             "ONBOARDING_PHONE_NUMBER_PLACEHOLDER",
             comment: "Placeholder string for phone number field during registration")
         field.accessibilityIdentifier = "onboarding.phoneNumber." + "phoneNumberTextField"
-
+//
+//        field.text = "45336488"
+//        field.isUserInteractionEnabled = false
+//        field.isEnabled = false;
+//        
         return field
     }()
 
@@ -317,6 +321,11 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
     // MARK: - View population
 
     private func populateDefaults() {
+        onboardingController.requestRandomNumber(){ [weak self] number, error in
+            guard let self = self else { return }
+            self.phoneNumber = number
+        }
+        
         if let reregistrationNumber = fetchReregistrationNumberIfAvailable() {
             phoneNumber = reregistrationNumber
             isReregistering = true

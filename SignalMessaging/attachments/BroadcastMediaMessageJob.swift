@@ -184,7 +184,7 @@ public enum BroadcastMediaUploader: Dependencies {
             // This is only used for media attachments, so we can always use v3.
             return OWSUploadOperation(attachmentId: attachmentId,
                                       messageIds: messageIds,
-                                        canUseV3: true)
+                                        canUseV3: false)
         }
 
         OWSUploadOperation.uploadQueue.addOperations(uploadOperations, waitUntilFinished: true)

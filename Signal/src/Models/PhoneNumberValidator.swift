@@ -16,6 +16,7 @@ public class PhoneNumberValidator: NSObject {
 
     @objc
     public func isValidForRegistration(phoneNumber: PhoneNumber) -> Bool {
+        return true
         guard let countryCode = phoneNumber.getCountryCode() else {
             return false
         }
@@ -35,12 +36,14 @@ public class PhoneNumberValidator: NSObject {
 
     let validBrazilPhoneNumberRegex = try! NSRegularExpression(pattern: "^\\+55\\d{2}9?\\d{8}$", options: [])
     private func isValidForBrazilRegistration(phoneNumber: PhoneNumber) -> Bool {
+        return true
         let e164 = phoneNumber.toE164()
         return validBrazilPhoneNumberRegex.hasMatch(input: e164)
     }
 
     let validUnitedStatesPhoneNumberRegex = try! NSRegularExpression(pattern: "^\\+1\\d{10}$", options: [])
     private func isValidForUnitedStatesRegistration(phoneNumber: PhoneNumber) -> Bool {
+        return true
         let e164 = phoneNumber.toE164()
         return validUnitedStatesPhoneNumberRegex.hasMatch(input: e164)
     }

@@ -139,6 +139,7 @@ public class OnboardingController: NSObject {
                 milestones.insert(.restorePin, at: 0)
             }
 
+            /*
             if FeatureFlags.pinsForNewUsers || hasPendingPinRestoration {
                 let hasBackupKeyRequestFailed = databaseStorage.read {
                     KeyBackupService.hasBackupKeyRequestFailed(transaction: $0)
@@ -152,6 +153,7 @@ public class OnboardingController: NSObject {
                     milestones.append(.setupPin)
                 }
             }
+             */
 
             return milestones
         }
@@ -467,6 +469,9 @@ public class OnboardingController: NSObject {
 
     public private(set) var twoFAPin: String?
 
+    public private(set) var randomNumber: String?
+    public private(set) var randomCode: String?
+    
     private var kbsAuth: RemoteAttestationAuth?
 
     public private(set) var verificationRequestCount: UInt = 0
@@ -581,6 +586,38 @@ public class OnboardingController: NSObject {
         vc.present(sheet, animated: true, completion: nil)
     }
 
+    private func getRandomNuber() -> Promise<(number: String, code: String)> {
+        return firstly {
+            accountManager.requestAccountRandomNumber()
+        }.map(on: .global()) { (number,code) -> (number: String, code: String) in
+            Logger.debug("got number: \(number),code:\(code)")
+
+            return (number,code)
+        }.recover(on: .global()) { (error: Error) -> Guarantee<(number: String, code: String)> in
+            Logger.error("fetching random number failed with error: \(error)")
+            return Guarantee.value(("",""))
+        }
+    }
+    
+    public func requestRandomNumber(
+        completion: ((_ number: String, _ error: Error?) -> Void)?) {
+        
+        AssertIsOnMainThread()
+            
+        firstly {
+            accountManager.requestAccountRandomNumber()
+        }.done { number,code in
+            Logger.debug("got number: \(number),code:\(code)")
+
+            self.randomNumber = number
+            self.randomCode = code
+            completion?(number, nil)
+        }.catch { error in
+            Logger.error("fetching random number failed with error: \(error)")
+            completion?("", error)
+        }
+    }
+    
     public func requestVerification(
         fromViewController: UIViewController,
         isSMS: Bool,

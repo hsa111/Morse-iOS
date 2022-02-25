@@ -165,28 +165,28 @@ private class TSConstantsProduction: TSConstantsProtocol {
 
     public var mainServiceWebSocketAPI_identified: String {
         FeatureFlags.newHostNames
-            ? "wss://chat.signal.org/v1/websocket/"
-            : "wss://textsecure-service.whispersystems.org/v1/websocket/"
+            ? "wss://chat.signal-plus.org/v1/websocket/"
+            : "wss://chat.signal-plus.org/v1/websocket/"
     }
     public var mainServiceWebSocketAPI_unidentified: String {
         FeatureFlags.newHostNames
-            ? "wss://ud-chat.signal.org/v1/websocket/"
-            : "wss://textsecure-service.whispersystems.org/v1/websocket/"
+            ? "wss://chat.signal-plus.org/v1/websocket/"
+            : "wss://chat.signal-plus.org/v1/websocket/"
     }
     public var mainServiceURL: String {
         FeatureFlags.newHostNames
-            ? "https://chat.signal.org/"
-            : "https://textsecure-service.whispersystems.org/"
+            ? "https://chat.signal-plus.org/"
+            : "https://chat.signal-plus.org/"
     }
-    public let textSecureCDN0ServerURL = "https://cdn.signal.org"
-    public let textSecureCDN2ServerURL = "https://cdn2.signal.org"
-    public let contactDiscoveryURL = "https://api.directory.signal.org"
-    public let keyBackupURL = "https://api.backup.signal.org"
-    public let storageServiceURL = "https://storage.signal.org"
-    public let sfuURL = "https://sfu.voip.signal.org"
-    public let sfuTestURL = "https://sfu.test.voip.signal.org"
-    public let kUDTrustRoot = "BXu6QIKVz5MA8gstzfOgRQGqyLqOwNKHL6INkv3IHWMF"
-    public let updates2URL = "https://updates2.signal.org"
+    public let textSecureCDN0ServerURL = "https://cdn.signal-plus.org"
+    public let textSecureCDN2ServerURL = "https://cdn2.signal-plus.org"
+    public let contactDiscoveryURL = "https://api.directory.signal-plus.org"
+    public let keyBackupURL = "https://api.backup.signal-plus.org"
+    public let storageServiceURL = "https://storage.signal-plus.org"
+    public let sfuURL = "https://sfu.voip.signal-plus.org"
+    public let sfuTestURL = "https://sfu.test.voip.signal-plus.org"
+    public let kUDTrustRoot = "BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH"
+    public let updates2URL = "https://updates2.signal-plus.org"
 
     public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
 
@@ -214,11 +214,11 @@ private class TSConstantsProduction: TSConstantsProtocol {
     // checking earlier enclaves.
     public let keyBackupPreviousEnclaves = [KeyBackupEnclave]()
 
-    public let applicationGroup = "group.org.whispersystems.signal.group"
+    public let applicationGroup = "group.org.signal-plus.signalplus"
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)
-    public let serverPublicParamsBase64 = "AMhf5ywVwITZMsff/eCyudZx9JDmkkkbV6PInzG4p8x3VqVJSFiMvnvlEKWuRob/1eaIetR31IYeAbm0NdOuHH8Qi+Rexi1wLlpzIo1gstHWBfZzy1+qHRV5A4TqPp15YzBPm0WSggW6PbSn+F4lf57VCnHF7p8SvzAA2ZZJPYJURt8X7bbg+H3i+PEjH9DXItNEqs2sNcug37xZQDLm7X36nOoGPs54XsEGzPdEV+itQNGUFEjY6X9Uv+Acuks7NpyGvCoKxGwgKgE5XyJ+nNKlyHHOLb6N1NuHyBrZrgtY"
+    public let serverPublicParamsBase64 = "AI5PGST44LrbLSejhACttNcT+ZJ31M1sqAMTRB2nuRhWuHHh1uM46dE5t3RQxADIpdueBjlpyhWKClQnj8HYPEnKGtqwp8GipRIiBYLdURjmD45LujmgLDqG02sDNKC6TeAV8HfJYycYWpLyhZ7Oyisr3gUM/IwaMQAkN/pStyNSkFAYCBhp6xRgKpML4bhmUmTwEUtkiXGZZXVWSbNiK28iOZx14ndssXmklNFoBMtvBjOx/12yScNcyXajY6M8PSwgQFiCJ2QdGYHoT9wfZ3vtX8bDcp+D3jOmuYUJXE18"
 }
 
 // MARK: -
@@ -227,30 +227,30 @@ private class TSConstantsStaging: TSConstantsProtocol {
 
     public var mainServiceWebSocketAPI_identified: String {
         FeatureFlags.newHostNames
-            ? "wss://chat.staging.signal.org/v1/websocket/"
+            ? "wss://chat.staging.signal-plus.org/v1/websocket/"
             : "wss://textsecure-service-staging.whispersystems.org/v1/websocket/"
     }
     public var mainServiceWebSocketAPI_unidentified: String {
         FeatureFlags.newHostNames
-            ? "wss://ud-chat.staging.signal.org/v1/websocket/"
+            ? "wss://ud-chat.staging.signal-plus.org/v1/websocket/"
             : "wss://textsecure-service-staging.whispersystems.org/v1/websocket/"
     }
     public var mainServiceURL: String {
         FeatureFlags.newHostNames
-            ? "https://chat.staging.signal.org/"
+            ? "https://chat.staging.signal-plus.org/"
             : "https://textsecure-service-staging.whispersystems.org/"
     }
-    public let textSecureCDN0ServerURL = "https://cdn-staging.signal.org"
-    public let textSecureCDN2ServerURL = "https://cdn2-staging.signal.org"
-    public let contactDiscoveryURL = "https://api-staging.directory.signal.org"
-    public let keyBackupURL = "https://api-staging.backup.signal.org"
-    public let storageServiceURL = "https://storage-staging.signal.org"
-    public let sfuURL = "https://sfu.staging.voip.signal.org"
+    public let textSecureCDN0ServerURL = "https://cdn-staging.signal-plus.org"
+    public let textSecureCDN2ServerURL = "https://cdn2-staging.signal-plus.org"
+    public let contactDiscoveryURL = "https://api-staging.directory.signal-plus.org"
+    public let keyBackupURL = "https://api-staging.backup.signal-plus.org"
+    public let storageServiceURL = "https://storage-staging.signal-plus.org"
+    public let sfuURL = "https://sfu.staging.voip.signal-plus.org"
     // There's no separate test SFU for staging.
-    public let sfuTestURL = "https://sfu.test.voip.signal.org"
-    public let kUDTrustRoot = "BbqY1DzohE4NUZoVF+L18oUPrK3kILllLEJh2UnPSsEx"
+    public let sfuTestURL = "https://sfu.test.voip.signal-plus.org"
+    public let kUDTrustRoot = "BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH"
     // There's no separate updates endpoint for staging.
-    public let updates2URL = "https://updates2.signal.org"
+    public let updates2URL = "https://updates2.signal-plus.org"
 
     public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
 
@@ -285,9 +285,9 @@ private class TSConstantsStaging: TSConstantsProtocol {
         )
     ]
 
-    public let applicationGroup = "group.org.whispersystems.signal.group.staging"
+    public let applicationGroup = "group.org.signal-plus.signalplus.staging"
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)
-    public let serverPublicParamsBase64 = "ABSY21VckQcbSXVNCGRYJcfWHiAMZmpTtTELcDmxgdFbtp/bWsSxZdMKzfCp8rvIs8ocCU3B37fT3r4Mi5qAemeGeR2X+/YmOGR5ofui7tD5mDQfstAI9i+4WpMtIe8KC3wU5w3Inq3uNWVmoGtpKndsNfwJrCg0Hd9zmObhypUnSkfYn2ooMOOnBpfdanRtrvetZUayDMSC5iSRcXKpdlukrpzzsCIvEwjwQlJYVPOQPj4V0F4UXXBdHSLK05uoPBCQG8G9rYIGedYsClJXnbrgGYG3eMTG5hnx4X4ntARB"
+    public let serverPublicParamsBase64 = "AI5PGST44LrbLSejhACttNcT+ZJ31M1sqAMTRB2nuRhWuHHh1uM46dE5t3RQxADIpdueBjlpyhWKClQnj8HYPEnKGtqwp8GipRIiBYLdURjmD45LujmgLDqG02sDNKC6TeAV8HfJYycYWpLyhZ7Oyisr3gUM/IwaMQAkN/pStyNSkFAYCBhp6xRgKpML4bhmUmTwEUtkiXGZZXVWSbNiK28iOZx14ndssXmklNFoBMtvBjOx/12yScNcyXajY6M8PSwgQFiCJ2QdGYHoT9wfZ3vtX8bDcp+D3jOmuYUJXE18"
 }

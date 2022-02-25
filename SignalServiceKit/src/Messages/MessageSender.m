@@ -419,9 +419,10 @@ NSString *const MessageSenderSpamChallengeResolvedException = @"SpamChallengeRes
 
         OWSLogInfo(@"Sending message: %@, timestamp: %llu.", message.class, message.timestamp);
 
-        BOOL canUseV3 = (SSKFeatureFlags.attachmentUploadV3ForV1GroupAvatars
-            || message.groupMetaMessage == TSGroupMetaMessageUnspecified
-            || message.groupMetaMessage == TSGroupMetaMessageDeliver);
+//        BOOL canUseV3 = (SSKFeatureFlags.attachmentUploadV3ForV1GroupAvatars
+//            || message.groupMetaMessage == TSGroupMetaMessageUnspecified
+//            || message.groupMetaMessage == TSGroupMetaMessageDeliver);
+        BOOL canUseV3 = false;
 
         // We create a PendingTask so we can block on flushing all current message sends.
         PendingTask *pendingTask = [self.pendingTasks buildPendingTaskWithLabel:@"Message Send"];
