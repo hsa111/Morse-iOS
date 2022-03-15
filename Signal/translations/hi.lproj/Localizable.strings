@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "अभी नहीं";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Signal के बारे मे";
+"ABOUT_SECTION_TITLE" = "Morse के बारे मे";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "नया सुरक्षा नंबर स्वीकार करें";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "ध्वनि संदेश %@ सेकंड";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal कॉल ";
+"ACTION_AUDIO_CALL" = "Morse कॉल ";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Signal का उपयोग करने के लिए आमंत्रित करें";
+"ACTION_INVITE" = "Morse का उपयोग करने के लिए आमंत्रित करें";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "मेसेज भेजें";
@@ -149,7 +149,7 @@
 "APN_Message" = "आपके पास नए मेसेज हो सकते हैं";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal शुरु नहीं हो पा रहा है। क्रपया डिबग लॉग support@signal.org पर भेज दें, ताकी हम इस समस्या का उपाय खोज सकें।";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Morse शुरु नहीं हो पा रहा है। क्रपया डिबग लॉग support@devplusone.com पर भेज दें, ताकी हम इस समस्या का उपाय खोज सकें।";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "त्रुटि";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "डेटाबेस लोड नहीं हो पा रहा है।";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "क्रपया Signal के नवीनतम वर्ज़न इंस्टॉल करें।";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "क्रपया Morse के नवीनतम वर्ज़न इंस्टॉल करें।";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "डेटाबेस का वर्ज़न अज्ञात है।";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "आपके पुराने डिवाइस से ट्रांसफ़र किया गया डेटा रीस्टोर नहीं हो पाया। कृपया डीबग लॉग को support@signal.org पर भेजें ताकि हम इस समस्या को सुलझा सकें। अगर आप Signal रीइंस्टॉल करते हैं तो हो सकता है कि आपकी संदेश हिस्ट्री खो जाएगी।";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "आपके पुराने डिवाइस से ट्रांसफ़र किया गया डेटा रीस्टोर नहीं हो पाया। कृपया डीबग लॉग को support@devplusone.com पर भेजें ताकि हम इस समस्या को सुलझा सकें। अगर आप Morse रीइंस्टॉल करते हैं तो हो सकता है कि आपकी संदेश हिस्ट्री खो जाएगी।";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "ट्रान्सफर पूरा नहीं हो पाया ";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "वर्ज़न %@ अब ऐप स्टोर पर उपलब्ध है।";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Signal का नया वर्ज़न अब उपलब्ध है।";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Morse का नया वर्ज़न अब उपलब्ध है।";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "अपडेट";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "सिस्टम";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "संग्रहित करें";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "अटैचमेंट निर्यात करने में असफल|";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "सेव नहीं हो पाया";
 
 /* Format string for file extension label in call interstitial view */
@@ -386,13 +386,13 @@
 "BADGE_DETAILS_GIVE_A_BOOST" = "सिग्नल को बूस्ट दें";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Signal but to support technology that is built for you, please consider becoming a monthly Sustainer.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Morse but to support technology that is built for you, please consider becoming a monthly Sustainer.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can reactivate your Boost badge for another 30 days with a one-time contribution.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Morse but to support the app and reactivate your badge, renew now.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "एक सस्टेनर बनें";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "जब आपके पास एक से ज़्यादा बैज हों, तो आप अपनी प्रोफ़ाइल पर दूसरों को देखने की ख़ातिर फ़ीचर के लिए एक को चुन सकते हैं.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "आपने %@ बैज कमाया है! अपनी प्रोफ़ाइल पर इस बैज को डिस्पले करके Signal को जागरूकता बढ़ाने में मदद करें.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "आपने %@ बैज कमाया है! अपनी प्रोफ़ाइल पर इस बैज को डिस्पले करके Morse को जागरूकता बढ़ाने में मदद करें.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "बैनर को बंद करें";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 मिस हुई ऑडियो कॉल";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "अगर आप Signal से कॉल या वॉइस मेसेज भेजना चाहते हैं तो iOS सेटिंग्स ऐप में जाके Signal को माइक्रोफ़ोन इस्तेमाल करने की अनुमति दें।";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "अगर आप Morse से कॉल या वॉइस मेसेज भेजना चाहते हैं तो iOS सेटिंग्स ऐप में जाके Morse को माइक्रोफ़ोन इस्तेमाल करने की अनुमति दें।";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "माइक्रोफ़ोन इस्तेमाल करने की अनुमति चाहिए";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "कोई उत्तर नहीं";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "कॉल";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "आपका कैमरा बंद है";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal उपभोगकर्ता";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Morse उपभोगकर्ता";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "एक तस्वीर लें औेर भेजें";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "क्लिपबोर्ड के साथ तुलना करें";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "चैट शुरु करने के लिये किसी Signal उपभोगकर्ता को चुनें या खोजें।";
+"COMPOSE_BUTTON_HINT" = "चैट शुरु करने के लिये किसी Morse उपभोगकर्ता को चुनें या खोजें।";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "संदेश लिखें";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "उपयोगकर्ता का नाम खोजें";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "आपके कितने संपर्क Signal उपभोगकर्ता हैं, यह जानने के लिये iOS सेटिंग्स ऐप में जा कर Signal को आपके संपर्क पढने की अनुमति दें।";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "आपके कितने संपर्क Morse उपभोगकर्ता हैं, यह जानने के लिये iOS सेटिंग्स ऐप में जा कर Morse को आपके संपर्क पढने की अनुमति दें।";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "यह आपके संदेशों को हटाकर एप्लिकेशन को रीसेट कर देगा। यह प्रक्रिया पूरी होने के बाद ऐप बंद हो जाएगा।";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "कुछ काम नहीं कर रहा";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "सस्टेनर और Signal बूस्ट";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "सस्टेनर और Morse बूस्ट";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "सस्टेनर और बूस्ट";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal आपकी समर्थन अनुरोध को पूरा करने में असमर्थ रहा।";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morse आपकी समर्थन अनुरोध को पूरा करने में असमर्थ रहा।";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "फिर कोशिश करें";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "ध्वनि";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Signal का समर्थन करके अपनी प्रोफ़ाइल के लिए बैज पाएं. ज़्यादा जानने के लिए एक बैज पर टैप करें.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Morse का समर्थन करके अपनी प्रोफ़ाइल के लिए बैज पाएं. ज़्यादा जानने के लिए एक बैज पर टैप करें.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "बैज";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "खाता बंद कर दें";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "इससे आपका Signal खाता डिलीट हो जाएगा और एप्लिकेशन रीसेट हो जाएगी। यह प्रक्रिया पूरी हो जाने के बाद ऐप बंद हो जाएगी।";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "इससे आपका Morse खाता डिलीट हो जाएगा और एप्लिकेशन रीसेट हो जाएगी। यह प्रक्रिया पूरी हो जाने के बाद ऐप बंद हो जाएगी।";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "क्या आपको यकीन है कि आप अपना ख़ाता खत्म करना चाहते हैं?";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "फ़ोन नंबर";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "अपने Signal नंबर की पुष्टि करें";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "अपने Morse नंबर की पुष्टि करें";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "खाता बंद कर दें";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "इस फ़ोन नंबर को पुनः पंजीकृत करें";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "आपका डिवाइस अब पंजीकृत नहीं है। हो सकता है आपका फ़ोन नंबर किसी दूसरे डिवाइस से Signal के साथ पंजीकृत हो। फिर से पंजीकृत करने के लिये टैप करें।";
+"DEREGISTRATION_WARNING" = "आपका डिवाइस अब पंजीकृत नहीं है। हो सकता है आपका फ़ोन नंबर किसी दूसरे डिवाइस से Morse के साथ पंजीकृत हो। फिर से पंजीकृत करने के लिये टैप करें।";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "पिछली बार सक्रिय %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "अगर आपके पास अपना पुराना iOS डिवाइस हो तो आप अपना खाता और सारे संदेश सुरक्षित रूप से इस डिवाइस पर ट्रांसफ़र कर सकते हैं।";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "अगर आप Signal को किसी लिंक किए हुए iPad पर पहले से इस्तेमाल कर रहे थे तो आप अपना खाता और सारे संदेश सुरक्षित रूप से इस डिवाइस पर ट्रांसफ़र कर सकते हैं।";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "अगर आप Morse को किसी लिंक किए हुए iPad पर पहले से इस्तेमाल कर रहे थे तो आप अपना खाता और सारे संदेश सुरक्षित रूप से इस डिवाइस पर ट्रांसफ़र कर सकते हैं।";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "बिना खाता और संदेश ट्रांसफ़र किए आगे बढ़ें";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "iOS डिवाइस से ट्रान्सफर करें";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "आगे बढने से यह Signal आपके दुसरे डिवाइस में अक्षम कर देगा जो इस फोन नंबर से पंजीकृत हैं।";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "आगे बढने से यह Morse आपके दुसरे डिवाइस में अक्षम कर देगा जो इस फोन नंबर से पंजीकृत हैं।";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "आपका नया डिवाइस सत्यापित नहीं हो पाया, कृपया फिर कोशिश करें";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "ट्रान्सफर पूरा करने के लिये जगह काफी नहीं है";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Signal के नवीनतम वर्ज़न तक अपडेट करें और फिर कोशिश करें";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Morse के नवीनतम वर्ज़न तक अपडेट करें और फिर कोशिश करें";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "अपने Signal खाते को नये iOS डिवाइस में ट्रान्सफर करें। ध्यान रखें कि नया डिवाइस पास में हो और चालु हो।";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "अपने Morse खाते को नये iOS डिवाइस में ट्रान्सफर करें। ध्यान रखें कि नया डिवाइस पास में हो और चालु हो।";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "खाता ट्रान्सफर करें";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "अपने पुराने डिवाइस में Signal खोलें, पास लाएँ, और ध्यान रखें कि Wi-Fi और ब्लुटूथ, दोनों चालू हों।";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "अपने पुराने डिवाइस में Morse खोलें, पास लाएँ, और ध्यान रखें कि Wi-Fi और ब्लुटूथ, दोनों चालू हों।";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "इस QR कोड को अपने दूसरे डिवाइस के फ्रेम में लाएँ।";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "दूसरे डिवाइस का इंतेज़ार हो रहा है...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "दोनों डिवाइस एक दूसरे के पास रखें। किसी भी डिवाइस को बंद ना करें और Signal खुला रखें| ट्रान्सफर अंत-से-अंत तक एन्क्रिप्टेड है।";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "दोनों डिवाइस एक दूसरे के पास रखें। किसी भी डिवाइस को बंद ना करें और Morse खुला रखें| ट्रान्सफर अंत-से-अंत तक एन्क्रिप्टेड है।";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "डाटा प्राप्त हो रहा है";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "अपने नये डिवाइस को कैमरा के सामने लाएँ";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "दोनों डिवाइस एक दूसरे के पास रखें। किसी भी डिवाइस को बंद ना करें और Signal खुला रखें|";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "दोनों डिवाइस एक दूसरे के पास रखें। किसी भी डिवाइस को बंद ना करें और Morse खुला रखें|";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "डाटा ट्रान्सफर हो रहा है";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "कस्टम राशि दर्ज करें";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Signal को दान";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Morse को दान";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "दान करने के अन्य तरीके";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "आपके सहयोग के लिए धन्यवाद!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signal आप जैसे लोगों से ही चल रहा है।";
+"DONATION_VIEW_TITLE" = "Morse आप जैसे लोगों से ही चल रहा है।";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Signal की टीम ऐसी ओपन सोर्स गोपनीयता तकनीक के अभियान के प्रति समर्पित है जो मुक्त अभिव्यक्ति की सुरक्षा करती है और सुरक्षित वैश्विक संचार सक्षम करती है। आपका योगदान इस उद्देश्य में मदद करता है। कोई विज्ञापन नहीं। कोई ट्रैकर नहीं। कोई मज़ाक नहीं।\n\nआपका दान दुनिया भर के लाखों लोगों द्वारा निजी और त्वरित संचार के लिए उपयोग की जा रही एक ऐप के विकास, सर्वर और बैंडविड्थ के लिए भुगतान में सहायता करता है।";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Morse की टीम ऐसी ओपन सोर्स गोपनीयता तकनीक के अभियान के प्रति समर्पित है जो मुक्त अभिव्यक्ति की सुरक्षा करती है और सुरक्षित वैश्विक संचार सक्षम करती है। आपका योगदान इस उद्देश्य में मदद करता है। कोई विज्ञापन नहीं। कोई ट्रैकर नहीं। कोई मज़ाक नहीं।\n\nआपका दान दुनिया भर के लाखों लोगों द्वारा निजी और त्वरित संचार के लिए उपयोग की जा रही एक ऐप के विकास, सर्वर और बैंडविड्थ के लिए भुगतान में सहायता करता है।";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "दान क्यों करें?";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "आप इसकी अनुमति iOS सेटिंग्स ऐप से दे सकते हैं।";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal को संपर्क की जानकारी बदलने के लिये संपर्क बदलने की अनुमति चाहिये होगी";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Morse को संपर्क की जानकारी बदलने के लिये संपर्क बदलने की अनुमति चाहिये होगी";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "ग्रुप संपादित करें";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "इस यूज़र को ग्रूप में नहीं जोड़ा जा सकता है जब तक कि वे अपना Signal ऐप अपग्रेड नहीं करते हैं।";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "इस यूज़र को ग्रूप में नहीं जोड़ा जा सकता है जब तक कि वे अपना Morse ऐप अपग्रेड नहीं करते हैं।";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "ग्रुप %@ सदस्यों की अपने अधिकतम सीमा तक पहुँच गया है।";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "कॉपी";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "नमस्ते,\n\nकुछ समय से मैं अपने iPhone में अपने चैट सुरक्षित रखने के लिये Signal का इस्तेमाल कर रहा/रही हूँ। मैं चाहता/चाहती हूँ कि आप भी इसे इंस्टॉल करें ताकी हमें यकीन रहे कि हमारे मेसेज हमारे अलावा कोई नहीं देख सकता और हमारी कॉल हमारे अलावा कोई नहीं सुन सकता।\n\nSignal iPhones और Android, दोनो के लिये उपलब्ध है। यहाँ देखेंः %@\n\nSignal आपके मौजूदा संदेशवाहक ऐप की तरह काम करता है। इससे हम तस्वीरें और वीडियो भेज सकते हैं, कॉल कर सकते हैं, अथवा ग्रुप में संवाद भी शुरु कर सकते हैं। सबसे बढिया चीज़ तो ये है कि इनको हमारे अलावा कोई नहीं देख सकता, Signal को बनाने वाले भी नहीं।\n\nआप Open Whisper Systems, जिन लोगों ने Signal बनाया है, के बारे में यहाँ जान सकते हैं: %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "नमस्ते,\n\nकुछ समय से मैं अपने iPhone में अपने चैट सुरक्षित रखने के लिये Morse का इस्तेमाल कर रहा/रही हूँ। मैं चाहता/चाहती हूँ कि आप भी इसे इंस्टॉल करें ताकी हमें यकीन रहे कि हमारे मेसेज हमारे अलावा कोई नहीं देख सकता और हमारी कॉल हमारे अलावा कोई नहीं सुन सकता।\n\nMorse iPhones और Android, दोनो के लिये उपलब्ध है। यहाँ देखेंः %@\n\nMorse आपके मौजूदा संदेशवाहक ऐप की तरह काम करता है। इससे हम तस्वीरें और वीडियो भेज सकते हैं, कॉल कर सकते हैं, अथवा ग्रुप में संवाद भी शुरु कर सकते हैं। सबसे बढिया चीज़ तो ये है कि इनको हमारे अलावा कोई नहीं देख सकता, Morse को बनाने वाले भी नहीं।\n\nआप Open Whisper Systems, जिन लोगों ने Morse बनाया है, के बारे में यहाँ जान सकते हैं: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "चलो Signal पर स्विच करें";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "चलो Morse पर स्विच करें";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "आपका डिवाइस ईमेल भेजने के लिए कॉन्फिगर नहीं है। समर्थन अनुरोध भेजने के लिए, अपने डिवाइस पर ईमेल सेट अप करें या इस पते पर ईमेल करें support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "आपका डिवाइस ईमेल भेजने के लिए कॉन्फिगर नहीं है। समर्थन अनुरोध भेजने के लिए, अपने डिवाइस पर ईमेल सेट अप करें या इस पते पर ईमेल करें support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "ईमेल अनुपलब्ध";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "सफर और जगहें";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "आपके किसी भी संपर्क के पास Signal नहीं है।";
+"EMPTY_CONTACTS_LABEL_LINE1" = "आपके किसी भी संपर्क के पास Morse नहीं है।";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "आप किसी को आमंत्रित क्यों नहीं करते?";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "उपभोगकर्ता को मेसेज नहीं भेज पाए क्योंकि आपने उन्हें ब्लॉक किया है।";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal इंटरनेट से जुङने में अक्षम है। कृपया फिर कोशिश करें।";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Morse इंटरनेट से जुङने में अक्षम है। कृपया फिर कोशिश करें।";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "वैध प्राप्तकर्ताओं कि कमी कि वजह से मेसेज नहीं भेजे गये।";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "सर्विस से अवैध जवाब आया है।";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "यह डिवाइस अब आपके फ़ोन नंबर के साथ पंजिकृत नहीं है। कृपया Signal पुनः स्थापित करें।";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "यह डिवाइस अब आपके फ़ोन नंबर के साथ पंजिकृत नहीं है। कृपया Morse पुनः स्थापित करें।";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "सर्वर से गलती हुई है, कृपया फिर कोशिश करें।";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "कोई अज्ञात गलती हुई है।";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "संपर्क Signal उपभोगकर्ता नहीं है।";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "संपर्क Morse उपभोगकर्ता नहीं है।";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "अटैचमेंट का डाउनलोड असफल रहा।";
@@ -1754,7 +1754,7 @@
 "ERROR_MESSAGE_INVALID_MESSAGE" = "प्राप्त मेसेज सिंक से बाहर था।";
 
 /* No comment provided by engineer. */
-"ERROR_MESSAGE_INVALID_VERSION" = "प्राप्त मेसेज Signal के इस वर्ज़न के मुताबिक़ नहीं हैं।";
+"ERROR_MESSAGE_INVALID_VERSION" = "प्राप्त मेसेज Morse के इस वर्ज़न के मुताबिक़ नहीं हैं।";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "संपर्क के लिये कोई सेशन उपलब्ध नहीं है";
@@ -1778,7 +1778,7 @@
 "ERROR_NETWORK_FAILURE" = "नेटवर्क में त्रुटि";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "कृपया अपने डिवाइस से डिबग लॉग के साथ इस एरर को support@signal.org पर रिपोर्ट करके Signal को बेहतर बनाने में हमारी मदद करें; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "कृपया अपने डिवाइस से डिबग लॉग के साथ इस एरर को support@devplusone.com पर रिपोर्ट करके Morse को बेहतर बनाने में हमारी मदद करें; %@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "सिग्नल बीटा: एक एरर हो गया";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "आपका डिवाइस अब पंजीकृत नहीं है। मेसेज भेजते रहने के लिये कृपया फिर से पंजीकरण करें।";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "आपका Signal का वर्ज़न एक्स्पायर हो चुका है। मेसेज भेजते रहने के लिये कृपया अपडेट करें।";
+"ERROR_SENDING_EXPIRED" = "आपका Morse का वर्ज़न एक्स्पायर हो चुका है। मेसेज भेजते रहने के लिये कृपया अपडेट करें।";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "बिना पंजीकरण वाला उपभोगकर्ता: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Signal का आपका वर्ज़न एक्सपायर हो गया है! सबसे नवीनतम वर्ज़न में अपडेट करने के लिए टैप करें।";
+"EXPIRATION_ERROR" = "Morse का आपका वर्ज़न एक्सपायर हो गया है! सबसे नवीनतम वर्ज़न में अपडेट करने के लिए टैप करें।";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Signal का आपका संस्करण %d दिनों में समाप्त हो जाएगा। नवीनतम संस्करण में अपडेट करने के लिए टैप करें।";
+"EXPIRATION_WARNING_SOON" = "Morse का आपका संस्करण %d दिनों में समाप्त हो जाएगा। नवीनतम संस्करण में अपडेट करने के लिए टैप करें।";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Signal का आपका संस्करण आज समाप्त हो जाएगा। नवीनतम संस्करण में अपडेट करने के लिए टैप करें।";
+"EXPIRATION_WARNING_TODAY" = "Morse का आपका संस्करण आज समाप्त हो जाएगा। नवीनतम संस्करण में अपडेट करने के लिए टैप करें।";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "इस संपर्क के साथ बहुत सारी असफलताएँ मिली हैं। कृपया कुछ देर बाद कोशिश करें।";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "अवैध लिंक";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "इस ग्रुप में शामिल होने के लिए इस डिवाइस पर Signal को अपडेट करें।";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "इस ग्रुप में शामिल होने के लिए इस डिवाइस पर Morse को अपडेट करें।";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "ग्रुप लिंक के माध्यम से नए ग्रुप में शामिल होने वाले मेंबर्स को अनुमोदित करने के लिए एडमिन को आवश्यक करें।";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR कोड ";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Signal के ज़रिये शेयर करें ";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Morse के ज़रिये शेयर करें ";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "जिस भी व्यक्ति के पास यह लिंक होगा, वह इस ग्रुप का नाम और सदस्यों को देख सकता है और इसमें शामिल होने का अनुरोध कर सकता है।  इसे अपने भरोसेमंद लोगों के साथ शेयर करें।";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "लेगसी ग्रुप क्या होते हैं?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "लिगेसी ग्रुप्स को फिलहाल नए ग्रुप्स में अपग्रेड नहीं किया जा सकता, लेकिन अगर उन मेंबर्स के पास Signal का नवीनतम वर्ज़न है तो आप उन्हीं मेंबर्स के साथ एक नया ग्रुप बना सकते हैं।\n\nSignal भविष्य में लेगेसी ग्रुप्स को अपग्रेड करने का एक तरीका पेश करेगा।";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "लिगेसी ग्रुप्स को फिलहाल नए ग्रुप्स में अपग्रेड नहीं किया जा सकता, लेकिन अगर उन मेंबर्स के पास Morse का नवीनतम वर्ज़न है तो आप उन्हीं मेंबर्स के साथ एक नया ग्रुप बना सकते हैं।\n\nMorse भविष्य में लेगेसी ग्रुप्स को अपग्रेड करने का एक तरीका पेश करेगा।";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "क्या किसी लेगसी ग्रुप को अपग्रेड किया जा सकता है? ";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "एक नया ग्रुप बनाने के लिए, सभी मेंबर्स को Signal के नवीनतम वर्ज़न में अपडेट करना होगा।";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "एक नया ग्रुप बनाने के लिए, सभी मेंबर्स को Morse के नवीनतम वर्ज़न में अपडेट करना होगा।";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "लेगसी ग्रुप बनाम नए ग्रुप";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "इस ग्रुप को एक नए ग्रुप में अपग्रेड नहीं किया जा सकता क्योंकि इसमें बहुत सारे मेंबर्स हैं। अपग्रेड किया जा सकने वाला अधिकतम ग्रुप साइज़ है %@।";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "जब ग्रुप के सभी वर्तमान सदस्य Signal के ऐसे संस्करण का उपयोग कर रहे होंगे जो “नए ग्रुप” में शामिल होने में सक्षम हो यह ग्रुप तब अपग्रेड हो जाएगा।";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "जब ग्रुप के सभी वर्तमान सदस्य Morse के ऐसे संस्करण का उपयोग कर रहे होंगे जो “नए ग्रुप” में शामिल होने में सक्षम हो यह ग्रुप तब अपग्रेड हो जाएगा।";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "अपग्रेड करने से पहले के सभी मेसेज इतिहास और मीडिया को रख लिया जाएगा।";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "यह ग्रुप नहीं बनाया जा सकता क्योंकि 1 सदस्य Signal के एक पुराने संस्करण का इस्तेमाल कर रहा है। जब वे Signal को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं।";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "यह ग्रुप नहीं बनाया जा सकता क्योंकि 1 सदस्य Morse के एक पुराने संस्करण का इस्तेमाल कर रहा है। जब वे Morse को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं।";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "यह ग्रुप नहीं बनाया जा सकता क्योंकि %@ सदस्य Signal के एक पुराने संस्करण का इस्तेमाल कर रहे हैं। जब वे Signal को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं।";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "यह ग्रुप नहीं बनाया जा सकता क्योंकि %@ सदस्य Morse के एक पुराने संस्करण का इस्तेमाल कर रहे हैं। जब वे Morse को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं।";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "यह ग्रुप नहीं बनाया जा सकता क्योंकि 1 सदस्य Signal के एक पुराने संस्करण का इस्तेमाल कर रहे हैं। जब वे Signal को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं। %@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "यह ग्रुप नहीं बनाया जा सकता क्योंकि 1 सदस्य Morse के एक पुराने संस्करण का इस्तेमाल कर रहे हैं। जब वे Morse को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं। %@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "यह ग्रुप नहीं बनाया जा सकता क्योंकि %1$@ सदस्य Signal के एक पुराने संस्करण का इस्तेमाल कर रहे हैं। जब वे Signal को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं। %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "यह ग्रुप नहीं बनाया जा सकता क्योंकि %1$@ सदस्य Morse के एक पुराने संस्करण का इस्तेमाल कर रहे हैं। जब वे Morse को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं। %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "लेगसी ग्रुप बनाया जाएगा क्योंकि 1 सदस्य Signal के एक पुराने संस्करण का इस्तेमाल कर रहा है। जब वे Signal को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं।";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "लेगसी ग्रुप बनाया जाएगा क्योंकि 1 सदस्य Morse के एक पुराने संस्करण का इस्तेमाल कर रहा है। जब वे Morse को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं।";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "लेगसी ग्रुप बनाया जाएगा क्योंकि %@ सदस्य Signal के एक पुराने संस्करण का इस्तेमाल कर रहे हैं। जब वे Signal को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं।";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "लेगसी ग्रुप बनाया जाएगा क्योंकि %@ सदस्य Morse के एक पुराने संस्करण का इस्तेमाल कर रहे हैं। जब वे Morse को अपडेट कर लेंगे उसके बाद आप उनके साथ एक नए स्टाइल वाला ग्रुप बना सकते हैं या उन्हें ग्रुप बनाने से पहले निकाल सकते हैं।";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "1 मेंबर नए ग्रुप्स को सपोर्ट नहीं करता, इसलिए यह एक लेगेसी ग्रुप होगा। %@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "नया एडमिन चुनें";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Signal के ग्रुप %@ मेंबर्स या उससे कम के साथ सर्वश्रेष्ठ प्रदर्शन करते हैं। अधिक मेंबर्स को जोड़ने से मेसेज भेजने या प्राप्त करने में देरी होगी।";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Morse के ग्रुप %@ मेंबर्स या उससे कम के साथ सर्वश्रेष्ठ प्रदर्शन करते हैं। अधिक मेंबर्स को जोड़ने से मेसेज भेजने या प्राप्त करने में देरी होगी।";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "अनुशंसित मेंबर सीमा पूरी हुई";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "हमसे संपर्क करें";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "सहायता केंद्र";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "ड्राफ्टः";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "आपके कुछ संपर्क पेहले से Signal पर हैं, %@ भी।";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "आपके कुछ संपर्क पेहले से Morse पर हैं, %@ भी।";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "आपके कुछ संपर्क पेहले से Signal पर हैं, जैसे %@और %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "आपके कुछ संपर्क पेहले से Morse पर हैं, जैसे %@और %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "आपके कुछ संपर्क पेहले से Signal पर हैं, जैसे %@, %@ और %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "आपके कुछ संपर्क पेहले से Morse पर हैं, जैसे %@, %@ और %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "अपनी पहली चैट यहाँ शुरू करें।";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "संग्रहित करें";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "धुंधला करने के लिए कहीं भी ड्रॉ करें";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "आप %@ से अधिक चीज़ें साझा नहीं कर सकते।";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "फ़ोटोस बदलें";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "सेटिंग्स में पूरा एक्सेस दें या चुनें कि Signal किन फ़ोटोस को एक्सेस कर सकता है।";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "सेटिंग्स में पूरा एक्सेस दें या चुनें कि Morse किन फ़ोटोस को एक्सेस कर सकता है।";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "अपनी फ़ोटोस नहीं देख पा रहे हैं?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "आप अपने फ़ोन या iPad से सिंक्रोनाइज़ किए हुए मेसेज भेज या प्राप्त कर सकते हैं।\nआपकी सुरक्षा के लिए, चैट की हिस्ट्री नए लिंक किए गए डिवाइस में नहीं ट्रान्सफर की जाएगी।";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ अब Signal पर हैं! ";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ अब Morse पर हैं! ";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "स्टिकर";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "अवैध ऑडियो फ़ाइल";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "आप iOS सेटिंग्स ऐप में संपर्क पढने कि अनुमति देकर अपने दोस्तों को Signal पर जुङने के लिए आमंत्रित कर सकते हैं।";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "आप iOS सेटिंग्स ऐप में संपर्क पढने कि अनुमति देकर अपने दोस्तों को Morse पर जुङने के लिए आमंत्रित कर सकते हैं।";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "संपर्क देखने की अनुमति दें।";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "मित्रों को Signal में शामिल होने के लिए आमंत्रित करें";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "मित्रों को Morse में शामिल होने के लिए आमंत्रित करें";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "सर्च";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "किसी भी लिंक को प्रिव्यु करें";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "अपने Signal अकाउंट को ट्रांसफर करने के लिए, आपको दोनों डिवाइस पर लोकल नेटवर्क एक्सेस को चालू करना होगा।";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "अपने Morse अकाउंट को ट्रांसफर करने के लिए, आपको दोनों डिवाइस पर लोकल नेटवर्क एक्सेस को चालू करना होगा।";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "क्या आपको मदद चाहिये?";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "“लोकल नेटवर्क” को चालू करें";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Signal पर नेविगेट करें";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Morse पर नेविगेट करें";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "लोकल नेटवर्क एक्सेस को चालू करें";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "लॉगिंग";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "डीबग लॉग समस्याओं और क्रैश को ठीक करने में Signal की सहायता कर सकते हैं।";
+"LOGGING_SECTION_FOOTER" = "डीबग लॉग समस्याओं और क्रैश को ठीक करने में Morse की सहायता कर सकते हैं।";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "मेसेज";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "सब के लिये हटा दें";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "यह मेसेज चैट में शामिल सभी के लिए मिटा दिया जाएगा यदि वे Signal के नवीनमत वर्ज़न पर हैं। वे देख सकेंगे कि आपने एक मेसेज को मिटा दिया है।";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "यह मेसेज चैट में शामिल सभी के लिए मिटा दिया जाएगा यदि वे Morse के नवीनमत वर्ज़न पर हैं। वे देख सकेंगे कि आपने एक मेसेज को मिटा दिया है।";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "आप यह संदेश किसके लिए डिलीट करना चाहेंगे?";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "ग्रुप को डिलीट करके छोड़ दें?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "निवेदनों की ध्यानपूर्वक समीक्षा करें। Signal को एक ही नाम वाला एक और संपर्क मिला।";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "निवेदनों की ध्यानपूर्वक समीक्षा करें। Morse को एक ही नाम वाला एक और संपर्क मिला।";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "आपकी संपर्क जानकारी ";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "पढ़ लिया गया";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "छोङ दिया";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "मिस कॉल";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "अब आप Signal से वीडियो कॉल करने के लिये अपने iOS सेटिंग्स ऐप से Signal को कैमेरा इस्तेमाल करने की अनुमति दे सकते हैं।";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "अब आप Morse से वीडियो कॉल करने के लिये अपने iOS सेटिंग्स ऐप से Morse को कैमेरा इस्तेमाल करने की अनुमति दे सकते हैं।";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal को आपका कैमेरा इस्तेमाल करने की ज़रूरत है।";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Morse को आपका कैमेरा इस्तेमाल करने की ज़रूरत है।";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "आप इस अनुमति को iOS सेटिंग्स ऐप से दे सकते हैं।";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "इस सुविधा के लिये Signal को आपके स्थान की जानकारी चाहिये।";
+"MISSING_LOCATION_PERMISSION_TITLE" = "इस सुविधा के लिये Morse को आपके स्थान की जानकारी चाहिये।";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "आप इस अनुमति को iOS सेटिंग्स ऐप से दे सकते हैं।";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "इस सुविधा के लिये Signal को आपकी तस्वीरें देखने की अनुमति चाहिए होगी।";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "इस सुविधा के लिये Morse को आपकी तस्वीरें देखने की अनुमति चाहिए होगी।";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "कुछ नहीं";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "बातचीत की शुरुआत करने के लिए कॉंटॅक्ट या ग्रूप चुने ";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Signal में आपका स्वागत है ";
+"NO_SELECTED_CONVERSATION_TITLE" = "Morse में आपका स्वागत है ";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "नया मेसेज:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "कोई नाम या विषय वस्तु नहीं";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "सूचनाएँ ऐप खुले होने पर ही दें";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "हम देखना चाहते हैं कि आप रोबोट तो नहीं हैं";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "चूँकि आप लंबे समय से सक्रिय नहीं थे, इसलिए आपको Signal का उपयोग करने के लिए दोबारा रजिस्टर करना होगा।";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "चूँकि आप लंबे समय से सक्रिय नहीं थे, इसलिए आपको Morse का उपयोग करने के लिए दोबारा रजिस्टर करना होगा।";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Signal के लिए रजिस्टर करें";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Morse के लिए रजिस्टर करें";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "iPad पंजीकृत करें";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "iPhone लिंक करें";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "\"iPad पंजीकृत करें\" दबाने से आप नया Signal खाता बना पाएँगे या फिर अपना मौजूदा खाता इस iPad में खोल पाएँगे। यह Signal आपके दुसरे डिवाइस में अक्षम कर देगा जो इस फोन नंबर से पंजीकृत होंगे।";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "\"iPad पंजीकृत करें\" दबाने से आप नया Morse खाता बना पाएँगे या फिर अपना मौजूदा खाता इस iPad में खोल पाएँगे। यह Morse आपके दुसरे डिवाइस में अक्षम कर देगा जो इस फोन नंबर से पंजीकृत होंगे।";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "“iPhone लिंक करें” दबाने से आप अपने फ़ोन को मौजूदा खाते से जोड़ पाएँगे। फ़ोन लिंक करने की सलाह आम तौर पर नहीं दी जाती है और ऐसा करने से कुछ सुविधाएँ सीमित हो जाएँगी जैसे कि कॉल सुविधा।";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "इस iPhone को लिंक करें";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "इस iPad को पंजीकृत करने से Signal उन सारे अन्य डिवाइस पर अक्षम हो जाएगा जिन पर इस वक्त Signal इस फोन नंबर से पंजीकृत है।";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "इस iPad को पंजीकृत करने से Morse उन सारे अन्य डिवाइस पर अक्षम हो जाएगा जिन पर इस वक्त Morse इस फोन नंबर से पंजीकृत है।";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "हम आपका iPhone लिंक करने का सुझाव नहीं देंगे, ऐसा करने से मूल कार्यक्षमता सीमित हो जाएँगी।";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "अनुमतियाँ दें";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "सूचनाएँ और संपर्क की अनुमति देने से संदेशों के आने पर उन्हें देख पाते हैं और आपकी पहचान के लोगों को ढूँढने में आपको मदद मिलती है। संपर्क एन्क्रिप्टेड होते हैं इसलिए Signal सेवा उन्हें नहीं देख सकती।";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "सूचनाएँ और संपर्क की अनुमति देने से संदेशों के आने पर उन्हें देख पाते हैं और आपकी पहचान के लोगों को ढूँढने में आपको मदद मिलती है। संपर्क एन्क्रिप्टेड होते हैं इसलिए Morse सेवा उन्हें नहीं देख सकती।";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "अनुमतियाँ दें";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "चुनें कि आपके फोन नंबर %@ के साथ Signal पर आपको कौन ढूँढ सकता है";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "चुनें कि आपके फोन नंबर %@ के साथ Morse पर आपको कौन ढूँढ सकता है";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "आपके नंबर के साथ आपको कौन ढूँढ सकता है?";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "दोबारा प्रयास करने से पहले कृपया कुछ मिनट इंतज़ार करें। (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "अपना फ़ोन नंबर दर्ज करें";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "आपकी गोपनीयता की रक्षा के लिए, सिस्टम आपको एक 'नकली' 8-अंकीय फ़ोन नंबर प्रदान करता है";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "आपका फ़ोन नंबर";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "आपकी गोपनीयता की रक्षा के लिए, सिस्टम आपको एक 'नकली' 8-अंकीय फ़ोन नंबर प्रदान करता है";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "अमान्य फ़ोन नंबर। रजिस्टर करने के लिए कृपया एक मान्य फ़ोन नंबर दर्ज करें।";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "आपके पिन सोचने के सारे मौके ख्तम हो चुके हैं, पर आप नया पिन बना के अपना Signal खाता चला सकते हैं। आपकी गोपनीयता और सुरक्षा के लिये आपका खाता बिना किसी सहेजी हुई प्रोफ़ाइल की जानकारी या सेटिंग्स के पुनः स्थापित होगा।";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "आपके पिन सोचने के सारे मौके ख्तम हो चुके हैं, पर आप नया पिन बना के अपना Morse खाता चला सकते हैं। आपकी गोपनीयता और सुरक्षा के लिये आपका खाता बिना किसी सहेजी हुई प्रोफ़ाइल की जानकारी या सेटिंग्स के पुनः स्थापित होगा।";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "पिन के बारे में और जानें";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@ ने मेसेज के गायब होने के समय को %@ कर दिया है।";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal तकनीकी कठिनाइयों का सामना कर रहा है। हम जितनी जल्दी हो सके सेवा बहाल करने के लिए कड़ी मेहनत कर रहे हैं।";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Morse तकनीकी कठिनाइयों का सामना कर रहा है। हम जितनी जल्दी हो सके सेवा बहाल करने के लिए कड़ी मेहनत कर रहे हैं।";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "आपने %@ को कॉल की ";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "अमान्य लेन-देन";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "भुगतान का उपयोग करने के लिए Signal को अपडेट करें।";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "भुगतान का उपयोग करने के लिए Morse को अपडेट करें।";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "भुगतान अभी तक सत्यापित नहीं हुआ";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "हर कोई";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "जिस किसी की संपर्क सूची में आपका नंबर है वे सभी संपर्क के रूप में आपको Signal पर देख पायेंगें। अन्य लोग आपको सर्च में ढूँढ पाएँगे।";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "जिस किसी की संपर्क सूची में आपका नंबर है वे सभी संपर्क के रूप में आपको Morse पर देख पायेंगें। अन्य लोग आपको सर्च में ढूँढ पाएँगे।";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "कोई नहीं ";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Signal में कोई भी आपको आपके फोन नंबर से नहीं ढूँढ पाएगा। आप उन लोगों के लिए संपर्क के रूप में नहीं दिखेंगे जिनके संपर्कों में आपका फोन नंबर है और अन्य लोग सर्च में आपके फोन नंबर के साथ आपको नहीं ढूँढ पाएँगे।";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Morse में कोई भी आपको आपके फोन नंबर से नहीं ढूँढ पाएगा। आप उन लोगों के लिए संपर्क के रूप में नहीं दिखेंगे जिनके संपर्कों में आपका फोन नंबर है और अन्य लोग सर्च में आपके फोन नंबर के साथ आपको नहीं ढूँढ पाएँगे।";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "उदाहरणः %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "मेरे संपर्क";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "सिर्फ आपके संपर्क ही आपके नंबर को Signal पर देख पायेंगे।";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "सिर्फ आपके संपर्क ही आपके नंबर को Morse पर देख पायेंगे।";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "हर कोई";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "आपका फ़ोन नंबर उन लोगों और ग्रुप्स को दिखेगा जिन्हें आप मेसेज भेजेंगे। वे लोग जिनके फोन संपर्कों में आपका नंबर है, वे भी Signal पर इसे देख पाएँगे।";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "आपका फ़ोन नंबर उन लोगों और ग्रुप्स को दिखेगा जिन्हें आप मेसेज भेजेंगे। वे लोग जिनके फोन संपर्कों में आपका नंबर है, वे भी Morse पर इसे देख पाएँगे।";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "कोई नहीं ";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "कोई भी Signal पर आपका फोन नंबर नहीं देखेगा।";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "कोई भी Morse पर आपका फोन नंबर नहीं देखेगा।";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "पिन को डिसेबल करें";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "यदि आप पिन को डिसेबल कर देते हैं, तो आप Signal के साथ दोबारा रजिस्टर करने पर अपना सारा डेटा खो बैठेंगे यदि आप किसी अन्य iOS डिवाइस से इसे ट्रांसफर नहीं करते हैं। आप पिन के डिसेबल होते हुए रजिस्ट्रेशन लॉक को चालू नहीं कर सकते।";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "यदि आप पिन को डिसेबल कर देते हैं, तो आप Morse के साथ दोबारा रजिस्टर करने पर अपना सारा डेटा खो बैठेंगे यदि आप किसी अन्य iOS डिवाइस से इसे ट्रांसफर नहीं करते हैं। आप पिन के डिसेबल होते हुए रजिस्ट्रेशन लॉक को चालू नहीं कर सकते।";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "चेतावनी";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "पिन निर्माण विफल रहा";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "पिन Signal द्वारा संग्रहीत जानकारी को एन्क्रिप्ट रखता है, ताकी सिर्फ़ आप उसे देख पाएँ। आपका प्रोफ़ाइल, सेटिंग्स, और संपर्क, अपके Signal इंस्टाॅल के बाद, पुनः स्थापित हो जाऐंगे। ऐप को खोलने के लिए आपको पिन की ज़रूरत नहीं होगी।";
+"PIN_CREATION_EXPLANATION" = "पिन Morse द्वारा संग्रहीत जानकारी को एन्क्रिप्ट रखता है, ताकी सिर्फ़ आप उसे देख पाएँ। आपका प्रोफ़ाइल, सेटिंग्स, और संपर्क, अपके Morse इंस्टाॅल के बाद, पुनः स्थापित हो जाऐंगे। ऐप को खोलने के लिए आपको पिन की ज़रूरत नहीं होगी।";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "पिन के बाारे में और जानें";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "हम आपको कुछ दिन बाद फिर याद दिलाऐंगे।";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "अपना Signal पिन सत्यापित करें";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "अपना Morse पिन सत्यापित करें";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "हम आपको कल फिर याद दिलाऐंगे।";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "अवैध पिन, फिर कोशिश करें।";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "अपना Signal पिन डालें";
+"PIN_REMINDER_TITLE" = "अपना Morse पिन डालें";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "पिन कम से कम 4 अंको का होना चाहिये।";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "पिेन बनाएँ";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "पिन Signal से संग्रहित की गयी जानकारी को सुरक्षित रखता है।";
+"PINS_MEGAPHONE_BODY" = "पिन Morse से संग्रहित की गयी जानकारी को सुरक्षित रखता है।";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "हम आपको बादमें याद दिला देंगे। पिन बनाना %ld दिनों में अनिवार्य हो जाएगा।";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "आपके क्लिपबोर्ड में जो सुरक्षा नंबर है वह इस चैट का नहीं लगता।";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal को आपके क्लिपबोर्ड में कोई सुरक्षा नंबर नहीं मिला। क्या आपने वो सही से कॉपी किया था?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Morse को आपके क्लिपबोर्ड में कोई सुरक्षा नंबर नहीं मिला। क्या आपने वो सही से कॉपी किया था?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Signal उपभोगकर्ता का हर जोङा एक अलग सुरक्षा नंबर साझा करता है। %@ के साथ अपना सुरक्षा नंबर दोबारा जांच लें।";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Morse उपभोगकर्ता का हर जोङा एक अलग सुरक्षा नंबर साझा करता है। %@ के साथ अपना सुरक्षा नंबर दोबारा जांच लें।";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "आप Signal का पुराना वर्ज़न चला रहे हैं। कृपया सत्यापित करने से पहले अपडेट करें।";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "आप Morse का पुराना वर्ज़न चला रहे हैं। कृपया सत्यापित करने से पहले अपडेट करें।";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "आपका संपर्क Signal का पुराना वर्ज़न चला रहा है। कृपया अपनी सुरक्षा संख्या सत्यापित करने से पहले उन्हें अपडेट करने के लिए कहें।";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "आपका संपर्क Morse का पुराना वर्ज़न चला रहा है। कृपया अपनी सुरक्षा संख्या सत्यापित करने से पहले उन्हें अपडेट करने के लिए कहें।";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "स्कैन किया हुआ कोड सुरक्षा नंबर की तरह नहीं लगता। क्या आप दोनों के पास Signal का नवीनतम वर्ज़न है?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "स्कैन किया हुआ कोड सुरक्षा नंबर की तरह नहीं लगता। क्या आप दोनों के पास Morse का नवीनतम वर्ज़न है?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "अगर आप %@ के साथ अपना एंड-टू-एंड एन्क्रिप्शन सत्यापित करना चाहते हैं तो, ऊपर दिये गये नंबर को उनके डिवाइस के नंबरों से मिलाएँ।\n\nवैकल्पिक रूप से, आप उनके फ़ोन का कोड स्कैन कर सकते हैं, या आप उनका कोड स्कैन कर सकते हैं।";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "यूज़र को चुना नहीं जा सकता।";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "इस यूज़र को ग्रूप में नहीं जोड़ा जा सकता है जब तक कि वे अपना Signal ऐप अपग्रेड नहीं करते हैं।";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "इस यूज़र को ग्रूप में नहीं जोड़ा जा सकता है जब तक कि वे अपना Morse ऐप अपग्रेड नहीं करते हैं।";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "मैं अपना पिन भूल गया।";
@@ -4685,7 +4685,7 @@
 "REGISTRATION_ERROR_NETWORK_FAILURE_ALERT_TITLE" = "कनेक्शन जाँचें";
 
 /* No comment provided by engineer. */
-"REGISTRATION_NON_VALID_NUMBER" = "यह नंबर का फार्मेट समर्थित नहीं है, कृपया Signal समर्थन से संपर्क करें|";
+"REGISTRATION_NON_VALID_NUMBER" = "यह नंबर का फार्मेट समर्थित नहीं है, कृपया Morse समर्थन से संपर्क करें|";
 
 /* Label for the phone number textfield */
 "REGISTRATION_PHONENUMBER_BUTTON" = "फ़ोन नंबर";
@@ -4733,7 +4733,7 @@
 "REJECT_CALL_BUTTON_TITLE" = "अस्वीकार करें";
 
 /* No comment provided by engineer. */
-"RELAY_REGISTERED_ERROR_RECOVERY" = "जो फोन नंबर आप पंजीकृत करना चाह रहे हैं, वह पहले ही किसी अन्य डिवाइस के साथ पंजीकृत है। कृपया Signal को अपने पुराने डिवाइस के साथ इस वेबपेज पर जा कर अपंजीकृत करें: https://signal.org/signal/unregister/";
+"RELAY_REGISTERED_ERROR_RECOVERY" = "जो फोन नंबर आप पंजीकृत करना चाह रहे हैं, वह पहले ही किसी अन्य डिवाइस के साथ पंजीकृत है। कृपया Morse को अपने पुराने डिवाइस के साथ इस वेबपेज पर जा कर अपंजीकृत करें: https://devplusone.com/signal/unregister/";
 
 /* Accessibility label for a button that removes the preview from a drafted message. */
 "REMOVE_PREVIEW" = "प्रीव्यू को हटाएं";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "पुश अधिसूचनाएँ री-रजिस्टर करें";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "Signal को विश्व में सबसे अच्छा संदेश देने वाला ऐप बनाने के लिए, हमें आपकी फीडबैक जानकर खुशी होगी।";
+"RESEARCH_MEGAPHONE_BODY" = "Morse को विश्व में सबसे अच्छा संदेश देने वाला ऐप बनाने के लिए, हमें आपकी फीडबैक जानकर खुशी होगी।";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Signal को बताइए कि आप क्या सोचते है ";
+"RESEARCH_MEGAPHONE_TITLE" = "Morse को बताइए कि आप क्या सोचते है ";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "सर्वेक्षण Surveygizmo द्वारा सुरक्षित डोमेन surveys.signalusers.org पर करवाया जा रहा है";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "नहीं धन्यवाद ";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>हमारा विश्वास गोपनीयता में है।</bold>\n\nSignal न तो आपको ट्रैक करता है न ही आपके डेटा को इकट्ठा करता है। सभी के लिए Signal को बेहतर बनाने के लिए हम यूज़र फ़ीडबैक का सहारा लेते हैं और <bold>हमें आपका फ़ीडबैक पाने का इंतेज़ार रहेगा</bold>।\n\nहम सर्वेक्षण कर रहे हैं यह जानने के लिए कि आप Signal का इस्तेमाल कैसे करते हैं। हमारा सर्वेक्षण आपकी पहचान करने वाले किसी भी डेटा को इकट्ठा नहीं करेगा। यदि आपको और फ़ीडबैक शेयर करने में दिलचस्पी हो तो आपके पास संपर्क जानकारी प्रदान करने का विकल्प होगा।\n\nयदि आपके पास चंद मिनट का समय हो और हमें देने के लिए कोई फ़ीडबैक हो तो हमें आपकी राय का इंतेज़ार है।";
+"RESEARCH_MODAL_PLEA" = "<bold>हमारा विश्वास गोपनीयता में है।</bold>\n\nMorse न तो आपको ट्रैक करता है न ही आपके डेटा को इकट्ठा करता है। सभी के लिए Morse को बेहतर बनाने के लिए हम यूज़र फ़ीडबैक का सहारा लेते हैं और <bold>हमें आपका फ़ीडबैक पाने का इंतेज़ार रहेगा</bold>।\n\nहम सर्वेक्षण कर रहे हैं यह जानने के लिए कि आप Morse का इस्तेमाल कैसे करते हैं। हमारा सर्वेक्षण आपकी पहचान करने वाले किसी भी डेटा को इकट्ठा नहीं करेगा। यदि आपको और फ़ीडबैक शेयर करने में दिलचस्पी हो तो आपके पास संपर्क जानकारी प्रदान करने का विकल्प होगा।\n\nयदि आपके पास चंद मिनट का समय हो और हमें देने के लिए कोई फ़ीडबैक हो तो हमें आपकी राय का इंतेज़ार है।";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "सर्वेक्षण का जवाब दें ";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Signal अनुसंधान";
+"RESEARCH_MODAL_TITLE" = "Morse अनुसंधान";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "दोबारा कोशिश करें";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "देखना";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "हमारा Signal सुरक्षा नंबर:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "हमारा Morse सुरक्षा नंबर:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "%@ के साथ आपका सुरक्षा नंबर बदल गया है। आप एक बार सत्यापित कर लें।";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "सक्रीन लॉक इस्तेमाल करने के लिये अपने iOS सेटिंग्स से पासकोड की अनुमति दें।";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Signal खोलने के लिये प्रमाणीकरण करें।";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Morse खोलने के लिये प्रमाणीकरण करें।";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "प्रमाणीकरण असफल";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Signal खोलो";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Morse खोलो";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "वर्षा बासु";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "मौसम की भविष्यवाणी";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "प्रधानिका फिरोज़";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "खातों का मिलान नहीं हो रहा है";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Signal को अपने फोन के साथ लिंक करने के लिए इसे इस डिवाइस पर अपडेट करें।";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Morse को अपने फोन के साथ लिंक करने के लिए इसे इस डिवाइस पर अपडेट करें।";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "असमर्थित वर्ज़न";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "आपके डिवाइस पर Signal का पुराना वर्ज़न चल रहा है जो  iPad QR स्कैन करने का समर्थन नहीं करता। कृपया Signal ना नवीनतम वर्ज़न इंस्टॉल करके फिर कोशिश करें।";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "आपके डिवाइस पर Morse का पुराना वर्ज़न चल रहा है जो  iPad QR स्कैन करने का समर्थन नहीं करता। कृपया Morse ना नवीनतम वर्ज़न इंस्टॉल करके फिर कोशिश करें।";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "स्कैनिंग डिवाइस को अपडेट करें";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "लिंकिंग पूरी करें";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "इस iPad को अपने Signal खाते से लिंक करने के लिये अपने फोन में Signal ऐप खोलें";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "इस iPad को अपने Morse खाते से लिंक करने के लिये अपने फोन में Morse ऐप खोलें";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "मेरे फ़ोन में Signal नहीं है...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "मेरे फ़ोन में Morse नहीं है...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "अपने फ़ोन में App Store खोलें, Signal इंस्टॉल करें, पंजीकरण प्रक्रिया पूरी करें, तब आप अपने iPad को उस खाते के साथ लिंक कर सकते हैं।";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "अपने फ़ोन में App Store खोलें, Morse इंस्टॉल करें, पंजीकरण प्रक्रिया पूरी करें, तब आप अपने iPad को उस खाते के साथ लिंक कर सकते हैं।";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "अपने फ़ोन में Signal ऐप स्थापित करें";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "अपने फ़ोन में Morse ऐप स्थापित करें";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "अपने प्रोफ़ाइल की तसवीर को दबाएँ ताकी Signal सेटिंग्स खुल जाए। फ़िर \"जुड़े हुए उपकरण\" दबाएँ और उसके बाद \"नया डिवाइस लिंक करें\" दबा कर यह कोड अपने फ़ोन से स्कैन करें:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "अपने प्रोफ़ाइल की तसवीर को दबाएँ ताकी Morse सेटिंग्स खुल जाए। फ़िर \"जुड़े हुए उपकरण\" दबाएँ और उसके बाद \"नया डिवाइस लिंक करें\" दबा कर यह कोड अपने फ़ोन से स्कैन करें:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "अपना iPad लिंक करने के लिये सहायता यहाँ से प्राप्त करें";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "अपने फोन से QR कोड स्कैन करें";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "अपना खाता ट्रान्सफर करने के लिये अपने पुराने iPad में Signal खोलें";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "अपना खाता ट्रान्सफर करने के लिये अपने पुराने iPad में Morse खोलें";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "सुरक्षित सेशन रिसेट कर दिया गया है।";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "आमंत्रण भेजना असफल रहा, कृपया फिर से कोशिश करें।";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "आपने अपने दोस्त को Signal पर आमंत्रित किया है!";
+"SEND_INVITE_SUCCESS" = "आपने अपने दोस्त को Morse पर आमंत्रित किया है!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "मीडिया रद्द करें";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "दोस्तो को असुरक्षित SMS के ज़रिये आमंत्रित करें?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "क्या आप नीचे दिये गये नंबर को Signal पर आमंत्रित करना चाहेंगे?";
+"SEND_SMS_INVITE_TITLE" = "क्या आप नीचे दिये गये नंबर को Morse पर आमंत्रित करना चाहेंगे?";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "उच्च";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "मानक";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal एंड-टू-एंड एंक्रिप्शन का इस्तेमाल करता है और इसे कभी-कभी आपके चैट सेशन को रीफ़्रेश करने की ज़रूरत हो सकती है। इससे आपकी चैट की सुरक्षा प्रभावित नहीं होती है लेकिन हो सकता है कि इस संपर्क से कोई संदेश छूट गया हो और आप उन्हें उसे दोबारा भेजने के लिए कह सकते हैं।";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Morse एंड-टू-एंड एंक्रिप्शन का इस्तेमाल करता है और इसे कभी-कभी आपके चैट सेशन को रीफ़्रेश करने की ज़रूरत हो सकती है। इससे आपकी चैट की सुरक्षा प्रभावित नहीं होती है लेकिन हो सकता है कि इस संपर्क से कोई संदेश छूट गया हो और आप उन्हें उसे दोबारा भेजने के लिए कह सकते हैं।";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "चैट सेशन रीफ्रेश हुआ";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "स्थान";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "यदि चालू किया गया तो Signal आपके लिए सेंसर-कार्य तोड़ने की कोशिश करेगा। यदि आप किसी सेन्सरशिप वाली जगह पर नहीं हैं तो इस फ़ीचर को चालू ना करें।";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "यदि चालू किया गया तो Morse आपके लिए सेंसर-कार्य तोड़ने की कोशिश करेगा। यदि आप किसी सेन्सरशिप वाली जगह पर नहीं हैं तो इस फ़ीचर को चालू ना करें।";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "आपके खाते के फ़ोन नंबर के आधार पर  सेंसरशिप से बचाव सक्षम कर दिया गया है।";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "सेंसरशिप से बचाव तभी सक्षम किया जा सकता है जब आप इंटरनेट से जुङे हों।";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "सेंसरशिप से बचाव ज़रूरी नहीं है; आप पहले से Signal सर्विस से जुङे हैं। ";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "सेंसरशिप से बचाव ज़रूरी नहीं है; आप पहले से Morse सर्विस से जुङे हैं। ";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "डीबग लॉग सक्षम करें";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "ब्लॉक किये हुए उपयोगकर्ता को जोङें";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "आपके Signal में कोई संपर्क नहीं हैं।";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "आपके Morse में कोई संपर्क नहीं हैं।";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "खोज के कोई परिणाम नहीं";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "हमेशा कॉल रिले करें";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "अपने संपर्क में अपने IP पते को प्रकट करने से बचने के लिए Signal सर्वर के माध्यम से सभी कॉल रिले करें। सक्षम करने से कॉल गुणवत्ता कम हो जाएगी।";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "अपने संपर्क में अपने IP पते को प्रकट करने से बचने के लिए Morse सर्वर के माध्यम से सभी कॉल रिले करें। सक्षम करने से कॉल गुणवत्ता कम हो जाएगी।";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "चैट";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "चैट हिस्ट्री को साफ करें";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "कॉपीराइट Signal मेसेंजर\nGPLv3 के तहत लायसेंसीकृत";
+"SETTINGS_COPYRIGHT" = "कॉपीराइट Morse मेसेंजर\nGPLv3 के तहत लायसेंसीकृत";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "सब्सक्रिप्शन";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "आपके द्वारा शुरू की गई सभी नई चैट के लिए एक ग़ायब होने वाले संदेशों का समय सेट करें।";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Signal  को दान करें";
+"SETTINGS_DONATE" = "Morse  को दान करें";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "मदद";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "मित्रों को बुलावा भेजें";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "आप मुझे @signalapp से संदेश भेज  सकते हैं। यहाँ से डाउनलोड करें: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "आप मुझे @signalapp से संदेश भेज  सकते हैं। यहाँ से डाउनलोड करें: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "चैट रंग और वॉलपेपर";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "सूचना सामग्री";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "संपर्क Signal से जुड़े";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "संपर्क Morse से जुड़े";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "तब सूचित करें, जब…";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "सक्रिय करें";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "आप Signal का उपयोग MobileCoin भेजने या प्राप्त करने के लिए कर सकते हैं। सभी भुगतान MobileCoins और MobileCoin वॉलेट की उपयोग की शर्तों के अधीन हैं। यह एक बीटा फ़ीचर है, इसलिए आपको कुछ समस्याएँ आ सकती हैं और आपके भुगतान या बैलेंस खो जाने पर उन्हें रिकवर नहीं किया जा सकता।";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "आप Morse का उपयोग MobileCoin भेजने या प्राप्त करने के लिए कर सकते हैं। सभी भुगतान MobileCoins और MobileCoin वॉलेट की उपयोग की शर्तों के अधीन हैं। यह एक बीटा फ़ीचर है, इसलिए आपको कुछ समस्याएँ आ सकती हैं और आपके भुगतान या बैलेंस खो जाने पर उन्हें रिकवर नहीं किया जा सकता।";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "सक्रिय करें";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ से %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Signal में भुगतान अब उपलब्ध नहीं है। अब भी आप किसी एक्सचेंज में धनराशि ट्रांसफ़र कर सकते हैं लेकिन अब आप भुगतान भेज या प्राप्त नहीं कर सकते या धनराशि नहीं जोड़ सकते।";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Morse में भुगतान अब उपलब्ध नहीं है। अब भी आप किसी एक्सचेंज में धनराशि ट्रांसफ़र कर सकते हैं लेकिन अब आप भुगतान भेज या प्राप्त नहीं कर सकते या धनराशि नहीं जोड़ सकते।";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "भुगतान को निष्क्रिय नहीं कर सकते क्योंकि आपका बैलेंस उपलब्ध नहीं है। अपना कनेक्शन जाँचें और दोबारा प्रयास करें।";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "भुगतान पूरा नहीं किया जा सका क्योंकि आपका बैलेंस उपलब्ध नहीं है। अपना कनेक्शन जाँचें और दोबारा प्रयास करें।";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Signal में भुगतान अब उपलब्ध नहीं है। अब भी आप किसी एक्सचेंज में धनराशि ट्रांसफ़र कर सकते हैं लेकिन अब आप भुगतान भेज या प्राप्त नहीं कर सकते या धनराशि नहीं जोड़ सकते।";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Morse में भुगतान अब उपलब्ध नहीं है। अब भी आप किसी एक्सचेंज में धनराशि ट्रांसफ़र कर सकते हैं लेकिन अब आप भुगतान भेज या प्राप्त नहीं कर सकते या धनराशि नहीं जोड़ सकते।";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Signal में भुगतान अब उपलब्ध नहीं है। अब भी आप किसी एक्सचेंज में धनराशि ट्रांसफ़र कर सकते हैं लेकिन अब आप भुगतान भेज या प्राप्त नहीं कर सकते या धनराशि नहीं जोड़ सकते।";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Morse में भुगतान अब उपलब्ध नहीं है। अब भी आप किसी एक्सचेंज में धनराशि ट्रांसफ़र कर सकते हैं लेकिन अब आप भुगतान भेज या प्राप्त नहीं कर सकते या धनराशि नहीं जोड़ सकते।";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "रूपांतरण केवल अनुमान हैं और सटीक नहीं भी हो सकते हैं।";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "भुगतान निष्क्रिय करें";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "यदि आप भुगतान निष्क्रिय करते हैं तो आप Signal में Mobilecoin भेजने या प्राप्त करने में सक्षम नहीं रहेंगे।";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "यदि आप भुगतान निष्क्रिय करते हैं तो आप Morse में Mobilecoin भेजने या प्राप्त करने में सक्षम नहीं रहेंगे।";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "भुगतान निष्क्रिय करें?";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "भुगतान निष्क्रिय करें";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "हमारा सुझाव है कि भुगतान निष्क्रिय करने से पहले आप अपनी धनराशि को किसी अन्य वॉलेट पते पर ट्रांसफ़र कर लें। यदि आप अपनी धनराशि को अभी ट्रांसफर करना नहीं चुनते हैं तो भुगतानों को फिर से सक्रिय करने की स्थिति में वह धनराशि Signal से लिंक किए गए आपके वॉलेट में बनी रहेगी।";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "हमारा सुझाव है कि भुगतान निष्क्रिय करने से पहले आप अपनी धनराशि को किसी अन्य वॉलेट पते पर ट्रांसफ़र कर लें। यदि आप अपनी धनराशि को अभी ट्रांसफर करना नहीं चुनते हैं तो भुगतानों को फिर से सक्रिय करने की स्थिति में वह धनराशि Morse से लिंक किए गए आपके वॉलेट में बनी रहेगी।";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "यदि आप भुगतान फिर से सक्रिय करना चुनते हैं तो आपका बैलेंस Signal से लिंक किए हुए आपके वॉलेट में ही रहेगा।";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "यदि आप भुगतान फिर से सक्रिय करना चुनते हैं तो आपका बैलेंस Morse से लिंक किए हुए आपके वॉलेट में ही रहेगा।";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "ट्रांसफ़र किए बिना निष्क्रिय करें?";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "MobileCoin के बारे में";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "आप अपने वॉलेट पते में MobileCoin भेज कर Signal में उपयोग करने के लिए धनराशि जोड़ सकते हैं।";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "आप अपने वॉलेट पते में MobileCoin भेज कर Morse में उपयोग करने के लिए धनराशि जोड़ सकते हैं।";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "धनराशि जोड़ना";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "भुगतान सक्रिय किया गया।";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "MobileCoin, एक नई गोपनीयता केंद्रित डिजिटल मुद्रा भेजने और प्राप्त करने के लिए Signal का उपयोग करें। शुरु करने के लिए सक्रिय करें।";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "MobileCoin, एक नई गोपनीयता केंद्रित डिजिटल मुद्रा भेजने और प्राप्त करने के लिए Morse का उपयोग करें। शुरु करने के लिए सक्रिय करें।";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "भुगतान दोबारा सक्रिय करें";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "भुगतान (बीटा) के बारे में जानकारी";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "आपके द्वारा Signal फिर से इंस्टॉल करते समय यदि आप अपने Signal PIN की पुष्टि करते हैं तो आपका बैलेंस अपने आप रीस्टोर हो जाएगा। आप रिकवरी फ़्रेज़ का उपयोग करके भी अपना बैलेंस रीस्टोर कर सकते हैं, जो कि एक 24-शब्दों का आपके लिए अलग वाक्यांश होता है। इसे लिख लें और किसी सुरक्षित स्थान पर रखें।";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "आपके द्वारा Morse फिर से इंस्टॉल करते समय यदि आप अपने Morse PIN की पुष्टि करते हैं तो आपका बैलेंस अपने आप रीस्टोर हो जाएगा। आप रिकवरी फ़्रेज़ का उपयोग करके भी अपना बैलेंस रीस्टोर कर सकते हैं, जो कि एक 24-शब्दों का आपके लिए अलग वाक्यांश होता है। इसे लिख लें और किसी सुरक्षित स्थान पर रखें।";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "धनराशि जोड़ें";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "भुगतान";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "आप अपने Signal वॉलेट पते पर ट्रांसफ़र नहीं कर सकते। अपने खाते से किसी समर्थित एक्सचेंज पर वॉलेट पता दर्ज करें।";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "आप अपने Morse वॉलेट पते पर ट्रांसफ़र नहीं कर सकते। अपने खाते से किसी समर्थित एक्सचेंज पर वॉलेट पता दर्ज करें।";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "आप एक्सचेंज द्वारा दिए गए वॉलेट पते पर कोई लेन-देन पूरा करके MobileCoin ट्रांसफ़र कर सकते हैं। वॉलेट पता अंकों और अक्षरों की एक श्रंखला होता है जो सामान्यतः QR कोड के नीचे स्थित होता है।";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "रिमाइन्डर बंद करें";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "ध्यान रखें कि आप अपना पिन याद कर लें या कहीं सुरक्षित रख लें क्योंकि खोया हुआ पिन वापस नहीं लाया जा सकता। अगर आप अपना पिन भूल जाते हैं, तो आप Signal में पुनः पंजीकरण करते समय अपना डाटा खो सकते हैं।";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "ध्यान रखें कि आप अपना पिन याद कर लें या कहीं सुरक्षित रख लें क्योंकि खोया हुआ पिन वापस नहीं लाया जा सकता। अगर आप अपना पिन भूल जाते हैं, तो आप Morse में पुनः पंजीकरण करते समय अपना डाटा खो सकते हैं।";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "अपना Signal पिन कि पुष्टि करें";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "अपना Morse पिन कि पुष्टि करें";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "पिन के रिमाईन्डर";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PIN Signal द्वारा संग्रहीत जानकारी को एन्क्रिप्ट रखते हैं, ताकि केवल आप ही उसे एक्सेस कर पाएँ। आपका PIN रिकवर नहीं किया जा सकता। आपकी प्रोफ़ाइल, सेटिंग्ज़, और संपर्क आपके द्वारा Signal को फिर से इंस्टॉल करने पर रीस्टोर हो जाएँगे।";
+"SETTINGS_PINS_FOOTER" = "PIN Morse द्वारा संग्रहीत जानकारी को एन्क्रिप्ट रखते हैं, ताकि केवल आप ही उसे एक्सेस कर पाएँ। आपका PIN रिकवर नहीं किया जा सकता। आपकी प्रोफ़ाइल, सेटिंग्ज़, और संपर्क आपके द्वारा Morse को फिर से इंस्टॉल करने पर रीस्टोर हो जाएँगे।";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "अपना पिन बदलें";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "पिेन बनाएँ";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN";
+"SETTINGS_PINS_TITLE" = "Morse PIN";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "सेंसरशिप से बचने की कोशिश, रिले कॉल और सील्ड सेंडर सेटिंग्ज़।";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "शुरु करें";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "अगर आप अपना Signal पिन, Signal पर पुनः पंजीकरण करवाते समय भूल गये़, तो आप अपने खाते को 7 दिन तक नहीं खोल पाएँगे।";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "अगर आप अपना Morse पिन, Morse पर पुनः पंजीकरण करवाते समय भूल गये़, तो आप अपने खाते को 7 दिन तक नहीं खोल पाएँगे।";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "पंजीकरण लाॅक लगाएँ?";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "कॉल की जा रही है";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Signal को अनलॉक करने के लिए Touch ID, Face ID, या अपने iOS डिवाइस पासकोड का उपयोग करें।";
+"SETTINGS_SECURITY_DETAIL" = "Morse को अनलॉक करने के लिए Touch ID, Face ID, या अपने iOS डिवाइस पासकोड का उपयोग करें।";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Signal को अनलॉक करने के लिए Face ID का उपयोग करें।";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Morse को अनलॉक करने के लिए Face ID का उपयोग करें।";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Signal को अनलॉक करने के लिए अपने डिवाइस के पासकोड का उपयोग करें।";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Morse को अनलॉक करने के लिए अपने डिवाइस के पासकोड का उपयोग करें।";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Signal अनलॉक करने के लिए Touch ID का उपयोग करें।";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Morse अनलॉक करने के लिए Touch ID का उपयोग करें।";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "ऐप सुरक्षा";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "iOS के साथ कॉन्टैक्ट शेयर करें";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "सुझाव को शेयर करने जैसे फ़ीचर के लिए iOS को Signal कॉन्टैक्ट और चैट के एक्सेस की अनुमति दें.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "सुझाव को शेयर करने जैसे फ़ीचर के लिए iOS को Morse कॉन्टैक्ट और चैट के एक्सेस की अनुमति दें.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "सुझाव और नोटिफ़िकेशन को शेयर करने जैसे फ़ीचर के लिए iOS को Signal के कॉन्टैक्ट और चैट के एक्सेस की अनुमति दें.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "सुझाव और नोटिफ़िकेशन को शेयर करने जैसे फ़ीचर के लिए iOS को Morse के कॉन्टैक्ट और चैट के एक्सेस की अनुमति दें.";
 
 /* Title for the 'signal boost' link in settings. */
 "SETTINGS_SIGNAL_BOOST" = "सिग्नल बूस्ट";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "एक Signal सस्टेनर बनें";
+"SETTINGS_SUBSCRIPTION" = "एक Morse सस्टेनर बनें";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "पंजीकरण लॉक";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Signal के साथ अपना फ़ोन नंबर दोबारा रजिस्टर करने के लिए आपका Signal PIN आवश्यक होता है।";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Morse के साथ अपना फ़ोन नंबर दोबारा रजिस्टर करने के लिए आपका Morse PIN आवश्यक होता है।";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "टाइपिंग संकेतक";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "लोड हो रहा है";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "पंजीकरन करने के लिये Signal ऐप शुरु करें।";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "पंजीकरन करने के लिये Morse ऐप शुरु करें।";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "पंजीकृत नहीं है";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "अपडेट या पंजीकरन करने के लिये Signal ऐप शुरु करें।";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "अपडेट या पंजीकरन करने के लिये Morse ऐप शुरु करें।";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "तैयार नहीं है";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "अपलोड हो रहा है...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "अटैचमेंट तैयार करने में असमर्थ";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Signal पर शेयर करें";
+"SHARE_EXTENSION_VIEW_TITLE" = "Morse पर शेयर करें";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "शेयर करने के सुझाव को डिसेबल करना असफल रहा।";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Signal चैट को अब अन्य ऐप्स से शेयर करते समय सुझाव के रूप में दिखाया जा सकता है।";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Morse चैट को अब अन्य ऐप्स से शेयर करते समय सुझाव के रूप में दिखाया जा सकता है।";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "शेयर करना हुआ आसान";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "चैट दिखाएँ";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "मैं आपको Signal स्थापिेत करने का निमंत्रण देता हुँ, ये रही लिंक:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "मैं आपको Morse स्थापिेत करने का निमंत्रण देता हुँ, ये रही लिंक:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "ध्वनियाँ और सूचनाएँ";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "सत्यापित किए बिना जारी रखें?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Signal पर स्पैम को रोकने में सहायता करने हेतु कृपया सत्यापन पूरा करें।\n\nसत्यापन के बाद आप संदेश संवाद जारी रख सकते हैं। रुके हुए सारे संदेश अपने आप भेज दिए जाएँगे।";
+"SPAM_CAPTCHA_SHEET_BODY" = "Morse पर स्पैम को रोकने में सहायता करने हेतु कृपया सत्यापन पूरा करें।\n\nसत्यापन के बाद आप संदेश संवाद जारी रख सकते हैं। रुके हुए सारे संदेश अपने आप भेज दिए जाएँगे।";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "संदेश संवाद जारी रखने के लिए सत्यापन करें";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "इंस्टॉल करें";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signal की कलाकार श्रृंखला से";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Morse की कलाकार श्रृंखला से";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "आपको प्राप्त स्टीकर ";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "सहयोग दें";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal आप जैसे लोगों द्वारा संचालित है. योगदान दें और एक बैज पाएं.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse आप जैसे लोगों द्वारा संचालित है. योगदान दें और एक बैज पाएं.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "जी नहीं, धन्यवाद";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "हमें समस्या के बारे में बताएँ:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "कृपया अपना समर्थन अनुरोध support@signal.org पर ईमेल करके भेजें";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "कृपया अपना समर्थन अनुरोध support@devplusone.com पर ईमेल करके भेजें";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "फिल्टर: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "लॉग URL: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal वर्ज़न: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Morse वर्ज़न: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS समर्थन अनुरोध";
+"SUPPORT_EMAIL_SUBJECT" = "Morse iOS समर्थन अनुरोध";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "आप कैसा महसूस कर रहे हैं? (वैकल्पिक)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "क्या आपने अभी तक हमारे FAQ को पढ़ लिया है?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "लोड हो रहा है";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal एक गैर-लाभकारी संस्था है जिसमें कोई विज्ञापनदाता या निवेशक नहीं है, जिसे सिर्फ़ उन लोगों द्वारा बनाए रखा गया है जो इसका इस्तेमाल करते हैं और इसको महत्व देते हैं. एक बारम्बार होनेवाला मासिक योगदान करें और अपना समर्थन शेयर करने के लिए एक प्रोफ़ाइल बैज पाएं.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse एक गैर-लाभकारी संस्था है जिसमें कोई विज्ञापनदाता या निवेशक नहीं है, जिसे सिर्फ़ उन लोगों द्वारा बनाए रखा गया है जो इसका इस्तेमाल करते हैं और इसको महत्व देते हैं. एक बारम्बार होनेवाला मासिक योगदान करें और अपना समर्थन शेयर करने के लिए एक प्रोफ़ाइल बैज पाएं.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal ओपेन सोर्स गोपनीयता प्रौद्योगिकी विकसित करने के लिए प्रतिबद्ध है जो मुक्त अभिव्यक्ति की रक्षा करता है और सुरक्षित वैश्विक संचार को सक्षम बनाता है.\n\nआपका योगदान इस वजह को बढ़ावा देता है और निजी संचार के लिए लाखों लोगों ज़रिए इस्तेमाल किए जाने वाले ऐप के विकास और संचालन के लिए भुगतान करता है. कोई विज्ञापन नहीं. कोई ट्रैकर नहीं. कोई मज़ाक नहीं.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morse ओपेन सोर्स गोपनीयता प्रौद्योगिकी विकसित करने के लिए प्रतिबद्ध है जो मुक्त अभिव्यक्ति की रक्षा करता है और सुरक्षित वैश्विक संचार को सक्षम बनाता है.\n\nआपका योगदान इस वजह को बढ़ावा देता है और निजी संचार के लिए लाखों लोगों ज़रिए इस्तेमाल किए जाने वाले ऐप के विकास और संचालन के लिए भुगतान करता है. कोई विज्ञापन नहीं. कोई ट्रैकर नहीं. कोई मज़ाक नहीं.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "समर्थन तकनीक जो आपके लिए बनाई गई है - आपके डेटा के लिए नहीं - उस समुदाय में शामिल होकर जो इसे बनाए रखता है.";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "अभी नहीं";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signal आप जैसे लोगों से ही चल रहा है।";
+"SUSTAINER_VIEW_TITLE" = "Morse आप जैसे लोगों से ही चल रहा है।";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "आज आपसे नए सब्सक्रिप्शन मूल्य की पूरी राशि (%@) ली जाएगी. आपका नया सब्सक्रिप्शन मासिक रूप से रिन्यू होगा.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "अनजान देश";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "आपके किसी डिवाइस ने एक मेसेज भेजा है जो याहाँ दिखाया नहीं जा सकता क्योंकि वह Signal का नया फ़ीचर इस्तेमाल करता है।";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "आपके किसी डिवाइस ने एक मेसेज भेजा है जो याहाँ दिखाया नहीं जा सकता क्योंकि वह Morse का नया फ़ीचर इस्तेमाल करता है।";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ ने एक मेसेज भेजा है जो याहाँ दिखाया नहीं जा सकता क्योंकि वह Signal का नया फ़ीचर इस्तेमाल करता है।";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ ने एक मेसेज भेजा है जो याहाँ दिखाया नहीं जा सकता क्योंकि वह Morse का नया फ़ीचर इस्तेमाल करता है।";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "आपको एक मेसेज आया है जो याहाँ दिखाया नहीं जा सकता क्योंकि वह Signal का नया फ़ीचर इस्तेमाल करता है।";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "आपको एक मेसेज आया है जो याहाँ दिखाया नहीं जा सकता क्योंकि वह Morse का नया फ़ीचर इस्तेमाल करता है।";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Signal अभी अपडेट करें";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Morse अभी अपडेट करें";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Signal को उसके नवीनतम वर्ज़न तक अपडेट कर दिया गया है। अब आप इस तरह के मेसेज अपने डिवाइस पर प्राप्त कर सकते हैं।";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Morse को उसके नवीनतम वर्ज़न तक अपडेट कर दिया गया है। अब आप इस तरह के मेसेज अपने डिवाइस पर प्राप्त कर सकते हैं।";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "आप Signal का नवीनतम वर्ज़न तक अपडेट हो चुके हैं, अब आप %@ को यह मेसेज फिर से भेजने के लिये कह सकते हैं।";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "आप Morse का नवीनतम वर्ज़न तक अपडेट हो चुके हैं, अब आप %@ को यह मेसेज फिर से भेजने के लिये कह सकते हैं।";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "आप Signal का नवीनतम वर्ज़न तक अपडेट हो चुके हैं, अब आप मेसेज भेजने वाले को यह मेसेज फिर से भेजने के लिये कह सकते हैं।";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "आप Morse का नवीनतम वर्ज़न तक अपडेट हो चुके हैं, अब आप मेसेज भेजने वाले को यह मेसेज फिर से भेजने के लिये कह सकते हैं।";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "अनजान";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "\"%@\" को अनलिंक करें?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "आपका डिवाइस अब लिंक नहीं है। मेसेज भेजते रहने के लिये कृपया Signal अपने फोन से फिर लिंक करें।";
+"UNLINKED_WARNING" = "आपका डिवाइस अब लिंक नहीं है। मेसेज भेजते रहने के लिये कृपया Morse अपने फोन से फिर लिंक करें।";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal आपका डिवाइस अनलिंक करने में असमर्थ रहा।";
+"UNLINKING_FAILED_ALERT_TITLE" = "Morse आपका डिवाइस अनलिंक करने में असमर्थ रहा।";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "अज्ञात डिवाइस";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "आपका डिवाइस इस फ़ीचर का समर्थन नहीं करता। ";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "%@ के साथ आपका सुरक्षा नंबर शायद इसलिए बदल गया है क्योंकि उन्होंने Signal को फिर से इंस्टॉल कर लिया है या डिवाइस बदल दिए हैं। नए सुरक्षा नंबर की पुष्टि करने के लिए सत्यापित करें पर टैप करें। यह वैकल्पिक है।";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "%@ के साथ आपका सुरक्षा नंबर शायद इसलिए बदल गया है क्योंकि उन्होंने Morse को फिर से इंस्टॉल कर लिया है या डिवाइस बदल दिए हैं। नए सुरक्षा नंबर की पुष्टि करने के लिए सत्यापित करें पर टैप करें। यह वैकल्पिक है।";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "सत्यापित करें";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "पिन के बाारे में और जानें";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "पिन Signal द्वारा संग्रहीत जानकारी को एन्क्रिप्ट रखता है, ताकी सिर्फ़ आप उसे देख पाएँ। आपका प्रोफ़ाइल, सेटिंग्स, और संपर्क, अपके Signal इंस्टाॅल के बाद, पुनः स्थापित हो जाऐंगे। ऐप को खोलने के लिए आपको पिन की ज़रूरत नहीं होगी।";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "पिन Morse द्वारा संग्रहीत जानकारी को एन्क्रिप्ट रखता है, ताकी सिर्फ़ आप उसे देख पाएँ। आपका प्रोफ़ाइल, सेटिंग्स, और संपर्क, अपके Morse इंस्टाॅल के बाद, पुनः स्थापित हो जाऐंगे। ऐप को खोलने के लिए आपको पिन की ज़रूरत नहीं होगी।";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "पेश है, पिन";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "पिन को डिसेबल करें";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal को जल्द ही iOS 11 या बाद के संस्करण की ज़रूरत होगी। कृपया सेटिंग्ज़ ऐप >> सामान्य >> सॉफ़्टवेर अपडेट में जा कर अपग्रेड करें।";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Morse को जल्द ही iOS 11 या बाद के संस्करण की ज़रूरत होगी। कृपया सेटिंग्ज़ ऐप >> सामान्य >> सॉफ़्टवेर अपडेट में जा कर अपग्रेड करें।";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "iOS अप्ग्रेड करें ";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "उपयोगकर्ता नाम Signal में वैकल्पिक हैं। अगर आप अपना उपयोगकर्ता नाम बनाते हैं तो अन्य Signal उपयोगकर्ता आपको आपके उपयोगकर्ता नाम से खोज ा तथा बिना आपके फोन नंबर के आपसे संपर्क कर पाएंगे।";
+"USERNAME_DESCRIPTION" = "उपयोगकर्ता नाम Morse में वैकल्पिक हैं। अगर आप अपना उपयोगकर्ता नाम बनाते हैं तो अन्य Morse उपयोगकर्ता आपको आपके उपयोगकर्ता नाम से खोज ा तथा बिना आपके फोन नंबर के आपसे संपर्क कर पाएंगे।";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "उपयोगकर्ता नाम में केवल a-z, 0-9, और _ आ सकते हैं";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "उपभोगकर्ता नाम खोजते समय त्रुटि हुई है। कृपया कुछ देर बाद कोशिश करें।";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "%@ एक Signal उपयोगकर्ता नहीं है। सुनिश्चित करें कि आपने उपयोगकर्ता का पूरा नाम डाला है।";
+"USERNAME_NOT_FOUND_FORMAT" = "%@ एक Morse उपयोगकर्ता नहीं है। सुनिश्चित करें कि आपने उपयोगकर्ता का पूरा नाम डाला है।";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "उपयोगकर्ता नहीं मिला";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "रिकॉर्ड करने के लिए दबा कर रखें।";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Signal Desktop की स्थापना पूरी करें।";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Morse Desktop की स्थापना पूरी करें।";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "संपर्क नाम";

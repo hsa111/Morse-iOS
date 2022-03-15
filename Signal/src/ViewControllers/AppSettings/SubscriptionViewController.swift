@@ -1025,7 +1025,7 @@ class SubscriptionViewController: OWSTableViewController2 {
                     return
                 }
                 let supportVC = ContactSupportViewController()
-                supportVC.selectedFilter = .sustainers
+                supportVC.selectedFilter = .question
                 let navVC = OWSNavigationController(rootViewController: supportVC)
                 self?.presentFormSheet(navVC, animated: true)
             }

@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "現在不要";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "有關 Signal";
+"ABOUT_SECTION_TITLE" = "有關 Morse";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "接受新的安全碼";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "語音訊息 %@ 秒";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal 語音通話";
+"ACTION_AUDIO_CALL" = "Morse 語音通話";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "邀請至 Signal";
+"ACTION_INVITE" = "邀請至 Morse";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "傳送訊息";
@@ -149,7 +149,7 @@
 "APN_Message" = "你有新訊息";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal 無法啟動。請將除錯日誌傳送到 support@signal.org ，以便我們解決這個問題。";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Morse 無法啟動。請將除錯日誌傳送到 support@devplusone.com ，以便我們解決這個問題。";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "錯誤";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "無法讀取資料庫";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "請升級到最新版的 Signal。";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "請升級到最新版的 Morse。";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "未知的資料庫版本。";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "從舊裝置轉移的資料無法還原。 請將除錯日誌傳送至support@signal.org，以便我們解決此問題。 如果重新安裝Signal，則你的訊息歷史記錄可能會遺失。";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "從舊裝置轉移的資料無法還原。 請將除錯日誌傳送至support@devplusone.com，以便我們解決此問題。 如果重新安裝Morse，則你的訊息歷史記錄可能會遺失。";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "無法完成轉移";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "第%@版已經在 App Store 上架。";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "有新版本的 Signal 提供下載";
+"APP_UPDATE_NAG_ALERT_TITLE" = "有新版本的 Morse 提供下載";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "更新";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "系統";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "封存";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "附檔匯出失敗。";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "儲存失敗";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "成為贊助人";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "加油支持 Signal";
+"BADGE_DETAILS_GIVE_A_BOOST" = "加油支持 Morse";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "你的\"加油支持\"徽章已過期，不會再顯示於你的個人資料中。\n\n你可以繼續使用 Signal，但為了支持專為你研發的技術，請考慮成為每月的定期贊助人。";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "你的\"加油支持\"徽章已過期，不會再顯示於你的個人資料中。\n\n你可以繼續使用 Morse，但為了支持專為你研發的技術，請考慮成為每月的定期贊助人。";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "你的\"加油支持\"徽章已過期，不會再顯示於你的個人資料中。\n\n你可以透過一次性捐款將你的\"加油支持\"徽章再展示 30 天。";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "你的贊助人定期贊助已自動取消，因為你的非活動時間過長。你的 %@ 徽章在你的個人資料中無法顯示。\n\n你可以繼續使用 Signal，但要支援該應用程式並重新展示你的徽章，請立即更新。";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "你的贊助人定期贊助已自動取消，因為你的非活動時間過長。你的 %@ 徽章在你的個人資料中無法顯示。\n\n你可以繼續使用 Morse，但要支援該應用程式並重新展示你的徽章，請立即更新。";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "成為贊助人";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "當你擁有多個徽章時，你可以選擇一個讓其他人在你的個人資料中看到。";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "你贏得了%@徽章！ 透過在你在個人資料上展示此徽章，幫助 Signal 建立知名度。";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "你贏得了%@徽章！ 透過在你在個人資料上展示此徽章，幫助 Morse 建立知名度。";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "關閉橫幅";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "選擇要贊助的金額";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "加油支持 Signal";
+"BOOST_VIEW_TITLE" = "加油支持 Morse";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "新增";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞未接語音電話";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "你可以在iOS 設定中允許取用麥克風，以便在 Signal 中撥打電話及錄製語音訊息。";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "你可以在iOS 設定中允許取用麥克風，以便在 Morse 中撥打電話及錄製語音訊息。";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "需要麥克風的存取權";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "沒有回應";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "通話";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "你的相機已關閉";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal 使用者";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Morse 使用者";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "拍一張照片然後傳送出去";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "和剪貼簿比對";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "選擇或搜尋與之聊天的Signal使用者。";
+"COMPOSE_BUTTON_HINT" = "選擇或搜尋與之聊天的Morse使用者。";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "撰寫";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "搜尋使用者名稱";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "你可以在 iOS 設定中允許取用聯絡資訊，以確認哪位聯絡人是 Signal 的使用者。";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "你可以在 iOS 設定中允許取用聯絡資訊，以確認哪位聯絡人是 Morse 的使用者。";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "這將透過刪除你的訊息來重置應用程式。 該過程完成後，該應用程式將關閉。";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "操作異常";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "贊助人 & Signal 加油支持";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "贊助人 & Morse 加油支持";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "贊助人 & 加油支持";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal 無法完成你的支援請求。";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morse 無法完成你的支援請求。";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "再試一次";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "聲音";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "透過支持 Signal 為你的個人資料得到徽章。點擊徽章以了解更多資訊。";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "透過支持 Morse 為你的個人資料得到徽章。點擊徽章以了解更多資訊。";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "徽章";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "刪除帳戶";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "這將刪除你的Signal帳號並重置應用程式。 該過程完成後，該應用程式將關閉。";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "這將刪除你的Morse帳號並重置應用程式。 該過程完成後，該應用程式將關閉。";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "你確定要刪除你的帳號嗎？";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "電話號碼";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "確認你的Signal 電話號碼";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "確認你的Morse 電話號碼";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "刪除帳戶";
@@ -1396,7 +1396,7 @@
 /* Label warning the user that they have been de-registered. */
 "DEREGISTRATION_WARNING" = "本裝置不再被註冊。你的電話號碼可能被註冊於不同的裝置。點取來重新註冊。";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "最後活躍 %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "如果你使用的是舊的iOS裝置，則可以安全地將你的帳號和訊息轉移到此裝置上。";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "如果你以前在連結的iPad上使用Signal，則可以安全地將你的帳號和訊息轉移到此裝置上。";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "如果你以前在連結的iPad上使用Morse，則可以安全地將你的帳號和訊息轉移到此裝置上。";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "繼續而不轉移你的帳號和訊息";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "從 iOS 裝置轉移";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "繼續將在當前使用相同電話號碼註冊的其他裝置上停用Signal。";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "繼續將在當前使用相同電話號碼註冊的其他裝置上停用Morse。";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "無法驗證你的新裝置，請重試";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "沒有足夠的空間來完成轉移";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "更新到最新版本的 Signal並再試一次";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "更新到最新版本的 Morse並再試一次";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "轉移您的 Signal 帳號到新的 iOS 裝置。請確定你的新裝置在附近並已打開。";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "轉移您的 Morse 帳號到新的 iOS 裝置。請確定你的新裝置在附近並已打開。";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "轉移帳號";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "在舊裝置上開啟 Signal，將其移至附近，並確保兩個裝置上均已開啟 Wi-Fi 和藍牙。";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "在舊裝置上開啟 Morse，將其移至附近，並確保兩個裝置上均已開啟 Wi-Fi 和藍牙。";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "將此QR碼放在其他裝置的框框中。";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "等待其他的裝置...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "讓兩個裝置彼此接近。 請勿關閉任何一台裝置並使 Signal 保持開啟的狀態。 轉移是點對點加密的。";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "讓兩個裝置彼此接近。 請勿關閉任何一台裝置並使 Morse 保持開啟的狀態。 轉移是點對點加密的。";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "接收資料中";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "將新裝置的相機握好";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "讓兩個裝置彼此接近。 請勿關閉任何一台裝置並使 Signal 保持開啟的狀態。";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "讓兩個裝置彼此接近。 請勿關閉任何一台裝置並使 Morse 保持開啟的狀態。";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "轉移資料中";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "輸入自定義金額";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "捐款給Signal";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "捐款給Morse";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "其他贊助方式";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "謝謝你的支持！";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signal 由像你這樣的人提供動力。";
+"DONATION_VIEW_TITLE" = "Morse 由像你這樣的人提供動力。";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Signal的團隊致力於開發開源隱私技術，以保護自由表達並實現安全的全球通訊。 你的貢獻幫助了這一事業。 無廣告。 沒有追踪器。 不開玩笑。\n\n你的捐款有助於支付應用程式的開發，伺服器和寬頻的費用，該應用程式被世界各地數以百萬計的人用於私密和即時通訊。";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Morse的團隊致力於開發開源隱私技術，以保護自由表達並實現安全的全球通訊。 你的貢獻幫助了這一事業。 無廣告。 沒有追踪器。 不開玩笑。\n\n你的捐款有助於支付應用程式的開發，伺服器和寬頻的費用，該應用程式被世界各地數以百萬計的人用於私密和即時通訊。";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "為什麼要贊助？";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "你可以在 iOS 設定中允許取用。";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal 須要存取聯絡資訊以編輯聯絡人資訊";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Morse 須要存取聯絡資訊以編輯聯絡人資訊";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "編輯群組";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "這個使用者無法被新增到此群組直到他們升級 Signal。";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "這個使用者無法被新增到此群組直到他們升級 Morse。";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "成員%@人數上限已達到上限。";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "複製";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "嘿，\n\n最近，我一直在使用Signal將iPhone上的進行私密聊天。 我也希望你也安裝它，因此我們可以確信只有你和我才能閱讀我們的訊息或聽到我們的電話。\n\nSignal適用於iPhone和Android。 在這裡下載：%@\n\nSignal的工作方式類似於你現有的訊息收發應用程式。 我們可以傳送圖片和影片，撥打電話並開始群組聊天。 最棒的是，沒有人能看到其中的任何一個，甚至連製作Signal的人也看不到！\n\n你可以在這裡閱讀有關製作Signal的組織 Open Whisper Systems的更多資訊：%@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "嘿，\n\n最近，我一直在使用Morse將iPhone上的進行私密聊天。 我也希望你也安裝它，因此我們可以確信只有你和我才能閱讀我們的訊息或聽到我們的電話。\n\nMorse適用於iPhone和Android。 在這裡下載：%@\n\nMorse的工作方式類似於你現有的訊息收發應用程式。 我們可以傳送圖片和影片，撥打電話並開始群組聊天。 最棒的是，沒有人能看到其中的任何一個，甚至連製作Morse的人也看不到！\n\n你可以在這裡閱讀有關製作Morse的組織 Open Whisper Systems的更多資訊：%@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "我們一起改用 Signal";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "我們一起改用 Morse";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "你的裝置未設定為傳送電子郵件。 要傳送支援要求，請在你的裝置上設定電子郵件或傳送電子郵件至 support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "你的裝置未設定為傳送電子郵件。 要傳送支援要求，請在你的裝置上設定電子郵件或傳送電子郵件至 support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "電子郵件無法使用";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "旅行 & 地點";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "你的聯絡資訊中沒有人使用 Signal。";
+"EMPTY_CONTACTS_LABEL_LINE1" = "你的聯絡資訊中沒有人使用 Morse。";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "何不邀請一些人呢？";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "無法傳送訊息給此人，因為被你封鎖了。";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal 無法連接網際網路，請再重試一遍。";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Morse 無法連接網際網路，請再重試一遍。";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "訊息無法傳送，因為沒有有效的傳送對象";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "服務的無效回應。";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "你的電話號碼不再註冊於本裝置。請重新安裝 Signal。";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "你的電話號碼不再註冊於本裝置。請重新安裝 Morse。";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "伺服器錯誤，請稍候再試";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "發生未知錯誤";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "此聯絡人不是 Signal 使用者";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "此聯絡人不是 Morse 使用者";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "附檔下載失敗。";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "網路錯誤";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "請透過你裝置中的偵錯日誌將此錯誤通報至 support@signal.org以協助我們改進 Signal；%@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "請透過你裝置中的偵錯日誌將此錯誤通報至 support@devplusone.com以協助我們改進 Morse；%@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal 測試版：發生錯誤";
+"ERROR_NOTIFICATION_TITLE" = "Morse 測試版：發生錯誤";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "你的裝置已不再與其他裝置連結。請重新連結以發送更多訊息。";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "你的裝置不再被註冊。請重新註冊以傳送更堆訊息。";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "你的 Signal 版本已過期。請更新以傳送訊息。";
+"ERROR_SENDING_EXPIRED" = "你的 Morse 版本已過期。請更新以傳送訊息。";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "未註冊的使用者: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "你的Signal版本已過期！ 點擊以更新到最新版本。";
+"EXPIRATION_ERROR" = "你的Morse版本已過期！ 點擊以更新到最新版本。";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "您的 Signal 版本將於 %d 日內到期，請更新至最新版本。";
+"EXPIRATION_WARNING_SOON" = "您的 Morse 版本將於 %d 日內到期，請更新至最新版本。";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "您的 Signal 版本今日到期，請更新至最新版本。";
+"EXPIRATION_WARNING_TODAY" = "您的 Morse 版本今日到期，請更新至最新版本。";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "此聯繫人失敗太多次，請稍後再試。";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "無效的連結";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "在此裝置上更新 Signal 以加入該群組。";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "在此裝置上更新 Morse 以加入該群組。";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "需要管理員批准通過群組連結加入新成員。";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR Code";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "透過 Signal 分享";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "透過 Morse 分享";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "知道此連結的任何人都可以查看該群組的名稱和成員，並請求加入。 與你信任的人分享。";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "什麼是舊版的群組?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "舊版群組尚不能升級到新群組，但是如果最新版本的Signal上有相同的成員，則可以建立一個新群組。\n\nSignal將來將提供一種升級舊版群組的方法。";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "舊版群組尚不能升級到新群組，但是如果最新版本的Morse上有相同的成員，則可以建立一個新群組。\n\nMorse將來將提供一種升級舊版群組的方法。";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "我可以升級舊版群組嗎？";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "要建立新群組，所有成員都應更新到Signal的最新版本。";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "要建立新群組，所有成員都應更新到Morse的最新版本。";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "舊版 vs. 新群組";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "該群組成員過多，因此無法升級為新版群組。 可以升級的最大群組大小為 %@。";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "目前所有群組成員都使用能夠加入新版群組的Signal版本時，該群組將被升級。";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "目前所有群組成員都使用能夠加入新版群組的Morse版本時，該群組將被升級。";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "升級之前，所有訊息歷史記錄和媒體檔案都將保留。";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "無法建立此群組，因為1位成員正在使用舊版本的Signal。你可以在他們更新Signal之後用他們建立一個新版群組，或者在建立群組之前將他們刪除。";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "無法建立此群組，因為1位成員正在使用舊版本的Morse。你可以在他們更新Morse之後用他們建立一個新版群組，或者在建立群組之前將他們刪除。";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "無法建立此群組，因為%@個成員正在使用舊版本的Signal。你可以在他們更新Signal之後用他們建立一個新版群組，或者在建立群組之前將他們刪除。";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "無法建立此群組，因為%@個成員正在使用舊版本的Morse。你可以在他們更新Morse之後用他們建立一個新版群組，或者在建立群組之前將他們刪除。";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "無法建立此群組，因為1位成員正在使用舊版本的Signal。你可以在他們更新Signal之後用他們建立一個新版群組，或者在建立群組之前將它們刪除。%@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "無法建立此群組，因為1位成員正在使用舊版本的Morse。你可以在他們更新Morse之後用他們建立一個新版群組，或者在建立群組之前將它們刪除。%@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "無法建立此群組，因為%1$@個成員正在使用舊版本的Signal。你可以在他們更新Signal之後用他們建立一個新版群組，或者在建立群組之前將他們刪除。%2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "無法建立此群組，因為%1$@個成員正在使用舊版本的Morse。你可以在他們更新Morse之後用他們建立一個新版群組，或者在建立群組之前將他們刪除。%2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "舊版群組將被建立，因為1位成員正在使用舊版本的Signal。你可以在他們更新Signal之後用他們建立一個新樣式群組，或者在建立群組之前將他們刪除。";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "舊版群組將被建立，因為1位成員正在使用舊版本的Morse。你可以在他們更新Morse之後用他們建立一個新樣式群組，或者在建立群組之前將他們刪除。";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "舊版群組將被建立，因為%@位成員正在使用舊版本的Signal。你可以在他們更新Signal之後用他們建立一個新樣式群組，或者在建立群組之前將他們刪除。";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "舊版群組將被建立，因為%@位成員正在使用舊版本的Morse。你可以在他們更新Morse之後用他們建立一個新樣式群組，或者在建立群組之前將他們刪除。";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "1位成員不支援新群組，所以此群組降變更為舊版群組。%@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "選擇新的管理者";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Signal 群組在%@個成員或更少的情況下表現最佳。 新增更多成員將導致傳送和接收訊息的延遲。";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Morse 群組在%@個成員或更少的情況下表現最佳。 新增更多成員將導致傳送和接收訊息的延遲。";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "已達到推薦成員數上限";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "聯絡我們";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "支援中心";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "草稿:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "有些你的聯絡人已經在使用 Signal了，包括%@。";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "有些你的聯絡人已經在使用 Morse了，包括%@。";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "有些你的聯絡人已經在使用Signal 了，包括 %@ 及%@。";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "有些你的聯絡人已經在使用Morse 了，包括 %@ 及%@。";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "有些你的聯絡人已經在使用 Signal 了，包括 %@、%@及%@。";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "有些你的聯絡人已經在使用 Morse 了，包括 %@、%@及%@。";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "在這裡開始你的第一次聊天。";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "封存";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "繪製任何地方使之模糊";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "你無法分享超過%@個項目。";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "變更照片";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "在“設定”中授予完全控制權限，或更改Signal可以連結的照片。";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "在“設定”中授予完全控制權限，或更改Morse可以連結的照片。";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "看不到你的照片?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "你可以從手機或 iPad 傳送或接收同步的訊息。\n基於安全，聊天紀錄不會轉移到新連結的裝置上。";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@在 Signal 上!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@在 Morse 上!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "貼圖";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "無效的音訊檔";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "你可以在 iOS設定中允許取用聯絡資訊來邀請你的朋友加入 Signal。";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "你可以在 iOS設定中允許取用聯絡資訊來邀請你的朋友加入 Morse。";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "允許聯絡資訊存取";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "邀請朋友使用 Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "邀請朋友使用 Morse";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "搜尋";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "預覽任何連結";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "為了移轉你的Signal帳號，你需要在兩個裝置上啟用區域網路連結。";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "為了移轉你的Morse帳號，你需要在兩個裝置上啟用區域網路連結。";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "需要幫助嗎？";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "開啟“區域網路”";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "找到到Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "找到到Morse";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "開啟區域網路連結";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "紀錄中";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "除錯日誌可以幫助Signal修復問題和錯誤。";
+"LOGGING_SECTION_FOOTER" = "除錯日誌可以幫助Morse修復問題和錯誤。";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "訊息";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "為所有人刪除";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "如果聊天中的每個人都使用最新版本的Signal，則該訊息將被刪除。 他們將能夠看到你刪除了一則訊息。";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "如果聊天中的每個人都使用最新版本的Morse，則該訊息將被刪除。 他們將能夠看到你刪除了一則訊息。";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "你想為誰刪除此訊息？";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "刪除及離開群組？";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "仔細檢查請求。 Signal找到了另一個同名的聯絡人。";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "仔細檢查請求。 Morse找到了另一個同名的聯絡人。";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "你的聯絡人";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "已讀";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "略過";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "未接來電";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "你可以在 iOS 設定中允許取用相機以在 Signal 中使用影像電話。";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "你可以在 iOS 設定中允許取用相機以在 Morse 中使用影像電話。";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal 需要存取相機";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Morse 需要存取相機";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "你可以在 iOS 設定中允許此權限。";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal 在此功能上要求存取你的位置。";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Morse 在此功能上要求存取你的位置。";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "你可以在 iOS 設定中允許此權限。";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Signal 要求取用你的照片才能使用此功能。";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Morse 要求取用你的照片才能使用此功能。";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "無";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "選擇一個聯絡人或群組開始聊天。";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "歡迎來到 Signal";
+"NO_SELECTED_CONVERSATION_TITLE" = "歡迎來到 Morse";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "新訊息給:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "不顯示名字或內容";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "在程式開啟時播放";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "為你的訊息增加一點人性。";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "由於您長時間沒有使用 Signal，因此必須重新註冊才能使用。";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "由於您長時間沒有使用 Morse，因此必須重新註冊才能使用。";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Signal 註冊";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Morse 註冊";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "註冊 iPad";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "連結 iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "點擊“註冊iPad”將使你可以建立一個全新的Signal帳號或將現有帳號移至此iPad。 這將在現有使用相同電話號碼註冊的任何其他裝置上禁用 Signal。";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "點擊“註冊iPad”將使你可以建立一個全新的Morse帳號或將現有帳號移至此iPad。 這將在現有使用相同電話號碼註冊的任何其他裝置上禁用 Morse。";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "點擊“連結iPhone”將使你將手機連結到現有帳號。 通常不建議連結手機，這會限制某些功能，例如通話。";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "連結此 iPhone";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "註冊此iPad將在現有使用相同電話號碼註冊的任何其他裝置上禁用Signal。";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "註冊此iPad將在現有使用相同電話號碼註冊的任何其他裝置上禁用Morse。";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "不建議你連結 iPhone，這會限制核心功能。";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "允許權限";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "允許通知和聯絡人可讓你查看訊息何時抵達，並幫助你找到認識的人。 聯絡人已加密，因此Signal服務無法看到他們。";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "允許通知和聯絡人可讓你查看訊息何時抵達，並幫助你找到認識的人。 聯絡人已加密，因此Morse服務無法看到他們。";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "允許權限";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "選擇誰可以使用您的電話號碼%@在Signal上找到你";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "選擇誰可以使用您的電話號碼%@在Morse上找到你";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "誰可以找到你的電話號碼？";
@@ -3776,10 +3776,10 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "請等待幾分鐘，然後重試。(%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "輸入你的電話號碼";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "為了保護您的隱私，系統為您提供了一個‘假’的8位電話號碼";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "你的電話號碼";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "輸入你的電話號碼";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "無效的電話號碼。 請輸入有效的電話號碼進行註冊。";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@設定訊息銷毀時間為%@";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal 正面臨技術上的問題。我們正在盡力的盡快地恢復服務。";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Morse 正面臨技術上的問題。我們正在盡力的盡快地恢復服務。";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "你曾撥電話給%@";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "無效的交易";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "更新Signal以使用付款功能。";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "更新Morse以使用付款功能。";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "付款尚未被驗證";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "每個人";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "任何在你的聯絡人中擁有你的電話號碼的人都會在Signal上將你視為聯絡人。 其他人將可以在搜尋中找到你。";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "任何在你的聯絡人中擁有你的電話號碼的人都會在Morse上將你視為聯絡人。 其他人將可以在搜尋中找到你。";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "無人";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Signal上的任何人都無法找到你的電話號碼。 在聯絡人中擁有你電話號碼的人將不會顯示為你的聯絡人，其他人將無法在搜尋中找到你的電話號碼。";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Morse上的任何人都無法找到你的電話號碼。 在聯絡人中擁有你電話號碼的人將不會顯示為你的聯絡人，其他人將無法在搜尋中找到你的電話號碼。";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "範例：%@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "我的聯絡人";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "只有你的聯絡人會在Signal上看到你的電話號碼。";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "只有你的聯絡人會在Morse上看到你的電話號碼。";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "每個人";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "你的電話號碼將顯示給你傳送訊息的人和群組。 電話號碼中包含你電話號碼的人也會在Signal上看到它。";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "你的電話號碼將顯示給你傳送訊息的人和群組。 電話號碼中包含你電話號碼的人也會在Morse上看到它。";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "無人";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "沒人會在Signal上看到你的電話號碼。";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "沒人會在Morse上看到你的電話號碼。";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "停用PIN碼";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "如果你停用PIN碼功能，你將失去所有的資料當重新註冊 Signal 的時候，除非你是從其他的 iOS 裝置轉移過來。 你停用PIN碼功能時無法啟用註冊鎖。";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "如果你停用PIN碼功能，你將失去所有的資料當重新註冊 Morse 的時候，除非你是從其他的 iOS 裝置轉移過來。 你停用PIN碼功能時無法啟用註冊鎖。";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "警告";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "PIN碼建立失敗";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN 碼可以加密 Signal 伺服器上面關於您帳號的資訊，因此只有您可以存取。重新安裝時，您的個人資訊、設定和聯絡人將從 Signal 伺服器上回復。啟動 Signal 應用程式時不需要 PIN。";
+"PIN_CREATION_EXPLANATION" = "PIN 碼可以加密 Morse 伺服器上面關於您帳號的資訊，因此只有您可以存取。重新安裝時，您的個人資訊、設定和聯絡人將從 Morse 伺服器上回復。啟動 Morse 應用程式時不需要 PIN。";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "了解更多有關PIN碼";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "我們會在幾天後再次提醒你。";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "驗證你的 Signal PIN碼";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "驗證你的 Morse PIN碼";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "我們明天會再次提醒你。";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "無效的 PIN 碼，請再嘗試一次。";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "輸入你的 Signal PIN 碼";
+"PIN_REMINDER_TITLE" = "輸入你的 Morse PIN 碼";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN 碼必須至少 4 個字元。";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "建立 PIN碼";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "PIN碼可保存於使用Signal加密儲存的資訊";
+"PINS_MEGAPHONE_BODY" = "PIN碼可保存於使用Morse加密儲存的資訊";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "我們稍後會提醒你。必須在%ld天之內創立 PIN碼。";
@@ -4418,16 +4418,16 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "剪貼簿中的電話號碼與該聊天的密碼不正確。";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal 無法在剪貼簿中找到任何安全碼。你確定複製對了嗎？";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Morse 無法在剪貼簿中找到任何安全碼。你確定複製對了嗎？";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "每一對 Signal 使用者共享一個獨特的安全碼。再次檢查%@顯示的是\"你的\"安全碼。";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "每一對 Morse 使用者共享一個獨特的安全碼。再次檢查%@顯示的是\"你的\"安全碼。";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "您使用的 Signal 版本太舊，請先更新再驗證";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "您使用的 Morse 版本太舊，請先更新再驗證";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "你朋友使用的Signal版本太舊，必須升級後才能驗證。";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "你朋友使用的Morse版本太舊，必須升級後才能驗證。";
 
 /* alert body */
 "PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "你所掃描的碼似乎不是安全碼。請確認雙方都使用最新的版本。";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "使用者無法被選擇。";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "這個使用者無法被新增到此群組直到他們升級 Signal。";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "這個使用者無法被新增到此群組直到他們升級 Morse。";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "我忘了 PIN 碼。";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "重新註冊推送通知";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "為了使Signal成為地球上最好的訊息傳遞應用程式，我們很想聽聽你的意見。";
+"RESEARCH_MEGAPHONE_BODY" = "為了使Morse成為地球上最好的訊息傳遞應用程式，我們很想聽聽你的意見。";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "告訴Signal你的想法";
+"RESEARCH_MEGAPHONE_TITLE" = "告訴Morse你的想法";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "該問卷由Surveygizmo託管在安全域Surveys.signalusers.org中";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "不，謝謝。";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>我們相信隱私。</bold>\n\nSignal無法追踪你或收集你的資料。 為了改善所有人的Signal，我們依靠使用者的回應，<bold>我們希望能收到你的反映。</bold>\n\n我們正在進行一項調查，以了解你如何使用Signal。 我們的調查不會收集任何可以識別你身份的資料。 如果你有興趣分享其他反映，則可以選擇提供聯絡資訊。\n\n如果你有幾分鐘的時間要提供反映意見，我們很高興收到你的來信。";
+"RESEARCH_MODAL_PLEA" = "<bold>我們相信隱私。</bold>\n\nMorse無法追踪你或收集你的資料。 為了改善所有人的Morse，我們依靠使用者的回應，<bold>我們希望能收到你的反映。</bold>\n\n我們正在進行一項調查，以了解你如何使用Morse。 我們的調查不會收集任何可以識別你身份的資料。 如果你有興趣分享其他反映，則可以選擇提供聯絡資訊。\n\n如果你有幾分鐘的時間要提供反映意見，我們很高興收到你的來信。";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "參加問卷";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Signal 研究";
+"RESEARCH_MODAL_TITLE" = "Morse 研究";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "重試";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "檢視";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "我們的 Signal 安全碼：\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "我們的 Morse 安全碼：\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "您與 %@ 的安全碼已改變，可能需要重新驗證";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "你必須在 iOS 設定中啟動密碼功能以使用螢幕鎖定。";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "認證以開啟 Signal。";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "認證以開啟 Morse。";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "身份認證失敗";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "解鎖 Signal";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "解鎖 Morse";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "蒂娜．烏酷酷";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "天氣預報";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "芙萊雅女主席";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "帳號不符合";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "在此裝置上更新 Signal 以將其與手機連結。";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "在此裝置上更新 Morse 以將其與手機連結。";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "不支援的版本";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "你的其他裝置執行的是舊版Signal，該版本不支援掃描iPad QR CODE。 請安裝最新版本的 Signal，然後重試。你的其他裝置執行的是舊版 Signal，該版本不支援掃描iPad QR code。 請安裝最新的Signal版本，然後重試。";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "你的其他裝置執行的是舊版Morse，該版本不支援掃描iPad QR CODE。 請安裝最新版本的 Morse，然後重試。你的其他裝置執行的是舊版 Morse，該版本不支援掃描iPad QR code。 請安裝最新的Morse版本，然後重試。";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "升級掃描裝置";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "完成連結";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "在手機上啟動Signal，以將此 iPad 連結到你的帳戶";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "在手機上啟動Morse，以將此 iPad 連結到你的帳戶";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "我手機上沒有 Signal...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "我手機上沒有 Morse...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "前往手機上的 App Store，安裝Signal，完成註冊過程，然後可以將 iPad 連結到同一帳戶。";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "前往手機上的 App Store，安裝Morse，完成註冊過程，然後可以將 iPad 連結到同一帳戶。";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "在你的手機上安裝 Signal";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "在你的手機上安裝 Morse";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "在您的手機版 Signal 點選個人資訊圖片來打開設定，然後點選「已連結的裝置」，再點選「連結新裝置」，即可使用手機掃描這個 QR code";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "在您的手機版 Morse 點選個人資訊圖片來打開設定，然後點選「已連結的裝置」，再點選「連結新裝置」，即可使用手機掃描這個 QR code";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "在這裡取得有關將 iPad連結的協助";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "用你的手機掃描 QR Code";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "在舊iPad上執行 Signal 來轉移你的帳號";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "在舊iPad上執行 Morse 來轉移你的帳號";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "安全會話已重設";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "邀請寄出失敗，請稍後再試";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "你已邀請你的朋友來使用 Signal！";
+"SEND_INVITE_SUCCESS" = "你已邀請你的朋友來使用 Morse！";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "放棄媒體檔案。";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "透過未加密的簡訊邀請朋友？";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "您是否要邀請以下號碼加入 Signal：";
+"SEND_SMS_INVITE_TITLE" = "您是否要邀請以下號碼加入 Morse：";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "高";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "標準";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal使用點對點加密，有時可能需要刷新你的聊天會話。 這不會影響你聊天的安全性，但是你可能錯過了此聯絡人的訊息，可以要求他們重新傳送。";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Morse使用點對點加密，有時可能需要刷新你的聊天會話。 這不會影響你聊天的安全性，但是你可能錯過了此聯絡人的訊息，可以要求他們重新傳送。";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "聊天會話已刷新";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "位置";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "若啟用，Signal 將嘗試繞過網路審查，除非您所在的區域會封鎖 Signal，否則不要使用這項功能";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "若啟用，Morse 將嘗試繞過網路審查，除非您所在的區域會封鎖 Morse，否則不要使用這項功能";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "根據您的電話號碼，我們已自動啟用網路審查規避";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "審查規避只能在連上網路時啟動。";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "你已經連接上 Signal服務，所以不需要啟動審查規避。";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "你已經連接上 Morse服務，所以不需要啟動審查規避。";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "啟用除錯日誌";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "新增封鎖的聯絡人";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "您沒有任何 Signal 上的聯絡人";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "您沒有任何 Morse 上的聯絡人";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "查無結果";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "永遠轉發通話";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "透過 Signal 伺服器轉發通話，來避免透露你的 IP 位址給你的聯絡人。啟用時，會降低通話品質。";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "透過 Morse 伺服器轉發通話，來避免透露你的 IP 位址給你的聯絡人。啟用時，會降低通話品質。";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "聊天";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "清除聊天歷史紀錄";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "版權Signal Messenger\n根據GPLv3版權";
+"SETTINGS_COPYRIGHT" = "版權Morse Messenger\n根據GPLv3版權";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "定期贊助";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "為你發起的所有新聊天設定預設的訊息銷毀計時器。";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "贊助 Signal";
+"SETTINGS_DONATE" = "贊助 Morse";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "幫助";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "邀請朋友";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "你可以使用 @signalapp 來與我聯繫。從這裡下載：https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "你可以使用 @signalapp 來與我聯繫。從這裡下載：https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "聊天顏色&壁紙";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "通知欄內容";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "聯絡人上線 Signal 通知";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "聯絡人上線 Morse 通知";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "在…時通知";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "啟動";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "你可以使用Signal傳送和接收MobileCoin。 所有付款均受MobileCoins和MobileCoin電子錢包使用條款的約束。 這是一項Beta版功能，因此你可能會遇到一些問題，你可能會損失的款項或餘額無法追回。";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "你可以使用Morse傳送和接收MobileCoin。 所有付款均受MobileCoins和MobileCoin電子錢包使用條款的約束。 這是一項Beta版功能，因此你可能會遇到一些問題，你可能會損失的款項或餘額無法追回。";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "啟動";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ 在 %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Signal中的付款不再可用。 你仍然可以將資金轉帳到交易所，但不能再傳送和接收付款或增加資金。";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Morse中的付款不再可用。 你仍然可以將資金轉帳到交易所，但不能再傳送和接收付款或增加資金。";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "由於你的餘額不可使用，因此無法停用付款。 檢查你的網路連接，然後重試。";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "由於你的餘額不可使用，因此無法完成付款。 檢查你的網路連接，然後重試。";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Signal中的付款不再可用。 你仍然可以將資金轉帳到交易所，但不能再傳送和接收付款或增加資金。";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Morse中的付款不再可用。 你仍然可以將資金轉帳到交易所，但不能再傳送和接收付款或增加資金。";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Signal中的付款不再可用。 你仍然可以將資金轉帳到交易所，但不能再傳送和接收付款或增加資金。";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Morse中的付款不再可用。 你仍然可以將資金轉帳到交易所，但不能再傳送和接收付款或增加資金。";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "轉換只是估算，可能不準確。";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "停用付款功能";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "如果你停用付款功能，則將無法在Signal中傳送或接收Mobilecoin。";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "如果你停用付款功能，則將無法在Morse中傳送或接收Mobilecoin。";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "要停用付款功能?";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "停用付款功能";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "建議你在停用付款功能之前將資金轉移到另一個錢包位址。 如果你選擇現在不轉移資金，那麼如果你重新啟動付款功能，這些資金將保留在與Signal關聯的錢包中。";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "建議你在停用付款功能之前將資金轉移到另一個錢包位址。 如果你選擇現在不轉移資金，那麼如果你重新啟動付款功能，這些資金將保留在與Morse關聯的錢包中。";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "如果你選擇重新啟動付款功能，妳的餘額將保留在與Signal關聯的錢包中。";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "如果你選擇重新啟動付款功能，妳的餘額將保留在與Morse關聯的錢包中。";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "停用而不轉帳嗎？";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "有關MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "你可以通過將MobileCoin傳送到你的錢包位址來增加在Signal中使用的資金。";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "你可以通過將MobileCoin傳送到你的錢包位址來增加在Morse中使用的資金。";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "加值資金";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "付款功能已啟用。";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "使用Signal傳送和接收MobileCoin，一種新的注重隱私的數位貨幣。 啟動後即可開始。";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "使用Morse傳送和接收MobileCoin，一種新的注重隱私的數位貨幣。 啟動後即可開始。";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "重新啟動付款功能";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "介紹付款方式（測試版）";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "如果你確認Signal PIN碼，重新安裝Signal時，餘額將自動回復。 你還可以使用回復短語來回復餘額，回復短語是你獨有的24字詞。 寫下並保存在安全的地方。";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "如果你確認Morse PIN碼，重新安裝Morse時，餘額將自動回復。 你還可以使用回復短語來回復餘額，回復短語是你獨有的24字詞。 寫下並保存在安全的地方。";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "加值資金";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "付款";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "你無法轉移到你的Signal錢包位址。 在支援的交易所中從你的帳戶輸入錢包位址。";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "你無法轉移到你的Morse錢包位址。 在支援的交易所中從你的帳戶輸入錢包位址。";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "你可以透過完成到交易所提供的錢包位址的轉移功能來轉帳到MobileCoin。 錢包位址是QR碼下方最常見的數字和字母字符串。";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "關閉提醒";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "請務必記住或安全存儲你的PIN碼，因為它無法回復。 如果你忘記了PIN碼，則在重新註冊Signal帳號時可能會遺失資料。";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "請務必記住或安全存儲你的PIN碼，因為它無法回復。 如果你忘記了PIN碼，則在重新註冊Morse帳號時可能會遺失資料。";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "確認你的 Signal PIN碼";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "確認你的 Morse PIN碼";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN碼提醒";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "您儲存在 Signal 伺服器上的訊息將使用 PIN 碼加密，因此只有您可以存取。重新安裝 Signal 時，您的個人資訊、設定和聯絡人將從伺服器回復。PIN 碼若遺失將無法取回。";
+"SETTINGS_PINS_FOOTER" = "您儲存在 Morse 伺服器上的訊息將使用 PIN 碼加密，因此只有您可以存取。重新安裝 Morse 時，您的個人資訊、設定和聯絡人將從伺服器回復。PIN 碼若遺失將無法取回。";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "變更你的 PIN 碼";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "建立一個PIN碼";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN 碼";
+"SETTINGS_PINS_TITLE" = "Morse PIN 碼";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "審查規避，轉發通話和密封發件人設定。";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "開啟";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "如果你在再次註冊Signal時忘記了Signal PIN碼，則你的帳號將被鎖定7天。";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "如果你在再次註冊Morse時忘記了Morse PIN碼，則你的帳號將被鎖定7天。";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "要開啟註冊鎖嗎？";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "撥打中";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "使用Touch ID、Face ID或你的iOS裝置密碼來解鎖Signal。";
+"SETTINGS_SECURITY_DETAIL" = "使用Touch ID、Face ID或你的iOS裝置密碼來解鎖Morse。";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "使用Face ID解鎖Signal。";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "使用Face ID解鎖Morse。";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "使用裝置密碼解鎖Signal。";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "使用裝置密碼解鎖Morse。";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "使用Touch ID解鎖Signal。";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "使用Touch ID解鎖Morse。";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "應用程式安全性";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "與iOS共享聯絡人";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "允許 iOS 連結 Signal 聯絡人和聊天以獲得共享建議等功能。";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "允許 iOS 連結 Morse 聯絡人和聊天以獲得共享建議等功能。";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "允許 iOS 連結 Signal 聯絡人和聊天以獲取共享建議和通知等功能。";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "允許 iOS 連結 Morse 聯絡人和聊天以獲取共享建議和通知等功能。";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signal 加油支持";
+"SETTINGS_SIGNAL_BOOST" = "Morse 加油支持";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "成為Signal 定期贊助人";
+"SETTINGS_SUBSCRIPTION" = "成為Morse 定期贊助人";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "註冊鎖";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "需要你的Signal PIN碼才能再次使用Signal註冊你的電話號碼。";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "需要你的Morse PIN碼才能再次使用Morse註冊你的電話號碼。";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "打字狀態";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "讀取中...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "啟動 Signal 應用程式來註冊。";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "啟動 Morse 應用程式來註冊。";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "尚未註冊";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "啟動 Signal 來更新或註冊。";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "啟動 Morse 來更新或註冊。";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "還沒準備好";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "上傳中...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "無法準備附檔";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "分享至 Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "分享至 Morse";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "無法關閉共享建議。";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "從其他應用程式共享時，Signal聊天現在可以顯示為建議。";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "從其他應用程式共享時，Morse聊天現在可以顯示為建議。";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "共享更加容易";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "顯示聊天";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "邀請您安裝 Signal！這裡是連結：";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "邀請您安裝 Morse！這裡是連結：";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "聲音和通知";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "繼續而不驗證？";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "為了幫助防止Signal上的垃圾訊息，請完成驗證。\n\n驗證後，你可以繼續進行訊息傳送。 任何暫停的訊息將自動傳送。";
+"SPAM_CAPTCHA_SHEET_BODY" = "為了幫助防止Morse上的垃圾訊息，請完成驗證。\n\n驗證後，你可以繼續進行訊息傳送。 任何暫停的訊息將自動傳送。";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "驗證以繼續傳送訊息";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "安裝";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signal 藝術家系列";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Morse 藝術家系列";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "你收到的貼圖";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "貢獻";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal 由像你這樣提供支援。貢獻並獲得徽章。";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse 由像你這樣提供支援。貢獻並獲得徽章。";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "在心中";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "告訴我們這個問題：";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "請透過傳電子郵件將你的支援請求到 support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "請透過傳電子郵件將你的支援請求到 support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "過濾：%@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "記錄網址：%@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal版本：%@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Morse版本：%@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS支援請求";
+"SUPPORT_EMAIL_SUBJECT" = "Morse iOS支援請求";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "你覺得如何?(可選項目)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "你閱讀過我們的問與答嗎?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "讀取中";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal 是一個沒有廣告商或投資者的非營利組織，僅由使用和重視它的人維持。 每月定期捐款並獲得個人資料成就徽章以分享你的支持。";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse 是一個沒有廣告商或投資者的非營利組織，僅由使用和重視它的人維持。 每月定期捐款並獲得個人資料成就徽章以分享你的支持。";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal 致力於開發開源隱私技術，以保護言論自由並實現安全的全球通訊。\n\n你的貢獻推動了這一事業，並為數百萬人用於私密通訊應用程式的開發和運營支付了費用。 沒有廣告。 沒有追踪器。 這絕不是開玩笑。";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morse 致力於開發開源隱私技術，以保護言論自由並實現安全的全球通訊。\n\n你的貢獻推動了這一事業，並為數百萬人用於私密通訊應用程式的開發和運營支付了費用。 沒有廣告。 沒有追踪器。 這絕不是開玩笑。";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "加入技術支援的社群是為了你打造的技術，-而不是為你的個資-。";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "仍在處理中";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "增加 Signal 的\"加油支持\"次數";
+"SUSTAINER_VIEW_ADD_BOOST" = "增加 Morse 的\"加油支持\"次數";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "得到一個 %@ 徽章";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "現在不要";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signal 由像你這樣的人提供動力。";
+"SUSTAINER_VIEW_TITLE" = "Morse 由像你這樣的人提供動力。";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "今天將向你收取新定期贊助價格的全額 (%@)。你的新定期贊助將每月更新。";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "未知的國家";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "你的某個裝置傳送了一則無法處理或顯示的訊息，因為它使用了新的 Signal 功能。";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "你的某個裝置傳送了一則無法處理或顯示的訊息，因為它使用了新的 Morse 功能。";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ 發送了一條無法處理或顯示的訊息，因為它使用了新的Signal 功能。";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ 發送了一條無法處理或顯示的訊息，因為它使用了新的Morse 功能。";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "您收到一條無法處理或顯示的消息，因為它使用了新的 Signal 功能。";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "您收到一條無法處理或顯示的消息，因為它使用了新的 Morse 功能。";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "請立即更新 Signal ";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "請立即更新 Morse ";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "已更新至最新版本的Signal。你現在可以在裝置上接收此訊息類型。";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "已更新至最新版本的Morse。你現在可以在裝置上接收此訊息類型。";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "你現在可以要求 %@ 重新傳送這個訊息因你已經使用最新版本的 Signal。";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "你現在可以要求 %@ 重新傳送這個訊息因你已經使用最新版本的 Morse。";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "你現在可以要求對方重新傳送這個訊息因你已經使用最新版本的 Signal。";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "你現在可以要求對方重新傳送這個訊息因你已經使用最新版本的 Morse。";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "未知";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "解除和「%@」的連結？";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "本裝置的 Signal 連結失效，請重新與您的手機連結";
+"UNLINKED_WARNING" = "本裝置的 Morse 連結失效，請重新與您的手機連結";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal 無法解除裝置連結";
+"UNLINKING_FAILED_ALERT_TITLE" = "Morse 無法解除裝置連結";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "未命名的裝置";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "你的裝置不支援這項功能。";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "你與 %@ 的安全碼已變更，可能是因為對方重新安裝了 Signal 或更換了裝置。輕觸「驗證」以確認新的安全碼。這是可選的。";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "你與 %@ 的安全碼已變更，可能是因為對方重新安裝了 Morse 或更換了裝置。輕觸「驗證」以確認新的安全碼。這是可選的。";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "驗證";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "了解更多有關PIN碼";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN 碼可以加密 Signal 伺服器上面關於您帳號的資訊，因此只有您可以存取。重新安裝時，您的個人資訊、設定和聯絡人將從 Signal 伺服器上回復。啟動 Signal 應用程式時不需要 PIN。";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN 碼可以加密 Morse 伺服器上面關於您帳號的資訊，因此只有您可以存取。重新安裝時，您的個人資訊、設定和聯絡人將從 Morse 伺服器上回復。啟動 Morse 應用程式時不需要 PIN。";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "介紹 PIN 碼";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "停用PIN碼";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal即將需要iOS 11或更高版本。 請在“設定”>>一般>>軟體更新中升級。";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Morse即將需要iOS 11或更高版本。 請在“設定”>>一般>>軟體更新中升級。";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "更新 iOS";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Signal上的使用者名稱是選則性的。 如果你選擇創建使用者名稱，其他Signal 使用者將能透過使用者名稱找到你，並在不知道你的電話號碼的情況下與你聯繫。";
+"USERNAME_DESCRIPTION" = "Morse上的使用者名稱是選則性的。 如果你選擇創建使用者名稱，其他Morse 使用者將能透過使用者名稱找到你，並在不知道你的電話號碼的情況下與你聯繫。";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "使用者名稱只能包涵a-z、0-9、及_";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "搜尋使用者名稱時發生錯誤。 請稍後再試。";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "%@不是 Signal 使用者。請確認你輸入完整的使用者名稱。";
+"USERNAME_NOT_FOUND_FORMAT" = "%@不是 Morse 使用者。請確認你輸入完整的使用者名稱。";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "找不到使用者";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "按住以進行記錄。";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "請至 Signal 桌面版完成設定";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "請至 Morse 桌面版完成設定";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "聯絡人姓名";

@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "今はしない";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Signalについて";
+"ABOUT_SECTION_TITLE" = "Morseについて";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "新しい安全番号を受け入れる";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "音声メッセージ %@秒";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal通話";
+"ACTION_AUDIO_CALL" = "Morse通話";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Signalへ招待";
+"ACTION_INVITE" = "Morseへ招待";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "メッセージ送信";
@@ -149,7 +149,7 @@
 "APN_Message" = "新着メッセージがあるかもしれません";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signalを起動できません。解決のため、デバッグログを support@signal.org にお送りください。";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Morseを起動できません。解決のため、デバッグログを support@devplusone.com にお送りください。";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "エラー";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "データベースを読み込めませんでした";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "最新バージョンのSignalにアップグレードしてください。";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "最新バージョンのMorseにアップグレードしてください。";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "データベースのバージョンが不明です。";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "旧端末から移行したデータを復元できませんでした。原因を調査するため、デバッグログを support@signal.org に送ってください。Signalを再インストールすると、メッセージ履歴が消える可能性があります。";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "旧端末から移行したデータを復元できませんでした。原因を調査するため、デバッグログを support@devplusone.com に送ってください。Morseを再インストールすると、メッセージ履歴が消える可能性があります。";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "移行を完了できませんでした";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "App Storeでバージョン%@を入手できます。";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "新バージョンのSignalが利用可能です";
+"APP_UPDATE_NAG_ALERT_TITLE" = "新バージョンのMorseが利用可能です";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "アップデートする";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "システム";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "アーカイブ";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "添付ファイルをエクスポートできませんでした。";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "保存に失敗しました";
 
 /* Format string for file extension label in call interstitial view */
@@ -290,7 +290,7 @@
 "ATTACHMENT_KEYBOARD_LOCATION" = "場所";
 
 /* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
-"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "写真を送信するには、Signalに写真へのアクセスを許可してください。";
+"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "写真を送信するには、Morseに写真へのアクセスを許可してください。";
 
 /* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
 "ATTACHMENT_KEYBOARD_NO_PHOTOS" = "写真を撮ると、ここから送信できます。";
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "サポーターになりませんか";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Signalをブーストしましょう";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Morseをブーストしましょう";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "あなたのブーストバッジは有効期限が切れたため、プロフィールには表示されません。\n\nSignalは使い続けられますが、あなたのために作られた技術をサポートするため、月次サポーターへの登録をご検討ください。";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "あなたのブーストバッジは有効期限が切れたため、プロフィールには表示されません。\n\nMorseは使い続けられますが、あなたのために作られた技術をサポートするため、月次サポーターへの登録をご検討ください。";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "あなたのブーストバッジは有効期限が切れたため、プロフィールには表示されません。\n\n1回の寄付で、ブーストバッジをさらに30日間有効にすることができます。";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "長い間ご利用がなかったため、あなたのサポーターサブスクリプションは自動で解除されました。あなたの%@バッジは、プロフィールに表示されなくなっています。\n\nSignalは使い続けられますが、アプリのサポートやバッジを再び有効にするには、今すぐ更新してください。";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "長い間ご利用がなかったため、あなたのサポーターサブスクリプションは自動で解除されました。あなたの%@バッジは、プロフィールに表示されなくなっています。\n\nMorseは使い続けられますが、アプリのサポートやバッジを再び有効にするには、今すぐ更新してください。";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "サポーターになりませんか";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "複数のバッジを持っている場合は、自分のプロフィールに表示するバッジを選ぶことができます。";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "%@バッジを獲得しました！このバッジをプロフィールに表示して、Signalの認知度向上に貢献してください。";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "%@バッジを獲得しました！このバッジをプロフィールに表示して、Morseの認知度向上に貢献してください。";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "バナーを閉じる";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "寄付額を選択してください";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Signalをブーストしましょう";
+"BOOST_VIEW_TITLE" = "Morseをブーストしましょう";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "追加する";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 音声通話着信あり";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "iOSの設定でマイクへのアクセスを有効にすると、Signalで通話や音声メッセージの録音ができます。";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "iOSの設定でマイクへのアクセスを有効にすると、Morseで通話や音声メッセージの録音ができます。";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "マイクへのアクセス許可が必要です";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "応答なし";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "発信する";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "カメラがオフになっています";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signalユーザ";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Morseユーザ";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "写真を撮影して送信する";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "クリップボードと比較する";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "チャットを始めるSignalユーザを選択または検索します。";
+"COMPOSE_BUTTON_HINT" = "チャットを始めるMorseユーザを選択または検索します。";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "作成";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "ユーザ名検索";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "連絡先からSignalユーザを見つけるには、iOSの設定で連絡先へのアクセスを有効にしてください。";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "連絡先からMorseユーザを見つけるには、iOSの設定で連絡先へのアクセスを有効にしてください。";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "メッセージを消去して、アプリを初期化します。処理が完了するとアプリを閉じます。";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "動作しないものがある";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "サポーター & Signalブースト";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "サポーター & Morseブースト";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "サポーター & ブースト";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signalは、サポートリクエストを完了できませんでした。";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morseは、サポートリクエストを完了できませんでした。";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "再度試す";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "音声";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Signalをサポートすると、あなたのプロフィールにバッジが表示されます。バッジをタップすると詳細が表示されます。";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Morseをサポートすると、あなたのプロフィールにバッジが表示されます。バッジをタップすると詳細が表示されます。";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "バッジ";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "アカウントを削除する";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "あなたのSignalアカウントを削除して、アプリを初期化します。処理が完了するとアプリを閉じます。";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "あなたのMorseアカウントを削除して、アプリを初期化します。処理が完了するとアプリを閉じます。";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "本当にあなたのアカウントを削除しますか？";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "電話番号";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Signal番号の確認";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Morse番号の確認";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "アカウントの削除";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "この電話番号を再登録する";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "この端末はもう登録されていません。電話番号が別の端末でSignalに登録された可能性があります。タップして再登録します。";
+"DEREGISTRATION_WARNING" = "この端末はもう登録されていません。電話番号が別の端末でMorseに登録された可能性があります。タップして再登録します。";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "最終利用: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "以前のiOS端末があれば、この端末にアカウントやメッセージを安全に移行できます。";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "以前にリンクしたiPadでSignalを使用していた場合は、この端末にアカウントやメッセージを安全に移行することができます。";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "以前にリンクしたiPadでMorseを使用していた場合は、この端末にアカウントやメッセージを安全に移行することができます。";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "アカウントやメッセージを移行せずに続行する";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "iOS端末から移行する";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "続行すると、同じ電話番号で登録されている他の端末のSignalが無効化されます。";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "続行すると、同じ電話番号で登録されている他の端末のMorseが無効化されます。";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "新しい端末を確認できませんでした、再度試してください。";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "移行のための空き領域が不足しています";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Signalを最新版にアップデートしてから再度試してください";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Morseを最新版にアップデートしてから再度試してください";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "新しいiOS端末にSignalアカウントを移動します。新しい端末を手元に置き、電源を入れてください。";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "新しいiOS端末にMorseアカウントを移動します。新しい端末を手元に置き、電源を入れてください。";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "アカウントの移行";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "旧端末でSignalを開き、近くに置いて、両方の端末でWi-FiとBluetoothを有効にしてください。";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "旧端末でMorseを開き、近くに置いて、両方の端末でWi-FiとBluetoothを有効にしてください。";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "このQRコードを他の端末のフレームの中に入れてください。";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "他の端末を待っています…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "端末同士を近づけてください。どちらの端末も電源を切らず、Signalを開いたままにしてください。転送はエンドツーエンドで暗号化されます。";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "端末同士を近づけてください。どちらの端末も電源を切らず、Morseを開いたままにしてください。転送はエンドツーエンドで暗号化されます。";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "データ受信中";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "新しい端末をカメラにかざしてください";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "端末同士を近くに置いてください。どちらも電源を切らず、Signalを開いたままにしてください。";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "端末同士を近くに置いてください。どちらも電源を切らず、Morseを開いたままにしてください。";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "データ移行中";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "金額を入力してください";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Signalへの寄付";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Morseへの寄付";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "別の方法";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "ご支援ありがとうございます！";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signalはユーザの皆様によって支えられています";
+"DONATION_VIEW_TITLE" = "Morseはユーザの皆様によって支えられています";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Signalのチームは、表現の自由を守り、安全なグローバルコミュニケーションを可能にする、オープンソースのプライバシー保護技術を開発するというミッションに取り組んでいます。\n\nあなたの寄付は、世界中の何百万人もの人々が、プライベートでリアルタイムなコミュニケーションのために使用しているアプリの開発、サーバおよび通信の費用に充てられます。";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Morseのチームは、表現の自由を守り、安全なグローバルコミュニケーションを可能にする、オープンソースのプライバシー保護技術を開発するというミッションに取り組んでいます。\n\nあなたの寄付は、世界中の何百万人もの人々が、プライベートでリアルタイムなコミュニケーションのために使用しているアプリの開発、サーバおよび通信の費用に充てられます。";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "寄付をお願いする理由";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "iOSの設定でアクセス権限を制御できます。";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "連絡先を編集するには、Signalに連絡先へのアクセス権限が必要です。";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "連絡先を編集するには、Morseに連絡先へのアクセス権限が必要です。";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "グループを編集";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "このユーザはSignalをアップグレードしていないため、グループに追加できません。";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "このユーザはMorseをアップグレードしていないため、グループに追加できません。";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "グループメンバーが上限の%@人に達しました。";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "コピー";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "こんにちは\n\n最近、私はiPhoneでのチャットにSignalを使っています。このアプリを使うと、会話や通話内容が他人に傍受されません。あなたもインストールしてみませんか？\n\nSignalはiPhoneでもAndroidでも使えます。ここからインストールできます: %@\n\nSignalは、普通のメッセージアプリと同じように使えます。写真や動画も送れますし、通話もできますし、グループでのチャットもできます。一番いいところは、Signalの開発者でさえも通信内容を傍受できない仕組みです！\n\nSignalの開発者であるOpen Whisper Systemsについての詳細は、こちらをご覧ください: %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "こんにちは\n\n最近、私はiPhoneでのチャットにMorseを使っています。このアプリを使うと、会話や通話内容が他人に傍受されません。あなたもインストールしてみませんか？\n\nMorseはiPhoneでもAndroidでも使えます。ここからインストールできます: %@\n\nMorseは、普通のメッセージアプリと同じように使えます。写真や動画も送れますし、通話もできますし、グループでのチャットもできます。一番いいところは、Morseの開発者でさえも通信内容を傍受できない仕組みです！\n\nMorseの開発者であるOpen Whisper Systemsについての詳細は、こちらをご覧ください: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "メッセージアプリをSignalにしましょう";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "メッセージアプリをMorseにしましょう";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "この端末はメールを送信できるようになっていません。サポートリクエストを送るには、この端末でメールを設定するか、support@signal.org にメールしてください。";
+"EMAIL_SIGNAL_MESSAGE" = "この端末はメールを送信できるようになっていません。サポートリクエストを送るには、この端末でメールを設定するか、support@devplusone.com にメールしてください。";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "メール利用不可";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "旅と場所";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "連絡先にSignalユーザはいないようです";
+"EMPTY_CONTACTS_LABEL_LINE1" = "連絡先にMorseユーザはいないようです";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "誰かを招待しませんか？";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "このユーザをブロックしているため、メッセージを送信できませんでした。";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signalがインターネットに接続できませんでした。再度試してください。";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Morseがインターネットに接続できませんでした。再度試してください。";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "宛先が正しくないため、メッセージ送信に失敗しました。";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "サービスから無効な応答がありました。";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "この端末はあなたの電話番号で登録されていません。Signalを再インストールしてください。";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "この端末はあなたの電話番号で登録されていません。Morseを再インストールしてください。";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "サーバにエラーが発生しました。あとで再度試してください。";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "不明なエラーが発生しました。";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "連絡先はSignalユーザではありません。";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "連絡先はMorseユーザではありません。";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "添付ファイルのダウンロードに失敗しました。";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "ネットワークエラー";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "このエラーとあなたの端末のデバッグログを support@signal.org に報告して、Signalの改善にご協力ください; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "このエラーとあなたの端末のデバッグログを support@devplusone.com に報告して、Morseの改善にご協力ください; %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: エラーが発生しました";
+"ERROR_NOTIFICATION_TITLE" = "Morse Beta: エラーが発生しました";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "この端末はもうリンクされていません。メッセージを送信するには、リンクし直してください。";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "この端末はもう登録されていません。メッセージを送信するには、再登録してください。";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "このバージョンのSignalは期限が切れています。メッセージを送信するには、アップデートしてください。";
+"ERROR_SENDING_EXPIRED" = "このバージョンのMorseは期限が切れています。メッセージを送信するには、アップデートしてください。";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "未登録ユーザ: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "このバージョンのSignalは期限が切れています！タップして最新版にアップデートします。";
+"EXPIRATION_ERROR" = "このバージョンのMorseは期限が切れています！タップして最新版にアップデートします。";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "このバージョンのSignalは%d日後に期限が切れます。タップして最新版にアップデートします。";
+"EXPIRATION_WARNING_SOON" = "このバージョンのMorseは%d日後に期限が切れます。タップして最新版にアップデートします。";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "このバージョンのSignalは今日で期限切れとなります。タップして最新版にアップデートします。";
+"EXPIRATION_WARNING_TODAY" = "このバージョンのMorseは今日で期限切れとなります。タップして最新版にアップデートします。";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "この連絡先で多数のエラーが起きました。あとで再度試してください。";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "無効なリンク";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "このグループに参加するには、この端末のSignalをアップデートしてください。";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "このグループに参加するには、この端末のMorseをアップデートしてください。";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "グループリンク経由での新メンバー参加時に、管理者の承認を要求します。";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QRコード";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Signal経由で共有する";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Morse経由で共有する";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "誰でもこのリンクから、グループの名前とメンバーを見たり、参加を申請できます。信頼できる人と共有してください。";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "レガシーグループとは？";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "レガシーグループは新しいグループにアップグレードできませんが、メンバーが最新バージョンのSignalを使用していれば、同じメンバーで新しいグループを作成できます。\n\nSignalは、レガシーグループをアップデートする方法を提供する予定です。";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "レガシーグループは新しいグループにアップグレードできませんが、メンバーが最新バージョンのMorseを使用していれば、同じメンバーで新しいグループを作成できます。\n\nMorseは、レガシーグループをアップデートする方法を提供する予定です。";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "レガシーグループをアップグレードできますか？";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "新グループを作成するには、すべてのメンバーが最新バージョンのSignalにアップデートしてください。";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "新グループを作成するには、すべてのメンバーが最新バージョンのMorseにアップデートしてください。";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "レガシーグループと新グループ";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "このグループは大きすぎるため、新しいグループにアップグレードできません。グループの上限は%@人です。";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "グループメンバー全員が新しいグループに対応したバージョンのSignalを使っている場合、このグループはアップグレードされます。";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "グループメンバー全員が新しいグループに対応したバージョンのMorseを使っている場合、このグループはアップグレードされます。";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "すべてのメッセージ履歴とメディアは、アップグレード後も維持されます。";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "古いバージョンのSignalを使っているメンバーが1人いるため、グループを作成できません。当該メンバーのSignalをアップデートするか、メンバーから外せば、新しいスタイルのグループを作成できます。";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "古いバージョンのMorseを使っているメンバーが1人いるため、グループを作成できません。当該メンバーのMorseをアップデートするか、メンバーから外せば、新しいスタイルのグループを作成できます。";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "古いバージョンのSignalを使っているメンバーが%@人いるため、グループを作成できません。当該メンバーのSignalをアップデートするか、メンバーから外せば、新しいスタイルのグループを作成できます。";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "古いバージョンのMorseを使っているメンバーが%@人いるため、グループを作成できません。当該メンバーのMorseをアップデートするか、メンバーから外せば、新しいスタイルのグループを作成できます。";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "古いバージョンのSignalを使っているメンバーが1人いるため、グループを作成できません。当該メンバーのSignalをアップデートするか、メンバーから外せば、新しいスタイルのグループを作成できます。%@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "古いバージョンのMorseを使っているメンバーが1人いるため、グループを作成できません。当該メンバーのMorseをアップデートするか、メンバーから外せば、新しいスタイルのグループを作成できます。%@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "古いバージョンのSignalを使っているメンバーが%1$@人いるため、グループを作成できません。当該メンバーのSignalをアップデートするか、メンバーから外せば、新しいスタイルのグループを作成できます。%2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "古いバージョンのMorseを使っているメンバーが%1$@人いるため、グループを作成できません。当該メンバーのMorseをアップデートするか、メンバーから外せば、新しいスタイルのグループを作成できます。%2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "古いバージョンのSignalを使用しているメンバーが1人いるため、レガシーグループが作成されます。当該メンバーのSignalをアップデートするか対象から外せば、新しいバージョンのグループを作成できます。";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "古いバージョンのMorseを使用しているメンバーが1人いるため、レガシーグループが作成されます。当該メンバーのMorseをアップデートするか対象から外せば、新しいバージョンのグループを作成できます。";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "古いバージョンのSignalを使用しているメンバーが%@人いるため、レガシーグループが作成されます。当該メンバーのSignalをアップデートするか対象から外せば、新しいバージョンのグループを作成できます。";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "古いバージョンのMorseを使用しているメンバーが%@人いるため、レガシーグループが作成されます。当該メンバーのMorseをアップデートするか対象から外せば、新しいバージョンのグループを作成できます。";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "新しいグループをサポートしないメンバーが1人いるため、このグループはレガシーグループになります。%@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "新管理者を選択する";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Signalグループは%@人以下が最適です。これよりメンバーを追加すると、メッセージの送受信で遅延が発生します。";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Morseグループは%@人以下が最適です。これよりメンバーを追加すると、メッセージの送受信で遅延が発生します。";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "推奨されるメンバー数の上限に達しました";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "お問い合わせ";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "サポートセンター";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "下書き:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "連絡先には、すでにSignalを使用中の人がいます: %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "連絡先には、すでにMorseを使用中の人がいます: %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "連絡先には、すでにSignalを使用中の人がいます: %@, %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "連絡先には、すでにMorseを使用中の人がいます: %@, %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "連絡先には、すでにSignalを使用中の人がいます: %@, %@, %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "連絡先には、すでにMorseを使用中の人がいます: %@, %@, %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "最初のチャットを始めましょう。";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "アーカイブ";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "ぼかす場所を選択してください";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "画像の共有は%@点までです。";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "写真を変更";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "設定でフルアクセスを許可したり、Signalがアクセスできる写真を変更したりできます。";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "設定でフルアクセスを許可したり、Morseがアクセスできる写真を変更したりできます。";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "写真が見えませんか？";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "携帯電話やiPadから同期したメッセージを送受信することができます。セキュリティのため、チャット履歴は新たにリンクされた端末には転送されません。";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ がSignalに参加！";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ がMorseに参加！";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "ステッカー";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "不正な音声ファイルです。";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "連絡先の友達をSignalに招待するには、iOSの設定で連絡先へのアクセスを有効にしてください。";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "連絡先の友達をMorseに招待するには、iOSの設定で連絡先へのアクセスを有効にしてください。";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "連絡先へのアクセス許可";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "友達をSignalへ招待する";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "友達をMorseへ招待する";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "検索";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "どんなリンクもプレビュー";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Signalのアカウントを移動するには、両方の端末をLANに接続する必要があります。";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Morseのアカウントを移動するには、両方の端末をLANに接続する必要があります。";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "お困りですか？";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "LANを有効にしてください";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Signalに移ってください";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Morseに移ってください";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "LAN接続を有効にしてください";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "デバッグログ";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "デバッグログは、Signalのバグとクラッシュの修正に役立ちます。";
+"LOGGING_SECTION_FOOTER" = "デバッグログは、Morseのバグとクラッシュの修正に役立ちます。";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "メッセージ";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "全員分を削除";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "このメッセージは、チャットの参加者全員が最新バージョンのSignalを使用している場合、全員で削除されます。参加者には、あなたがメッセージを削除したことがわかります。";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "このメッセージは、チャットの参加者全員が最新バージョンのMorseを使用している場合、全員で削除されます。参加者には、あなたがメッセージを削除したことがわかります。";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "このメッセージを誰から削除しますか？";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "削除してグループから抜けますか？";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "申請は慎重に確認してください。Signalに同じ名前で別の連絡先があります。";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "申請は慎重に確認してください。Morseに同じ名前で別の連絡先があります。";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "あなたの連絡先";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "既読";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "スキップ";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "不在着信";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signalでビデオ通話ができるよう、iOSの設定でカメラのアクセス権限を設定できます。";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Morseでビデオ通話ができるよう、iOSの設定でカメラのアクセス権限を設定できます。";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signalにカメラへのアクセス権限が必要です。";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Morseにカメラへのアクセス権限が必要です。";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "iOSの設定でアクセス権限を設定できます。";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "この機能を使うためには、Signalに位置情報のアクセスを許可する必要があります。";
+"MISSING_LOCATION_PERMISSION_TITLE" = "この機能を使うためには、Morseに位置情報のアクセスを許可する必要があります。";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "iOSの設定でアクセス権限を設定できます。";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "この機能を使用するには、Signalに写真へのアクセス権限が必要です。";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "この機能を使用するには、Morseに写真へのアクセス権限が必要です。";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "なし";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "チャットを始めるには、連絡先かグループを選択してください。";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Signalへようこそ";
+"NO_SELECTED_CONVERSATION_TITLE" = "Morseへようこそ";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "新規メッセージ:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "名前もメッセージも非表示";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "アプリが開いている場合のみ再生";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "メッセージに人間味を加えましょう";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "長期間使用されていなかったため、Signalを使用するには再登録が必要です。";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "長期間使用されていなかったため、Morseを使用するには再登録が必要です。";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Signalへの登録";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Morseへの登録";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "iPadを登録";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "iPhoneをリンク";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "「このiPadを登録する」をタップすると、Signalの新しいアカウントを作るか、このiPadに既存のアカウントを移行できます。これにより、現在同じ電話番号で登録されている、他の端末のSignalが無効化されます。";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "「このiPadを登録する」をタップすると、Morseの新しいアカウントを作るか、このiPadに既存のアカウントを移行できます。これにより、現在同じ電話番号で登録されている、他の端末のMorseが無効化されます。";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "「このiPhoneをリンクする」をタップすると、あなたの電話を既存のアカウントに接続します。通話などの機能が制限されるため、通常は電話をリンクすることは推奨されません。";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "このiPhoneをリンクする";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "このiPadを登録すると、現在同じ電話番号で登録されている、他の端末のSignalが無効化されます。";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "このiPadを登録すると、現在同じ電話番号で登録されている、他の端末のMorseが無効化されます。";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "このiPhoneをリンクすることは、機能が制限されるため、推奨されません。";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "アクセスを許可する";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "通知と連絡先を許可すると、メッセージの着信を確認でき、知り合いを見つけるのに役立ちます。連絡先は暗号化されているため、Signalのサービス側では見ることができません。";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "通知と連絡先を許可すると、メッセージの着信を確認でき、知り合いを見つけるのに役立ちます。連絡先は暗号化されているため、Morseのサービス側では見ることができません。";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "アクセス許可";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Signalであなたを電話番号 %@ から検索できる人を選択してください";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Morseであなたを電話番号 %@ から検索できる人を選択してください";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "あなたを電話番号から検索できる人は？";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "数分待ってから再度試してください。(%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "あなたの電話番号を入力してください";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "あなたのプライバシーを保護するために、システムはあなたに「偽の」8桁の電話番号を提供します";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "あなたの電話番号";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "あなたの電話番号"; 
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "無効な電話番号です。正しい電話番号を入力してください。";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "PINの試行回数はなくなりましたが、新しいPINを作成することでSignalアカウントにアクセスできます。プライバシーとセキュリティー保護のため、アカウントに保存されているプロフィールや設定情報は復元されません。";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "PINの試行回数はなくなりましたが、新しいPINを作成することでMorseアカウントにアクセスできます。プライバシーとセキュリティー保護のため、アカウントに保存されているプロフィールや設定情報は復元されません。";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "PINに関する詳細情報";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@ が消えるメッセージのタイマーを%@に設定しました。";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signalは技術的な問題を抱えています。私たちは、これをできるだけ早く解決するよう対応しています。";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Morseは技術的な問題を抱えています。私たちは、これをできるだけ早く解決するよう対応しています。";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "%@ に発信";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "無効な取引です";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "決済機能を利用するには、Signalをアップデートしてください。";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "決済機能を利用するには、Morseをアップデートしてください。";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "決済はまだ確認されていません";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "全員";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "連絡先にあなたの電話番号がある人には、Signalであなたが表示されます。ない場合でも検索が可能です。";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "連絡先にあなたの電話番号がある人には、Morseであなたが表示されます。ない場合でも検索が可能です。";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "なし";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "だれもSignalで電話番号からあなたを見つけられなくなります。連絡先にあなたの電話番号があっても、あなたは表示されず、電話番号による検索もできません。";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "だれもMorseで電話番号からあなたを見つけられなくなります。連絡先にあなたの電話番号があっても、あなたは表示されず、電話番号による検索もできません。";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "例: %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "自分の連絡先のみ";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "あなたの連絡先だけが、Signalであなたの電話番号を見ることができます。";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "あなたの連絡先だけが、Morseであなたの電話番号を見ることができます。";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "全員";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "あなたの電話番号は、メッセージを送信したすべての相手とグループに表示されます。連絡先にあなたの電話番号がある人にも、Signalで表示されます。";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "あなたの電話番号は、メッセージを送信したすべての相手とグループに表示されます。連絡先にあなたの電話番号がある人にも、Morseで表示されます。";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "なし";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "あなたの電話番号は、誰のSignalにも表示されません。";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "あなたの電話番号は、誰のMorseにも表示されません。";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "PINを無効化";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "PINを無効にすると、他のiOS端末から移行しない限り、Signalに再登録する際すべてのデータが失われます。PINを無効にしている間は登録ロックは使用できません。";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "PINを無効にすると、他のiOS端末から移行しない限り、Morseに再登録する際すべてのデータが失われます。PINを無効にしている間は登録ロックは使用できません。";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "ご注意ください";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "PINの作成に失敗しました";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "Signal内に保存された情報は、PINにより暗号化を保持されるため、あなたのみアクセスできます。PINを使うことで、Signalの再インストール時にあなたのプロフィール、設定および連絡先が復元されます。アプリを開く際にはPINは必要はありません。";
+"PIN_CREATION_EXPLANATION" = "Morse内に保存された情報は、PINにより暗号化を保持されるため、あなたのみアクセスできます。PINを使うことで、Morseの再インストール時にあなたのプロフィール、設定および連絡先が復元されます。アプリを開く際にはPINは必要はありません。";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "PINに関する詳細情報";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "数日後に再度お知らせします。";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Signal PINを確認";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Morse PINを確認";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "明日、再度お知らせします。";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "PINが違います。再度試してください。";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Signal PINを入力してください";
+"PIN_REMINDER_TITLE" = "Morse PINを入力してください";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PINは4桁以上の数字にしてください。";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "PINを作成";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Signalで保管される情報はPINで暗号化されます。";
+"PINS_MEGAPHONE_BODY" = "Morseで保管される情報はPINで暗号化されます。";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "あとで再度お知らせします。PINの作成は%ld日後に必須になります。";
@@ -4421,16 +4421,16 @@
 "PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "クリップボードのなかに安全番号はみつかりませんでした。正しくコピーしたか確認してください。";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "安全番号はSignalユーザの組合せごとに異なります。%@ があなた固有の安全番号を表示しているか、ダブルチェックしてください。";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "安全番号はMorseユーザの組合せごとに異なります。%@ があなた固有の安全番号を表示しているか、ダブルチェックしてください。";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "古いバージョンのSignalを使っています。検証するにはアップデートしてください。";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "古いバージョンのMorseを使っています。検証するにはアップデートしてください。";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "相手が古いバージョンのSignalを使っています。検証するにはアップデートをお願いしてください。";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "相手が古いバージョンのMorseを使っています。検証するにはアップデートをお願いしてください。";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "スキャンしたQRコードは安全番号ではないようです。二人とも最新版のSignalをお使いですか？";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "スキャンしたQRコードは安全番号ではないようです。二人とも最新版のMorseをお使いですか？";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "%@ とのエンドツーエンド暗号化のセキュリティを検証するには、上記の番号が相手の端末のものと一致するか確認してください。\n\n相手の端末上のコードをスキャンするか、あなたのコードをスキャンしてもらうことでも可能です。";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "ユーザを選択できません。";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "このユーザはSignalをアップグレードしていないため、グループに追加できません。";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "このユーザはMorseをアップグレードしていないため、グループに追加できません。";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "PINを忘れました。";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "プッシュ通知を再登録";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "Signalを地上最高のメッセージアプリにするため、皆様からのフィードバックをお待ちしています。";
+"RESEARCH_MEGAPHONE_BODY" = "Morseを地上最高のメッセージアプリにするため、皆様からのフィードバックをお待ちしています。";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Signalへご意見ください";
+"RESEARCH_MEGAPHONE_TITLE" = "Morseへご意見ください";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "このアンケートは、Surveygizmoが安全なドメイン (surveys.signalusers.org) でホストしています。";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "参加しない";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>私たちはプライバシーを尊重しています。</bold>\n\nSignalはあなたのデータを収集したり追跡することはありません。Signalをより良いものにするために、ユーザの皆様からのフィードバックを<bold>お待ちしています。</bold>\n\n私たちは、あなたのSignalの使用方法についてアンケート調査を行っています。この調査では、あなたを特定するデータを収集することはありません。追加のフィードバックを共有されたい場合は、連絡先情報を提供することもできます。\n\nお時間とご意見をお持ちの方は、ぜひご連絡ください。";
+"RESEARCH_MODAL_PLEA" = "<bold>私たちはプライバシーを尊重しています。</bold>\n\nMorseはあなたのデータを収集したり追跡することはありません。Morseをより良いものにするために、ユーザの皆様からのフィードバックを<bold>お待ちしています。</bold>\n\n私たちは、あなたのMorseの使用方法についてアンケート調査を行っています。この調査では、あなたを特定するデータを収集することはありません。追加のフィードバックを共有されたい場合は、連絡先情報を提供することもできます。\n\nお時間とご意見をお持ちの方は、ぜひご連絡ください。";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "アンケートに参加する";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Signalリサーチ";
+"RESEARCH_MODAL_TITLE" = "Morseリサーチ";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "再試行";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "表示する";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "私たちのSignal安全番号:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "私たちのMorse安全番号:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "%@ に対する安全番号が変わりました。検証した方が良いかもしれません。";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "画面ロックを使用するには、iOSの設定でパスコードを有効にしてください。";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Signalを開く際に認証します。";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Morseを開く際に認証します。";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "認証失敗";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Signalのロックを解除する";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Morseのロックを解除する";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Tina Ukuku";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "天気予報";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Freya会長";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "アカウントが一致しません";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "携帯電話とリンクするため、この端末のSignalをアップデートしてください。";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "携帯電話とリンクするため、この端末のMorseをアップデートしてください。";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "非対応バージョン";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "あなたの他の端末が、古いバージョンのSignalを使用しているため、iPadのQRコードをスキャンできません。最新のSignalをインストールして、再度試してください。";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "あなたの他の端末が、古いバージョンのMorseを使用しているため、iPadのQRコードをスキャンできません。最新のMorseをインストールして、再度試してください。";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "端末をアップデートしてください";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "リンクを完了します";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "このiPadをリンクするため、携帯電話のSignalを起動してください。";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "このiPadをリンクするため、携帯電話のMorseを起動してください。";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "私の端末にはSignalがありません…";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "私の端末にはMorseがありません…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "App StoreからSignalをインストールし、登録すると、同じアカウントにiPadをリンクできます。";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "App StoreからMorseをインストールし、登録すると、同じアカウントにiPadをリンクできます。";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Signalのインストール";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Morseのインストール";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "携帯電話のSignalであなたのアイコンをタップし、「リンク済み端末」の「新しい端末をリンク」から、このQRコードをスキャンしてください:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "携帯電話のMorseであなたのアイコンをタップし、「リンク済み端末」の「新しい端末をリンク」から、このQRコードをスキャンしてください:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "iPadのリンクに関するヘルプはこちら";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "QRコードをスキャンしてください";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "アカウントを移行するため、以前のiPadでSignalを起動してください。";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "アカウントを移行するため、以前のiPadでMorseを起動してください。";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "セキュアセッションがリセットされました。";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "招待の送信に失敗しました。あとで再度試してください。";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "友達をSignalに招待しました！";
+"SEND_INVITE_SUCCESS" = "友達をMorseに招待しました！";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "メディアを破棄する";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "安全ではないSMSで友達を招待しますか？";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "この番号をSignalに招待しますか:";
+"SEND_SMS_INVITE_TITLE" = "この番号をMorseに招待しますか:";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "高画質";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "標準";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signalはエンドツーエンドの暗号化を使用しており、時々セッションの更新が必要な場合があります。これはチャットのセキュリティには影響しませんが、この連絡先からのメッセージを失った可能性があるため、再送を依頼することができます。";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Morseはエンドツーエンドの暗号化を使用しており、時々セッションの更新が必要な場合があります。これはチャットのセキュリティには影響しませんが、この連絡先からのメッセージを失った可能性があるため、再送を依頼することができます。";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "セッションが更新されました";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "場所";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "有効にすると検閲回避を試します。Signalが検閲される場所にいない場合は有効にしないでください。";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "有効にすると検閲回避を試します。Morseが検閲される場所にいない場合は有効にしないでください。";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "検閲回避がアカウントの電話番号をもとに有効になりました";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "検閲回避機能は、インターネットに接続されている場合にのみ有効です。";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "すでにSignalサービスに接続しているため、検問回避は不要です。";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "すでにMorseサービスに接続しているため、検問回避は不要です。";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "デバッグログを有効化";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "ブロックするユーザを追加";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Signal上に連絡先がいません。";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Morse上に連絡先がいません。";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "該当なし";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "通話を常に中継する";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "すべての通話をSignalサーバで中継して、相手にIPアドレスを知られることを防ぎます。ただし通話の品質は下がります。";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "すべての通話をMorseサーバで中継して、相手にIPアドレスを知られることを防ぎます。ただし通話の品質は下がります。";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "チャット";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "チャット履歴の消去";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Copyright Signal Messenger\nLicensed under the GPLv3";
+"SETTINGS_COPYRIGHT" = "Copyright Morse Messenger\nLicensed under the GPLv3";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "サブスクリプション";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "あなたによる新規チャットでの、消えるメッセージの既定タイマーを設定します。";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Signalへの寄付";
+"SETTINGS_DONATE" = "Morseへの寄付";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "ヘルプ";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "友達を招待する";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "私への連絡は @signalapp を使ってください。入手先: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "私への連絡は @signalapp を使ってください。入手先: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "チャットの色と壁紙";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "通知内容";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "連絡先のSignal参加時";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "連絡先のMorse参加時";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "通知のタイミング";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "有効にする";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "SignalでMobileCoinを利用できます。すべての決済は、MobileCoinsとMobileCoin Walletの利用規約に準じます。この機能はベータ版であり、問題が発生したり、決済や残高を失う恐れがあります。";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "MorseでMobileCoinを利用できます。すべての決済は、MobileCoinsとMobileCoin Walletの利用規約に準じます。この機能はベータ版であり、問題が発生したり、決済や残高を失う恐れがあります。";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "決済確認の有効化";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ (%3$@現在)";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Signalの決済機能は、利用できなくなりました。取引所への振替は可能ですが、送金や受け取り、入金はできません。";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Morseの決済機能は、利用できなくなりました。取引所への振替は可能ですが、送金や受け取り、入金はできません。";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "残高が不明なため、決済機能を停止できません。インターネット接続を確認して再度試してください。";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "残高が不明なため、決済を完了できませんでした。インターネット接続を確認して再度試してください。";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Signalの決済機能は、利用できなくなりました。取引所への振替は可能ですが、送金や受け取り、入金はできません。";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Morseの決済機能は、利用できなくなりました。取引所への振替は可能ですが、送金や受け取り、入金はできません。";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Signalの決済機能は、利用できなくなりました。取引所への振替は可能ですが、送金や受け取り、入金はできません。";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Morseの決済機能は、利用できなくなりました。取引所への振替は可能ですが、送金や受け取り、入金はできません。";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "金額は概算であり、正確ではない場合があります。";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "決済機能を停止";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "決済機能を停止すると、SignalでMobilecoinを利用できなくなります。";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "決済機能を停止すると、MorseでMobilecoinを利用できなくなります。";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "決済機能を停止しますか？";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "決済機能を停止";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "決済機能を停止する前に、別のウォレットアドレスに残高を振り替えることをお勧めします。振り替えない残高は、決済機能を再開する場合、Signalにリンクされたウォレットに残ります。";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "決済機能を停止する前に、別のウォレットアドレスに残高を振り替えることをお勧めします。振り替えない残高は、決済機能を再開する場合、Morseにリンクされたウォレットに残ります。";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "残高は、決済機能を再開する場合、Signalにリンクされたウォレットに残ります。";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "残高は、決済機能を再開する場合、Morseにリンクされたウォレットに残ります。";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "振り替えずに停止しますか？";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "MobileCoinについて";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "ウォレットアドレスにMobileCoinを送信することで、Signalで使う口座に入金できます。";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "ウォレットアドレスにMobileCoinを送信することで、Morseで使う口座に入金できます。";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "入金";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "決済機能が有効になりました。";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Signalを使って、プライバシーを重視した新しいデジタル通貨であるMobileCoinを利用できます。有効化して始めましょう。";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Morseを使って、プライバシーを重視した新しいデジタル通貨であるMobileCoinを利用できます。有効化して始めましょう。";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "決済機能を再有効化";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "決済機能のご紹介 (ベータ)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Signalの再インストール時にSignal PINを確認すると、残高は自動で復元されます。また、あなた固有の24語のリカバリーフレーズを使って、残高を復元することもできます。リカバリーフレーズは、書きとめて安全な場所に保管してください。";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Morseの再インストール時にMorse PINを確認すると、残高は自動で復元されます。また、あなた固有の24語のリカバリーフレーズを使って、残高を復元することもできます。リカバリーフレーズは、書きとめて安全な場所に保管してください。";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "入金";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "決済機能";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "あなた自身のSignalのウォレットアドレスには振替できません。サポートされている取引所にある、あなたの口座のウォレットアドレスを入力してください。";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "あなた自身のMorseのウォレットアドレスには振替できません。サポートされている取引所にある、あなたの口座のウォレットアドレスを入力してください。";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "MobileCoinの振替は、取引所が提供するウォレットアドレスへの送金することで可能です。ウォレットアドレスは、一般的にQRコードの下にある文字列です。";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "リマインダーを無効にする";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "PINは復元できないため、記憶するか安全に保管してください。PINを忘れると、Signalアカウントの再登録時にデータが失われる可能性があります。";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "PINは復元できないため、記憶するか安全に保管してください。PINを忘れると、Morseアカウントの再登録時にデータが失われる可能性があります。";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Signal PINの確認";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Morse PINの確認";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PINリマインダー";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "Signal内に保存された情報は、PINにより暗号化されるため、あなたのみアクセスできます。PINは復元できません。Signalを再インストールすると、あなたのプロフィール、設定および連絡先が復元されます。";
+"SETTINGS_PINS_FOOTER" = "Morse内に保存された情報は、PINにより暗号化されるため、あなたのみアクセスできます。PINは復元できません。Morseを再インストールすると、あなたのプロフィール、設定および連絡先が復元されます。";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "PINを変更";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "PINを作成";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN";
+"SETTINGS_PINS_TITLE" = "Morse PIN";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "検閲回避、通話のリレーおよび送信者の秘匿化について設定します。";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "有効にする";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Signalに再登録する際にPINを忘れると、アカウントが7日間ロックされます。";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Morseに再登録する際にPINを忘れると、アカウントが7日間ロックされます。";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "登録ロックを有効にしますか？";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "通話";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Touch ID、Face IDまたはiOS端末のパスコードを使用して、Signalのロックを解除します。";
+"SETTINGS_SECURITY_DETAIL" = "Touch ID、Face IDまたはiOS端末のパスコードを使用して、Morseのロックを解除します。";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Face IDでSignalのロックを解除します。";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Face IDでMorseのロックを解除します。";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "端末のパスコードでSignalのロックを解除します。";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "端末のパスコードでMorseのロックを解除します。";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Face IDでSignalのロックを解除します。";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Face IDでMorseのロックを解除します。";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "アプリのセキュリティ";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "連絡先をiOSと共有する";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "iOSにSignalの連絡先やチャットへのアクセスを許可して、共有候補などの機能を利用できるようにします。";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "iOSにMorseの連絡先やチャットへのアクセスを許可して、共有候補などの機能を利用できるようにします。";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "iOSにSignalの連絡先やチャットへのアクセスを許可して、共有候補や通知などの機能を利用できるようにします。";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "iOSにMorseの連絡先やチャットへのアクセスを許可して、共有候補や通知などの機能を利用できるようにします。";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signalブースト";
+"SETTINGS_SIGNAL_BOOST" = "Morseブースト";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Signalサポーターになる";
+"SETTINGS_SUBSCRIPTION" = "Morseサポーターになる";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "登録ロック";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "あなたの電話番号をSignalに登録する際、Signal PINを要求します。";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "あなたの電話番号をMorseに登録する際、Morse PINを要求します。";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "入力中アイコン";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "読み込みんでいます…";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "ユーザ登録を行うためSignalを起動します";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "ユーザ登録を行うためMorseを起動します";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "未登録";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Signalを起動してアップデート、登録してください。";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Morseを起動してアップデート、登録してください。";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "準備できていません";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "アップロードしています…";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "添付ファイルを準備できません";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Signalと共有";
+"SHARE_EXTENSION_VIEW_TITLE" = "Morseと共有";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "共有時の提案を無効にできませんでした。";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "他のアプリから共有する際に、Signalチャットを候補として表示できるようになりました。";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "他のアプリから共有する際に、Morseチャットを候補として表示できるようになりました。";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "共有をもっと簡単に";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "チャットを表示";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Signalのインストールをお勧めします！このリンクから入手してください:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Morseのインストールをお勧めします！このリンクから入手してください:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "音と通知";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "認証せずに続けますか？";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Signalがスパムを回避するために、認証を完了していください。\n\n認証後は、メッセージの送受信を再開できます。保留中のメッセージは、自動で送信されます。";
+"SPAM_CAPTCHA_SHEET_BODY" = "Morseがスパムを回避するために、認証を完了していください。\n\n認証後は、メッセージの送受信を再開できます。保留中のメッセージは、自動で送信されます。";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "メッセージ送受信のため認証してください";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "インストール";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signalアーティストシリーズ";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Morseアーティストシリーズ";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "受信済みステッカー";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "寄付する";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signalはユーザの皆様によって支えられています。ご寄付いただきバッジを獲得してください。";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morseはユーザの皆様によって支えられています。ご寄付いただきバッジを獲得してください。";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "今はしない";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "この問題について教えてください:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "サポートリクエストを support@signal.org へメールしてください。";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "サポートリクエストを support@devplusone.com へメールしてください。";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "フィルタ: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "ログURL: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signalバージョン: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Morseバージョン: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOSサポートリクエスト";
+"SUPPORT_EMAIL_SUBJECT" = "Morse iOSサポートリクエスト";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "どう感じていますか？ (任意)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "よくある質問を読まれましたか？";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "読み込み中";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signalは、広告主や投資家を持たない非営利団体であり、Signalを利用し、評価くださる方々によって支えられています。毎月の定期的なご寄付をいただき、あなたのご支援を示すプロフィールバッジを受け取ってください。";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morseは、広告主や投資家を持たない非営利団体であり、Morseを利用し、評価くださる方々によって支えられています。毎月の定期的なご寄付をいただき、あなたのご支援を示すプロフィールバッジを受け取ってください。";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signalは、表現の自由を守り、安全なグローバルコミュニケーションを可能にする、オープンソースのプライバシー保護技術の開発に取り組んでいます。\n\nあなたの寄付はこの活動を後押しし、何百万人もの人々がプライベートなコミュニケーションに使用する、アプリの開発と運営に充てられます。広告はありません。トラッカーもいません。";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morseは、表現の自由を守り、安全なグローバルコミュニケーションを可能にする、オープンソースのプライバシー保護技術の開発に取り組んでいます。\n\nあなたの寄付はこの活動を後押しし、何百万人もの人々がプライベートなコミュニケーションに使用する、アプリの開発と運営に充てられます。広告はありません。トラッカーもいません。";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "データのためではなく、あなたのために作られた技術を支えるコミュニティに参加して、サポートをお願いします。";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "処理を継続しています";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Signalブーストを追加";
+"SUSTAINER_VIEW_ADD_BOOST" = "Morseブーストを追加";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "%@バッジを獲得しましょう";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "今はしない";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signalはユーザの皆様によって支えられています";
+"SUSTAINER_VIEW_TITLE" = "Morseはユーザの皆様によって支えられています";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "本日、新しいサブスクリプション価格の全額 (%@) が請求されます。あなたのサブスクリプションは毎月更新されます。";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "不明な国名";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "あなたの端末の1つが、Signalの新機能を使用してメッセージを送信したため、ここでは処理または表示できません。";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "あなたの端末の1つが、Morseの新機能を使用してメッセージを送信したため、ここでは処理または表示できません。";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ からメッセージが届きましたが、Signalの新機能が使用されているため、処理または表示できませんでした。";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ からメッセージが届きましたが、Morseの新機能が使用されているため、処理または表示できませんでした。";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "メッセージが届きましたが、Signalの新機能が使用されているため、処理または表示できませんでした。";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "メッセージが届きましたが、Morseの新機能が使用されているため、処理または表示できませんでした。";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "いますぐSignalをアップデートする";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "いますぐMorseをアップデートする";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "最新版のSignalにアップデートしました。この端末でもこのタイプのメッセージを受信できます。";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "最新版のMorseにアップデートしました。この端末でもこのタイプのメッセージを受信できます。";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Signalを最新版にアップデートしたため、このメッセージの再送を %@ に依頼できます。";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Morseを最新版にアップデートしたため、このメッセージの再送を %@ に依頼できます。";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Signalをアップデートしたので、メッセージの再送を依頼してください。";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Morseをアップデートしたので、メッセージの再送を依頼してください。";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "不明";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "この端末はこの機能に対応していません。";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "相手がSignalを再インストールしたか端末を変更したため、%@ に対する安全番号が変わりました。タップして新しい安全番号を検証してください。これは任意です。";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "相手がMorseを再インストールしたか端末を変更したため、%@ に対する安全番号が変わりました。タップして新しい安全番号を検証してください。これは任意です。";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "検証する";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "PINに関する詳細情報";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "Signal内に保存された情報は、PINにより暗号化を保持されるため、あなたのみアクセスできます。PINを使うことで、Signalの再インストール時にあなたのプロフィール、設定および連絡先が復元されます。アプリを開く際にはPINは必要はありません。";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "Morse内に保存された情報は、PINにより暗号化を保持されるため、あなたのみアクセスできます。PINを使うことで、Morseの再インストール時にあなたのプロフィール、設定および連絡先が復元されます。アプリを開く際にはPINは必要はありません。";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "PINの紹介";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "PINを無効にする";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "SignalはもうすぐiOS 11以上のみの対応になります。設定 >> 一般 >> ソフトウェアアップデートからアップグレードしてください。";
+"UPGRADE_IOS_ALERT_MESSAGE" = "MorseはもうすぐiOS 11以上のみの対応になります。設定 >> 一般 >> ソフトウェアアップデートからアップグレードしてください。";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "iOSのアップグレード";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Signalのユーザ名作成は任意です。ユーザ名を作成すると、他のSignalユーザはあなたの電話番号を知らなくても、あなたにこのユーザ名で連絡できるようになります。";
+"USERNAME_DESCRIPTION" = "Morseのユーザ名作成は任意です。ユーザ名を作成すると、他のMorseユーザはあなたの電話番号を知らなくても、あなたにこのユーザ名で連絡できるようになります。";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "ユーザ名には半角の英数字とアンダーバーのみ使用できます。";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "ユーザ名の検索でエラーが発生しました。あとで再度試してください。";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "%@ はSignalユーザではありません。ユーザ名を確認してください。";
+"USERNAME_NOT_FOUND_FORMAT" = "%@ はMorseユーザではありません。ユーザ名を確認してください。";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "ユーザが見つかりません";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "長押しで録音します。";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Signal Desktopの設定が完了しました。";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Morse Desktopの設定が完了しました。";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "連絡先名";

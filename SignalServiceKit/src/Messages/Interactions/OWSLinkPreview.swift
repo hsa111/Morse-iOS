@@ -715,7 +715,7 @@ fileprivate extension OWSLinkPreviewManager {
             return stickerPackShareDomain(forUrl: url)
         }
         if GroupManager.isPossibleGroupInviteLink(url) {
-            return "signal-plus.org"
+            return "devplusone.com"
         }
         return url.host
     }

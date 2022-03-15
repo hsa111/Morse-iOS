@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Mitte praegu";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Teave Signali kohta";
+"ABOUT_SECTION_TITLE" = "Teave Morsei kohta";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Kinnita uus turvanumber";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "Häälsõnum %@ sekundit";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signali kõne";
+"ACTION_AUDIO_CALL" = "Morsei kõne";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Kutsu Signalisse";
+"ACTION_INVITE" = "Kutsu Morseisse";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Saada sõnum";
@@ -149,7 +149,7 @@
 "APN_Message" = "Sul võib olla uusi sõnumeid";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal ei saa käivituda. Palun saada silumislogi aadressile support@signal.org, et saaksime seda olukorda uurida.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Morse ei saa käivituda. Palun saada silumislogi aadressile support@devplusone.com, et saaksime seda olukorda uurida.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Tõrge";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Andmebaasi laadimine ei õnnestunud";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Palun uuenda uusimale Signali versioonile.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Palun uuenda uusimale Morsei versioonile.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Tundmatu andmebaasi versioon.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Sinu vanast seadmest ülekantud andmeid ei õnnestunud taastada. Palun saada silumislogi aadressile support@signal.org, et saaksime seda olukorda uurida. Pärast Signali uuesti paigaldamist võib sõnumite ajalugu kaduda.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Sinu vanast seadmest ülekantud andmeid ei õnnestunud taastada. Palun saada silumislogi aadressile support@devplusone.com, et saaksime seda olukorda uurida. Pärast Morsei uuesti paigaldamist võib sõnumite ajalugu kaduda.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Andmete ülekandmine ei õnnestunud";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Versioon %@ on nüüd App Store'is saadaval.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Signali uus versioon on saadaval";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Morsei uus versioon on saadaval";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Uuenda";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "Süsteem";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "Arhiveeri";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Manuse eksportimine ei õnnestunud.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Salvestamine ei õnnestunud";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Become a Sustainer";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Anna Signalile hoogu";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Anna Morseile hoogu";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Signal but to support technology that is built for you, please consider becoming a monthly Sustainer.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Morse but to support technology that is built for you, please consider becoming a monthly Sustainer.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can reactivate your Boost badge for another 30 days with a one-time contribution.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Morse but to support the app and reactivate your badge, renew now.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Become a Sustainer";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "When you have more than one badge, you can choose one to feature for others to see on your profile.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned the %@ badge! Help Signal build awareness by displaying this badge on your profile.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned the %@ badge! Help Morse build awareness by displaying this badge on your profile.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Sulge bänner";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Vali annetuseks summa";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Anna Signalile hoogu";
+"BOOST_VIEW_TITLE" = "Anna Morseile hoogu";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Lisa";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 Vastamata häälkõne";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Kõnede ja häälsõnumite tegemiseks on vaja anda rakenduses Settings anda Signalile juurdepääs mikrofonile.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Kõnede ja häälsõnumite tegemiseks on vaja anda rakenduses Settings anda Morseile juurdepääs mikrofonile.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Juurdepääs mikrofonile on vajalik";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Vastust pole";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Helista";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Sinu kaamera on väljas";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signali kasutaja";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Morsei kasutaja";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Pildista foto ja siis saada see";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Võrdle lõikepuhvriga";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Vestluse alustamiseks otsi või vali Signali kasutaja.";
+"COMPOSE_BUTTON_HINT" = "Vestluse alustamiseks otsi või vali Morsei kasutaja.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Koosta";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Kasutajanime otsing";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "iOS-i sätetes on võimalik lubada juurdepääs kontaktidele, et näha, kes sinu kontaktidest on Signali kasutajad.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "iOS-i sätetes on võimalik lubada juurdepääs kontaktidele, et näha, kes sinu kontaktidest on Morsei kasutajad.";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "See lähtestab rakenduse, kustutades kõik sõnumid. Rakendus sulgub pärast selle protsessi lõppemist.";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Midagi ei tööta";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Sustainers & Signal Boost";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Sustainers & Morse Boost";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Sustainers & Boost";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signalil ei õnnestunud su kasutajatoetaotlust täita.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morseil ei õnnestunud su kasutajatoetaotlust täita.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Proovi uuesti";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "häälkõne";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Signal. Tap a badge to learn more.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Morse. Tap a badge to learn more.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Märgid";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Kustuta konto";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "See kustutab su Signali konto ja lähtestab rakenduse. Rakendus sulgub pärast selle protsessi lõppemist.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "See kustutab su Morsei konto ja lähtestab rakenduse. Rakendus sulgub pärast selle protsessi lõppemist.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Kas sa tõesti soovid enda kontot kustutada?";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Telefoninumber";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Kinnita Signali number";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Kinnita Morsei number";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Kustuta konto";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Registreeri see telefoninumber uuesti";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Seade ei ole enam registreeritud. Sinu telefoninumber võib olla registreeritud Signalis mõne teise seadmega. Klõpsa uuesti registreerimiseks.";
+"DEREGISTRATION_WARNING" = "Seade ei ole enam registreeritud. Sinu telefoninumber võib olla registreeritud Morseis mõne teise seadmega. Klõpsa uuesti registreerimiseks.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Viimati aktiivne: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Kui sul on vana iOS seade alles, siis saad enda konto ja sõnumid sellesse seadmesse turvaliselt üle kanda.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Kui kasutasid varem Signalit ühendatud iPadis, siis saad enda konto ja sõnumid sellesse seadmesse turvaliselt üle kanda.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Kui kasutasid varem Morseit ühendatud iPadis, siis saad enda konto ja sõnumid sellesse seadmesse turvaliselt üle kanda.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Jätka kontot ja sõnumeid üle kandmata";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Kanna üle iOS seadmest";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Jätkates keelatakse Signal teistes hetkel sama telefoninumbriga registreeritud seadmetes.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Jätkates keelatakse Morse teistes hetkel sama telefoninumbriga registreeritud seadmetes.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Uue seadme kinnitamine ei õnnestunud. Palun proovi hiljem uuesti";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Ülekandmise lõpetamiseks pole piisavalt vaba ruumi";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Uuenda uusimale Signali versioonile ja proovi uuesti";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Uuenda uusimale Morsei versioonile ja proovi uuesti";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Teisalda Signali konto uude iOS seadmesse. Kontrolli, et uus seade oleks läheduses ja sisse lülitatud.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Teisalda Morsei konto uude iOS seadmesse. Kontrolli, et uus seade oleks läheduses ja sisse lülitatud.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Kanna konto üle";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Ava Signal vanas seadmes, too see lähedale ja kontrolli, et Wi-Fi ja Bluetooth oleks mõlemas seadmes lubatud.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Ava Morse vanas seadmes, too see lähedale ja kontrolli, et Wi-Fi ja Bluetooth oleks mõlemas seadmes lubatud.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Paiguta QR-kood teise seadme raami sisse.";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Teise seadme ootamine...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Hoia mõlemat seadet üksteise lähedal. Ära lülita kumbagi seadet või ja hoia Signal avatuna. Ülekanded  on otspunktkrüptitud.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Hoia mõlemat seadet üksteise lähedal. Ära lülita kumbagi seadet või ja hoia Morse avatuna. Ülekanded  on otspunktkrüptitud.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Andmete vastuvõtmine";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Hoia uut seadet kaamera ees";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Hoia mõlemat seadet üksteise lähedal. Ära lülita kumbagi seadet välja ja hoia Signal avatuna.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Hoia mõlemat seadet üksteise lähedal. Ära lülita kumbagi seadet välja ja hoia Morse avatuna.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Andmete ülekandmine";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Sisesta kohandatud summa";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Annetus Signalile";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Annetus Morseile";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "Muud viisid annetamiseks";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "Aitäh sinu toetuse eest!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signalit loovad sinusugused inimesed.";
+"DONATION_VIEW_TITLE" = "Morseit loovad sinusugused inimesed.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Signali meeskond on pühendunud missioonile arendada avatud lähtekoodiga privaatsustehnoloogiat, mis kaitseb väljendusvabadust ja võimaldab turvalist ülemaailmset suhtlust. Sinu panus toidab seda põhjust. Reklaame pole. Jälgijaid pole. Ilma naljata.\n\nSinu annetus aitab maksta arendustööde, serverite ja ribalaiuse eest, loomaks rakenduste, mida kasutavad miljonid inimesed kogu maailmas privaatseks ja koheseks suhtluseks.";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Morsei meeskond on pühendunud missioonile arendada avatud lähtekoodiga privaatsustehnoloogiat, mis kaitseb väljendusvabadust ja võimaldab turvalist ülemaailmset suhtlust. Sinu panus toidab seda põhjust. Reklaame pole. Jälgijaid pole. Ilma naljata.\n\nSinu annetus aitab maksta arendustööde, serverite ja ribalaiuse eest, loomaks rakenduste, mida kasutavad miljonid inimesed kogu maailmas privaatseks ja koheseks suhtluseks.";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "Miks annetada?";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Juurdepääs on võimalik anda iOS rakenduses Settings.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Kontakti info muutmiseks vajab Signal juurdepääsu kontaktidele";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Kontakti info muutmiseks vajab Morse juurdepääsu kontaktidele";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Muuda gruppi";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Seda kasutajat ei saa enne gruppi lisada, kui ta on uuendanud oma Signalit.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Seda kasutajat ei saa enne gruppi lisada, kui ta on uuendanud oma Morseit.";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "Maksimaalne grupi liikmete arv %@ on täidetud.";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Kopeeri";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Tervist!\n\nOlen viimasel ajal kasutanud vestluste iPhone'is privaatsena hoidmiseks rakendust Signal. Soovin, et sinagi paigaldaks selle, et saaksime kindlad olla, et ainult sina ja mina saame meie sõnumeid lugeda ning kõnesid kuulda.\n\nSignal on saadaval nii iOS kui Android seadmetele. Paigaldada saab siit: %@\n\nSignal töötab nagu teisedki sõnumirakendused: saame saata pilte ja videosid, teha kõnesid ja alustada grupivestlusi. Parim seejuures on, et mitte keegi teine ei saa seda näha, isegi mitte Signali loojad!\n\nLoe täpsemalt Signali looja Open Whisper Systemsi kohta siit: %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "Tervist!\n\nOlen viimasel ajal kasutanud vestluste iPhone'is privaatsena hoidmiseks rakendust Morse. Soovin, et sinagi paigaldaks selle, et saaksime kindlad olla, et ainult sina ja mina saame meie sõnumeid lugeda ning kõnesid kuulda.\n\nMorse on saadaval nii iOS kui Android seadmetele. Paigaldada saab siit: %@\n\nMorse töötab nagu teisedki sõnumirakendused: saame saata pilte ja videosid, teha kõnesid ja alustada grupivestlusi. Parim seejuures on, et mitte keegi teine ei saa seda näha, isegi mitte Morsei loojad!\n\nLoe täpsemalt Morsei looja Open Whisper Systemsi kohta siit: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Lülitume Signalile";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "Lülitume Morseile";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Sinu seade pole seadistatud e-kirjasid saatma. Kasutajatoetaotluse saatmiseks seadista oma seadmes e-kirjade saatmine või saada kiri aadressile support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Sinu seade pole seadistatud e-kirjasid saatma. Kasutajatoetaotluse saatmiseks seadista oma seadmes e-kirjade saatmine või saada kiri aadressile support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-post pole saadaval";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Reisimine ja kohad";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Ükski sinu kontaktidest ei kasuta Signalit.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Ükski sinu kontaktidest ei kasuta Morseit.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Miks mitte neid kutsuda?";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Kasutajale sõnumi saatmine ei õnnestunud, sest oled ta blokeerinud.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signalil ei õnnestunud internetti ühenduda. Palun proovi uuesti.";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Morseil ei õnnestunud internetti ühenduda. Palun proovi uuesti.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Sõnumi saatmine ei õnnestunud kehtivate saajate puudumise tõttu.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Vigane vastus teenuselt.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "See seade ei ole enam sinu telefoninumbriga registreeritud. Palun paigalda Signal uuesti.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "See seade ei ole enam sinu telefoninumbriga registreeritud. Palun paigalda Morse uuesti.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Serveri tõrge. Palun proovi hiljem uuesti.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Ilmnes tundmatu tõrge.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt ei ole Signali kasutaja.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt ei ole Morsei kasutaja.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Manuse allalaadimine ei õnnestunud.";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "Võrgutõrge";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Palun aita meil Signalit täiustada, saates selle tõrkekirjelduse koos sinu seadmest pärit silumislogidega aadressil support@signal.org; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Palun aita meil Morseit täiustada, saates selle tõrkekirjelduse koos sinu seadmest pärit silumislogidega aadressil support@devplusone.com; %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal beeta: Ilmnes tõrge";
+"ERROR_NOTIFICATION_TITLE" = "Morse beeta: Ilmnes tõrge";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Su seade pole enam ühendatud. Sõnumite saatmise jätkamiseks ühenda palun uuesti.";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "Sinu seade ei ole enam registreeritud. Sõnumite saatmise jätkamiseks palun registreeri uuesti.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Sinu Signali versioon on aegunud. Palun uuenda rakendust sõnumite saatmise jätkamiseks.";
+"ERROR_SENDING_EXPIRED" = "Sinu Morsei versioon on aegunud. Palun uuenda rakendust sõnumite saatmise jätkamiseks.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Registreerimata kasutaja: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Sinu Signali versioon on aegunud! Klõpsa uusimale versioonile uuendamiseks.";
+"EXPIRATION_ERROR" = "Sinu Morsei versioon on aegunud! Klõpsa uusimale versioonile uuendamiseks.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Sinu Signali versioon aegub %d päeva pärast. Koputa, et uuendada kõige uuemale versioonile.";
+"EXPIRATION_WARNING_SOON" = "Sinu Morsei versioon aegub %d päeva pärast. Koputa, et uuendada kõige uuemale versioonile.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Sinu Signali versioon aegub täna. Koputa, et uuendada kõige uuemale versioonile.";
+"EXPIRATION_WARNING_TODAY" = "Sinu Morsei versioon aegub täna. Koputa, et uuendada kõige uuemale versioonile.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Liiga palju ebaõnnestumisi selle kontaktiga. Palun proovi hiljem uuesti.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Vigane link";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Selle grupiga liitumiseks pead selles seadmes Signalit uuendama.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Selle grupiga liitumiseks pead selles seadmes Morseit uuendama.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Nõua grupilingi kaudu liituvate uute liikmete kinnitamist administraatori poolt.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR-kood";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Jaga Signali kaudu";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Jaga Morsei kaudu";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Igaüks saab selle lingi kaudu näha grupi nime ja liikmeid ning saata taotluse liitumiseks. Jaga seda isikutega, keda usaldad.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Mis on vanad grupid?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Vanu gruppe ei saa veel uuteks gruppideks uuendada, aga sa saad luua samade liikmetega uue grupi, kui need liikmed kasutavad uusimat Signali versiooni.\n\nSignal pakub tulevikus vanade gruppide uuteks gruppideks uuendamise võimalust.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Vanu gruppe ei saa veel uuteks gruppideks uuendada, aga sa saad luua samade liikmetega uue grupi, kui need liikmed kasutavad uusimat Morsei versiooni.\n\nMorse pakub tulevikus vanade gruppide uuteks gruppideks uuendamise võimalust.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Kas saan vana gruppi uuendada?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Uue grupi loomiseks peavad kõik liikmed uuendama enda Signali uusimale versioonile.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Uue grupi loomiseks peavad kõik liikmed uuendama enda Morsei uusimale versioonile.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Vanad vs uued grupid";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Seda gruppi ei saa uueks grupiks uuendada, sest sellel on liiga palju liikmeid. Maksimaalne grupi suurus, mida saab uuendada on %@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Kui kõik praegused grupi liikmed kasutavad Signali versiooni, mis on võimeline uue grupiga liituma, siis uuendatakse seda gruppi.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Kui kõik praegused grupi liikmed kasutavad Morsei versiooni, mis on võimeline uue grupiga liituma, siis uuendatakse seda gruppi.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Kogu sõnumite ajalugu ja meediafailid jäävad alles.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Seda gruppi pole võimalik luuga, kuna 1 liige kasutab Signali vana versiooni. Sul on võimalik luua temaga uus grupp pärast seda, kui ta uuendab enda Signalit või eemaldada nad enne grupi loomist.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Seda gruppi pole võimalik luuga, kuna 1 liige kasutab Morsei vana versiooni. Sul on võimalik luua temaga uus grupp pärast seda, kui ta uuendab enda Morseit või eemaldada nad enne grupi loomist.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Seda gruppi pole võimalik luuga, kuna %@ liiget kasutavad Signali vana versiooni. Sul on võimalik luua nendega uus grupp pärast seda, kui nad uuendavad enda Signalit või eemaldada nad enne grupi loomist.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Seda gruppi pole võimalik luuga, kuna %@ liiget kasutavad Morsei vana versiooni. Sul on võimalik luua nendega uus grupp pärast seda, kui nad uuendavad enda Morseit või eemaldada nad enne grupi loomist.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Seda gruppi pole võimalik luua, kuna 1 liige kasutab Signali vana versiooni. Sul on võimalik luua nendega uus grupp pärast seda, kui nad uuendavad enda Signali või eemaldada nad enne grupi loomist. %@.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Seda gruppi pole võimalik luua, kuna 1 liige kasutab Morsei vana versiooni. Sul on võimalik luua nendega uus grupp pärast seda, kui nad uuendavad enda Morsei või eemaldada nad enne grupi loomist. %@.";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Seda gruppi pole võimalik luua,  kuna %1$@  kuna 1 liige kasutab Signali vana versiooni. Sul on võimalik luua nendega uus grupp pärast seda, kui nad uuendavad enda Signali või eemaldada nad enne grupi loomist. %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Seda gruppi pole võimalik luua,  kuna %1$@  kuna 1 liige kasutab Morsei vana versiooni. Sul on võimalik luua nendega uus grupp pärast seda, kui nad uuendavad enda Morsei või eemaldada nad enne grupi loomist. %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Luuakse vana grupp, sest 1 liige kasutab Signali vana versiooni. Selle kasutajaga on võimalik uus grupp luua pärast seda, kui ta on Signali uuendanud või eemalda ta enne uue grupi loomist.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Luuakse vana grupp, sest 1 liige kasutab Morsei vana versiooni. Selle kasutajaga on võimalik uus grupp luua pärast seda, kui ta on Morsei uuendanud või eemalda ta enne uue grupi loomist.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Luuakse vana grupp, sest %@ liiget kasutavad Signali vana versiooni. Nende kasutajatega on võimalik uus grupp luua pärast seda, kui nad on Signali uuendanud või eemalda nad enne uue grupi loomist.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Luuakse vana grupp, sest %@ liiget kasutavad Morsei vana versiooni. Nende kasutajatega on võimalik uus grupp luua pärast seda, kui nad on Morsei uuendanud või eemalda nad enne uue grupi loomist.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "1 liige ei toeta uusi gruppe, seega luuakse vana grupp. %@";
@@ -2816,10 +2816,10 @@
 "GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_2_BODY" = "Kogu täienduse-eelne sõnumiajalugu ja -meedia on alles.";
 
 /* Body text for the 'dropped member' section of the 'upgrade legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_1" = "See liige eemaldati grupist ja ei saa grupiga uuesti liituda senikaua kuni pole Signalit uuendanud:";
+"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_1" = "See liige eemaldati grupist ja ei saa grupiga uuesti liituda senikaua kuni pole Morseit uuendanud:";
 
 /* Body text for the 'dropped members' section of the 'upgrade legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_N" = "Need liikmed eemaldati grupist ja ei saa grupiga uuesti liituda senikaua kuni pole Signalit uuendanud:";
+"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_N" = "Need liikmed eemaldati grupist ja ei saa grupiga uuesti liituda senikaua kuni pole Morseit uuendanud:";
 
 /* Body text for the 'invites member' section of the 'upgrade legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_INVITED_MEMBERS_1" = "See liige peab selle grupiga liitumise kutse uuesti vastu võtma ning ei saa enne nõustumist grupi sõnumeid näha:";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "Vali uus administraator";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Signali grupid toimivad kõige paremini %@ või vähema liikmega. Rohkem liikmete lisamine põhjustab viivitusi sõnumite saatmises ja saamises.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Morsei grupid toimivad kõige paremini %@ või vähema liikmega. Rohkem liikmete lisamine põhjustab viivitusi sõnumite saatmises ja saamises.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "Jõuti soovitatava liikmete arvu piirini";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Võta meiega ühendust";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "Kasutajatugi";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Mustand:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Mõned su kontaktidest kasutavad juba Signalit, kaasaarvatud %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Mõned su kontaktidest kasutavad juba Morseit, kaasaarvatud %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Mõned su kontaktidest juba kasutavad Signalit, kaasaarvatud %@ ja %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Mõned su kontaktidest juba kasutavad Morseit, kaasaarvatud %@ ja %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Mõned su kontaktidest juba kasutavad Signalit, kaasaarvatud %@, %@ ja %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Mõned su kontaktidest juba kasutavad Morseit, kaasaarvatud %@, %@ ja %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Alusta siin enda esimest vestlust.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Arhiiv";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "Hägustamiseks joonista kuhugi";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Sa ei saa jagada rohkem kui %@ üksust.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Muuda fotosid";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Luba sätetes täielik ligipääs või muuda, millistele fotodele on Signalil ligipääs.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Luba sätetes täielik ligipääs või muuda, millistele fotodele on Morseil ligipääs.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Kas sa ei näe enda fotosid?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "Sul on võimalik saata ja saada enda telefonist või iPadist sünkroonitud sõnumeid. ↵Sinu turvalisuse huvides ei kanta vestluste ajalugu uutesse ühendatud seadmetesse üle.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ kasutab Signalit!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ kasutab Morseit!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "Kleebised";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Vigane audiofail.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "iOS-i sätetes on võimalik lubada juurdepääs kontaktidele, et saaksid kutsuda sõpru Signalit kasutama.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "iOS-i sätetes on võimalik lubada juurdepääs kontaktidele, et saaksid kutsuda sõpru Morseit kasutama.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Juurdepääs kontaktidele";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Kutsu sõpru Signalisse";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Kutsu sõpru Morseisse";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Otsi";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "Iga lingi eelvaade";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Sinu Signali konto ülekandmiseks pead mõlemas seadmes lubama ligipääsu kohalikule võrgule.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Sinu Morsei konto ülekandmiseks pead mõlemas seadmes lubama ligipääsu kohalikule võrgule.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Kas vajad abi?";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Lülita sisse \"Kohalik võrk\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Liigu Signalisse";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Liigu Morseisse";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Lülita sisse Ligipääs kohalikule võrgule";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "Logimine";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Silumislogid aitavad Signalil tõrkeid ja krahhe parandada.";
+"LOGGING_SECTION_FOOTER" = "Silumislogid aitavad Morseil tõrkeid ja krahhe parandada.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Sõnum";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Kustuta kõigi jaoks";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "See sõnum kustutatakse kõigilt vestluse liikmetelt, kui nad kasutavad Signali värsket versiooni. Nad näevad, et sa kustutasid sõnumi.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "See sõnum kustutatakse kõigilt vestluse liikmetelt, kui nad kasutavad Morsei värsket versiooni. Nad näevad, et sa kustutasid sõnumi.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Kelle jaoks soovid seda sõnumit kustutada?";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Kas kustutada ja lahkuda grupist?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Kontrolli taotlust hoolega. Signal leidis ka teise samanimelise kontakti.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Kontrolli taotlust hoolega. Morse leidis ka teise samanimelise kontakti.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Sinu kontakt";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Loetud";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Vahele jäetud";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "Vastamata kõne";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signaliga videokõnede tegemiseks on võimalik iOSi sätetes lubada juurdepääs kaamerale.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Morseiga videokõnede tegemiseks on võimalik iOSi sätetes lubada juurdepääs kaamerale.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal vajab juurdepääsu sinu kaamerale.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Morse vajab juurdepääsu sinu kaamerale.";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "See õigus on võimalik lubada iOS-i rakenduses Settings.";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal vajab selle funktsionaalsuse kasutamiseks juurdepääsu su asukohale.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Morse vajab selle funktsionaalsuse kasutamiseks juurdepääsu su asukohale.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "See õigus on võimalik lubada iOS-i rakenduses Settings.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Signal vajab selle funktsionaalsuse kasutamiseks juurdepääsu sinu fotodele.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Morse vajab selle funktsionaalsuse kasutamiseks juurdepääsu sinu fotodele.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Puudub";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "Vestluse alustamiseks vali kontakt või grupp.";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Tere tulemast Signalit kasutama";
+"NO_SELECTED_CONVERSATION_TITLE" = "Tere tulemast Morseit kasutama";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "Uus sõnum kasutajale:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Nimi või sisu puudub";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Mängi, kui rakendus on avatud";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "Lisa sõnumitele pisut inimlikkust";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Kuna sa pole kaua aega aktiivne olnud, siis pead Signali kasutamiseks end uuesti registreerima.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Kuna sa pole kaua aega aktiivne olnud, siis pead Morsei kasutamiseks end uuesti registreerima.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Registreeru Signalisse";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Registreeru Morseisse";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "Registreeri iPad";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Ühenda iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Klõpsmine nupul \"Registreeri iPad\" võimaldab luua uue Signali konto või teisaldada olemasolev konto sellesse iPadi. See keelab Signali kõigil teistel sama telefoninumbriga hetkel registreeritud seadmetel.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Klõpsmine nupul \"Registreeri iPad\" võimaldab luua uue Morsei konto või teisaldada olemasolev konto sellesse iPadi. See keelab Morsei kõigil teistel sama telefoninumbriga hetkel registreeritud seadmetel.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Klõpsamine nupul \"Ühenda iPhone\" võimaldab sul ühendada enda telefon olemasoleva kontoga. Telefoni ühendamine üldiselt ei ole soovitatud ja limiteerib osasid funktsioone, näiteks helistamine.";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Ühenda see iPhone";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Selle iPadi registreerimine keelab Signali kõigil teistel sama telefoninumbriga hetkel registreeritud seadmetel.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Selle iPadi registreerimine keelab Morsei kõigil teistel sama telefoninumbriga hetkel registreeritud seadmetel.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhone'i ühendamine ei ole soovitatud ja limiteerib põhifunktsionaalsust.";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Õiguste lubamine";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Teavituste ja kontaktide lubamine võimaldavad sul näha sõnumite saabumist ja aitavad leida isikuid, keda tunned. Kontaktid on krüptitud, nii et Signal teenus ei näe neid.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Teavituste ja kontaktide lubamine võimaldavad sul näha sõnumite saabumist ja aitavad leida isikuid, keda tunned. Kontaktid on krüptitud, nii et Morse teenus ei näe neid.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Õiguste lubamine";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Vali, kes saavad sind Signalis otsida telefoninumbri %@ järgi.";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Vali, kes saavad sind Morseis otsida telefoninumbri %@ järgi.";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Kes saavad sind sinu numbri järgi leida?";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "Palun oota paar minutit enne uuesti proovimist. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "Sisesta enda telefoninumber";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "Teie privaatsuse kaitsmiseks annab süsteem teile 8-kohalise \"võltsitud\" telefoninumbri";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Sinu telefoninumber";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Sisesta enda telefoninumber";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Vigane telefoninumber. Palun sisesta registreerumiseks kehtiv telefoninumber.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "PIN-koodi katsete arv on lõppenud, kuid pääsed siiski oma Signali konto juurde, luues uue PIN-koodi. Privaatsuse ja turvalisuse huvides taastatakse sinu konto salvestatud profiiliteabe või säteteta.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "PIN-koodi katsete arv on lõppenud, kuid pääsed siiski oma Morsei konto juurde, luues uue PIN-koodi. Privaatsuse ja turvalisuse huvides taastatakse sinu konto salvestatud profiiliteabe või säteteta.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Uuri lähemalt PIN-koodide kohta";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@ määras kaduvate sõnumite ajaks %@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signalil on tehnilisi raskusi. Pingutame selle nimel, et teenus võimalikult kiiresti taastada.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Morseil on tehnilisi raskusi. Pingutame selle nimel, et teenus võimalikult kiiresti taastada.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "Sa helistasid isikule %@";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Vigane tehing";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Maksete kasutamiseks uuenda Signalit.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Maksete kasutamiseks uuenda Morseit.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Payment not yet verified";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Igaüks";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Igaüks, kellel on sinu telefoninumber kontaktides näeb sind ka kontaktina Signalis. Teised saavad sind leida otsingu kaudu.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Igaüks, kellel on sinu telefoninumber kontaktides näeb sind ka kontaktina Morseis. Teised saavad sind leida otsingu kaudu.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Mitte keegi";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Mitte keegi ei saa sind leida Signalist sinu telefoninumbri kaudu. Sa pole kontaktina nähtav isikutele, kellel on sinu telefoninumber nende kontaktides ja teistel pole võimalik sind leida telefoninumbri järgi otsides.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Mitte keegi ei saa sind leida Morseist sinu telefoninumbri kaudu. Sa pole kontaktina nähtav isikutele, kellel on sinu telefoninumber nende kontaktides ja teistel pole võimalik sind leida telefoninumbri järgi otsides.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Näide: %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Minu kontaktid";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Ainult sinu kontaktid näevad Signalis sinu telefoninumbrit.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Ainult sinu kontaktid näevad Morseis sinu telefoninumbrit.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Igaüks";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Sinu telefoninumber on nähtav isikutele ja gruppidele, millega suhtled. Isikud, kellel on sinu telefoninumber nende telefonikontaktides, näevad seda ka Signalis.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Sinu telefoninumber on nähtav isikutele ja gruppidele, millega suhtled. Isikud, kellel on sinu telefoninumber nende telefonikontaktides, näevad seda ka Morseis.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Mitte keegi";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Mitte keegi ei näe Signalis sinu telefoninumbrit.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Mitte keegi ei näe Morseis sinu telefoninumbrit.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Keela PIN";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Kui keelad PIN-koodi, siis kaotad kõik andmed, kui eemaldad Signal rakenduse ja pole seda teisaldanud teise iOS seadmesse. Registreerimislukku pole võimalik sisse lülitada, kui PIN-kood on keelatud.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Kui keelad PIN-koodi, siis kaotad kõik andmed, kui eemaldad Morse rakenduse ja pole seda teisaldanud teise iOS seadmesse. Registreerimislukku pole võimalik sisse lülitada, kui PIN-kood on keelatud.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Hoiatus";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "PIN-koodi loomine ei õnnestunud";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN-koodid hoiavad Signalis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Signali uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.";
+"PIN_CREATION_EXPLANATION" = "PIN-koodid hoiavad Morseis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Morsei uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Uuri lähemalt PIN-koodide kohta";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Tuletame paari päeva pärast uuesti meelde.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Kinnita Signali PIN-kood";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Kinnita Morsei PIN-kood";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Tuletame homme jälle meelde.";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Lubamatu PIN-kood, proovi uuesti.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Sisesta Signali PIN-kood";
+"PIN_REMINDER_TITLE" = "Sisesta Morsei PIN-kood";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN-kood peab olema vähemalt 4 numbri pikkune.";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "Loo PIN-kood";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "PIN-koodid hoiavad Signalis salvestatud teabe krüptituna";
+"PINS_MEGAPHONE_BODY" = "PIN-koodid hoiavad Morseis salvestatud teabe krüptituna";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "Tuletame sulle hiljem meelde. PIN-koodi loomine muutub %ld päeva pärast kohustuslikuks.";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Sinu lõikepuhvris olev number ei paista olema korrektne selle vestluse turvanumber.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal ei leidnud sinu lõikepuhvrist ühtegi turvanumbrit. Kas sa kopeerisid selle korrektselt?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Morse ei leidnud sinu lõikepuhvrist ühtegi turvanumbrit. Kas sa kopeerisid selle korrektselt?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Iga Signali kasutajate paar omab eraldi turvanumbrit. Kontrolli üle, kas %@ näitab *sinu* turvanumbrit.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Iga Morsei kasutajate paar omab eraldi turvanumbrit. Kontrolli üle, kas %@ näitab *sinu* turvanumbrit.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Sa kasutad Signali vana versiooni. Kinnitamiseks pead kõigepealt rakendust uuendama.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Sa kasutad Morsei vana versiooni. Kinnitamiseks pead kõigepealt rakendust uuendama.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Sinu kaaslane kasutab Signali vana versiooni. Ta peab kinnitamiseks kõigepealt rakendust uuendama.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Sinu kaaslane kasutab Morsei vana versiooni. Ta peab kinnitamiseks kõigepealt rakendust uuendama.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skannitud kood ei paista olema turvanumber. Kas te mõlemad kasutate uusimat Signali versiooni?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skannitud kood ei paista olema turvanumber. Kas te mõlemad kasutate uusimat Morsei versiooni?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Otspunktkrüptimise turvalisuse kinnitamiseks kasutajaga %@ võrdle ülaltoodud numbreid tema seadmes näidatavate numbritega.\n\nTeise võimalusena saad skannida koodi tema telefonist või paluda tal sinu koodi skannida.";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Kasutajat ei saa valida.";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Seda kasutajat ei saa enne gruppi lisada, kui ta on uuendanud oma Signalit.";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Seda kasutajat ei saa enne gruppi lisada, kui ta on uuendanud oma Morseit.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Ma unustasin PIN-koodi.";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "Registreeru teavituste saamiseks uuesti";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "Tahame kuulda sinult tagasisidet, et teha Signal planeedi parimaks suhtlusrakenduseks.";
+"RESEARCH_MEGAPHONE_BODY" = "Tahame kuulda sinult tagasisidet, et teha Morse planeedi parimaks suhtlusrakenduseks.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Räägi Signalile, mida sa arvad";
+"RESEARCH_MEGAPHONE_TITLE" = "Räägi Morseile, mida sa arvad";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "Seda küsitlust teostab Surveygizmo turvalises domeenis surveys.signalusers.org";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "Tänan, ei";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>Me usume privaatsusesse.</bold>\n\nSignal ei jälita sind ega kogu sinu andmeid. Signali täiustamisel kõigi jaoks sõltume kasutaja tagasisidest <bold>ja ootame seda ka sinult </bold>.\n\nTeostame küsitlust, et saada aru, kuidas sa Signalit kasutad. Meie küsitlus ei kogu sind identifitseerivaid andmeid. Kui oled huvitatud lisaks tagasiside andmisest, siis on sul võimalus sisestada kontaktinfo.\n\nKui sul on paar minutit aega ja tagasisidet, mida jagada, siis sooviksime seda sinult kuulda.";
+"RESEARCH_MODAL_PLEA" = "<bold>Me usume privaatsusesse.</bold>\n\nMorse ei jälita sind ega kogu sinu andmeid. Morsei täiustamisel kõigi jaoks sõltume kasutaja tagasisidest <bold>ja ootame seda ka sinult </bold>.\n\nTeostame küsitlust, et saada aru, kuidas sa Morseit kasutad. Meie küsitlus ei kogu sind identifitseerivaid andmeid. Kui oled huvitatud lisaks tagasiside andmisest, siis on sul võimalus sisestada kontaktinfo.\n\nKui sul on paar minutit aega ja tagasisidet, mida jagada, siis sooviksime seda sinult kuulda.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "Osale küsitluses";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Signali uurimus";
+"RESEARCH_MODAL_TITLE" = "Morsei uurimus";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "Proovi uuesti";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Näita";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Meie Signali turvanumber:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Meie Morsei turvanumber:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Sinu turvanumber kasutajaga %@ on muutunud. Soovitame seda kinnitada.";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Ekraaniluku kasutamiseks pead lubama iOSi sätetes ekraani lukustamise.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Signali avamiseks pead autentima.";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Morsei avamiseks pead autentima.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Autentimine ei õnnestunud";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Lukusta Signal lahti";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Lukusta Morse lahti";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Tiina Kuusk";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "Ilmateated";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Pealik Carmen";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Account Does Not Match";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Telefoniga ühendamiseks pead selles seadmes Signalit uuendama.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Telefoniga ühendamiseks pead selles seadmes Morseit uuendama.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Versioon pole toetatud";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Sinu muu seade kasutab aegunud Signali versiooni, mis ei toeta iPadi QR-koodide skannimist. Palun paigalda Signali uusi versioon ja proovi uuesti.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Sinu muu seade kasutab aegunud Morsei versiooni, mis ei toeta iPadi QR-koodide skannimist. Palun paigalda Morsei uusi versioon ja proovi uuesti.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Uuenda skannivat seadet";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Lõpeta ühendamine";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Käivita Signal oma telefonis, et ühendada see iPad oma kontoga";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Käivita Morse oma telefonis, et ühendada see iPad oma kontoga";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Mul ei ole telefonis Signalit...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Mul ei ole telefonis Morseit...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Mine telefonis rakendustepoodi, paigalda Signal, täida registreerumisprotsess ja siis saad ühendada enda iPadi sama konto külge.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Mine telefonis rakendustepoodi, paigalda Morse, täida registreerumisprotsess ja siis saad ühendada enda iPadi sama konto külge.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Paigalda Signal enda telefoni";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Paigalda Morse enda telefoni";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Klõpsa enda profiilipildil, et avada telefonis Signali sätted. Seejärel vali \"Ühendatud seadmed\" ja \"Ühenda uus seade\", et skannida see kood oma telefoniga:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Klõpsa enda profiilipildil, et avada telefonis Morsei sätted. Seejärel vali \"Ühendatud seadmed\" ja \"Ühenda uus seade\", et skannida see kood oma telefoniga:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Siit saad abi iPadi ühendamise osas";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Skaneeri QR-kood oma telefoniga";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Konto ülekandmiseks käivita Signal vanas iPadis";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Konto ülekandmiseks käivita Morse vanas iPadis";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Turvaseanss lähtestati.";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "Kutse saatmine ei õnnestunud, palun proovi hiljem uuesti.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Sa kutsusid oma sõbra Signalit kasutama!";
+"SEND_INVITE_SUCCESS" = "Sa kutsusid oma sõbra Morseit kasutama!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "Unusta meediafailid";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Kas kutsuda sõber ebaturvalise SMS abil?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Kas sa soovid seda numbrit kutsuda Signalit kasutama?";
+"SEND_SMS_INVITE_TITLE" = "Kas sa soovid seda numbrit kutsuda Morseit kasutama?";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "Kõrge";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Standardne";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal kasutab otspunkt krüptimist ja võib mõnikord vajada vestluse seansi värskendamist. See ei mõjuta vestluse turvalisust, aga sa võisid mõnest selle kontakti sõnumist ilma jääda, seepärast palu neil vajadusel need uuesti saata.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Morse kasutab otspunkt krüptimist ja võib mõnikord vajada vestluse seansi värskendamist. See ei mõjuta vestluse turvalisust, aga sa võisid mõnest selle kontakti sõnumist ilma jääda, seepärast palu neil vajadusel need uuesti saata.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Vestluse seanss on värskendatud";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Asukoht";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Kui on lubatud, siis püüab Signal tsenseerimisest mööda hiilida. Luba see funktsioon vaid siis, kui oled kohas, kus Signal on tsenseeritud.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Kui on lubatud, siis püüab Morse tsenseerimisest mööda hiilida. Luba see funktsioon vaid siis, kui oled kohas, kus Morse on tsenseeritud.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Tsenseerimisest möödahiilimine on aktiveeritud sinu konto telefoninumbri järgi.";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Tsenseerimisest möödahiilimist saab aktiveerida ainult Internetis olles.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Tsenseerimisest möödahiilimine pole vajalik, sa oled juba Signali teenusega ühendatud.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Tsenseerimisest möödahiilimine pole vajalik, sa oled juba Morsei teenusega ühendatud.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Luba silumislogi";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Lisa blokeeritud kasutaja";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Sul pole Signalis kontakte.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Sul pole Morseis kontakte.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Otsingu tulemusi pole";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Alati vahenda kõned";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Vahenda kõik kõned läbi Signali serveri, et hoiduda enda IP-aadressi paljastamisest oma kontaktile. Selle lubamine vähendab kõne kvaliteeti.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Vahenda kõik kõned läbi Morsei serveri, et hoiduda enda IP-aadressi paljastamisest oma kontaktile. Selle lubamine vähendab kõne kvaliteeti.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "Vestlused";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Tühjenda vestluse ajalugu";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Autoriõigus Signal Messenger \nLitsentsitud GPLv3 litsentsiga";
+"SETTINGS_COPYRIGHT" = "Autoriõigus Morse Messenger \nLitsentsitud GPLv3 litsentsiga";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Tellimus";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Määra kaduvate sõnumite vaikimisi kestus kõigile sinu poolt loodud uutele gruppidele.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Anneta Signalile";
+"SETTINGS_DONATE" = "Anneta Morseile";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Abi";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "Kutsu enda sõpru";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Võta minuga ühendust, kasutades rakendust @signalapp. Hangi siit: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Võta minuga ühendust, kasutades rakendust @signalapp. Hangi siit: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "Vestluse värv ja taustapilt";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Teavituse sisu";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt liitub Signaliga";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt liitub Morseiga";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Teavita kui...";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Aktiveeri";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "You can use Signal to send and receive MobileCoin. All payments are subject to the Terms of Use for MobileCoins and the MobileCoin Wallet. This is a beta feature so you may encounter some issues and payments or balances you may lose can’t be recovered.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "You can use Morse to send and receive MobileCoin. All payments are subject to the Terms of Use for MobileCoins and the MobileCoin Wallet. This is a beta feature so you may encounter some issues and payments or balances you may lose can’t be recovered.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Aktiveeri";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ kuupäev %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Maksed pole enam Signalis saadaval. Sul on võimalik kanda vahendid valuutavahetusse, aga sul pole enam võimalik saata või saada makseid ega lisada vahendeid.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Maksed pole enam Morseis saadaval. Sul on võimalik kanda vahendid valuutavahetusse, aga sul pole enam võimalik saata või saada makseid ega lisada vahendeid.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Can't deactivate payments because your balance is not available. Check your connection and try again.";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Couldn't complete payment because your balance is not available. Check your connection and try again.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Maksed pole enam Signalis saadaval. Sul on võimalik kanda vahendid valuutavahetusse, aga sul pole enam võimalik saata või saada makseid ega lisada vahendeid.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Maksed pole enam Morseis saadaval. Sul on võimalik kanda vahendid valuutavahetusse, aga sul pole enam võimalik saata või saada makseid ega lisada vahendeid.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Maksed pole enam Signalis saadaval. Sul on võimalik kanda vahendid valuutavahetusse, aga sul pole enam võimalik saata või saada makseid ega lisada vahendeid.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Maksed pole enam Morseis saadaval. Sul on võimalik kanda vahendid valuutavahetusse, aga sul pole enam võimalik saata või saada makseid ega lisada vahendeid.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Conversions are just estimates and may not be accurate.";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Deaktiveeri maksed";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Kui deaktiveerid maksed, siis pole sul enam võimalik MobileCoine Signali kaudu saata ega saada.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Kui deaktiveerid maksed, siis pole sul enam võimalik MobileCoine Morsei kaudu saata ega saada.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Kas deaktiveerida maksed?";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Deaktiveeri maksed";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Soovitatav on enne maksete deaktiveerimist kanda enda vahendid teisele rahakoti aadressile. Kui valid praegu vahendeid mitte kanda, siis nad jäävad sinu Signliga lingitud rahakotti kuniks Signali maksed uuesti aktiveerid.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Soovitatav on enne maksete deaktiveerimist kanda enda vahendid teisele rahakoti aadressile. Kui valid praegu vahendeid mitte kanda, siis nad jäävad sinu Signliga lingitud rahakotti kuniks Morsei maksed uuesti aktiveerid.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Your balance will remain in your wallet linked to Signal if you choose to reactivate payments.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Your balance will remain in your wallet linked to Morse if you choose to reactivate payments.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Kas deaktiveerida ilma üle kandmata?";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "Teave MobileCoini kohta";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Sul on võimalik lisada Signalis kasutamiseks vahendeid, saates MobileCoinid sinu rahakoti aadressile.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Sul on võimalik lisada Morseis kasutamiseks vahendeid, saates MobileCoinid sinu rahakoti aadressile.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Raha lisamine";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Maksed aktiveeritud";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Kasuta Signalit uue privaatsusele keskendunud digitaalse valuuta MobileCoin saatmiseks ja vastuvõtmiseks.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Kasuta Morseit uue privaatsusele keskendunud digitaalse valuuta MobileCoin saatmiseks ja vastuvõtmiseks.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Aktiveeri maksed uuesti";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "Tutvustame makseid (beeta)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Your balance will automatically restore when you reinstall Signal if you confirm your Signal PIN. You can also restore your balance using a recovery phrase, which is a 24-word phrase unique to you. Write it down and store it in a safe place.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Your balance will automatically restore when you reinstall Morse if you confirm your Morse PIN. You can also restore your balance using a recovery phrase, which is a 24-word phrase unique to you. Write it down and store it in a safe place.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "Lisa raha";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Maksed";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "You can’t transfer to your Signal wallet address. Enter the wallet address from your account at a supported exchange.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "You can’t transfer to your Morse wallet address. Enter the wallet address from your account at a supported exchange.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "You can transfer MobileCoin by completing a transfer to the wallet address provided by the exchange. The wallet address is the string of numbers and letters most commonly below the QR code.";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Lülita meeldetuletused välja";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Jäta kindlasti meelde või salvesta PIN-kood turvaliselt, kuna seda pole võimalik taastada. Kui unustad PIN-koodi, võid Signali kontot uuesti registreerides enda andmed kaotada.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Jäta kindlasti meelde või salvesta PIN-kood turvaliselt, kuna seda pole võimalik taastada. Kui unustad PIN-koodi, võid Morsei kontot uuesti registreerides enda andmed kaotada.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Kinnita Signali PIN-kood";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Kinnita Morsei PIN-kood";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN-koodi meeldetuletused";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PIN-koodid hoiavad Signalis salvestatud info krüptituna, nii et ainult sinul on sellele ligipääs. Sinu PIN-koodi pole võimalik taastada. Sinu profiil, sätted ja kontaktid taastatakse Signali uuesti paigaldamisel.";
+"SETTINGS_PINS_FOOTER" = "PIN-koodid hoiavad Morseis salvestatud info krüptituna, nii et ainult sinul on sellele ligipääs. Sinu PIN-koodi pole võimalik taastada. Sinu profiil, sätted ja kontaktid taastatakse Morsei uuesti paigaldamisel.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Muuda enda PIN-koodi";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Loo PIN-kood";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signali PIN-kood";
+"SETTINGS_PINS_TITLE" = "Morsei PIN-kood";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Tsenseerimisest möödahiilimine, kõnede vahendamine ja kaetud saatjate sätted.";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Lülita sisse";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Kui unustad Signaliga uuesti registreerumisel oma Signal PIN-koodi, lukustatakse sind 7 päevaks oma kontolt.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Kui unustad Morseiga uuesti registreerumisel oma Morse PIN-koodi, lukustatakse sind 7 päevaks oma kontolt.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Kas lülitada registreerimislukk sisse?";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Helistamine";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Kasuta Signali avamiseks TouchID-d, FaceID-d või iOS seadme parooli.";
+"SETTINGS_SECURITY_DETAIL" = "Kasuta Morsei avamiseks TouchID-d, FaceID-d või iOS seadme parooli.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Kasuta Signali avamiseks FaceID-d.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Kasuta Morsei avamiseks FaceID-d.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Kasuta Signali avamiseks seadme parooli.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Kasuta Morsei avamiseks seadme parooli.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Kasuta Signali avamiseks TouchID-d.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Kasuta Morsei avamiseks TouchID-d.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Rakenduse turvalisus";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Jaga kontakte iOS-iga";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Anna iOSile ligipääs Signali kontaktidele ja vestlustele, et saaks kasutada funktsioone nagu jagamise soovitused.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Anna iOSile ligipääs Morsei kontaktidele ja vestlustele, et saaks kasutada funktsioone nagu jagamise soovitused.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Anna iOSile ligipääs Signali kontaktidele ja vestlustele, et saaks kasutada funktsioone jagamise soovitused ja teavitused.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Anna iOSile ligipääs Morsei kontaktidele ja vestlustele, et saaks kasutada funktsioone jagamise soovitused ja teavitused.";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signalile hoogu";
+"SETTINGS_SIGNAL_BOOST" = "Morseile hoogu";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Become a Signal Sustainer";
+"SETTINGS_SUBSCRIPTION" = "Become a Morse Sustainer";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Registreerimislukk";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Nõua sinu telefoninumbri Signalis uuesti registreerimiseks Signali PIN-koodi.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Nõua sinu telefoninumbri Morseis uuesti registreerimiseks Morsei PIN-koodi.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Sisestamisindikaatorid";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "Laadimine...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Registreerimiseks käivita Signal rakendus.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Registreerimiseks käivita Morse rakendus.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Pole registreeritud";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Uuendamiseks või registreerimiseks käivita rakendus Signal.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Uuendamiseks või registreerimiseks käivita rakendus Morse.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Pole valmis";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Üleslaadimine...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Manuse ettevalmistamine pole võimalik";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Jaga Signalis";
+"SHARE_EXTENSION_VIEW_TITLE" = "Jaga Morseis";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Jagamissoovituste keelamine ei õnnestunud.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Signali vestlusi saab nüüd teistest rakendustest jagades kuvadada soovitustena.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Morsei vestlusi saab nüüd teistest rakendustest jagades kuvadada soovitustena.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "Jagamine tehti lihtsamaks";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Näita vestlust";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Kutsun sind Signalit paigaldama. Siin on veebilink:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Kutsun sind Morseit paigaldama. Siin on veebilink:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "Helid ja teavitused";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Kas jätkata ilma kinnitamata?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Rämpssõnumite leviku tõkestamiseks Signalis pead kinnituse lõpule viima.\n\nPärast kinnitamist saad sõnumite saatmist jätkata. Kõik pausile jäänud sõnumid saadetakse automaatselt.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Rämpssõnumite leviku tõkestamiseks Morseis pead kinnituse lõpule viima.\n\nPärast kinnitamist saad sõnumite saatmist jätkata. Kõik pausile jäänud sõnumid saadetakse automaatselt.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Sõnumite saatmise jätkamiseks kinnita";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "Paigalda";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signali artisti seeria";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Morsei artisti seeria";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Vastuvõetud kleebised";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Contribute";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal is powered by people like you. Contribute and receive a badge.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse is powered by people like you. Contribute and receive a badge.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Tänan, ei";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Räägi meile oma probleemist: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Palun saada kasutajatoetaotlus aadressile support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Palun saada kasutajatoetaotlus aadressile support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filter: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "Logi URL: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signali versioon: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Morsei versioon: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signali IOS kasutajatoetaotlus";
+"SUPPORT_EMAIL_SUBJECT" = "Morsei IOS kasutajatoetaotlus";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Kuidas sa end tunned? (valikuline)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "Kas oled juba meie KKK-d lugenud?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Laadimine";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly contribution and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly contribution and receive a profile badge to share your support.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour contribution fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morse is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour contribution fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Support technology that is built for you - not for your data - by joining the community that sustains it.";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Still Processing";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Lisa Signalile hoogu";
+"SUSTAINER_VIEW_ADD_BOOST" = "Lisa Morseile hoogu";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Saa %@ märk";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "Mitte praegu";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signalit loovad sinusugused inimesed.";
+"SUSTAINER_VIEW_TITLE" = "Morseit loovad sinusugused inimesed.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "You will be charged the full amount (%@) of the new subscription price today. Your new subscription will renew monthly.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "Tundmatu riik";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Üks sinu seadmetest saatis sõnumi, mida ei saa töödelda või siin kuvada, sest see kasutab Signali uut funktsionaalsust.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Üks sinu seadmetest saatis sõnumi, mida ei saa töödelda või siin kuvada, sest see kasutab Morsei uut funktsionaalsust.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ saatis sulle sõnumi, mida ei saa töödelda või kuvada, sest see kasutab uut Signali funktsionaalsust.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ saatis sulle sõnumi, mida ei saa töödelda või kuvada, sest see kasutab uut Morsei funktsionaalsust.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Sa said sõnumi, mida ei saa töödelda või kuvada, sest see kasutab uut Signali funktsionaalsust.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Sa said sõnumi, mida ei saa töödelda või kuvada, sest see kasutab uut Morsei funktsionaalsust.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Uuenda Signaliit nüüd";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Uuenda Morseiit nüüd";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Signal uuendatud värskeimale versioonile. Nüüd saad seda sõnumit oma seadmes vastu võtta.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Morse uuendatud värskeimale versioonile. Nüüd saad seda sõnumit oma seadmes vastu võtta.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Nüüd kui kasutad uuendatud Signalit, saad paluda kontaktil %@ see sõnum uuesti saata.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Nüüd kui kasutad uuendatud Morseit, saad paluda kontaktil %@ see sõnum uuesti saata.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Nüüd kui kasutad uuendatud Signalit, saad paluda saatjal see sõnum uuesti saata.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Nüüd kui kasutad uuendatud Morseit, saad paluda saatjal see sõnum uuesti saata.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Tundmatu";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Kas eemaldada ühendus \"%@\"?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Seade pole enam ühendatud. Sõnumite vahetamise jätkamiseks ühenda Signal uuesti oma telefoniga.";
+"UNLINKED_WARNING" = "Seade pole enam ühendatud. Sõnumite vahetamise jätkamiseks ühenda Morse uuesti oma telefoniga.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signalil ei õnnestunud sinu seadme ühendust eemaldada.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Morseil ei õnnestunud sinu seadme ühendust eemaldada.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Nimetu seade";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Sinu seade ei toeta seda funktsiooni.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Sinu turvanumber kasutajaga %@ on muutunud tõenäoliselt seepärast, et paigaldasid Signali uuesti või muutsid seadmeid. Uue turvanumbri kinnitamiseks klõpsa Kinnita. See on valikuline tegevus.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Sinu turvanumber kasutajaga %@ on muutunud tõenäoliselt seepärast, et paigaldasid Morsei uuesti või muutsid seadmeid. Uue turvanumbri kinnitamiseks klõpsa Kinnita. See on valikuline tegevus.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Kinnita";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "Uuri lähemalt PIN-koodide kohta";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN-koodid hoiavad Signalis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Signali uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN-koodid hoiavad Morseis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Morsei uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "Tutvustame PIN-koode";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "Keela PIN";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal nõuab varsti iOS 11 või uuemat. Palun uuenda operatsioonisüsteemi, avades Settings rakendus >> General >> Software Update.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Morse nõuab varsti iOS 11 või uuemat. Palun uuenda operatsioonisüsteemi, avades Settings rakendus >> General >> Software Update.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Uuenda iOSi";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Kasutajanimed on Signalis vabatahtlikud. Kui otsustad endale Signalis kasutajanime luua, siis saavad teised Signali kasutajad leida sind kasutajanime järgi ja võtta ühendust sinu telefoninumbrit teadmata.";
+"USERNAME_DESCRIPTION" = "Kasutajanimed on Morseis vabatahtlikud. Kui otsustad endale Morseis kasutajanime luua, siis saavad teised Morsei kasutajad leida sind kasutajanime järgi ja võtta ühendust sinu telefoninumbrit teadmata.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "Kasutajanimed võivad sisaldada a-z, 0-9 ja _";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "Kasutajanime otsimisel tekkis tõrge. Palun proovi hiljem uuesti.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "%@ ei ole Signali kasutaja. Tee kindlaks, et sisestasid kasutajanime õigesti.";
+"USERNAME_NOT_FOUND_FORMAT" = "%@ ei ole Morsei kasutaja. Tee kindlaks, et sisestasid kasutajanime õigesti.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "Kasutajat ei leitud";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Salvestamiseks vajuta ja hoia.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Lõpeta paigaldus Signal Desktopis.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Lõpeta paigaldus Morse Desktopis.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Kontakti nimi";

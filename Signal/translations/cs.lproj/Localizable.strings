@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Nyní ne";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "O Signal";
+"ABOUT_SECTION_TITLE" = "O Morse";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Přijmout nové bezpečnostní číslo";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "Hlasová zpráva %@ sekund";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Hovor Signal";
+"ACTION_AUDIO_CALL" = "Hovor Morse";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Pozvat do Signalu";
+"ACTION_INVITE" = "Pozvat do Morseu";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Odeslat zprávu";
@@ -149,7 +149,7 @@
 "APN_Message" = "Možná máte nové zprávy";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal nelze spustit. Odešlete prosím debug log na support@signal.org, pokusíme se problém opravit.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Morse nelze spustit. Odešlete prosím debug log na support@devplusone.com, pokusíme se problém opravit.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Chyba";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Nepodařilo se načíst databázi";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Prosím, aktualizujte na nejnovější verzi Signalu.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Prosím, aktualizujte na nejnovější verzi Morseu.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Neznámá verze databáze.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data přenesená z vašeho starého zařízení nemohla být obnovena. Pošlete prosím debug log na support@signal.org, abychom mohli tento problém vyřešit. Pokud si Signal nainstalujete znova, můžete přijít o historii vašich zpráv.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data přenesená z vašeho starého zařízení nemohla být obnovena. Pošlete prosím debug log na support@devplusone.com, abychom mohli tento problém vyřešit. Pokud si Morse nainstalujete znova, můžete přijít o historii vašich zpráv.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Přenos dat se nepodařilo dokončit";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "V App Storu je nyní dostupná verze %@.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Je dostupná nová verze Signalu";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Je dostupná nová verze Morseu";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Aktualizovat";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "Systémový";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "Archivovat";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Přílohu se nepodařilo exportovat.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Nepodařilo se uložit";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,7 +383,7 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Staňte se podporovatelem";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Dejte Signalu Boost";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Dejte Morseu Boost";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Platnost vašeho odznaku Boost vypršela a již není na vašem profilu viditelný.\n\nSignál můžete používat i nadále, ale abyste podpořili technologii, která je vytvořena pro vás, zvažte, zda se nestát měsíčním podporovatelem.";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "Pokud máte více odznaků, můžete si jeden z nich vybrat, aby ho ostatní viděli na vašem profilu.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "Získali jste %@ odznak! Pomozte společnosti Signal budovat povědomí tím, že si tento odznak zobrazíte na svém profilu.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Získali jste %@ odznak! Pomozte společnosti Morse budovat povědomí tím, že si tento odznak zobrazíte na svém profilu.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Zavřít banner";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Zadejte výši příspěvku";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Dejte Signalu Boost";
+"BOOST_VIEW_TITLE" = "Dejte Morseu Boost";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Přidat";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 Zmeškaný audio hovor";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Pro volání a nahrávání hlasových zpráv v Signalu povolte přístup k mikrofonu v nastavení iOS.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Pro volání a nahrávání hlasových zpráv v Morseu povolte přístup k mikrofonu v nastavení iOS.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Vyžadován přístup k mikrofonu";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Žádná odpověď";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Zavolat";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Vaše kamera je vypnutá";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Uživatel Signalu";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Uživatel Morseu";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Vyfoťte fotku a odešlete ji";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Porovnat se schránkou";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Vyberte nebo vyhledejte uživatele Signalu, se kterým chcete zahájit chat.";
+"COMPOSE_BUTTON_HINT" = "Vyberte nebo vyhledejte uživatele Morseu, se kterým chcete zahájit chat.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Sestavit";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Vyhledání uživatele";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Pro nalezení kontaktů používajících Signal povolte přístup ke kontaktům v nastavení iOS.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Pro nalezení kontaktů používajících Morse povolte přístup ke kontaktům v nastavení iOS.";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "Tímto obnovíte aplikaci smazáním vašich zpráv. Aplikace se zavře, až bude proces hotový.";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Něco nefunguje";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Podporovatelé & Signal Boost";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Podporovatelé & Morse Boost";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Sustainers & Boost";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signalu se nepodařilo dokončit váš požadavek na uživatelskou podporu.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morseu se nepodařilo dokončit váš požadavek na uživatelskou podporu.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Zkusit znovu";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "zvuk";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Získejte odznaky pro svůj profil, když podpoříte Signal. Klepnutím na odznak se dozvíte více.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Získejte odznaky pro svůj profil, když podpoříte Morse. Klepnutím na odznak se dozvíte více.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Odznaky";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Smazat účet";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Tímto odstraníte váš Signal účet a obnovíte aplikaci. Aplikace se zavře, až bude proces hotový.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Tímto odstraníte váš Morse účet a obnovíte aplikaci. Aplikace se zavře, až bude proces hotový.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Opravdu chcete smazat váš účet?";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Telefonní číslo";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Potvrďte vaše Signal číslo";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Potvrďte vaše Morse číslo";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Smazat účet";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Znovu zaregistrovat toto telefonní číslo";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Zařízení již není registrováno. Je možné, že je vaše telefonní číslo registrováno v aplikaci Signal na jiném zařízení. Klepněte pro opětovnou registraci.";
+"DEREGISTRATION_WARNING" = "Zařízení již není registrováno. Je možné, že je vaše telefonní číslo registrováno v aplikaci Morse na jiném zařízení. Klepněte pro opětovnou registraci.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Naposledy aktivní %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Pokud máte vaše staré iOS zařízení, můžete bezpečně přenést váš účet a zprávy na toto zařízení.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Pokud jste dříve používali Signal na propojeném iPadu, můžete bezpečně přenést váš účet a zprávy na toto zařízení.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Pokud jste dříve používali Morse na propojeném iPadu, můžete bezpečně přenést váš účet a zprávy na toto zařízení.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Pokračovat bez přenesení vašeho účtu a zpráv.";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Přenést z iOS zařízení";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Pokud budete pokračovat, Signal bude deaktivován na dalších zařízeních aktuálně registrovaných na stejné telefonní číslo.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Pokud budete pokračovat, Morse bude deaktivován na dalších zařízeních aktuálně registrovaných na stejné telefonní číslo.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Nepodařilo se ověřit vaše nové zařízení, zkuste to prosím znovu";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Nemáte dost volného místa pro dokončení přenosu";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Aktualizujte na poslední verzi Signalu a zkuste to znovu";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Aktualizujte na poslední verzi Morseu a zkuste to znovu";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Přeneste váš účet na Signalu na nové iOS zařízení. Ujistěte se, že nové zařízení je v blízkosti a zapnuté.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Přeneste váš účet na Morseu na nové iOS zařízení. Ujistěte se, že nové zařízení je v blízkosti a zapnuté.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Přenést účet";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Otevřete Signal na vašem starém zařízení a přibližte jej. Ujistěte se, že na obou zařízeních je zapnutá WiFi a Bluetooth.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Otevřete Morse na vašem starém zařízení a přibližte jej. Ujistěte se, že na obou zařízeních je zapnutá WiFi a Bluetooth.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Nastavte tento QR kód do rámu ve vašem druhém zařízení.";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Čekání na druhé zařízení…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Mějte obě zařízení blízko sebe a zapnutá. Nechte Signal otevřený. Přenos je koncově zašifrován.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Mějte obě zařízení blízko sebe a zapnutá. Nechte Morse otevřený. Přenos je koncově zašifrován.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Přijímám data";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Podržte vaše nové zařízení před kamerou";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Mějte obě zařízení blízko sebe a zapnutá. Nechte Signal otevřený.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Mějte obě zařízení blízko sebe a zapnutá. Nechte Morse otevřený.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Přenášíme data";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Zadat vlastní výši";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Přispět Signalu";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Přispět Morseu";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "Další možnosti příspěvku";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "Děkujeme za vaši podporu!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signal pohání lidé, jako jste vy.";
+"DONATION_VIEW_TITLE" = "Morse pohání lidé, jako jste vy.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Tým společnosti Signal se zavázal k vývoji open source technologie ochrany soukromí, která chrání svobodu projevu a umožňuje bezpečnou globální komunikaci. Váš příspěvek je pro tento cíl přínosem. Žádné reklamy. Žádné trackery. Bez legrace.\n\nVáš dar pomáhá platit vývoj, servery a datové přenosy aplikace, kterou používají miliony lidí na celém světě k soukromé a okamžité komunikaci.";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Tým společnosti Morse se zavázal k vývoji open source technologie ochrany soukromí, která chrání svobodu projevu a umožňuje bezpečnou globální komunikaci. Váš příspěvek je pro tento cíl přínosem. Žádné reklamy. Žádné trackery. Bez legrace.\n\nVáš dar pomáhá platit vývoj, servery a datové přenosy aplikace, kterou používají miliony lidí na celém světě k soukromé a okamžité komunikaci.";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "Proč přispět?";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Můžete povolit přístup v nastavení iOS.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal pro úpravu informací o kontaktu vyžaduje přístup ke kontaktům.";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Morse pro úpravu informací o kontaktu vyžaduje přístup ke kontaktům.";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Upravit skupinu";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Tento uživatel nemůže být přidán do skupiny dokud si neupgraduje Signal.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Tento uživatel nemůže být přidán do skupiny dokud si neupgraduje Morse.";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "Dosáhli jste limitu %@ členů na skupinu.";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Kopírovat";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Ahoj,\n\nPoslední dobou jsem začal(a) na svém iPhonu používat Signal, aby moje konverzace zůstaly soukromé. Byl(a) bych rád(a), kdyby sis ho také nainstaloval(a), aby naše zprávy a hovory nemohl sledovat nikdo nepovolaný.\n\nSignal je dostupný pro iPhone a Android. Získáš ho zde: %@\n\nSignal funguje stejně jako tvá stávající aplikace na posílání zpráv. Můžeme posílat obrázky, videa, pořádat hovory a vytvářet skupinové chaty. A nejlepší na tom je, že je nikdo jiný nemůže vidět. Ani lidé, co vyvíjí Signal!\n\nO Open Whisper Systems a lidech, kteří vyvíjí Signal, si můžeš přečíst tady %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "Ahoj,\n\nPoslední dobou jsem začal(a) na svém iPhonu používat Morse, aby moje konverzace zůstaly soukromé. Byl(a) bych rád(a), kdyby sis ho také nainstaloval(a), aby naše zprávy a hovory nemohl sledovat nikdo nepovolaný.\n\nMorse je dostupný pro iPhone a Android. Získáš ho zde: %@\n\nMorse funguje stejně jako tvá stávající aplikace na posílání zpráv. Můžeme posílat obrázky, videa, pořádat hovory a vytvářet skupinové chaty. A nejlepší na tom je, že je nikdo jiný nemůže vidět. Ani lidé, co vyvíjí Morse!\n\nO Open Whisper Systems a lidech, kteří vyvíjí Morse, si můžeš přečíst tady %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Přejděme na Signal";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "Přejděme na Morse";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Vaše zařízení není nastaveno pro odesílání e-mailů. Pokud chcete kontaktovat podporu, nastavte na svém zařízení e-mail nebo napište na support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Vaše zařízení není nastaveno pro odesílání e-mailů. Pokud chcete kontaktovat podporu, nastavte na svém zařízení e-mail nebo napište na support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-mail není dostupný";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Cestování a místa";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Žádný z vašich kontaktů nemá Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Žádný z vašich kontaktů nemá Morse.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Proč někoho nepozvete?";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Nepodařilo se poslat zprávu, protože jste tohoto uživatele zablokoval(a).";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal se nemohl připojit k internetu. Prosím zkuste to znovu.";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Morse se nemohl připojit k internetu. Prosím zkuste to znovu.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Odesílání zprávy selhalo z důvodu neplatných příjemců.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Neplatná odpověď ze strany služby.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Toto zařízení již není registrováno pod vaším telefonním číslem. Nainstalujte prosím Signal znovu.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Toto zařízení již není registrováno pod vaším telefonním číslem. Nainstalujte prosím Morse znovu.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Chyba serveru. Prosím, zkuste to později.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Došlo k neznámé chybě.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt není uživatelem Signalu.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt není uživatelem Morseu.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Stažení přílohy selhalo.";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "Chyba sítě";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Pomozte nám prosím zlepšit Signal odesláním této chyby spolu s ladícím záznamem z vašeho zařízení na adresu support@signal.org; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Pomozte nám prosím zlepšit Morse odesláním této chyby spolu s ladícím záznamem z vašeho zařízení na adresu support@devplusone.com; %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: Objevila se chyba";
+"ERROR_NOTIFICATION_TITLE" = "Morse Beta: Objevila se chyba";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Vaše zařízení již není propojené s aplikací. Prosím, propojte jej znovu, abyste mohli odesílat zprávy.";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "Vaše zařízení již není registrováno. Prosím, zaregistrujte jej znovu, abyste mohli posílat zprávy.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Vaše verze Signalu je zastaralá. Prosím, aktualizujte aplikaci, abyste mohli nadále posílat zprávy.";
+"ERROR_SENDING_EXPIRED" = "Vaše verze Morseu je zastaralá. Prosím, aktualizujte aplikaci, abyste mohli nadále posílat zprávy.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Neregistrovaný uživatel: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Platnost vaší verze aplikace Signal skončila. Klepnutím aktualizujte na nejnovější verzi.";
+"EXPIRATION_ERROR" = "Platnost vaší verze aplikace Morse skončila. Klepnutím aktualizujte na nejnovější verzi.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Platnost vaší verze aplikace Signal skončí za %d dnů. Klepnutím aktualizujte na nejnovější verzi.";
+"EXPIRATION_WARNING_SOON" = "Platnost vaší verze aplikace Morse skončí za %d dnů. Klepnutím aktualizujte na nejnovější verzi.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Platnost vaší verze aplikace Signal skončí dnes. Klepnutím aktualizujte na nejnovější verzi.";
+"EXPIRATION_WARNING_TODAY" = "Platnost vaší verze aplikace Morse skončí dnes. Klepnutím aktualizujte na nejnovější verzi.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Příliš mnoho selhání s tímto kontaktem. Zkuste to znovu později.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Neplatný odkaz";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Aktualizujte Signal na tomto zařízení pro přistoupení ke skupině.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Aktualizujte Morse na tomto zařízení pro přistoupení ke skupině.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Požadovat, aby správce schválil nové členy, kteří se připojují přes odkaz skupiny.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR kód";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Sdílet přes Signal";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Sdílet přes Morse";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Kdokoli, kdo má tento odkaz, může vidět jméno skupiny, její členy a může požádat o připojení ke skupině. Sdílejte ho s lidmi, kterým důvěřujete.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Co jsou starší skupiny?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Starší skupiny zatím nelze aktualizovat na nové skupiny, ale můžete vytvořit novou skupinu se stejnými členy, pokud používají poslední verzi aplikace Signal.\n\nSignal umožní možnost aktualizace starších skupin v budoucnosti.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Starší skupiny zatím nelze aktualizovat na nové skupiny, ale můžete vytvořit novou skupinu se stejnými členy, pokud používají poslední verzi aplikace Morse.\n\nMorse umožní možnost aktualizace starších skupin v budoucnosti.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Mohu aktualizovat starší skupinu?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Pro vytvoření nové skupiny je třeba, aby všichni členové skupiny aktualizovali na poslední verzi Signal.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Pro vytvoření nové skupiny je třeba, aby všichni členové skupiny aktualizovali na poslední verzi Morse.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Starší a nové skupiny";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Tuto skupinu nelze aktualizovat na novou skupinu, protože má příliš mnoho členů. Maximální velikost skupiny, kterou ještě lze aktualizovat, je %@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Jakmile budou všichni členové používat verzi Signalu podporující připojení k nové skupině, tato skupina bude aktualizována.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Jakmile budou všichni členové používat verzi Morseu podporující připojení k nové skupině, tato skupina bude aktualizována.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Před aktualizací bude uchována veškerá historie zpráv a média.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Tato skupina nemůže být vytvořena, protože 1 člen používá starší verzi aplikace Signal. Novou skupinu s ním můžete vytvořit, až si aktualizuje Signal, případně jej před vytvořením skupiny odstraňte.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Tato skupina nemůže být vytvořena, protože 1 člen používá starší verzi aplikace Morse. Novou skupinu s ním můžete vytvořit, až si aktualizuje Morse, případně jej před vytvořením skupiny odstraňte.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Bude vytvořena starší skupina, protože %@ členů využívá starou verzi Signalu. Můžete vytvořit skupinu nového typu poté, co si tito členové aktualizují Signal, případně je odstraňte před tím, než skupinu vytvoříte.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Bude vytvořena starší skupina, protože %@ členů využívá starou verzi Morseu. Můžete vytvořit skupinu nového typu poté, co si tito členové aktualizují Morse, případně je odstraňte před tím, než skupinu vytvoříte.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Tato skupina nemůže být vytvořena, protože 1 člen používá starší verzi aplikace Signal. Novou skupinu s ním můžete vytvořit, až si aktualizuje Signal, případně jej před vytvořením skupiny odstraňte. %@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Tato skupina nemůže být vytvořena, protože 1 člen používá starší verzi aplikace Morse. Novou skupinu s ním můžete vytvořit, až si aktualizuje Morse, případně jej před vytvořením skupiny odstraňte. %@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Bude vytvořena starší skupina, protože %1$@ členů využívá starou verzi Signalu. Můžete vytvořit skupinu nového typu poté, co si tito členové aktualizují Signal, případně je odstraňte před tím, než skupinu vytvoříte. %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Bude vytvořena starší skupina, protože %1$@ členů využívá starou verzi Morseu. Můžete vytvořit skupinu nového typu poté, co si tito členové aktualizují Morse, případně je odstraňte před tím, než skupinu vytvoříte. %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Bude vytvořena starší skupina, protože 1 člen využívá starou verzi Signalu. Můžete vytvořit skupinu nového typu poté, co si tento člen aktualizuje Signal, případně jej odstraňte před tím, než skupinu vytvoříte.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Bude vytvořena starší skupina, protože 1 člen využívá starou verzi Morseu. Můžete vytvořit skupinu nového typu poté, co si tento člen aktualizuje Morse, případně jej odstraňte před tím, než skupinu vytvoříte.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Bude vytvořena starší skupina, protože %@ členů využívá starou verzi Signalu. Můžete vytvořit skupinu nového typu poté, co si tito členové aktualizují Signal, případně je odstraňte před tím, než skupinu vytvoříte.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Bude vytvořena starší skupina, protože %@ členů využívá starou verzi Morseu. Můžete vytvořit skupinu nového typu poté, co si tito členové aktualizují Morse, případně je odstraňte před tím, než skupinu vytvoříte.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "1 člen nepodporuje skupiny nového typu, tato skupina proto bude ve starší verzi. %@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "Vyberte nového administrátora";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Signal skupiny fungují nejlépe s %@ členy nebo méně. Přidání více členů způsobí zpoždění při odesílání a přijímání zpráv.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Morse skupiny fungují nejlépe s %@ členy nebo méně. Přidání více členů způsobí zpoždění při odesílání a přijímání zpráv.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "Dosažen doporučený limit členů";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Kontaktujte nás";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "Centrum uživatelské podpory";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Koncept:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Někteří z vašich kontaktů jsou již na Signalu, včetně %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Někteří z vašich kontaktů jsou již na Morseu, včetně %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Někteří z vašich kontaktů jsou již na Signalu, včetně %@ a %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Někteří z vašich kontaktů jsou již na Morseu, včetně %@ a %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Někteří z vašich kontaktů jsou již na Signalu, včetně %@, %@ a %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Někteří z vašich kontaktů jsou již na Morseu, včetně %@, %@ a %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Svou první konverzaci začněte zde.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Archiv";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "Rozostřit kreslením";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Nemůžete sdílet více než %@ položek.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Změnit fotografie";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Udělte plný přístup v nastaveních nebo změňte, ke kterým fotografiím může Signal přistupovat.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Udělte plný přístup v nastaveních nebo změňte, ke kterým fotografiím může Morse přistupovat.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Nevidíte své fotografie?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "Můžete posílat a přijímat synchronizované zprávy z vašeho telefonu nebo iPadu. ↵Pro vaši bezpečnost není historie konverzací přenesena na nově připojená zařízení.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ je na Signalu";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ je na Morseu";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "Nálepky";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Neplatný zvukový soubor.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Pro pozvání přátel do Signalu povolte přístup ke kontaktům v nastavení iOS.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Pro pozvání přátel do Morseu povolte přístup ke kontaktům v nastavení iOS.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Povolit přístup ke kontaktům";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Pozvat přátele do Signalu";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Pozvat přátele do Morseu";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Hledat";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "Náhled pro jakýkoliv odkaz";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Pro přenesení vašeho Signal účtu na obou zařízeních povolte přístup k lokální síti.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Pro přenesení vašeho Morse účtu na obou zařízeních povolte přístup k lokální síti.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Potřebujete pomoc?";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Zapněte \"Lokální síť\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Otevřete Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Otevřete Morse";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Zapněte přístup k lokální síti";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "Logování";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Debug logy mohou pomoci Signalu s opravou problémů a pádů.";
+"LOGGING_SECTION_FOOTER" = "Debug logy mohou pomoci Morseu s opravou problémů a pádů.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Zpráva";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Smazat pro všechny";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Tato zpráva bude smazána pro všechny členy konverzace, pokud mají nainstalovanou poslední verzi aplikace Signal. Členové konverzace uvidí, že jste zprávu smazali.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Tato zpráva bude smazána pro všechny členy konverzace, pokud mají nainstalovanou poslední verzi aplikace Morse. Členové konverzace uvidí, že jste zprávu smazali.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Pro koho chcete smazat tuto zprávu?";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Smazat a opustit skupinu?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Požadavky důkladně ověřte. Signal našel jiný kontakt se stejným jménem.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Požadavky důkladně ověřte. Morse našel jiný kontakt se stejným jménem.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Váš kontakt";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Přečteno";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Přeskočeno";
 
 /* Label indicating that a message failed to send. */
@@ -3506,10 +3506,10 @@
 "MISSED_CALL" = "Zmeškaný hovor";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Pro videohovory v Signalu povolte přístup k fotoaparátu v nastavení iOS.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Pro videohovory v Morseu povolte přístup k fotoaparátu v nastavení iOS.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal vyžaduje přístup k vašemu fotoaparátu.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Morse vyžaduje přístup k vašemu fotoaparátu.";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Tento souhlas můžete udělit v nastavení iOS.";
@@ -3521,7 +3521,7 @@
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Tento souhlas můžete udělit v nastavení iOS.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Tato funkce Signalu vyžaduje přístup k fotografiím.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Tato funkce Morseu vyžaduje přístup k fotografiím.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Žádný";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "Vyberte si kontakt nebo skupinu a začněte si povídat.";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Vítejte v Signalu";
+"NO_SELECTED_CONVERSATION_TITLE" = "Vítejte v Morseu";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "Nová zpráva pro:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Žádné jméno ani obsah";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Zvuky při spuštěné aplikaci";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "Dodejte vašim zprávám trochu lidskosti";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Protože jste byli neaktivní po dlouhou dobu, musíte se registrovat znovu pro používání aplikace Signal.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Protože jste byli neaktivní po dlouhou dobu, musíte se registrovat znovu pro používání aplikace Morse.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Registrovat do Signal";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Registrovat do Morse";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "Zaregistrovat iPad";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Přidružit iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Klepnutím na \"Registrovat iPad\" můžete vytvořit nový účet na Signalu nebo přesunout aktuální účet na tento iPad. Tím deaktivujete Signal na jakémkoliv dalším zařízení aktuálně registrovaném na stejném telefonním čísle.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Klepnutím na \"Registrovat iPad\" můžete vytvořit nový účet na Morseu nebo přesunout aktuální účet na tento iPad. Tím deaktivujete Morse na jakémkoliv dalším zařízení aktuálně registrovaném na stejném telefonním čísle.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Klepnutím na \"Propojit iPhone\" můžete připojit váš telefon k existujícímu účtu. Propojení telefonu obecně není doporučené a omezí některé funkce jako třeba telefonovaní.";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Propojit tento iPhone";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Registrací tohoto iPadu deaktivujete Signal na jakémkoliv jiném zařízení aktuálně registrovaném na stejné telefonní číslo.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Registrací tohoto iPadu deaktivujete Morse na jakémkoliv jiném zařízení aktuálně registrovaném na stejné telefonní číslo.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Propojení vašeho iPhonu není doporučené a omezí některé klíčové funkce.";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Povolit oprávnění";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Povolení oznámení a kontaktů vám umožní zjistit, když zprávy dorazí, a pomůže vám najít lidi, které znáte. Kontakty jsou šifrovány, takže služba Signal je nemůže vidět.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Povolení oznámení a kontaktů vám umožní zjistit, když zprávy dorazí, a pomůže vám najít lidi, které znáte. Kontakty jsou šifrovány, takže služba Morse je nemůže vidět.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Povolit oprávnění";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Vyberte, kdo vás může v aplikaci Signal najít podle vašeho telefonního čísla %@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Vyberte, kdo vás může v aplikaci Morse najít podle vašeho telefonního čísla %@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Kdo vás může najít podle vašeho čísla?";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "Počkejte prosím pár minut, než to zkusíte znovu. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "Zadejte vaše tel. číslo";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "Pro ochranu vašeho soukromí vám systém poskytne \„falešné\“ 8místné telefonní číslo";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Vaše telefonní číslo";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Zadejte vaše tel. číslo";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Neplatné telefonní číslo. Pro registraci zadejte prosím platné telefonní číslo.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Došly vám pokusy pro uhodnutí PIN, ale stále můžete ke svému účtu Signal přistupovat, pokud si vytvoříte nový PIN. Z důvodu ochrany vašeho soukromí a bezpečnosti bude váš účet obnoven bez uložených profilových informací a nastavení.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Došly vám pokusy pro uhodnutí PIN, ale stále můžete ke svému účtu Morse přistupovat, pokud si vytvoříte nový PIN. Z důvodu ochrany vašeho soukromí a bezpečnosti bude váš účet obnoven bez uložených profilových informací a nastavení.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Zjistěte víc o PINech";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@ nastavil(a) čas mizejících zpráv na %@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal se potýká s technickými problémy. Usilovně pracujeme na co nejrychlejším obnovení služby.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Morse se potýká s technickými problémy. Usilovně pracujeme na co nejrychlejším obnovení služby.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "Volali jste %@";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Neplatná transakce";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Aktualizujte Signal pro používání plateb.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Aktualizujte Morse pro používání plateb.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Platba ještě nebyla ověřena";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Všichni";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Kdokoli, kdo má vaše telefonní číslo ve svých kontaktech, vás v aplikaci Signal uvidí jako kontakt. Ostatní vás budou moci najít ve vyhledávání.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Kdokoli, kdo má vaše telefonní číslo ve svých kontaktech, vás v aplikaci Morse uvidí jako kontakt. Ostatní vás budou moci najít ve vyhledávání.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Nikdo";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nikdo v aplikaci Signal vás nebude moci najít podle vašeho telefonního čísla. Nebudete vidiltený jako kontakt pro lidi, kteří vá mají ve svých kontatech a ostatní vás nebudou moci najít podle vašeho telefonního čísla.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nikdo v aplikaci Morse vás nebude moci najít podle vašeho telefonního čísla. Nebudete vidiltený jako kontakt pro lidi, kteří vá mají ve svých kontatech a ostatní vás nebudou moci najít podle vašeho telefonního čísla.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Příklad: %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Moje kontakty";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Pouze vaše kontakty budou v Signalu vidět vaše telefonní číslo.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Pouze vaše kontakty budou v Morseu vidět vaše telefonní číslo.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Všichni";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Vaše telefonní číslo bude viditelné pro všechny lidi a skupiny, kterým pošlete zprávu. Lidé, kteří mají vaše číslo ve svých telefonních kontaktech, jej uvidí v aplikaci Signal.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Vaše telefonní číslo bude viditelné pro všechny lidi a skupiny, kterým pošlete zprávu. Lidé, kteří mají vaše číslo ve svých telefonních kontaktech, jej uvidí v aplikaci Morse.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Nikdo";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Nikdo vaše telefonní číslo v aplikaci Signal neuvidí.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Nikdo vaše telefonní číslo v aplikaci Morse neuvidí.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Deaktivovat PIN";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Pokud PIN deaktivujete, tak při opětovné registraci Signal ztratíte všechna data, jestliže si je ručně nezazálohujete a neobnovíte. Když je PIN deaktivován, nemůžete si zapnout zámek registrace.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Pokud PIN deaktivujete, tak při opětovné registraci Morse ztratíte všechna data, jestliže si je ručně nezazálohujete a neobnovíte. Když je PIN deaktivován, nemůžete si zapnout zámek registrace.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Varování";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Vytvoření PIN selhalo";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN uchovává informace uložené u Signalu zašifrované, takže pouze vy k nim můžete přistupovat. Váš profil, nastavení a kontakty budou při reinstalaci obnoveny. Pro spuštění aplikace PIN nebudete potřebovat. ";
+"PIN_CREATION_EXPLANATION" = "PIN uchovává informace uložené u Morseu zašifrované, takže pouze vy k nim můžete přistupovat. Váš profil, nastavení a kontakty budou při reinstalaci obnoveny. Pro spuštění aplikace PIN nebudete potřebovat. ";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Zjistit více o PIN";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Připomeneme se vám zase za několik dní.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Ověřit váš Signal PIN";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Ověřit váš Morse PIN";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Připomeneme se vám zase zítra.";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Neplatný PIN, zkuste to znovu.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Zadejte váš PIN k Signalu";
+"PIN_REMINDER_TITLE" = "Zadejte váš PIN k Morseu";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN musí být aspoň 4 číslice.";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "Vytvořit PIN";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "PIN uchovává informace uložené v Signalu zašifrované.";
+"PINS_MEGAPHONE_BODY" = "PIN uchovává informace uložené v Morseu zašifrované.";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "Připomeneme se vám později. Vytvoření PIN bude povinné za %ld dnů.";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Číslo ve vaší schránce nevypadá jako správné bezpečnostní číslo této konverzace.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal nemohl ve vaší schránce nalézt žádné bezpečnostní číslo. Zkopíroval(a) jste ho správně?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Morse nemohl ve vaší schránce nalézt žádné bezpečnostní číslo. Zkopíroval(a) jste ho správně?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Každá dvojice uživatelů Signalu sdílí odlišné bezpečnostní číslo. Ověřte, že %@ zobrazuje *vaše* bezpečnostní číslo.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Každá dvojice uživatelů Morseu sdílí odlišné bezpečnostní číslo. Ověřte, že %@ zobrazuje *vaše* bezpečnostní číslo.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Používáte starou verzi Signalu, před ověřením ji musíte aktualizovat.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Používáte starou verzi Morseu, před ověřením ji musíte aktualizovat.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Váš kontakt používá starou verzi Signalu a musí ji aktualizovat, než bude možné ověření.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Váš kontakt používá starou verzi Morseu a musí ji aktualizovat, než bude možné ověření.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Naskenovaný kód nevypadá jako bezpečnostní číslo. Používate oba aktuální verzi Signalu?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Naskenovaný kód nevypadá jako bezpečnostní číslo. Používate oba aktuální verzi Morseu?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Pokud chcete ověřit bezpečnost koncového šifrování s %@, porovnete čísla výše s čísli na druhém zařízení.\n\nTaké můžete naskenovat kód z jejich telefonu, nebo je požádat o naskenování vašeho kódu.";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Uživatel nemůže být vybrán";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Tento uživatel nemůže být přidán do skupiny dokud si neupgraduje Signal.";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Tento uživatel nemůže být přidán do skupiny dokud si neupgraduje Morse.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Zapoměl jsem PIN.";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "Přeregistrovat Push oznámení.";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "Aby byl Signal nejlepší aplikací pro zasílání zpráv na planetě, rádi bychom získali vaši zpětnou vazbu.";
+"RESEARCH_MEGAPHONE_BODY" = "Aby byl Morse nejlepší aplikací pro zasílání zpráv na planetě, rádi bychom získali vaši zpětnou vazbu.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Řekněte Signalu, co si myslíte";
+"RESEARCH_MEGAPHONE_TITLE" = "Řekněte Morseu, co si myslíte";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "Anketu pořádá Surveygizmo na zabezpečené doméně surveys.signalusers.org";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "Ne, díky";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>Věříme v soukromí.</bold>\n\nSignal vás nesleduje ani nesbírá vaše data. Abychom Signal vylepšili pro všechny, spoléháme se na zpětnou vazbu uživatelů, <bold>a rádi bychom ji od vás získali</bold>.\n\nPořádáme anketu, abychom porozuměli, jak Signal používáte. Naše anketa neshromažďuje žádná data, která by vás identifikovala. Pokud byste měli zájem sdílet další zpětnou vazbu, budete mít možnost poskytnout kontaktní informace.\n\nPokud máte několik minut a zpětnou vazbu, kterou byste nám chtěli odeslat, budeme moc rádi.";
+"RESEARCH_MODAL_PLEA" = "<bold>Věříme v soukromí.</bold>\n\nMorse vás nesleduje ani nesbírá vaše data. Abychom Morse vylepšili pro všechny, spoléháme se na zpětnou vazbu uživatelů, <bold>a rádi bychom ji od vás získali</bold>.\n\nPořádáme anketu, abychom porozuměli, jak Morse používáte. Naše anketa neshromažďuje žádná data, která by vás identifikovala. Pokud byste měli zájem sdílet další zpětnou vazbu, budete mít možnost poskytnout kontaktní informace.\n\nPokud máte několik minut a zpětnou vazbu, kterou byste nám chtěli odeslat, budeme moc rádi.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "Zúčastnit se průzkumu";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Průzkum Signalu";
+"RESEARCH_MODAL_TITLE" = "Průzkum Morseu";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "Zkusit znovu";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Zobrazit";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Naše bezpečnostní číslo v Signalu:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Naše bezpečnostní číslo v Morseu:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Vaše bezpečnostní číslo s %@ se změnilo. Možná ho chcete ověřit.";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Pokud chcete používat zámek displeje, nejprve zapněte kódový zámek v nastavení iOS.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Autentifikovat pro otevření Signalu.";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Autentifikovat pro otevření Morseu.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Autentifikace neúspěšná";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Odemknout Signal";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Odemknout Morse";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Tina Nováková";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "Předpovědi počasí";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Předsedkyně Freya";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Účet nesouhlasí";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Aktualizujte Signal pro připojení k vašemu telefonu.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Aktualizujte Morse pro připojení k vašemu telefonu.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Nepodporovaná verze";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Jiné vaše zařízení používá starší verzi Signal, který nepodporuje skenování QR kódů. Nainstalujte prosím nejnovější verzi Signal a zkuste to znovu.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Jiné vaše zařízení používá starší verzi Morse, který nepodporuje skenování QR kódů. Nainstalujte prosím nejnovější verzi Morse a zkuste to znovu.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Aktualizujte propojené zařízení";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Dokončit sdružování";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Pro připojení tohoto iPad k vašemu účtu spusťte Signal na vašem telefonu.";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Pro připojení tohoto iPad k vašemu účtu spusťte Morse na vašem telefonu.";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Na mém telefonu nemám Signal...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Na mém telefonu nemám Morse...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Jděte do App Store na vašem telefonu, nainstalujte Signal, dokončete registraci a poté můžete připojit Váš iPad ke stejnému účtu.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Jděte do App Store na vašem telefonu, nainstalujte Morse, dokončete registraci a poté můžete připojit Váš iPad ke stejnému účtu.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Nainstalovat Signal na váš telefon";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Nainstalovat Morse na váš telefon";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Klepnutím na vaši profilovou fotku v telefonu otevřete Nastavení Signal. Pokračujte přes „Spárovaná zařízení“ a „Připojit nové zařízení“ pro naskenování kódu pomocí vašeho telefonu:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Klepnutím na vaši profilovou fotku v telefonu otevřete Nastavení Morse. Pokračujte přes „Spárovaná zařízení“ a „Připojit nové zařízení“ pro naskenování kódu pomocí vašeho telefonu:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Pomoc s připojením iPad získáte zde";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Pomocí vašeho telefonu naskenujte QR kód.";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Pro přenos vašeho účtu zapnětě Signal na vašem starém iPadu";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Pro přenos vašeho účtu zapnětě Morse na vašem starém iPadu";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Bezpečné sezení bylo resetováno.";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "Odeslání pozvánky selhalo, zkuste to později.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Pozval(a) jsi kamaráda/ku do Signalu!";
+"SEND_INVITE_SUCCESS" = "Pozval(a) jsi kamaráda/ku do Morseu!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "Zahodit média";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Pozvat kamaráda přes zabezpečenou SMS?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Chcete pozvat následující číslo do Signalu:";
+"SEND_SMS_INVITE_TITLE" = "Chcete pozvat následující číslo do Morseu:";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "Vysoká";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Standard";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal používá end-to-end šifrování a může občas potřebovat aktualizovat sezení chatu. To neovlivní bezpečnost chatu, ale můžete ztratit nějakou zprávu od tohoto kontaktu a může být potřeba kontakt požádat, aby vám zprávu poslal znovu.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Morse používá end-to-end šifrování a může občas potřebovat aktualizovat sezení chatu. To neovlivní bezpečnost chatu, ale můžete ztratit nějakou zprávu od tohoto kontaktu a může být potřeba kontakt požádat, aby vám zprávu poslal znovu.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Sezení konverzace aktualizováno";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Poloha";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Pokud je povoleno, Signal se pokusí obejít cenzuru. Nepovolujte v místech, kde Signal není cenzurován.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Pokud je povoleno, Morse se pokusí obejít cenzuru. Nepovolujte v místech, kde Morse není cenzurován.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Obcházení cenzury bylo aktivováno na základě vašeho telefonního čísla.";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Obcházení cenzury může být povoleno pouze pokud jste připojeni k internetu.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Obcházení cenzury není nutné; již jste připojeni ke službě Signal.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Obcházení cenzury není nutné; již jste připojeni ke službě Morse.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Zapnout Debug Log";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Přidat zablokovaného uživatele";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nemáte žádné kontakty v Signalu.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nemáte žádné kontakty v Morseu.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Žádné výsledky vyhledávání";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Vždy přenášet hovory";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Přenášet všechna volání přes server Signal, aby nedošlo k odhalení vaší IP adresy volanému. Povolením dojde ke zhoršení kvality hovoru.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Přenášet všechna volání přes server Morse, aby nedošlo k odhalení vaší IP adresy volanému. Povolením dojde ke zhoršení kvality hovoru.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "Konverzace";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Smazat historii chatu";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Copyright Signal Messenger\nLicencované pod GPLv3";
+"SETTINGS_COPYRIGHT" = "Copyright Morse Messenger\nLicencované pod GPLv3";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Předplatné";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Nastavení výchozího časovače zmizení zprávy pro všechny vámi zahájené nové konverzace.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Podpořte Signal finančně";
+"SETTINGS_DONATE" = "Podpořte Morse finančně";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Nápověda";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "Pozvěte vaše přátele";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Můžete mě kontaktovat pomocí aplikace @signalapp. Stáhnout nyní: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Můžete mě kontaktovat pomocí aplikace @signalapp. Stáhnout nyní: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "Barva chatu a tapety";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Obsah notifikace";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt se připojil k Signalu";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt se připojil k Morseu";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Upozornit, když...";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Aktivovat";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Signal můžete použít k odesílání a přijímání MobileCoin. Všechny platby podléhají podmínkám použití pro MobileCoiny a peněženku MobileCoin. Toto je funkce beta, takže se můžete setkat s určitými problémy a platby nebo zůstatky, které můžete ztratit, nelze obnovit.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Morse můžete použít k odesílání a přijímání MobileCoin. Všechny platby podléhají podmínkám použití pro MobileCoiny a peněženku MobileCoin. Toto je funkce beta, takže se můžete setkat s určitými problémy a platby nebo zůstatky, které můžete ztratit, nelze obnovit.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Aktivovat";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ v %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Platby v Signal již nejsou k dispozici. Stále můžete převádět prostředky na převod, ale již nemůžete posílat a přijímat platby ani přidávat prostředky.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Platby v Morse již nejsou k dispozici. Stále můžete převádět prostředky na převod, ale již nemůžete posílat a přijímat platby ani přidávat prostředky.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Platby nelze deaktivovat, protože váš zůstatek není k dispozici. Zkontrolujte připojení a zkuste to znovu.";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Platbu se nepodařilo dokončit, protože váš zůstatek není k dispozici. Zkontrolujte připojení a zkuste to znovu.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Platby v Signal již nejsou k dispozici. Stále můžete převádět prostředky na převod, ale již nemůžete posílat a přijímat platby ani přidávat prostředky.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Platby v Morse již nejsou k dispozici. Stále můžete převádět prostředky na převod, ale již nemůžete posílat a přijímat platby ani přidávat prostředky.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Platby v Signal již nejsou k dispozici. Stále můžete převádět prostředky na převod, ale již nemůžete posílat a přijímat platby ani přidávat prostředky.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Platby v Morse již nejsou k dispozici. Stále můžete převádět prostředky na převod, ale již nemůžete posílat a přijímat platby ani přidávat prostředky.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Převody jsou pouze odhady a nemusí být přesné.";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Deaktivovat platby";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Pokud deaktivujete platby, nebudete moci posílat ani přijímat MobileCoiny ve službě Signal.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Pokud deaktivujete platby, nebudete moci posílat ani přijímat MobileCoiny ve službě Morse.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Deaktivovat platby?";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Deaktivovat platby";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Před deaktivací plateb doporučujeme převést prostředky na jinou adresu peněženky. Pokud se rozhodnete nepřevést své prostředky nyní, zůstanou ve vaší peněžence propojené se Signal, pokud znovu aktivujete platby.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Před deaktivací plateb doporučujeme převést prostředky na jinou adresu peněženky. Pokud se rozhodnete nepřevést své prostředky nyní, zůstanou ve vaší peněžence propojené se Morse, pokud znovu aktivujete platby.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Pokud se rozhodnete znovu aktivovat platby, váš zůstatek zůstane v peněžence propojené se Signal.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Pokud se rozhodnete znovu aktivovat platby, váš zůstatek zůstane v peněžence propojené se Morse.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Deaktivovat bez převodu?";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "O MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Prostředky pro použití v Signal můžete přidat zasláním MobileCoin na adresu vaší peněženky.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Prostředky pro použití v Morse můžete přidat zasláním MobileCoin na adresu vaší peněženky.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Přidávám prostředky";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Platby aktivovány.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Pomocí Signal můžete odesílat a přijímat MobileCoin, novou digitální měnu zaměřenou na soukromí. Aktivujte a začněte.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Pomocí Morse můžete odesílat a přijímat MobileCoin, novou digitální měnu zaměřenou na soukromí. Aktivujte a začněte.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Znovu aktivovat platby";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "Představujeme platby (Beta)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Když znovu zadáte svůj Signal PIN, váš zůstatek se automaticky obnoví, když znovu nainstalujete Signal. Zůstatek můžete obnovit také pomocí obnovovací fráze, která je pro vás jedinečná 24 slovná fráze. Zapište si ji a uložte na bezpečném místě.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Když znovu zadáte svůj Morse PIN, váš zůstatek se automaticky obnoví, když znovu nainstalujete Morse. Zůstatek můžete obnovit také pomocí obnovovací fráze, která je pro vás jedinečná 24 slovná fráze. Zapište si ji a uložte na bezpečném místě.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "Přidat prostředky";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Platby";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Nelze provést převod na adresu vaší peněženky Signal. Zadejte adresu peněženky ze svého účtu na podporované burze.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Nelze provést převod na adresu vaší peněženky Morse. Zadejte adresu peněženky ze svého účtu na podporované burze.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "MobileCoin můžete převést dokončením převodu na adresu peněženky uvedenou burzou. Adresa peněženky je řetězec čísel a písmen nejčastěji pod QR kódem.";
@@ -5756,7 +5756,7 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Vypnout připomínky";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Ujistěte se, že si PIN pamatujete nebo ho máte bezpečně uložený, protože jej nelze obnovit. Pokud váš PIN zapomenete, můžete při opakované registraci Signal účtu přijít o data.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Ujistěte se, že si PIN pamatujete nebo ho máte bezpečně uložený, protože jej nelze obnovit. Pokud váš PIN zapomenete, můžete při opakované registraci Morse účtu přijít o data.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Potvrdit váš Singal PIN";
@@ -5765,7 +5765,7 @@
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "Připomenutí PIN";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PINy zajišťují, že informace uložené v Signalu jsou zašifrované a pouze vy k nim můžete mít přístup. PIN nemůže být obnoven. Váš profil, nastavení a kontakty se obnoví, když znovu nainstalujete Signal.";
+"SETTINGS_PINS_FOOTER" = "PINy zajišťují, že informace uložené v Morseu jsou zašifrované a pouze vy k nim můžete mít přístup. PIN nemůže být obnoven. Váš profil, nastavení a kontakty se obnoví, když znovu nainstalujete Morse.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Změnit váš PIN";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Vytvořit PIN";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN";
+"SETTINGS_PINS_TITLE" = "Morse PIN";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Nastavení obcházení cenzury, předávání hovorů a utajených odesílatelů.";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Zapnout";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Pokud při opakované registraci Signalu zapomenete váš PIN, bude váš účet zablokován na 7 dní.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Pokud při opakované registraci Morseu zapomenete váš PIN, bude váš účet zablokován na 7 dní.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Zapnout zámek registrace?";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Volání";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Použijte Touch ID, Face ID nebo systémový PIN pro odemknutí Signalu.";
+"SETTINGS_SECURITY_DETAIL" = "Použijte Touch ID, Face ID nebo systémový PIN pro odemknutí Morseu.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Použijte Face ID pro odemknutí Signalu.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Použijte Face ID pro odemknutí Morseu.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Použijte PIN zařízení pro odemknutí Signalu.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Použijte PIN zařízení pro odemknutí Morseu.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Použijte Touch ID pro odemknutí Signalu.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Použijte Touch ID pro odemknutí Morseu.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Bezpečnost aplikace";
@@ -5855,13 +5855,13 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Sdílet kontakty s iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Povolit iOS přístup ke kontaktům a konverzacím Signal pro zpřístupnění funkcí jako doporučení ke sdílení.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Povolit iOS přístup ke kontaktům a konverzacím Morse pro zpřístupnění funkcí jako doporučení ke sdílení.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Povolit iOS přístup ke kontaktům a konverzacím Signal pro zpřístupnění funkcí jako doporučení ke sdílení a upozornění.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Povolit iOS přístup ke kontaktům a konverzacím Morse pro zpřístupnění funkcí jako doporučení ke sdílení a upozornění.";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signal Boost";
+"SETTINGS_SIGNAL_BOOST" = "Morse Boost";
 
 /* Title for the 'become a sustainer' link in settings. */
 "SETTINGS_SUBSCRIPTION" = "Staňte se podporovatelem";
@@ -5869,8 +5869,8 @@
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Zámek registrace";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Vyžadovat Signal PIN pro opětovnou registraci vašeho telefonního čísla v aplikaci Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Vyžadovat Morse PIN pro opětovnou registraci vašeho telefonního čísla v aplikaci Morse.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Indikátory psaní";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "Načítání...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Otevřete Signal pro registraci.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Otevřete Morse pro registraci.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Není registrováno";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Otevřete Signal pro registraci nebo aktualizaci.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Otevřete Morse pro registraci nebo aktualizaci.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Nepřipraveno";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Nahrávání...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Přílohu nelze připravit";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Sdílet do Signalu";
+"SHARE_EXTENSION_VIEW_TITLE" = "Sdílet do Morseu";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Nepodařilo se zakázat doporučení sdílení.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Signal konverzace mohou být nyní zobrazeny jako doporučení při sdílení z ostatních aplikací.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Morse konverzace mohou být nyní zobrazeny jako doporučení při sdílení z ostatních aplikací.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "Jednodušší sdílení";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Zobrazit chat";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Zvu tě do aplikace Signal! Tady je odkaz:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Zvu tě do aplikace Morse! Tady je odkaz:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "Zvuky & oznámení";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Pokračovat bez ověření?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Abyste zabránili šíření spamu v síti Signal, dokončete prosím ověření.\n\nPo ověření můžete pokračovat v zasílání zpráv. Všechny pozastavené zprávy budou automaticky odeslány.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Abyste zabránili šíření spamu v síti Morse, dokončete prosím ověření.\n\nPo ověření můžete pokračovat v zasílání zpráv. Všechny pozastavené zprávy budou automaticky odeslány.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Ověřte pro pokračování konverzace";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "Instalovat";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Serie Signal";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Serie Morse";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Přijaté nálepky";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Podpořit";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal je aplikace, za kterou stojí lidé jako vy. Prokažte jim dnes svoji podporu!";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse je aplikace, za kterou stojí lidé jako vy. Prokažte jim dnes svoji podporu!";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Ne, děkuji";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Řekněte nám o problému: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Zašlete prosím e-mail s vaší žádostí o podporu na support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Zašlete prosím e-mail s vaší žádostí o podporu na support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filtr: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "URL protokolu: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Verze Signalu: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Verze Morseu: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS Support Request";
+"SUPPORT_EMAIL_SUBJECT" = "Morse iOS Support Request";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Jak se vám líbí (volitelné)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "Četli jste už často kladené otázky (FAQ)?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Načítání";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal je nezisková organizace bez inzerentů a investorů, kterou živí pouze lidé, kteří ji používají a oceňují. Přispívejte pravidelně každý měsíc a získejte profilový odznak, abyste se podělili o svou podporu.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse je nezisková organizace bez inzerentů a investorů, kterou živí pouze lidé, kteří ji používají a oceňují. Přispívejte pravidelně každý měsíc a získejte profilový odznak, abyste se podělili o svou podporu.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Společnost Signal se zavázala vyvíjet open source technologii ochrany soukromí, která chrání svobodu projevu a umožňuje bezpečnou globální komunikaci.\n\nSvým příspěvkem podpoříte tento účel a zaplatíte vývoj a provoz aplikace, kterou používají miliony lidí pro soukromou komunikaci. Žádné reklamy. Žádné trackery. Bez legrace.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Společnost Morse se zavázala vyvíjet open source technologii ochrany soukromí, která chrání svobodu projevu a umožňuje bezpečnou globální komunikaci.\n\nSvým příspěvkem podpoříte tento účel a zaplatíte vývoj a provoz aplikace, kterou používají miliony lidí pro soukromou komunikaci. Žádné reklamy. Žádné trackery. Bez legrace.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Podpořte technologii, která je vytvořena pro vás, ne kvůli vašim datům, a připojte se ke komunitě lidí, kteří ji podporují.";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Stále zpracovávám";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Přidat Signal Boost";
+"SUSTAINER_VIEW_ADD_BOOST" = "Přidat Morse Boost";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Získat %@ odznak";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "Nyní ne";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signal pohání lidé, jako jste vy.";
+"SUSTAINER_VIEW_TITLE" = "Morse pohání lidé, jako jste vy.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "Dnes vám bude účtována plná částka (%@) nového předplatného. Vaše předplatné bude obnoveno každý měsíc.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "Neznámá země";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Jedno z vašich zařízení odeslalo zprávu, kterou zde nelze zobrazit, protože používá novější funkci Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Jedno z vašich zařízení odeslalo zprávu, kterou zde nelze zobrazit, protože používá novější funkci Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ vám zaslal(a) zprávu, kterou zde nelze zobrazit, protože používá novější funkci Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ vám zaslal(a) zprávu, kterou zde nelze zobrazit, protože používá novější funkci Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Obdrželi jste zprávu, kterou zde nelze zobrazit, protože používá novější funkci Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Obdrželi jste zprávu, kterou zde nelze zobrazit, protože používá novější funkci Morse.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Aktualizovat Signal nyní";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Aktualizovat Morse nyní";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Proběhla aktualizace na nejnovější verzi Signal. Odteď můžete na vašem zařízení přijímat i tyto typy zpráv.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Proběhla aktualizace na nejnovější verzi Morse. Odteď můžete na vašem zařízení přijímat i tyto typy zpráv.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Můžete %@ požádat o opětovné zaslání předchozí zprávy, jelikož používáte poslední verzi Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Můžete %@ požádat o opětovné zaslání předchozí zprávy, jelikož používáte poslední verzi Morse.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Nyní můžete požádat odesílatele o opětovné zaslání předchozí zprávy, jelikož používáte poslední verzi Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Nyní můžete požádat odesílatele o opětovné zaslání předchozí zprávy, jelikož používáte poslední verzi Morse.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Neznámý";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Odpojit \"%@\"?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Vaše zařízení již není propojené s aplikací Signal. Prosím, propojte je znovu, abyste mohli odesílat zprávy.";
+"UNLINKED_WARNING" = "Vaše zařízení již není propojené s aplikací Morse. Prosím, propojte je znovu, abyste mohli odesílat zprávy.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signalu se nepodařilo odpojit vaše zařízení.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Morseu se nepodařilo odpojit vaše zařízení.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Nepojmenované zařízení";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Vase zařízení nepodporuje tuto funkci.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Vaše bezpečnostní číslo s %@ se změnilo pravděpodobně kvůli tomu, že protistrana přeinstalovala aplikaci Signal. Klepněte na Ověřit pro ověření nového bezpečnostního čísla. Je to volitelné.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Vaše bezpečnostní číslo s %@ se změnilo pravděpodobně kvůli tomu, že protistrana přeinstalovala aplikaci Morse. Klepněte na Ověřit pro ověření nového bezpečnostního čísla. Je to volitelné.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Ověřit";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "Zjistěte víc o PINech";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN uchovává informace uložené u Signalu zašifrované, takže pouze vy k nim můžete přistupovat. Váš profil, nastavení a kontakty budou při reinstalaci obnoveny. Pro spuštění aplikace PIN nebudete potřebovat. ";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN uchovává informace uložené u Morseu zašifrované, takže pouze vy k nim můžete přistupovat. Váš profil, nastavení a kontakty budou při reinstalaci obnoveny. Pro spuštění aplikace PIN nebudete potřebovat. ";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "Představujeme PIN";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "Deaktivovat PIN";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal bude brzy vyžadovat iOS 11 nebo novější. Proveďte prosím aktualizaci v aplikaci Nastavení >> Obecné >> Aktualizace softwaru.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Morse bude brzy vyžadovat iOS 11 nebo novější. Proveďte prosím aktualizaci v aplikaci Nastavení >> Obecné >> Aktualizace softwaru.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Upgradujte iOS";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Uživatelská jména na Signal jsou nepovinná. Pokud se rozhodnete vytvořit uživatelské jméno, ostatní uživatelé Signal vás budou moci najít podle tohoto uživatelského jména a kontaktovat vás, aniž by znali vaše telefonní číslo.";
+"USERNAME_DESCRIPTION" = "Uživatelská jména na Morse jsou nepovinná. Pokud se rozhodnete vytvořit uživatelské jméno, ostatní uživatelé Morse vás budou moci najít podle tohoto uživatelského jména a kontaktovat vás, aniž by znali vaše telefonní číslo.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "Uživatelská jména mohou obsahovat pouze a-Z, 0-9 a podtržítka.";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "Došlo k chybě při vyhledávání uživatelského jména. Prosím, zkuste to znovu později.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "\"%@\" není uživatel Signal. Prosím zkontrolujte uživatelské jméno a zkuste to znovu.";
+"USERNAME_NOT_FOUND_FORMAT" = "\"%@\" není uživatel Morse. Prosím zkontrolujte uživatelské jméno a zkuste to znovu.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "Uživatel nenalezen";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Pro nahrání zmáčkněte a podržte.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Dokončete nastavení v aplikaci Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Dokončete nastavení v aplikaci Morse Desktop.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Jméno kontaktu";

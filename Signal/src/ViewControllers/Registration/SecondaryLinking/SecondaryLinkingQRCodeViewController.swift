@@ -93,7 +93,7 @@ public class SecondaryLinkingQRCodeViewController: OnboardingBaseViewController 
             return
         }
 
-        UIApplication.shared.open(URL(string: "https://support.signal.org/hc/articles/360007320451")!)
+        UIApplication.shared.open(URL(string: "https://support.devplusone.com/hc/articles/360007320451")!)
     }
 
 #if TESTABLE_BUILD

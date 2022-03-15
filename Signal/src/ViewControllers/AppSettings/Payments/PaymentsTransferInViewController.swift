@@ -68,7 +68,7 @@ class PaymentsTransferInViewController: OWSTableViewController2 {
                 text: NSLocalizedString("SETTINGS_PAYMENTS_ADD_MONEY_DESCRIPTION",
                                         comment: "Explanation of the process for adding money in the 'add money' settings view."),
                 font: .ows_dynamicTypeBody2Clamped,
-                learnMoreUrl: "https://support.signal.org/hc/en-us/articles/360057625692#payments_transfer_from_exchange")
+                learnMoreUrl: "https://support.devplusone.com/hc/en-us/articles/360057625692#payments_transfer_from_exchange")
             label.textAlignment = .center
             cell.contentView.addSubview(label)
             label.autoPinEdgesToSuperviewMargins()

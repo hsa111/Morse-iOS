@@ -360,7 +360,7 @@ class MessageRequestView: UIStackView {
                 attributedString,
                 " ",
                 CommonStrings.learnMore.styled(
-                    with: .link(URL(string: "https://support.signal.org/hc/articles/360007459591")!),
+                    with: .link(URL(string: "https://support.devplusone.com/hc/articles/360007459591")!),
                     .font(.ows_dynamicTypeSubheadlineClamped)
                 )
             ])

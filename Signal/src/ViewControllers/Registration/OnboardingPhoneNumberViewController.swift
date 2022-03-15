@@ -107,9 +107,11 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
         field.accessibilityIdentifier = "onboarding.phoneNumber." + "phoneNumberTextField"
 //
 //        field.text = "45336488"
-//        field.isUserInteractionEnabled = false
-//        field.isEnabled = false;
-//        
+        field.isUserInteractionEnabled = false
+        field.isEnabled = false;
+        let bgColor = UIColor.lightGray
+//        field.backgroundColor = bgColor
+        field.textColor = UIColor.lightGray
         return field
     }()
 
@@ -252,6 +254,8 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
         titleLabel.accessibilityIdentifier = "onboarding.phoneNumber." + "titleLabel"
         phoneNumberRow.accessibilityIdentifier = "onboarding.phoneNumber." + "phoneNumberRow"
         countryRow.accessibilityIdentifier = "onboarding.phoneNumber." + "countryRow"
+        
+        continueButton.setEnabled(false)
     }
 
     public override func viewDidLoad() {
@@ -321,22 +325,32 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
     // MARK: - View population
 
     private func populateDefaults() {
-        onboardingController.requestRandomNumber(){ [weak self] number, error in
+        onboardingController.requestRandomNumber(countryCode:callingCode){ [weak self] number, error in
             guard let self = self else { return }
-            self.phoneNumber = number
+            //if number.hasPrefix(prefix:callingCode){
+            if number.hasPrefix(self.callingCode){
+                let start = number.index(number.startIndex, offsetBy: self.callingCode.count)
+                let end = number.index(number.startIndex, offsetBy: number.count-1)
+                let range = start...end
+                let newString = String(number[range])
+                self.phoneNumber = newString
+                self.continueButton.setEnabled(true)
+            }else{
+                self.phoneNumber = number
+            }
         }
         
-        if let reregistrationNumber = fetchReregistrationNumberIfAvailable() {
-            phoneNumber = reregistrationNumber
-            isReregistering = true
-
-        } else if let lastRegisteredPhoneNumber = OnboardingController.lastRegisteredPhoneNumber(),
-                  lastRegisteredPhoneNumber.count > 0 {
-            phoneNumber = lastRegisteredPhoneNumber
-
-        } else if let existingNumber = onboardingController.phoneNumber {
-            phoneNumber = existingNumber.userInput
-        }
+//        if let reregistrationNumber = fetchReregistrationNumberIfAvailable() {
+//            phoneNumber = reregistrationNumber
+//            isReregistering = true
+//
+//        } else if let lastRegisteredPhoneNumber = OnboardingController.lastRegisteredPhoneNumber(),
+//                  lastRegisteredPhoneNumber.count > 0 {
+//            phoneNumber = lastRegisteredPhoneNumber
+//        } else if let existingNumber = onboardingController.phoneNumber {
+//            phoneNumber = existingNumber.userInput
+//        }
+        self.continueButton.setEnabled(false)
     }
 
     private func fetchReregistrationNumberIfAvailable() -> String? {
@@ -419,7 +433,7 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
         updateValidationLabel()
 
         phoneNumberTextField.isEnabled = !isReregistering
-        continueButton.setEnabled(state == .interactive)
+        //continueButton.setEnabled(state == .interactive)
 
         if showSpinner, !progressSpinner.isAnimating {
             progressSpinner.startAnimating()
@@ -583,16 +597,17 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
         // Preemptively resign so we don't reacquire first responder status between the alert
         // dismissal and the progress view animation
         self.phoneNumberTextField.resignFirstResponder()
-        self.onboardingController.presentPhoneNumberConfirmationSheet(from: self, number: formattedNumber) { [weak self] shouldContinue in
-            guard let self = self else { return }
-
-            if shouldContinue {
-                self.requestVerification(with: OnboardingPhoneNumber(e164: localNumber.toE164(), userInput: phoneNumberText))
-            } else {
-                // User wants to edit, retake first responder
-                self.phoneNumberTextField.becomeFirstResponder()
-            }
-        }
+//        self.onboardingController.presentPhoneNumberConfirmationSheet(from: self, number: formattedNumber) { [weak self] shouldContinue in
+//            guard let self = self else { return }
+//
+//            if shouldContinue {
+//                self.requestVerification(with: OnboardingPhoneNumber(e164: localNumber.toE164(), userInput: phoneNumberText))
+//            } else {
+//                // User wants to edit, retake first responder
+//                self.phoneNumberTextField.becomeFirstResponder()
+//            }
+//        }
+        self.requestVerification(with: OnboardingPhoneNumber(e164: localNumber.toE164(), userInput: phoneNumberText))
     }
 
     private func requestVerification(with phoneNumber: OnboardingPhoneNumber) {

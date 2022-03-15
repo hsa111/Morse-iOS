@@ -33,14 +33,14 @@
 				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
 				<false/>
 			</dict>
-			<key>signal-plus.org</key>
+			<key>devplusone.com</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
 				<key>NSIncludesSubdomains</key>
 				<true/>
 			</dict>
-			<key>signal.org</key>
+			<key>devplusone.com - 2</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>

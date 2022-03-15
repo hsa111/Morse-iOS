@@ -27,20 +27,20 @@ class OWSLinkPreviewTest: SSKBaseTestSwift {
     func testUrlSchemeValidation() {
         let testSuite: [String: String?] = [
             // Invalid: Explicit scheme is required
-            "signal-plus.org": nil,
-            "www.signal-plus.org": nil,
-            "https.signal-plus.org": nil,
+            "devplusone.com": nil,
+            "www.devplusone.com": nil,
+            "https.devplusone.com": nil,
 
             // Invalid: Scheme must be https
-            "http://www.signal-plus.org": nil,
-            "ftp://www.signal-plus.org": nil,
+            "http://www.devplusone.com": nil,
+            "ftp://www.devplusone.com": nil,
 
             // Valid
-            "https://signal-plus.org": "https://signal-plus.org",
-            "HTTPS://signal-plus.org": "HTTPS://signal-plus.org",
-            "https://www.signal-plus.org": "https://www.signal-plus.org",
-            "https://www.signal-plus.org:443/blahh.html?query=value": "https://www.signal-plus.org:443/blahh.html?query=value",
-            "https://test.signal-plus.org/": "https://test.signal-plus.org/"
+            "https://devplusone.com": "https://devplusone.com",
+            "HTTPS://devplusone.com": "HTTPS://devplusone.com",
+            "https://www.devplusone.com": "https://www.devplusone.com",
+            "https://www.devplusone.com:443/blahh.html?query=value": "https://www.devplusone.com:443/blahh.html?query=value",
+            "https://test.devplusone.com/": "https://test.devplusone.com/"
         ]
         testSuite.forEach { string, expectedString in
             let url = linkPreviewManager.findFirstValidUrl(in: string)
@@ -52,9 +52,9 @@ class OWSLinkPreviewTest: SSKBaseTestSwift {
     func testRejectedUrlFields() {
         let testSuite: [String: String?] = [
             // Invalid: Username/Password disallowed
-            "https://mlin@www.signal-plus.org": nil,
-            "https://:pass@www.signal-plus.org": nil,
-            "https://mlin:mypass@www.signal-plus.org": nil,
+            "https://mlin@www.devplusone.com": nil,
+            "https://:pass@www.devplusone.com": nil,
+            "https://mlin:mypass@www.devplusone.com": nil,
 
             // Invalid: .onion TLD explicitly disallowed
             "https://3g2upl4pq6kufc4m.onion": nil,
@@ -92,9 +92,9 @@ class OWSLinkPreviewTest: SSKBaseTestSwift {
             "https://中国互联网络信息中心.中国/nonASCIIPath": "https://xn--fiqa61au8b7zsevnm8ak20mc4a87e.xn--fiqs8s/nonASCIIPath",
             "https://中国互联网络信息中心.中国?nonASCIIQuery": "https://xn--fiqa61au8b7zsevnm8ak20mc4a87e.xn--fiqs8s?nonASCIIQuery",
             "https://中国互联网络信息中心.中国#fragment": "https://xn--fiqa61au8b7zsevnm8ak20mc4a87e.xn--fiqs8s#fragment",
-            "https://signal-plus.org/你好": "https://signal-plus.org/%E4%BD%A0%E5%A5%BD",
-            "https://signal-plus.org?你好": "https://signal-plus.org?%E4%BD%A0%E5%A5%BD",
-            "https://signal-plus.org#你好": "https://signal-plus.org#%E4%BD%A0%E5%A5%BD"
+            "https://devplusone.com/你好": "https://devplusone.com/%E4%BD%A0%E5%A5%BD",
+            "https://devplusone.com?你好": "https://devplusone.com?%E4%BD%A0%E5%A5%BD",
+            "https://devplusone.com#你好": "https://devplusone.com#%E4%BD%A0%E5%A5%BD"
         ]
 
         testSuite.forEach { string, expectedString in
@@ -379,7 +379,7 @@ extension OWSLinkPreviewTest {
                 let content = HTMLMetadata.construct(parsing: linkText)
                 XCTAssertNotNil(content)
 
-                XCTAssertEqual(content.ogTitle, "Signal on Instagram: “I link therefore I am: https://signal-plus.org/blog/i-link-therefore-i-am/”")
+                XCTAssertEqual(content.ogTitle, "Signal on Instagram: “I link therefore I am: https://devplusone.com/blog/i-link-therefore-i-am/”")
                 // Actual URL can change based on network response
                 //
                 // It seems like some parts of the URL are stable, so we can pattern match, but if this continues to be brittle we may choose
@@ -408,7 +408,7 @@ extension OWSLinkPreviewTest {
                 let content = HTMLMetadata.construct(parsing: linkText)
                 XCTAssertNotNil(content)
 
-                XCTAssertEqual(content.ogTitle, "Signal on Instagram: “I link therefore I am: https://signal-plus.org/blog/i-link-therefore-i-am/”")
+                XCTAssertEqual(content.ogTitle, "Signal on Instagram: “I link therefore I am: https://devplusone.com/blog/i-link-therefore-i-am/”")
                 // Actual URL can change based on network response
                 //
                 // It seems like some parts of the URL are stable, so we can pattern match, but if this continues to be brittle we may choose

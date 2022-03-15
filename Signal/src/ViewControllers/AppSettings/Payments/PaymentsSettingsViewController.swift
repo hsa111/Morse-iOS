@@ -851,7 +851,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
             style: .default,
             handler: { _ in
                 UIApplication.shared.open(
-                    URL(string: "https://support.signal.org/hc/en-us/articles/360057625692#payments_currency_conversion")!,
+                    URL(string: "https://support.devplusone.com/hc/en-us/articles/360057625692#payments_currency_conversion")!,
                     options: [:],
                     completionHandler: nil
                 )
@@ -999,7 +999,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
 
     private func didTapHelpButton() {
         let view = ContactSupportViewController()
-        view.selectedFilter = .payments
+        view.selectedFilter = .question
         let navigationVC = OWSNavigationController(rootViewController: view)
         present(navigationVC, animated: true)
      }
@@ -1047,7 +1047,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
     @objc
     private func didTapAboutMobileCoinCard() {
         UIApplication.shared.open(
-            URL(string: "https://support.signal.org/hc/en-us/articles/360057625692#payments_which_ones")!,
+            URL(string: "https://support.devplusone.com/hc/en-us/articles/360057625692#payments_which_ones")!,
             options: [:],
             completionHandler: nil
         )
@@ -1056,7 +1056,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
     @objc
     private func didTapAddingToYourWalletCard() {
         UIApplication.shared.open(
-            URL(string: "https://support.signal.org/hc/en-us/articles/360057625692#payments_transfer_from_exchange")!,
+            URL(string: "https://support.devplusone.com/hc/en-us/articles/360057625692#payments_transfer_from_exchange")!,
             options: [:],
             completionHandler: nil
         )
@@ -1065,7 +1065,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
     @objc
     private func didTapCashingOutCoinCard() {
         UIApplication.shared.open(
-            URL(string: "https://support.signal.org/hc/en-us/articles/360057625692#payments_transfer_to_exchange")!,
+            URL(string: "https://support.devplusone.com/hc/en-us/articles/360057625692#payments_transfer_to_exchange")!,
             options: [:],
             completionHandler: nil
         )

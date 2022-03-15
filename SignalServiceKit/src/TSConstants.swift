@@ -165,28 +165,28 @@ private class TSConstantsProduction: TSConstantsProtocol {
 
     public var mainServiceWebSocketAPI_identified: String {
         FeatureFlags.newHostNames
-            ? "wss://chat.signal-plus.org/v1/websocket/"
-            : "wss://chat.signal-plus.org/v1/websocket/"
+            ? "wss://chat.devplusone.com/v1/websocket/"
+            : "wss://chat.devplusone.com/v1/websocket/"
     }
     public var mainServiceWebSocketAPI_unidentified: String {
         FeatureFlags.newHostNames
-            ? "wss://chat.signal-plus.org/v1/websocket/"
-            : "wss://chat.signal-plus.org/v1/websocket/"
+            ? "wss://chat.devplusone.com/v1/websocket/"
+            : "wss://chat.devplusone.com/v1/websocket/"
     }
     public var mainServiceURL: String {
         FeatureFlags.newHostNames
-            ? "https://chat.signal-plus.org/"
-            : "https://chat.signal-plus.org/"
+            ? "https://chat.devplusone.com/"
+            : "https://chat.devplusone.com/"
     }
-    public let textSecureCDN0ServerURL = "https://cdn.signal-plus.org"
-    public let textSecureCDN2ServerURL = "https://cdn2.signal-plus.org"
-    public let contactDiscoveryURL = "https://api.directory.signal-plus.org"
-    public let keyBackupURL = "https://api.backup.signal-plus.org"
-    public let storageServiceURL = "https://storage.signal-plus.org"
-    public let sfuURL = "https://sfu.voip.signal-plus.org"
-    public let sfuTestURL = "https://sfu.test.voip.signal-plus.org"
+    public let textSecureCDN0ServerURL = "https://cdn.devplusone.com"
+    public let textSecureCDN2ServerURL = "https://cdn2.devplusone.com"
+    public let contactDiscoveryURL = "https://api.directory.devplusone.com"
+    public let keyBackupURL = "https://api.backup.devplusone.com"
+    public let storageServiceURL = "https://storage.devplusone.com"
+    public let sfuURL = "https://sfu.voip.devplusone.com"
+    public let sfuTestURL = "https://sfu.test.voip.devplusone.com"
     public let kUDTrustRoot = "BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH"
-    public let updates2URL = "https://updates2.signal-plus.org"
+    public let updates2URL = "https://updates2.devplusone.com"
 
     public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
 
@@ -214,7 +214,7 @@ private class TSConstantsProduction: TSConstantsProtocol {
     // checking earlier enclaves.
     public let keyBackupPreviousEnclaves = [KeyBackupEnclave]()
 
-    public let applicationGroup = "group.org.signal-plus.signalplus"
+    public let applicationGroup = "group.org.signal-plus.signaltest1"
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)
@@ -227,30 +227,30 @@ private class TSConstantsStaging: TSConstantsProtocol {
 
     public var mainServiceWebSocketAPI_identified: String {
         FeatureFlags.newHostNames
-            ? "wss://chat.staging.signal-plus.org/v1/websocket/"
+            ? "wss://chat.staging.devplusone.com/v1/websocket/"
             : "wss://textsecure-service-staging.whispersystems.org/v1/websocket/"
     }
     public var mainServiceWebSocketAPI_unidentified: String {
         FeatureFlags.newHostNames
-            ? "wss://ud-chat.staging.signal-plus.org/v1/websocket/"
+            ? "wss://ud-chat.staging.devplusone.com/v1/websocket/"
             : "wss://textsecure-service-staging.whispersystems.org/v1/websocket/"
     }
     public var mainServiceURL: String {
         FeatureFlags.newHostNames
-            ? "https://chat.staging.signal-plus.org/"
+            ? "https://chat.staging.devplusone.com/"
             : "https://textsecure-service-staging.whispersystems.org/"
     }
-    public let textSecureCDN0ServerURL = "https://cdn-staging.signal-plus.org"
-    public let textSecureCDN2ServerURL = "https://cdn2-staging.signal-plus.org"
-    public let contactDiscoveryURL = "https://api-staging.directory.signal-plus.org"
-    public let keyBackupURL = "https://api-staging.backup.signal-plus.org"
-    public let storageServiceURL = "https://storage-staging.signal-plus.org"
-    public let sfuURL = "https://sfu.staging.voip.signal-plus.org"
+    public let textSecureCDN0ServerURL = "https://cdn-staging.devplusone.com"
+    public let textSecureCDN2ServerURL = "https://cdn2-staging.devplusone.com"
+    public let contactDiscoveryURL = "https://api-staging.directory.devplusone.com"
+    public let keyBackupURL = "https://api-staging.backup.devplusone.com"
+    public let storageServiceURL = "https://storage-staging.devplusone.com"
+    public let sfuURL = "https://sfu.staging.voip.devplusone.com"
     // There's no separate test SFU for staging.
-    public let sfuTestURL = "https://sfu.test.voip.signal-plus.org"
+    public let sfuTestURL = "https://sfu.test.voip.devplusone.com"
     public let kUDTrustRoot = "BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH"
     // There's no separate updates endpoint for staging.
-    public let updates2URL = "https://updates2.signal-plus.org"
+    public let updates2URL = "https://updates2.devplusone.com"
 
     public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
 
@@ -285,7 +285,7 @@ private class TSConstantsStaging: TSConstantsProtocol {
         )
     ]
 
-    public let applicationGroup = "group.org.signal-plus.signalplus.staging"
+    public let applicationGroup = "group.org.signal-plus.signaltest1.staging"
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1300"
+   LastUpgradeVersion = "1320"
    wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
@@ -31,7 +31,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D221A088169C9E5E00537ABF"
                BuildableName = "Signal.app"
-               BlueprintName = "Signal"
+               BlueprintName = "Morse"
                ReferencedContainer = "container:Signal.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D221A088169C9E5E00537ABF"
             BuildableName = "Signal.app"
-            BlueprintName = "Signal"
+            BlueprintName = "Morse"
             ReferencedContainer = "container:Signal.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

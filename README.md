@@ -8,7 +8,7 @@ Also available on [Android](https://github.com/signalapp/signal-android) and [De
 
 ## Questions?
 
-For troubleshooting and questions, please visit our [support center](https://support.signal.org/) or [unofficial community forum](https://community.signalusers.org/).
+For troubleshooting and questions, please visit our [support center](https://support.devplusone.com/) or [unofficial community forum](https://community.signalusers.org/).
 
 ## Contributing Bug Reports
 

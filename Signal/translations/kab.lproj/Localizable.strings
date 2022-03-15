@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Mačči tura";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Ɣef Signal";
+"ABOUT_SECTION_TITLE" = "Ɣef Morse";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Qbel uṭṭun aɣellsan amaynut";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "Izen ameslaw %@ n tasinin";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Asiwel Signal";
+"ACTION_AUDIO_CALL" = "Asiwel Morse";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Snubget-d ɣer Signal";
+"ACTION_INVITE" = "Snubget-d ɣer Morse";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Azen izen";
@@ -149,7 +149,7 @@
 "APN_Message" = "Tzemrem ad tesεum iznan imaynuten";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal ur izmir ara ad yekker. Ttxil-k·m azen aɣmis n temseɣtayt ɣer support@signal.org i wakken ad nizmir ad nefru ugur-a.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Morse ur izmir ara ad yekker. Ttxil-k·m azen aɣmis n temseɣtayt ɣer support@devplusone.com i wakken ad nizmir ad nefru ugur-a.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Erreur";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Ur yezmir ara ad d-isali taffa n yisefka";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Ttxil-k.m ali ɣer lqem aneggaru n Signal.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Ttxil-k.m ali ɣer lqem aneggaru n Morse.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Lqem arussin n tafa n isefka.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Isefka i d-yekkan segyuben-ik·im aqbur ur tezmireḍ ara ad ten-id-terreḍ. Ttxil-k·m azen aɣmis n temseɣtayt ɣer support@signal.org i wakken ad nizmir ad nefru ugur-a. Ma yella tulseḍ asebded n Signal, azray-inek·inem n yiznan yezmer ad iruḥ.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Isefka i d-yekkan segyuben-ik·im aqbur ur tezmireḍ ara ad ten-id-terreḍ. Ttxil-k·m azen aɣmis n temseɣtayt ɣer support@devplusone.com i wakken ad nizmir ad nefru ugur-a. Ma yella tulseḍ asebded n Morse, azray-inek·inem n yiznan yezmer ad iruḥ.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Tugi ad temmed tuzna";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Lqem %@ yella tura deg App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Yella lqem amaynut n Signal";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Yella lqem amaynut n Morse";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Leqqem";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "Anagraw";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "Tarcivt";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Yecceḍ usifeḍ n tceqquft yeddan.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Asekles ur yeddi ara";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Become a Sustainer";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Give Signal a Boost";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Give Morse a Boost";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Signal but to support technology that is built for you, please consider becoming a monthly Sustainer.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Morse but to support technology that is built for you, please consider becoming a monthly Sustainer.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can reactivate your Boost badge for another 30 days with a one-time contribution.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Morse but to support the app and reactivate your badge, renew now.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Become a Sustainer";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "When you have more than one badge, you can choose one to feature for others to see on your profile.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned the %@ badge! Help Signal build awareness by displaying this badge on your profile.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned the %@ badge! Help Morse build awareness by displaying this badge on your profile.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Mdel annay";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Select an amount to donate";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Give Signal a Boost";
+"BOOST_VIEW_TITLE" = "Give Morse a Boost";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Rnu";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 Asiwel s umeslaw ifut";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Tzemreḍ ad tremdeḍ anekcum ɣer usawaḍ deg usnas n yiɣewwaren n iOS i waken ad tgeḍ isawalen neɣ ad teskelseḍ iznan deg Signal.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Tzemreḍ ad tremdeḍ anekcum ɣer usawaḍ deg usnas n yiɣewwaren n iOS i waken ad tgeḍ isawalen neɣ ad teskelseḍ iznan deg Morse.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Yettusra unekcum ɣer usawaḍ";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Ulac tiririt";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "%@ n Signal";
+"CALL_STATUS_FORMAT" = "%@ n Morse";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Siwel";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Takamiṛat tensa";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Aseqdac n Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Aseqdac n Morse";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Ṭṭef tawlaft syen azen-itt";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Serwes akked ɣefwafus";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Fren anadi i useqdac n Signal i wakken ad tebduḍ adiwenni yid-s.";
+"COMPOSE_BUTTON_HINT" = "Fren anadi i useqdac n Morse i wakken ad tebduḍ adiwenni yid-s.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Aru";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Anadi n yisem n useqdac";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Tzemreḍ ad tremdeḍ anekcum ɣer yinermisen deg usnas n yiɣewwaren n iOS i waken ad twaliḍ anwi seg yinermisen-ik·im d iseqdacen n Signal.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Tzemreḍ ad tremdeḍ anekcum ɣer yinermisen deg usnas n yiɣewwaren n iOS i waken ad twaliḍ anwi seg yinermisen-ik·im d iseqdacen n Morse.";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "Ayagi ad iwennez asnas s tukksa n yiznan-ik·im. Asnas ad yemdel seld ad yemmed ukala.";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Something Not Working";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Sustainers & Signal Boost";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Sustainers & Morse Boost";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Sustainers & Boost";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal ur yezmir ara akk ad ismed asuter-ik·im n tallalt.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morse ur yezmir ara akk ad ismed asuter-ik·im n tallalt.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Arem tikelt-nniḍen";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "audio";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Signal. Tap a badge to learn more.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Morse. Tap a badge to learn more.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Badges";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Kkes amiḍan";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Ayagi ad yekkes amiḍan-ik·im n Signal syen ad iwennez asnas. Asnas ad yemdel seld ad yemmed ukala.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Ayagi ad yekkes amiḍan-ik·im n Morse syen ad iwennez asnas. Asnas ad yemdel seld ad yemmed ukala.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "D tidet tebɣiḍ ad tekkseḍ amiḍan-ik?";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Uṭṭun n tiliɣri";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Sentem uṭṭun-ik·im n Signal";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Sentem uṭṭun-ik·im n Morse";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Kkes amiḍan";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Ales ajerred uṭṭun-a n tilifun";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Dayen ur yettujerred ara yibenk. Uṭṭun-ik·im n tilifun yezmer ad yettujerred s Signal ɣef yibenk-nniḍen. Sit i wallus n ujerred.";
+"DEREGISTRATION_WARNING" = "Dayen ur yettujerred ara yibenk. Uṭṭun-ik·im n tilifun yezmer ad yettujerred s Morse ɣef yibenk-nniḍen. Sit i wallus n ujerred.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Armad aneggaru %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Ma yella ɣur-k·m ibenk n iOS aqbur, tzemreḍ ad tazneḍ s wudem aɣellsan amiḍan-ik·im d yiznanen ɣer yibenk-a.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Ma yella tesqedceḍ yakan Signal ɣef iPad yeqqnen, tzemreḍ ad tazneḍ s wudem aɣellsan amiḍan-ik·im d yiznanen ɣer yibenk-a.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Ma yella tesqedceḍ yakan Morse ɣef iPad yeqqnen, tzemreḍ ad tazneḍ s wudem aɣellsan amiḍan-ik·im d yiznanen ɣer yibenk-a.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Kemmel s war tuzna n umiḍan d yiznan inek·inem";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Yettwazen-d seg yibenk iOS";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Akemmel ad isens Signal ɣef yibenkan-nniḍen yettujerrden melmi kan s yiwen wuṭṭun n tilifun.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Akemmel ad isens Morse ɣef yibenkan-nniḍen yettujerrden melmi kan s yiwen wuṭṭun n tilifun.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Asenqed n yibenk-ik·im d awezɣi, ttxil-k·m εreḍ tikkelt-nniḍen ticki";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Ulac aṭas n tallunt tilellit akken ad temmed tuzna";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Ttxil-k.m ali ɣer lqem aneggaru n Signal sakin εreḍ tikkelt nniḍen";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Ttxil-k.m ali ɣer lqem aneggaru n Morse sakin εreḍ tikkelt nniḍen";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Smutti amiḍan-ik.im Signal ɣer yibenk amaynut iOS. Senqed d akken ibenk-ik.im amaynut yella ɣer tama-k.m yerna yermed.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Smutti amiḍan-ik.im Morse ɣer yibenk amaynut iOS. Senqed d akken ibenk-ik.im amaynut yella ɣer tama-k.m yerna yermed.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Azen Amiḍan";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Ldi Signal deg ibenk-ik.im aqbur, sers-it ɣet tama-k.m, sakin senqed d akken Wi-Fi akked Bluetooth ttwaremden deg sin ibenken.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Ldi Morse deg ibenk-ik.im aqbur, sers-it ɣet tama-k.m, sakin senqed d akken Wi-Fi akked Bluetooth ttwaremden deg sin ibenken.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Sers tangalt-agi QR deq texxamt n ibenk-ik.im nniḍen.";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Araǧu n ibenk-nniḍen...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Eǧǧ sin-nni n yibenkan myiqraben. Ur snusuy ara yiwen deg-sen, rnu eǧǧ Signal yeldi. Tuzna tettuwawgelhen seg yixef ɣer yixef.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Eǧǧ sin-nni n yibenkan myiqraben. Ur snusuy ara yiwen deg-sen, rnu eǧǧ Morse yeldi. Tuzna tettuwawgelhen seg yixef ɣer yixef.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Armas n yisefka";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Rfed iben-ik.im amaynut ɣer tkamiṛat";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Eǧǧ sin-nni n yibenkan myiqraben. Ur snusuy ara yiwen deg-sen, rnu eǧǧ Signal yeldi.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Eǧǧ sin-nni n yibenkan myiqraben. Ur snusuy ara yiwen deg-sen, rnu eǧǧ Morse yeldi.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Tuzna n isefka";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Enter Custom Amount";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Donation to Signal";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Donation to Morse";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "Other Ways to Donate";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "Thank you for your support!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signal is powered by people like you.";
+"DONATION_VIEW_TITLE" = "Morse is powered by people like you.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "The team at Signal is committed to the mission of developing open source privacy technology that protects free expression and enables secure global communication. Your contribution fuels this cause. No ads. No trackers. No kidding.\n\nYour donation helps pay for the development, servers, and bandwidth of an app used by millions around the world for private and instantaneous communication.";
+"DONATION_VIEW_WHY_DONATE_BODY" = "The team at Morse is committed to the mission of developing open source privacy technology that protects free expression and enables secure global communication. Your contribution fuels this cause. No ads. No trackers. No kidding.\n\nYour donation helps pay for the development, servers, and bandwidth of an app used by millions around the world for private and instantaneous communication.";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "Why Donate?";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Tzemreḍ ad tremdeḍ anekcum deg usnas n yiɣewwaren  iOS.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal yesra anekcum ɣer Yinermisen i wakken ad yeẓreg talɣut n Yinermisen";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Morse yesra anekcum ɣer Yinermisen i wakken ad yeẓreg talɣut n Yinermisen";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Ẓreg agraw";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Amdan-a ulamek i d-yettwarna ɣer ugraw alamma ileqqem Signal.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Amdan-a ulamek i d-yettwarna ɣer ugraw alamma ileqqem Morse.";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "Teɣzi tafellayt n ugraw %@ n yiεeggalen tewweḍ ɣer talast";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Nɣel";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Azul,\n\nUssan-a ineggura, seqdaceɣ Signal i wakken ad ǧǧeɣ idiwenniyen ɣef iPhone-inu uslig. Bɣiɣ lukan ad t-tesbeddeḍ ula d kečč·kemm, akken ad neḍmen d nekk kan akked kečč·kemm i izemren ad ɣren iznan neɣ ara islen i yisawalen.\n\nSignal yella i iPhone d Android. Awi-t sya: %@\n\nSignal iteddu am usnas n tirawt yellan. Nezmer ad nazen tugniwin akked tvidyutin, ad neg isawalen akked ad nsenker idiwenniyen n ugraw. Ayen izaden akk, ula yiwen ur yezmir ad iwali acemma seg-sen, ula d wid i d-ixedmen Signal!\n\nTzemreḍ ad teɣreḍ ugar ɣef Open Whisper Systems, imdanen i d-ixedmen Signal, da: %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "Azul,\n\nUssan-a ineggura, seqdaceɣ Morse i wakken ad ǧǧeɣ idiwenniyen ɣef iPhone-inu uslig. Bɣiɣ lukan ad t-tesbeddeḍ ula d kečč·kemm, akken ad neḍmen d nekk kan akked kečč·kemm i izemren ad ɣren iznan neɣ ara islen i yisawalen.\n\nMorse yella i iPhone d Android. Awi-t sya: %@\n\nMorse iteddu am usnas n tirawt yellan. Nezmer ad nazen tugniwin akked tvidyutin, ad neg isawalen akked ad nsenker idiwenniyen n ugraw. Ayen izaden akk, ula yiwen ur yezmir ad iwali acemma seg-sen, ula d wid i d-ixedmen Morse!\n\nTzemreḍ ad teɣreḍ ugar ɣef Open Whisper Systems, imdanen i d-ixedmen Morse, da: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Iyya ad nɛeddi ɣer Signal";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "Iyya ad nɛeddi ɣer Morse";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Ibenk-ik·im ur yettuswel ara ad yazen imaylen. I wakken ad tazneḍ asuter n tallalt, sbadu imayl ɣef yibenk-ik·im neɣ azen imayl ɣer support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Ibenk-ik·im ur yettuswel ara ad yazen imaylen. I wakken ad tazneḍ asuter n tallalt, sbadu imayl ɣef yibenk-ik·im neɣ azen imayl ɣer support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Ulac imayl";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Inig & Imukan";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Ulac seg inermisen-ik.im win.tin yesεan Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Ulac seg inermisen-ik.im win.tin yesεan Morse.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Ayen ur d-tesnubguteḍ ara abεaḍ?";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Ur teddi ara tuzna i useqdac-a acku tesweḥleḍ-t.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal ur yezmir ara akk ad iqqen ɣer internet. Ttxil-k·m εreḍ tikkelt-nniḍen.";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Morse ur yezmir ara akk ad iqqen ɣer internet. Ttxil-k·m εreḍ tikkelt-nniḍen.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Tella-d tuccḍa deg tuzna n yizen i mi ulac intermisen yeɣtan.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Tiririt tarameɣtut seg umeẓlu.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Ibenk-agi ur yettwajerred ara akked wutṭun-ik.im n tilifun. Ttxil-k.m sebded Signal i tikkelt nniḍen.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Ibenk-agi ur yettwajerred ara akked wutṭun-ik.im n tilifun. Ttxil-k.m sebded Morse i tikkelt nniḍen.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Tuccḍa n uqeddac. Ttxil-k.m εreḍ tikkelt nniḍen.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Teḍra tuccḍa tarussint.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Anermis ur yelli ara d aseqdac n Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Anermis ur yelli ara d aseqdac n Morse.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Yecceḍ usader n tceqquft yeddan.";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "Tuccḍa deg uzeṭṭa";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Please help us improve Signal by reporting this error along with debug logs from your device to support@signal.org; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Please help us improve Morse by reporting this error along with debug logs from your device to support@devplusone.com; %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: An error occurred";
+"ERROR_NOTIFICATION_TITLE" = "Morse Beta: An error occurred";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Ibenk-ik·im aayen ur iqqin ara. Ttxil-k·m ales tuqqna i wakken ad tazneḍ iznan-nniḍen.";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "Ibenk-ik·im aayen ur iqqin ara. Ttxil-k·m ales ajerred i wakken ad tazneḍ iznan-nniḍen.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Lqem-inek·inem n Signal yemmut. Ttxil-k·m leqqem i wakken ad tazneḍ iznan-nniḍen.";
+"ERROR_SENDING_EXPIRED" = "Lqem-inek·inem n Morse yemmut. Ttxil-k·m leqqem i wakken ad tazneḍ iznan-nniḍen.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Kkes ajerred n useqdac: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Lqem-inek·inem n Signal yemmut! Sit i wakken ad t-tleqqmeḍ ɣer lqem akk aneggaru.";
+"EXPIRATION_ERROR" = "Lqem-inek·inem n Morse yemmut! Sit i wakken ad t-tleqqmeḍ ɣer lqem akk aneggaru.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Lqem-inek·inem n Signal ad yemmet deg %d wussan! Sit i wakken ad t-tleqqmeḍ ɣer lqem akk aneggaru.";
+"EXPIRATION_WARNING_SOON" = "Lqem-inek·inem n Morse ad yemmet deg %d wussan! Sit i wakken ad t-tleqqmeḍ ɣer lqem akk aneggaru.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Lqem-inek·inem n Signal ad yemmet deg ass-a! Sit i wakken ad t-tleqqmeḍ ɣer lqem akk aneggaru.";
+"EXPIRATION_WARNING_TODAY" = "Lqem-inek·inem n Morse ad yemmet deg ass-a! Sit i wakken ad t-tleqqmeḍ ɣer lqem akk aneggaru.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Aṭs n tuccḍiwin akked unermis-a. Ttxil-k·m εreḍ tikkelt-nniḍen.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Aseɣwen arameɣtu";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Leqqem Signal ɣef yibenk-a i wakken ad ternuḍ ɣer ugraw-a.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Leqqem Morse ɣef yibenk-a i wakken ad ternuḍ ɣer ugraw-a.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Suter anedbal i wakken ad isentem iεeggalen imaynuten i d-yernan s useɣwen n ugraw.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "Tangalt QR";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Bḍu s Signal";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Bḍu s Morse";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Yal win yesεan aseɣwen-a yezmer ad iwali isem n ugraw-a d yiɛeggalen-is d yisutar n tmerna. Bḍu-t akked yimdanen iɣef tettekleḍ.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "D anwa-iten igrawen iqburen?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Igrawen Iqburen ur zmiren ara akka tura ad ttuleqqmen ɣer Yigrawen Imaynuten, maca tzemreḍ ad ternuḍ Agraw Amaynut s yiεeggalen-nni kan ma yella llan deg lqem akk aneggaru n Signal.\n\nSignal ad d-imudd abrid i uleqqem n yigrawen iqburen sya ɣer sdat.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Igrawen Iqburen ur zmiren ara akka tura ad ttuleqqmen ɣer Yigrawen Imaynuten, maca tzemreḍ ad ternuḍ Agraw Amaynut s yiεeggalen-nni kan ma yella llan deg lqem akk aneggaru n Morse.\n\nMorse ad d-imudd abrid i uleqqem n yigrawen iqburen sya ɣer sdat.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Zemreɣ ad leqqmeɣ Agraw Aqbur?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "I tmerna n ugraw amaynut, meṛṛa iεeggalen ilaq ad leqmen ɣer lqem aneggaru n Signal.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "I tmerna n ugraw amaynut, meṛṛa iεeggalen ilaq ad leqmen ɣer lqem aneggaru n Morse.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Igrawen Iqburen vs. Imaynuten";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Agraw-a ur yezmir ara ad yettuleqqem ɣer ugraw amaynut acku Yesεa aṭas n yiεeggalen. Teɣzi tafellayt n ugraw i izemren ad tettuleqqem d %@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Mi yili iεeggalen akk n ugraw amiran seqdacen lqem n Signal zemren ad rnun ɣer ugraw amaynut, agraw-a ad yettuleqqem.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Mi yili iεeggalen akk n ugraw amiran seqdacen lqem n Morse zemren ad rnun ɣer ugraw amaynut, agraw-a ad yettuleqqem.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Meṛṛa azray n yiznan d yimidyaten ttwaḥerzen seg uqbel aleqqem.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Agraw-a ur yezmir ara ad yettwarnu acku 1 uεeggal iseqdac lqem aqbur n Signal. Tzemreḍ ad ternuḍ Agraw n Uɣanib Amaynut yid-sen seld lqem n Signal, neɣ kkes-iten send timerna n ugraw.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Agraw-a ur yezmir ara ad yettwarnu acku 1 uεeggal iseqdac lqem aqbur n Morse. Tzemreḍ ad ternuḍ Agraw n Uɣanib Amaynut yid-sen seld lqem n Morse, neɣ kkes-iten send timerna n ugraw.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Agraw-a ur yezmir ara ad yettwarnu acku %@ n yiεeggalen seqdacen lqem aqbur n Signal. Tzemreḍ ad ternuḍ Agraw n Uɣanib Amaynut yid-sen seld lqem n Signal, neɣ kkes-iten send timerna n ugraw.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Agraw-a ur yezmir ara ad yettwarnu acku %@ n yiεeggalen seqdacen lqem aqbur n Morse. Tzemreḍ ad ternuḍ Agraw n Uɣanib Amaynut yid-sen seld lqem n Morse, neɣ kkes-iten send timerna n ugraw.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Agraw-a ur yezmir ara ad yettwarnu acku 1 uεeggal iseqdac lqem aqbur n Signal. Tzemreḍ ad ternuḍ Agraw n Uɣanib Amaynut yid-sen seld lqem n Signal, neɣ kkes-iten send timerna n ugraw. %@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Agraw-a ur yezmir ara ad yettwarnu acku 1 uεeggal iseqdac lqem aqbur n Morse. Tzemreḍ ad ternuḍ Agraw n Uɣanib Amaynut yid-sen seld lqem n Morse, neɣ kkes-iten send timerna n ugraw. %@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Agraw-a ur yezmir ara ad yettwarnu acku %1$@ n yiεeggalen seqdacen lqem aqbur n Signal. Tzemreḍ ad ternuḍ Agraw n Uɣanib Amaynut yid-sen seld lqem n Signal, neɣ kkes-iten send timerna n ugraw. %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Agraw-a ur yezmir ara ad yettwarnu acku %1$@ n yiεeggalen seqdacen lqem aqbur n Morse. Tzemreḍ ad ternuḍ Agraw n Uɣanib Amaynut yid-sen seld lqem n Morse, neɣ kkes-iten send timerna n ugraw. %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Agraw aqbur ad yettwarnu acku 1 uεeggal iseqdac lqem aqbur n Signal. Tzemreḍ ad ternuḍ agraw n uɣanib amaynut yid-sen seld lqem n Signal, neɣ kkes-iten send timerna n ugraw.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Agraw aqbur ad yettwarnu acku 1 uεeggal iseqdac lqem aqbur n Morse. Tzemreḍ ad ternuḍ agraw n uɣanib amaynut yid-sen seld lqem n Morse, neɣ kkes-iten send timerna n ugraw.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Agraw aqbur ad yettwarnu acku %@ n yiεeggalen seqdacen lqem aqbur n Signal. Tzemreḍ ad ternuḍ agraw n uɣanib amaynut yid-sen seld lqem n Signal, neɣ kkes-iten send timerna n ugraw.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Agraw aqbur ad yettwarnu acku %@ n yiεeggalen seqdacen lqem aqbur n Morse. Tzemreḍ ad ternuḍ agraw n uɣanib amaynut yid-sen seld lqem n Morse, neɣ kkes-iten send timerna n ugraw.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "1 uεeggal ur isefrak ara igrawen imaynuten, ihi agraw-a ad yili d agraw aqbur. %@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "Fren anedbal amaynut";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Igrawen n Signal teddun xir s %@ n yiεeggalen neɣ drus. Timerna n wugar n yiεeggalen ad d-yeglu s uεeṭṭel deg tuzna d urmas n yiznan.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Igrawen n Morse teddun xir s %@ n yiεeggalen neɣ drus. Timerna n wugar n yiεeggalen ad d-yeglu s uεeṭṭel deg tuzna d urmas n yiznan.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "Talast n yiεeggalen i ilaqen tewweḍ";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Nermes-aɣ-d";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "Ammas n tallelt";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Arewway:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Kra seg yinermisen-ik·im llan yakan deg Signal, ula d %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Kra seg yinermisen-ik·im llan yakan deg Morse, ula d %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Kra seg yinermisen-ik·im llan yakan deg Signal, ula d %@ d %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Kra seg yinermisen-ik·im llan yakan deg Morse, ula d %@ d %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Kra seg yinermisen-ik·im llan yakan deg Signal, ula d %@, %@ d %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Kra seg yinermisen-ik·im llan yakan deg Morse, ula d %@, %@ d %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Dbu adiwenni-inek·inem amezwaru dagi.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Ur tezmireḍ ara ad tebḍuḍ ugar n %@ yiferdisen.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Beddel tiwlafin";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Mudd anekcum ummid deg yiɣewwaren neɣ senfel anta tawlaft n Signal i izemren ad tekcem.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Mudd anekcum ummid deg yiɣewwaren neɣ senfel anta tawlaft n Morse i izemren ad tekcem.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Ur tettwaliḍ ara tiwlafin-inek·inem?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "Tzemreḍ ad tazneḍ neɣ ad d-tremseḍ iznan yemtawan seg tilifun-ik·im neɣ seg iPad.\nI tɣellist-ik·im, azray n udiwenni ur yettwazan ara ɣer yibenkan imaynuten yeqqnen.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ ha-t·tt-an deg Signal!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ ha-t·tt-an deg Morse!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "Stickers";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Afaylu n umeslaw d arameɣtu.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Tzemreḍ ad tremdeḍ anekcum ɣer tkamiṛat deg usnas n yiɣewwaren n iOS i waken ad d-tesnubegteḍ imeddukkal-ik·im ad d-rnun ɣer Signal.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Tzemreḍ ad tremdeḍ anekcum ɣer tkamiṛat deg usnas n yiɣewwaren n iOS i waken ad d-tesnubegteḍ imeddukkal-ik·im ad d-rnun ɣer Morse.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Sireg anekcum ɣer inermisen";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Snubget-d  imdukal ɣer Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Snubget-d  imdukal ɣer Morse";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Nadi";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "Taskant n useɣwen yellan";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "I wakken ad tazneḍ amiḍan-ik·im n Signal, tesriḍ ad tremdeḍ anekcum ɣer uzeṭṭa adigan ɣef isin yibenkan.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "I wakken ad tazneḍ amiḍan-ik·im n Morse, tesriḍ ad tremdeḍ anekcum ɣer uzeṭṭa adigan ɣef isin yibenkan.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Tesriḍ tallalt?";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Rmed \"Azeṭṭa adigan\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Inig ɣer Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Inig ɣer Morse";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Rmed anekcum n uzeṭṭa adigan";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "Aɣmis";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Debug logs can help Signal fix issues and crashes.";
+"LOGGING_SECTION_FOOTER" = "Debug logs can help Morse fix issues and crashes.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Izen";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Kkes i yal yiwen";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Izen-a ad yettwakkes i yal yiwen yellan deg udiwenni ma yella deg lqem n melmi kan n Signal i sɛan. Ad izmiren ad walin tekkseḍ izen.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Izen-a ad yettwakkes i yal yiwen yellan deg udiwenni ma yella deg lqem n melmi kan n Morse i sɛan. Ad izmiren ad walin tekkseḍ izen.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Iwumi tebɣiḍ ad tekkseḍ izen-a?";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Kkes syen ffeɣ sug ugraw?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Senqed isutar s leεqel. Signal yufa anermis-nniḍen s yisem-a.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Senqed isutar s leεqel. Morse yufa anermis-nniḍen s yisem-a.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Anermis-inek/inem";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Γaṛ";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Yettawazgel";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "Asiwel ifuten";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Tzemreḍ ad tremdeḍ anekcum ɣer tkamiṛat deg usnas n yiɣewwaren n iOS i waken ad tgeḍ isawalen s tvidyut deg Signal.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Tzemreḍ ad tremdeḍ anekcum ɣer tkamiṛat deg usnas n yiɣewwaren n iOS i waken ad tgeḍ isawalen s tvidyut deg Morse.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal yesra anekcum ɣer tkamiṛat-ik·im";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Morse yesra anekcum ɣer tkamiṛat-ik·im";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Tzemreḍ ad tremdeḍ tasiregt-a deg usnas n yiɣewwaren  iOS.";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal yesra anekcum ɣer wadig-inek·inem i tmahilt-a.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Morse yesra anekcum ɣer wadig-inek·inem i tmahilt-a.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Tzemreḍ ad tremdeḍ tasiregt-a deg usnas n yiɣewwaren  iOS.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Signal yesra anekcum ɣer tewlafin-inek·inem i tmahilt-a.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Morse yesra anekcum ɣer tewlafin-inek·inem i tmahilt-a.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Ula d yiwen";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "Fren anermis neɣ agraw i wakken ad tebduḍ ameslay.";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Ansuf ɣer Signal";
+"NO_SELECTED_CONVERSATION_TITLE" = "Ansuf ɣer Morse";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "Izen amaynut i:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Ulac isem neɣ agbur";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Urar mi ara yeldi usnas";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "Rnu-asen udem n talsa i yiznan-ik·im";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Because you’ve been inactive for a long period of time, you must register again to use Signal.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Because you’ve been inactive for a long period of time, you must register again to use Morse.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Register for Signal";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Register for Morse";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "Jerred iPad";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Qqen iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Asi ɣef \"Jerred iPad\" ad ak·akem-yeǧǧ ad ternuḍ amiḍan ak amaynut n Signal neɣ senkez amiḍan yellan ɣer iPad-a. Aya ad isens Signal ɣef yal ibenk-nniḍen amiran yettujerrden s yiwen wuṭṭun n tilifun.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Asi ɣef \"Jerred iPad\" ad ak·akem-yeǧǧ ad ternuḍ amiḍan ak amaynut n Morse neɣ senkez amiḍan yellan ɣer iPad-a. Aya ad isens Morse ɣef yal ibenk-nniḍen amiran yettujerrden s yiwen wuṭṭun n tilifun.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Asiti ɣef \"Qqen iPad\" ad ak·akem-yeǧǧ ad teqqneḍ tilifun-ik·im ɣer umiḍan yellan. Tuqqna n tilifun-ik·im s umata ur d-yettuselleh ara yerna ad yeg talast i ra n tmahlin am usiwel.";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Qqen iPhone-a";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Ajerred n iPad-a ad isens Signal ɣef yal ibenk-nniḍen amiran yettujerrden s yiwen wuṭṭun n tilifun.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Ajerred n iPad-a ad isens Morse ɣef yal ibenk-nniḍen amiran yettujerrden s yiwen wuṭṭun n tilifun.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Tuqqna n iPhone-ik·im s umata ur d-yettuselleh ara yerna ad yeg talast i ra n tmahlin.";
@@ -3758,7 +3758,7 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Sireg tisirag";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Allowing notifications and contacts lets you see when messages arrive and helps you find people you know. Contacts are encrypted so the Signal service can't see them.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Allowing notifications and contacts lets you see when messages arrive and helps you find people you know. Contacts are encrypted so the Morse service can't see them.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Sireg tisirag";
@@ -3776,7 +3776,7 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "Please wait a few minutes before trying again. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "Sekcem uṭṭun n tiliɣri";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "Ji bo parastina nepeniya we, pergal ji we re jimareyek têlefonê ya 8-hejmarî ya 'derew' peyda dike";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
 "ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Your Phone Number";
@@ -3785,7 +3785,7 @@
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Invalid phone number. Please enter a valid phone number to register.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Dayen ur tselkameḍ ara tangalt PIN, maca tzemreḍ ad tkecmeḍ ɣer umiḍan-ik·im Signal s tmerna n tengalt PIN tamaynut. I tudert-ik·im tabaḍnit d tɣellist, amiḍan-ik·im ad d-yuɣal s war talɣut neɣ iɣewwaren n umaɣnu yettwaskelsen.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Dayen ur tselkameḍ ara tangalt PIN, maca tzemreḍ ad tkecmeḍ ɣer umiḍan-ik·im Morse s tmerna n tengalt PIN tamaynut. I tudert-ik·im tabaḍnit d tɣellist, amiḍan-ik·im ad d-yuɣal s war talɣut neɣ iɣewwaren n umaɣnu yettwaskelsen.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Issin ugar ɣef PINs";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@ yesbadu amkadur n yizen ara iruḥen ɣer %@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal yemala-d d wugurun itiknikanen. Aql-aɣ nxeddem ad d-nerr ameẓlu s zzerb.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Morse yemala-d d wugurun itiknikanen. Aql-aɣ nxeddem ad d-nerr ameẓlu s zzerb.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "Tsawleḍ i %@";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Invalid transaction";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Update Signal to use payments.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Update Morse to use payments.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Payment not yet verified";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Irkelli";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Yal win yesɛan uṭṭun-ik·im n tiliɣri deg yinermisen-ines, ad ak·akem-iwali d anermis deg Signal. Wiyaḍ zemren ad ak·akem-afen s unadi.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Yal win yesɛan uṭṭun-ik·im n tiliɣri deg yinermisen-ines, ad ak·akem-iwali d anermis deg Morse. Wiyaḍ zemren ad ak·akem-afen s unadi.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Ula yiwen";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Ula d yiwen deg Signal yezmer ad ak·akem-yaf s wuṭṭun n tilifun. Ur d-tettbaneḍ ara d anermis i yimdanen i yesεan uṭṭun-ik·im n tilifun deg yinermisen-nsen, wiyaḍ ur ttizmiren ara ad ak·akem-id-afen s wuṭṭun n tilifun deg unadi.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Ula d yiwen deg Morse yezmer ad ak·akem-yaf s wuṭṭun n tilifun. Ur d-tettbaneḍ ara d anermis i yimdanen i yesεan uṭṭun-ik·im n tilifun deg yinermisen-nsen, wiyaḍ ur ttizmiren ara ad ak·akem-id-afen s wuṭṭun n tilifun deg unadi.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Amedya: %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Inermisen-iw";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Ala inermisen-ik·im ara iwalin uṭṭun-ik·im n tiliɣri deg Signal.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Ala inermisen-ik·im ara iwalin uṭṭun-ik·im n tiliɣri deg Morse.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Irkelli";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Uṭṭun-ik·im n tilifun ad iban i meṛṛa imdanen d yigrawen wuɣur tettazneḍ. Imdanen yesεan uṭṭun-ik·im deg yinermisen-nsen ɣef tilifun-nsen, ula d nutni ad t-wali deg Signal.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Uṭṭun-ik·im n tilifun ad iban i meṛṛa imdanen d yigrawen wuɣur tettazneḍ. Imdanen yesεan uṭṭun-ik·im deg yinermisen-nsen ɣef tilifun-nsen, ula d nutni ad t-wali deg Morse.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Ula yiwen";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Ulac win ara iwalin uṭṭun-ik·im n tilifun deg Signal.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Ulac win ara iwalin uṭṭun-ik·im n tilifun deg Morse.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Kkes PIN";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Ma yella tsenseḍ tangalt PIN, ad tesruḥeḍ meṛṛa isefka mi ara talseḍ ajerred deg Signal, ala ma yella tḥerzeḍ-ten deg yibenk-nniḍen iOS. Ur tezmireḍ ara ad tremdeḍ asekkeṛ n ujerred mi ara tili tengalt PIN tensa.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Ma yella tsenseḍ tangalt PIN, ad tesruḥeḍ meṛṛa isefka mi ara talseḍ ajerred deg Morse, ala ma yella tḥerzeḍ-ten deg yibenk-nniḍen iOS. Ur tezmireḍ ara ad tremdeḍ asekkeṛ n ujerred mi ara tili tengalt PIN tensa.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Ɣur-k";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Timerna n tengalt n PIN yecceḍ";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "Tingalin PIN ttaǧǧant talɣut tettukles s Signal yettwawgelhen, ihi ala kečč·kemm i izemren ad tkecmeḍ ɣer-s. Amaɣnu-ik·im, iɣewwaren d yinermisen ad d-uɣalen mi ara as-talseḍ asebded. Ur tetteḥwiǧiḍ ara tangalt PIN i wakken ad teldiɣ asnas.";
+"PIN_CREATION_EXPLANATION" = "Tingalin PIN ttaǧǧant talɣut tettukles s Morse yettwawgelhen, ihi ala kečč·kemm i izemren ad tkecmeḍ ɣer-s. Amaɣnu-ik·im, iɣewwaren d yinermisen ad d-uɣalen mi ara as-talseḍ asebded. Ur tetteḥwiǧiḍ ara tangalt PIN i wakken ad teldiɣ asnas.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Issin ugar ɣef PINs";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Ad ak·akem-id-yesmekti tikkelt-nniḍen deg kra n wussan.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Senqed tangalt PIN n Signal";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Senqed tangalt PIN n Morse";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Ad ak·akem-id-yesmekti tikkelt-nniḍen azekka.";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "PIN d arameɣtu, εreḍ tikkelt nniḍen.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Sentem PIN-inek.inem n Signal";
+"PIN_REMINDER_TITLE" = "Sentem PIN-inek.inem n Morse";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "Tangalt PIN ilaq ad tesɛu ma drus 4 n yizwilen";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "Snulfu-d PIN";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Tingalin PIN ḥerrzent talɣut i yettukelsen s Signal yettwawgelhen";
+"PINS_MEGAPHONE_BODY" = "Tingalin PIN ḥerrzent talɣut i yettukelsen s Morse yettwawgelhen";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "Ad ak·akem-id-nesmekti ticki. Timerna n tenglt PIN ad yuɣal ilaq ad yili deg %ld n wussan.";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Uṭṭun deg ɣefwafus-ik·im ur yettban ara d uṭṭun aɣellsan ameɣtu i udiwenni-a.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal ur isaweḍ ara ad yaf ula d yiwen wuṭṭun n tilifun deg ɣefwafus-inek·inem. Tneɣleḍ-t-id akken iwata?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Morse ur isaweḍ ara ad yaf ula d yiwen wuṭṭun n tilifun deg ɣefwafus-inek·inem. Tneɣleḍ-t-id akken iwata?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Yal tayuga n yiseqdacen n Signal tbeṭṭu uṭṭun n tɣellist uslig. Senqed tikelt tis snat ma %@ yeskanay uṭṭun *inek·inem* n tɣellist uslig.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Yal tayuga n yiseqdacen n Morse tbeṭṭu uṭṭun n tɣellist uslig. Senqed tikelt tis snat ma %@ yeskanay uṭṭun *inek·inem* n tɣellist uslig.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Tselkameḍ lqem aqbur n Signal. Ilaq ad t-tleqqmeḍ send ad tizmireḍ ad tesneqdeḍ.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Tselkameḍ lqem aqbur n Morse. Ilaq ad t-tleqqmeḍ send ad tizmireḍ ad tesneqdeḍ.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Acrik-ik·im iselkam lqem aqbur n Signal. Ilaq ad t-ileqqm send ad y·tizmir ad i·tsenqed.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Acrik-ik·im iselkam lqem aqbur n Morse. Ilaq ad t-ileqqm send ad y·tizmir ad i·tsenqed.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Tangalt yettusmiḍen ur tettban ara d uṭṭun n tɣellist. Isin yid-wen tseqdacem lqem aneggaru n Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Tangalt yettusmiḍen ur tettban ara d uṭṭun n tɣellist. Isin yid-wen tseqdacem lqem aneggaru n Morse?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Ma yella tebɣiḍ ad tesneqdeḍ taɣellist n uwgelhen-ik·im s %@, serwes gar wuṭṭunen nnig d wuṭṭun ɣef yibenk-nsen. \n\nΓas akken, tzemreḍ ad tesmiḍneḍ tangalt ɣef tiliɣri-nsen neɣ suter-asen ad smiḍnen tangalt-ik·im.";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Aseqdac ur yezmir ara ad yettwafran.";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Amdan-a ulamek i d-yettwarna ɣer ugraw alamma ileqqem Signal.";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Amdan-a ulamek i d-yettwarna ɣer ugraw alamma ileqqem Morse.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Ttuɣ PIN-iw.";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "Re-register Push Notifications";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "I wakken ad yili Signal d asnas n tirawt ifazen deg ddunit, nebɣa aṭas ad nẓer tamawt-ik·im.";
+"RESEARCH_MEGAPHONE_BODY" = "I wakken ad yili Morse d asnas n tirawt ifazen deg ddunit, nebɣa aṭas ad nẓer tamawt-ik·im.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Ini-yas i Signal d acu tettxemmimeḍ";
+"RESEARCH_MEGAPHONE_TITLE" = "Ini-yas i Morse d acu tettxemmimeḍ";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "Tasestant tettusezdeɣ sɣur Surveygizmo deg talɣut taɣellsant surveys.signalusers.org";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "Ala tanemmirt";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>Nettamen s tbaḍnit.</bold>\n\nSignal ur ak·akem-iṭṭafr ara, ur ileqqeḍ ara isefka-inek·inem. I usnerni n Signal i yal yiwen, nettkel ɣef tamawt n yiseqdac, <bold>daɣen nebɣa aṭas tamawt-ik·im.</bold>\n\nNselkam tasestant i wakken ad nefhem amek tseqdaceḍ Signal. Tasestant-nneɣ ur tleqqeḍ ara ula d yiwen usefku ara ak·akem-id-ibegnen. Ma yella twalaḍ tebɣiḍ ad tebḍuḍ tamawt-nniḍen, ad tesεuḍ taxtiṛt ad d-tmuddeḍ talɣut n unermis.\n\nMa yella tesεiḍ kra n tesdatin d tamawt ara tmuddeḍ, nebɣa ad as-nsel sɣur-k·m.";
+"RESEARCH_MODAL_PLEA" = "<bold>Nettamen s tbaḍnit.</bold>\n\nMorse ur ak·akem-iṭṭafr ara, ur ileqqeḍ ara isefka-inek·inem. I usnerni n Morse i yal yiwen, nettkel ɣef tamawt n yiseqdac, <bold>daɣen nebɣa aṭas tamawt-ik·im.</bold>\n\nNselkam tasestant i wakken ad nefhem amek tseqdaceḍ Morse. Tasestant-nneɣ ur tleqqeḍ ara ula d yiwen usefku ara ak·akem-id-ibegnen. Ma yella twalaḍ tebɣiḍ ad tebḍuḍ tamawt-nniḍen, ad tesεuḍ taxtiṛt ad d-tmuddeḍ talɣut n unermis.\n\nMa yella tesεiḍ kra n tesdatin d tamawt ara tmuddeḍ, nebɣa ad as-nsel sɣur-k·m.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "Ttekki deg tsestant";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Anadi n Signal";
+"RESEARCH_MODAL_TITLE" = "Anadi n Morse";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "Ɛreḍ tikelt nniḍen";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Askan";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Uṭṭun-nneɣ n tɣellist n Signal:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Uṭṭun-nneɣ n tɣellist n Morse:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Uṭṭun-ik·im aɣellsan s %@ yettwabeddel. Ahat tebɣiḍ ad t-tesneqdeḍ.";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Ilaq ad tremdeḍ tangalt tuffirt deg yiɣewwaren n iOS i wakken ad tesqedceḍ asekkeṛ n ugdil.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Sesteb i wakken ad yeldi Signal.";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Sesteb i wakken ad yeldi Morse.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Asesteb ur yeddi ara";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Kkes asekkeṛ i Signal";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Kkes asekkeṛ i Morse";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Tina Ukuku";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "Liḥala n tegnawt";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Taselwayt Freya";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Account Does Not Match";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Leqqem Signal ɣef yiben-a i wakken ad t-teqqneḍ ɣer tilifun-ik·im.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Leqqem Morse ɣef yiben-a i wakken ad t-teqqneḍ ɣer tilifun-ik·im.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Lqem ur nettusefrak ara";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Ibenk-inek-nniḍen iselkam lqem aqbur n Signal ur nsefrak ara tingalin QR n iPad. Ttxil-k·m sebded lqem akk aneggaru n Signal syen εreḍ tikkelt-nniḍen.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Ibenk-inek-nniḍen iselkam lqem aqbur n Morse ur nsefrak ara tingalin QR n iPad. Ttxil-k·m sebded lqem akk aneggaru n Morse syen εreḍ tikkelt-nniḍen.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Leqqem asmiḍen n yibenk";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Kfu tuqqna";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Senker Signal ɣef tilifun-ik·im i wakken ad teqqneḍ iPad-a ɣer umiḍan-ik·im";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Senker Morse ɣef tilifun-ik·im i wakken ad teqqneḍ iPad-a ɣer umiḍan-ik·im";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Ur sεiɣ ara Signal ɣef tilifun-inu...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Ur sεiɣ ara Morse ɣef tilifun-inu...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Ddu ɣer App Store deg tilifun-inek·inem, sebded Signal, smed akala n ujerred, syen tzemreḍ ad teqqneḍ iPad-inek·inem ɣer yiwen umiḍan.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Ddu ɣer App Store deg tilifun-inek·inem, sebded Morse, smed akala n ujerred, syen tzemreḍ ad teqqneḍ iPad-inek·inem ɣer yiwen umiḍan.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Sebded Signal ɣef tilifun-inek·inem";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Sebded Morse ɣef tilifun-inek·inem";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Sit ɣef tugna n umaɣnu-inek·inem i wakken ad teldiḍ iɣewwaren n Signal deg tilifun-inek·inem. Sye \"Ibenkan yeqqnen\" akked \"Qqen ibenk amaynut\" i usmiḍen n tengalt-a s tilifun-inek·inem. ";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Sit ɣef tugna n umaɣnu-inek·inem i wakken ad teldiḍ iɣewwaren n Morse deg tilifun-inek·inem. Sye \"Ibenkan yeqqnen\" akked \"Qqen ibenk amaynut\" i usmiḍen n tengalt-a s tilifun-inek·inem. ";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Awi tallalt n tuqqna n yibenk-inek·inem dagi";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Smiḍen tangalt QR s tilifun-ik·im";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Senker Signal ɣef iPad-inek·inem aqbur i wakken ad tazneḍ umiḍan-ik·im";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Senker Morse ɣef iPad-inek·inem aqbur i wakken ad tazneḍ umiḍan-ik·im";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Awennez n tɣimit yettuwennez.";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "Tuzna n tinubga ur teddi ara. Ttxil-k.m εreḍ tikkelt nniḍen.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Tesnubegteḍ-d ameddakkel-ik·im i wakken ad iseqdec Signal!";
+"SEND_INVITE_SUCCESS" = "Tesnubegteḍ-d ameddakkel-ik·im i wakken ad iseqdec Morse!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "Zgel amidyat";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Snubget-d ameddakkel s SMS araɣellsan?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Tebɣiḍ ad tesnubegteḍ uṭṭun-a ɣer Signal:";
+"SEND_SMS_INVITE_TITLE" = "Tebɣiḍ ad tesnubegteḍ uṭṭun-a ɣer Morse:";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "Meqqer";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Standard";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal isseqdac awgelhen seg yixef ɣer yixef, ihi ahat yesra tikwal asmiren n tɣimit n usqerdec. Aya ur d-igellu s kra ɣef tɣellist n usqerdec-ik·im, maca ahat tesruḥeḍ izen seg unermis-a, tzemreḍ ad tsutreḍ ad as-yales tuzna.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Morse isseqdac awgelhen seg yixef ɣer yixef, ihi ahat yesra tikwal asmiren n tɣimit n usqerdec. Aya ur d-igellu s kra ɣef tɣellist n usqerdec-ik·im, maca ahat tesruḥeḍ izen seg unermis-a, tzemreḍ ad tsutreḍ ad as-yales tuzna.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Tiɣimit n usqerdec tettusmiren";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Adig";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ma yella yetturmed, Signal ad yeεreḍ ad iḥayel ɣef udris. Ur sermad ara tamahilt-a ala ma yella telliḍ deg wadig anida ṣignal yettuεass.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ma yella yetturmed, Morse ad yeεreḍ ad iḥayel ɣef udris. Ur sermad ara tamahilt-a ala ma yella telliḍ deg wadig anida ṣignal yettuεass.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Tiḥilet ɣef udris yetturemden tebna ɣef wuṭṭun n tilifun n umiḍan-ik·im.";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Tiḥilet ɣef udris yezmer an ad yetturmed mi ara teqqneḍ ɣer internet.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Tiḥilet ɣef udris ur tenfiε ara; aql-ak·akem yakan teqqneḍ ɣer yibenk n Signal.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Tiḥilet ɣef udris ur tenfiε ara; aql-ak·akem yakan teqqneḍ ɣer yibenk n Morse.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Rmed aɣmis n temseɣtayt";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Rnu aseqdac yettusweḥlen";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Ur tesεiḍ ara inermisen deg Signal.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Ur tesεiḍ ara inermisen deg Morse.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Ulac igmaḍ n unadi";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Siweḍ yal tikkelt isawalen";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Sεeddi akk isawalen seg uqeddac n Signal akken anermis-ik.im ur yettwali ara tansa-inek.inem IP. Ma yermed ad tenqes tɣara n usiwel.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Sεeddi akk isawalen seg uqeddac n Morse akken anermis-ik.im ur yettwali ara tansa-inek.inem IP. Ma yermed ad tenqes tɣara n usiwel.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "Idiwenniyen";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Sfeḍ azray n udiwenni";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Copyright Signal Messenger\nLicensed under the GPLv3";
+"SETTINGS_COPYRIGHT" = "Copyright Morse Messenger\nLicensed under the GPLv3";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Subscription";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Set a default disappearing message timer for all new chats started by you.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Mudd i Signal";
+"SETTINGS_DONATE" = "Mudd i Morse";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Tallalt";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "Nced-d imeddukkal";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Tzemreḍ ad d-ternuḍ ɣur-i s useqdec n @signalapp. Awi-t tura: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Tzemreḍ ad d-ternuḍ ɣur-i s useqdec n @signalapp. Awi-t tura: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "Chat Color & Wallpaper";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Agbur n yilɣa";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Contact Joins Signal";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Contact Joins Morse";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Notify when…";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Rmed";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "You can use Signal to send and receive MobileCoin. All payments are subject to the Terms of Use for MobileCoins and the MobileCoin Wallet. This is a beta feature so you may encounter some issues and payments or balances you may lose can’t be recovered.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "You can use Morse to send and receive MobileCoin. All payments are subject to the Terms of Use for MobileCoins and the MobileCoin Wallet. This is a beta feature so you may encounter some issues and payments or balances you may lose can’t be recovered.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Rmed";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ at %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Payments in Signal is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Payments in Morse is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Can't deactivate payments because your balance is not available. Check your connection and try again.";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Couldn't complete payment because your balance is not available. Check your connection and try again.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Payments in Signal is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Payments in Morse is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Payments in Signal is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Payments in Morse is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Conversions are just estimates and may not be accurate.";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Deactivate Payments";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "You will not be able to send or receive Mobilecoin in Signal if you deactivate payments.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "You will not be able to send or receive Mobilecoin in Morse if you deactivate payments.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Sens axelleṣ?";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Deactivate Payments";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "It’s recommended that you transfer your funds to another wallet address before deactivating payments. If you choose not to transfer your funds now, they will remain in your wallet linked to Signal if you reactivate payments.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "It’s recommended that you transfer your funds to another wallet address before deactivating payments. If you choose not to transfer your funds now, they will remain in your wallet linked to Morse if you reactivate payments.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Your balance will remain in your wallet linked to Signal if you choose to reactivate payments.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Your balance will remain in your wallet linked to Morse if you choose to reactivate payments.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Deactivate Without Transferring?";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "About MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "You can add funds for use in Signal by sending MobileCoin to your wallet address.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "You can add funds for use in Morse by sending MobileCoin to your wallet address.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Adding Funds";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Payments activated.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Use Signal to send and receive MobileCoin, a new privacy focused digital currency. Activate to get started.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Use Morse to send and receive MobileCoin, a new privacy focused digital currency. Activate to get started.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Reactivate Payments";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "Introducing Payments (Beta)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Your balance will automatically restore when you reinstall Signal if you confirm your Signal PIN. You can also restore your balance using a recovery phrase, which is a 24-word phrase unique to you. Write it down and store it in a safe place.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Your balance will automatically restore when you reinstall Morse if you confirm your Morse PIN. You can also restore your balance using a recovery phrase, which is a 24-word phrase unique to you. Write it down and store it in a safe place.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "Add Funds";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Axelleṣ";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "You can’t transfer to your Signal wallet address. Enter the wallet address from your account at a supported exchange.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "You can’t transfer to your Morse wallet address. Enter the wallet address from your account at a supported exchange.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "You can transfer MobileCoin by completing a transfer to the wallet address provided by the exchange. The wallet address is the string of numbers and letters most commonly below the QR code.";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Sens ismektiyen";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Ḍmen belli tecfiḍ ɣef tengalt-ik·im PIN neɣ tkelseḍ-tt s wudem aɣellsan acku ur tezmireḍ ara ad tt-id-terreḍ. Ma yella tettuḍ tangalt-ik·im PIN, yezmer ad tesruḥeḍ isefka mi ara talseḍ ajerred n umiḍan-ik·im n Signal.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Ḍmen belli tecfiḍ ɣef tengalt-ik·im PIN neɣ tkelseḍ-tt s wudem aɣellsan acku ur tezmireḍ ara ad tt-id-terreḍ. Ma yella tettuḍ tangalt-ik·im PIN, yezmer ad tesruḥeḍ isefka mi ara talseḍ ajerred n umiḍan-ik·im n Morse.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Sentem PIN-inek/inem n Signal";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Sentem PIN-inek/inem n Morse";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "Ismektiyen n PIN";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PINs keep information stored with Signal encrypted so only you can access it. Your PIN cannot be recovered. Your profile, settings, and contacts will restore when you reinstall Signal.";
+"SETTINGS_PINS_FOOTER" = "PINs keep information stored with Morse encrypted so only you can access it. Your PIN cannot be recovered. Your profile, settings, and contacts will restore when you reinstall Morse.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Beddel PIN-inek/inem";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Snulfu-d PIN";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "PIN n Signal";
+"SETTINGS_PINS_TITLE" = "PIN n Morse";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Censorship circumvention, relay calls, and sealed sender settings.";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Rmed";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Ma yella tettuḍ tangalt PIN n Signal mi ara tjerdeḍ tikkelt-nniḍen deg Signal, Ad tettusweḥleḍ seg umiḍan-ik·im 7 wussan.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Ma yella tettuḍ tangalt PIN n Morse mi ara tjerdeḍ tikkelt-nniḍen deg Morse, Ad tettusweḥleḍ seg umiḍan-ik·im 7 wussan.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Rmed asekkeṛ n ujerred?";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Asiwel";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Use Touch ID, Face ID, or your iOS device passcode to unlock Signal.";
+"SETTINGS_SECURITY_DETAIL" = "Use Touch ID, Face ID, or your iOS device passcode to unlock Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Use Face ID to unlock Signal.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Use Face ID to unlock Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Use your device passcode to unlock Signal.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Use your device passcode to unlock Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Use Touch ID to unlock Signal.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Use Touch ID to unlock Morse.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Taɣellist n usnas";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Share Contacts with iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Allow iOS access to Signal contacts and chats for features such as sharing suggestions.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Allow iOS access to Morse contacts and chats for features such as sharing suggestions.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Allow iOS access to Signal contacts and chats for features such as sharing suggestions and notifications.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Allow iOS access to Morse contacts and chats for features such as sharing suggestions and notifications.";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signal Boost";
+"SETTINGS_SIGNAL_BOOST" = "Morse Boost";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Become a Signal Sustainer";
+"SETTINGS_SUBSCRIPTION" = "Become a Morse Sustainer";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Asekkeṛ n ujerred";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Require your Signal PIN to register your phone number again with Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Require your Morse PIN to register your phone number again with Morse.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Inammalen n tira";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "Asali…";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Senker asnas Signal i ujerred.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Senker asnas Morse i ujerred.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Ur yettujerred ara";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Senker asnas n Signal i uleqqem neɣ i ujerred.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Senker asnas n Morse i uleqqem neɣ i ujerred.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Ur iheggi ara";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Asali …";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Aheyyi n tceqquft yeddan d awezɣi";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Bḍu deg Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Bḍu deg Morse";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Asensi n beṭṭu n yisumar ur yeddi ara.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Idiwenniyen n Signal zemren tura ad ttuseknen d isumar mi ara ttwabḍun seg yisnasen-nniḍen.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Idiwenniyen n Morse zemren tura ad ttuseknen d isumar mi ara ttwabḍun seg yisnasen-nniḍen.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "Beṭṭu yuɣal yeshel";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Sken adiwenni";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Aql-i necdeɣ-k·kem ad tesbeddeḍ Signal! Ha-t-a useɣwen:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Aql-i necdeɣ-k·kem ad tesbeddeḍ Morse! Ha-t-a useɣwen:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "Sounds & Notifications";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Continue Without Verifying?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "To help prevent spam on Signal, please complete verification.\n\nAfter verifying, you can continue messaging. Any paused messages will automatically be sent.";
+"SPAM_CAPTCHA_SHEET_BODY" = "To help prevent spam on Morse, please complete verification.\n\nAfter verifying, you can continue messaging. Any paused messages will automatically be sent.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Verify to Continue Messaging";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "Sebded";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Tizrarin n yinaẓuren Signal";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Tizrarin n yinaẓuren Morse";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Stickers i d-tremseḍ";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Contribute";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal is powered by people like you. Contribute and receive a badge.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse is powered by people like you. Contribute and receive a badge.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Ala tanemmirt";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Mmeslay-d ɣef ugur:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Ttxil-k·m azen imayl asuter-ik·im n tallalt ɣer support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Ttxil-k·m azen imayl asuter-ik·im n tallalt ɣer support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Sizdeg: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "URL n uɣmis: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Lqem n Signal: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Lqem n Morse: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Asuter n tallalt n Signal iOS";
+"SUPPORT_EMAIL_SUBJECT" = "Asuter n tallalt n Morse iOS";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Amek i tettḥulfuḍ? (D afrayan)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "Teɣriḍ yakan FAQ nneɣ neɣ mazal?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Azdam";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly contribution and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly contribution and receive a profile badge to share your support.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour contribution fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morse is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour contribution fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Support technology that is built for you - not for your data - by joining the community that sustains it.";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Still Processing";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Add a Signal Boost";
+"SUSTAINER_VIEW_ADD_BOOST" = "Add a Morse Boost";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Get a %@ badge";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "Mačči tura";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signal is powered by people like you.";
+"SUSTAINER_VIEW_TITLE" = "Morse is powered by people like you.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "You will be charged the full amount (%@) of the new subscription price today. Your new subscription will renew monthly.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "Tamurt tarussint";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Yiwen seg yibenan-ik·im yuzen izen ur nezmir ad yettusesfer neɣ ad yettuskan acku iseqdac tamahilt tamaynut n Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Yiwen seg yibenan-ik·im yuzen izen ur nezmir ad yettusesfer neɣ ad yettuskan acku iseqdac tamahilt tamaynut n Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ yuzen izen ur nezmir ad yettusesfer neɣ ad yettuskan acku iseqdac tamahilt tamaynut n Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ yuzen izen ur nezmir ad yettusesfer neɣ ad yettuskan acku iseqdac tamahilt tamaynut n Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Tremseḍ-d izen ur nezmir ad yettusesfer neɣ ad yettuskan acku iseqdac tamahilt tamaynut n Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Tremseḍ-d izen ur nezmir ad yettusesfer neɣ ad yettuskan acku iseqdac tamahilt tamaynut n Morse.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Leqqem Signal tura";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Leqqem Morse tura";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Yettuleqqem ɣer lqem aneggaru akk n Signal. Tzemreḍ ad tremseḍ anaw-a n yizen ɣef yibenk-ik·im.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Yettuleqqem ɣer lqem aneggaru akk n Morse. Tzemreḍ ad tremseḍ anaw-a n yizen ɣef yibenk-ik·im.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Tzemreḍ ad tsutreḍ %@ ad yales tuzna n yizen-a tura mi akka tseqdaceḍ lqem n yettuleqqmen n Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Tzemreḍ ad tsutreḍ %@ ad yales tuzna n yizen-a tura mi akka tseqdaceḍ lqem n yettuleqqmen n Morse.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Tzemreḍ ad tsutreḍ deg umazan ad yales tuzna n yizen-a tura mi akka tseqdaceḍ lqem n yettuleqqmen n Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Tzemreḍ ad tsutreḍ deg umazan ad yales tuzna n yizen-a tura mi akka tseqdaceḍ lqem n yettuleqqmen n Morse.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Arussin";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Kkes tuqqna i \"%@\"?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Dayen ur iqqin ara yiben. Ales tuqqna n Signal akked tilifun-ik·im i wakken ad tkemmleḍ tira n yiznan.";
+"UNLINKED_WARNING" = "Dayen ur iqqin ara yiben. Ales tuqqna n Morse akked tilifun-ik·im i wakken ad tkemmleḍ tira n yiznan.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal ur yessaweḍ ara ad yekkes tuqqna n yibenk-inek·inem.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Morse ur yessaweḍ ara ad yekkes tuqqna n yibenk-inek·inem.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Ibenk war isem";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Ibenk-inek·inem ur isefrak ara tamahilt.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Your Safety Number with %@ changed likely because they reinstalled Signal or changed devices. Tap Verify to confirm the new safety number. This is optional.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Your Safety Number with %@ changed likely because they reinstalled Morse or changed devices. Tap Verify to confirm the new safety number. This is optional.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Senqed";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "Issin ugar ɣef PINs";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "Tingalin PIN ttaǧǧant talɣut tettukles s Signal yettwawgelhen, ihi ala kečč·kemm i izemren ad tkecmeḍ ɣer-s. Amaɣnu-ik·im, iɣewwaren d yinermisen ad d-uɣalen mi ara as-talseḍ asebded. Ur tetteḥwiǧiḍ ara tangalt PIN i wakken ad teldiɣ asnas.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "Tingalin PIN ttaǧǧant talɣut tettukles s Morse yettwawgelhen, ihi ala kečč·kemm i izemren ad tkecmeḍ ɣer-s. Amaɣnu-ik·im, iɣewwaren d yinermisen ad d-uɣalen mi ara as-talseḍ asebded. Ur tetteḥwiǧiḍ ara tangalt PIN i wakken ad teldiɣ asnas.";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "Asekcem n PIN";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "Kkes PIN";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal ad d-isuter iOS 11 neɣ ɣer sdat. Ttxil-k·m leqqem deg yiɣewwaren Asnas n yiɣewwaren >> Amatu >> Leqqem aseɣẓan.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Morse ad d-isuter iOS 11 neɣ ɣer sdat. Ttxil-k·m leqqem deg yiɣewwaren Asnas n yiɣewwaren >> Amatu >> Leqqem aseɣẓan.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Leqqem iOS";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Isemawen n yiseqdacen deg Signal d ifrayanen. Ma yella tferneḍ ad ternuḍ isem n useqdac, iseqdacen-nniḍen n Signal ad izmiren ad ak·akem-afen s yisem-a n useqdac syen ad ak·akem-id-remsen war ma ssnen uṭṭun-ik·im n tiliɣri.";
+"USERNAME_DESCRIPTION" = "Isemawen n yiseqdacen deg Morse d ifrayanen. Ma yella tferneḍ ad ternuḍ isem n useqdac, iseqdacen-nniḍen n Morse ad izmiren ad ak·akem-afen s yisem-a n useqdac syen ad ak·akem-id-remsen war ma ssnen uṭṭun-ik·im n tiliɣri.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "Ismawen n useqdac yezmer kan ad yesεu a-z, 0-9, akked _";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "Tella-d tuccḍa mmi ara nettnadi isem n useqdac. Ttxil-k·m εreḍ tikkelt-nniḍen ticki.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "%@ mačči d aseqdac n Signal. Ḍmen teskecmeḍ isem n useqdac ummid.";
+"USERNAME_NOT_FOUND_FORMAT" = "%@ mačči d aseqdac n Morse. Ḍmen teskecmeḍ isem n useqdac ummid.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "Ur yettwaf ara useqdac";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Press and hold to record.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Smed asebded ɣef Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Smed asebded ɣef Morse Desktop.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Isem n unermis";

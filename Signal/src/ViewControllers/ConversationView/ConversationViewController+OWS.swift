@@ -166,7 +166,7 @@ extension ConversationViewController {
             style: .default,
             handler: { _ in
                 // TODO: Finalize this behavior.
-                let url = URL(string: "https://support.signal.org/hc/articles/360007459591")!
+                let url = URL(string: "https://support.devplusone.com/hc/articles/360007459591")!
                 UIApplication.shared.open(url, options: [:])
 
             }
@@ -210,7 +210,7 @@ extension ConversationViewController {
                 accessibilityIdentifier: "learn_more",
                 style: .default
             ) { _ in
-                UIApplication.shared.open(URL(string: "https://support.signal.org/hc/articles/4404859745690")!)
+                UIApplication.shared.open(URL(string: "https://support.devplusone.com/hc/articles/4404859745690")!)
             }
         )
         presentActionSheet(actionSheet)

@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Để sau";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Về Signal";
+"ABOUT_SECTION_TITLE" = "Về Morse";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Chấp nhận số an toàn mới";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "Tin nhắn thoại %@ giây";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Cuộc gọi Signal";
+"ACTION_AUDIO_CALL" = "Cuộc gọi Morse";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Mời dùng Signal";
+"ACTION_INVITE" = "Mời dùng Morse";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Gửi tin nhắn";
@@ -149,7 +149,7 @@
 "APN_Message" = "Bạn có thể có tin nhắn mới";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Không thể chạy Signal. Vui lòng gửi nhật kí lỗi đến support@signal.org để chúng tôi có thể xử lí vấn đề này.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Không thể chạy Morse. Vui lòng gửi nhật kí lỗi đến support@devplusone.com để chúng tôi có thể xử lí vấn đề này.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Lỗi";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Không thể tải cơ sở dữ liệu";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Vui lòng cập nhật phiên bản mới nhất của Signal.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Vui lòng cập nhật phiên bản mới nhất của Morse.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Phiên bản cơ sở dữ liệu không xác định.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Dữ liệu từ thiết bị cũ của bạn không thể được khôi phục. Hãy gửi bản ghi chép lỗi đến support@signal.org để chúng tôi có thể khắc phục vấn đề. Nếu bạn cài đặt lại Signal lịch sử trò chuyện của bạn sẽ không được lưu giữ.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Dữ liệu từ thiết bị cũ của bạn không thể được khôi phục. Hãy gửi bản ghi chép lỗi đến support@devplusone.com để chúng tôi có thể khắc phục vấn đề. Nếu bạn cài đặt lại Morse lịch sử trò chuyện của bạn sẽ không được lưu giữ.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Không thể Hoàn tất Quá trình chuyển";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Phiên bản %@ đã có trên App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Đã có phiên bản mới của Signal";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Đã có phiên bản mới của Morse";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Cập nhật";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "Hệ thống";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "Lưu trữ";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Không thể xuất tệp đính kèm.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Không thể lưu";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Trở thành người quyên góp";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Quyên góp cho Signal";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Quyên góp cho Morse";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Huy hiệu Boost của bạn đã hết hạn và không còn hiển thị trên hồ sơ của bạn.\n\nBạn có thể tiếp tục sử dụng Signal nhưng để hỗ trợ công nghệ được xây dựng cho bạn, vui lòng xem xét trở thành Người ủng hộ bền vững hàng tháng.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Huy hiệu Boost của bạn đã hết hạn và không còn hiển thị trên hồ sơ của bạn.\n\nBạn có thể tiếp tục sử dụng Morse nhưng để hỗ trợ công nghệ được xây dựng cho bạn, vui lòng xem xét trở thành Người ủng hộ bền vững hàng tháng.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Huy hiệu Boost của bạn đã hết hạn và không còn hiển thị trên hồ sơ của bạn nữa.\n\nBạn có thể kích hoạt lại huy hiệu Boost của mình trong 30 ngày nữa với khoản ủng hộ một lần.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Đăng ký Ủng hộ của bạn đã tự động bị hủy vì bạn đã không hoạt động trong thời gian quá dài. Huy hiệu %@ của bạn không còn hiển thị trên hồ sơ của bạn nữa.\n\nBạn có thể tiếp tục sử dụng Signal nhưng để hỗ trợ ứng dụng và kích hoạt lại huy hiệu của bạn, hãy gia hạn ngay bây giờ.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Đăng ký Ủng hộ của bạn đã tự động bị hủy vì bạn đã không hoạt động trong thời gian quá dài. Huy hiệu %@ của bạn không còn hiển thị trên hồ sơ của bạn nữa.\n\nBạn có thể tiếp tục sử dụng Morse nhưng để hỗ trợ ứng dụng và kích hoạt lại huy hiệu của bạn, hãy gia hạn ngay bây giờ.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Trở thành người quyên góp";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "Khi bạn có nhiều hơn một huy hiệu. bạn có thể chọn huy hiệu mặc định mà mọi người sẽ nhìn thấy trên hồ sơ của bạn.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "Bạn đã nhận được huy hiệu %@! Hãy giúp Signal gửi thông điệp đến mọi người bằng cách đính huy hiệu này lên hồ sơ của bạn.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Bạn đã nhận được huy hiệu %@! Hãy giúp Morse gửi thông điệp đến mọi người bằng cách đính huy hiệu này lên hồ sơ của bạn.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Tắt biểu ngữ";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Chọn số tiền để đóng góp";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Quyên góp cho Signal";
+"BOOST_VIEW_TITLE" = "Quyên góp cho Morse";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Thêm";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 Cuộc gọi âm thanh bị nhỡ";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Hãy bật quyền truy cập micro trong Cài đặt iOS để gọi và ghi tin nhắn thoại với Signal.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Hãy bật quyền truy cập micro trong Cài đặt iOS để gọi và ghi tin nhắn thoại với Morse.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Cần Quyền truy cập Micro";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Không hồi đáp";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Gọi";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Camera của bạn đang tắt";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Người dùng Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Người dùng Morse";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Chụp một bức ảnh và gửi đi";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "So sánh với Bộ nhớ đệm";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Chọn hoặc tìm người dùng Signal để bắt đầu nhắn tin.";
+"COMPOSE_BUTTON_HINT" = "Chọn hoặc tìm người dùng Morse để bắt đầu nhắn tin.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Soạn thảo";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Tìm kiếm tên người dùng";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Bạn có thể cấp quyền truy cập danh bạ trong Cài đặt iOS để thấy những liên hệ nào đang dùng Signal.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Bạn có thể cấp quyền truy cập danh bạ trong Cài đặt iOS để thấy những liên hệ nào đang dùng Morse.";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "Việc này sẽ thiết lập lại ứng dụng bằng cách xoá tin nhắn của bạn. Ứng dụng sẽ đóng sau khi quá trình này hoàn tất.";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Có điều gì đó đang không hoạt động";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Người hổ trợ & Đóng góp cho Signal";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Người hổ trợ & Đóng góp cho Morse";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Quyên góp & Thúc đẩy";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal không thể hoàn thành yêu cầu hỗ trợ của bạn. ";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morse không thể hoàn thành yêu cầu hỗ trợ của bạn. ";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Hãy thử lại";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "âm thanh";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Hãy thu thập nhiều huy hiệu đính trên hồ sơ của bạn bằng cách hổ trở cho Signal. Bấm vào \"huy hiệu\" để biết thêm chi tiết.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Hãy thu thập nhiều huy hiệu đính trên hồ sơ của bạn bằng cách hổ trở cho Morse. Bấm vào \"huy hiệu\" để biết thêm chi tiết.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Huy hiệu";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Xóa Tài khoản";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Việc này sẽ xoá tài khoản Signal của bạn và thiết lập lại ứng dụng. Ứng dụng sẽ đóng sau khi quá trình này hoàn tất.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Việc này sẽ xoá tài khoản Morse của bạn và thiết lập lại ứng dụng. Ứng dụng sẽ đóng sau khi quá trình này hoàn tất.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Bạn có chắc muốn xoá tài khoản?";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Số điện thoại";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Xác minh Số Signal của bạn";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Xác minh Số Morse của bạn";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Xóa Tài khoản";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Đăng ký lại số điện thoại này";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Thiết bị không còn được đăng ký. Số điện thoại của bạn có thể được đăng ký với Signal bằng một thiết bị khác. Chạm để đăng ký lại.";
+"DEREGISTRATION_WARNING" = "Thiết bị không còn được đăng ký. Số điện thoại của bạn có thể được đăng ký với Morse bằng một thiết bị khác. Chạm để đăng ký lại.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Hoạt động lần cuối %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Nếu bạn còn thiết bị iOS cũ, bạn có thể chuyển tài khoản và tin nhắn một cách an toàn sang thiết bị này.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Nếu bạn trước đó đang sử dụng Signal trên một iPad được kết nối, bạn có thể chuyển tài khoản và tin nhắn một cách an toàn sang thiết bị này.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Nếu bạn trước đó đang sử dụng Morse trên một iPad được kết nối, bạn có thể chuyển tài khoản và tin nhắn một cách an toàn sang thiết bị này.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Tiếp tục mà không chuyển tài khoản và tin nhắn";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Chuyển từ thiết bị iOS";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Nếu tiếp tục việc này sẽ vô hiệu hoá Signal trên các thiết bị khác đang được đăng ký với số điện thoại này.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Nếu tiếp tục việc này sẽ vô hiệu hoá Morse trên các thiết bị khác đang được đăng ký với số điện thoại này.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Không thể xác minh thiết bị mới, hãy thử lại";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Không đủ dung lượng để hoàn tất quá trình chuyển";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Cập nhật phiên bản mới nhất của Signal và thử lại";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Cập nhật phiên bản mới nhất của Morse và thử lại";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Chuyển tài khoản Signal của bạn sang thiết bị iOS mới. Đảm bảo rằng thiết bị mới của bạn đang ở gần đó và đã bật nguồn.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Chuyển tài khoản Morse của bạn sang thiết bị iOS mới. Đảm bảo rằng thiết bị mới của bạn đang ở gần đó và đã bật nguồn.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Chuyển Tài khoản";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Mở Signal trên thiết bị cũ, mang thiết bị lại gần, và đảm bảo Wi-Fi và Bluetooth được bật trên cả hai thiết bị.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Mở Morse trên thiết bị cũ, mang thiết bị lại gần, và đảm bảo Wi-Fi và Bluetooth được bật trên cả hai thiết bị.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Đặt mã QR này vào khung trên thiết bị kia của bạn.";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Đang chờ Thiết bị còn lại...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Để cả hai thiết bị gần nhau. Đừng tắt nguồn thiết bị nào và để mở ứng dụng Signal. Quá trình chuyển dữ liệu được bảo mật hai chiều.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Để cả hai thiết bị gần nhau. Đừng tắt nguồn thiết bị nào và để mở ứng dụng Morse. Quá trình chuyển dữ liệu được bảo mật hai chiều.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Đang nhận dữ liệu";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Nâng Thiết bị Mới của bạn ngang với camera";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Để cả hai thiết bị gần nhau. Đừng tắt nguồn thiết bị nào và để mở ứng dụng Signal.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Để cả hai thiết bị gần nhau. Đừng tắt nguồn thiết bị nào và để mở ứng dụng Morse.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Đang chuyển dữ liệu";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Nhập vào Số tiền Tuỳ chọn";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Đóng góp cho Signal";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Đóng góp cho Morse";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "Các Cách khác để Đóng góp";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "Cảm ơn sự đóng góp của bạn!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signal được hỗ trợ bởi những cá nhân như bạn.";
+"DONATION_VIEW_TITLE" = "Morse được hỗ trợ bởi những cá nhân như bạn.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Đội ngũ ở Signal cam kết với sứ mệnh phát triển công nghệ riêng tư mã nguồn mở mà bảo vệ tự do ngôn luận và cho phép trao đổi bảo mật toàn cầu. Đóng góp của bạn giúp thúc đẩy sứ mệnh này. Không có quảng cáo. Không theo dõi. Không đùa chút nào.\n\nĐóng góp của bạn giúp trả cho việc phát triển, máy chủ, và băng thông của một ứng dụng được dùng bởi hàng triệu người trên thế giới cho việc trao đổi riêng tư và tức thời. ";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Đội ngũ ở Morse cam kết với sứ mệnh phát triển công nghệ riêng tư mã nguồn mở mà bảo vệ tự do ngôn luận và cho phép trao đổi bảo mật toàn cầu. Đóng góp của bạn giúp thúc đẩy sứ mệnh này. Không có quảng cáo. Không theo dõi. Không đùa chút nào.\n\nĐóng góp của bạn giúp trả cho việc phát triển, máy chủ, và băng thông của một ứng dụng được dùng bởi hàng triệu người trên thế giới cho việc trao đổi riêng tư và tức thời. ";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "Vì sao Đóng góp?";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Bạn có thể cho phép quyền truy cập trong Cài đặt iOS.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal cần Quyền truy cập vào Danh bạ để Chỉnh sửa Thông tin Liên hệ";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Morse cần Quyền truy cập vào Danh bạ để Chỉnh sửa Thông tin Liên hệ";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Sửa nhóm";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Người dùng này không thể được thêm vào nhóm cho đến khi họ nâng cấp Signal.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Người dùng này không thể được thêm vào nhóm cho đến khi họ nâng cấp Morse.";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "Đã đạt kích cỡ nhóm tối đa %@ thành viên.";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Sao chép";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Xin chào,\n\nGần đây tôi đang sử dụng Signal để giữ riêng tư các tin nhắn trên iPhone của mình. Tôi cũng muốn bạn cài ứng dụng này luôn, để chúng ta có thể tự tin rằng chỉ có tôi và bạn mới có thể đọc được tin nhắn và nghe được điện thoại của mình.\n\nSignal có trên iPhone và Android. Tải nó ở đây: %@\n\nSignal hoạt động giống như ứng dụng nhắn tin hiện tại của bạn. Chúng ta có thể gửi ảnh và video, thực hiện cuộc gọi, và bắt đầu tin nhắn nhóm. Cái hay nhất là, không ai sẽ có thể thấy bất kì thông tin nào, ngay cả người tạo ra Signal cũng không!\n\nBạn có thể đọc thêm về Open Whisper Systems, những người tạo ra Signal, ở đây: %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "Xin chào,\n\nGần đây tôi đang sử dụng Morse để giữ riêng tư các tin nhắn trên iPhone của mình. Tôi cũng muốn bạn cài ứng dụng này luôn, để chúng ta có thể tự tin rằng chỉ có tôi và bạn mới có thể đọc được tin nhắn và nghe được điện thoại của mình.\n\nMorse có trên iPhone và Android. Tải nó ở đây: %@\n\nMorse hoạt động giống như ứng dụng nhắn tin hiện tại của bạn. Chúng ta có thể gửi ảnh và video, thực hiện cuộc gọi, và bắt đầu tin nhắn nhóm. Cái hay nhất là, không ai sẽ có thể thấy bất kì thông tin nào, ngay cả người tạo ra Morse cũng không!\n\nBạn có thể đọc thêm về Open Whisper Systems, những người tạo ra Morse, ở đây: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Cùng chuyển sang sử dụng Signal";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "Cùng chuyển sang sử dụng Morse";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Thiết bị của bạn chưa có được thiết lập để gửi email. Để gửi yêu cầu hỗ trợ, thiết lập email trên thiết bị của bạn hoặc email cho support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Thiết bị của bạn chưa có được thiết lập để gửi email. Để gửi yêu cầu hỗ trợ, thiết lập email trên thiết bị của bạn hoặc email cho support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Không có email";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Du lịch & Nơi chốn";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Không ai trong danh bạ sử dụng Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Không ai trong danh bạ sử dụng Morse.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Tại sao bạn không thử mời ai đó nhỉ?";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Không thể nhắn tin cho người dùng vì bạn đã chặn họ.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal không thể kết nối internet. Vui lòng thử lại.";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Morse không thể kết nối internet. Vui lòng thử lại.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Không thể gửi tin nhắn vì không có người nhận hợp lệ.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Phản hồi không hợp lệ từ máy chủ.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Thiết bị này không còn được đăng ký với số điện thoại của bạn. Vui lòng cài đặt lại Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Thiết bị này không còn được đăng ký với số điện thoại của bạn. Vui lòng cài đặt lại Morse.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Lỗi Máy chủ. Vui lòng thử lại sau.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Đã xảy ra lỗi không xác định.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Liên hệ này không phải là người dùng Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Liên hệ này không phải là người dùng Morse.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Không tải được tập đính kèm.";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "Lỗi Kết nối mạng";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Vui lòng giúp chúng tôi nâng cập Signal bằng cách báo cáo lỗi này và lịch sử sửa lỗi từ thiết bị của bạn đến support@signal.org;%@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Vui lòng giúp chúng tôi nâng cập Morse bằng cách báo cáo lỗi này và lịch sử sửa lỗi từ thiết bị của bạn đến support@devplusone.com;%@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: Đã xảy ra lỗi";
+"ERROR_NOTIFICATION_TITLE" = "Morse Beta: Đã xảy ra lỗi";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Thiết bị này không còn được liên kết. Hãy liên kết lại để gửi tin nhắn.";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "Thiết bị này không còn được đăng kí. Hãy đăng kí lại để gửi tin nhắn.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Phiên bản Signal của bạn đã hết hạn. Vui lòng cập nhật để tiếp tục gửi tin nhắn.";
+"ERROR_SENDING_EXPIRED" = "Phiên bản Morse của bạn đã hết hạn. Vui lòng cập nhật để tiếp tục gửi tin nhắn.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Người dùng Chưa đăng ký: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Phiên bản Signal của bạn đã hết hạn! Nhấn để cập nhật lên phiên bản mới nhất.";
+"EXPIRATION_ERROR" = "Phiên bản Morse của bạn đã hết hạn! Nhấn để cập nhật lên phiên bản mới nhất.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Phiên bản Signal của bạn sẽ hết hạn trong %d ngày. Chạm để cập nhật lên phiên bản mới nhất.";
+"EXPIRATION_WARNING_SOON" = "Phiên bản Morse của bạn sẽ hết hạn trong %d ngày. Chạm để cập nhật lên phiên bản mới nhất.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Phiên bản Signal của bạn sẽ hết hạn vào hôm nay. Chạm để cập nhật lên phiên bản mới nhất.";
+"EXPIRATION_WARNING_TODAY" = "Phiên bản Morse của bạn sẽ hết hạn vào hôm nay. Chạm để cập nhật lên phiên bản mới nhất.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Quá nhiều lỗi khi gửi tin nhắn cho liên hệ này. Vui lòng thử lại sau.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Đường dẫn Vô hiệu lực";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Cập nhật Signal trên thiết bị này để tham gia nhóm.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Cập nhật Morse trên thiết bị này để tham gia nhóm.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Cần quản trị viên chấp nhận thành viên tham gia qua đường dẫn nhóm.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "Mã QR";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Chia sẻ qua Signal";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Chia sẻ qua Morse";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Bất kì ai có đường dẫn này có thể xem tên và thành viên của nhóm và yêu cầu tham gia. Chia sẻ nó với những người mà bạn tin tưởng.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Nhóm Cũ là gì?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Nhóm Cũ chưa thể nâng cấp được lên Nhóm Mới, nhưng bạn có thể tạo một Nhóm Mới với các thành viên cũ nếu như họ đang sử dụng phiên bản mới nhất của Signal.\n\nSignal sẽ cung cấp cách để cập nhật Nhóm Cũ trong tương lai.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Nhóm Cũ chưa thể nâng cấp được lên Nhóm Mới, nhưng bạn có thể tạo một Nhóm Mới với các thành viên cũ nếu như họ đang sử dụng phiên bản mới nhất của Morse.\n\nMorse sẽ cung cấp cách để cập nhật Nhóm Cũ trong tương lai.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Tôi có thể nâng cấp Nhóm Cũ được không?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Để tạo Nhóm Mới, tất cả thành viên cần phải cập nhật lên phiên bản Signal mới nhất.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Để tạo Nhóm Mới, tất cả thành viên cần phải cập nhật lên phiên bản Morse mới nhất.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Nhóm Mới và Nhóm Cũ";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Nhóm này không thể được nâng cấp thành Nhóm Mới vì nhóm có quá nhiều thành viên. Kích cỡ nhóm tối đa mà có thể được nâng cấp là %@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Khi tất cả các thành viên nhóm đang sử dụng một phiên bản của Signal có khả năng tham gia Nhóm Mới, nhóm này sẽ được nâng cấp.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Khi tất cả các thành viên nhóm đang sử dụng một phiên bản của Morse có khả năng tham gia Nhóm Mới, nhóm này sẽ được nâng cấp.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Tất cả lịch sử tin nhắn và đa phương tiện sẽ được giữ lại từ trước khi nâng cấp.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Nhóm này không thể được tạo vì 1 thành viên đang sử dụng một phiên bản cũ của Signal. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Signal, hoặc gỡ bỏ họ trước khi tạo nhóm.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Nhóm này không thể được tạo vì 1 thành viên đang sử dụng một phiên bản cũ của Morse. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Morse, hoặc gỡ bỏ họ trước khi tạo nhóm.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Nhóm này không thể được tạo vì %@ thành viên đang sử dụng một phiên bản cũ của Signal. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Signal, hoặc gỡ bỏ họ trước khi tạo nhóm.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Nhóm này không thể được tạo vì %@ thành viên đang sử dụng một phiên bản cũ của Morse. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Morse, hoặc gỡ bỏ họ trước khi tạo nhóm.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Nhóm này không thể được tạo vì 1 thành viên đang sử dụng một phiên bản cũ của Signal. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Signal, hoặc gỡ bỏ họ trước khi tạo nhóm.%@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Nhóm này không thể được tạo vì 1 thành viên đang sử dụng một phiên bản cũ của Morse. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Morse, hoặc gỡ bỏ họ trước khi tạo nhóm.%@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Nhóm này không thể được tạo vì %1$@ thành viên đang sử dụng một phiên bản cũ của Signal. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Signal, hoặc gỡ bỏ họ trước khi tạo nhóm. %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Nhóm này không thể được tạo vì %1$@ thành viên đang sử dụng một phiên bản cũ của Morse. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Morse, hoặc gỡ bỏ họ trước khi tạo nhóm. %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Một Nhóm Cũ sẽ được tạo vì 1 thành viên đang sử dụng một phiên bản cũ của Signal. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Signal, hoặc gỡ bỏ họ trước khi tạo nhóm.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Một Nhóm Cũ sẽ được tạo vì 1 thành viên đang sử dụng một phiên bản cũ của Morse. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Morse, hoặc gỡ bỏ họ trước khi tạo nhóm.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Một Nhóm Cũ sẽ được tạo vì %@ thành viên đang sử dụng một phiên bản cũ của Signal. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Signal, hoặc gỡ bỏ họ trước khi tạo nhóm.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Một Nhóm Cũ sẽ được tạo vì %@ thành viên đang sử dụng một phiên bản cũ của Morse. Bạn có thể tạo Nhóm Kiểu Mới với họ sau khi họ cập nhật Morse, hoặc gỡ bỏ họ trước khi tạo nhóm.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "1 thành viên không hỗ trợ Nhóm Mới, vì vậy nên đây sẽ là Nhóm Cũ. %@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "Chọn quản trị viên mới";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Nhóm Signal hoạt động tốt nhất với %@ thành viên hoặc ít hơn. Thêm nhiều thành viên hơn sẽ gây trì hoãn trong việc gửi và nhận tin nhắn.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Nhóm Morse hoạt động tốt nhất với %@ thành viên hoặc ít hơn. Thêm nhiều thành viên hơn sẽ gây trì hoãn trong việc gửi và nhận tin nhắn.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "Đã đạt giới hạn thành viên được giới thiệu";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Liên lạc chúng tôi";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "Trung tâm Hỗ trợ";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Nháp:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Một số liên hệ của bạn đã có trên Signal, bao gồm %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Một số liên hệ của bạn đã có trên Morse, bao gồm %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Một số liên hệ của bạn đã có trên Signal, bao gồm %@ và %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Một số liên hệ của bạn đã có trên Morse, bao gồm %@ và %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Một số liên hệ của bạn đã có trên Signal, bao gồm %@, %@ và %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Một số liên hệ của bạn đã có trên Morse, bao gồm %@, %@ và %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Bắt đầu cuộc trò chuyện đầu tiên của bạn ở đây.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Lưu trữ";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "Vẽ để làm mờ bất cứ đâu";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Bạn không thể chia sẻ nhiều hơn%@ mục.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Thay đổi Ảnh";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Cho toàn quyền truy cập trong Cài đặt hoặc thay đổi ảnh nào mà Signal có thể truy cập.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Cho toàn quyền truy cập trong Cài đặt hoặc thay đổi ảnh nào mà Morse có thể truy cập.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Không thấy ảnh của bạn?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "Bạn có thể gửi hoặc nhận tin nhắn được đồng bộ hoá từ điện thoại hoặc iPad. \nVì sự an ninh của bạn, lịch sử trò chuyện không được chuyển đến các thiết bị mới được liên kết.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ đang sử dụng Signal!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ đang sử dụng Morse!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "Nhãn dán";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Tập âm thanh không hợp lệ.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Bạn có thể cấp quyền truy cập danh bạ trong Cài đặt iOS để mời bạn bè tham gia sử dụng Signal.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Bạn có thể cấp quyền truy cập danh bạ trong Cài đặt iOS để mời bạn bè tham gia sử dụng Morse.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Cho phép Truy cập Danh bạ";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Mời Bạn bè sử dụng Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Mời Bạn bè sử dụng Morse";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Tìm kiếm";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "Xem trước Bất kì Đường dẫn";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Để chuyển tài khoản Signal của bạn, bạn cần bật truy cập mạng cục bộ trên cả hai thiết bị.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Để chuyển tài khoản Morse của bạn, bạn cần bật truy cập mạng cục bộ trên cả hai thiết bị.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Cần Hỗ trợ?";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Bật \"Mạng Cục bộ\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Tìm đến Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Tìm đến Morse";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Bật Truy cập Mạng Cục bộ";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "Ghi chép";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Ghi chú lỗi có thể giúp Signal sửa chữa vấn đề và sự cố.";
+"LOGGING_SECTION_FOOTER" = "Ghi chú lỗi có thể giúp Morse sửa chữa vấn đề và sự cố.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Tin nhắn";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Xoá đối với Mọi người";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Tin nhắn này sẽ được xoá cho tất cả mọi người trong cuộc trò chuyện nếu như họ sử dụng phiên bản mới của Signal. Họ sẽ có thể thấy được rằng bạn đã xoá tin nhắn.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Tin nhắn này sẽ được xoá cho tất cả mọi người trong cuộc trò chuyện nếu như họ sử dụng phiên bản mới của Morse. Họ sẽ có thể thấy được rằng bạn đã xoá tin nhắn.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Bạn muốn xoá tin nhắn này cho ai?";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Xoá và Rời Nhóm?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Xem qua các yêu cầu cẩn thận. Signal tìm thấy một liên hệ khác với cùng tên.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Xem qua các yêu cầu cẩn thận. Morse tìm thấy một liên hệ khác với cùng tên.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Liên hệ của bạn";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Đã xem";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Đã bỏ qua";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "Cuộc gọi nhỡ";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Bạn có thể cho phép truy cập camera trong Cài đặt iOS để thực hiện cuộc gọi video qua Signal.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Bạn có thể cho phép truy cập camera trong Cài đặt iOS để thực hiện cuộc gọi video qua Morse.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal cần truy cập camera của bạn.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Morse cần truy cập camera của bạn.";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Bạn có thể cho phép quyền truy cập này trong Cài đặt iOS. ";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal cần quyền truy cập vị trí của bạn cho tính năng này.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Morse cần quyền truy cập vị trí của bạn cho tính năng này.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Bạn có thể cho phép quyền truy cập này trong Cài đặt iOS. ";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Signal cần quyền truy cập vào hình ảnh của bạn cho tính năng này.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Morse cần quyền truy cập vào hình ảnh của bạn cho tính năng này.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Không";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "Chọn một liên hệ hoặc nhóm để bắt đầu trò chuyện.";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Chào mừng đến với Signal";
+"NO_SELECTED_CONVERSATION_TITLE" = "Chào mừng đến với Morse";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "Tin nhắn mới đến:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Không có Tên hoặc Nội dung";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Bật khi Ứng dụng đang Mở";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "Thêm dấu chỉ vào tin nhắn để chứng minh bạn là người thật";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Vì bạn đã không hoạt động trong một khoảng thời gian dài, bạn phải đăng ký lại để sử dụng Signal.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Vì bạn đã không hoạt động trong một khoảng thời gian dài, bạn phải đăng ký lại để sử dụng Morse.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Đăng ký Signal";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Đăng ký Morse";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "Đăng kí iPad";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Liên kết iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Nhấn \"Đăng kí iPad\" sẽ cho phép bạn tạo một tài khoản Signal mới hoặc chuyển một tài khoản có sẵn sang iPad này. Thao tác này sẽ vô hiệu hóa Signal trên thiết bị được đăng kí với cùng số điện thoại.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Nhấn \"Đăng kí iPad\" sẽ cho phép bạn tạo một tài khoản Morse mới hoặc chuyển một tài khoản có sẵn sang iPad này. Thao tác này sẽ vô hiệu hóa Morse trên thiết bị được đăng kí với cùng số điện thoại.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Nhấn \"Liên kết iPhone\" sẽ cho phép bạn kết nối điện thoại tới một tài khoản có sẵn. Liên kết điện thoại không được khuyên dùng và sẽ hạn chế một số tính năng như gọi điện.";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Liên kết iPhone này";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Đăng kí iPad này sẽ vô hiệu hóa Signal trên thiết bị được đăng kí với cùng số điện thoại.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Đăng kí iPad này sẽ vô hiệu hóa Morse trên thiết bị được đăng kí với cùng số điện thoại.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Liên kết iPhone không được khuyên dùng và sẽ hạn chế một số tính năng.";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Đồng ý Cho phép";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Cho phép thông báo và liên hệ sẽ cho phép bạn thấy khi tin nhắn đến và giúp bạn tìm được những người mình quen biết. Các liên hệ được mã hoá nên dịch vụ Signal sẽ không thấy được thông tin này.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Cho phép thông báo và liên hệ sẽ cho phép bạn thấy khi tin nhắn đến và giúp bạn tìm được những người mình quen biết. Các liên hệ được mã hoá nên dịch vụ Morse sẽ không thấy được thông tin này.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Đồng ý Cho phép";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Chọn người nào có thể tìm bạn trên Signal bằng số điện thoại của bạn %@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Chọn người nào có thể tìm bạn trên Morse bằng số điện thoại của bạn %@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Ai có thể tìm được bạn với số điện thoại của bạn?";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "Xin chờ một vài phút trước khi thử lại. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "Nhập số điện thoại của bạn";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "Để bảo vệ sự riêng tư của bạn, hệ thống cung cấp cho bạn một số điện thoại 8 chữ số 'giả'";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Số điện thoại của Bạn";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Nhập số điện thoại của bạn";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Số điện thoại không hợp lệ. Xin hãy nhập một số điện thoại hợp lệ để đăng ký.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Bạn đã hết lượt thử mã PIN, nhưng bạn vẫn có thể truy cập tài khoản Signal của bạn bằng cách tạo mã PIN mới. Vì sự riêng tư và bảo mật  bạn, tài khoản của bạn sẽ được khôi phục mà không có các thông tin hoặc cài đặt người dùng.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Bạn đã hết lượt thử mã PIN, nhưng bạn vẫn có thể truy cập tài khoản Morse của bạn bằng cách tạo mã PIN mới. Vì sự riêng tư và bảo mật  bạn, tài khoản của bạn sẽ được khôi phục mà không có các thông tin hoặc cài đặt người dùng.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Tìm hiểu thêm về mã PIN";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@ đã đặt thời gian để tin nhắn biến mất là %@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal đang gặp trục trặc kĩ thuật. Chúng thôi đang cố gắng để khôi phục dịch vụ sớm nhất có thể.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Morse đang gặp trục trặc kĩ thuật. Chúng thôi đang cố gắng để khôi phục dịch vụ sớm nhất có thể.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "Bạn đã gọi %@";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Giao dịch không hợp lệ";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Cập nhật Signal để sử dụng thanh toán.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Cập nhật Morse để sử dụng thanh toán.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Thanh toán chưa được xác minh";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Tất cả mọi người";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Bất kì ai có số điện thoại của bạn trong danh bạ của họ sẽ thấy bạn là một liên hệ trên Signal. Những người khác sẽ có thể tìm được bạn trong Tìm kiếm.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Bất kì ai có số điện thoại của bạn trong danh bạ của họ sẽ thấy bạn là một liên hệ trên Morse. Những người khác sẽ có thể tìm được bạn trong Tìm kiếm.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Không ai";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Không có ai trên Signal sẽ có thể tìm được bạn bằng số điện thoại của bạn. Bạn sẽ không hiện lên là liên hệ cho những người có số điện thoại của bạn trong danh bạ của họ và những người khác sẽ không thể tìm được bạn bằng số điện thoại của bạn.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Không có ai trên Morse sẽ có thể tìm được bạn bằng số điện thoại của bạn. Bạn sẽ không hiện lên là liên hệ cho những người có số điện thoại của bạn trong danh bạ của họ và những người khác sẽ không thể tìm được bạn bằng số điện thoại của bạn.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Ví dụ: %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Liên hệ của Tôi";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Chỉ những liên hệ trong danh bạ mới có thể thấy số điện thoại của bạn trên Signal.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Chỉ những liên hệ trong danh bạ mới có thể thấy số điện thoại của bạn trên Morse.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Tất cả mọi người";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Số điện thoại của bạn sẽ hiện lên cho những người và nhóm bạn nhắn tin. Những người có số điện thoại của bạn trong danh bạ điện thoại của họ cũng sẽ thấy nó trên Signal.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Số điện thoại của bạn sẽ hiện lên cho những người và nhóm bạn nhắn tin. Những người có số điện thoại của bạn trong danh bạ điện thoại của họ cũng sẽ thấy nó trên Morse.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Không ai";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Không ai sẽ có thấy số điện thoại của bạn trên Signal.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Không ai sẽ có thấy số điện thoại của bạn trên Morse.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Tắt PIN";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Nếu bạn vô hiệu hoá mã PIN, bạn sẽ mất tất cả dữ liệu khi bạn đăng ký lại Signal trừ khi bạn chuyển nó từ một thiết bị iOS khác. Bạn không thể bật Khoá Đăng ký khi mã PIN bị vô hiệu hoá.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Nếu bạn vô hiệu hoá mã PIN, bạn sẽ mất tất cả dữ liệu khi bạn đăng ký lại Morse trừ khi bạn chuyển nó từ một thiết bị iOS khác. Bạn không thể bật Khoá Đăng ký khi mã PIN bị vô hiệu hoá.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Cảnh báo";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Không thể tạo mã PIN";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "Mã PIN mã hoá các thông tin được lưu trữ với Signal để chỉ mình bạn có thể truy cập được. Thông tin người dùng, cài đặt, và các liên hệ sẽ được khôi phục khi bạn cài lại Signal. Bạn không cần điền PIN mỗi lần mở ứng dụng.";
+"PIN_CREATION_EXPLANATION" = "Mã PIN mã hoá các thông tin được lưu trữ với Morse để chỉ mình bạn có thể truy cập được. Thông tin người dùng, cài đặt, và các liên hệ sẽ được khôi phục khi bạn cài lại Morse. Bạn không cần điền PIN mỗi lần mở ứng dụng.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Tìm hiểu Thêm Về PIN";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Chúng tôi sẽ nhắc bạn trong vài ngày tới.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Xác minh mã PIN Signal của bạn";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Xác minh mã PIN Morse của bạn";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = " Chúng tôi sẽ nhắc bạn vào ngày mai.";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Mã PIN không đúng, hãy thử lại.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Nhập mã PIN Signal của bạn";
+"PIN_REMINDER_TITLE" = "Nhập mã PIN Morse của bạn";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "Mã PIN phải có ít nhất 4 kí tự.";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "Tạo mã PIN";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Mã PIN mã hoá các thông tin được lưu trữ với Signal";
+"PINS_MEGAPHONE_BODY" = "Mã PIN mã hoá các thông tin được lưu trữ với Morse";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "Chúng tôi sẽ nhắc bạn sau. Tạo mã PIN sẽ trở thành bắt buộc sau %ld ngày.";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Số trong bảng sao chép của bạn không giống với số an toàn đúng của bạn cho cuộc trò chuyện này.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal không thể tìm thấy số an toàn nào trong bảng ghi tạm của bạn. Bạn có sao chép đúng số không?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Morse không thể tìm thấy số an toàn nào trong bảng ghi tạm của bạn. Bạn có sao chép đúng số không?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Mỗi cặp người dùng của Signal chia sẻ một số an toàn riêng biệt. Kiểm tra xem %@ có đang hiển thị số an toàn riêng \"của bạn\" không. ";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Mỗi cặp người dùng của Morse chia sẻ một số an toàn riêng biệt. Kiểm tra xem %@ có đang hiển thị số an toàn riêng \"của bạn\" không. ";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Bạn đang sử dụng Signal phiên bản cũ. Bạn cần cập nhật trước khi có thể xác minh.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Bạn đang sử dụng Morse phiên bản cũ. Bạn cần cập nhật trước khi có thể xác minh.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Người trò chuyện với bạn đang sử dụng Signal phiên bản cũ. Họ cần phải cập nhật trước khi bạn có thể xác minh.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Người trò chuyện với bạn đang sử dụng Morse phiên bản cũ. Họ cần phải cập nhật trước khi bạn có thể xác minh.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Mã đã quét không giống số an toàn. Cả hai có đang sử dụng Signal phiên bản mới nhất không?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Mã đã quét không giống số an toàn. Cả hai có đang sử dụng Morse phiên bản mới nhất không?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Nếu bạn muốn xác minh độ bảo mật của cuộc trò chuyện đã được mã hóa hai chiều với %@, hãy so sánh các số ở trên với các số trên thiết bị của họ.\n\nHoặc bạn cũng có thể quét mã hiện trên điện thoại của họ, hoặc nhờ họ quét mã của bạn.";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Không thể chọn được người dùng.";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Người dùng này không thể được thêm vào nhóm cho đến khi họ nâng cấp Signal.";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Người dùng này không thể được thêm vào nhóm cho đến khi họ nâng cấp Morse.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Tôi đã quên mã PIN.";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "Đăng ký lại Thông báo Đẩy";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "Để tạo Signal thành ứng dụng nhắn tin tốt nhất trên hành tinh, chúng tôi rất muốn nghe phản hồi của bạn.";
+"RESEARCH_MEGAPHONE_BODY" = "Để tạo Morse thành ứng dụng nhắn tin tốt nhất trên hành tinh, chúng tôi rất muốn nghe phản hồi của bạn.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Nói cho Signal bạn nghĩ như thế nào";
+"RESEARCH_MEGAPHONE_TITLE" = "Nói cho Morse bạn nghĩ như thế nào";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "Khảo sát được tổ chức bởi Surveygizmo ở tên miền bảo mật surveys.signalusers.org";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "Xin miễn";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>Chúng tôi tin vào sự riêng tư.</bold>\n\nSignal không theo dõi bạn hoặc thu thập dữ liệu của bạn. Để cải thiện Signal cho tất cả mọi người, chúng tôi dựa vào phản hồi người dùng, <bold>và chúng tôi rất muốn nghe của bạn</bold>.\n\nChúng tôi đang thực hiện khảo sát để hiểu cách bạn dùng Signal. Khảo sát của chúng tôi không thu thập bất kì dữ liệu mà sẽ xác định danh tính của bạn. Nếu bạn muốn chia sẻ thêm phản hồi, bạn sẽ có lựa chọn để cung cấp thông tin liên lạc.\n\nNếu bạn có vài phút và có phản hồi, chúng tôi rất muốn nghe từ bạn.";
+"RESEARCH_MODAL_PLEA" = "<bold>Chúng tôi tin vào sự riêng tư.</bold>\n\nMorse không theo dõi bạn hoặc thu thập dữ liệu của bạn. Để cải thiện Morse cho tất cả mọi người, chúng tôi dựa vào phản hồi người dùng, <bold>và chúng tôi rất muốn nghe của bạn</bold>.\n\nChúng tôi đang thực hiện khảo sát để hiểu cách bạn dùng Morse. Khảo sát của chúng tôi không thu thập bất kì dữ liệu mà sẽ xác định danh tính của bạn. Nếu bạn muốn chia sẻ thêm phản hồi, bạn sẽ có lựa chọn để cung cấp thông tin liên lạc.\n\nNếu bạn có vài phút và có phản hồi, chúng tôi rất muốn nghe từ bạn.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "Thực hiện khảo sát";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Nghiên cứu Signal";
+"RESEARCH_MODAL_TITLE" = "Nghiên cứu Morse";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "Thử lại";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Xem";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Số An toàn Signal của chúng tôi:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Số An toàn Morse của chúng tôi:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Số an toàn của bạn với %@ đã thay đổi. Bạn nên xác minh lại. ";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Bạn phải tạo một mật mã trong Cài đặt iOS của bạn để sử dụng Khóa Màn hình.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Xác thực mở khóa để mở Signal.";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Xác thực mở khóa để mở Morse.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Xác thực Không thành công";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Mở khóa Signal";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Mở khóa Morse";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Trần Thị A";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "Dự báo Thời tiết";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Giám đốc Mai";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Tài khoản Không Khớp";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Cập nhật Signal trên thiết bị này để liên kết nó với điện thoại của bạn.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Cập nhật Morse trên thiết bị này để liên kết nó với điện thoại của bạn.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Phiên bản Không được hỗ trợ";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Thiết bị còn lại của bạn đang chạy một phiên bản cũ của Signal không hỗ trợ quét mã QR iPad. Vui lòng cập nhật phiên bản Signal mới nhất và thử lại.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Thiết bị còn lại của bạn đang chạy một phiên bản cũ của Morse không hỗ trợ quét mã QR iPad. Vui lòng cập nhật phiên bản Morse mới nhất và thử lại.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Cập nhật thiết bị quét";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Hoàn tất Liên kết";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Mở Signal trên điện thoại để liên kết iPad này với tài khoản của bạn";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Mở Morse trên điện thoại để liên kết iPad này với tài khoản của bạn";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Tôi không có Signal trên điện thoại...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Tôi không có Morse trên điện thoại...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Hãy vào App Store trên điện thoại, cài Signal, hoàn thành quá trình đăng kí và rồi bạn có thể liên kết iPad với cùng một tài khoản.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Hãy vào App Store trên điện thoại, cài Morse, hoàn thành quá trình đăng kí và rồi bạn có thể liên kết iPad với cùng một tài khoản.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Cài đặt Signal trên Điện thoại của bạn";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Cài đặt Morse trên Điện thoại của bạn";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Hãy nhấn vào ảnh đại diện của bạn để mở cài đặt Signal. Nhấn \"Thiết bị đã liên kết\" và \"Liên kết thiết bị mới\" để quét mã này bằng điện thoại:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Hãy nhấn vào ảnh đại diện của bạn để mở cài đặt Morse. Nhấn \"Thiết bị đã liên kết\" và \"Liên kết thiết bị mới\" để quét mã này bằng điện thoại:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Nhận hỗ trợ về liên kết iPad ở đây";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Quét mã QR bằng điện thoại của bạn";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Mở Signal trên iPad cũ của bạn để chuyển tài khoản";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Mở Morse trên iPad cũ của bạn để chuyển tài khoản";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Đã thiết lập lại phiên bảo mật.";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "Không thể gửi tin nhắn mời, vui lòng thử lại sau.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Bạn đã mời bạn của mình sử dụng Signal!";
+"SEND_INVITE_SUCCESS" = "Bạn đã mời bạn của mình sử dụng Morse!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "Bỏ tệp đa phương tiện";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Mời bạn của mình qua tin nhắn SMS không bảo mật?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Bạn có muốn mời các số điện thoại sau sử dụng Signal không:";
+"SEND_SMS_INVITE_TITLE" = "Bạn có muốn mời các số điện thoại sau sử dụng Morse không:";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "Cao";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Tiêu chuẩn";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal sử dụng bảo mật hai chiều và đôi khi sẽ cần làm mới phiên trò chuyện của bạn. Việc này không ảnh hưởng sự bảo mật của cuộc trò chuyện của bạn nhưng bạn có thể bị nhỡ tin nhắn từ liên hệ này và bạn có thể hỏi họ gửi lại.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Morse sử dụng bảo mật hai chiều và đôi khi sẽ cần làm mới phiên trò chuyện của bạn. Việc này không ảnh hưởng sự bảo mật của cuộc trò chuyện của bạn nhưng bạn có thể bị nhỡ tin nhắn từ liên hệ này và bạn có thể hỏi họ gửi lại.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Đã tải lại phiên trò chuyện";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Vị trí";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Nếu được bật, Signal sẽ thử tránh kiểm duyệt. Không bật tính năng này trừ khi bạn đang ở một nơi đang chặn Signal.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Nếu được bật, Morse sẽ thử tránh kiểm duyệt. Không bật tính năng này trừ khi bạn đang ở một nơi đang chặn Morse.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Tránh Kiểm duyệt đã được bật dựa trên số điện thoại trong tài khoản của bạn.";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Chỉ có thể bật Tránh Kiểm duyệt khi bạn đang được kết nối internet.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Tránh kiểm duyệt là không cần thiết; bạn đã được kết nối với dịch vụ của Signal.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Tránh kiểm duyệt là không cần thiết; bạn đã được kết nối với dịch vụ của Morse.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Bật Nhật ký Gỡ lỗi";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Thêm Người dùng Bị chặn";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Bạn không có liên hệ nào trên Signal.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Bạn không có liên hệ nào trên Morse.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Không có Kết quả Tìm kiếm";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Luôn Chuyển tiếp Cuộc gọi";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Chuyển tiếp mọi cuộc gọi qua một máy chủ của Signal để tránh làm lộ địa chỉ IP của bạn cho các liên hệ. Bật tính năng này sẽ làm giảm chất lượng cuộc gọi.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Chuyển tiếp mọi cuộc gọi qua một máy chủ của Morse để tránh làm lộ địa chỉ IP của bạn cho các liên hệ. Bật tính năng này sẽ làm giảm chất lượng cuộc gọi.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "Trò chuyện";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Xoá Lịch sử Trò chuyện";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Bản quyền Signal Messenger\nCấp phép dưới GPLv3";
+"SETTINGS_COPYRIGHT" = "Bản quyền Morse Messenger\nCấp phép dưới GPLv3";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Số tiền đống góp";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Đặt đồng hồ tin nhắn biến mất mặc định cho tất cả các cuộc trò chuyện mới bắt đầu bởi bạn.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Ủng hộ Signal";
+"SETTINGS_DONATE" = "Ủng hộ Morse";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Hỗ trợ";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "Mời Bạn bè";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Bạn có thể liên lạc với tôi bằng @signalapp. Tải ứng dụng ngay: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Bạn có thể liên lạc với tôi bằng @signalapp. Tải ứng dụng ngay: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "Màu cuộc trò chuyện & Màn hình nền";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Nội dung Thông báo";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Liên hệ Tham gia Signal";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Liên hệ Tham gia Morse";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Thông báo khi...";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Kích hoạt";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Bạn có thể sử dụng Signal để gửi và nhận MobileCoin. Tất cả thanh toán đều chịu Điều khoản Sử dụng cho MobileCoins và Ví MobileCoin. Đây là một tính năng beta nên bạn có thể sẽ gặp một số vấn đề và thanh toán hoặc số dư bạn có thể mất không thể được khôi phục.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Bạn có thể sử dụng Morse để gửi và nhận MobileCoin. Tất cả thanh toán đều chịu Điều khoản Sử dụng cho MobileCoins và Ví MobileCoin. Đây là một tính năng beta nên bạn có thể sẽ gặp một số vấn đề và thanh toán hoặc số dư bạn có thể mất không thể được khôi phục.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Kích hoạt";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ ở %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Thanh toán trong Signal không còn nữa. Bạn vẫn có thể chuyển quỹ vào một sàn trao đổi nhưng bạn không thể gửi và nhận thanh toán hoặc thêm quỹ.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Thanh toán trong Morse không còn nữa. Bạn vẫn có thể chuyển quỹ vào một sàn trao đổi nhưng bạn không thể gửi và nhận thanh toán hoặc thêm quỹ.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Không thể ngưng kích hoạt thanh toán vì số dư của bạn hiện không có sẵn. Kiểm tra kết nối của bạn và thử lại.";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Không thể hoàn tất thanh toán vì số dư của bạn không có sẵn. Kiểm tra kết nối của bạn và thử lại.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Thanh toán trong Signal không còn nữa. Bạn vẫn có thể chuyển quỹ vào một sàn trao đổi nhưng bạn không thể gửi và nhận thanh toán hoặc thêm quỹ.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Thanh toán trong Morse không còn nữa. Bạn vẫn có thể chuyển quỹ vào một sàn trao đổi nhưng bạn không thể gửi và nhận thanh toán hoặc thêm quỹ.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Thanh toán trong Signal không còn nữa. Bạn vẫn có thể chuyển quỹ vào một sàn trao đổi nhưng bạn không thể gửi và nhận thanh toán hoặc thêm quỹ.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Thanh toán trong Morse không còn nữa. Bạn vẫn có thể chuyển quỹ vào một sàn trao đổi nhưng bạn không thể gửi và nhận thanh toán hoặc thêm quỹ.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Chuyển đổi chỉ là ước tính và có thể không chính xác.";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Ngưng kích hoạt Thanh toán";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Bạn sẽ không thể gửi hoặc nhận MobileCoin trong Signal nếu bạn ngưng kích hoạt thanh toán.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Bạn sẽ không thể gửi hoặc nhận MobileCoin trong Morse nếu bạn ngưng kích hoạt thanh toán.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Huỷ kích hoạt Thanh toán?";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Ngưng kích hoạt Thanh toán";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Nó được khuyến khích là bạn chuyển khoản quỹ của mình vào một địa chỉ ví khác trước khi ngưng kích hoạt thanh toán. Nếu bạn chọn để không chuyển khoản quỹ của mình bây giờ, chúng sẽ nằm trong ví của bạn mà đã được liên kết với Signal nếu bạn kích hoạt lại thanh toán.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Nó được khuyến khích là bạn chuyển khoản quỹ của mình vào một địa chỉ ví khác trước khi ngưng kích hoạt thanh toán. Nếu bạn chọn để không chuyển khoản quỹ của mình bây giờ, chúng sẽ nằm trong ví của bạn mà đã được liên kết với Morse nếu bạn kích hoạt lại thanh toán.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Số dư của bạn sẽ nằm trong ví của bạn mà đã được liên kết với Signal nếu như bạn chọn để kích hoạt lại thanh toán.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Số dư của bạn sẽ nằm trong ví của bạn mà đã được liên kết với Morse nếu như bạn chọn để kích hoạt lại thanh toán.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Ngưng kích hoạt mà không chuyển khoản?";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "Về MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Bạn có thể thêm quỹ để sử dụng trong Signal bằng cách gửi MobileCoin vào địa chỉ ví của mình.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Bạn có thể thêm quỹ để sử dụng trong Morse bằng cách gửi MobileCoin vào địa chỉ ví của mình.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Thêm Quỹ";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Đã kích hoạt thanh toán.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Sử dụng Signal để nhận và gửi MobileCoin, một loại tiền điện tử mới tập trung vào sự riêng tư. Kích hoạt để bắt đầu.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Sử dụng Morse để nhận và gửi MobileCoin, một loại tiền điện tử mới tập trung vào sự riêng tư. Kích hoạt để bắt đầu.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Kích hoạt lại Thanh toán";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "Giới thiệu Thanh toán (Beta)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Số dư của bạn sẽ tự động khôi phục khi bạn cài lại Signal nếu bạn xác nhận mã PIN Signal của mình. Bạn cũng có thể khôi phục số dư của mình bằng cách sử dụng một cụm từ khôi phục, và đây là một cụm từ 24-từ chỉ riêng cho bạn. Ghi nó lại và lưu giữ nó ở một nơi an toàn.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Số dư của bạn sẽ tự động khôi phục khi bạn cài lại Morse nếu bạn xác nhận mã PIN Morse của mình. Bạn cũng có thể khôi phục số dư của mình bằng cách sử dụng một cụm từ khôi phục, và đây là một cụm từ 24-từ chỉ riêng cho bạn. Ghi nó lại và lưu giữ nó ở một nơi an toàn.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "Thêm Quỹ";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Thanh toán";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Bạn không thể chuyển khoản vào địa chỉ ví Signal của bạn. Hãy nhập địa chỉ ví từ tài khoản của bạn ở một sàn trao đổi có hỗ trợ.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Bạn không thể chuyển khoản vào địa chỉ ví Morse của bạn. Hãy nhập địa chỉ ví từ tài khoản của bạn ở một sàn trao đổi có hỗ trợ.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "Bạn có thể chuyển MobileCoin bằng cách hoàn tất một lần chuyển từ địa chỉ ví được cung cấp bởi sàn trao đổi. Địa chỉ ví là chuỗi số và kí tự thường hay nằm dưới mã QR.";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Tắt Lời nhắc";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Đảm bảo bạn đã ghi nhớ hoặc lưu trữ mã PIN của mình vì mã này không thể được khôi phục. Nếu bạn quên mã PIN, bạn sẽ mất dữ liệu khi đăng ký lại tài khoản Signal của mình. ";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Đảm bảo bạn đã ghi nhớ hoặc lưu trữ mã PIN của mình vì mã này không thể được khôi phục. Nếu bạn quên mã PIN, bạn sẽ mất dữ liệu khi đăng ký lại tài khoản Morse của mình. ";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Xác nhận mã PIN Signal";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Xác nhận mã PIN Morse";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "Lời nhắc mã PIN";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "Mã PIN của bạn giúp bảo mật thông tin lưu giữ với Signal để chỉ mình bạn mới có thể truy cập nó. Mã PIN của bạn không thể được khôi phục. Hồ sơ cá nhân của bạn, các cài đặt, và liên hệ sẽ khôi phục khi bạn cài đặt lại Signal.";
+"SETTINGS_PINS_FOOTER" = "Mã PIN của bạn giúp bảo mật thông tin lưu giữ với Morse để chỉ mình bạn mới có thể truy cập nó. Mã PIN của bạn không thể được khôi phục. Hồ sơ cá nhân của bạn, các cài đặt, và liên hệ sẽ khôi phục khi bạn cài đặt lại Morse.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Thay đổi mã PIN của bạn";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Tạo mã PIN";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Mã PIN Signal";
+"SETTINGS_PINS_TITLE" = "Mã PIN Morse";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Cài đặt tránh kiểm duyệt, chuyển tiếp cuộc gọi, và người gửi được niêm phong.";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Bật";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Nếu bạn quên mã PIN khi đăng kí lại với Signal, bạn sẽ không thể truy cập tài khoản trong 7 ngày/";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Nếu bạn quên mã PIN khi đăng kí lại với Morse, bạn sẽ không thể truy cập tài khoản trong 7 ngày/";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Bật Khoá Đăng ký?";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Đang gọi";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Sử dụng Touch ID, Face ID, hoặc mật mã thiết bị iOS của bạn để mở khoá Signal.";
+"SETTINGS_SECURITY_DETAIL" = "Sử dụng Touch ID, Face ID, hoặc mật mã thiết bị iOS của bạn để mở khoá Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Sử dụng Face ID để mở khoá Signal.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Sử dụng Face ID để mở khoá Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Sử dụng mật mã thiết bị của bạn để mở khoá Signal.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Sử dụng mật mã thiết bị của bạn để mở khoá Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Sử dụng Touch ID để mở khoá Signal.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Sử dụng Touch ID để mở khoá Morse.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Bảo mật Ứng dụng";
@@ -5861,16 +5861,16 @@
 "SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Cho phép iOS truy cập vào thông tin liên lạc và hội thoại để kích hoạt các tính năng như chia sẻ các đề suất cho người dùng và hiển thị thông báo";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Tăng trưởng Signal";
+"SETTINGS_SIGNAL_BOOST" = "Tăng trưởng Morse";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Trở thành người quyên góp cho Signal";
+"SETTINGS_SUBSCRIPTION" = "Trở thành người quyên góp cho Morse";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Khoá Đăng ký";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Yêu cầu mã PIN Signal của bạn để đăng ký lại số điện thoại của bạn với Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Yêu cầu mã PIN Morse của bạn để đăng ký lại số điện thoại của bạn với Morse.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Dấu chỉ báo Đang nhập tin nhắn";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "Đang tải...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Mở ứng dụng Signal để đăng ký.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Mở ứng dụng Morse để đăng ký.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Chưa Đăng ký";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Mở ứng dụng Signal để cập nhật hoặc đăng ký.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Mở ứng dụng Morse để cập nhật hoặc đăng ký.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Chưa sẵn sàng";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Đang tải lên...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Không thể Chuẩn bị Tập tin đính kèm";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Chia sẻ với Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Chia sẻ với Morse";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Không thể tắt gợi ý chia sẻ.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Cuộc trò chuyện Signal bây giờ đã có thể được hiện làm gợi ý khi chỉa sẻ từ các ứng dụng khác.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Cuộc trò chuyện Morse bây giờ đã có thể được hiện làm gợi ý khi chỉa sẻ từ các ứng dụng khác.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "Chia sẻ Dễ dàng hơn";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Hiện Cuộc trò chuyện";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Tôi đang mời bạn cài đặt Signal! Đây là đường dẫn:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Tôi đang mời bạn cài đặt Morse! Đây là đường dẫn:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "Âm thanh & Thông báo";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Tiếp tục mà Không Xác minh?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Để giúp chống tin nhắn rác trên Signal, xin hãy hoàn tất xác minh.\n\nSau khi xác minh, bạn có thể tiếp tục nhắn tin. Bất kì tin nhắn bị hoãn nào sẽ tự động được gửi.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Để giúp chống tin nhắn rác trên Morse, xin hãy hoàn tất xác minh.\n\nSau khi xác minh, bạn có thể tiếp tục nhắn tin. Bất kì tin nhắn bị hoãn nào sẽ tự động được gửi.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Xác minh để Tiếp tục Nhắn tin";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "Cài đặt";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Tuyển tập Nghệ sĩ Signal";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Tuyển tập Nghệ sĩ Morse";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Các Nhãn dán Bạn Đã nhận được";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Đống góp";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal được hỗ trợ bởi những người như bạn. Đóng góp và nhận huy hiệu.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse được hỗ trợ bởi những người như bạn. Đóng góp và nhận huy hiệu.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Không, Cảm ơn";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Nói cho chúng tôi biết về vấn đề:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Xin hãy gửi yêu cầu hỗ trợ của bạn cho support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Xin hãy gửi yêu cầu hỗ trợ của bạn cho support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Bộ lọc: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "URL của Ghi chú: %@ ";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Phiên bản Signal: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Phiên bản Morse: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Yêu cầu Hỗ trợ Signal iOS";
+"SUPPORT_EMAIL_SUBJECT" = "Yêu cầu Hỗ trợ Morse iOS";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Bạn cảm thấy thế nào? (không bắt buộc)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "Bạn đã đọc Các câu hỏi thường gặp chưa?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Đang tải...";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal là một tổ chức phi lợi nhuận không có nhà quảng cáo hoặc nhà đầu tư, chỉ được duy trì bởi những người sử dụng và đánh giá cao nó. Đóng góp định kỳ hàng tháng và nhận hồ sơ huy hiệu để chia sẻ sự ủng hộ của bạn.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse là một tổ chức phi lợi nhuận không có nhà quảng cáo hoặc nhà đầu tư, chỉ được duy trì bởi những người sử dụng và đánh giá cao nó. Đóng góp định kỳ hàng tháng và nhận hồ sơ huy hiệu để chia sẻ sự ủng hộ của bạn.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal cam kết phát triển công nghệ bảo mật mã nguồn mở bảo vệ quyền tự do ngôn luận và cho phép giao tiếp toàn cầu an toàn. Đóng góp của bạn thúc đẩy điều này này và trả tiền cho sự phát triển và hoạt động của một ứng dụng được hàng triệu người sử dụng để liên lạc riêng tư. Không quảng cáo. Không có trình theo dõi. Không đùa đâu.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morse cam kết phát triển công nghệ bảo mật mã nguồn mở bảo vệ quyền tự do ngôn luận và cho phép giao tiếp toàn cầu an toàn. Đóng góp của bạn thúc đẩy điều này này và trả tiền cho sự phát triển và hoạt động của một ứng dụng được hàng triệu người sử dụng để liên lạc riêng tư. Không quảng cáo. Không có trình theo dõi. Không đùa đâu.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Hỗ trợ công nghệ được xây dựng cho bạn - không phải cho dữ liệu của bạn - bằng cách tham gia cộng đồng duy trì nó.";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Vẫn đang xữ lý";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Thêm vào một phần quyên góp cho Signal";
+"SUSTAINER_VIEW_ADD_BOOST" = "Thêm vào một phần quyên góp cho Morse";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Nhận một huy hiệu %@";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "Để sau";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signal được hỗ trợ bởi những cá nhân như bạn.";
+"SUSTAINER_VIEW_TITLE" = "Morse được hỗ trợ bởi những cá nhân như bạn.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "Bạn sẽ bị mất tất cả số tiền (%@) trong lần quyên góp hôm nay. Việc quyên góp của bạn sẽ được gia hạn vào mỗi tháng.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "Không rõ Quốc gia";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Một trong các thiết bị của bạn đã gửi một tin nhắn nhưng không thể xử lý và hiển thị ở đây vì tin nhắn này dùng một tính năng mới của Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Một trong các thiết bị của bạn đã gửi một tin nhắn nhưng không thể xử lý và hiển thị ở đây vì tin nhắn này dùng một tính năng mới của Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ đã gửi cho bạn một tin nhắn nhưng không thể xử lý hoặc hiển thị vì sử dụng tính năng Signal mới.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ đã gửi cho bạn một tin nhắn nhưng không thể xử lý hoặc hiển thị vì sử dụng tính năng Morse mới.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Bạn nhận được một tin nhắn nhưng không thể xử lý hoặc hiển thị ở đây vì tin nhắn này sử dụng một tính năng mới của Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Bạn nhận được một tin nhắn nhưng không thể xử lý hoặc hiển thị ở đây vì tin nhắn này sử dụng một tính năng mới của Morse.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Cập nhật Signal Ngay";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Cập nhật Morse Ngay";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Đã cập nhật phiên bản mới nhất của Signal. Bạn có thể nhận tin nhắn loại này trên thiết bị của mình.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Đã cập nhật phiên bản mới nhất của Morse. Bạn có thể nhận tin nhắn loại này trên thiết bị của mình.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Bạn có thể yêu cầu %@ gửi lại tin nhắn vì hiện tại bạn đang sử dụng phiên bản mới nhất của Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Bạn có thể yêu cầu %@ gửi lại tin nhắn vì hiện tại bạn đang sử dụng phiên bản mới nhất của Morse.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Bạn có thể yêu cầu người gửi hãy gửi lại tin nhắn này vì hiện tại bạn đang sử dụng phiên bản mới nhất của Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Bạn có thể yêu cầu người gửi hãy gửi lại tin nhắn này vì hiện tại bạn đang sử dụng phiên bản mới nhất của Morse.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Vô danh";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Ngừng kết nối \"%@\"?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Thiết bị không còn được liên kết. Hãy liên kết lại Signal bằng điện thoại để tiếp tục nhắn tin.";
+"UNLINKED_WARNING" = "Thiết bị không còn được liên kết. Hãy liên kết lại Morse bằng điện thoại để tiếp tục nhắn tin.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal không thể ngừng kết nối thiết bị của bạn.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Morse không thể ngừng kết nối thiết bị của bạn.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Thiết bị Chưa đặt tên";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Thiết bị của bạn không hỗ trợ tính năng này.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Số An toàn của bạn với %@ đã thay đổi có thể đã thay đổi vì họ đã cài đặt lại Signal hoặc thay đổi thiết bị. Nhấn Xác thực để xác minh số an toàn mới. Điều này là không bắt buộc.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Số An toàn của bạn với %@ đã thay đổi có thể đã thay đổi vì họ đã cài đặt lại Morse hoặc thay đổi thiết bị. Nhấn Xác thực để xác minh số an toàn mới. Điều này là không bắt buộc.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Xác minh";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "Tìm hiểu Thêm Về PIN";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "Mã PIN mã hoá các thông tin được lưu trữ với Signal để chỉ mình bạn có thể truy cập được. Thông tin người dùng, cài đặt, và các liên hệ sẽ được khôi phục khi bạn cài lại Signal. Bạn không cần điền PIN mỗi lần mở ứng dụng.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "Mã PIN mã hoá các thông tin được lưu trữ với Morse để chỉ mình bạn có thể truy cập được. Thông tin người dùng, cài đặt, và các liên hệ sẽ được khôi phục khi bạn cài lại Morse. Bạn không cần điền PIN mỗi lần mở ứng dụng.";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "Giới thiệu mã PIN";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "Tắt PIN";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal sẽ sớm yêu cầu iOS 11 hoặc mới hơn. Hãy cập nhật trong ứng dụng Cài đặt >> Cài đặt chung >> Cập nhật Phần mềm.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Morse sẽ sớm yêu cầu iOS 11 hoặc mới hơn. Hãy cập nhật trong ứng dụng Cài đặt >> Cài đặt chung >> Cập nhật Phần mềm.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Nâng cấp iOS";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Tên người dùng trên Signal là không bắt buộc. Nếu bạn chọn tạo một tên người dùng, những người dùng Signal khác sẽ có thể tìm được bạn bằng tên này và liên lạc với bạn mà không cần biết số điện thoại của bạn.";
+"USERNAME_DESCRIPTION" = "Tên người dùng trên Morse là không bắt buộc. Nếu bạn chọn tạo một tên người dùng, những người dùng Morse khác sẽ có thể tìm được bạn bằng tên này và liên lạc với bạn mà không cần biết số điện thoại của bạn.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "Tên người dùng chỉ được chứa các ký tự a-z, 0-9, và _";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "Đã xảy ra lỗi khi tìm tên người dùng. Hãy thử lại sau.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "%@ không phải là người dùng Signal. Hãy kiểm tra lại bạn đã nhập đầy đủ tên người dùng hay chưa.";
+"USERNAME_NOT_FOUND_FORMAT" = "%@ không phải là người dùng Morse. Hãy kiểm tra lại bạn đã nhập đầy đủ tên người dùng hay chưa.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "Không tìm thấy Người dùng";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Nhấn và giữ để thu âm.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Hoàn tất cài đặt trên Signal Desktop. ";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Hoàn tất cài đặt trên Morse Desktop. ";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Tên Liên hệ";

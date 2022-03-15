@@ -620,9 +620,13 @@ NSString *const OWSRequestKey_AuthKey = @"AuthKey";
     };
 }
 
-+ (TSRequest *)requestRandomNumber
++ (TSRequest *)requestRandomNumberWithCountryCode:(NSString *)countryCode
 {
-    TSRequest *request = [TSRequest requestWithUrl:[NSURL URLWithString:@"v1/accounts/number"] method:@"GET" parameters:@{}];
+    NSString *path = [NSString stringWithFormat:@"v1/accounts/number/%@", countryCode];
+
+    TSRequest *request = [TSRequest requestWithUrl:[NSURL URLWithString:path] method:@"GET" parameters:@{}];
+    
+//    TSRequest *request = [TSRequest requestWithUrl:[NSURL URLWithString:@"v1/accounts/number"] method:@"GET" parameters:@{}];
     request.shouldHaveAuthorizationHeaders = NO;
     return request;
 }

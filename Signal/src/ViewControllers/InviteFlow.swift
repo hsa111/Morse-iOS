@@ -14,8 +14,8 @@ class InviteFlow: NSObject, MFMessageComposeViewControllerDelegate, MFMailCompos
         case message, mail, twitter
     }
 
-    private let installUrl = "https://signal-plus.org/install/"
-    private let homepageUrl = "https://signal-plus.org"
+    private let installUrl = "https://devplusone.com/install/"
+    private let homepageUrl = "https://devplusone.com"
 
     private weak var presentingViewController: UIViewController?
     private var modalPresentationViewController: UIViewController?

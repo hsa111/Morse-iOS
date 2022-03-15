@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license          = 'GPLv3'
   s.homepage         = 'https://github.com/signalapp/ringrtc'
   s.source           = { git: 'https://github.com/signalapp/ringrtc.git', tag: "v#{s.version.to_s}" }
-  s.author           = { 'iOS Team': 'ios@signal.org' }
+  s.author           = { 'iOS Team': 'ios@devplusone.com' }
   s.social_media_url = 'https://twitter.com/signalapp'
 
   s.platform     = :ios, '11.0'

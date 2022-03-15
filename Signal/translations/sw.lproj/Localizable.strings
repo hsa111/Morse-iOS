@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Sio kwa Sasa";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Kuhusu Signal";
+"ABOUT_SECTION_TITLE" = "Kuhusu Morse";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Kubali Nambari Mpya ya Usalama";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "Ujumbe wa sauti sekunde %@";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Simu ya Signal";
+"ACTION_AUDIO_CALL" = "Simu ya Morse";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Alika kwenye Signal";
+"ACTION_INVITE" = "Alika kwenye Morse";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Tuma Ujumbe";
@@ -149,7 +149,7 @@
 "APN_Message" = "Inawezekana una jumbe mpya";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal haiwezi kuzindua. Tafadhali tuma tunza kumbukumbu ya ueuaji kwa support@signal.org ili tuweze kulitatua suala hili.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Morse haiwezi kuzindua. Tafadhali tuma tunza kumbukumbu ya ueuaji kwa support@devplusone.com ili tuweze kulitatua suala hili.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Hitilafu";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Haikuweza kupakia hifadhidata";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Tafadhali sasisha hadi toleo la hivi karibuni la Signal.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Tafadhali sasisha hadi toleo la hivi karibuni la Morse.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Tolea lisilojulikana la Hifadhi";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data iliyohamishwa kutoka kifaa chako cha zamani haikuweza kurejeshwa. Tafadhali tuma tunza kumbukumbu ya ueuaji kwa support@signal.org ili tuweze kushughulikia suala hili. Ukisanidi tena Signal historia yako ya ujumbe inaweza kupotea.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data iliyohamishwa kutoka kifaa chako cha zamani haikuweza kurejeshwa. Tafadhali tuma tunza kumbukumbu ya ueuaji kwa support@devplusone.com ili tuweze kushughulikia suala hili. Ukisanidi tena Morse historia yako ya ujumbe inaweza kupotea.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Haijaweza Kukamilisha Uhamishaji";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Toieo %@sasa linapatikana kwenye App Store";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Toleo Jipya la Signal Linapatikana";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Toleo Jipya la Morse Linapatikana";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Sasisha";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "Mfumo";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "Jalada";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Kiambatisho kilishindwa kuhamisha";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Imeshindwa kuhifadhi";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Become a Sustainer";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Give Signal a Boost";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Give Morse a Boost";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Signal but to support technology that is built for you, please consider becoming a monthly Sustainer.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Morse but to support technology that is built for you, please consider becoming a monthly Sustainer.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can reactivate your Boost badge for another 30 days with a one-time contribution.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Morse but to support the app and reactivate your badge, renew now.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Become a Sustainer";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "When you have more than one badge, you can choose one to feature for others to see on your profile.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned the %@ badge! Help Signal build awareness by displaying this badge on your profile.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned the %@ badge! Help Morse build awareness by displaying this badge on your profile.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Funga bango";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Chagua kiasi cha kuchanga";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Give Signal a Boost";
+"BOOST_VIEW_TITLE" = "Give Morse a Boost";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Ongeza";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 Umekosa simu ya sauti";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Unaweza kuwezesha ufikiaji wa kipaza sauti kwenye Mipangilio ya programu ya iOS kupiga simu na kurekodi ujumbe wa sauti katika Signal.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Unaweza kuwezesha ufikiaji wa kipaza sauti kwenye Mipangilio ya programu ya iOS kupiga simu na kurekodi ujumbe wa sauti katika Morse.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Ufikiaji wa Kipaza Sauti Unahitajika";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Hakuna Jibu";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Simu";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Kamera yako imezimwa";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Mtumiaji wa Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Mtumiaji wa Morse";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Chukua picha na kisha uitume ";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Linganisha na Ubao nakili";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Chagua au utafute mtumiaji wa Signal uanzishe gumzo.";
+"COMPOSE_BUTTON_HINT" = "Chagua au utafute mtumiaji wa Morse uanzishe gumzo.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Tunga";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Utafutaji wa jina la mtumizi";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Unaweza kuwezesha ufikiaji wa wawasiliani katika Mipangilio ya programu ya iOS kuona ni nani kati ya wawasiliani wako ni watumiaji wa Signal. ";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Unaweza kuwezesha ufikiaji wa wawasiliani katika Mipangilio ya programu ya iOS kuona ni nani kati ya wawasiliani wako ni watumiaji wa Morse. ";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "Hatua hii itaweka upya programu kwa kufuta ujumbe wako. Programu itafungwa baada ya mchakato huu kukamilika.";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Hitilafu Fulani Imetokea";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Sustainers & Signal Boost";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Sustainers & Morse Boost";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Sustainers & Boost";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal haikuweza kukamilisha ombi lako la msaada.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morse haikuweza kukamilisha ombi lako la msaada.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Jaribu Tena";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "sauti";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Signal. Tap a badge to learn more.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Morse. Tap a badge to learn more.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Badges";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Futa Akaunti";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Hatua hii itafuta akaunti yako ya Signal na kuweka upya programu. Programu itafungwa baada ya mchakato huu kukamilika.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Hatua hii itafuta akaunti yako ya Morse na kuweka upya programu. Programu itafungwa baada ya mchakato huu kukamilika.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Una uhakika unataka kufuta akaunti yako?";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Nambari ya Simu";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Thibitisha Nambari yako ya Signal";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Thibitisha Nambari yako ya Morse";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Futa Akaunti";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Sajili tena hii nambari ya simu";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Kifaa hakijasajiliwa tena. Nambari yako ya simu huenda ikawa imesajiliwa na Signal kwenye kifaa tofauti. Gusa ili kujisajili tena. ";
+"DEREGISTRATION_WARNING" = "Kifaa hakijasajiliwa tena. Nambari yako ya simu huenda ikawa imesajiliwa na Morse kwenye kifaa tofauti. Gusa ili kujisajili tena. ";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Alionekana mwisho %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Iwapo una kifaa chako cha zamani cha iOS, unaweza kuhamisha akaunti yako na jumbe kwa usalama hadi kifaa hiki.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Iwapo hapo awali ulikuwa ukitumia Signal kwenye iPad iliyounganishwa, unaweza kuhamisha akaunti yako na jumbe kwa usalama hadi kifaa hiki. ";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Iwapo hapo awali ulikuwa ukitumia Morse kwenye iPad iliyounganishwa, unaweza kuhamisha akaunti yako na jumbe kwa usalama hadi kifaa hiki. ";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Endelea bila kuhamisha akaunti yako na jumbe";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Hamisha kutoka Kifaa cha iOS";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Kuendelea kutalemaza Signal kwenye vifaa vingine vilivyosajiliwa sasa na nambari moja ya simu.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Kuendelea kutalemaza Morse kwenye vifaa vingine vilivyosajiliwa sasa na nambari moja ya simu.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Imeshindwa kuthibitisha kifaa chako kipya, tafadhali jaribu tena";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Hakuna nafasi ya kutosha kukamilisha uhamishaji";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Sasisha hadi toleo jipya la Signal kisha ujaribu tena";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Sasisha hadi toleo jipya la Morse kisha ujaribu tena";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Hamisha akaunti yako ya Signal hadi kifaa kipya cha iOS. Hakikisha kifaa chako kipya kipo karibu na kimewashwa.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Hamisha akaunti yako ya Morse hadi kifaa kipya cha iOS. Hakikisha kifaa chako kipya kipo karibu na kimewashwa.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Hamisha Akaunti";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Fungua Signal kwenye kifaa chako cha zamani, kilete karibu, na hakikisha kuwa Wi-Fi na Bluetooth zimewashwa kwenye vifaa vyote.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Fungua Morse kwenye kifaa chako cha zamani, kilete karibu, na hakikisha kuwa Wi-Fi na Bluetooth zimewashwa kwenye vifaa vyote.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Weka nambari hii ya QR katika fremu ya kifaa chako kingine. ";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Inasubiria Kifaa Kingine...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Weka vifaa vyote vikaribiane. Usizime kifaaa chochote na Washa Signal. Uhamishaji ni wa usimbaji fiche mwisho-hadi-mwisho.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Weka vifaa vyote vikaribiane. Usizime kifaaa chochote na Washa Morse. Uhamishaji ni wa usimbaji fiche mwisho-hadi-mwisho.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Inapokea Data";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Shikilia Kifaa chako kipya hadi kwenye Kamera";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Weka vifaa vikaribiane. Usizime kifaa chochote na wacha Signal wazi.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Weka vifaa vikaribiane. Usizime kifaa chochote na wacha Morse wazi.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Inahamisha Data";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Weka Kiasi Maalum";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Kuchangia Signal";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Kuchangia Morse";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "Njia Nyingine za Kuchanga";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "Asante kwa msaada wako!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signal inaendeshwa na watu kama wewe.";
+"DONATION_VIEW_TITLE" = "Morse inaendeshwa na watu kama wewe.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Timu ya Signal imejitolea kwa dhamira ya kukuza teknolojia huria ya faragha ambayo inalinda utoaji maoni huru na kuwezesha mawasiliano salama ya kimataifa. Mchango wako unawezesha dhamira hii. Hakuna matangazo. Hakuna vifuatiliaji. Hakuna utani.\n\nMchango wako utasaidia kulipia usanidi, seva na mitabendi za programu inayotumiwa na mamilioni ya watu kote duniani kwa mawasiliano ya binafsi na ya papo hapo.";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Timu ya Morse imejitolea kwa dhamira ya kukuza teknolojia huria ya faragha ambayo inalinda utoaji maoni huru na kuwezesha mawasiliano salama ya kimataifa. Mchango wako unawezesha dhamira hii. Hakuna matangazo. Hakuna vifuatiliaji. Hakuna utani.\n\nMchango wako utasaidia kulipia usanidi, seva na mitabendi za programu inayotumiwa na mamilioni ya watu kote duniani kwa mawasiliano ya binafsi na ya papo hapo.";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "Kwa Nini Uchangie?";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Unaweza kuwezesha ufikiaji kwenye Mipangilio ya programu ya iOS.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal Inahitaji Ufikiaji wa Wawasiliani ili Kuhariri Maelezo ya Mawasiliano";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Morse Inahitaji Ufikiaji wa Wawasiliani ili Kuhariri Maelezo ya Mawasiliano";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Hariri Kikundi";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Mtumiaji huyu hawezi kuongezwa kwenye kundi hadi asasishe Signal";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Mtumiaji huyu hawezi kuongezwa kwenye kundi hadi asasishe Morse";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "Umefikia ukubwa wa juu zaidi wa kikundi wa washiriki %@.";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Nakili";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Hujambo,\n\nHivi majuzi nimekuwa nikitumia Signal kuweka faragha gumzo zangu kwenye iPhone yangu. Ningependa wewe uisanikishe pia, ili tuwe na hakika kwamba ni mimi na wewe tunaoweza kusoma ujumbe wetu au kusikiliza mazungumzo yetu.\n\nSignal inapatikana kutumika katika iphone na Android. Ipate hapa:%@\n\nSignal inafanya kazi kama programu yako ya kutuma ujumbe. Tunaweza kutuma picha na video, kupiga simu, na kuanza gumzo za makundi. Jambo muhimu zaidi ni kwamba, hakuna mtu mwingine anayeweza kuona mazumgumzo yoyote yetu, hata watu wanaotengemeza Signal!\n\nUnaweza kusoma maelezo zaidi kuhusu Open Whisper Systems, watu ambao wametengezena Signal, hapa:%@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "Hujambo,\n\nHivi majuzi nimekuwa nikitumia Morse kuweka faragha gumzo zangu kwenye iPhone yangu. Ningependa wewe uisanikishe pia, ili tuwe na hakika kwamba ni mimi na wewe tunaoweza kusoma ujumbe wetu au kusikiliza mazungumzo yetu.\n\nMorse inapatikana kutumika katika iphone na Android. Ipate hapa:%@\n\nMorse inafanya kazi kama programu yako ya kutuma ujumbe. Tunaweza kutuma picha na video, kupiga simu, na kuanza gumzo za makundi. Jambo muhimu zaidi ni kwamba, hakuna mtu mwingine anayeweza kuona mazumgumzo yoyote yetu, hata watu wanaotengemeza Morse!\n\nUnaweza kusoma maelezo zaidi kuhusu Open Whisper Systems, watu ambao wametengezena Morse, hapa:%@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Wacha tugeukie Signal";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "Wacha tugeukie Morse";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Kifaa chako hakijasanidiwa kutuma barua pepe. Ili uweze kutuma ombi la usaidizi, weka mipangilio ya barua pepe kwenye kifaa chako au utume barua pepe kwenye support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Kifaa chako hakijasanidiwa kutuma barua pepe. Ili uweze kutuma ombi la usaidizi, weka mipangilio ya barua pepe kwenye kifaa chako au utume barua pepe kwenye support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Barua pepe haipatikani";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Usafiri na Maeneo";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Hakuna mwasiliani wako yeyote aliye na Signal ";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Hakuna mwasiliani wako yeyote aliye na Morse ";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Kwa nini usimwalike mtu?";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Imefeli kutuma ujumbe kwa sababu umemzuia.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal haikuweza kuunganishwa kwenye mtandao. Tafadhali jaribu tena.";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Morse haikuweza kuunganishwa kwenye mtandao. Tafadhali jaribu tena.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Ujumbe umefeli kwa sababu ya ukosefu wa wapokeaji halali.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Jibu batili kutoka kwa huduma.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Kifaa hiki hakijasajiliwa tena na nambari yako ya simu. Tafadhali sakinisha upya Signal";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Kifaa hiki hakijasajiliwa tena na nambari yako ya simu. Tafadhali sakinisha upya Morse";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Hitilafu ya Seva. Tafadhali jaribu tena baadaye.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Hitilafu isiyojulikana imetokea.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Mwasiliani sio mtumiaji wa Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Mwasiliani sio mtumiaji wa Morse.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Upakuaji wa kiambatisho umefeli";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "Hitilafu ya Mtandao";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Please help us improve Signal by reporting this error along with debug logs from your device to support@signal.org; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Please help us improve Morse by reporting this error along with debug logs from your device to support@devplusone.com; %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: An error occurred";
+"ERROR_NOTIFICATION_TITLE" = "Morse Beta: An error occurred";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Kifaa chako hakijaunganishwa tena. Tafadhali unganisha upya ili kutuma jumbe zaidi.";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "Kifaa chako hakijasajiliwa tena. Tafadhali sajili upya ili kutuma jumbe zaidi.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Toleo lako la Signal limemalizika muda wake. Tafadhali sasisha ili kutuma jumbe zaidi.";
+"ERROR_SENDING_EXPIRED" = "Toleo lako la Morse limemalizika muda wake. Tafadhali sasisha ili kutuma jumbe zaidi.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Mwasiliani asiyesajiliwa: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Muda wa toleo lako la Signal umekwisha! Gusa ili usakinisishe toleo jipya.";
+"EXPIRATION_ERROR" = "Muda wa toleo lako la Morse umekwisha! Gusa ili usakinisishe toleo jipya.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Toleo lako la Signal linaisha muda siku %d. Donoa ili kusasisha hadi kwenye toleo la hivi punde zaidi.";
+"EXPIRATION_WARNING_SOON" = "Toleo lako la Morse linaisha muda siku %d. Donoa ili kusasisha hadi kwenye toleo la hivi punde zaidi.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Toleo lako la Signal litaisha muda leo. Gonga ili usasishe kwa toleo la hivi karibuni.";
+"EXPIRATION_WARNING_TODAY" = "Toleo lako la Morse litaisha muda leo. Gonga ili usasishe kwa toleo la hivi karibuni.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Ushinde mwingi sana na mwasiliani huyu. Tafadhali jaribu tena baadaye.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Kiungo Si Sahihi";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Sasisha Signal kwenye kifaa hiki ili ujiunge na kikundi hiki.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Sasisha Morse kwenye kifaa hiki ili ujiunge na kikundi hiki.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Itisha ruhusa ya msimamizi kuidhinisha wanachama wapya wanaojiunga kupitia kiungo cha kikundi.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "Msimbo wa QR";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Shiriki kupitia Signal";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Shiriki kupitia Morse";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Yeyote aliye na kiungo hiki anaweza kutazama jina na washiriki wa kikundi hiki na kuomba kujiunga. Shiriki na watu unaowaamini.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Vikundi Vizee ni nini?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Vikundi Vizee bado haviwezi kuboreshwa kuwa Vikundi Vipya, lakini unaweza kuunda Kundi Jipya kilicho na washiriki wale wale ikiwa wako na toleo jipya la Signal. \n\nSignal itatoa njia ya kuboresha Vikundi Vizee katika siku zijazo.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Vikundi Vizee bado haviwezi kuboreshwa kuwa Vikundi Vipya, lakini unaweza kuunda Kundi Jipya kilicho na washiriki wale wale ikiwa wako na toleo jipya la Morse. \n\nMorse itatoa njia ya kuboresha Vikundi Vizee katika siku zijazo.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Je, ninaweza kupandishaa daraja ya Kikundi Kizee?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Ili kuunda Kikundi kipya, wanachama wote wanapaswa kusakinisha toleo jipya la Signal.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Ili kuunda Kikundi kipya, wanachama wote wanapaswa kusakinisha toleo jipya la Morse.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Vikundi Vizee ikilinganishwa na Vikundi vipya";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Kikundi hiki hakiwezi kuboreshwa kuwa Kikundi Kipya kwa sababu kina washiriki wengi sana. Ukubwa wa juu wa kikundi ambao unaweza kuboreshwa ni %@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Wakati washiriki wote wa sasa wa kikundi wanatumia toleo la Signal linalowawezesha kujiunga na Kikundi Kipya, kikundi hiki kitaboreshwa.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Wakati washiriki wote wa sasa wa kikundi wanatumia toleo la Morse linalowawezesha kujiunga na Kikundi Kipya, kikundi hiki kitaboreshwa.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Historia yote ya ujumbe na media zitahifadhiwa kutoka kabla ya sasisho.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Kikundi hiki hakiwezi kuundwa kwa sababu mshiriki 1 anatumia toleo zee la Signal. Unaweza kuunda Kikundi Kipya cha Mitindo kinachomjumuisha baada ya kusasisha Signal, au umuondoe kabla ya kuunda kikundi.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Kikundi hiki hakiwezi kuundwa kwa sababu mshiriki 1 anatumia toleo zee la Morse. Unaweza kuunda Kikundi Kipya cha Mitindo kinachomjumuisha baada ya kusasisha Morse, au umuondoe kabla ya kuunda kikundi.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Kikundi hiki hakiwezi kuundwa kwa sababu wanachama %@ wanatumia toleo zaa la Signal. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Signal, au uwaondoe kabla ya kuunda kikundi.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Kikundi hiki hakiwezi kuundwa kwa sababu wanachama %@ wanatumia toleo zaa la Morse. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Morse, au uwaondoe kabla ya kuunda kikundi.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Kikundi hiki hakiwezi kuundwa kwa sababu mshiriki 1 anatumia toleo zee la Signal. Unaweza kuunda Kikundi Kipya cha Mitindo kinachomjumuisha baada ya kusasisha Signal, au umuondoe kabla ya kuunda kikundi. %@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Kikundi hiki hakiwezi kuundwa kwa sababu mshiriki 1 anatumia toleo zee la Morse. Unaweza kuunda Kikundi Kipya cha Mitindo kinachomjumuisha baada ya kusasisha Morse, au umuondoe kabla ya kuunda kikundi. %@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Kikundi hiki hakiwezi kuundwa kwa sababu wanachama %1$@ wanatumia toleo zaa la Signal. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Signal, au uwaondoe kabla ya kuunda kikundi.%2$@.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Kikundi hiki hakiwezi kuundwa kwa sababu wanachama %1$@ wanatumia toleo zaa la Morse. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Morse, au uwaondoe kabla ya kuunda kikundi.%2$@.";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Kikundi Kizee kitaundwa kwa sababu mshiriki 1 anatumia toleo la awali la Signal. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Signal, au uwaondoe kabla ya kuunda kikundi.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Kikundi Kizee kitaundwa kwa sababu mshiriki 1 anatumia toleo la awali la Morse. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Morse, au uwaondoe kabla ya kuunda kikundi.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Kikundi Kizee kitaundwa kwa sababu wanachama wa %@ wanatumia toleo la awali la Signal. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Signal, au uwaondoe kabla ya kuunda kikundi.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Kikundi Kizee kitaundwa kwa sababu wanachama wa %@ wanatumia toleo la awali la Morse. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Morse, au uwaondoe kabla ya kuunda kikundi.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "Kifaa cha mwanachama 1 hakikubali Vikundi Vipya, kwa hivyo hiki kitakuwa Kikundi Kizee.%@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "Chagua msimamizi mpya";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Vikundi vya Signal hufanya vizuri zaidi vikiwa na wanachama wasiozidi %@. Kuongeza wanachama zaidi kutasababisha kucheleweshwa kwa kutuma na kupokea ujumbe.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Vikundi vya Morse hufanya vizuri zaidi vikiwa na wanachama wasiozidi %@. Kuongeza wanachama zaidi kutasababisha kucheleweshwa kwa kutuma na kupokea ujumbe.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "Umefikia idadi juu zaidi ya wanachama iliyopendekezwa";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Wasiliana Nasi";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "Kituo cha Usaidizi";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Rasimu";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Baadhi ya wawasiliani wako tayari wapo kwa Signal, ikiwemo %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Baadhi ya wawasiliani wako tayari wapo kwa Morse, ikiwemo %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Baadhi ya wawasiliani wako tayari wapo kwa Signal, ikiwemo %@na %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Baadhi ya wawasiliani wako tayari wapo kwa Morse, ikiwemo %@na %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Baadhi ya wawasiliani wako tayari wapo kwa Signal, ikiwemo %@,%@na%@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Baadhi ya wawasiliani wako tayari wapo kwa Morse, ikiwemo %@,%@na%@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Tuma gumzo lako la kwanza hapa.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Jalada";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "Chora mahali popote ili uweke ukungu";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Hauwezi kushiriki zaidi ya vitu %@.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Badilisha Picha";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Ruhusu ufikiaji kamili katika Mipangilio au ubadilishe picha ambazo Signal inaweza kufikia.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Ruhusu ufikiaji kamili katika Mipangilio au ubadilishe picha ambazo Morse inaweza kufikia.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Huoni picha zako?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "Unaweza kutuma au kupokea ujumbe uliosawazishwa kutoka kwenye simu au iPad yako. Kwa usalama wako, historia ya gumzo haitahamishiwa kwenye vifaa vipya vilivyounganishwa.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@yupo Signal!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@yupo Morse!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "Vibandiko";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Faili batili ya sauti.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Unaweza kuwezesha ufikiaji wa wawasiliani katika Mipangilio ya programu ya iOS kuwaalika marafiki zako kujiunga na Signal.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Unaweza kuwezesha ufikiaji wa wawasiliani katika Mipangilio ya programu ya iOS kuwaalika marafiki zako kujiunga na Morse.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Idhinisha Ufikiaji Wawasiliani";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Alika marafiki kwa Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Alika marafiki kwa Morse";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Tafuta";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "Hakiki Kiungo chochote";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Ili kuhamisha akaunti yako ya Signal, unahitaji kuwezesha ufikiaji wa mtandao wa karibu kwenye vifaa vyote viwili.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Ili kuhamisha akaunti yako ya Morse, unahitaji kuwezesha ufikiaji wa mtandao wa karibu kwenye vifaa vyote viwili.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Unahitaji Msaada?";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Washa “Mtandao wa Karibu”";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Nenda kwenye Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Nenda kwenye Morse";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Washa Ufikiaji wa Mtandao wa Karibu";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "Inaingia";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Kumbukumbu za utatuzi zinaweza kusaidia Signal kurekebisha matatizo na matukui ya kuacha kufanya kazi.";
+"LOGGING_SECTION_FOOTER" = "Kumbukumbu za utatuzi zinaweza kusaidia Morse kurekebisha matatizo na matukui ya kuacha kufanya kazi.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Ujumbe";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Futa kwa kila Mtu.";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Ujumbe huu utafutwa kwa watu wote kwenye gumzo ikiwa wanatumia toleo jipya la Signal. Wataweza kuona kuwa umefuta ujumbe.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Ujumbe huu utafutwa kwa watu wote kwenye gumzo ikiwa wanatumia toleo jipya la Morse. Wataweza kuona kuwa umefuta ujumbe.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Ungependa kufuta ujumbe huu kwa nani?";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Futa na Uondoke Kundi?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Kagua maombi kwa uangalifu. Signal imempata mtu mwingine mwenye jina kama hili.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Kagua maombi kwa uangalifu. Morse imempata mtu mwingine mwenye jina kama hili.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Mwasiliani wako";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Soma";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Imerukwa";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "Simu uliyokosa";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Unaweza kuwezesha ufikiaji wa kamera kwenye mipangilio ya programu ya iOS kupiga simu za video ndani ya Signal.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Unaweza kuwezesha ufikiaji wa kamera kwenye mipangilio ya programu ya iOS kupiga simu za video ndani ya Morse.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal inahitaji ufikiaji wa kamera yako.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Morse inahitaji ufikiaji wa kamera yako.";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Unaweza kuhariri idhini hii kwenye mipangilio ya programu ya iOS.";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal inahitaji ufikiaji kwa eneo lako kwa kipengele hiki.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Morse inahitaji ufikiaji kwa eneo lako kwa kipengele hiki.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Unaweza kuhariri idhini hii kwenye mipangilio ya programu ya iOS.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Signal inahitaji ufikiaji wa picha zako kwa kipengele hiki.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Morse inahitaji ufikiaji wa picha zako kwa kipengele hiki.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Hakuna";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "Chagua wasiliano ama kikundi ili uanze mazungumzo";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Karibu Signal";
+"NO_SELECTED_CONVERSATION_TITLE" = "Karibu Morse";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "Ujumbe mpya kwa:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Hakuna Jina au Maudhui";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Cheza Wakati Programu ipo Wazi";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "Ongeza mguso wa kibinadamu kwa jumbe zako";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Kwa sababu hujatumia programu kwa muda mrefu, unatakiwa ujisajili upya ili utumie Signal.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Kwa sababu hujatumia programu kwa muda mrefu, unatakiwa ujisajili upya ili utumie Morse.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Jisajili katika Signal";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Jisajili katika Morse";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "Sajili iPad.";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Unganisha iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Kugusa \"Sajili iPad\" kutakuwezesha kuunda akaunti mpya ya Signal au kuhamisha akaunti iliyopo kwa iPad hii. Hii italemaza Signal kwenye kifaa kingine chochote kilichosajiliwa sasa na nambari moja ya simu. ";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Kugusa \"Sajili iPad\" kutakuwezesha kuunda akaunti mpya ya Morse au kuhamisha akaunti iliyopo kwa iPad hii. Hii italemaza Morse kwenye kifaa kingine chochote kilichosajiliwa sasa na nambari moja ya simu. ";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Kugonga \"Unganisha iPhone\" kutakuwezesha kuunganisha simu yako na akaunti iliyopo. Kuunganisha simu yako kwa ujumla hakupendekezwi na kutapunguza utendaji fulani, kama vile kupiga simu.";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Unganisha hii iPhone";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Kusajili iPad hii kutalemaza Signal kwenye kifaa kingine chochote kilichosajiliwa sasa na nambari moja ya simu. ";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Kusajili iPad hii kutalemaza Morse kwenye kifaa kingine chochote kilichosajiliwa sasa na nambari moja ya simu. ";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Kuunganisha iPhone yako hakupendekezwi na kutapunguza utendaji wake msingi.";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Kubali Ruhusa";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Kuruhusu arifa na anwani kutakuwezesha kuona wakati ujumbe unawasili na kutakusaidia kuwapata watu unaowajua. Anwani zimesimbwa kwa njia fiche ili huduma ya Signal isiweze kuziona.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Kuruhusu arifa na anwani kutakuwezesha kuona wakati ujumbe unawasili na kutakusaidia kuwapata watu unaowajua. Anwani zimesimbwa kwa njia fiche ili huduma ya Morse isiweze kuziona.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Kubali Ruhusa";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Chagua ni nani anayeweza kukupata kwenye Signal kwa kutumia nambari yako ya simu %@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Chagua ni nani anayeweza kukupata kwenye Morse kwa kutumia nambari yako ya simu %@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Nani anayeweza kukupata kwa kutumia nambari yako?";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "Tafadhali subiri dakika chache kabla ya kujaribu tena. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "Weka nambari yako ya simu";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "Ili kulinda faragha yako, mfumo hukupa nambari ya simu 'feki' yenye tarakimu 8";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Nambari Yako ya Simu";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Weka nambari yako ya simu";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Nambari ya simu si sahihi. Tafadhali weka nambari sahihi ya simu ili ujisajili.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Umekamilisha ubahatishaji wa PINI, lakini bado unaweza kufikia akaunti yako ya Signal kwa kuunda PINI mpya. Kwa faragha yako na usalama akaunti yako itarejeshwa upya bila maelezo yoyote ya wasifu au mipangilio iliyohifadhiwa.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Umekamilisha ubahatishaji wa PINI, lakini bado unaweza kufikia akaunti yako ya Morse kwa kuunda PINI mpya. Kwa faragha yako na usalama akaunti yako itarejeshwa upya bila maelezo yoyote ya wasifu au mipangilio iliyohifadhiwa.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Jifunze zaidi kuhusu PINI";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@aliseti muda wa jumbe zinazotoweka hadi %@";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal inakabiliwa na matatizo ya kiufundi. Tunajitahidi kurejesha huduma haraka iwezekanavyo.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Morse inakabiliwa na matatizo ya kiufundi. Tunajitahidi kurejesha huduma haraka iwezekanavyo.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "Umempigia %@";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Muamala si sahihi";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Sasisha Signal ili utumie huduma ya malipo.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Sasisha Morse ili utumie huduma ya malipo.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Malipo bado hayajathibitishwa";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Kila mtu";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Mtu yeyote ambaye ana nambari yako ya simu katika anwani zake atakuona kama mwasiliani kwenye Signal. Wengine wataweza kukupata kwenye kipengele Utafutaji.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Mtu yeyote ambaye ana nambari yako ya simu katika anwani zake atakuona kama mwasiliani kwenye Morse. Wengine wataweza kukupata kwenye kipengele Utafutaji.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Hakuna mtu";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Hakuna mtu kwenye Signal atakayekupata kwa kutumia nambari yako ya simu. Hutaonekana kama mwasiliani kwa watu walio na nambari yako ya simu katika anwani zao, na wengine hawataweza kukupata kwa kutafuta nambari yako ya simu.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Hakuna mtu kwenye Morse atakayekupata kwa kutumia nambari yako ya simu. Hutaonekana kama mwasiliani kwa watu walio na nambari yako ya simu katika anwani zao, na wengine hawataweza kukupata kwa kutafuta nambari yako ya simu.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Mfano: %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Anwani Zangu";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Ni waasiliani wako tu watakaoona nambari yako ya simu kwenye Signal.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Ni waasiliani wako tu watakaoona nambari yako ya simu kwenye Morse.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Kila mtu";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Nambari yako ya simu itaonekana na watu na vikundi unavyotumia ujumbe. Watu ambao wamehifadhi nambari yako kwenye anwani za simu zao pia wataiona kwenye Signal.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Nambari yako ya simu itaonekana na watu na vikundi unavyotumia ujumbe. Watu ambao wamehifadhi nambari yako kwenye anwani za simu zao pia wataiona kwenye Morse.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Hakuna mtu";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Hakuna mtu atakayeona nambari yako ya simu kwenye Signal.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Hakuna mtu atakayeona nambari yako ya simu kwenye Morse.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@%@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Zima PIN";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Ukizima PIN, utapoteza data yote utakaposajili upya Signal isipokuwa ukiihamisha kutoka kifaa kingine cha iOS. Huwezi kuwasha Kufuli ya Usajili wakati PIN imezimwa.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Ukizima PIN, utapoteza data yote utakaposajili upya Morse isipokuwa ukiihamisha kutoka kifaa kingine cha iOS. Huwezi kuwasha Kufuli ya Usajili wakati PIN imezimwa.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Onyo";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Uundaji PINI Umefeli";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Signal yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia. Wasifu wako, mipangilio, na waasilian wako wa watarejeshwa utakapoisakinisha upya. Hutahitaji PIN yako kufungua programu.";
+"PIN_CREATION_EXPLANATION" = "PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Morse yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia. Wasifu wako, mipangilio, na waasilian wako wa watarejeshwa utakapoisakinisha upya. Hutahitaji PIN yako kufungua programu.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Pata Maelezo Zaidi Kuhusu PIN";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Tutakukumbusha tena ndani ya siku chache.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Thibitisha PINI yako ya Signal";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Thibitisha PINI yako ya Morse";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Tutakukumbusha tena kesho.";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "PINI sio Sahihi, jaribu tena.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Ingiza Nenosiri lako ya Signal";
+"PIN_REMINDER_TITLE" = "Ingiza Nenosiri lako ya Morse";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PINI lazima iwe na angalau nambari 4.";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "Unda Nenosiri";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "PINI hufanya taarifa iliyohifadhiwa na Signal kusimbwa.";
+"PINS_MEGAPHONE_BODY" = "PINI hufanya taarifa iliyohifadhiwa na Morse kusimbwa.";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "Tutakukumbusha baadaye. Uundaji PINI itakuwa lazima ndani ya siku %ld.";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Nambari iliyo kwenye ubao wako wa kunakili inaonekana kuwa nambari ya usalama isiyo sahihi kwa gumzo hii.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal haikuweza kupata nambari yoyote ya usalama kwenye ubao nakili wako. Je! Umeinakili kwa usahihi?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Morse haikuweza kupata nambari yoyote ya usalama kwenye ubao nakili wako. Je! Umeinakili kwa usahihi?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Kila jozi ya watumiaji wa Signal inashiriki nambari tofauti ya usalama. Dhibitisha kuwa %@  inaonyesha *nambari yako tofauti ya usalama *.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Kila jozi ya watumiaji wa Morse inashiriki nambari tofauti ya usalama. Dhibitisha kuwa %@  inaonyesha *nambari yako tofauti ya usalama *.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Unaendesha toleo la zamani la Signal. Unahitaji kusasisha kabla ya kuthibitisha.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Unaendesha toleo la zamani la Morse. Unahitaji kusasisha kabla ya kuthibitisha.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Mshiriki wako anaendesha toleo la zamani la Signal. Anahitaki kusasisha kabla ya kuthibitisha.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Mshiriki wako anaendesha toleo la zamani la Morse. Anahitaki kusasisha kabla ya kuthibitisha.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Msimbo wa QR ulioskaniwa hauonekani kana kwamba ni nambari ya usalama. Je! Nyie wawili mpo kwenye toleo jipya la Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Msimbo wa QR ulioskaniwa hauonekani kana kwamba ni nambari ya usalama. Je! Nyie wawili mpo kwenye toleo jipya la Morse?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Iwapo ungependa kuthibitisha usalama wa usimbuaji wako wa mwisho-hadi-mwisho na %@, linganisha nambari zilizopo hapo juu na nambari zilizopo kwenye kifaa chao.\nPia, unaweza kuskani nambari kwenye simu yao, au uwaombe waskani nambari yako.";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Mtumiaji hawezi kuchaguliwa";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Mtumiaji huyu hawezi kuongezwa kwenye kundi hadi asasishe Signal";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Mtumiaji huyu hawezi kuongezwa kwenye kundi hadi asasishe Morse";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Nilisahau nenosiri";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "Jisajili tena kwa Arifa za Bonyeza";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "Ili kuiwezesha Signal kuwa programu bora zaidi ya kutuma ujumbe kote duniani, tungependa kusikia maoni yako.";
+"RESEARCH_MEGAPHONE_BODY" = "Ili kuiwezesha Morse kuwa programu bora zaidi ya kutuma ujumbe kote duniani, tungependa kusikia maoni yako.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Tuma maoni yako kwa Signal";
+"RESEARCH_MEGAPHONE_TITLE" = "Tuma maoni yako kwa Morse";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "Utafiti huu unasimamiwa na Surveygizmo kwenye kikoa salama cha surveys.signalusers.org";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "Hapana nashukuru";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>Tunazingatia sana faragha.</bold>\n\nSignal haifuatilii wala kukusanya data yako. Ili kuboresha Signal kwa kila mtu, tunategemea maoni ya watumiaji,<bold> na tungependa kusikia yako</bold> .\n\nTunafanya utafiti huu ili kuelewa jinsi unavyotumia Signal. Utafiti wetu haukusanyi data yoyote ambayo itakutambulisha. Ikiwa ungependa kushiriki maoni ya ziada, utakuwa na fursa ya kutoa maelezo yako ya mawasiliano.\n\nIkiwa unaweza kutenga dakika chache na una maoni ungependa kutoa, tungependa kusikia kutoka kwako.";
+"RESEARCH_MODAL_PLEA" = "<bold>Tunazingatia sana faragha.</bold>\n\nMorse haifuatilii wala kukusanya data yako. Ili kuboresha Morse kwa kila mtu, tunategemea maoni ya watumiaji,<bold> na tungependa kusikia yako</bold> .\n\nTunafanya utafiti huu ili kuelewa jinsi unavyotumia Morse. Utafiti wetu haukusanyi data yoyote ambayo itakutambulisha. Ikiwa ungependa kushiriki maoni ya ziada, utakuwa na fursa ya kutoa maelezo yako ya mawasiliano.\n\nIkiwa unaweza kutenga dakika chache na una maoni ungependa kutoa, tungependa kusikia kutoka kwako.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "Fanya utafiti";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Utafiti wa Signal";
+"RESEARCH_MODAL_TITLE" = "Utafiti wa Morse";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "Jaribu Upya";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Tazama";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Nambari Zetu za Usalama za Signal: \n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Nambari Zetu za Usalama za Morse: \n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Nambari yako ya usalama na %@ imebadilika. Ungependa kuithibitisha.";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Lazima uwezeshe nambari ya kuingia kwenye mipangilio yako ya iOS ili utumie Kifunga Skrini.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Halisisha kufungua Signal.";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Halisisha kufungua Morse.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Uhalisishaji Umefeli.";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Fungua Signal";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Fungua Morse";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Malaika Zawadi";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "Utabiri wa Hali Ya Hewa";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Mwenyekiti Freya";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Akaunti Hailingani";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Sasisha Signal kwenye kifaa hiki ili uiunganishe na simu yako.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Sasisha Morse kwenye kifaa hiki ili uiunganishe na simu yako.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Toleo Hili Halitumiki";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Kifaa chako kinaendesha toleo la zamani la Signal ambalo halihimili kuskani misimbo ya QR ya IPad. Tafadhali sakinisha toleo la hivi karibuni la Signal kisha ujaribu upya.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Kifaa chako kinaendesha toleo la zamani la Morse ambalo halihimili kuskani misimbo ya QR ya IPad. Tafadhali sakinisha toleo la hivi karibuni la Morse kisha ujaribu upya.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Sasisho Inaskani Kifaa";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Kamilisha Kuunganisha";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Zindua Signal kwenye simu yako ili kuunga iPad hii na akaunti yako";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Zindua Morse kwenye simu yako ili kuunga iPad hii na akaunti yako";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Sina Signal kwenye simu yangu...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Sina Morse kwenye simu yangu...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Nenda kwenye App Store kwenye simu yako, sakinisha Signal, maliza mchakato wa usajili, halafu unaweza kuunganisha iPad yako na akaunti hiyo hiyo.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Nenda kwenye App Store kwenye simu yako, sakinisha Morse, maliza mchakato wa usajili, halafu unaweza kuunganisha iPad yako na akaunti hiyo hiyo.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Sakinisha Signal kwenye Simu Yako";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Sakinisha Morse kwenye Simu Yako";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Gusa kwenye picha yako ya wasifu kufungua Mipangilio ya Signal kwenye simu yako. Kisha \"Vifaa Vilivyounganishwa\" na \"Unganisha Kifaa Kipya\" ili kuskani nambari hii na simu yako:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Gusa kwenye picha yako ya wasifu kufungua Mipangilio ya Morse kwenye simu yako. Kisha \"Vifaa Vilivyounganishwa\" na \"Unganisha Kifaa Kipya\" ili kuskani nambari hii na simu yako:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Pata msaada wa kuunganisha iPad yako hapa";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Skani msimbo wa QR na simu yako";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Zindua Signal kwenye iPad yako ya zamani ili kuhamisha akaunti yako";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Zindua Morse kwenye iPad yako ya zamani ili kuhamisha akaunti yako";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Kikao salama kimeseti upya.";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "Kutuma mwaliko kumefeli, tafadhali jaribu tena baadaye.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Umemwalika rafiki yako kutumia Signal!";
+"SEND_INVITE_SUCCESS" = "Umemwalika rafiki yako kutumia Morse!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "Ghairi Media";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Alika rafiki kupitia ujumbe usio salama?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Ungependa kualika nambari ifuatayo kwa Signal:";
+"SEND_SMS_INVITE_TITLE" = "Ungependa kualika nambari ifuatayo kwa Morse:";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "Juu";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Kawaida";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal hutumia usimbaji wa mwisho hadi mwisho na inaweza kuhitaji kuonyesha upya gumzo zako wakati mwingine. Kitendo hiki hakiathiri usalama wa gumzo yako lakini huenda umekosa ujumbe kutoka kwa mwasiliani huyu na unaweza kumwomba autume tena.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Morse hutumia usimbaji wa mwisho hadi mwisho na inaweza kuhitaji kuonyesha upya gumzo zako wakati mwingine. Kitendo hiki hakiathiri usalama wa gumzo yako lakini huenda umekosa ujumbe kutoka kwa mwasiliani huyu na unaweza kumwomba autume tena.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Kipindi cha mazungumzo kiliburudishwa";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Eneo";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ikiwezeshwa, Signal itajaribu kuzuia udhibiti. Usiruhusu kipengele hiki hadi pale utakapokuwa katika eneo ambalo Signal imedhibiitiwa.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ikiwezeshwa, Morse itajaribu kuzuia udhibiti. Usiruhusu kipengele hiki hadi pale utakapokuwa katika eneo ambalo Morse imedhibiitiwa.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Ukwepaji udhibiti umeamilishwa kulingana na nambari ya simu ya akaunti yako";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Ukwepaji udhibiti unaweza tu kuamilishwa iwapo umeunganishwa kwenye mtandao.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Ukwepaji udhibiti sio lazima; tayari umeunganishwa kwenye huduma ya Signal.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Ukwepaji udhibiti sio lazima; tayari umeunganishwa kwenye huduma ya Morse.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Wezesha Tunza Kumbukumbu ya Ueuaji.";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Ongeza Mtumiaji Aliyezuiwa";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Hauna wawasiliani kwenye Signal.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Hauna wawasiliani kwenye Morse.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Hakuna Matokea ya Utafutaji";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Daima Wasilisha Simu";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Wasilisha simu zote kupitia seva ya Signal kuzuia kufichua anwani yako ya IP kwa mwasiliani wako. Kuwezesha kutapunguza ubora wa simu.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Wasilisha simu zote kupitia seva ya Morse kuzuia kufichua anwani yako ya IP kwa mwasiliani wako. Kuwezesha kutapunguza ubora wa simu.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "Gumzo";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Futa Historia ya Gumzo";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Hakimiliki ya Signal Messenger\nImeidhinishwa kwa Leseni chini ya GPLv3";
+"SETTINGS_COPYRIGHT" = "Hakimiliki ya Morse Messenger\nImeidhinishwa kwa Leseni chini ya GPLv3";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Subscription";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Weka kipima muda cha ujumbe wa kutoweka kwa gumzo zote mpya ulizoanzisha.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Changia Signal";
+"SETTINGS_DONATE" = "Changia Morse";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Msaada";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "Alika Marafiki Zako";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Unaweza kunifikia kwa kutumia @signalapp. Ipate sasa: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Unaweza kunifikia kwa kutumia @signalapp. Ipate sasa: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "Rangi ya Gumzo na ya Picha ya Mandhari";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Arifa za Yaliyomo";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Mwasiliani Amejiiunga na Signal";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Mwasiliani Amejiiunga na Morse";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Arifu wakati…";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Wezesha";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Unaweza kutumia Signal kutuma na kupokea MobileCoin. Malipo yote yanathibitiwa na Masharti ya Matumizi ya MobileCoin na Mkoba wa MobileCoin. Hii ni huduma ya jaribio kwa hivyo huenda ukakabiliwa na hitilafu ya malipo au masalio ambayo unaweza kupoteza hayawezi kurejeshwa.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Unaweza kutumia Morse kutuma na kupokea MobileCoin. Malipo yote yanathibitiwa na Masharti ya Matumizi ya MobileCoin na Mkoba wa MobileCoin. Hii ni huduma ya jaribio kwa hivyo huenda ukakabiliwa na hitilafu ya malipo au masalio ambayo unaweza kupoteza hayawezi kurejeshwa.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Wezesha";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ tarehe %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Malipo katika Signal hayapatikani tena. Bado unaweza kuhamishia fedha kwenye ubadilishanaji lakini huwezi kutuma na kupokea malipo au kuongeza pesa.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Malipo katika Morse hayapatikani tena. Bado unaweza kuhamishia fedha kwenye ubadilishanaji lakini huwezi kutuma na kupokea malipo au kuongeza pesa.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Huwezi kuzima malipo kwa sababu salio lako halipatikani. Kagua muunganisho wako na ujaribu tena.";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Hujakamilisha malipo kwa sababu salio lako halipatikani. Kagua muunganisho wako kisha ujaribu tena.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Malipo katika Signal hayapatikani tena. Bado unaweza kuhamishia fedha kwenye ubadilishanaji lakini huwezi kutuma na kupokea malipo au kuongeza pesa.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Malipo katika Morse hayapatikani tena. Bado unaweza kuhamishia fedha kwenye ubadilishanaji lakini huwezi kutuma na kupokea malipo au kuongeza pesa.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Malipo katika Signal hayapatikani tena. Bado unaweza kuhamisha fedha kwenda kwenye ubadilishanaji lakini huwezi kutuma na kupokea malipo au kuongeza pesa.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Malipo katika Morse hayapatikani tena. Bado unaweza kuhamisha fedha kwenda kwenye ubadilishanaji lakini huwezi kutuma na kupokea malipo au kuongeza pesa.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Ubadilishaji ni makadirio tu na huenda si sahihi.";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Zima Malipo";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Hutaweza kutuma au kupokea Mobilecoin katika Signal ukizima malipo.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Hutaweza kutuma au kupokea Mobilecoin katika Morse ukizima malipo.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Ungependa Kuzima Malipo?";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Zima Malipo";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Inashauriwa uhamishie fedha zako kwa anwani nyingine ya mkoba kabla ya kuzima malipo. Ukichagua kutohamisha pesa zako sasa, zitabaki kwenye mkoba wako uliounganishwa na Signal ikiwa utawezasha malipo tena.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Inashauriwa uhamishie fedha zako kwa anwani nyingine ya mkoba kabla ya kuzima malipo. Ukichagua kutohamisha pesa zako sasa, zitabaki kwenye mkoba wako uliounganishwa na Morse ikiwa utawezasha malipo tena.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Salio lako litabaki kwenye mkoba wako uliounganishwa kwenye Signal ukichagua kuwezesha tena malipo.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Salio lako litabaki kwenye mkoba wako uliounganishwa kwenye Morse ukichagua kuwezesha tena malipo.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Ungependa Kuzima bila Kuhamisha?";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "Kuhusu MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Unaweza kuongeza pesa za matumizi katika Signal kwa kutuma MobileCoin kwenye anwani yako ya mkoba.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Unaweza kuongeza pesa za matumizi katika Morse kwa kutuma MobileCoin kwenye anwani yako ya mkoba.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Fedha Zinaongezwa";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Malipo yamewezeshwa.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Tumia Signal kutuma na kupokea MobileCoin, sarafu mpya dijitali inayozingatia faragha. Wezesha ili uanze.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Tumia Morse kutuma na kupokea MobileCoin, sarafu mpya dijitali inayozingatia faragha. Wezesha ili uanze.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Wezesha Upya Malipo";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "Tunakuletea Malipo (Beta)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Salio lako litarejeshwa kiotomatiki utakapoweka tena Signal ikiwa utathibitisha PIN yako ya Signal. Unaweza pia kurejesha salio lako ukitumia maneno ya kurejesha, ambayo ni maneno 24 maalum kwako. Yaandike na kuyahifadhi mahali salama.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Salio lako litarejeshwa kiotomatiki utakapoweka tena Morse ikiwa utathibitisha PIN yako ya Morse. Unaweza pia kurejesha salio lako ukitumia maneno ya kurejesha, ambayo ni maneno 24 maalum kwako. Yaandike na kuyahifadhi mahali salama.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "Ongeza Fedha";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Malipo";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Huwezi kuhamishia kwenye anwani yako ya mkoba wa Signal. Weka anwani ya mkoba kutoka kwenye akaunti yako kwenye ubadilishanaji unaotumika.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Huwezi kuhamishia kwenye anwani yako ya mkoba wa Morse. Weka anwani ya mkoba kutoka kwenye akaunti yako kwenye ubadilishanaji unaotumika.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "Unaweza kuhamisha MobileCoin kwa kukamilisha uhamishaji kwenda anwani ya mkoba iliyotolewa na ubadilishaji. Anwani ya mkoba ni safu ya nambari na herufi ambayo kawaida huwa chini ya msimbo wa QR.";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Zima Vikumbusho ";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Hakikisha unaikariri au kuihifadhi PINI yako kwa usalama kwa sababu haiwezi kunusuriwa. Iwapo utasahau PINI yako, unaweza kupoteza data wakati wa kusajili tena akaunti yako ya Signal. ";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Hakikisha unaikariri au kuihifadhi PINI yako kwa usalama kwa sababu haiwezi kunusuriwa. Iwapo utasahau PINI yako, unaweza kupoteza data wakati wa kusajili tena akaunti yako ya Morse. ";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Thibitisha PINI yako ya Signal";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Thibitisha PINI yako ya Morse";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "Vikumbusho vya PINI";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Signal yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia.  PIN yako haiwezi kuonyeshwa. Wasifu wako, mipangilio na waasiliani watarejeshwa utakapoisakinisha Signal upya.";
+"SETTINGS_PINS_FOOTER" = "PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Morse yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia.  PIN yako haiwezi kuonyeshwa. Wasifu wako, mipangilio na waasiliani watarejeshwa utakapoisakinisha Morse upya.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Badilisha PINI yako";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Unda Nenosiri";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Nenosiri la Signal";
+"SETTINGS_PINS_TITLE" = "Nenosiri la Morse";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Mipangilio ya kukwepa udhibiti, uelekezaji wa simu, na mipangilio ya kuficha ujumbe.";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Washa";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Iwapo utasahau PINI yako ya Signal wakati wa kusajili na Signal tena, utafungiwa akaunti yako kwa siku 7.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Iwapo utasahau PINI yako ya Morse wakati wa kusajili na Morse tena, utafungiwa akaunti yako kwa siku 7.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Washa Kifunga Usajili?";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Inapiga";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Tumia Kitambulisho cha Kugusa, Kitambulisho cha Uso, au nambari yako ya siri ya kifaa cha iOS kufungua Signal.";
+"SETTINGS_SECURITY_DETAIL" = "Tumia Kitambulisho cha Kugusa, Kitambulisho cha Uso, au nambari yako ya siri ya kifaa cha iOS kufungua Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Tumia Kitambulisho cha Uso kufungua Signal.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Tumia Kitambulisho cha Uso kufungua Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Tumia nenosiri lako la kifaa kufungua Signal.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Tumia nenosiri lako la kifaa kufungua Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Tumia Kitambulisho cha Kugusa kufungua Signal.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Tumia Kitambulisho cha Kugusa kufungua Morse.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Usalama wa Programu";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Share Contacts with iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Allow iOS access to Signal contacts and chats for features such as sharing suggestions.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Allow iOS access to Morse contacts and chats for features such as sharing suggestions.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Allow iOS access to Signal contacts and chats for features such as sharing suggestions and notifications.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Allow iOS access to Morse contacts and chats for features such as sharing suggestions and notifications.";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signal Boost";
+"SETTINGS_SIGNAL_BOOST" = "Morse Boost";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Become a Signal Sustainer";
+"SETTINGS_SUBSCRIPTION" = "Become a Morse Sustainer";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Lock ya usajili";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Itisha PIN yako ya Signal ili usajili nambari yako ya simu tena katika Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Itisha PIN yako ya Morse ili usajili nambari yako ya simu tena katika Morse.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Viashiria vya Kucharaza";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "Inapakia";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Zindua programu ya Signal kusajili";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Zindua programu ya Morse kusajili";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Haijasajiliwa";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Zindua programu ya Signal kusasisha au kusajili.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Zindua programu ya Morse kusasisha au kusajili.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Haipo tayari";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Inapakia...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Haiwezi Kuandaa Kiambatisho";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Shiriki kwa Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Shiriki kwa Morse";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Mapendekezo ya kushiriki hayajazimwa.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Gumzo za Signal sasa zinaweza kuonyeshwa kama mapendekezo zinaposhirikiwa kutoka kwa programu zingine.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Gumzo za Morse sasa zinaweza kuonyeshwa kama mapendekezo zinaposhirikiwa kutoka kwa programu zingine.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "Tumerahisisha Mchakato wa Kushiriki";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Onyesha Gumzo";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Nakualika usakinishe Signal! Kiungo hiki hapa:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Nakualika usakinishe Morse! Kiungo hiki hapa:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "Sauti na Arifa";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Ungependa Kuendelea Bila Kuthibitisha?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Ili kusaidia kuzuia ujumbe taka kwenye Signal, tafadhali kamilisha uthibitishaji. Baada ya kuthibitisha, unaweza kuendelea kutuma ujumbe. Ujumbe wowote uliositishwa utatumwa kiotomatiki.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Ili kusaidia kuzuia ujumbe taka kwenye Morse, tafadhali kamilisha uthibitishaji. Baada ya kuthibitisha, unaweza kuendelea kutuma ujumbe. Ujumbe wowote uliositishwa utatumwa kiotomatiki.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Thibitisha ili Uendelee Kutuma Ujumbe";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "Simika";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Mfululizo wa Msanii wa Signal";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Mfululizo wa Msanii wa Morse";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Vibandiko Ulivyovipokea";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Contribute";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal is powered by people like you. Contribute and receive a badge.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse is powered by people like you. Contribute and receive a badge.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Hapana, Asante";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Tuambie kuhusu suala hili:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Tafadhali tuma barua pepe yenye ombi lako la usaidizi kwa support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Tafadhali tuma barua pepe yenye ombi lako la usaidizi kwa support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Kichujio: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "URL ya Kumbukumbu: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Toleo la Signal: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Toleo la Morse: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Ombi la Usaidizi wa Signal iOS";
+"SUPPORT_EMAIL_SUBJECT" = "Ombi la Usaidizi wa Morse iOS";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Unahisije? (Si lazima)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "Je, umesoma Maswali yetu Yanayoulizwa Sana?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Inapakia";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly contribution and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly contribution and receive a profile badge to share your support.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour contribution fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morse is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour contribution fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Support technology that is built for you - not for your data - by joining the community that sustains it.";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Still Processing";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Add a Signal Boost";
+"SUSTAINER_VIEW_ADD_BOOST" = "Add a Morse Boost";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Get a %@ badge";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "Sio kwa Sasa";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signal inaendeshwa na watu kama wewe.";
+"SUSTAINER_VIEW_TITLE" = "Morse inaendeshwa na watu kama wewe.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "You will be charged the full amount (%@) of the new subscription price today. Your new subscription will renew monthly.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "Nchi isiyojulikana";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Mojawapo wa kifaa chako kimetuma ujumbe ambao hauwezi kuchakatwa au kuonyeshwa hapa kwa sababu ujumbe unatumia kipengele kipya cha Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Mojawapo wa kifaa chako kimetuma ujumbe ambao hauwezi kuchakatwa au kuonyeshwa hapa kwa sababu ujumbe unatumia kipengele kipya cha Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@amekutumia ujumbe ambao hauwezi kuchakatwa au kuonyeshwa kwa sababu ujumbe unatumia kipengele kipya cha Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@amekutumia ujumbe ambao hauwezi kuchakatwa au kuonyeshwa kwa sababu ujumbe unatumia kipengele kipya cha Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Umepokea ujumbe ambao hauwezi kuchakatwa au kuonyeshwa kwa sababu ujumbe unatumia kipengele kipya cha Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Umepokea ujumbe ambao hauwezi kuchakatwa au kuonyeshwa kwa sababu ujumbe unatumia kipengele kipya cha Morse.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Sasisha Signal Sasa";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Sasisha Morse Sasa";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Imesasisha hadi toleo la hivi karibuni la Signal. Sasa unaweza kupokea ujumbe wa aina hii kwa kifaa chako.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Imesasisha hadi toleo la hivi karibuni la Morse. Sasa unaweza kupokea ujumbe wa aina hii kwa kifaa chako.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Unaweza kumuuliza %@atume upya ujumbe huu kwa vile sasa unatumia toleo lililosasishwa la Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Unaweza kumuuliza %@atume upya ujumbe huu kwa vile sasa unatumia toleo lililosasishwa la Morse.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Unaweza kumuuliza mtumaji atume upya ujumbe huu kwa vile sasa unatumia toleo lililosasishwa la Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Unaweza kumuuliza mtumaji atume upya ujumbe huu kwa vile sasa unatumia toleo lililosasishwa la Morse.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Isiyojulikana";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Ondoa unganisho \"%@\"";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Kifaa hakijaunganishwa tena. Unganisha upya Signal na simu yako kuendelea kutuma ujumbe.";
+"UNLINKED_WARNING" = "Kifaa hakijaunganishwa tena. Unganisha upya Morse na simu yako kuendelea kutuma ujumbe.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal imeshindwa kutoa unganisho kwa kifaa chako.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Morse imeshindwa kutoa unganisho kwa kifaa chako.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Kifaa kisichopewa Jina";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Kifaa chako hakihimili kipengele hiki.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Nambari yako ya Usalama unayotumia kwa %@ imebadilika kwa sababu amesakinisha tena Signal au kubadilisha kifaa. Gusa Thibitisha ili uthibitishe nambari mpya ya usalama. Hatua hii si ya lazima.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Nambari yako ya Usalama unayotumia kwa %@ imebadilika kwa sababu amesakinisha tena Morse au kubadilisha kifaa. Gusa Thibitisha ili uthibitishe nambari mpya ya usalama. Hatua hii si ya lazima.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Hakikisha";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "Pata Maelezo Zaidi Kuhusu PIN";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Signal yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia. Wasifu wako, mipangilio, na waasilian wako wa watarejeshwa utakapoisakinisha upya. Hutahitaji PIN yako kufungua programu.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Morse yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia. Wasifu wako, mipangilio, na waasilian wako wa watarejeshwa utakapoisakinisha upya. Hutahitaji PIN yako kufungua programu.";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "Kuanzisha Nenosiri";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "Zima PIN";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Hivi karibuni Signal itahitaji iOS 11 au ya karibuni. Tafadhali boresha katika programu ya Mipangilio >> Jumla >> Sasisha Programu.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Hivi karibuni Morse itahitaji iOS 11 au ya karibuni. Tafadhali boresha katika programu ya Mipangilio >> Jumla >> Sasisha Programu.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Boresha iOS";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Majina ya watumiaji kwenye Signal ni ya hiari. Ukichagua kuunda jina la mtumiaji watumiaji wengine wa Signal wataweza kukupata kwa jina hili la mtumiaji na kuwasiliana na wewe bila kujua nambari yako ya simu.";
+"USERNAME_DESCRIPTION" = "Majina ya watumiaji kwenye Morse ni ya hiari. Ukichagua kuunda jina la mtumiaji watumiaji wengine wa Morse wataweza kukupata kwa jina hili la mtumiaji na kuwasiliana na wewe bila kujua nambari yako ya simu.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "Majina ya watumiaji yanaweza tu kujumuisha a-z, 0-9, na _";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "Hitilafu imetokea wakati wa kutafuta jina la mtumiaji. Tafadhali jaribu tena baadaye.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "%@sio Mtumiaji wa Signal. Hakikisha umeingiza jina kamili la mtumiaji.";
+"USERNAME_NOT_FOUND_FORMAT" = "%@sio Mtumiaji wa Morse. Hakikisha umeingiza jina kamili la mtumiaji.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "Mtumiaji hapatikani";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Bonyeza na ushikilie ili urekodi.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Kamilisha usanidi kwenye Signal Desktop";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Kamilisha usanidi kwenye Morse Desktop";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Jina la Mwasiliani";

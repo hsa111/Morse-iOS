@@ -135,12 +135,12 @@ public class OnboardingProfileCreationViewController: OnboardingBaseViewControll
         return NSAttributedString.composed(of: [
             descriptionString.styled(with: .font(.ows_dynamicTypeCaption1), .color(Theme.secondaryTextAndIconColor)),
             spacerString.styled(with: .font(. ows_dynamicTypeCaption1), .color(Theme.secondaryTextAndIconColor)),
-            learnMoreString.styled(with:
-                .link(URL(string: "https://support.signal.org/hc/articles/360007459591")!),
-                .font(.ows_dynamicTypeCaption1),
-                .color(Theme.accentBlueColor),
-                .underline([], nil)
-            )
+//            learnMoreString.styled(with:
+//                .link(URL(string: "https://support.devplusone.com/hc/articles/360007459591")!),
+//                .font(.ows_dynamicTypeCaption1),
+//                .color(Theme.accentBlueColor),
+//                .underline([], nil)
+//            )
         ])
     }
 

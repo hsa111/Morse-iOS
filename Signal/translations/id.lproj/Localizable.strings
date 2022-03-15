@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Jangan Sekarang";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Tentang Signal";
+"ABOUT_SECTION_TITLE" = "Tentang Morse";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Terima Nomor Keamanan Baru";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "Pesan suara %@ detik";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Panggilan Signal";
+"ACTION_AUDIO_CALL" = "Panggilan Morse";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Undang gabung ke Signal";
+"ACTION_INVITE" = "Undang gabung ke Morse";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Kirim Pesan";
@@ -149,7 +149,7 @@
 "APN_Message" = "Anda mungkin memiliki pesan baru";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal tidak dapat dibuka. Mohon kirimkan catatan awakutu ke support@signal.org sehingga kami bisa memecahkan masalah ini.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Morse tidak dapat dibuka. Mohon kirimkan catatan awakutu ke support@devplusone.com sehingga kami bisa memecahkan masalah ini.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Galat";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Tidak Dapat Memuat Basis Data";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Mohon perbarui ke versi Signal terakhir.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Mohon perbarui ke versi Morse terakhir.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Versi Basis Data Tidak Diketahui.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data yang ditransfer dari perangkat lama Anda tidak dapat dipulihkan. Mohon kirimkan catatan awakutu ke support@signal.org sehingga kami dapat menyelesaikan masalah ini. Jika kamu memasang ulang Signal, riwayat pesan Anda mungkin hilang.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data yang ditransfer dari perangkat lama Anda tidak dapat dipulihkan. Mohon kirimkan catatan awakutu ke support@devplusone.com sehingga kami dapat menyelesaikan masalah ini. Jika kamu memasang ulang Morse, riwayat pesan Anda mungkin hilang.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Tidak Dapat Menyelesaikan Transfer";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Versi %@ telah tersedia di App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Versi Terbaru Signal Telah Tersedia";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Versi Terbaru Morse Telah Tersedia";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Pembaruan";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "Sistem";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "Arsip";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Gagal mengekspor lampiran.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Gagal Menyimpan";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Menjadi Penyokong";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Beri Penguat untuk Signal";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Beri Penguat untuk Morse";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Signal but to support technology that is built for you, please consider becoming a monthly Sustainer.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Morse but to support technology that is built for you, please consider becoming a monthly Sustainer.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can reactivate your Boost badge for another 30 days with a one-time contribution.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Morse but to support the app and reactivate your badge, renew now.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Menjadi Penyokong";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "Jika punya lebih dari satu lencana, Anda dapat memilih salah satunya untuk ditampilkan pada profil Anda.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "Anda mendapatkan %@ lencana! Bantu Signal membangun kesadaran dengan menampilkan lencana ini pada profil Anda.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Anda mendapatkan %@ lencana! Bantu Morse membangun kesadaran dengan menampilkan lencana ini pada profil Anda.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Tutup spanduk";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Pilih jumlah untuk didonasikan";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Beri Penguat untuk Signal";
+"BOOST_VIEW_TITLE" = "Beri Penguat untuk Morse";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Tambahkan";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 Panggilan suara tidak terjawab";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Anda dapat mengaktifkan akses mikrofon pada Pengaturan iOS untuk membuat panggilan dan merekam pesan suara di Signal.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Anda dapat mengaktifkan akses mikrofon pada Pengaturan iOS untuk membuat panggilan dan merekam pesan suara di Morse.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Akses Mikropon Diperlukan";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Tidak Ada Jawaban";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Panggil";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Bandingkan dengan papan klip";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Pilih atau cari pengguna Signal untuk memulai bertukar pesan.";
+"COMPOSE_BUTTON_HINT" = "Pilih atau cari pengguna Morse untuk memulai bertukar pesan.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Buat pesan";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Pencarian nama pengguna";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Anda dapat mengaktifkan akses kontak pada pengaturan iOS untuk melihat siapa saja kontak Anda yang merupakan pengguna Signal.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Anda dapat mengaktifkan akses kontak pada pengaturan iOS untuk melihat siapa saja kontak Anda yang merupakan pengguna Morse.";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "Ini akan memulai ulang aplikasi dengan menghapus pesan Anda. Aplikasi akan ditutup setelah proses ini selesai.";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Sesuatu Tidak Bekerja";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Penyokong & Penguat Signal";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Penyokong & Penguat Morse";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Penyokong & Pendukung";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal tidak dapat menyelesaikan permintaan support Anda.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morse tidak dapat menyelesaikan permintaan support Anda.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Coba Lagi";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "suara";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Dapatkan lencana pada profil Anda dengan mendukung Signal. Ketuk pada lencana untuk mempelajari lebih lanjut.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Dapatkan lencana pada profil Anda dengan mendukung Morse. Ketuk pada lencana untuk mempelajari lebih lanjut.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Lencana";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Hapus Akun";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Ini akan menghapus akun Signal Anda dan memulai ulang aplikasi. Aplikasi akan ditutup setelah proses ini selesai.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Ini akan menghapus akun Morse Anda dan memulai ulang aplikasi. Aplikasi akan ditutup setelah proses ini selesai.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Apakah kamu yakin ingin menghapus akun Anda?";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Nomor Telefon";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Konfirmasi Nomor Signal Anda";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Konfirmasi Nomor Morse Anda";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Hapus Akun";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Daftarkan ulang nomor telpon ini";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Perangkat tidak lagi terdaftar. Nomor telpon Anda mungkin terdaftar ke Signal di perangkat lain. Ketuk untuk daftar ulang.";
+"DEREGISTRATION_WARNING" = "Perangkat tidak lagi terdaftar. Nomor telpon Anda mungkin terdaftar ke Morse di perangkat lain. Ketuk untuk daftar ulang.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Terakhir aktif %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Jika Anda memiliki perangkat iOS lama, Anda dapat secara aman mentransfer akun dan pesan-pesan Anda ke perangkat ini.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Jika Anda pernah menggunakan Signal pada iPad yang tersambung, Anda dapat secara aman mentransfer akun dan pesan-pesan Anda ke perangkat ini.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Jika Anda pernah menggunakan Morse pada iPad yang tersambung, Anda dapat secara aman mentransfer akun dan pesan-pesan Anda ke perangkat ini.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Lanjutkan tanpa mentransfer akun dan pesan-pesan Anda";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Transfer dari Perangkat iOS";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Melanjutkan ini akan menonaktifkan Signal pada perangkat lain yang saat ini terdaftar dengan nomor telepon yang sama.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Melanjutkan ini akan menonaktifkan Morse pada perangkat lain yang saat ini terdaftar dengan nomor telepon yang sama.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Tidak dapat memverifikasi perangkat baru Anda, mohon coba lagi";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Tidak ada ruang kosong untuk menyelesaikan transfer";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Perbarui ke versi terakhir Signal dan coba lagi";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Perbarui ke versi terakhir Morse dan coba lagi";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Transfer akun Signal Anda ke perangkat iOS baru. Pastikan perangkat baru Anda berada dalam jangkauan dan dalam kondisi menyala.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Transfer akun Morse Anda ke perangkat iOS baru. Pastikan perangkat baru Anda berada dalam jangkauan dan dalam kondisi menyala.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Transfer Akun";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Buka Signal pada perangkat lama Anda, bawa dalam jangkauan, dan pastikan Wi-Fi dan Bluetooth dinyalakan pada kedua perangkat.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Buka Morse pada perangkat lama Anda, bawa dalam jangkauan, dan pastikan Wi-Fi dan Bluetooth dinyalakan pada kedua perangkat.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Posisikan kode QR ini dalam bingkai pada perangkat Anda yang lain.";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Tunggu Perangkat Lain...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Tempatkan kedua perangkat dekat satu sama lain. Jangan matikan kedua perangkat dan biarkan Signal terbuka. Transfer dienkripsi ujung-ke-ujung.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Tempatkan kedua perangkat dekat satu sama lain. Jangan matikan kedua perangkat dan biarkan Morse terbuka. Transfer dienkripsi ujung-ke-ujung.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Menerima Data";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Tahan Perangkat Baru Anda ke Arah Kamera";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Tempatkan kedua perangkat dekat satu sama lain. Jangan matikan kedua perangkat dan biarkan Signal terbuka.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Tempatkan kedua perangkat dekat satu sama lain. Jangan matikan kedua perangkat dan biarkan Morse terbuka.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Mentransfer Data";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Masukkan Jumlah Kustom";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Berdonasi ke Signal";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Berdonasi ke Morse";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "Cara Lain untuk Berdonasi";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "Terima kasih untuk dukungan Anda!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signal didukung oleh orang-orang seperti Anda.";
+"DONATION_VIEW_TITLE" = "Morse didukung oleh orang-orang seperti Anda.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Tim di Signal berkomitmen pada misi mengembangkan teknologi privasi bersumber terbuka yang melindungi kebebasan berekspresi dan memungkinkan komunkasi global yang aman. Kontribusi Anda mendukung pergerakan ini. Tanpa iklan. Tanpa pelacak. Beneran.\n\nDonasi Anda membantu untuk pembayaran pengembangan, peladen, dan bandwith dari aplikasi yang digunakan oleh jutaan orang di seluruh dunia untuk komunikasi yang privat dan instan.";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Tim di Morse berkomitmen pada misi mengembangkan teknologi privasi bersumber terbuka yang melindungi kebebasan berekspresi dan memungkinkan komunkasi global yang aman. Kontribusi Anda mendukung pergerakan ini. Tanpa iklan. Tanpa pelacak. Beneran.\n\nDonasi Anda membantu untuk pembayaran pengembangan, peladen, dan bandwith dari aplikasi yang digunakan oleh jutaan orang di seluruh dunia untuk komunikasi yang privat dan instan.";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "Mengapa Berdonasi?";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Anda dapat mengaktifkan akses pada Pengaturan iOS.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal Butuh Akses Kontak untuk Mengubah Informasi Kontak";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Morse Butuh Akses Kontak untuk Mengubah Informasi Kontak";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Ubah Grup";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Pengguna ini tidak dapat ditambahkan ke dalam grup sampai dia memperbarui Signal.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Pengguna ini tidak dapat ditambahkan ke dalam grup sampai dia memperbarui Morse.";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "Batas maksimum ukuran grup %@ anggota sudah terpenuhi.";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Salin";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Hai,\n\nBelakangan ini saya menggunakan Signal untuk menjaga percakapan di iPhone saya tetap privat. Saya ingin Anda memasangnya juga, sehingga kita bisa percaya diri bahwa hanya Anda dan saya yang dapat melihat pesan atau mendengar panggilan kita.\n\nSignal tersedia untuk iPhone dan Android. Dapatkan di sini:%@\n\nSignal bekerja seperti aplikasi olah pesan Anda yang ada. Kami dapat mengirim gambar dan video, melakukan panggilan, dan membuat obrolan grup. Bagian terbaiknya adalah, tidak ada orang lain yang dapat melihatnya, bahkan orang-orang yang membuat Signal\n\nAnda dapat membaca lebih lanjut tentang Open Whisper Systems, orang-orang yang membuat Signal, di sini: %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "Hai,\n\nBelakangan ini saya menggunakan Morse untuk menjaga percakapan di iPhone saya tetap privat. Saya ingin Anda memasangnya juga, sehingga kita bisa percaya diri bahwa hanya Anda dan saya yang dapat melihat pesan atau mendengar panggilan kita.\n\nMorse tersedia untuk iPhone dan Android. Dapatkan di sini:%@\n\nMorse bekerja seperti aplikasi olah pesan Anda yang ada. Kami dapat mengirim gambar dan video, melakukan panggilan, dan membuat obrolan grup. Bagian terbaiknya adalah, tidak ada orang lain yang dapat melihatnya, bahkan orang-orang yang membuat Morse\n\nAnda dapat membaca lebih lanjut tentang Open Whisper Systems, orang-orang yang membuat Morse, di sini: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Pindah ke Signal";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "Pindah ke Morse";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Perangkat Anda tidak dikonfigurasikan untuk mengirim surel. Untuk mengirimkan permintaan dukungan, pasang surel di perangkat Anda atau kirimkan surel ke support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Perangkat Anda tidak dikonfigurasikan untuk mengirim surel. Untuk mengirimkan permintaan dukungan, pasang surel di perangkat Anda atau kirimkan surel ke support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Surel tidak tersedia";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Perjalanan & Tempat";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Tak satupun kontak Anda memiliki Signal";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Tak satupun kontak Anda memiliki Morse";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Mengapa Anda tidak mengundang seseorang?";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Gagal mengirim pesan ke pengguna karena Anda memblokir mereka.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal tidak dapat tersambung ke internet. Mohon coba lagi.";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Morse tidak dapat tersambung ke internet. Mohon coba lagi.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Pesan gagal terkirim karena kekurangan penerima valid.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Tanggapan tidak valid dari layanan.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Perangkat ini tidak lagi terdaftar dengan nomor telepon Anda. Mohon pasang ulang Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Perangkat ini tidak lagi terdaftar dengan nomor telepon Anda. Mohon pasang ulang Morse.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Server Gagal. Mohon coba lagi nanti.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Sebuah kegagagalan tak dikenal muncul.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontak bukan pengguna Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontak bukan pengguna Morse.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Gagal mengunduh lampiran.";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "Jaringan Gagal";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Bantu kami meningkatkan Signal dengan melaporkan eror ini beserta log debug dari perangkat Anda ke support@signal.org; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Bantu kami meningkatkan Morse dengan melaporkan eror ini beserta log debug dari perangkat Anda ke support@devplusone.com; %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: Terjadi eror";
+"ERROR_NOTIFICATION_TITLE" = "Morse Beta: Terjadi eror";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Perangkat anda tidak lagi terhubung. Harap hubungkan kembali untuk dapat mengirim pesan selanjutnya.";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "Perangkat anda tidak lagi terdaftar. Harap daftarkan kembali untuk dapat mengirim pesan selanjutnya.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Versi Signal Anda telah kedaluwarsa. Mohon perbarui untuk dapat mengirimkan pesan.";
+"ERROR_SENDING_EXPIRED" = "Versi Morse Anda telah kedaluwarsa. Mohon perbarui untuk dapat mengirimkan pesan.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Pengguna tidak terdaftar: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Versi Signal Anda telah kedaluwarsa! Ketuk untuk pembaruan ke versi terbaru.";
+"EXPIRATION_ERROR" = "Versi Morse Anda telah kedaluwarsa! Ketuk untuk pembaruan ke versi terbaru.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Versi Signal Anda akan berakhir dalam %d hari. Ketuk untuk memperbarui versi terbaru.";
+"EXPIRATION_WARNING_SOON" = "Versi Morse Anda akan berakhir dalam %d hari. Ketuk untuk memperbarui versi terbaru.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Versi Signal Anda akan berakhir hari ini. Ketuk untuk memperbarui ke versi terbaru.";
+"EXPIRATION_WARNING_TODAY" = "Versi Morse Anda akan berakhir hari ini. Ketuk untuk memperbarui ke versi terbaru.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Terlalu banyak kegagalan dengan kontak ini. Mohon coba lagi nanti.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Tautan Tidak Valid";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Perbarui Signal pada perangkat ini untuk bergabung dengan grup.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Perbarui Morse pada perangkat ini untuk bergabung dengan grup.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Dibutuhkan persetujuan admin untuk menerima anggota baru yang bergabung melalui tautan grup.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "Kode QR";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Bagikan melalui Signal";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Bagikan melalui Morse";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Siapapun dengan tautan ini dapat melihat nama dan anggota grup ini dan dapat meminta untuk bergabung. Bagikan dengan orang yang Anda percaya.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Apakah Grup Lama itu?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Grup Warisan tidak dapat diperbarui ke Grup Baru, namun Anda dapat membuat Grup Baru dengan anggota yang sama jika mereka menggunakan versi Signal terakhir.\n\nSignal menawarkan cara untuk memperbarui Grup Warisan saat mendatang.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Grup Warisan tidak dapat diperbarui ke Grup Baru, namun Anda dapat membuat Grup Baru dengan anggota yang sama jika mereka menggunakan versi Morse terakhir.\n\nMorse menawarkan cara untuk memperbarui Grup Warisan saat mendatang.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Bisakah Saya tingkatkan sebuah Grup Lawas?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Untuk membuat Grup Baru, semua anggota harus memperbarui ke versi Signal terakhir.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Untuk membuat Grup Baru, semua anggota harus memperbarui ke versi Morse terakhir.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Lawas vs. Grup Baru";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Grup ini tidak dapat diperbatui menjadi Grup Baru karena memiliki terlalu banyak anggota. Maksimum anggota grup yang dapat diperbarui adalah %@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Saat semua anggota grup sudah menggunakan versi Signal yang dapat bergabung ke Grup Baru, grup ini akan diperbarui.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Saat semua anggota grup sudah menggunakan versi Morse yang dapat bergabung ke Grup Baru, grup ini akan diperbarui.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Setiap riwayat pesan dan media disimpan sebelum pembaruan.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Grup ini tidak dapat dibuat karena 1 anggota menggunakan versi Signal yang lama. Anda dapat membuat Grup Baru dengan mereka setelah mereka memperbarui Signal, atau menghapusnya sebelum membuat grup.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Grup ini tidak dapat dibuat karena 1 anggota menggunakan versi Morse yang lama. Anda dapat membuat Grup Baru dengan mereka setelah mereka memperbarui Morse, atau menghapusnya sebelum membuat grup.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Grup ini tidak dapat dibuat karena %@ anggota menggunakan versi Signal yang lama. Anda dapat membuat Grup Baru dengan mereka setelah mereka memperbarui Signal, atau menghapusnya sebelum membuat grup.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Grup ini tidak dapat dibuat karena %@ anggota menggunakan versi Morse yang lama. Anda dapat membuat Grup Baru dengan mereka setelah mereka memperbarui Morse, atau menghapusnya sebelum membuat grup.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Grup ini tidak dapat dibuat karena 1 anggota menggunakan versi Signal yang lama. Anda dapat membuat Grup Baru dengan mereka setelah mereka memperbarui Signal, atau menghapusnya sebelum membuat grup. %@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Grup ini tidak dapat dibuat karena 1 anggota menggunakan versi Morse yang lama. Anda dapat membuat Grup Baru dengan mereka setelah mereka memperbarui Morse, atau menghapusnya sebelum membuat grup. %@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Grup ini tidak dapat dibuat karena %1$@ anggota menggunakan versi Signal yang lama. Anda dapat membuat Grup Baru dengan mereka setelah mereka memperbarui Signal, atau menghapusnya sebelum membuat grup. %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Grup ini tidak dapat dibuat karena %1$@ anggota menggunakan versi Morse yang lama. Anda dapat membuat Grup Baru dengan mereka setelah mereka memperbarui Morse, atau menghapusnya sebelum membuat grup. %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Sebuah Grup Lama dibuat karena 1 anggota menggunakan versi Signal yang lama. Anda dapat membuat Grup Gaya Baru dengan mereka setelah mereka memperbarui Signal, atau mengeluarkannya sebelum membuat grup.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Sebuah Grup Lama dibuat karena 1 anggota menggunakan versi Morse yang lama. Anda dapat membuat Grup Gaya Baru dengan mereka setelah mereka memperbarui Morse, atau mengeluarkannya sebelum membuat grup.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Sebuah Grup Lama dibuat karena %@ anggota menggunakan versi Signal yang lama. Anda dapat membuat Grup Gaya Baru dengan mereka setelah mereka memperbarui Signal, atau mengeluarkannya sebelum membuat grup.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Sebuah Grup Lama dibuat karena %@ anggota menggunakan versi Morse yang lama. Anda dapat membuat Grup Gaya Baru dengan mereka setelah mereka memperbarui Morse, atau mengeluarkannya sebelum membuat grup.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "1 anggota tidak mendukung Grup Baru, sehingga grup ini akan menjadi Grup Lama. %@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "Pilih admin baru";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Performa grup Signal akan lebih baik dengan jumlah %@ anggota atau kurang. Menambah anggota lebih banyak akan menyebabkan pengiriman dan penerimaan pesan menjadi lambat.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Performa grup Morse akan lebih baik dengan jumlah %@ anggota atau kurang. Menambah anggota lebih banyak akan menyebabkan pengiriman dan penerimaan pesan menjadi lambat.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "Jumlah rekomendasi anggota telah tercapai";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Hubungi Kami";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "Pusat Bantuan";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Draf:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Beberapa kontak Anda telah ada di Signal, termasuk %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Beberapa kontak Anda telah ada di Morse, termasuk %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Beberapa kontak Anda telah ada di Signal, termasuk %@ dan %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Beberapa kontak Anda telah ada di Morse, termasuk %@ dan %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Beberapa kontak Anda telah ada di Signal, termasuk %@,%@ dan %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Beberapa kontak Anda telah ada di Morse, termasuk %@,%@ dan %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Mulai percakapan pertama Anda di sini.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Arsip";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "Gambar di manappun untuk mengaburkan";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Anda tidak dapat berbagi lebih dari %@ hal.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Ubah Foto";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Berikan akses penuh di Pengaturan atau ubah foto mana yang dapat diakses oleh Signal.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Berikan akses penuh di Pengaturan atau ubah foto mana yang dapat diakses oleh Morse.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Tidak melihat foto Anda?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "Anda dapat mengirim dan menerima pesan yang disinkronisasi dari ponsel atau iPad Anda. ↵Untuk keamanan Anda, riwayat percakapan tidak disinkronisasikan ke perangkat baru yang disambungkan.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ ada di Signal!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ ada di Morse!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "Stiker";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Berkas audio tidak valid.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Anda dapat mengaktifkan akses kontak pada Pengaturan iOS untuk mengundang teman-teman Anda bergabung menggunakan Signal.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Anda dapat mengaktifkan akses kontak pada Pengaturan iOS untuk mengundang teman-teman Anda bergabung menggunakan Morse.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Perbolehkan Akses Kontak";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Undang Kawan ke Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Undang Kawan ke Morse";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Cari";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "Pratinjau Tautan Apapun";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Untuk memindahkan akun Signal Anda, Anda perlu mengaktfikan akses ke jaringan lokal pada kedua perangkat.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Untuk memindahkan akun Morse Anda, Anda perlu mengaktfikan akses ke jaringan lokal pada kedua perangkat.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Butuh Bantuan?";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Nyalakan \"Jaringan Lokal\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Arahkan ke Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Arahkan ke Morse";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Nyalakan Akses Jaringan Lokal";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "Masuk";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Catatan awakutu dapat membantu Signal memperbaiki masalah dan kerusakan.";
+"LOGGING_SECTION_FOOTER" = "Catatan awakutu dapat membantu Morse memperbaiki masalah dan kerusakan.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Pesan";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Hapus untuk Semua";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Pesan ini akan dihapus untuk semua orang dalam percakapan jika mereka menggunakan versi terakhir Signal. Mereka akan melihat bahwa Anda menghapus sebuah pesan.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Pesan ini akan dihapus untuk semua orang dalam percakapan jika mereka menggunakan versi terakhir Morse. Mereka akan melihat bahwa Anda menghapus sebuah pesan.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Untuk siapa Anda ingin menghapus pesan ini?";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Hapus dan Tinggalkan Grup?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Tinjau permintaan dengan hati-hati. Signal menemukan kontak lain dengan nama yang sama.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Tinjau permintaan dengan hati-hati. Morse menemukan kontak lain dengan nama yang sama.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Kontak Anda";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Baca";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Terlompati";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "Panggilan tidak terjawab";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Anda dapat mengaktifkan akses kamera pada Pengaturan iOS untuk melakukan panggilan video di Signal.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Anda dapat mengaktifkan akses kamera pada Pengaturan iOS untuk melakukan panggilan video di Morse.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal butuh akses ke kamera Anda.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Morse butuh akses ke kamera Anda.";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Anda dapat mengaktifkan izin ini pada Pengaturan iOS.";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal membutuhkan akses ke lokasi Anda untuk fitur ini.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Morse membutuhkan akses ke lokasi Anda untuk fitur ini.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Anda dapat mengaktifkan izin ini pada Pengaturan iOS.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Signal membutuhkan akses ke foto Anda untuk fitur ini.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Morse membutuhkan akses ke foto Anda untuk fitur ini.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Kosong";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "Pilih kontak atau grup untuk mulai mengobrol.";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Selamat datang di Signal";
+"NO_SELECTED_CONVERSATION_TITLE" = "Selamat datang di Morse";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "Pesan baru kepada:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Tanpa Nama atau Isi";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Mainkan Ketika Aplikasi sedang Terbuka";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "Tambahkan sentuhan kemanusiaan pada pesan Anda";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Karena Anda tidak aktif untuk waktu yang lama, Anda harus mendaftar lagi untuk menggunakan Signal.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Karena Anda tidak aktif untuk waktu yang lama, Anda harus mendaftar lagi untuk menggunakan Morse.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Mendaftar Signal";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Mendaftar Morse";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "Gunakan iPad";
@@ -3737,10 +3737,10 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Hubungkan iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Pilih \"Daftarkan iPad\" untuk membuat akun baru dan memindahkan akun sebelumnya ke iPad ini. Hal ini akan menon-aktifkan Signal di perangkat lain yang terdaftar dengan nomor seluler yang sama.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Pilih \"Daftarkan iPad\" untuk membuat akun baru dan memindahkan akun sebelumnya ke iPad ini. Hal ini akan menon-aktifkan Morse di perangkat lain yang terdaftar dengan nomor seluler yang sama.";
 
 /* explanation to the user they're switching from registering to linking flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Pilih \"Tautkan iPhone\" untuk menghubungkan iPhone Anda dengan akun Signal. Menautkan iPhone Anda tidak dianjurkan dan akan membatasi beberapa fungsi, contohnya membuat panggilan.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Pilih \"Tautkan iPhone\" untuk menghubungkan iPhone Anda dengan akun Morse. Menautkan iPhone Anda tidak dianjurkan dan akan membatasi beberapa fungsi, contohnya membuat panggilan.";
 
 /* header text indicating to the user they're switching from linking to registering flow */
 "ONBOARDING_MODE_SWITCH_TITLE_PROVISIONING" = "Daftarkan iPad ini";
@@ -3749,22 +3749,22 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Hubungkan iPhone ini";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Menautkan Signal dengan iPad akan menon-aktifkan Signal pada semua perangkat lain yang terdaftar dengan nomor seluler yang sama.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Menautkan Morse dengan iPad akan menon-aktifkan Morse pada semua perangkat lain yang terdaftar dengan nomor seluler yang sama.";
 
 /* warning to the user that linking a phone is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Menautkan iPhone tidak dianjurkan dan akan membatasi fungsi-fungsi Signal.";
+"ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Menautkan iPhone tidak dianjurkan dan akan membatasi fungsi-fungsi Morse.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Berikan Perizinan";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Mengizinkan pemberitahuan dan akses kontak memungkinkan Anda melihat saat pesan sampai dan membantu Anda menemukan orang yang Anda cari. Kontak-kontak dienkripsi sehingga layanan Signal tidak dapat melihatnya.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Mengizinkan pemberitahuan dan akses kontak memungkinkan Anda melihat saat pesan sampai dan membantu Anda menemukan orang yang Anda cari. Kontak-kontak dienkripsi sehingga layanan Morse tidak dapat melihatnya.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Berikan Perizinan";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Pilih siapa yang dapat mencari Anda di Signal dengan nomor telepon %@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Pilih siapa yang dapat mencari Anda di Morse dengan nomor telepon %@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Siapa yang dapat mencari Anda dengan nomor telepon?";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "Mohon tunggu beberapa menit sebelum mencoba lagi. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "Masukkan nomor telepon Anda";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "Untuk melindungi privasi Anda, sistem memberi Anda nomor telepon 8 digit 'palsu'";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Nomor telepon Anda";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Masukkan nomor telepon Anda";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Nomor telepon salah. Mohon masukkan nomor telepon yang benar untuk mendaftar.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Anda telah kehabisan percobaan PIN, namun Anda tetap dapat mengakses akun Signal Anda dengan membuat PIN baru. Untuk privasi dan keamanan akun Anda akan dipulihkan tanpa informasi profil atau pengaturan.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Anda telah kehabisan percobaan PIN, namun Anda tetap dapat mengakses akun Morse Anda dengan membuat PIN baru. Untuk privasi dan keamanan akun Anda akan dipulihkan tanpa informasi profil atau pengaturan.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Pelajari lebih lanjut tentang PIN";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@mengatur waktu penghilangan pesan menjadi %@";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal sedang mengalami kesulitan teknis. Kami bekerja keras untuk memulihkan layanan secepat mungkin.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Morse sedang mengalami kesulitan teknis. Kami bekerja keras untuk memulihkan layanan secepat mungkin.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "Anda menelepon %@";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Transaksi tidak valid";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Perbarui Signal untuk menggunakan pembayaran.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Perbarui Morse untuk menggunakan pembayaran.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Pembayaran belum diverifikasi";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Siapa Saja";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Semua orang yang memiliki nomor Anda pada kontaknya akan melihat Anda sebagai kontak di Signal. Orang lain akan dapat mencari Anda.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Semua orang yang memiliki nomor Anda pada kontaknya akan melihat Anda sebagai kontak di Morse. Orang lain akan dapat mencari Anda.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Tak seorangpun";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Tidak seorangpun di Signal dapat menemukan Anda melalui nomor telepon Anda. Anda tidak akan terlihat sebagai kontak untuk orang yang memiliki nomor Anda di kontaknya dan yang lain tidak akan dapat mencari Anda dengan nomor telepon.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Tidak seorangpun di Morse dapat menemukan Anda melalui nomor telepon Anda. Anda tidak akan terlihat sebagai kontak untuk orang yang memiliki nomor Anda di kontaknya dan yang lain tidak akan dapat mencari Anda dengan nomor telepon.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Misalnya: %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Kontak Saya";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Hanya kontak Anda yang dapat melihat nomor telepon pada Signal.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Hanya kontak Anda yang dapat melihat nomor telepon pada Morse.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Siapa Saja";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Nomor telepon Anda akan terlihat oleh orang dan grup yang Anda kirimkan pesan. Orang yang memiliki nomor Anda pada buku kontaknya juga akan dapat melihatnya di Signal.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Nomor telepon Anda akan terlihat oleh orang dan grup yang Anda kirimkan pesan. Orang yang memiliki nomor Anda pada buku kontaknya juga akan dapat melihatnya di Morse.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Tak seorangpun";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Tidak seorangpun akan melihat nomor Anda di Signal.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Tidak seorangpun akan melihat nomor Anda di Morse.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@%@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Nonaktifkan PIN";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Jika Anda menonaktifkan PIN, Anda akan kehilangan data saat Anda mendaftar ulang Signal kecuali Anda mentransfernya dari perangkat iOS lain. Anda tidak dapat menyalakan Kunci Pendaftaran saat PIN dinonaktifkan.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Jika Anda menonaktifkan PIN, Anda akan kehilangan data saat Anda mendaftar ulang Morse kecuali Anda mentransfernya dari perangkat iOS lain. Anda tidak dapat menyalakan Kunci Pendaftaran saat PIN dinonaktifkan.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Peringatan";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Gagal membuat PIN";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN menjaga informasi yang disimpan dengan Signal terenkripsi sehingga hanya Anda yang dapat mengaksesnya. Profil Anda, pengaturan, dan kontak-kontak akan dipulihkan saat Anda memasang ulang aplikasi. Anda tidak memerlukan PIN untuk membuka aplikasinya.";
+"PIN_CREATION_EXPLANATION" = "PIN menjaga informasi yang disimpan dengan Morse terenkripsi sehingga hanya Anda yang dapat mengaksesnya. Profil Anda, pengaturan, dan kontak-kontak akan dipulihkan saat Anda memasang ulang aplikasi. Anda tidak memerlukan PIN untuk membuka aplikasinya.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Pelajari Lebih Lanjut Mengenai PIN";
@@ -4343,28 +4343,28 @@
 "PIN_REMINDER_MEGAPHONE_ACTION" = "Verifikasi PIN";
 
 /* Body for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_BODY" = "Signal akan mengonfirmasi PIN secara berkala agar Anda tetap ingat.";
+"PIN_REMINDER_MEGAPHONE_BODY" = "Morse akan mengonfirmasi PIN secara berkala agar Anda tetap ingat.";
 
 /* Toast indicating that we'll ask you for your PIN again in 3 days. */
-"PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Signal akan mengonfirmasi PIN kembali dalam beberapa hari.";
+"PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Morse akan mengonfirmasi PIN kembali dalam beberapa hari.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Verifikasi PIN Signal Anda";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Verifikasi PIN Morse Anda";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
-"PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Signal akan mengonfirmasi PIN lagi besok.";
+"PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Morse akan mengonfirmasi PIN lagi besok.";
 
 /* Toast indicating that we'll ask you for your PIN again in 2 weeks. */
 "PIN_REMINDER_MEGAPHONE_TWO_WEEK_TOAST" = "Kami akan mengingatkan Anda dalam beberapa minggu lagi.";
 
 /* Toast indicating that we'll ask you for your PIN again in a week. */
-"PIN_REMINDER_MEGAPHONE_WEEK_TOAST" = "Signal akan mengonfirmasi PIN dalam sepekan.";
+"PIN_REMINDER_MEGAPHONE_WEEK_TOAST" = "Morse akan mengonfirmasi PIN dalam sepekan.";
 
 /* Label indicating that the attempted PIN does not match the user's PIN */
 "PIN_REMINDER_MISMATCH_ERROR" = "PIN tidak valid, coba lagi.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Masukkan PIN Signal Anda";
+"PIN_REMINDER_TITLE" = "Masukkan PIN Morse Anda";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN harus berisi minimal 4 digit.";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "Buat PIN";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "PIN menjaga informasi yang disimpan di Signal terenkripsi";
+"PINS_MEGAPHONE_BODY" = "PIN menjaga informasi yang disimpan di Morse terenkripsi";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "Kami akan mengingatkan Anda nanti. PIN harus dibuat dalam %ld hari.";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Nomor di papan klip Anda tidak terlihat seperti nomor keamanan yang benar untuk percakapan ini.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal tak dapat menemukan sejumlah nomor keamanan di dalam papan klip Anda. Apakah Anda sudah menyalin dengan benar?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Morse tak dapat menemukan sejumlah nomor keamanan di dalam papan klip Anda. Apakah Anda sudah menyalin dengan benar?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Tiap pasangan pengguna Signal berbagi nomor keamanan yang berbeda. Periksa kembali bahwa%@menampilkan nomor keamanan Anda secara jelas.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Tiap pasangan pengguna Morse berbagi nomor keamanan yang berbeda. Periksa kembali bahwa%@menampilkan nomor keamanan Anda secara jelas.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Anda sedang menjalankan versi lama Signal. Anda perlu pembaruan sebelum Anda memverifikasi.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Anda sedang menjalankan versi lama Morse. Anda perlu pembaruan sebelum Anda memverifikasi.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Teman Anda masih menggunakan Signal versi lama. Mereka perlu pembaruan sebelum Anda memverifikasi.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Teman Anda masih menggunakan Morse versi lama. Mereka perlu pembaruan sebelum Anda memverifikasi.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Kode yang dipindai tidak terlihat seperti nomor keamanan. Apakah Anda berdua menggunakan versi Signal yang terbaru?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Kode yang dipindai tidak terlihat seperti nomor keamanan. Apakah Anda berdua menggunakan versi Morse yang terbaru?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Jika Anda meminta untuk verifikasi keseluruhan enskripsi dengan %@, bandingkan nomor di atas dengan nomor di dalam perangkat mereka.\n\nCara lain, Anda bisa memindai kode di dalam gawai mereka, atau minta mereka untuk memindai kode Anda.";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Pengguna tidak dapat dipilih.";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Pengguna ini tidak dapat ditambahkan ke dalam grup sampai dia memperbarui Signal.";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Pengguna ini tidak dapat ditambahkan ke dalam grup sampai dia memperbarui Morse.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Saya lupa PIN saya.";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "Daftarkan Ulang Penanda Notifikasi";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "Untuk menjadikan Signal sebagai aplikasi bertukar pesan terbaik di planet, kami sangat menunggu umpan balik Anda.";
+"RESEARCH_MEGAPHONE_BODY" = "Untuk menjadikan Morse sebagai aplikasi bertukar pesan terbaik di planet, kami sangat menunggu umpan balik Anda.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Berikan Signal pendapat Anda ";
+"RESEARCH_MEGAPHONE_TITLE" = "Berikan Morse pendapat Anda ";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "Survei ini dijalankan oleh Surveygizmo pada domain yang aman surveys.signalusers.org";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "Tidak, terima kasih";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>Kami percaya pada privasi.</bold>\n\nSignal tidak melacak atau mengumpulkan data Anda. Untuk meningkatkan performa Signal untuk semua, kami mengandalkan umpan balik pengguna, <bold>dan kami ingin sekali umpan balik dari Anda</bold>.\n\nKami menjalankan sebuah survei untuk dapat mengerti bagaimana Anda menggunakan Signal. Survei kami tidak mengumpulkan data apapun yang akan mengidentifikasi Anda. Jika Anda tertarik membagikan umpan balik tambahan, Anda memiliki pilihan untuk memberikan informasi kontak.\n\nJika Anda memiliki beberapa menit dan umpan balik untuk diberikan, kami ingin sekali mendengarnya dari Anda.";
+"RESEARCH_MODAL_PLEA" = "<bold>Kami percaya pada privasi.</bold>\n\nMorse tidak melacak atau mengumpulkan data Anda. Untuk meningkatkan performa Morse untuk semua, kami mengandalkan umpan balik pengguna, <bold>dan kami ingin sekali umpan balik dari Anda</bold>.\n\nKami menjalankan sebuah survei untuk dapat mengerti bagaimana Anda menggunakan Morse. Survei kami tidak mengumpulkan data apapun yang akan mengidentifikasi Anda. Jika Anda tertarik membagikan umpan balik tambahan, Anda memiliki pilihan untuk memberikan informasi kontak.\n\nJika Anda memiliki beberapa menit dan umpan balik untuk diberikan, kami ingin sekali mendengarnya dari Anda.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "Ikuti survei";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Riset Signal";
+"RESEARCH_MODAL_TITLE" = "Riset Morse";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "Coba lagi";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Lihat";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Nomor aman Signal kami \n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Nomor aman Morse kami \n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Nomor keamanan Anda dengan %@ telah berubah. Anda mungkin mau memverifikasi.";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Anda harus mengaktifkan kode sandi dalam Pengaturan iOS untuk menggunakan Kunci Layar.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Autentikasi untuk membuka Signal.";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Autentikasi untuk membuka Morse.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Autentikasi gagal.";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Buka kunci Signal";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Buka kunci Morse";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Tina Malaka";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "Perkiraan Cuaca";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Ketua Freya";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Akun Tidak Cocok";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Perbarui Signal pada perangkat ini untuk menyambungkannya dengan ponsel Anda.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Perbarui Morse pada perangkat ini untuk menyambungkannya dengan ponsel Anda.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Versi Tidak Didukung";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Perangkat Anda yang lain menggunakan versi Signal yang lama dan belum mendukung kode QR iPad. Silahkan install Signal versi terbaru dan coba lagi.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Perangkat Anda yang lain menggunakan versi Morse yang lama dan belum mendukung kode QR iPad. Silahkan install Morse versi terbaru dan coba lagi.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Perbarui Perangkat Pindai";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Selesai Menghubungkan";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Buka Signal di ponsel Anda untuk menghubungkan iPad ini dengan akun Anda";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Buka Morse di ponsel Anda untuk menghubungkan iPad ini dengan akun Anda";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Saya tidak punya Signal di ponsel saya...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Saya tidak punya Morse di ponsel saya...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Buka App Store di ponsel Anda, pasang Signal, lengkapi proses pendaftaran, kemudian Anda dapat menghubungkan iPad anda ke akun yang sama.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Buka App Store di ponsel Anda, pasang Morse, lengkapi proses pendaftaran, kemudian Anda dapat menghubungkan iPad anda ke akun yang sama.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Pasang Signal di Telepon Anda";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Pasang Morse di Telepon Anda";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Ketuk gambar profil Anda untuk membuka setelan Signal di ponsel Anda, pilih \"Perangkat Terhubung\" kemudian \"Hubungkan Perangkat Baru\" untuk memindai kode ini dengan ponsel Anda:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Ketuk gambar profil Anda untuk membuka setelan Morse di ponsel Anda, pilih \"Perangkat Terhubung\" kemudian \"Hubungkan Perangkat Baru\" untuk memindai kode ini dengan ponsel Anda:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Dapatkan bantuan untuk menghubungkan iPad ";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Pindai kode QR dengan telepon Anda";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Buka Signal pada iPad lama Anda untuk mentransfer akun Anda";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Buka Morse pada iPad lama Anda untuk mentransfer akun Anda";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Sesi aman telah di ulang.";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "Pengiriman undangan gagal, mohon nanti mencoba kembali";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Anda mengundang teman Anda untuk menggunakan Signal!";
+"SEND_INVITE_SUCCESS" = "Anda mengundang teman Anda untuk menggunakan Morse!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "Buang Media";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Undang teman melalui SMS tidak aman?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Apakah kamu akan mengundang beberapa nomor untuk bergabung Signal:";
+"SEND_SMS_INVITE_TITLE" = "Apakah kamu akan mengundang beberapa nomor untuk bergabung Morse:";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "Tinggi";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Standar";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal menggunakan enkripsi ujung-ke-ujung dan mungkin membutuhkan Anda untuk menyegarkan percakapan Anda sewaktu-waktu. Ini tidak mempengaruhi keamanan percakapan Anda namun Anda mungkin akan melewatkan pesan dari kontak ini dan Anda dapat memintanya untuk mengirimkan ulang.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Morse menggunakan enkripsi ujung-ke-ujung dan mungkin membutuhkan Anda untuk menyegarkan percakapan Anda sewaktu-waktu. Ini tidak mempengaruhi keamanan percakapan Anda namun Anda mungkin akan melewatkan pesan dari kontak ini dan Anda dapat memintanya untuk mengirimkan ulang.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Sesi percakapan diperbarui";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Lokasi";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Jika diaktifkan, Signal akan menggagalkan penyensoran. Jangan nonaktifkan fitur ini kecuali Anda berada di lokasi di mana Signal disensor.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Jika diaktifkan, Morse akan menggagalkan penyensoran. Jangan nonaktifkan fitur ini kecuali Anda berada di lokasi di mana Morse disensor.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Pengelabuan Penyensoran telah diaktifkan berdasarkan nomor telepon Anda.";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Penghindar penyensoran hanya dapat diaktifkan ketika terkoneksi dengan internet";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Pengelabuan penyensoran tidak diperlukan; Anda telah terhubung dengan layanan Signal.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Pengelabuan penyensoran tidak diperlukan; Anda telah terhubung dengan layanan Morse.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Ijinkan Catatan Debug";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Tambah Pengguna yang Diblokir";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Anda tidak mempunyai kontak di Signal.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Anda tidak mempunyai kontak di Morse.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Tidak ada hasil pencarian";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Selalu relay panggilan";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Sampaikan semua panggilan melalui peladen Signal untuk menghindari pengungkapan alamat IP Anda oleh kontak Anda. Mengaktifkannya akan mengurangi kualitas panggilan.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Sampaikan semua panggilan melalui peladen Morse untuk menghindari pengungkapan alamat IP Anda oleh kontak Anda. Mengaktifkannya akan mengurangi kualitas panggilan.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "Percakapan";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Bersihkan Riwayat Percakapan";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Hak Cipta Signal Messenger\nBerlisensi dibawah GPLv3";
+"SETTINGS_COPYRIGHT" = "Hak Cipta Morse Messenger\nBerlisensi dibawah GPLv3";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Berlangganan";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Atur waktu pesan menghilang untuk semua percakapan yang Anda mulai.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Berdonasi ke Signal";
+"SETTINGS_DONATE" = "Berdonasi ke Morse";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Bantuan";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "Undang Temanmu";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Anda bisa menghubungi saya melalui @signalapp. Dapatkan sekarang: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Anda bisa menghubungi saya melalui @signalapp. Dapatkan sekarang: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "Warna & Gambar Latar Percakapan";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Isi Pemberitahuan";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontak Bergabung di Signal";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontak Bergabung di Morse";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Beritahukan ketika...";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Aktifkan";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Anda dapat menggunakan Signal untuk mengirim dan menerima MobileCoin. Semua pembayaran tunduk pada Persyaratan Layanan untuk MobileCoins dan MobileCoin Wallet. Ini adalah fitur beta sehingga Anda mungkin mengalami beberapa masalah dan pembayaran atau saldo yang mungkin hilang tidak dapat dipulihkan.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Anda dapat menggunakan Morse untuk mengirim dan menerima MobileCoin. Semua pembayaran tunduk pada Persyaratan Layanan untuk MobileCoins dan MobileCoin Wallet. Ini adalah fitur beta sehingga Anda mungkin mengalami beberapa masalah dan pembayaran atau saldo yang mungkin hilang tidak dapat dipulihkan.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Aktifkan";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ pada %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Pembayaran di Signal tidak lagi tersedia. Anda dapat memindahkan dana ke sebuah exchange namun Anda tidak lagi dapat mengirim dan menerima pembayaran atau menambahkan dana.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Pembayaran di Morse tidak lagi tersedia. Anda dapat memindahkan dana ke sebuah exchange namun Anda tidak lagi dapat mengirim dan menerima pembayaran atau menambahkan dana.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Tidak dapat menonaktifkan pembayaran karena tidak ada saldo tersedia. Periksa koneksi Anda dan coba lagi.";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Tidak dapat menyelesaikan pembayaran karena tidak ada saldo tersedia. Perika koneksi Anda dan coba lagi.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Pembayaran di Signal tidak lagi tersedia. Anda dapat memindahkan dana ke sebuah exchange namun Anda tidak lagi dapat mengirim dan menerima pembayaran atau menambahkan dana.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Pembayaran di Morse tidak lagi tersedia. Anda dapat memindahkan dana ke sebuah exchange namun Anda tidak lagi dapat mengirim dan menerima pembayaran atau menambahkan dana.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Pembayaran di Signal tidak lagi tersedia. Anda dapat memindahkan dana ke sebuah exchange namun Anda tidak lagi dapat mengirim dan menerima pembayaran atau menambahkan dana.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Pembayaran di Morse tidak lagi tersedia. Anda dapat memindahkan dana ke sebuah exchange namun Anda tidak lagi dapat mengirim dan menerima pembayaran atau menambahkan dana.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Konversi hanyalah perkiraan dan mungkin tidak akurat.";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Nonaktifkan Pembayaran";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Anda tidak akan dapat mengirim dan menerima MobileCoin di Signal jika Anda menonaktifkan pembayaran.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Anda tidak akan dapat mengirim dan menerima MobileCoin di Morse jika Anda menonaktifkan pembayaran.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Nonaktifkan Pembayaran?";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Nonaktifkan Pembayaran";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Anda direkomendasikan untuk mentransfer dana Anda ke alamat wallet lain sebelum menonaktifkan pembayaran. Jika Anda memilih untuk tidak mentransfernya sekarang, dana Anda akan tetap di wallet yang tersambung ke Signal jika Anda mengaktifkan kembali pembayaran.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Anda direkomendasikan untuk mentransfer dana Anda ke alamat wallet lain sebelum menonaktifkan pembayaran. Jika Anda memilih untuk tidak mentransfernya sekarang, dana Anda akan tetap di wallet yang tersambung ke Morse jika Anda mengaktifkan kembali pembayaran.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Saldo Anda akan tetap di dalam wallet yang terhubung ke Signal jika Anda memilih untuk mengaktifkan kembali pembayaran.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Saldo Anda akan tetap di dalam wallet yang terhubung ke Morse jika Anda memilih untuk mengaktifkan kembali pembayaran.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Nonaktifkan Tanpa Transfer?";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "Tentang MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Anda dapat menambahkan dana untuk digunakan di Signal dengan mengirimkan MobileCoin ke alamat wallet Anda.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Anda dapat menambahkan dana untuk digunakan di Morse dengan mengirimkan MobileCoin ke alamat wallet Anda.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Menambahkan Dana";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Pembayaran diaktifkan.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Gunakan Signal untuk mengirim dan menerima MobileCoin, kurensi digital yang berfokus pada privasi. Aktifkan untuk memulainya.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Gunakan Morse untuk mengirim dan menerima MobileCoin, kurensi digital yang berfokus pada privasi. Aktifkan untuk memulainya.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Aktifkan Kembali Pembayaran";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "Memperkenalkan Pembayaran (Beta)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Saldo Anda akan dipulihkan secara otomatis saat Anda memasang ulang Signal jika Anda mengkonfirmasi PIN Signal. Anda juga dapat memulihkan saldo menggunakan frasa pemulihan, yang berupa 24 frasa kata unik untuk Anda. Tuliskan dan simpan di tempat yang aman.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Saldo Anda akan dipulihkan secara otomatis saat Anda memasang ulang Morse jika Anda mengkonfirmasi PIN Morse. Anda juga dapat memulihkan saldo menggunakan frasa pemulihan, yang berupa 24 frasa kata unik untuk Anda. Tuliskan dan simpan di tempat yang aman.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "Tambahkan Dana";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Pembayaran";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Anda tidak dapat mentransfer ke alamat wallet Signal Anda sendiri. Masukkan alamat wallet dari akun Anda di sebuah exchange yang didukung.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Anda tidak dapat mentransfer ke alamat wallet Morse Anda sendiri. Masukkan alamat wallet dari akun Anda di sebuah exchange yang didukung.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "Anda dapat mentransfer MobileCoin dengan menyelesaikan transfer ke alamat wallet yang disediakan oleh exchange. Alamat wallet berupa susunan nomor dan huruf yang biasanya berada di bawah kode QR.";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Matikan Pengingat";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Pastikan Anda mengingat atau menyimpan secara aman PIN Anda karena PIN tidak dapat dipulihkan. Jika Anda lupa PIN, Anda mungkin kehilangan data saat mendaftarkan ulang akun Signal Anda.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Pastikan Anda mengingat atau menyimpan secara aman PIN Anda karena PIN tidak dapat dipulihkan. Jika Anda lupa PIN, Anda mungkin kehilangan data saat mendaftarkan ulang akun Morse Anda.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Konfirmasi PIN Signal Anda";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Konfirmasi PIN Morse Anda";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "Pengingat PIN";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PIN menjaga informasi yang disimpan di Signal terenkripsi sehingga hanya Anda yang dapat mengaksesnya. Profil, pengaturan, dan kontak akan dipulihkan saat Anda memasang ulang Signal.";
+"SETTINGS_PINS_FOOTER" = "PIN menjaga informasi yang disimpan di Morse terenkripsi sehingga hanya Anda yang dapat mengaksesnya. Profil, pengaturan, dan kontak akan dipulihkan saat Anda memasang ulang Morse.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Ganti PIN Anda";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Buat PIN";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "PIN Signal";
+"SETTINGS_PINS_TITLE" = "PIN Morse";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Pengaturan penghindar penyensoran, relay panggilan, dan pengirim tertutup.";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Nyalakan";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Jika Anda lupa PIN Signal saat mendaftar ke Signal  lagi, akun Anda akan terkunci selama 7 hari.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Jika Anda lupa PIN Morse saat mendaftar ke Morse  lagi, akun Anda akan terkunci selama 7 hari.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Nyalakan Kunci Pendaftaran?";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Panggilan";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Gunakan Touch ID, Face ID, atau kode sandi perangkat iOS Anda untuk membuka kunci Signal.";
+"SETTINGS_SECURITY_DETAIL" = "Gunakan Touch ID, Face ID, atau kode sandi perangkat iOS Anda untuk membuka kunci Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Gunakan Face ID untuk membuka kunci Signal.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Gunakan Face ID untuk membuka kunci Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Gunakan kode sandi perangkat Anda untuk membuka kunci Signal.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Gunakan kode sandi perangkat Anda untuk membuka kunci Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Gunakan Touch ID untuk membuka kunci Signal.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Gunakan Touch ID untuk membuka kunci Morse.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Keamanan Aplikasi";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Bagikan Kontak dengan iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Berikan iOS akses ke kontak dan chat Signal untuk fitur-fitur seperti berbagi saran.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Berikan iOS akses ke kontak dan chat Morse untuk fitur-fitur seperti berbagi saran.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Berikan iOS akses ke kontak dan chat Signal untuk fitur-fitur seperti berbagi saran dan pemberitahuan.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Berikan iOS akses ke kontak dan chat Morse untuk fitur-fitur seperti berbagi saran dan pemberitahuan.";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signal Boost";
+"SETTINGS_SIGNAL_BOOST" = "Morse Boost";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Menjadi Penyokong Signal";
+"SETTINGS_SUBSCRIPTION" = "Menjadi Penyokong Morse";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Kunci Pendaftaran";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Memerlukan PIN Signal Anda untuk mendaftarkan nomor telepon Anda lagi di Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Memerlukan PIN Morse Anda untuk mendaftarkan nomor telepon Anda lagi di Morse.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Indikator Pengetikan";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "Memuat...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Luncurkan Signal untuk mendaftar.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Luncurkan Morse untuk mendaftar.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Tidak Terdaftar";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Luncurkan Signal untuk memperbarui atau mendaftar.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Luncurkan Morse untuk memperbarui atau mendaftar.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Tidak Siap";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Mengunggah...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Tidak Dapat Menyiapkan Lampiran";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Bagikan ke Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Bagikan ke Morse";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Gagal menonaktifkan saran berbagi.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Pesan Signal sekarang dapat ditampilkan sebagai saran saat berbagi dari aplikasi lain.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Pesan Morse sekarang dapat ditampilkan sebagai saran saat berbagi dari aplikasi lain.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "Berbagi Menjadi Lebih Mudah";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Tampilkan Percakapan";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Saya mengundang Anda untuk memasang Signal! Tautan tersedia di sini:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Saya mengundang Anda untuk memasang Morse! Tautan tersedia di sini:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "Suara & Notifikasi";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Lanjutkan Tanpa Verifikasi?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Untuk membantu mencegah spam di Signal, mohon selesaikan verifikasi.\n\nSetelah memverifikasi, Anda dapat melanjutkan bertukar pesan. Semua pesan tertunda akan dikirim secara otomatis.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Untuk membantu mencegah spam di Morse, mohon selesaikan verifikasi.\n\nSetelah memverifikasi, Anda dapat melanjutkan bertukar pesan. Semua pesan tertunda akan dikirim secara otomatis.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Verifikasi untuk Melanjutkan Bertukar Pesan";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "Pasang";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Seri Seniman Signal";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Seri Seniman Morse";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Stiker Yang Anda Terima";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Kontribusi";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal didukung oleh orang seperti Anda. Berkontribusi dan dapatkan sebuah lencana.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse didukung oleh orang seperti Anda. Berkontribusi dan dapatkan sebuah lencana.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Tidak Terima Kasih";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Beritahu kami tentang masalahnya:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Mohon kirimkan surel permintaan dukungan Anda ke support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Mohon kirimkan surel permintaan dukungan Anda ke support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filter: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "URL Panjang: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Versi Signal: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Versi Morse: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Permintaan Dukungan Signal iOS";
+"SUPPORT_EMAIL_SUBJECT" = "Permintaan Dukungan Morse iOS";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Saran dan kesan (opsional)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "Sudahkah Anda membaca FAQ?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Memuat";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal adalah lembaga nirlaba tanpa pengiklan atau investor, disokong hanya oleh mereka yang menggunakan dan menghargainya. Beri kontribusi bulanan rutin dan dapatkan lencana profil untuk membagikan dukungan Anda.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse adalah lembaga nirlaba tanpa pengiklan atau investor, disokong hanya oleh mereka yang menggunakan dan menghargainya. Beri kontribusi bulanan rutin dan dapatkan lencana profil untuk membagikan dukungan Anda.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal berkomitmen untuk mengembangkan teknologi privasi bersumber terbuka yang melindungi kebebasan berekspresi dan memungkinkan komunikasi global yang aman.\n\nKontribusi Anda membantu gerakan ini dan membayar pengembangan dan operasional dari aplikasi yang digunakan oleh jutaan orang untuk komunikasi yang privat. Tanpa iklan. Tanpa Pelacak. Beneran.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morse berkomitmen untuk mengembangkan teknologi privasi bersumber terbuka yang melindungi kebebasan berekspresi dan memungkinkan komunikasi global yang aman.\n\nKontribusi Anda membantu gerakan ini dan membayar pengembangan dan operasional dari aplikasi yang digunakan oleh jutaan orang untuk komunikasi yang privat. Tanpa iklan. Tanpa Pelacak. Beneran.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Dukung teknologi yang dibangun untuk Anda - bukan data Anda - dengan bergabung dalam komunitas yang menyokongnya.";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Masih Memproses";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Tambahkan Penguat Signal";
+"SUSTAINER_VIEW_ADD_BOOST" = "Tambahkan Penguat Morse";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Dapatkan sebuah %@ lencana";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "Jangan Sekarang";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signal didukung oleh orang-orang seperti Anda.";
+"SUSTAINER_VIEW_TITLE" = "Morse didukung oleh orang-orang seperti Anda.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "Anda akan dikenakan biaya penuh (%@) dari harga baru berlangganan hari ini. Langganan Anda akan diperbarui setiap bulan.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "Negara Tidak Dikenal";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Salah satu dari perangkat Anda mengirimkan sebuah pesan yang tidak dapat diproses atau ditampilkan di sini karena menggunakan fitur baru Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Salah satu dari perangkat Anda mengirimkan sebuah pesan yang tidak dapat diproses atau ditampilkan di sini karena menggunakan fitur baru Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ mengirimkan Anda pesan yang tidak dapat diproses atau ditampilkan karena menggunakan fitur baru Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ mengirimkan Anda pesan yang tidak dapat diproses atau ditampilkan karena menggunakan fitur baru Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Anda menerima sebuah pesan yang tidak dapat diproses atau ditampilkan karena menggunakan fitur baru Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Anda menerima sebuah pesan yang tidak dapat diproses atau ditampilkan karena menggunakan fitur baru Morse.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Perbarui Signal Sekarang";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Perbarui Morse Sekarang";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Signal telah diperbarui ke versi terkini. Anda sekarang dapat menerima pesan tipe ini pada perangkat Anda.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Morse telah diperbarui ke versi terkini. Anda sekarang dapat menerima pesan tipe ini pada perangkat Anda.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Anda dapat meminta %@ untuk mengirim ulang pesan ini saat Anda menggunakan versi Signal terbaru. ";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Anda dapat meminta %@ untuk mengirim ulang pesan ini saat Anda menggunakan versi Morse terbaru. ";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Anda dapat meminta pengirim untuk mengirim ulang pesan ini saat Anda menggunakan versi Signal terbaru. ";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Anda dapat meminta pengirim untuk mengirim ulang pesan ini saat Anda menggunakan versi Morse terbaru. ";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Tidak Dikenal";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Buang kaitan %@'?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Perangkat anda tidak lagi terhubung. Hubungkan kembali Signal dengan telepon Anda untuk melanjutkan pesan.";
+"UNLINKED_WARNING" = "Perangkat anda tidak lagi terhubung. Hubungkan kembali Morse dengan telepon Anda untuk melanjutkan pesan.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal tidak dapat menautkan perangkat anda";
+"UNLINKING_FAILED_ALERT_TITLE" = "Morse tidak dapat menautkan perangkat anda";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Perangkat Tak Bernama";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Perangkat Anda tidak mendukung fitur ini.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Nomor keamanan Anda dengan %@ berubah mungkin karena mereka memasang ulang Signal atau mengganti perangkat. Ketuk Verifikasi untuk mengonfirmasi nomor keamanan barunya. Ini bersifat opsional.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Nomor keamanan Anda dengan %@ berubah mungkin karena mereka memasang ulang Morse atau mengganti perangkat. Ketuk Verifikasi untuk mengonfirmasi nomor keamanan barunya. Ini bersifat opsional.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Memeriksa";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "Pelajari Lebih Lanjut Mengenai PIN";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN menjaga informasi yang disimpan dengan Signal terenkripsi sehingga hanya Anda yang dapat mengaksesnya. Profil Anda, pengaturan, dan kontak-kontak akan dipulihkan saat Anda memasang ulang aplikasi. Anda tidak memerlukan PIN untuk membuka aplikasinya.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN menjaga informasi yang disimpan dengan Morse terenkripsi sehingga hanya Anda yang dapat mengaksesnya. Profil Anda, pengaturan, dan kontak-kontak akan dipulihkan saat Anda memasang ulang aplikasi. Anda tidak memerlukan PIN untuk membuka aplikasinya.";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "Memperkenalkan PIN";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "Nonaktifkan PIN";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal akan segera mensyaratkan iOS 11 atau lebih baru. Perbarui di Pengaturan >> Umum >> Pembaruan Perangkat Lunak.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Morse akan segera mensyaratkan iOS 11 atau lebih baru. Perbarui di Pengaturan >> Umum >> Pembaruan Perangkat Lunak.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Perbarui iOS";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Nama pengguna pada Signal adalah opsional. Jika Anda memilih untuk membuat nama pengguna, pengguna Signal lain akan dapat menemukan Anda dengan nama pengguna Anda tanpa mengetahui nomor telepon Anda.";
+"USERNAME_DESCRIPTION" = "Nama pengguna pada Morse adalah opsional. Jika Anda memilih untuk membuat nama pengguna, pengguna Morse lain akan dapat menemukan Anda dengan nama pengguna Anda tanpa mengetahui nomor telepon Anda.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "Nama pengguna hanya boleh terdiri dari karakter a-z, 0-9, dan _";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "Galat terjadi saat mengecek nama pengguna. Silahkan coba lagi dalam beberapa saat.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "%@ bukan pengguna Signal. Pastikan Anda telah memasukkan nama pengguna dengan lengkap.";
+"USERNAME_NOT_FOUND_FORMAT" = "%@ bukan pengguna Morse. Pastikan Anda telah memasukkan nama pengguna dengan lengkap.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "Pengguna Tidak Ditemukan";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Tekan dan tahan untuk merekam.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Selesaikan setelan pada Signal Desktop";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Selesaikan setelan pada Morse Desktop";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Nama Kontak";

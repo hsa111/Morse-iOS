@@ -98,91 +98,91 @@ class AppSettingsViewController: OWSTableViewController2 {
                 self?.navigationController?.pushViewController(vc, animated: true)
             }
         ))
-        section1.add(.disclosureItem(
-            icon: .settingsLinkedDevices,
-            name: NSLocalizedString("LINKED_DEVICES_TITLE", comment: "Menu item and navbar title for the device manager"),
-            accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "linked-devices"),
-            actionBlock: { [weak self] in
-                let vc = LinkedDevicesTableViewController()
-                self?.navigationController?.pushViewController(vc, animated: true)
-            }
-        ))
-        if payments.shouldShowPaymentsUI {
-            section1.add(.init(
-                customCellBlock: {
-                    let cell = OWSTableItem.newCell()
-                    cell.preservesSuperviewLayoutMargins = true
-                    cell.contentView.preservesSuperviewLayoutMargins = true
-
-                    var subviews = [UIView]()
-
-                    let iconView = OWSTableItem.imageView(forIcon: .settingsPayments,
-                                                          tintColor: nil,
-                                                          iconSize: OWSTableItem.iconSize)
-                    iconView.setCompressionResistanceHorizontalHigh()
-                    subviews.append(iconView)
-                    subviews.append(UIView.spacer(withWidth: OWSTableItem.iconSpacing))
-
-                    let nameLabel = UILabel()
-                    nameLabel.text = NSLocalizedString("SETTINGS_PAYMENTS_TITLE",
-                                                       comment: "Label for the 'payments' section of the app settings.")
-                    nameLabel.textColor = Theme.primaryTextColor
-                    nameLabel.font = OWSTableItem.primaryLabelFont
-                    nameLabel.adjustsFontForContentSizeCategory = true
-                    nameLabel.numberOfLines = 0
-                    nameLabel.lineBreakMode = .byWordWrapping
-                    nameLabel.setContentHuggingLow()
-                    nameLabel.setCompressionResistanceHigh()
-                    subviews.append(nameLabel)
-
-                    let betaIcon = UIImage(named: Theme.isDarkThemeEnabled ? "beta-dark-24" : "beta-light-24")
-                    let betaIconView = UIImageView(image: betaIcon)
-                    betaIconView.setCompressionResistanceHorizontalHigh()
-                    subviews.append(UIView.spacer(withWidth: 8))
-                    subviews.append(betaIconView)
-
-                    subviews.append(UIView.hStretchingSpacer())
-
-                    let unreadPaymentsCount = Self.databaseStorage.read { transaction in
-                        PaymentFinder.unreadCount(transaction: transaction)
-                    }
-                    if unreadPaymentsCount > 0 {
-                        let unreadLabel = UILabel()
-                        unreadLabel.text = OWSFormat.formatUInt(min(9, unreadPaymentsCount))
-                        unreadLabel.font = .ows_dynamicTypeBody2Clamped
-                        unreadLabel.textColor = .ows_white
-
-                        let unreadBadge = OWSLayerView.circleView()
-                        unreadBadge.backgroundColor = .ows_accentBlue
-                        unreadBadge.addSubview(unreadLabel)
-                        unreadLabel.autoCenterInSuperview()
-                        unreadLabel.autoPinEdge(toSuperviewEdge: .top, withInset: 3)
-                        unreadLabel.autoPinEdge(toSuperviewEdge: .bottom, withInset: 3)
-                        unreadBadge.autoPinToSquareAspectRatio()
-                        unreadBadge.setContentHuggingHorizontalHigh()
-                        unreadBadge.setCompressionResistanceHorizontalHigh()
-                        subviews.append(unreadBadge)
-                    }
-
-                    let contentRow = UIStackView(arrangedSubviews: subviews)
-                    contentRow.alignment = .center
-                    cell.contentView.addSubview(contentRow)
-
-                    contentRow.setContentHuggingHigh()
-                    contentRow.autoPinEdgesToSuperviewMargins()
-                    contentRow.autoSetDimension(.height, toSize: OWSTableItem.iconSize, relation: .greaterThanOrEqual)
-
-                    cell.accessibilityIdentifier = UIView.accessibilityIdentifier(in: self, name: "payments")
-                    cell.accessoryType = .disclosureIndicator
-
-                    return cell
-                },
-                actionBlock: { [weak self] in
-                    let vc = PaymentsSettingsViewController(mode: .inAppSettings)
-                    self?.navigationController?.pushViewController(vc, animated: true)
-                }
-            ))
-        }
+//        section1.add(.disclosureItem(
+//            icon: .settingsLinkedDevices,
+//            name: NSLocalizedString("LINKED_DEVICES_TITLE", comment: "Menu item and navbar title for the device manager"),
+//            accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "linked-devices"),
+//            actionBlock: { [weak self] in
+//                let vc = LinkedDevicesTableViewController()
+//                self?.navigationController?.pushViewController(vc, animated: true)
+//            }
+//        ))
+//        if payments.shouldShowPaymentsUI {
+//            section1.add(.init(
+//                customCellBlock: {
+//                    let cell = OWSTableItem.newCell()
+//                    cell.preservesSuperviewLayoutMargins = true
+//                    cell.contentView.preservesSuperviewLayoutMargins = true
+//
+//                    var subviews = [UIView]()
+//
+//                    let iconView = OWSTableItem.imageView(forIcon: .settingsPayments,
+//                                                          tintColor: nil,
+//                                                          iconSize: OWSTableItem.iconSize)
+//                    iconView.setCompressionResistanceHorizontalHigh()
+//                    subviews.append(iconView)
+//                    subviews.append(UIView.spacer(withWidth: OWSTableItem.iconSpacing))
+//
+//                    let nameLabel = UILabel()
+//                    nameLabel.text = NSLocalizedString("SETTINGS_PAYMENTS_TITLE",
+//                                                       comment: "Label for the 'payments' section of the app settings.")
+//                    nameLabel.textColor = Theme.primaryTextColor
+//                    nameLabel.font = OWSTableItem.primaryLabelFont
+//                    nameLabel.adjustsFontForContentSizeCategory = true
+//                    nameLabel.numberOfLines = 0
+//                    nameLabel.lineBreakMode = .byWordWrapping
+//                    nameLabel.setContentHuggingLow()
+//                    nameLabel.setCompressionResistanceHigh()
+//                    subviews.append(nameLabel)
+//
+//                    let betaIcon = UIImage(named: Theme.isDarkThemeEnabled ? "beta-dark-24" : "beta-light-24")
+//                    let betaIconView = UIImageView(image: betaIcon)
+//                    betaIconView.setCompressionResistanceHorizontalHigh()
+//                    subviews.append(UIView.spacer(withWidth: 8))
+//                    subviews.append(betaIconView)
+//
+//                    subviews.append(UIView.hStretchingSpacer())
+//
+//                    let unreadPaymentsCount = Self.databaseStorage.read { transaction in
+//                        PaymentFinder.unreadCount(transaction: transaction)
+//                    }
+//                    if unreadPaymentsCount > 0 {
+//                        let unreadLabel = UILabel()
+//                        unreadLabel.text = OWSFormat.formatUInt(min(9, unreadPaymentsCount))
+//                        unreadLabel.font = .ows_dynamicTypeBody2Clamped
+//                        unreadLabel.textColor = .ows_white
+//
+//                        let unreadBadge = OWSLayerView.circleView()
+//                        unreadBadge.backgroundColor = .ows_accentBlue
+//                        unreadBadge.addSubview(unreadLabel)
+//                        unreadLabel.autoCenterInSuperview()
+//                        unreadLabel.autoPinEdge(toSuperviewEdge: .top, withInset: 3)
+//                        unreadLabel.autoPinEdge(toSuperviewEdge: .bottom, withInset: 3)
+//                        unreadBadge.autoPinToSquareAspectRatio()
+//                        unreadBadge.setContentHuggingHorizontalHigh()
+//                        unreadBadge.setCompressionResistanceHorizontalHigh()
+//                        subviews.append(unreadBadge)
+//                    }
+//
+//                    let contentRow = UIStackView(arrangedSubviews: subviews)
+//                    contentRow.alignment = .center
+//                    cell.contentView.addSubview(contentRow)
+//
+//                    contentRow.setContentHuggingHigh()
+//                    contentRow.autoPinEdgesToSuperviewMargins()
+//                    contentRow.autoSetDimension(.height, toSize: OWSTableItem.iconSize, relation: .greaterThanOrEqual)
+//
+//                    cell.accessibilityIdentifier = UIView.accessibilityIdentifier(in: self, name: "payments")
+//                    cell.accessoryType = .disclosureIndicator
+//
+//                    return cell
+//                },
+//                actionBlock: { [weak self] in
+//                    let vc = PaymentsSettingsViewController(mode: .inAppSettings)
+//                    self?.navigationController?.pushViewController(vc, animated: true)
+//                }
+//            ))
+//        }
         contents.addSection(section1)
 
         let section2 = OWSTableSection()
@@ -301,7 +301,7 @@ class AppSettingsViewController: OWSTableViewController2 {
                                    accessoryView: nil,
                                    accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "donate"),
                                    actionBlock: { () in
-                    UIApplication.shared.open(URL(string: "https://signal-plus.org/donate")!, options: [:], completionHandler: nil)
+                    UIApplication.shared.open(URL(string: "https://devplusone.com/donate")!, options: [:], completionHandler: nil)
                 }))
             }
 
@@ -317,21 +317,21 @@ class AppSettingsViewController: OWSTableViewController2 {
             ))
         }
 
-        contents.addSection(section4)
+        //contents.addSection(section4)
 
-        if DebugFlags.internalSettings {
-            let internalSection = OWSTableSection()
-            internalSection.add(.disclosureItem(
-                icon: .settingsAdvanced,
-                name: "Internal",
-                accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "internal"),
-                actionBlock: { [weak self] in
-                    let vc = InternalSettingsViewController()
-                    self?.navigationController?.pushViewController(vc, animated: true)
-                }
-            ))
-            contents.addSection(internalSection)
-        }
+//        if DebugFlags.internalSettings {
+//            let internalSection = OWSTableSection()
+//            internalSection.add(.disclosureItem(
+//                icon: .settingsAdvanced,
+//                name: "Internal",
+//                accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "internal"),
+//                actionBlock: { [weak self] in
+//                    let vc = InternalSettingsViewController()
+//                    self?.navigationController?.pushViewController(vc, animated: true)
+//                }
+//            ))
+//            contents.addSection(internalSection)
+//        }
 
         self.contents = contents
     }

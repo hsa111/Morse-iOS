@@ -89,7 +89,7 @@ public class PaymentsViewPassphraseSplashViewController: OWSViewController {
             text: NSLocalizedString("SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION",
                                     comment: "Explanation of the 'payments passphrase' in the 'view payments passphrase' settings."),
             font: .ows_dynamicTypeBody2Clamped,
-            learnMoreUrl: "https://support.signal.org/hc/en-us/articles/360057625692#payments_wallet_view_passphrase")
+            learnMoreUrl: "https://support.devplusone.com/hc/en-us/articles/360057625692#payments_wallet_view_passphrase")
         explanationLabel.textAlignment = .center
 
         let topStack = UIStackView(arrangedSubviews: [

@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "ھازىر ئەمەس";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "‫Signal ھەققىدە";
+"ABOUT_SECTION_TITLE" = "‫Morse ھەققىدە";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "يېڭى بىخەتەرلىك نومۇرىنى قوبۇل قىل";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "ئۈن ئۇچۇر %@ سېكۇنت";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "‫Signal چاقىرىشى";
+"ACTION_AUDIO_CALL" = "‫Morse چاقىرىشى";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Signal ئىشلىتىش تەكلىپى";
+"ACTION_INVITE" = "Morse ئىشلىتىش تەكلىپى";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "ئۇچۇر يوللا";
@@ -149,7 +149,7 @@
 "APN_Message" = "يېڭى ئۇچۇرىڭىز بار";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "‫Signal قوزغىلالمىدى. support@signal.org غا سازلاش خاتىرىسى ئەۋەتىپ بۇ كاشىلىنى ھەل قىلىشىمىزغا ياردەم قىلىڭ.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "‫Morse قوزغىلالمىدى. support@devplusone.com غا سازلاش خاتىرىسى ئەۋەتىپ بۇ كاشىلىنى ھەل قىلىشىمىزغا ياردەم قىلىڭ.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "خاتالىق";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "سانداننى يۈكلىيەلمىدى";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "ئەڭ يېڭى نەشرىدىكى Signal غا يۈكسەلتىڭ.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "ئەڭ يېڭى نەشرىدىكى Morse غا يۈكسەلتىڭ.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "يوچۇن ساندان نەشرى.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "كونا ئەسكۈنىڭىزدىن يوللىغان سانلىق مەلۇماتنى ئەسلىگە كەلتۈرگىلى بولمىدى. support@signal.org غا سازلاش خاتىرىسى ئەۋەتىپ بۇ كاشىلىنى ھەل قىلىشىمىزغا ياردەم قىلىڭ.  ئەگەر Signal نى قايتا ئورناتسىڭىز ئۇچۇر تارىخىڭىزنى يوقىتىشىڭىز مۇمكىن.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "كونا ئەسكۈنىڭىزدىن يوللىغان سانلىق مەلۇماتنى ئەسلىگە كەلتۈرگىلى بولمىدى. support@devplusone.com غا سازلاش خاتىرىسى ئەۋەتىپ بۇ كاشىلىنى ھەل قىلىشىمىزغا ياردەم قىلىڭ.  ئەگەر Morse نى قايتا ئورناتسىڭىز ئۇچۇر تارىخىڭىزنى يوقىتىشىڭىز مۇمكىن.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "يۆتكەشنى تاماملىيالمىدى.";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "%@ نەشرى App Store غا قويۇلدى.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "يېڭى نەشرىدىكى Signal نى ئىشلىتەلەيسىز.";
+"APP_UPDATE_NAG_ALERT_TITLE" = "يېڭى نەشرىدىكى Morse نى ئىشلىتەلەيسىز.";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "يېڭىلاش";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "سىستېما";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "ئارخىپ";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "قوشۇمچىنى چىقىرالمىدى.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "ساقلىيالمىدى";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Become a Sustainer";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Give Signal a Boost";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Give Morse a Boost";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Signal but to support technology that is built for you, please consider becoming a monthly Sustainer.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Morse but to support technology that is built for you, please consider becoming a monthly Sustainer.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can reactivate your Boost badge for another 30 days with a one-time contribution.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Morse but to support the app and reactivate your badge, renew now.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Become a Sustainer";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "When you have more than one badge, you can choose one to feature for others to see on your profile.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned the %@ badge! Help Signal build awareness by displaying this badge on your profile.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned the %@ badge! Help Morse build awareness by displaying this badge on your profile.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "لوزۇنكىنى ياپ";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "ئىئانە قىلىدىغان سوممىنى تاللاڭ";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Give Signal a Boost";
+"BOOST_VIEW_TITLE" = "Give Morse a Boost";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "قوشۇش";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 جاۋابسىز ئۈن چاقىرىلىش";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "سىز iOS نىڭ تەڭشەكلەردىن مىكروفون ھوقۇقىنى قوزغىتىپ، Signal نىڭ چاقىرىش ۋە ئۈن ئۇچۇرى خاتىرىلىشىگە يول قويالايسىز.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "سىز iOS نىڭ تەڭشەكلەردىن مىكروفون ھوقۇقىنى قوزغىتىپ، Morse نىڭ چاقىرىش ۋە ئۈن ئۇچۇرى خاتىرىلىشىگە يول قويالايسىز.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "مىكروفون زىيارەت ھوقۇقى زۆرۈر";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "جاۋاب يوق";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "چاقىر";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "كامېرا تاقاق";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "‫Signal ئىشلەتكۈچى";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "‫Morse ئىشلەتكۈچى";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "سۈرەت تارتىپ ۋە ئۇنى يوللايدۇ";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "چاپلاش تاختىسىدى بىلەن سېلىشتۇر";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "سۆھبەتلىشىدىغان Signal ئىشلەتكۈچىنى تاللايدۇ ياكى ئىزدەيدۇ.";
+"COMPOSE_BUTTON_HINT" = "سۆھبەتلىشىدىغان Morse ئىشلەتكۈچىنى تاللايدۇ ياكى ئىزدەيدۇ.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "ياز";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "قوللانغۇچىنى  ئىزدەش";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "سىز iOS نىڭ تەڭشەكلەردىن ئالاقەداشلار زىيارەت ھوقۇقىنى قوزغىتىپ، كىملەرنىڭ Signal ئىشلەتكۈچىسى ئىكەنلىكىنى كۆرەلەيسىز.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "سىز iOS نىڭ تەڭشەكلەردىن ئالاقەداشلار زىيارەت ھوقۇقىنى قوزغىتىپ، كىملەرنىڭ Morse ئىشلەتكۈچىسى ئىكەنلىكىنى كۆرەلەيسىز.";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "ئۇچۇرنى ئۆچۈرۈش ئارقىلىق ئەپنى ئەسلىگە قايتۇرىدۇ. بۇ جەريان ئاخىرلاشقاندىن كېيىن ئەپ تاقىلىدۇ.";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "بەزى نەرسە ئىشلىمەيۋاتىدۇ";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Sustainers & Signal Boost";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Sustainers & Morse Boost";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Sustainers & Boost";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal ياردەم ئىلتىماسىڭىزنى تاماملىيالمايدۇ.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morse ياردەم ئىلتىماسىڭىزنى تاماملىيالمايدۇ.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "قايتا سىنا";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "ئۈن";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Signal. Tap a badge to learn more.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Morse. Tap a badge to learn more.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "ئىزناكلار";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "ھېساباتنى ئۆچۈر";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "بۇ مەشغۇلات Signal ھېساباتىنى ئۆچۈرۈپ، ئەپنى ئەسلىگە قايتۇرىدۇ. بۇ مەشغۇلات تاماملانغاندا ئەپ تاقىلىدۇ.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "بۇ مەشغۇلات Morse ھېساباتىنى ئۆچۈرۈپ، ئەپنى ئەسلىگە قايتۇرىدۇ. بۇ مەشغۇلات تاماملانغاندا ئەپ تاقىلىدۇ.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "راستلا ھېساباتىڭىزنى ئۆچۈرۈۋېتەمسىز؟";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "تېلېفون نومۇرى";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Signal نومۇرىڭىزنى جەزملەڭ";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Morse نومۇرىڭىزنى جەزملەڭ";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "ھېساباتنى ئۆچۈر";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "بۇ تېلېفون نومۇرنى قايتا تىزىملات";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "ئۈسكۈنە تىزىملىتىلمىغان. تېلېفون نومۇرىڭىز باشقا ئۈسكۈنىدە Signal غا تىزىملىتىلغان بولۇشى مۇمكىن. چېكىلسە قايتا تىزىملايدۇ.";
+"DEREGISTRATION_WARNING" = "ئۈسكۈنە تىزىملىتىلمىغان. تېلېفون نومۇرىڭىز باشقا ئۈسكۈنىدە Morse غا تىزىملىتىلغان بولۇشى مۇمكىن. چېكىلسە قايتا تىزىملايدۇ.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "ئاخىرقى پائالىيەت %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "ئەگەر كونا iOS ئۈسكۈنىڭىز بولسا، ھېسابات ۋە ئۇچۇرلىرىڭىزنى بىخەتەر ھالدا يېڭى ئۈسكۈنىڭىزگە يۆتكىيەلەيسىز.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "ئەگەر سىز ئىلگىرى  iPad كە باغلانغان Signal ئىشلەتكەن بولسىڭىز، ھېسابات ۋە ئۇچۇرلىرىڭىزنى بۇ ئۈسكۈنىگە بىخەتەر يۆتكىيەلەيسىز.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "ئەگەر سىز ئىلگىرى  iPad كە باغلانغان Morse ئىشلەتكەن بولسىڭىز، ھېسابات ۋە ئۇچۇرلىرىڭىزنى بۇ ئۈسكۈنىگە بىخەتەر يۆتكىيەلەيسىز.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "ھېسابات ۋە ئۇچۇرلىرىڭىزنى يۆتكىمەي داۋاملاشتۇرىدۇ";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "iOS ئۈسكۈنىسىدىن يۆتكەيدۇ";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "بۇ مەشغۇلات داۋاملاشسا ئوخشاش نومۇر بىلەن تىزىملىتىلغان باشقا ئۈسكۈنىدىكى Signal چەكلىنىدۇ.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "بۇ مەشغۇلات داۋاملاشسا ئوخشاش نومۇر بىلەن تىزىملىتىلغان باشقا ئۈسكۈنىدىكى Morse چەكلىنىدۇ.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "يېڭى ئۈسكۈنىڭىزنى دەلىللىيەلمىدى. قايتا سىناڭ.";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "يۆتكەشنى تاماملاشقا يېتەرلىك بوشلۇق يوق";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "‫Signal نىڭ ئەڭ يېڭى نەشرىگە يېڭىلاپ ئاندىن قايتا سىناڭ";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "‫Morse نىڭ ئەڭ يېڭى نەشرىگە يېڭىلاپ ئاندىن قايتا سىناڭ";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "‫Signal ھېساباتىڭىزنى يېڭى iOS ئۈسكۈنىسىگە يۆتكەيدۇ. يېڭى ئۈسكۈنىڭىزنى يېقىن ئەتراپتا قويۇپ ئوچۇق ھالەتتە ئىكەنلىكىگە كاپالەتلىك قىلىڭ.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "‫Morse ھېساباتىڭىزنى يېڭى iOS ئۈسكۈنىسىگە يۆتكەيدۇ. يېڭى ئۈسكۈنىڭىزنى يېقىن ئەتراپتا قويۇپ ئوچۇق ھالەتتە ئىكەنلىكىگە كاپالەتلىك قىلىڭ.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "ھېساباتنى يۆتكە";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "كون ئۈسكۈنىڭىزدە Signal نى ئېچىپ، ئۇنى يېقىنلاشتۇرۇپ، ھەر ئىككى ئۈسكۈنىدە Wi-Fi ۋە كۆكچىشنىڭ ئوچۇق بولۇشىغا كاپالەتلىك قىلىڭ.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "كون ئۈسكۈنىڭىزدە Morse نى ئېچىپ، ئۇنى يېقىنلاشتۇرۇپ، ھەر ئىككى ئۈسكۈنىدە Wi-Fi ۋە كۆكچىشنىڭ ئوچۇق بولۇشىغا كاپالەتلىك قىلىڭ.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "يەنە بىر ئۈسكۈنىڭىزدە رامكىدىكى چىپار كودنى تاراڭ.";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "يەنە بىر ئۈسكۈنىنى كۈتۈۋاتىدۇ…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "ئىككى ئۈسكۈنىنى يېقىنلاشتۇرۇڭ. ئۈسكۈتە ۋە Signal ئوچۇق تۇرسۇن. يۆتكەنش نۇقتىدىن نۇقتىغا شىفىرلانغان.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "ئىككى ئۈسكۈنىنى يېقىنلاشتۇرۇڭ. ئۈسكۈتە ۋە Morse ئوچۇق تۇرسۇن. يۆتكەنش نۇقتىدىن نۇقتىغا شىفىرلانغان.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "مەلۇمات قوبۇللىنىۋاتىدۇ";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "يېڭى ئۈسكىنىڭىزنى كامېراغا توغرۇلاڭ";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "ئىككى ئۈسكىنىنى يېقىن تۇتۇڭ. ئۈسكۈنىلەر ئېتىلىپ قالمىسۇن، Signal ئوچۇق ھالەتتە تۇرسۇن. يۆتكەش ئۇچتىن-ئۇچقا شىفرىلىنىدۇ.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "ئىككى ئۈسكىنىنى يېقىن تۇتۇڭ. ئۈسكۈنىلەر ئېتىلىپ قالمىسۇن، Morse ئوچۇق ھالەتتە تۇرسۇن. يۆتكەش ئۇچتىن-ئۇچقا شىفرىلىنىدۇ.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "مەلۇمات يۆتكىلىۋاتىدۇ";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "ئىختىيارىچە سومما كىرگۈزۈڭ";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Signal غا ئىئانە قىلىش";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Morse غا ئىئانە قىلىش";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "باشقا يول بىلەن ئىئانە قىلىش";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "قوللىغىنىڭىزغا رەھمەت!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signal نى سىزگە ئوخشاش كىشىلەر قوللايدۇ.";
+"DONATION_VIEW_TITLE" = "Morse نى سىزگە ئوخشاش كىشىلەر قوللايدۇ.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Signal قوشۇنى ئوچۇق كودلۇق شەخسىيەت تېخنىكىسىنى ئىجاد قىلىپ، ئەركىن پىكىر بايان قىلىش، بىخەتەر ھالدا دۇنياۋى ئالاقىغا كاپالەتلىك قىلىش ئۈچۈن كۈچ چىقىرىدۇ. تۆھپىڭىز بۇ ئىشلارغا ياردەم قىلدى. ئېلان يوق. ئىزلاش يوق. چاقچاق يوق.\n\nئىئانىڭىز ئەپ ئىجادىيىتى، مۇلازىمېتىر ۋە كەڭ بەلباغ ئېقىم ھەققىنى تۆلەشكە ياردەم بېرىدۇ. بۇ ئەپنى دۇنيانىڭ ھەر قايسى جايلىرىدىكى مىليونلىغان كىشىلەر شەخسىي ۋە شۇئان ئالاقە ئۈچۈن ئىشلىتىدۇ.";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Morse قوشۇنى ئوچۇق كودلۇق شەخسىيەت تېخنىكىسىنى ئىجاد قىلىپ، ئەركىن پىكىر بايان قىلىش، بىخەتەر ھالدا دۇنياۋى ئالاقىغا كاپالەتلىك قىلىش ئۈچۈن كۈچ چىقىرىدۇ. تۆھپىڭىز بۇ ئىشلارغا ياردەم قىلدى. ئېلان يوق. ئىزلاش يوق. چاقچاق يوق.\n\nئىئانىڭىز ئەپ ئىجادىيىتى، مۇلازىمېتىر ۋە كەڭ بەلباغ ئېقىم ھەققىنى تۆلەشكە ياردەم بېرىدۇ. بۇ ئەپنى دۇنيانىڭ ھەر قايسى جايلىرىدىكى مىليونلىغان كىشىلەر شەخسىي ۋە شۇئان ئالاقە ئۈچۈن ئىشلىتىدۇ.";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "نېمىشقا ئىئانە قىلىمىز؟";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "سىز iOS تەڭشەكلىرىدىن ئەپ زىيارەت ھوقۇقىنى قوزغىتالايسىز.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "‫Signal ئالاقىداش ئۇچۇرلىرىنى تەھرىرلەشكە «ئالاقىداش» زىيارەت ھوقۇقى تەلەپ قىلىدۇ";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "‫Morse ئالاقىداش ئۇچۇرلىرىنى تەھرىرلەشكە «ئالاقىداش» زىيارەت ھوقۇقى تەلەپ قىلىدۇ";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "گۇرۇپپا تەھرىرلەڭ";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "بۇ ئىشلەتكۈچى Signal نى يۇقىرىلاتمىغىچە بۇ گۇرۇپپىغا قوشقىلى بولمايدۇ.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "بۇ ئىشلەتكۈچى Morse نى يۇقىرىلاتمىغىچە بۇ گۇرۇپپىغا قوشقىلى بولمايدۇ.";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "گۇرۇپپىنىڭ ئادەم سانى ئەزا چېكى %@ گە يەتتى.";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "كۆچۈر";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "سالام،\n\nيېقىندىن بېرى مەن ئالما تېلېفونۇمدا Signal نى ئىشلىتىپ، باشقىلار بىلەن بىخەتەر سۆھبتلىشىۋاتىمەن. سىزنىڭمۇ قاچىلىۋېلىشىڭىزنى ئۈمىت قىلىمەن. بۇنداق بولغاندا ئۇچۇرلىرىمىزنى ئىككىمىزنىڭلا كۆرگىنىگە ياكى سۆھبەتلىرىمىزنى ئىككىمىزنىڭلا ئاڭلىغىنىغا ئىشەنچ قىلالايمىز.\n\nSignal نى ئالما ۋە Android ئىككىسىدە ئىشلەيدۇ. بۇ يەردىن ئېرىشەلەيسىز:%@\n\nSignal نى ئىشلىتىش سىزدىكى بار بولغان ئۇچۇرلىشىش ئەپلىرىگە ئوخشاش. رەسىم ۋە سىن ئەۋەتەلەيمىز، تېلېفون ئۇرالايمىز، ھەم گۇرۇپپا سۆھبىتى قۇرالايمىز. ئەڭ ئىسىل يېرى ھېچكىم بۇلارنى كۆرەلمەيدۇ. ھەتتا Signal نى ياسىغان ئادەممۇ. \n\nSignal نى ياسىغان  ئوچۇق پسىلداس سېستىمىلىرى ھەققىدە تېخىمۇ كۆپرەك ئوقۇماقچى بولسىڭىز، بۇ يەردە: %@ ";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "سالام،\n\nيېقىندىن بېرى مەن ئالما تېلېفونۇمدا Morse نى ئىشلىتىپ، باشقىلار بىلەن بىخەتەر سۆھبتلىشىۋاتىمەن. سىزنىڭمۇ قاچىلىۋېلىشىڭىزنى ئۈمىت قىلىمەن. بۇنداق بولغاندا ئۇچۇرلىرىمىزنى ئىككىمىزنىڭلا كۆرگىنىگە ياكى سۆھبەتلىرىمىزنى ئىككىمىزنىڭلا ئاڭلىغىنىغا ئىشەنچ قىلالايمىز.\n\nMorse نى ئالما ۋە Android ئىككىسىدە ئىشلەيدۇ. بۇ يەردىن ئېرىشەلەيسىز:%@\n\nMorse نى ئىشلىتىش سىزدىكى بار بولغان ئۇچۇرلىشىش ئەپلىرىگە ئوخشاش. رەسىم ۋە سىن ئەۋەتەلەيمىز، تېلېفون ئۇرالايمىز، ھەم گۇرۇپپا سۆھبىتى قۇرالايمىز. ئەڭ ئىسىل يېرى ھېچكىم بۇلارنى كۆرەلمەيدۇ. ھەتتا Morse نى ياسىغان ئادەممۇ. \n\nMorse نى ياسىغان  ئوچۇق پسىلداس سېستىمىلىرى ھەققىدە تېخىمۇ كۆپرەك ئوقۇماقچى بولسىڭىز، بۇ يەردە: %@ ";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "‫Signal دا پاراڭلىشايلى";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "‫Morse دا پاراڭلىشايلى";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "ئۈسكۈنىڭىزدە ئېلخەت يوللاش تەڭشىكى سەپلەنمىگەن. ياردەم ئىلتىماسى يوللاش ئۈچۈن، ئۈسكۈنىڭىزدە تورخەتنى تەڭشەڭ ياكى support@signal.org غا ئېلخەت يوللاڭ";
+"EMAIL_SIGNAL_MESSAGE" = "ئۈسكۈنىڭىزدە ئېلخەت يوللاش تەڭشىكى سەپلەنمىگەن. ياردەم ئىلتىماسى يوللاش ئۈچۈن، ئۈسكۈنىڭىزدە تورخەتنى تەڭشەڭ ياكى support@devplusone.com غا ئېلخەت يوللاڭ";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "ئېلخەت يوق";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "ساياھەت & يەرلەر";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "ئالاقىداشلىرىڭىزنىڭ ھېچقايسىسىدا Signal يوق.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "ئالاقىداشلىرىڭىزنىڭ ھېچقايسىسىدا Morse يوق.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "باشقىلارنى تەكلىپ قىلىپ باقمامسىز؟";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "قارا تىزىملىكتىكى ئىشلەتكۈچىگە ئۇچۇر يوللىيالمايدۇ.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "‫Signal ئىنتېرنىتقا باغلىنالمىدى. قايتا سىناڭ.";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "‫Morse ئىنتېرنىتقا باغلىنالمىدى. قايتا سىناڭ.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "ئىناۋەتلىك تاپشۇرۇۋالغۇچى بولمىغانلىقتىن ئۇچۇرنى يوللىيالمىدى.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "مۇلازىمىتىر ئىناۋەتسىز ئىنكاس قايتۇردى.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "بۇ ئۈسكۈنە تېلېفون نومۇرىڭىز بىلەن باغلانمىغان. Signal نى قايتا ئورنىتىڭ.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "بۇ ئۈسكۈنە تېلېفون نومۇرىڭىز بىلەن باغلانمىغان. Morse نى قايتا ئورنىتىڭ.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "مۇلازىمېتىر خاتالىقى. سەل تۇرۇپ قايتا سىناڭ.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "يوچۇن خاتالىققا يولۇقتى.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "ئالاقەداش Signal ئىشلەتكۈچىسى ئەمەس.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "ئالاقەداش Morse ئىشلەتكۈچىسى ئەمەس.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "يۈكلەنمەنى چۈشۈرەلمىدى.";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "تور خاتالىقى";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "ئۈسكۈنىڭىزدىكى سازلاش خاتىرىسى ئارقىلىق بۇ خاتالىقنى support@signal.org غا يوللاپ Signal نى ياخشىلىشىمىزغا ياردەم قىلىڭ؛  %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "ئۈسكۈنىڭىزدىكى سازلاش خاتىرىسى ئارقىلىق بۇ خاتالىقنى support@devplusone.com غا يوللاپ Morse نى ياخشىلىشىمىزغا ياردەم قىلىڭ؛  %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal سىناق نەشرى: خاتالىق كۆرۈلدى";
+"ERROR_NOTIFICATION_TITLE" = "Morse سىناق نەشرى: خاتالىق كۆرۈلدى";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "ئۈسكۈنىڭىز باغلانمىغان ھالەتتە. ئۇچۇر يوللاش ئۈچۈن قايتا باغلاڭ.";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "ئۈسكۈنىڭىز تىزىملىتىلمىغان. ئۇچۇر يوللاش ئۈچۈن قايتا تىزىملىتىڭ.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "‫Signal نەشرىڭىزنىڭ ۋاقتى ئۆتتى. ئۇچۇر يوللاش ئۈچۈن ئەڭ يېڭى نەشرىگە يېڭىلاڭ.";
+"ERROR_SENDING_EXPIRED" = "‫Morse نەشرىڭىزنىڭ ۋاقتى ئۆتتى. ئۇچۇر يوللاش ئۈچۈن ئەڭ يېڭى نەشرىگە يېڭىلاڭ.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "تىزىملاتمىغان ئىشلەتكۈچى: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "‫Signal نەشرىڭىزنىڭ ۋاقتى ئۆتتى. چېكىپ ئەڭ يېڭى نەشرىگە يېڭىلاڭ.";
+"EXPIRATION_ERROR" = "‫Morse نەشرىڭىزنىڭ ۋاقتى ئۆتتى. چېكىپ ئەڭ يېڭى نەشرىگە يېڭىلاڭ.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "‫Signal نەشرىڭىزنىڭ ۋاقتى %d كۈندىن كېيىن توشىدۇ. چېكىپ ئەڭ يېڭى نەشرىگە يېڭىلاڭ.";
+"EXPIRATION_WARNING_SOON" = "‫Morse نەشرىڭىزنىڭ ۋاقتى %d كۈندىن كېيىن توشىدۇ. چېكىپ ئەڭ يېڭى نەشرىگە يېڭىلاڭ.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "‫Signal نەشرىڭىزنىڭ ۋاقتى بۈگۈن توشىدۇ. چېكىپ ئەڭ يېڭى نەشرىگە يېڭىلاڭ.";
+"EXPIRATION_WARNING_TODAY" = "‫Morse نەشرىڭىزنىڭ ۋاقتى بۈگۈن توشىدۇ. چېكىپ ئەڭ يېڭى نەشرىگە يېڭىلاڭ.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "بۇ ئالاقەداش بىلەن ئالاقە قىلغاندا كۆپ خاتالىق كۆرۈلدى، سەل تۇرۇپ قايتا سىناڭ.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "ئىناۋەتسىز ئۇلانما";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "گۇرۇپپىغا قوشۇلۇش ئۈچۈن Signal نى يېڭىلاڭ";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "گۇرۇپپىغا قوشۇلۇش ئۈچۈن Morse نى يېڭىلاڭ";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "گۇرۇپپا ئۇلانمىسى ئارقىلىق قوشۇلماقچى بولغان يېڭى ئەزالارنى باشقۇرغۇچى دەلىللەيدۇ.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR كودى";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "‫Signal ئارقىلىق ھەمبەھىرلە";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "‫Morse ئارقىلىق ھەمبەھىرلە";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "بۇ ئۇلانما ئارقىلىق خالىغان كىشى مەزكۇر گۇرۇپپىنىڭ ئاتى ۋە ئەزالىرىنى كۆرەلەيدۇ ھەمدە گۇرۇپپىغا قوشۇلۇشنى ئىلتىماس قىلالايدۇ. سىز ئىشىنىدىغان كىشىلەرگە ھەمبەھىرلەڭ.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "«كونا گۇرۇپپىلار» دېگەن نېمە؟";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "كونا گۇرۇپپىلارنى ھازىرچە يېڭى گۇرۇپپىغا يۇقىرىلاتقىلى بولمايدۇ. ئەمما ئەزالار يېڭى نەشردىكى Signal نى ئىشلىتىۋاتقان بولسا، سىز ئوخشاش ئەزالار بىلەن يېڭى گۇرۇپپا قۇرالايسىز.\n\nSignal كەلگۈسىدە كونا گۇرۇپپىلارنى يۇقىرىلىتىش ئۇسۇلى بىلەن تەمىنلەيدۇ.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "كونا گۇرۇپپىلارنى ھازىرچە يېڭى گۇرۇپپىغا يۇقىرىلاتقىلى بولمايدۇ. ئەمما ئەزالار يېڭى نەشردىكى Morse نى ئىشلىتىۋاتقان بولسا، سىز ئوخشاش ئەزالار بىلەن يېڭى گۇرۇپپا قۇرالايسىز.\n\nMorse كەلگۈسىدە كونا گۇرۇپپىلارنى يۇقىرىلىتىش ئۇسۇلى بىلەن تەمىنلەيدۇ.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "كونا گۇرۇپپىنى يۇقىرىلاتسام بولامدۇ؟";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "«يېڭى گۇرۇپپا» قۇرۇش ئۈچۈن، بارلىق ئەزالار ئۆزلىرىنىڭ Signal ئەپىنى ئەڭ يېڭى نەشرىگە يۇقىرىلىتىشى كېرەك.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "«يېڭى گۇرۇپپا» قۇرۇش ئۈچۈن، بارلىق ئەزالار ئۆزلىرىنىڭ Morse ئەپىنى ئەڭ يېڭى نەشرىگە يۇقىرىلىتىشى كېرەك.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "كونا ۋە يېڭى گۇرۇپپىلارنىڭ سېلىشتۇرمىسى";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "بۇ گۇرۇپپىدا بەك كۆپ ئەزا بولغاچقا، ئۇنى «يېڭى گۇرۇپپا»غا يۇقىرلاتقىلى بولمىدى. يۇقىرىلىتىش ئۈچۈن گۇرۇپپا ئەزا سانىنىڭ چىكى %@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "نۆۋەتتىكى گۇرۇپپا ئەزالىرىنىڭ ھەممىسى «يېڭى گۇرۇپپا»غا كىرىش ئىقتىدارىغا ئىگە Signal نۇسخىسىنى ئىشلەتكەندە، بۇ گۇرۇپپا يۇقىرىتىلىدۇ.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "نۆۋەتتىكى گۇرۇپپا ئەزالىرىنىڭ ھەممىسى «يېڭى گۇرۇپپا»غا كىرىش ئىقتىدارىغا ئىگە Morse نۇسخىسىنى ئىشلەتكەندە، بۇ گۇرۇپپا يۇقىرىتىلىدۇ.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "يېڭىلاشتىن ئىلگىرى بارلىق ئۇچۇر تارىخى ۋە ۋاسىتە ساقلاپ قېلىنىدۇ.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "بۇ گۇرۇپپىنى قۇرغىلى بولمىدى چۈنكى 1 ئەزا كونا نەشرىدىكى Signal ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Signal يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن سىز «يېڭى ئۇسلۇبتىكى گۇرۇپپا» قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "بۇ گۇرۇپپىنى قۇرغىلى بولمىدى چۈنكى 1 ئەزا كونا نەشرىدىكى Morse ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Morse يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن سىز «يېڭى ئۇسلۇبتىكى گۇرۇپپا» قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "بۇ گۇرۇپپىنى قۇرغىلى بولمىدى چۈنكى %@ ئەزا كونا نەشرىدىكى Signal ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Signal يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن سىز «يېڭى ئۇسلۇبتىكى گۇرۇپپا» قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "بۇ گۇرۇپپىنى قۇرغىلى بولمىدى چۈنكى %@ ئەزا كونا نەشرىدىكى Morse ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Morse يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن سىز «يېڭى ئۇسلۇبتىكى گۇرۇپپا» قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "بۇ گۇرۇپپىنى قۇرغىلى بولمىدى چۈنكى 1 ئەزا كونا نەشرىدىكى Signal ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Signal يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن سىز «يېڭى ئۇسلۇبتىكى گۇرۇپپا» قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ. %@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "بۇ گۇرۇپپىنى قۇرغىلى بولمىدى چۈنكى 1 ئەزا كونا نەشرىدىكى Morse ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Morse يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن سىز «يېڭى ئۇسلۇبتىكى گۇرۇپپا» قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ. %@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "بۇ گۇرۇپپىنى قۇرغىلى بولمىدى چۈنكى %1$@ ئەزالار كونا نەشرىدىكى Signal ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Signal يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن سىز «يېڭى ئۇسلۇبتىكى گۇرۇپپا» قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ. %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "بۇ گۇرۇپپىنى قۇرغىلى بولمىدى چۈنكى %1$@ ئەزالار كونا نەشرىدىكى Morse ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Morse يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن سىز «يېڭى ئۇسلۇبتىكى گۇرۇپپا» قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ. %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "بىر كونا گۇرۇپپا قۇرۇلىدۇ چۈنكى 1 ئەزا كونا نەشرىدىكى Signal ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Signal يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن يېڭى ئۇسلۇبتىكى گۇرۇپپا قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "بىر كونا گۇرۇپپا قۇرۇلىدۇ چۈنكى 1 ئەزا كونا نەشرىدىكى Morse ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Morse يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن يېڭى ئۇسلۇبتىكى گۇرۇپپا قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "بىر كونا گۇرۇپپا قۇرۇلىدۇ چۈنكى %@ ئەزالار كونا نەشرىدىكى Signal ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Signal يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن يېڭى ئۇسلۇبتىكى گۇرۇپپا قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "بىر كونا گۇرۇپپا قۇرۇلىدۇ چۈنكى %@ ئەزالار كونا نەشرىدىكى Morse ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Morse يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن يېڭى ئۇسلۇبتىكى گۇرۇپپا قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "يېڭى گۇرۇپپىنى 1 ئەزا ئىشلىتەلمەيدۇ، شۇڭلاشقا بۇ بىر كونا گۇرۇپپا بولىدۇ. %@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "يېڭى باشقۇرغۇچى تاللاڭ";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "ئەزا سانى %@ ياكى ئاز بولغاندا Signal گۇرۇپپىنىڭ ئىقتىدارى ئەڭ ياخشى. تېخىمۇ كۆپ ئەزا قوشۇلسا ئۇچۇر يوللاش ۋە تاپشۇرۇۋېلىش سەل كېچىكىدۇ.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "ئەزا سانى %@ ياكى ئاز بولغاندا Morse گۇرۇپپىنىڭ ئىقتىدارى ئەڭ ياخشى. تېخىمۇ كۆپ ئەزا قوشۇلسا ئۇچۇر يوللاش ۋە تاپشۇرۇۋېلىش سەل كېچىكىدۇ.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "تەۋسىيە ئەزا چېكىگە يەتتى";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "بىز بىلەن ئالاقىلىشىڭ";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "قوللاش مەركىزى";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "ئارگىنال:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "%@ نى ئۆز ئىچىگە ئالغان بىر قىسىم ئالاقىداشلىرىڭىز ئاللىقاچان Signal دا.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "%@ نى ئۆز ئىچىگە ئالغان بىر قىسىم ئالاقىداشلىرىڭىز ئاللىقاچان Morse دا.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "%@ ۋە %@  نى ئۆز ئىچىگە ئالغان بىر قىسىم ئالاقىداشلىرىڭىز ئاللىقاچان Signal دا.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "%@ ۋە %@  نى ئۆز ئىچىگە ئالغان بىر قىسىم ئالاقىداشلىرىڭىز ئاللىقاچان Morse دا.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "%@، %@ ۋە %@ نى ئۆز ئىچىگە ئالغان بىر قىسىم ئالاقىداشلىرىڭىز ئاللىقاچان Signal دا.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "%@، %@ ۋە %@ نى ئۆز ئىچىگە ئالغان بىر قىسىم ئالاقىداشلىرىڭىز ئاللىقاچان Morse دا.";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "تۇنجى سۆھبىتىڭىزنى بۇ يەردىن باشلاڭ.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "ئارخىپ";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "خالىغان جاي سىزىلسا تۇتۇقلىشىدۇ";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "سىز %@ دىن كۆپ تۈرنى ھەمبەھىرلىيەلمەيسىز.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "رەسىم ئۆزگەرتىڭ";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "تەڭشەكلەردىن Signal غا تولۇق زىيارەت ھوقۇقى بېرىڭ ياكى قايسى سۈرەتلەرنى زىيارەت قىلالايدىغانلىقىنى تاللاڭ.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "تەڭشەكلەردىن Morse غا تولۇق زىيارەت ھوقۇقى بېرىڭ ياكى قايسى سۈرەتلەرنى زىيارەت قىلالايدىغانلىقىنى تاللاڭ.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "رەسىمىڭىزنى كۆرەلمىدىڭىزمۇ؟";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "يانفون ياكى iPad تىن قەدەمداش ھالدا ئۇچۇر يوللاپ ياكى تاپشۇرۇۋالالايسىز. شەخسىيەت سەۋەبىدىن، سۆھبەت خاتىرىسى يېڭىدىن باغلانغان ئۈسكۈنىگە قەدەمداشلانمايدۇ.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ Signal غا قوشۇلدى!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ Morse غا قوشۇلدى!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "چاپلاقلار";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "ئىناۋەتسىز ئۈن ھۆججىتى.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "‫iOS تەڭشەكلەردىن ئالاقەداش زىيارەت ھوقۇقىنى ئاچقاندىن كېيىن، دوستلىرىڭىزنى Signal ئىشلىتىشكە تەكلىپ قىلالايسىز.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "‫iOS تەڭشەكلەردىن ئالاقەداش زىيارەت ھوقۇقىنى ئاچقاندىن كېيىن، دوستلىرىڭىزنى Morse ئىشلىتىشكە تەكلىپ قىلالايسىز.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "ئالاقىداشنى زىيارەت قىلىشىغا رۇخسەت قىلىڭ";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "دوستلىرىڭىزنى Signal غا تەكلىپ قىلىڭ";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "دوستلىرىڭىزنى Morse غا تەكلىپ قىلىڭ";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "ئاقتۇرۇش";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "ھەر قانداق ئۇلانمىنى ئالدىن كۆزەت";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "‫Signal ھېساباتىڭىزنى يۆتكەش ئۈچۈن، ئىككى ئۈسكۈنىدە يەرلىك تور زىيارەت ھوقۇقىنى قوزغىتىشىڭىز كېرەك.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "‫Morse ھېساباتىڭىزنى يۆتكەش ئۈچۈن، ئىككى ئۈسكۈنىدە يەرلىك تور زىيارەت ھوقۇقىنى قوزغىتىشىڭىز كېرەك.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "ياردەم كېرەكمۇ؟";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "«يەرلىك تور» نى قوزغىتىڭ";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "‫Signal نى تېپىڭ";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "‫Morse نى تېپىڭ";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "يەرلىك تور زىيارەت ھوقۇقىنى قوزغىتىڭ";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "ئۇچۇر خاتىرەسى";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "سازلاش خاتىرىسى Signal نىڭ مەسىلە ۋە كاشىلىنى ئوڭشىشىغا ياردەم بېرىدۇ.";
+"LOGGING_SECTION_FOOTER" = "سازلاش خاتىرىسى Morse نىڭ مەسىلە ۋە كاشىلىنى ئوڭشىشىغا ياردەم بېرىدۇ.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "ئۇچۇر";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "ھەممەيلەن ئۈچۈن ئۆچۈرۈڭ";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "ئەگەر Signal نىڭ يېقىنقى نەشرىنى ئىشلىتىۋاتقان بولسا، بۇ ئۇچۇر سۆھبەتتىكى ھەممە ئادەملەردىن ئۆچۈرۈلىدۇ. ئۇلار سىزنىڭ بىر ئۇچۇرنى ئۆچۈرگەنلىكىڭىزنى كۆرەلەيدۇ.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "ئەگەر Morse نىڭ يېقىنقى نەشرىنى ئىشلىتىۋاتقان بولسا، بۇ ئۇچۇر سۆھبەتتىكى ھەممە ئادەملەردىن ئۆچۈرۈلىدۇ. ئۇلار سىزنىڭ بىر ئۇچۇرنى ئۆچۈرگەنلىكىڭىزنى كۆرەلەيدۇ.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "بۇ ئۇچۇرنى كىم ئۈچۈن ئۆچۈرمەكچىسىز؟";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "ئۆچۈرۈپ ۋە گۇرۇپپىدىن ئايرىلامسىز؟";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "ئىلتىماسنى ئېھتىيات بىلەن تەكشۈرۈڭ. Signal ئوخشاش ئاتلىق باشقا ئالاقەداشنى بايقىدى.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "ئىلتىماسنى ئېھتىيات بىلەن تەكشۈرۈڭ. Morse ئوخشاش ئاتلىق باشقا ئالاقەداشنى بايقىدى.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "ئالاقەداشىڭىز";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "ئوقۇش";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "ئاتلاندى";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "سۆزلەشمىگەن چاقىرىش";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "‫iOS تەڭشەكلەردىن كامېرا ھوقۇقىنى قوزغاتقاندىن كېيىن Signal دا سىنلىق چاقىرالايسىز.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "‫iOS تەڭشەكلەردىن كامېرا ھوقۇقىنى قوزغاتقاندىن كېيىن Morse دا سىنلىق چاقىرالايسىز.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "‫Signal كامېرانى زىيارەت قىلالىشى كېرەك.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "‫Morse كامېرانى زىيارەت قىلالىشى كېرەك.";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "سىز iOS تەڭشەكلىرىدىن ئەپ زىيارەت ھوقۇقىنى قوزغىتالايسىز.";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "بۇ ئىقتىدارنى ئىشلىتىش ئۈچۈن Signal ئورۇن ئۇچۇرىڭىزنى زىيارەت قىلىشقا ئېھتىياجلىق.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "بۇ ئىقتىدارنى ئىشلىتىش ئۈچۈن Morse ئورۇن ئۇچۇرىڭىزنى زىيارەت قىلىشقا ئېھتىياجلىق.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "سىز iOS تەڭشەكلىرىدىن ئەپ زىيارەت ھوقۇقىنى قوزغىتالايسىز.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "بۇ ئىقتىدارنى ئىشلىتىش ئۈچۈن Signal سۈرەت زىيارەت قىلىش ھوقۇقىغا ئېھتىياجلىق.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "بۇ ئىقتىدارنى ئىشلىتىش ئۈچۈن Morse سۈرەت زىيارەت قىلىش ھوقۇقىغا ئېھتىياجلىق.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "ھېچنېمە";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "سۆھبەت باشلاش ئۈچۈن بىر ئالاقىداشنى ياكى گۇرۇپپىنى تاللاڭ.";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "‫Signal غا خۇش كەلدىڭىز";
+"NO_SELECTED_CONVERSATION_TITLE" = "‫Morse غا خۇش كەلدىڭىز";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "تۆۋەندىكىگە يېڭى ئۇچۇر:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "ئىسىم ياكى مەزمۇن يوق";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "ئەپ ئوچۇق ۋاقتىدا قويۇلسۇن";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "ئۇچۇرىڭىزغا ھېسسىيات قوشۇڭ";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "سىز ئۇزۇن مەزگىل ئاكتىپ بولمىغانلىقتىن، Signal غا قايتا تىزىملىتىشىڭىز كېرەك.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "سىز ئۇزۇن مەزگىل ئاكتىپ بولمىغانلىقتىن، Morse غا قايتا تىزىملىتىشىڭىز كېرەك.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "‫Signal غا تىزىملىتىش";
+"ONBOARDING_DROPPED_YDB_TITLE" = "‫Morse غا تىزىملىتىش";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "iPad تىزىملىتىڭ";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "iPhone باغلاڭ";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "«IPad نى تىزىملاش» نى چىكىش ئارقىلىق يېڭى Signal ھېساباتى قۇرالايسىز ياكى بار بولغان ھېساباتنى بۇ iPad غا يۆتكىيەلەيسىز. ئەمما بۇنداق قىلىش ئوخشاش تېلېفون نومۇرى بىلەن تىزىملاتقان باشقا ئۈسكۈنىلەردىكى Signalنى چەكلەپ قويىدۇ.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "«IPad نى تىزىملاش» نى چىكىش ئارقىلىق يېڭى Morse ھېساباتى قۇرالايسىز ياكى بار بولغان ھېساباتنى بۇ iPad غا يۆتكىيەلەيسىز. ئەمما بۇنداق قىلىش ئوخشاش تېلېفون نومۇرى بىلەن تىزىملاتقان باشقا ئۈسكۈنىلەردىكى Morseنى چەكلەپ قويىدۇ.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "«iPhone نى باغلاش» نى چېكىش ئارقىلىق، تېلېفونىڭىزنى ھازىرقى ھېساباتىڭىزغا باغلىيالايسىز. تېلېفونىڭىزنى باغلاش ئادەتتە تەۋسىيە قىلىنمايدۇ ۋە تېلېفون قىلىش قاتارلىق بەزى ئىقتىدارلار چەكلىنىپ قالىدۇ.";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "بۇ iPhone باغلاڭ";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "بۇ iPad تىزىملىتىش ئوخشاش تېلېفون نومۇرى بىلەن تىزىملاتقان باشقا ئۈسكۈنىلەردىكى Signalنى چەكلەپ قويىدۇ.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "بۇ iPad تىزىملىتىش ئوخشاش تېلېفون نومۇرى بىلەن تىزىملاتقان باشقا ئۈسكۈنىلەردىكى Morseنى چەكلەپ قويىدۇ.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhone نىڭىزنى باغلاش ئادەتتە تەۋسىيە قىلىنمايدۇ ۋە بەزى نۇقتىلىق ئىقتىدارلار چەكلىنىپ قالىدۇ.";
@@ -3758,7 +3758,7 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "ھوقۇق بېرىڭ";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "ئۇقتۇرۇشلار ۋە ئالاقىداشلارغا رۇخسەت بېرىش - ئۇچۇرلىرىڭىزنىڭ قاچان كەلگەنلىكىنى كۆرەلىشىڭىز ۋە تونۇيدىغان كىشىلەرنى تېپىشىڭىزغا ياردەم بېرىدۇ. ئالاقىداشلار مەخپىيلەشتۈرۈلىدىغان بولغاچقا، Signal مۇلازىمىتى ئۇلارنى كۆرەلمەيدۇ.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "ئۇقتۇرۇشلار ۋە ئالاقىداشلارغا رۇخسەت بېرىش - ئۇچۇرلىرىڭىزنىڭ قاچان كەلگەنلىكىنى كۆرەلىشىڭىز ۋە تونۇيدىغان كىشىلەرنى تېپىشىڭىزغا ياردەم بېرىدۇ. ئالاقىداشلار مەخپىيلەشتۈرۈلىدىغان بولغاچقا، Morse مۇلازىمىتى ئۇلارنى كۆرەلمەيدۇ.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "ھوقۇق بېرىڭ";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "قايتا سىناپ بېقىشتىن بىر نەچچە مىنۇت ساقلاڭ. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "تېلىفون نومۇرىڭىزنى كىرگۈزۇڭ";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "شەخسىي مەخپىيەتلىكىڭىزنى قوغداش ئۈچۈن ، سىستېما سىزگە «ساختا» 8 خانىلىق تېلېفون نومۇرى بىلەن تەمىنلەيدۇ";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "تېلېفون نومۇرىڭىز";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "شەخسىي مەخپىيەتلىكىڭىزنى قوغداش ئۈچۈن ، سىستېما سىزگە «ساختا» 8 خانىلىق تېلېفون نومۇرى بىلەن تەمىنلەيدۇ";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "ئىناۋەتسىز تېلېفون نومۇرى. تىزىملىتىش ئۈچۈن ئىناۋەتلىك تېلېفون نومۇرىنى كىرگۈزۈڭ.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "‫PIN پەرەزلىرىڭىز تۈگەپ كەتتى ، ئەمما يېڭى PIN قۇرۇش ئارقىلىق Signal ھېساباتىڭىزنى يەنىلا زىيارەت قىلالايسىز. شەخسىي مەخپىيەتلىكىڭىز ۋە بىخەتەرلىكىڭىز ئۈچۈن ھېساباتىڭىز ساقلانغان ئارخىپ ئۇچۇرلىرىڭىزسىز ۋە تەڭشەكلىرىڭىزسىز ئەسلىگە كېلىدۇ.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "‫PIN پەرەزلىرىڭىز تۈگەپ كەتتى ، ئەمما يېڭى PIN قۇرۇش ئارقىلىق Morse ھېساباتىڭىزنى يەنىلا زىيارەت قىلالايسىز. شەخسىي مەخپىيەتلىكىڭىز ۋە بىخەتەرلىكىڭىز ئۈچۈن ھېساباتىڭىز ساقلانغان ئارخىپ ئۇچۇرلىرىڭىزسىز ۋە تەڭشەكلىرىڭىزسىز ئەسلىگە كېلىدۇ.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "PIN ھەققىدە تېخىمۇ كۆپ بىلىم";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@ غايىب ئۇچۇر ۋاقتىنى %@ قا تەڭشىدى.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "‫Signal دا تېخنىكىلىق قىيىنچىلىق كۆرۈلدى. بىز ئامالنىڭ بارىچە تىرىشىپ ئىشلەپ مۇلازىمەتنى ئەڭ تېز سۈرئەتتە ئەسلىگە كەلتۈرىمىز.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "‫Morse دا تېخنىكىلىق قىيىنچىلىق كۆرۈلدى. بىز ئامالنىڭ بارىچە تىرىشىپ ئىشلەپ مۇلازىمەتنى ئەڭ تېز سۈرئەتتە ئەسلىگە كەلتۈرىمىز.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "‏%@ نى چاقىردىڭىز";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "ئىناۋەتسىز مۇئامىلە";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "چىقىم ئىقتىدارى ئۈچۈن Signal نى يېڭىلاڭ.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "چىقىم ئىقتىدارى ئۈچۈن Morse نى يېڭىلاڭ.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "چىقىم تېخى دەلىللەنمىدى";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "ھەممەيلەن";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "ئالاقىداشلىرىدا تېلېفون نومۇرىڭىز بار ھەرقانداق بىرسى Signal دا سىزنى ئالاقىداش قاتارىدا كۆرىدۇ. باشقىلار ئىزدەشتىن سىزنى تاپالىغۇسى.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "ئالاقىداشلىرىدا تېلېفون نومۇرىڭىز بار ھەرقانداق بىرسى Morse دا سىزنى ئالاقىداش قاتارىدا كۆرىدۇ. باشقىلار ئىزدەشتىن سىزنى تاپالىغۇسى.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "ھېچكىم";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "‫Signal دا ھېچكىم تېلېفون نومۇرىڭىز بىلەن سىزنى تاپالمايدۇ. ئالاقىداشلىرىدا تېلېفون نومۇرىڭىز بار كىشىلەرنىڭ Signal ئالاقىدىشىدا كۆرۈنمەيسىز ۋە باشقىلار تېلېفون نومۇرىڭىز بىلەن سىزنى ئىزدەشتىن ئىزدەپ تاپالمايدۇ.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "‫Morse دا ھېچكىم تېلېفون نومۇرىڭىز بىلەن سىزنى تاپالمايدۇ. ئالاقىداشلىرىدا تېلېفون نومۇرىڭىز بار كىشىلەرنىڭ Morse ئالاقىدىشىدا كۆرۈنمەيسىز ۋە باشقىلار تېلېفون نومۇرىڭىز بىلەن سىزنى ئىزدەشتىن ئىزدەپ تاپالمايدۇ.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "مېسال:%@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "ئالاقىداشلىرىم";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "پەقەت ئالاقىداشلىرىڭىزلا تېلېفون نومۇرىڭىزنى Signal دا كۆرەلەيدۇ.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "پەقەت ئالاقىداشلىرىڭىزلا تېلېفون نومۇرىڭىزنى Morse دا كۆرەلەيدۇ.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "ھەممەيلەن";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "تېلېفون نومۇرىڭىز ئۇچۇرلاشقان بارلىق كىشىلەر ۋە گۇرۇپپىدا كۆرۈنىدۇ. تېلېفون نومۇرىڭىز ئالاقەداش تىزىملىكىدە بار كىشىلەرنىڭ Signal. دىمۇ كۆرۈنىدۇ";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "تېلېفون نومۇرىڭىز ئۇچۇرلاشقان بارلىق كىشىلەر ۋە گۇرۇپپىدا كۆرۈنىدۇ. تېلېفون نومۇرىڭىز ئالاقەداش تىزىملىكىدە بار كىشىلەرنىڭ Morse. دىمۇ كۆرۈنىدۇ";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "ھېچكىم";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "ھېچكىم تېلېفون نومۇرىڭىزنى Signal دا كۆرەلمەيدۇ.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "ھېچكىم تېلېفون نومۇرىڭىزنى Morse دا كۆرەلمەيدۇ.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@%@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "PIN چەكلە";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "ئەگەر PIN نى چەكلىسىڭىز، Signal غا قايتا تىزىملاتقاندا باشقا iOS ئەسلىگە كەلتۈرمىگۈچە ھەممە سانلىق مەلۇماتلىرىڭىز يوقىلىدۇ، PIN چەكلەنسە تىزىملىتىش قۇلۇپىنى ئاچالمايسىز.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "ئەگەر PIN نى چەكلىسىڭىز، Morse غا قايتا تىزىملاتقاندا باشقا iOS ئەسلىگە كەلتۈرمىگۈچە ھەممە سانلىق مەلۇماتلىرىڭىز يوقىلىدۇ، PIN چەكلەنسە تىزىملىتىش قۇلۇپىنى ئاچالمايسىز.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "ئاگاھلاندۇرۇش";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "PIN قۇرۇش مەغلۇب بولدى";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "Signal ئۇچۇر ساقلىغاندا PIN ئارقىلىق شىفىرلايدۇ. شۇڭا سىزلا زىيارەت قىلالايسىز. ئارخىپىڭىز، سەپلىمىلىرىڭىز ۋە ئالاقەداشلىرىڭىز Signal نى قايتا قاچىلىغىنىڭىزدا ئەسلىگە كەلتۈرۈلىدۇ. ئەپنى ئېچىش PIN نىڭىز كېرەك ئەمەس.";
+"PIN_CREATION_EXPLANATION" = "Morse ئۇچۇر ساقلىغاندا PIN ئارقىلىق شىفىرلايدۇ. شۇڭا سىزلا زىيارەت قىلالايسىز. ئارخىپىڭىز، سەپلىمىلىرىڭىز ۋە ئالاقەداشلىرىڭىز Morse نى قايتا قاچىلىغىنىڭىزدا ئەسلىگە كەلتۈرۈلىدۇ. ئەپنى ئېچىش PIN نىڭىز كېرەك ئەمەس.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "PIN ھەققىدە تەپسىلاتلار";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "بىر قانچە كۈندىن كېيىن سىزنى قايتا ئەسكەرتىمىز.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Signal PIN نى دەلىللەڭ";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Morse PIN نى دەلىللەڭ";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "ئەتە سىزنى قايتا ئەسكەرتىمىز.";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "PIN  خاتا، قايتا سىناڭ.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "‫Signal PIN نى كىرگۈزۈڭ";
+"PIN_REMINDER_TITLE" = "‫Morse PIN نى كىرگۈزۈڭ";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN ئەڭ ئاز 4 ھەرپلەردىن تۈزۈلۈشى كېرەك";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "PIN قۇر";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "‫Signal ئۇچۇر ساقلىغاندا PIN ئارقىلىق شىفىرلايدۇ.";
+"PINS_MEGAPHONE_BODY" = "‫Morse ئۇچۇر ساقلىغاندا PIN ئارقىلىق شىفىرلايدۇ.";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "بىز سەل تۇرۇپ سىزنى ئەسكەرتىمىز.%ld كۈندىن كېيىن چوقۇم PIN قۇرىسىز.";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "چاپلاش تاختىسىدىكى سان نۆۋەتتىكى سۆھبەتنىڭ بىخەتەرلىك نومۇرى ئەمەستەك قىلىدۇ.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "‫Signal چاپلاش تاختىسىدىن ھېچقانداق بىخەتەرلىك نومۇرى تاپالمىدى. ئۇنى توغرا كۆچۈرگەنمۇ؟";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "‫Morse چاپلاش تاختىسىدىن ھېچقانداق بىخەتەرلىك نومۇرى تاپالمىدى. ئۇنى توغرا كۆچۈرگەنمۇ؟";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "ھەر بىر جۈپ Signal  ئىشلەتكۈچىسى ئوخشاش بولمىغان بىخەتەرلىك نومۇرىنى ھەمبەھىرلەيدۇ.%@ كۆرسەتكەن بىخەتەرلىك نومۇرىڭىزنى قايتا تەكشۈرۈڭ.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "ھەر بىر جۈپ Morse  ئىشلەتكۈچىسى ئوخشاش بولمىغان بىخەتەرلىك نومۇرىنى ھەمبەھىرلەيدۇ.%@ كۆرسەتكەن بىخەتەرلىك نومۇرىڭىزنى قايتا تەكشۈرۈڭ.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "سىز Signal نىڭ كونا نەشرىنى ئىشلىتىۋېتىپسىز. دەلىللەشتىن ئىلگىرى نەشرىنى يېڭىلاڭ.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "سىز Morse نىڭ كونا نەشرىنى ئىشلىتىۋېتىپسىز. دەلىللەشتىن ئىلگىرى نەشرىنى يېڭىلاڭ.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "دوستىڭىز كونا نەشرىدىكى Signal نى ئىشلىتىۋېتىپتۇ. سىز دەلىللەشتىن ئىلگىرى ئۇلار نەشرىنى يېڭىلىشى كېرەك.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "دوستىڭىز كونا نەشرىدىكى Morse نى ئىشلىتىۋېتىپتۇ. سىز دەلىللەشتىن ئىلگىرى ئۇلار نەشرىنى يېڭىلىشى كېرەك.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "تارىغان كود بىخەتەرلىك نومۇرىدەك قىلمايدۇ. ھەر ئىككىڭلار ئەڭ يېڭى نەشرىدىكى Signal نى ئىشلىتىۋاتامسىلەر؟";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "تارىغان كود بىخەتەرلىك نومۇرىدەك قىلمايدۇ. ھەر ئىككىڭلار ئەڭ يېڭى نەشرىدىكى Morse نى ئىشلىتىۋاتامسىلەر؟";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "سىز %@ بىلەن بولغان نۇقتىدىن نۇقتىغا شىفىرلاشنىڭ بىخەتەرلىكىنى دەلىللىمەكچى بولسىڭىز، ئىككىيلەننىڭ ئۈسكۈنەسىنىڭ ئۈستى تەرەپتىكى نومۇرنى سېلىشتۇرۇڭلار.\n\nسىز ئۇلارنىڭ تېلېفونىدىكى كودنى تاراش  ياكى ئۇلار سىزنىڭ كودىڭىزنى تاراش ئارقىلىق دەلىللىسەڭلار بولىدۇ.";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "ئىشلەتكۈچىنى تاللىيالمايدۇ.";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "بۇ ئىشلەتكۈچى Signal نى يۇقىرىلاتمىغىچە بۇ گۇرۇپپىغا قوشقىلى بولمايدۇ.";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "بۇ ئىشلەتكۈچى Morse نى يۇقىرىلاتمىغىچە بۇ گۇرۇپپىغا قوشقىلى بولمايدۇ.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "مەن PIN نى ئۇنتۇپ قالدىم.";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "تەۋسىيە ئۇقتۇرۇشنى قايتا تىزىملات";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "‫Signal نى زېمىندىكى ئەڭ ياخشى ئەپكە ئايلاندۇرۇش ئۈچۈن، سىزنىڭ ئىنكاسىڭىزنى كۈتىمىز.";
+"RESEARCH_MEGAPHONE_BODY" = "‫Morse نى زېمىندىكى ئەڭ ياخشى ئەپكە ئايلاندۇرۇش ئۈچۈن، سىزنىڭ ئىنكاسىڭىزنى كۈتىمىز.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Signal ھەققىدە ئويلىغانلىرىڭىزنى سۆزلەڭ";
+"RESEARCH_MEGAPHONE_TITLE" = "Morse ھەققىدە ئويلىغانلىرىڭىزنى سۆزلەڭ";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "بۇ تەتقىقات Surveygizmo نىڭ بىخەتەر دائىرە نامى surveys.signalusers.org دا قويۇلغان";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "ياق، رەھمەت";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>بىز شەخسىيەتكە ھۆرمەت قىلىمىز.</bold>\n\nSignal  سىزنى ئىزلىمايدۇ ياكى ئۇچۇرلىرىڭىزنى توپلىمايدۇ. . كۆپچىلىك ئۈچۈن  Signal نى ياخشىلاشتا، بىز ئىشلەتكۈچىلەرنىڭ ئىنكاسىغا ئېھتىياجلىق. <bold>شۇنداقلا ئىنكاسىڭىزنى كۈتىمىز.</bold>\n\n\nبىز Signal ئىشلىتىش ھەققىدە راي سىناش ئېلىپ بېرىۋاتىمىز. بۇ راي سىناش سالاھىيىتىڭىزنى ئاشكارىلايدىغان ھېچقانداق ئۇچۇر توپلىمايدۇ،  ئەگەر تېخىمۇ كۆپ ئىنكاسنى ھەمبەھىرلەشكە قىزىقسىڭىز، ئۆزىڭىز ياقتۇرىدىغان ئالاقە ئۇسۇلىنى تاللىسىڭىز بولىدۇ.\n\nئەگەر تەكلىپ پىكىر بېرىشكە  بىر نەچچە مىنۇت ۋاقتىڭىزنى ئاجراتسىڭىز، تەكلىپىڭىزنى ئاڭلاشقا تەشنامىز.";
+"RESEARCH_MODAL_PLEA" = "<bold>بىز شەخسىيەتكە ھۆرمەت قىلىمىز.</bold>\n\nMorse  سىزنى ئىزلىمايدۇ ياكى ئۇچۇرلىرىڭىزنى توپلىمايدۇ. . كۆپچىلىك ئۈچۈن  Morse نى ياخشىلاشتا، بىز ئىشلەتكۈچىلەرنىڭ ئىنكاسىغا ئېھتىياجلىق. <bold>شۇنداقلا ئىنكاسىڭىزنى كۈتىمىز.</bold>\n\n\nبىز Morse ئىشلىتىش ھەققىدە راي سىناش ئېلىپ بېرىۋاتىمىز. بۇ راي سىناش سالاھىيىتىڭىزنى ئاشكارىلايدىغان ھېچقانداق ئۇچۇر توپلىمايدۇ،  ئەگەر تېخىمۇ كۆپ ئىنكاسنى ھەمبەھىرلەشكە قىزىقسىڭىز، ئۆزىڭىز ياقتۇرىدىغان ئالاقە ئۇسۇلىنى تاللىسىڭىز بولىدۇ.\n\nئەگەر تەكلىپ پىكىر بېرىشكە  بىر نەچچە مىنۇت ۋاقتىڭىزنى ئاجراتسىڭىز، تەكلىپىڭىزنى ئاڭلاشقا تەشنامىز.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "راي سىناشقا قاتنىشىش";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "‫Signal تەتقىقاتى";
+"RESEARCH_MODAL_TITLE" = "‫Morse تەتقىقاتى";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "قايتا سىنا";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "كۆرۈش";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Signal بىخەتەرلىك نومۇرىمىز:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Morse بىخەتەرلىك نومۇرىمىز:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "سىزنىڭ %@ بىلەن بولغان بىخەتەرلىك نومۇرىڭىز ئۆزگەردى. ئۇنى دەلىللەشنى ئۈمىد قىلامسىز.";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "ئېكران قۇلۇپىنى ئىشلىتىش ئۈچۈن چوقۇم iOS تەڭشەكلىرىڭىزدىن مەخپىي نومۇرنى قوزغىتىشىڭىز كېرەك.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "دەلىللەپ Signal ئېچىش.";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "دەلىللەپ Morse ئېچىش.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "دەلىللىيەلمىدى";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "‫Signal قۇلۇپىنى ئاچ";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "‫Morse قۇلۇپىنى ئاچ";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "تىنا ئۇكۇكۇ";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "ھاۋارايى مەلۇماتى";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "رەئىسە فىرويا";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "ھېسابات ماس كەلمىدى";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "بۇ ئۈسكۈنىدىكى Signal نى يېڭىلاپ تېلېفونىڭىزغا باغلاڭ.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "بۇ ئۈسكۈنىدىكى Morse نى يېڭىلاپ تېلېفونىڭىزغا باغلاڭ.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "قوللىمايدىغان نەشرى";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "باشقا ئۈسكۈنىڭىزدە كونا نەشرىدىكى Signal ئىجرا قىلىنىۋاتىدۇ، ئۇنىڭدا iPad QR كودىنى تارىيالمايدۇ، ئەڭ يېڭى نەشرىدىكى  Signal نى ئورنىتىپ ئاندىن قايتا سىناڭ.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "باشقا ئۈسكۈنىڭىزدە كونا نەشرىدىكى Morse ئىجرا قىلىنىۋاتىدۇ، ئۇنىڭدا iPad QR كودىنى تارىيالمايدۇ، ئەڭ يېڭى نەشرىدىكى  Morse نى ئورنىتىپ ئاندىن قايتا سىناڭ.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "تارايدىغان ئۈسكۈنەنى يېڭىلاڭ";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "باغلاش تامام";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "تېلېفونىڭىزدا  Signal نى قوزغىتىپ نۆۋەتتىكى iPad نى ھېساباتىڭىزغا باغلاڭ";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "تېلېفونىڭىزدا  Morse نى قوزغىتىپ نۆۋەتتىكى iPad نى ھېساباتىڭىزغا باغلاڭ";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "تېلېفونومدا Signal يوق…";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "تېلېفونومدا Morse يوق…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "تېلېفونىڭىزدىكى App Store دىن، Signal نى ئورنىتىپ، تىزىملىتىش جەريانىنى تاماملىغاندىن كېيىن، iPad نى ئوخشاش بىر ھېساباتقا باغلىيالايسىز.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "تېلېفونىڭىزدىكى App Store دىن، Morse نى ئورنىتىپ، تىزىملىتىش جەريانىنى تاماملىغاندىن كېيىن، iPad نى ئوخشاش بىر ھېساباتقا باغلىيالايسىز.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "تېلېفونىڭىزغا Signal نى ئورنىتىڭ";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "تېلېفونىڭىزغا Morse نى ئورنىتىڭ";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "سەپلىمە ھۆججەت رەسىمىنى چېكىپ، تېلېفونىڭىزدىكى Signal نىڭ تەڭشەكلەرنى ئېچىڭ. ئاندىن «باغلانغان ئۈسكۈنىلەر» ۋە «يېڭى ئۈسكۈنىگە باغلا» نى چېكىپ، تېلېفونىڭىزدا بو كودنى تاراڭ.";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "سەپلىمە ھۆججەت رەسىمىنى چېكىپ، تېلېفونىڭىزدىكى Morse نىڭ تەڭشەكلەرنى ئېچىڭ. ئاندىن «باغلانغان ئۈسكۈنىلەر» ۋە «يېڭى ئۈسكۈنىگە باغلا» نى چېكىپ، تېلېفونىڭىزدا بو كودنى تاراڭ.";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "بۇ جايدا  iPad نى باغلاش ھەققىدىكى ياردەم ئۇچۇرىغا ئېرىشەلەيسىز";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "تېلېفونىڭىزدا QR كودىنى تاراڭ";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "كونا iPad ڭىزدە Signal نى قوزغىتىپ ھېساباتىڭىزنى يۆتكەڭ.";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "كونا iPad ڭىزدە Morse نى قوزغىتىپ ھېساباتىڭىزنى يۆتكەڭ.";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "بىخەتەر سۆزلىشىش ئەسلىگە قايتۇرۇلدى.";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "تەكلىپ ئەۋەتەلمىدى، سەل تۇرۇپ قايتا سىناڭ.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "دوستىڭىزنى Signal ئىشلىتىشكە تەكلىپ قىلدىڭىز!";
+"SEND_INVITE_SUCCESS" = "دوستىڭىزنى Morse ئىشلىتىشكە تەكلىپ قىلدىڭىز!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "ۋاسىتە تاشلىۋەت";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "شىفىرلانمىغان تېكىست ئۇچۇر ئارقىلىق دوستىڭىزنى تەكلىپ قىلامسىز؟";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "تۆۋەندىكى نومۇرنى Signal ئىشلىتىشكە تەكلىپ قىلامسىز؟";
+"SEND_SMS_INVITE_TITLE" = "تۆۋەندىكى نومۇرنى Morse ئىشلىتىشكە تەكلىپ قىلامسىز؟";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "يۇقىرى";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "ئۆلچەملىك";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "‫Signal ئۇچتىن ئۇچقا شىفىرلاش ئىشلىتىدۇ، بەزىدە سۆھبەتتىكى سۆزلىشىشلەرنى يېڭىلاش زۆرۈر بولۇشى مۇمكىن. گەرچە بۇ سۆھبەتنىڭ بىخەتەرلىكىگە تەسىر كۆرسەتمىسىمۇ ئەمما بۇ ئالاقەداشنىڭ ئۇچۇرىنى ئۆتكۈزۈۋېتىشىڭىز مۇمكىن، ئۇنىڭدىن قايتا ئەۋەتىشنى تەلەپ قىلسىڭىز بولىدۇ.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "‫Morse ئۇچتىن ئۇچقا شىفىرلاش ئىشلىتىدۇ، بەزىدە سۆھبەتتىكى سۆزلىشىشلەرنى يېڭىلاش زۆرۈر بولۇشى مۇمكىن. گەرچە بۇ سۆھبەتنىڭ بىخەتەرلىكىگە تەسىر كۆرسەتمىسىمۇ ئەمما بۇ ئالاقەداشنىڭ ئۇچۇرىنى ئۆتكۈزۈۋېتىشىڭىز مۇمكىن، ئۇنىڭدىن قايتا ئەۋەتىشنى تەلەپ قىلسىڭىز بولىدۇ.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "سۆھبەت يېڭىلاندى";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "ئورنى";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "ئەگەر قوزغىتىلسا، Signal تەكشۈرۈشتىن دالدىلىنىشنى سىنايدۇ. Signal سىز تۇرۇۋاتقان جايدا تەكشۈرۈلمىسە بۇ ئىقتىدارنى قوزغاتماڭ.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "ئەگەر قوزغىتىلسا، Morse تەكشۈرۈشتىن دالدىلىنىشنى سىنايدۇ. Morse سىز تۇرۇۋاتقان جايدا تەكشۈرۈلمىسە بۇ ئىقتىدارنى قوزغاتماڭ.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "تەكشۈرۈشتىن دالدىلىنىش ھېساباتىڭىزدىكى تېلېفون نومۇرىغا ئاساسەن ئاكتىپلىنىدۇ.";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "تەكشۈرۈشتىن دالدىلىنىش پەقەت ئىنتېرنىتقا باغلانغاندىلا ئاكتىپلىنىدۇ.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "تەكشۈرۈشتىن دالدىلىنىش ھاجەتسىز، Signal مۇلازىمىتىگە ئاللىبۇرۇن باغلاندىڭىز.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "تەكشۈرۈشتىن دالدىلىنىش ھاجەتسىز، Morse مۇلازىمىتىگە ئاللىبۇرۇن باغلاندىڭىز.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "سازلاش خاتىرە قوزغات";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "چەكلەنگەن ئىشلەتكۈچىگە قوش";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "‫Signal دا ھېچقانداق ئالاقەداشىڭىز يوق.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "‫Morse دا ھېچقانداق ئالاقەداشىڭىز يوق.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "ئىزدەش نەتىجەسى يوق";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "ھەمىشە ئۇلاپ چاقىرىشنى ئىشلەت";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "ھەممە چاقىرىشتا Signal مۇلازىمېتىرى ئىشلىتىلسە ئالاقەداشىڭىزنىڭ IP ئادرېسىڭىزغا ئېرىشىشنىڭ ئالدىنى ئالغىلى بولىدۇ، ئەمما بۇ ئىقتىدار سۆزلىشىش سۈپىتىنى تۆۋەنلىتىۋېتىدۇ.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "ھەممە چاقىرىشتا Morse مۇلازىمېتىرى ئىشلىتىلسە ئالاقەداشىڭىزنىڭ IP ئادرېسىڭىزغا ئېرىشىشنىڭ ئالدىنى ئالغىلى بولىدۇ، ئەمما بۇ ئىقتىدار سۆزلىشىش سۈپىتىنى تۆۋەنلىتىۋېتىدۇ.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "سۆھبەتلەر";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "سۆھبەت خاتىرەسىنى تازىلا";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "‫Signal Messenger نەشر ھوقۇقىغا ئىگە\nGPLv3 ئىجازىتىدە تارقىتىلدى";
+"SETTINGS_COPYRIGHT" = "‫Morse Messenger نەشر ھوقۇقىغا ئىگە\nGPLv3 ئىجازىتىدە تارقىتىلدى";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Subscription";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "سىز باشلىغان بارلىق يېڭى سۆھبەتلەر ئۈچۈن كۆڭۈلدىكى غايىب ئۇچۇر ۋاقىت خاتىرىلىگۈچنى تەڭشەڭ.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "‫Signal غا ئىئانە قىلىڭ";
+"SETTINGS_DONATE" = "‫Morse غا ئىئانە قىلىڭ";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "ياردەم";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "دوستلار تەكلىپى";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "سىز @signalapp ئارقىلىق مەن بىلەن ئالاقە قىلالايسىز. ھازىر https://signal.org/download/ دىن چۈشۈرەلەيسىز.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "سىز @signalapp ئارقىلىق مەن بىلەن ئالاقە قىلالايسىز. ھازىر https://devplusone.com/download/ دىن چۈشۈرەلەيسىز.";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "سۆھبەت رەڭگى ۋە تام قەغەز";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "ئۇقتۇرۇش مەزمۇنى";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "ئالاقەداش Signal غا قوشۇلدى";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "ئالاقەداش Morse غا قوشۇلدى";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "ئۇقتۇرۇش ۋاقتى…";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "ئاكتىپلا";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "‫Signal نى ئىشلىتىپ MobileCoin ئەۋەتەلەيسىز ۋە تاپشۇرىۋالالايسىز. بارلىق چىقىملار MobileCoins ۋە MobileCoin ھەميانىنىڭ ئىشلىتىش شەرتلىرىگە بويسۇنىدۇ. بۇ سىناق ئىقتىدارى، شۇڭا بەزى مەسىلىلەرگە دۇچ كېلىشىڭىز ھەمدە چىقىم ياكى قالدۇقلىرىڭىزنى يوقىتىپ قويسىڭىز ئەسلىگە كەلتۈرەلمەسلىكىڭىز مۈمكىن.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "‫Morse نى ئىشلىتىپ MobileCoin ئەۋەتەلەيسىز ۋە تاپشۇرىۋالالايسىز. بارلىق چىقىملار MobileCoins ۋە MobileCoin ھەميانىنىڭ ئىشلىتىش شەرتلىرىگە بويسۇنىدۇ. بۇ سىناق ئىقتىدارى، شۇڭا بەزى مەسىلىلەرگە دۇچ كېلىشىڭىز ھەمدە چىقىم ياكى قالدۇقلىرىڭىزنى يوقىتىپ قويسىڭىز ئەسلىگە كەلتۈرەلمەسلىكىڭىز مۈمكىن.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "ئاكتىپلا";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ چېسلا %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "‫Signal دا چىقىم ئەمدى ئىشلىمەيدۇ. سىز مەبلەغلىرىڭىزنى ئالماستۇرۇش ئورنىغا داۋاملىق يۆتكىيەلەيسىز. ئەمما ئەمدى چىقىمنى يوللاپ ۋە تاپشۇرىۋالالمايسىز ياكى مەبلەغ قوشالمايسىز.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "‫Morse دا چىقىم ئەمدى ئىشلىمەيدۇ. سىز مەبلەغلىرىڭىزنى ئالماستۇرۇش ئورنىغا داۋاملىق يۆتكىيەلەيسىز. ئەمما ئەمدى چىقىمنى يوللاپ ۋە تاپشۇرىۋالالمايسىز ياكى مەبلەغ قوشالمايسىز.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "چىقىم قىلىشنى چەكلىيەلمەيسىز چۈنكى قالدۇقىڭىزنى ئىشلەتكىلى بولمايدۇ. تور باغلىنىشىڭىزنى تەكشۈرۈپ ئاندىن قايتا سىناڭ.";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "چىقىم قىلىشنى تاماملىيالمىدى چۈنكى قالدۇقىڭىزنى ئىشلەتكىلى بولمايدۇ. تور باغلىنىشىڭىزنى تەكشۈرۈپ ئاندىن قايتا سىناڭ.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "‫Signal دا چىقىم ئەمدى ئىشلىمەيدۇ. سىز مەبلەغلىرىڭىزنى ئالماستۇرۇش ئورنىغا داۋاملىق يۆتكىيەلەيسىز. ئەمما ئەمدىى چىقىمنى يوللاپ ۋە تاپشۇرىۋالالمايسىز ياكى مەبلەغ قوشالمايسىز.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "‫Morse دا چىقىم ئەمدى ئىشلىمەيدۇ. سىز مەبلەغلىرىڭىزنى ئالماستۇرۇش ئورنىغا داۋاملىق يۆتكىيەلەيسىز. ئەمما ئەمدىى چىقىمنى يوللاپ ۋە تاپشۇرىۋالالمايسىز ياكى مەبلەغ قوشالمايسىز.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "‫Signal دا چىقىم ئەمدى ئىشلىمەيدۇ. سىز مەبلەغلىرىڭىزنى ئالماستۇرۇش ئورنىغا داۋاملىق يۆتكىيەلەيسىز. ئەمما ئەمدىى چىقىمنى يوللاپ ۋە تاپشۇرىۋالالمايسىز ياكى مەبلەغ قوشالمايسىز.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "‫Morse دا چىقىم ئەمدى ئىشلىمەيدۇ. سىز مەبلەغلىرىڭىزنى ئالماستۇرۇش ئورنىغا داۋاملىق يۆتكىيەلەيسىز. ئەمما ئەمدىى چىقىمنى يوللاپ ۋە تاپشۇرىۋالالمايسىز ياكى مەبلەغ قوشالمايسىز.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "تېگىشىشلەر پەقەت مۆلچەر بولۇپ ، توغرا بولماسلىقى مۇمكىن.";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "چىقىمنى ئاكتىپسىزلە";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "ئەگەر چىقىم قىلىشنى چەكلىسىڭىز Signal دا MobileCoin ئەۋەتىپ ياكى قوبۇللىيالمايسىز.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "ئەگەر چىقىم قىلىشنى چەكلىسىڭىز Morse دا MobileCoin ئەۋەتىپ ياكى قوبۇللىيالمايسىز.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "چىقىملارنى چەكلەمدۇ؟";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "چىقىمنى ئاكتىپسىزلە";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "چىقىم قىلىشنى چەكلەشتىن ئىلگىرى پۇلىڭىزنى باشقا ھەميان ئادرېسىغا يۆتكەش تەۋسىيە قىلىنىدۇ. ئەگەر ھازىر پۇلىڭىزنى يۆتكىمەسلىكنى تاللىسىڭىز ، ئەگەر چىقىمنى قايتا ئاكتىپلىسىڭىز ئۇلار Signal غا باغلانغان ھەميانىڭىزدا قالىدۇ.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "چىقىم قىلىشنى چەكلەشتىن ئىلگىرى پۇلىڭىزنى باشقا ھەميان ئادرېسىغا يۆتكەش تەۋسىيە قىلىنىدۇ. ئەگەر ھازىر پۇلىڭىزنى يۆتكىمەسلىكنى تاللىسىڭىز ، ئەگەر چىقىمنى قايتا ئاكتىپلىسىڭىز ئۇلار Morse غا باغلانغان ھەميانىڭىزدا قالىدۇ.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "ئەگەر چىقىمنى قايتا ئاكتىپلاشنى تاللىسىڭىز ، قالدۇقىڭىز Signal غا باغلانغان ھەمياندا قالىدۇ.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "ئەگەر چىقىمنى قايتا ئاكتىپلاشنى تاللىسىڭىز ، قالدۇقىڭىز Morse غا باغلانغان ھەمياندا قالىدۇ.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "يۆتكىمەي تۇرۇپ ئاكتىپسىزلىسىنمۇ؟";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "كۆچمە تەڭگە";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "ھەميان ئادرېسىڭىزغا MobileCoin ئەۋەتىش ئارقىلىق Signal دا ئىشلىتىشكە مەبلەغ قوشالايسىز.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "ھەميان ئادرېسىڭىزغا MobileCoin ئەۋەتىش ئارقىلىق Morse دا ئىشلىتىشكە مەبلەغ قوشالايسىز.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = " قوشۇلغان مەبلەغ";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "چىقىم قىلىش ئاكتىپلاندى.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "سىز Signal دا MobileCoin يوللاپ ۋە قوبۇللىيالايسىز،  ئۇ شەخسىيەت گەۋدىلەندۈرۈلگەن يېڭى رەقەملىك پۇل. باشلاش ئۈچۈن ئاكتىپلاڭ.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "سىز Morse دا MobileCoin يوللاپ ۋە قوبۇللىيالايسىز،  ئۇ شەخسىيەت گەۋدىلەندۈرۈلگەن يېڭى رەقەملىك پۇل. باشلاش ئۈچۈن ئاكتىپلاڭ.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "چىقىم قىلىشنى قايتا ئاكتىپلا";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "چىقىمنى تونۇشتۇرۇش (سىناق)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "ئەگەرSignal نى قايتا قاچىلاپ Signal PIN نى جەزىملىسىڭىز قالدۇقىڭىز ئۆزلۈكىدىن ئەسلىگە كېلىدۇ. ئەسلىگە كەلتۈرۈش ئىبارىسى ئارقىلىقمۇ قالدۇقىڭىزنى ئەسلىگە كەلتۈرەلەيسىز ، بۇ 24-سۆزلۈك ئىبارە سىزگىلا خاس. ئۇنى يېزىۋېلىپ بىخەتەر جايدا ساقلاڭ.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "ئەگەرMorse نى قايتا قاچىلاپ Morse PIN نى جەزىملىسىڭىز قالدۇقىڭىز ئۆزلۈكىدىن ئەسلىگە كېلىدۇ. ئەسلىگە كەلتۈرۈش ئىبارىسى ئارقىلىقمۇ قالدۇقىڭىزنى ئەسلىگە كەلتۈرەلەيسىز ، بۇ 24-سۆزلۈك ئىبارە سىزگىلا خاس. ئۇنى يېزىۋېلىپ بىخەتەر جايدا ساقلاڭ.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "مەبلەغ قوش";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "چىقىملار";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "ئۆزىڭىزنىڭ Signal ھەميان ئادرېسىغا يۆتكىيەلمەيسىز. ئالماشتۇرۇشنى قوللايدىغان ھېساباتىڭىزدىن ھەميان ئادرېسىنى كىرگۈزۈڭ.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "ئۆزىڭىزنىڭ Morse ھەميان ئادرېسىغا يۆتكىيەلمەيسىز. ئالماشتۇرۇشنى قوللايدىغان ھېساباتىڭىزدىن ھەميان ئادرېسىنى كىرگۈزۈڭ.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "ئالماشتۇرغۇچى تەمىنلىگەن ھەميان ئادرېسىغا يۆتكەشنى تاماملاش ئارقىلىق MobileCoin نى يۆتكىيەلەيسىز. ھەميان ئادرېسى سان ۋە ھەرپلەرنىڭ تىزمىسى بولۇپ، كۆپىنچە QR كودىنىڭ ئاستىدا بولىدۇ. ";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "ئەسكەرتىشنى تاقا";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "سىز PIN نى ئەستە تۇتۇڭ ياكى بىخەتەر ساقلاشقا كاپالەتلىك قىلىڭ، چۈنكى ئۇنى تاپقىلى بولمايدۇ. ئەگەر PIN نى ئۇنتۇپ قالسىڭىز،  Signal ھېساباتىنى قايتا تىزىملاتقاندا بىر قىسىم سانلىق مەلۇماتنى يوقىتىشىڭىز مۇمكىن.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "سىز PIN نى ئەستە تۇتۇڭ ياكى بىخەتەر ساقلاشقا كاپالەتلىك قىلىڭ، چۈنكى ئۇنى تاپقىلى بولمايدۇ. ئەگەر PIN نى ئۇنتۇپ قالسىڭىز،  Morse ھېساباتىنى قايتا تىزىملاتقاندا بىر قىسىم سانلىق مەلۇماتنى يوقىتىشىڭىز مۇمكىن.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "‫Signal PIN نىڭىزنى جەزملەڭ";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "‫Morse PIN نىڭىزنى جەزملەڭ";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN  ئەسكەرتكۈچ";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "‫PIN شىفىرلانغان ھالەتتە Signal دا ساقلىنىدۇ ھەمدە پەقەت سىزلا زىيارەت قىلالايسىز. PIN نى ئەسلىگە كەلتۈرگىلى بولمايدۇ.سەپلىمە ھۆججەت، تەڭشەكلەر ۋە ئالاقەداشلار Signal نى قايتا ئورناتقاندا  ئەسلىگە كەلتۈرۈلىدۇ.";
+"SETTINGS_PINS_FOOTER" = "‫PIN شىفىرلانغان ھالەتتە Morse دا ساقلىنىدۇ ھەمدە پەقەت سىزلا زىيارەت قىلالايسىز. PIN نى ئەسلىگە كەلتۈرگىلى بولمايدۇ.سەپلىمە ھۆججەت، تەڭشەكلەر ۋە ئالاقەداشلار Morse نى قايتا ئورناتقاندا  ئەسلىگە كەلتۈرۈلىدۇ.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "PIN نىڭنى ئۆزگەرت";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "بىر PIN قۇرۇڭ";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN";
+"SETTINGS_PINS_TITLE" = "Morse PIN";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "تەكشۈرۈشتىن دالدىلىنىش، ئۇلاپ چاقىرىش ۋە مەخپىي يوللاش تەڭشەكلىرى.";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "ئاچ";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "ئەگەر Signal غا قايتا تىزىملاتقىنىڭىزدا Signal PIN نى ئۇنتۇپ قالغان بولسىڭىز، ھېساباتىڭىزنى 7 كۈن قۇلۇپلايسىز.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "ئەگەر Morse غا قايتا تىزىملاتقىنىڭىزدا Morse PIN نى ئۇنتۇپ قالغان بولسىڭىز، ھېساباتىڭىزنى 7 كۈن قۇلۇپلايسىز.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "تىزىملاش قۇلۇپىنى ئاچامدۇ؟";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "چاقىرغاندا";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "‫ Touch ID، چىراي ID ياكى  iOS ئۈسكۈنىدىكى ئىم ئارقىلىق Signal قۇلۇپىنى ئېچىڭ.";
+"SETTINGS_SECURITY_DETAIL" = "‫ Touch ID، چىراي ID ياكى  iOS ئۈسكۈنىدىكى ئىم ئارقىلىق Morse قۇلۇپىنى ئېچىڭ.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "چىراي ID ئارقىلىق Signal قۇلۇپىنى ئېچىڭ.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "چىراي ID ئارقىلىق Morse قۇلۇپىنى ئېچىڭ.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "ئۈسكۈنە ئىم ئارقىلىق Signal قۇلۇپىنى ئېچىڭ.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "ئۈسكۈنە ئىم ئارقىلىق Morse قۇلۇپىنى ئېچىڭ.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "‫Touch ID ئارقىلىق Signal قۇلۇپىنى ئېچىڭ.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "‫Touch ID ئارقىلىق Morse قۇلۇپىنى ئېچىڭ.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "ئەپ بىخەتەرلىكى";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "ئالاقەداشلارنى iOS بىلەن ھەمبەھىرلەيدۇ";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "iOS نىڭ Signal ئالاقەداشلىرىنى زىيارەت قىلىش ۋە سۆھبەتلىشىشىگە يول قويۇپ تەكلىپ ھەمبەھىرلەش ئىقتىدارىغا ئېرىشىدۇ.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "iOS نىڭ Morse ئالاقەداشلىرىنى زىيارەت قىلىش ۋە سۆھبەتلىشىشىگە يول قويۇپ تەكلىپ ھەمبەھىرلەش ئىقتىدارىغا ئېرىشىدۇ.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "iOS نىڭ Signal ئالاقەداشلىرىنى زىيارەت قىلىش ۋە سۆھبەتلىشىشىگە يول قويۇپ تەكلىپ ھەمبەھىرلەش  ۋە ئۇقتۇرۇش ئىقتىدارىغا ئېرىشىدۇ.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "iOS نىڭ Morse ئالاقەداشلىرىنى زىيارەت قىلىش ۋە سۆھبەتلىشىشىگە يول قويۇپ تەكلىپ ھەمبەھىرلەش  ۋە ئۇقتۇرۇش ئىقتىدارىغا ئېرىشىدۇ.";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signal Boost";
+"SETTINGS_SIGNAL_BOOST" = "Morse Boost";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Become a Signal Sustainer";
+"SETTINGS_SUBSCRIPTION" = "Become a Morse Sustainer";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "تىزىملىتىش قۇلۇپى";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "تېلېفون نومۇرىڭىزنى Signal دا قايتا تىزىملىتىش ئۈچۈن Signal PIN نىڭىز لازىم.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "تېلېفون نومۇرىڭىزنى Morse دا قايتا تىزىملىتىش ئۈچۈن Morse PIN نىڭىز لازىم.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "بېسىۋاتىدۇ كۆرسەتكۈچلىرى";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "قاچىلىنىۋاتىدۇ...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "تىزىملىتىش ئۈچۈن Signal نى ئېچىڭ.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "تىزىملىتىش ئۈچۈن Morse نى ئېچىڭ.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "تىزىملىتىلمىغان";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "يېڭىلاش ياكى تىزىملىتىش ئۈچۈن Signal نى ئېچىڭ.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "يېڭىلاش ياكى تىزىملىتىش ئۈچۈن Morse نى ئېچىڭ.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "تەييار بولمىدى";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "يۈكلىنىۋاتىدۇ...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "قوشۇمچىنى تەييارلىغىلى بولمىدى";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "‫Signal غا ھەمبەھىرلە";
+"SHARE_EXTENSION_VIEW_TITLE" = "‫Morse غا ھەمبەھىرلە";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "ھەمبەھىر تەۋسىيەلىرىنى ئاكتىپسىزلىغىلى بولمىدى.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "‫Signal سۆھبەتلىرى ھازىر باشقا ئەپلەردە ھەمبەھىرلىگىنىڭىزدە تەۋسىيەلەردە كۆرىنىدۇ.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "‫Morse سۆھبەتلىرى ھازىر باشقا ئەپلەردە ھەمبەھىرلىگىنىڭىزدە تەۋسىيەلەردە كۆرىنىدۇ.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "ھەمبەھىرلەش ئاسانلاشتى";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "سۆھبەت كۆرسەت";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "مەن Signal نى قاچىلاشقا تەكلىپ قىلىندىم! ئۇلانمىسى بۇ يەردە:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "مەن Morse نى قاچىلاشقا تەكلىپ قىلىندىم! ئۇلانمىسى بۇ يەردە:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "ئاۋاز ۋە ئۇقتۇرۇشلار";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "دەلىللىمەي داۋاملاشتۇرامدۇ؟";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Signal دا ئەخلەت ئۇچۇرلاردىن ساقلىنىشقا ياردەم قىلىش ئۈچۈن، دەلىللەشنى تاماملاڭ.\n\nدەلىللىگەندىن كېيىن، ئۇچۇر يوللاشنى داۋاملاشتۇرالايسىز. ۋاقىتلىق توختىتىلغان ئۇچۇرلار ئۆزلۈكىدىن يوللىنىدۇ.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Morse دا ئەخلەت ئۇچۇرلاردىن ساقلىنىشقا ياردەم قىلىش ئۈچۈن، دەلىللەشنى تاماملاڭ.\n\nدەلىللىگەندىن كېيىن، ئۇچۇر يوللاشنى داۋاملاشتۇرالايسىز. ۋاقىتلىق توختىتىلغان ئۇچۇرلار ئۆزلۈكىدىن يوللىنىدۇ.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "ئۇچۇرلىشىشنى داۋاملاشتۇرۇش ئۈچۈن دەلىللەش زۆرۈر";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "ئورنات";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "‫Signal ئارتىس يۈرۈشلۈكى";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "‫Morse ئارتىس يۈرۈشلۈكى";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "تاپشۇرۇۋالغان چاپلاقلار";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Contribute";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal is powered by people like you. Contribute and receive a badge.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse is powered by people like you. Contribute and receive a badge.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "ياق، رەھمەت";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "بۇ مەسىلە ھەققىدە بىرگە سۆزلەپ بېرىڭ:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "قوللاش ئىلتىماسىڭىزنى support@signal.orgگە ئېلخەت سېلىڭ";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "قوللاش ئىلتىماسىڭىزنى support@devplusone.comگە ئېلخەت سېلىڭ";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "سۈزگۈچ: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "خاتىرە ئۇلانمىسى: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "‫Signal نەشرى: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "‫Morse نەشرى: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS قوللاش ئىلتىماسى";
+"SUPPORT_EMAIL_SUBJECT" = "Morse iOS قوللاش ئىلتىماسى";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "قانداقراق ھېس قىلىۋاتىسىز؟ (تاللاشچان)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "كۆپ ئۇچرايدىغان مەسىلىگە جاۋابنى ئوقۇدىڭىزمۇ؟";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "قاچىلىنىۋاتىدۇ";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly contribution and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly contribution and receive a profile badge to share your support.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour contribution fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morse is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour contribution fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Support technology that is built for you - not for your data - by joining the community that sustains it.";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Still Processing";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Add a Signal Boost";
+"SUSTAINER_VIEW_ADD_BOOST" = "Add a Morse Boost";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Get a %@ badge";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "ھازىر ئەمەس";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signal نى سىزگە ئوخشاش كىشىلەر قوللايدۇ.";
+"SUSTAINER_VIEW_TITLE" = "Morse نى سىزگە ئوخشاش كىشىلەر قوللايدۇ.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "You will be charged the full amount (%@) of the new subscription price today. Your new subscription will renew monthly.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "نامەلۇم دۆلەت";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "سىزنىڭ بىر ئۈسكىنىڭىز ئەۋەتكەن ئۇچۇردا Signal نىڭ بىر يېڭى ئىقتىدارى قوللىنىلغاچقا، ئۇنى بىر تەرەپ قىلالمىدى ياكى كۆرسىتەلمىدى.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "سىزنىڭ بىر ئۈسكىنىڭىز ئەۋەتكەن ئۇچۇردا Morse نىڭ بىر يېڭى ئىقتىدارى قوللىنىلغاچقا، ئۇنى بىر تەرەپ قىلالمىدى ياكى كۆرسىتەلمىدى.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ سىزگە ئەۋەتكەن ئۇچۇردا Signal نىڭ بىر يېڭى ئىقتىدارى قوللىنىلغاچقا، ئۇنى بىر تەرەپ قىلالمىدى ياكى كۆرسىتەلمىدى.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ سىزگە ئەۋەتكەن ئۇچۇردا Morse نىڭ بىر يېڭى ئىقتىدارى قوللىنىلغاچقا، ئۇنى بىر تەرەپ قىلالمىدى ياكى كۆرسىتەلمىدى.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "قوبۇل قىلغان ئۇچۇرىڭىزدا Signal نىڭ بىر يېڭى ئىقتىدارى قوللىنىلغاچقا، ئۇنى بىر تەرەپ قىلالمىدى ياكى كۆرسىتەلمىدى.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "قوبۇل قىلغان ئۇچۇرىڭىزدا Morse نىڭ بىر يېڭى ئىقتىدارى قوللىنىلغاچقا، ئۇنى بىر تەرەپ قىلالمىدى ياكى كۆرسىتەلمىدى.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "‫Signal نى ھازىرلا يېڭىلا";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "‫Morse نى ھازىرلا يېڭىلا";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "‫ Signal نىڭ ئەڭ يېڭى نەشرىگە يېڭىلاندى. سىز ئەمدى ئۈسكىنىڭىزدە بۇ تۈردىكى ئۇچۇرلارنى قوبۇل قىلالايسىز.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "‫ Morse نىڭ ئەڭ يېڭى نەشرىگە يېڭىلاندى. سىز ئەمدى ئۈسكىنىڭىزدە بۇ تۈردىكى ئۇچۇرلارنى قوبۇل قىلالايسىز.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "%@ دىن بۇ ئۇچۇرنى قايتا ئەۋەتىشنى سوراڭ، سىز Signal نىڭ يېڭى نەشرىنى ئىشلىتىۋاتىسىز. ";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "%@ دىن بۇ ئۇچۇرنى قايتا ئەۋەتىشنى سوراڭ، سىز Morse نىڭ يېڭى نەشرىنى ئىشلىتىۋاتىسىز. ";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "يوللىغۇچىدىن بۇ ئۇچۇرنى قايتا ئەۋەتىشنى سوراڭ، سىز Signal نىڭ يېڭى نەشرىنى ئىشلىتىۋاتىسىز. ";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "يوللىغۇچىدىن بۇ ئۇچۇرنى قايتا ئەۋەتىشنى سوراڭ، سىز Morse نىڭ يېڭى نەشرىنى ئىشلىتىۋاتىسىز. ";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "نامەلۇم";
@@ -6380,7 +6380,7 @@
 "UNLINKED_WARNING" = "ئۈسكۈنىڭىز باغلانمىغان ھالەتتە. ئۇچۇر يوللاشنى داۋاملاشتۇرۇش ئۈچۈن قايتا باغلاڭ.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "‫Signal ئۈسكۈنىڭىزنى ئاجرىتالمىدى.";
+"UNLINKING_FAILED_ALERT_TITLE" = "‫Morse ئۈسكۈنىڭىزنى ئاجرىتالمىدى.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "ئاتالمىغان ئۈسكۈنە";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "ئۈسكۈنىڭىز بۇ ئىقتىدارنى قوللىمايدۇ.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "سىزنىڭ %@ بىلەن بىخەتەرلىك نومۇرىڭىز ئۆزگەرگەندەك قىلىدۇ، بەلكىم ئۇلار Signal نى قايتا قاچىلىغان ياكى ئۈسكۈنىسىنى ئۆزگەرتكەن بولۇشى مۇمكىن. يېڭى بىخەتەرلىك نومۇرىنى جەزملەشتۈرۈش ئۈچۈن «دەلىللەش» نى چېكىڭ. بۇنى قىلىش ئىختىيارىڭىز.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "سىزنىڭ %@ بىلەن بىخەتەرلىك نومۇرىڭىز ئۆزگەرگەندەك قىلىدۇ، بەلكىم ئۇلار Morse نى قايتا قاچىلىغان ياكى ئۈسكۈنىسىنى ئۆزگەرتكەن بولۇشى مۇمكىن. يېڭى بىخەتەرلىك نومۇرىنى جەزملەشتۈرۈش ئۈچۈن «دەلىللەش» نى چېكىڭ. بۇنى قىلىش ئىختىيارىڭىز.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "دەلىللەش";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "PIN ھەققىدە تەپسىلاتلار";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "‫Signal ئۇچۇر ساقلىغاندا PIN ئارقىلىق شىفىرلايدۇ. شۇڭا سىزلا زىيارەت قىلالايسىز. ئارخىپىڭىز، سەپلىمىلىرىڭىز ۋە ئالاقەداشلىرىڭىز Signal نى قايتا قاچىلىغىنىڭىزدا ئەسلىگە كەلتۈرۈلىدۇ. ئەپنى ئېچىش PIN نىڭىز كېرەك ئەمەس.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "‫Morse ئۇچۇر ساقلىغاندا PIN ئارقىلىق شىفىرلايدۇ. شۇڭا سىزلا زىيارەت قىلالايسىز. ئارخىپىڭىز، سەپلىمىلىرىڭىز ۋە ئالاقەداشلىرىڭىز Morse نى قايتا قاچىلىغىنىڭىزدا ئەسلىگە كەلتۈرۈلىدۇ. ئەپنى ئېچىش PIN نىڭىز كېرەك ئەمەس.";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = " PIN تونۇشتۇرۇش";
@@ -6437,7 +6437,7 @@
 "UPGRADE_IOS_ALERT_TITLE" = "iOS نى يۇقىرىلىتىڭ";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "ئىشلەتكۈچى ئىسمى Signal دىكى تاللانما ئىقتىدار. ئەگەر ئىشلەتكۈچى ئىسمى قۇرۇشنى تاللىسىڭىز، باشقا Signal ئىشلەتكۈچىلىرى مۇشۇ ئىسىم بىلەن سىزنى ئىزدەپ ئالاقە قىلالايدۇ ھەمدە تېلېفون نومۇرىڭىزنى بىلىش ھاجەتسىز.";
+"USERNAME_DESCRIPTION" = "ئىشلەتكۈچى ئىسمى Morse دىكى تاللانما ئىقتىدار. ئەگەر ئىشلەتكۈچى ئىسمى قۇرۇشنى تاللىسىڭىز، باشقا Morse ئىشلەتكۈچىلىرى مۇشۇ ئىسىم بىلەن سىزنى ئىزدەپ ئالاقە قىلالايدۇ ھەمدە تېلېفون نومۇرىڭىزنى بىلىش ھاجەتسىز.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "ئىشلەتكۈچى ئىسمى پەقەت a-Z، 0-9 ۋە ئاستى سىزىقتىن تۈزۈلىشى كېرەك.";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "ئىشلەتكۈچى ئىسمىنى ئىزدەۋاتقاندا بىر خاتالىق كۆرۈلدى. سەل تۇرۇپ قايتا سىناڭ.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "«%@» تېخى Signal ئىشلەتكۈچىسى ئەمەس. ئىشلەتكۈچى ئىسمىنى تولۇق كىرگۈزگەنلىكىڭىزگە جەزىم قىلىڭ.";
+"USERNAME_NOT_FOUND_FORMAT" = "«%@» تېخى Morse ئىشلەتكۈچىسى ئەمەس. ئىشلەتكۈچى ئىسمىنى تولۇق كىرگۈزگەنلىكىڭىزگە جەزىم قىلىڭ.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "ئىشلەتكۈچى تېپىلمىدى";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "خاتىرىلەش ئۈچۈن چېكىپ بېسىپ تۇرۇڭ.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "‫Signal ئۈستەل يۈزى ئەپىدە سەپلەشنى تاماملاڭ.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "‫Morse ئۈستەل يۈزى ئەپىدە سەپلەشنى تاماملاڭ.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "ئالاقىداش نامى";

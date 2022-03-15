@@ -149,7 +149,7 @@
 "APN_Message" = "ممکن است پیام‌های جدیدی داشته باشید";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "سیگنال قادر به راه‌اندازی نیست. لطفاً گزارش عیب‌یابی خود را به support@signal.org ارسال کنید تا ما بتوانیم این مشکل را رفع کنیم.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "سیگنال قادر به راه‌اندازی نیست. لطفاً گزارش عیب‌یابی خود را به support@devplusone.com ارسال کنید تا ما بتوانیم این مشکل را رفع کنیم.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "خطا";
@@ -164,7 +164,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "نسخهٔ پایگاه داده شناخته شده نیست.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "داده‌هایی که از دستگاه قدیمی شما انتقال یافته است امکان بازگردانی ندارند. لطفاً یک گزارش عیب‌یابی به support@signal.org ارسال کنید تا ما بتوانیم این مشکل را رفع کنیم. اگر سیگنال را دوباره نصب کنید، ممکن است تاریخچهٔ پیام‌های شما از دست برود.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "داده‌هایی که از دستگاه قدیمی شما انتقال یافته است امکان بازگردانی ندارند. لطفاً یک گزارش عیب‌یابی به support@devplusone.com ارسال کنید تا ما بتوانیم این مشکل را رفع کنیم. اگر سیگنال را دوباره نصب کنید، ممکن است تاریخچهٔ پیام‌های شما از دست برود.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "امکان تکمیل انتقال وجود نداشت";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "صدور پیوست ناموفق بود.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "ذخیره ناموفق بود";
 
 /* Format string for file extension label in call interstitial view */
@@ -386,13 +386,13 @@
 "BADGE_DETAILS_GIVE_A_BOOST" = "سیگنال را تقویت کنید";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Signal but to support technology that is built for you, please consider becoming a monthly Sustainer.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Morse but to support technology that is built for you, please consider becoming a monthly Sustainer.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can reactivate your Boost badge for another 30 days with a one-time contribution.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Morse but to support the app and reactivate your badge, renew now.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "به یک حامی تبدیل شوید";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "هنگامی که شما بیش از یک نشان دارید، می‌توانید یکی را برای نمایش روی پروفایل‌تان برای دیگران انتخاب کنید.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned the %@ badge! Help Signal build awareness by displaying this badge on your profile.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned the %@ badge! Help Morse build awareness by displaying this badge on your profile.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "بستن بنر";
@@ -931,10 +931,10 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "یک چیزی کار نمی‌کند";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Sustainers & Signal Boost";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Sustainers & Morse Boost";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Sustainers & Boost";
 
 /* Alert body */
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "صوتی";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Signal. Tap a badge to learn more.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Morse. Tap a badge to learn more.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "نشان‌ها";
@@ -1396,7 +1396,7 @@
 /* Label warning the user that they have been de-registered. */
 "DEREGISTRATION_WARNING" = "دستگاه دیگر ثبت شده نیست. شماره تلفن شما ممکن است از یک دستگاه دیگری در سیگنال ثبت شده باشد. برای ثبت نام دوباره کلیک کنید.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "آخرین فعالیت %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1561,7 +1561,7 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "مبلغ دلخواه را وارد کنید";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
+/* Text describing to the user that they're going to pay a donation to Morse */
 "DONATION_VIEW_DONATION_TO_SIGNAL" = "حمایت از سیگنال";
 
 /* Text explaining there are other ways to donate on the donation view. */
@@ -1588,10 +1588,10 @@
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "چرا حمایت کنیم؟";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "شما میتوانید در برنامه تنظیمات iOS دسترسی را اعمال کنید.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "برای ویرایش اطلاعات مخاطبین، سیگنال نیاز به دسترسی به مخاطبین دارد";
 
 /* The navbar title for the 'update group' view. */
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "کپی";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
 "EMAIL_INVITE_BODY" = "سلام،\n\nبه‌تازگی در حال استفاده از سیگنال بودم تا گفتگوهام رو در iPhone خصوصی نگه دارم. دوست دارم تا شما هم این برنامه رو نصب کنید تا خیالمون از اینکه فقط من و شما می‌تونیم پیام‌هامون رو بخونیم یا تماس‌هامون رو بشنویم.\n\nسیگنال برای آیفون و اندروید در دسترس است. دریافت برنامه از: %@\n\nسیگنال مثل برنامهٔ پیام‌رسان فعلی شما کار می‌کنه. ما می‌تونیم عکس و ویدئو بفرستیم، تماس بگیریم، و گفتگوها‌ی گروهی شروع کنیم. بهترین قسمتش اینجاست، که هیچکس دیگه‌ای نمی‌تونه اون‌ها رو ببینه، حتی سازندگان سیگنال\n\nشما می‌توانید در مورد Open Whisper Systems، سازندگان سیگنال، اینجا بخوانید: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
+/* subject of email sent to contacts when inviting to install Morse */
 "EMAIL_INVITE_SUBJECT" = "به نرم افزار پیام رسان سیگنال بپیوندید";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "دستگاه شما برای ارسال ایمیل پیکربندی نشده است. برای ارسال یک درخواست پشتیبانی، ایمیل را روی دستگاه خود تنظیم کنید یا به support@signal.org ایمیل ارسال کنید";
+"EMAIL_SIGNAL_MESSAGE" = "دستگاه شما برای ارسال ایمیل پیکربندی نشده است. برای ارسال یک درخواست پشتیبانی، ایمیل را روی دستگاه خود تنظیم کنید یا به support@devplusone.com ایمیل ارسال کنید";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "ایمیل در دسترس نیست";
@@ -1705,7 +1705,7 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "امکان ارسال پیام به کاربری که مسدود کرده‌اید وجود ندارد.";
 
-/* Generic error used whenever Signal can't contact the server */
+/* Generic error used whenever Morse can't contact the server */
 "ERROR_DESCRIPTION_NO_INTERNET" = "سیگنال نتوانست به اینترنت متصل شود. لطفا دوباره امتحان کنید.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
@@ -1778,7 +1778,7 @@
 "ERROR_NETWORK_FAILURE" = "خطا در شبکه";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "لطفاً به ما در بهبود سیگنال با ارسال گزارش این خطا به همراه گزارش‌های عیب‌یابی از دستگاه خود به support@signal.org کمک کنید: %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "لطفاً به ما در بهبود سیگنال با ارسال گزارش این خطا به همراه گزارش‌های عیب‌یابی از دستگاه خود به support@devplusone.com کمک کنید: %@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "سیگنال بتا: خطایی رخ داد";
@@ -2329,7 +2329,7 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "کد QR";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "اشتراک‌گذاری از طریق سیگنال";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "تماس با ما";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "مرکز پشتیبانی";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "پیش نویس:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "برخی از مخاطبان از سیگنال استفاده میکنند، مثل %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "برخی از مخاطبان هم اکنون در حال استفاده از سیگنال می باشند، مثل %@ و %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "برخی از مخاطبان از سیگنال استفاده میکنند، مثل %@ ، %@ و %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "اولین گپ خود را از اینجا آغاز کنید.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2935,7 +2935,7 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "شما نمی توانید بیشتر از %@ آیتم را به اشتراک بگذارید.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "تغییر عکس‌ها";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
@@ -2989,7 +2989,7 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "شما می‌توانید پیام‌های همگام‌سازی شده را از تلفن یا iPad خود دریافت کنید.  برای امنیت شما، تاریخچهٔ گفتگو به دستگاه‌های پیوند داده شدهٔ جدید منتقل نمی‌شود.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
 "INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ عضو سیگنال شده است!";
 
 /* accessibility label for the button which shows the sticker picker */
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "خوانده‌شده";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "رد شده";
 
 /* Label indicating that a message failed to send. */
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "برای چت کردن یک مخاطب یا گروه را انتخاب کنید.";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "بهSignal خوش‌آمدید";
+"NO_SELECTED_CONVERSATION_TITLE" = "بهMorse خوش‌آمدید";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "پیام جدید به :";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "هیچ نام و یا محتوایی وجود ندارد";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "پخش در هنگام باز بودن برنامه";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3776,10 +3776,10 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "لطفاً چند لحظه قبل از تلاش دوباره صبر کنید. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "شمارهٔ خود را وارد کنید";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "برای محافظت از حریم خصوصی شما، سیستم یک شماره تلفن 8 رقمی ’جعلی‘ در اختیار شما قرار می دهد";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "شماره تلفن شما";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "شماره تلفن شما"; 
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "شماره‌تلفن نامعتبر. لطفاً برای ثبت‌نام یک شماره‌تلفن معتبر وارد کنید. ";
@@ -3859,7 +3859,7 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@ زمان ناپدید شدن پیام را روی %@ تنظیم کرد.";
 
-/* Label warning the user that the Signal service may be down. */
+/* Label warning the user that the Morse service may be down. */
 "OUTAGE_WARNING" = "سیگنال با مشکلات فنی روبروست. به سختی تلاش میکنیم تا سرویس را تا حد ممکن سریعا برگردانیم.";
 
 /* info message text in conversation view. {embeds callee name} */
@@ -4825,13 +4825,13 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "برای استفاده از قفل صفحه نمایش می بایستی یک رمزعبور از تنظیمات iOS فعال کنید.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
 "SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "برای باز کردن سیگنال هویت خود را احراز کنید";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "احراز هویت ناموفق بود";
 
-/* Label for button on lock screen that lets users unlock Signal. */
+/* Label for button on lock screen that lets users unlock Morse. */
 "SCREEN_LOCK_UNLOCK_SIGNAL" = "آنلاک کردن سیگنال";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "هواشناسی";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "رئیس فرفری";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5134,7 +5134,7 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "دورزدن سانسور تنها در زمان اتصال به اینترنت فعال خواهد شد.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "نیازی به دورزدن سانسور نیست؛ شما به سرویس سیگنال دسترسی مستقیم دارید.";
 
 /* No comment provided by engineer. */
@@ -5176,7 +5176,7 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "کاربر های مسدود شده را انتخاب کنید";
 
-/* A label that indicates the user has no Signal contacts. */
+/* A label that indicates the user has no Morse contacts. */
 "SETTINGS_BLOCK_LIST_NO_CONTACTS" = "هیچ کدام از مخاطبین شما سیگنال را نصب نکرده‌اند.";
 
 /* A label that indicates the user's search has no matching results. */
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "دعوت از دوستان";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "شما میتوانید از طریق signalapp@ به من دسترسی پیدا کنید. همین الان آن را دریافت کنید:  https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "شما میتوانید از طریق signalapp@ به من دسترسی پیدا کنید. همین الان آن را دریافت کنید:  https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "رنگ و کاغذدیواری گفتگو";
@@ -5869,7 +5869,7 @@
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "قفل ثبت‌نام";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
 "SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "درخواست پین سیگنال شما برای ثبت‌نام دوباره با شماره‌تلفن شما در سیگنال.";
 
 /* Label for the 'typing indicators' setting. */
@@ -5929,7 +5929,7 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "در حال آپلود...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "پیوست فراهم نشد";
 
 /* Title for the 'share extension' view. */
@@ -5956,7 +5956,7 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "نمایش گفتگو";
 
-/* body sent to contacts when inviting to Install Signal */
+/* body sent to contacts when inviting to Install Morse */
 "SMS_INVITE_BODY" = "من شما را از طریق این لینک، به نصب برنامه سیگنال دعوت می‌کنم:";
 
 /* table cell label in conversation settings */
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "کمک کردن";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal is powered by people like you. Contribute and receive a badge.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse is powered by people like you. Contribute and receive a badge.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "نه،‌ ممنون";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "درباره این موضوع به ما بگویید:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "لطفاً درخواست پشتیبانی خود را به نشانی ایمیل support@signal.org ارسال کنید";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "لطفاً درخواست پشتیبانی خود را به نشانی ایمیل support@devplusone.com ارسال کنید";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "فیلتر: %@";
@@ -6112,7 +6112,7 @@
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "چه حسی دارید؟ (اختیاری)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "آیا قسمت پرسش‌های متداول را خوانده‌اید؟";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "در حال بارگذاری";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly contribution and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly contribution and receive a profile badge to share your support.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour contribution fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morse is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour contribution fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Support technology that is built for you - not for your data - by joining the community that sustains it.";

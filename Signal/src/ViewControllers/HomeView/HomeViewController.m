@@ -519,7 +519,6 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     }
 
     UIBarButtonItem *settingsButton = [[UIBarButtonItem alloc] initWithCustomView:avatarWrapper];
-
     settingsButton.accessibilityLabel = CommonStrings.openSettingsButton;
     self.navigationItem.leftBarButtonItem = settingsButton;
     SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, settingsButton);

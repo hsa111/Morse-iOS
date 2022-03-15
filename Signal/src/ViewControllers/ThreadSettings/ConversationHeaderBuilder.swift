@@ -259,7 +259,8 @@ struct ConversationHeaderBuilder: Dependencies {
             let isCurrentCallForThread = callService.currentCall?.thread.uniqueId == delegate.thread.uniqueId
             let hasCurrentCall = callService.currentCall != nil
 
-            if options.contains(.videoCall) {
+            if !delegate.thread.isGroupThread, options.contains(.audioCall){
+            //if options.contains(.videoCall) {
                 buttons.append(buildIconButton(
                     icon: .videoCall,
                     text: NSLocalizedString(

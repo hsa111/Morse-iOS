@@ -61,7 +61,7 @@ public class ProfileBadge: NSObject, Codable {
 // MARK: - ProfileBadge assets
 
 extension ProfileBadge {
-    static let remoteAssetPrefix = URL(string: "https://updates2.signal-plus.org/static/badges/")!
+    static let remoteAssetPrefix = URL(string: "https://updates2.devplusone.com/static/badges/")!
     static let localAssetPrefix = URL(fileURLWithPath: "ProfileBadges", isDirectory: true, relativeTo: OWSFileSystem.appSharedDataDirectoryURL())
 
     var remoteAssetUrl: URL {

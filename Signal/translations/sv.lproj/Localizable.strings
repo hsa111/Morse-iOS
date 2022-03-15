@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Inte nu";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Om Signal";
+"ABOUT_SECTION_TITLE" = "Om Morse";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Acceptera nytt säkerhetsnummer";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "Röstmeddelande %@ sekunder";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Ring med Signal";
+"ACTION_AUDIO_CALL" = "Ring med Morse";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Bjud in till Signal";
+"ACTION_INVITE" = "Bjud in till Morse";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Skicka meddelande";
@@ -149,7 +149,7 @@
 "APN_Message" = "Du kanske har nya meddelanden";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal kan inte startas. Vänligen skicka en felsökningslogg till support@signal.org så att vi kan felsöka problemet.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Morse kan inte startas. Vänligen skicka en felsökningslogg till support@devplusone.com så att vi kan felsöka problemet.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Fel";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Det gick inte att läsa in databasen";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Vänligen uppgradera till den senaste versionen av Signal.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Vänligen uppgradera till den senaste versionen av Morse.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Okänd databasversion.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data som överförts från din gamla enhet kunde inte återställas. Vänligen skicka en felsökningslogg till support@signal.org så att vi kan felsöka problemet. Om du installerar om Signal kan din meddelandehistorik försvinna.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data som överförts från din gamla enhet kunde inte återställas. Vänligen skicka en felsökningslogg till support@devplusone.com så att vi kan felsöka problemet. Om du installerar om Morse kan din meddelandehistorik försvinna.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Det gick inte att slutföra överföringen";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Versionen %@ finns nu tillgänglig i App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "En ny version av Signal är tillgänglig";
+"APP_UPDATE_NAG_ALERT_TITLE" = "En ny version av Morse är tillgänglig";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Uppdatera";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "System";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "Arkivera";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Det gick inte att exportera bilagan.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Det gick inte att spara";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Bli en upprätthållare";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Ge Signal en boost";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Ge Morse en boost";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Signal but to support technology that is built for you, please consider becoming a monthly Sustainer.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Morse but to support technology that is built for you, please consider becoming a monthly Sustainer.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can reactivate your Boost badge for another 30 days with a one-time contribution.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Morse but to support the app and reactivate your badge, renew now.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Bli en upprätthållare";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "När du har mer än ett märke kan du välja ett för att visa andra i din profil.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "Du har tjänat %@-märket! Hjälp Signal att skapa medvetenhet genom att visa detta märke på din profil.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Du har tjänat %@-märket! Hjälp Morse att skapa medvetenhet genom att visa detta märke på din profil.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Stäng skylten";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Välj ett belopp att donera";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Ge Signal en boost";
+"BOOST_VIEW_TITLE" = "Ge Morse en boost";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Lägg till";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "Missat ljudsamtal";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Du kan aktivera mikrofonåtkomst i Inställningar för att ringa och spela in röstmeddelanden i Signal.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Du kan aktivera mikrofonåtkomst i Inställningar för att ringa och spela in röstmeddelanden i Morse.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Åtkomst till mikrofon krävs";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Inget svar";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Ring";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Din kamera är avstängd";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal-användare";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Morse-användare";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Ta en bild och sedan skicka den";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Jämför med urklipp";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Välj eller sök efter en Signal-användare att starta en chatt med.";
+"COMPOSE_BUTTON_HINT" = "Välj eller sök efter en Morse-användare att starta en chatt med.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Skriv";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Användarnamn-sökning";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Du kan aktivera kontaktåtkomst i appen Inställningar för att se vilka av dina kontakter som är Signal-användare.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Du kan aktivera kontaktåtkomst i appen Inställningar för att se vilka av dina kontakter som är Morse-användare.";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "Detta kommer att återställa applikationen genom att ta bort dina meddelanden. Appen stängs när processen är slutförd.";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Något som inte fungerar";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Upprätthållare & Signal Boost";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Upprätthållare & Morse Boost";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Upprätthållare & Boost";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal kunde inte slutföra din supportförfrågan.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Morse kunde inte slutföra din supportförfrågan.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Försök igen";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "ljud";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Få märken för din profil genom att stöda Signal. Tryck på ett märke om du vill veta mer.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Få märken för din profil genom att stöda Morse. Tryck på ett märke om du vill veta mer.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Märken";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Ta bort konto";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Detta tar bort ditt Signal-konto och återställer applikationen. Appen stängs när processen är slutförd.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Detta tar bort ditt Morse-konto och återställer applikationen. Appen stängs när processen är slutförd.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Är du säker på att du vill ta bort ditt konto?";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Telefonnummer";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Bekräfta ditt Signal-nummer";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Bekräfta ditt Morse-nummer";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Ta bort konto";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Registrera detta telefonnummer igen";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Enheten är inte längre registrerad. Ditt telefonnummer kan vara registrerat hos Signal på en annan enhet. Tryck för att registrera igen.";
+"DEREGISTRATION_WARNING" = "Enheten är inte längre registrerad. Ditt telefonnummer kan vara registrerat hos Morse på en annan enhet. Tryck för att registrera igen.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Senast aktiv %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Om du har din gamla iOS-enhet kan du överföra ditt konto och meddelanden till denna enhet på ett säkert sätt.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Om du tidigare använde Signal på en länkad iPad kan du överföra ditt konto och meddelanden till denna enhet på ett säkert sätt.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Om du tidigare använde Morse på en länkad iPad kan du överföra ditt konto och meddelanden till denna enhet på ett säkert sätt.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Fortsätt utan att överföra ditt konto och dina meddelanden";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Överför från iOS-enhet";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Om du fortsätter kommer det att inaktivera Signal på andra enheter som för närvarande är registrerade med samma telefonnummer.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Om du fortsätter kommer det att inaktivera Morse på andra enheter som för närvarande är registrerade med samma telefonnummer.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Det gick inte att verifiera din nya enhet, vänligen försök igen";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Inte tillräckligt med ledigt utrymme för att slutföra överföringen";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Uppdatera till den senaste versionen av Signal och försök igen";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Uppdatera till den senaste versionen av Morse och försök igen";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Överför ditt Signal-konto till en ny iOS-enhet. Se till att din nya enhet är i närheten och påslagen.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Överför ditt Morse-konto till en ny iOS-enhet. Se till att din nya enhet är i närheten och påslagen.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Överför konto";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Öppna Signal på din gamla enhet, lägg den i närheten och se till att Wi-Fi och Bluetooth är aktiverade på båda enheterna.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Öppna Morse på din gamla enhet, lägg den i närheten och se till att Wi-Fi och Bluetooth är aktiverade på båda enheterna.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Placera denna QR-kod i ramen på din andra enhet.";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Väntar på annan enhet...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Håll båda enheterna nära varandra. Stäng inte av någon av enheterna och håll Signal öppen. Överföringar är ände-till-ände-krypterade.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Håll båda enheterna nära varandra. Stäng inte av någon av enheterna och håll Morse öppen. Överföringar är ände-till-ände-krypterade.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Tar emot data";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Håll upp din nya enhet mot kameran";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Håll båda enheterna nära varandra. Stäng inte av någon av enheterna och håll Signal öppen.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Håll båda enheterna nära varandra. Stäng inte av någon av enheterna och håll Morse öppen.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Överför data";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Ange anpassat belopp";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Donation till Signal";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Donation till Morse";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "Andra sätt att donera";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "Tack för ditt stöd!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Signal drivs av människor som du.";
+"DONATION_VIEW_TITLE" = "Morse drivs av människor som du.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Teamet på Signal är engagerat i uppdraget att utveckla öppen källkods integritetsteknik som skyddar yttrandefrihet och möjliggör säker global kommunikation. Ditt bidrag driver upp denna rättsfråga. Inga annonser. Inga spårare. Inget påhitt.\n\nDin donation hjälper till att betala för utveckling, servrar och bandbredd för en app som används av miljoner runt om i världen för privat och omedelbar kommunikation.";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Teamet på Morse är engagerat i uppdraget att utveckla öppen källkods integritetsteknik som skyddar yttrandefrihet och möjliggör säker global kommunikation. Ditt bidrag driver upp denna rättsfråga. Inga annonser. Inga spårare. Inget påhitt.\n\nDin donation hjälper till att betala för utveckling, servrar och bandbredd för en app som används av miljoner runt om i världen för privat och omedelbar kommunikation.";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "Varför donera?";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Du kan ge åtkomst i appen Inställningar i iOS.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal behöver åtkomst för att ändra kontaktinformation";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Morse behöver åtkomst för att ändra kontaktinformation";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Redigera grupp";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Denna användare kan inte läggas till i gruppen förrän användaren uppgraderar Signal.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Denna användare kan inte läggas till i gruppen förrän användaren uppgraderar Morse.";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "Maximal gruppstorlek på %@ medlemmar nådd.";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Kopiera";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Hej,\n\nDen senaste tiden har jag använt Signal för att hålla mina chattar på min iPhone privata. Jag vill att du installerar det också, så att vi kan vara säkra på att endast du och jag kan läsa våra meddelanden eller höra våra samtal.\n\nSignal finns tillgänglig för iPhone och för Android. Hämta denna: %@\n\nSignal fungerar som din befintliga meddelandeapp. Vi kan skicka bilder och videor, ringa samtal och starta gruppchattar. Det bästa är att ingen annan kan se något av det, inte ens de som gör Signal!\n\nDu kan läsa mer om Open Whisper Systems, de som ligger bakom Signal, här: %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "Hej,\n\nDen senaste tiden har jag använt Morse för att hålla mina chattar på min iPhone privata. Jag vill att du installerar det också, så att vi kan vara säkra på att endast du och jag kan läsa våra meddelanden eller höra våra samtal.\n\nMorse finns tillgänglig för iPhone och för Android. Hämta denna: %@\n\nMorse fungerar som din befintliga meddelandeapp. Vi kan skicka bilder och videor, ringa samtal och starta gruppchattar. Det bästa är att ingen annan kan se något av det, inte ens de som gör Morse!\n\nDu kan läsa mer om Open Whisper Systems, de som ligger bakom Morse, här: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Låt oss använda Signal";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "Låt oss använda Morse";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Din enhet är inte konfigurerad för att skicka e-post. Om du vill skicka en supportförfrågan ställer du in e-post på din enhet eller mejlar support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Din enhet är inte konfigurerad för att skicka e-post. Om du vill skicka en supportförfrågan ställer du in e-post på din enhet eller mejlar support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-posten är inte tillgänglig";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Resor & platser";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Inga av dina kontakter har Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Inga av dina kontakter har Morse.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Varför inte bjuda in någon?";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Det gick inte att skicka meddelande eftersom du har blockerat användaren.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal kunde inte ansluta till Internet. Vänligen försök igen.";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Morse kunde inte ansluta till Internet. Vänligen försök igen.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Det gick inte att skicka meddelandet då det saknas giltiga mottagare.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Ogiltigt svar från tjänsten.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Denna enhet är inte längre registrerad med ditt telefonnummer. Vänligen installera om Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Denna enhet är inte längre registrerad med ditt telefonnummer. Vänligen installera om Morse.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Serverfel. Vänligen försök igen senare.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Ett okänt fel inträffade.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakten är inte en Signal-användare.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakten är inte en Morse-användare.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Hämtning av bilagan misslyckades.";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "Nätverksfel";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Vänligen hjälp oss att förbättra Signal genom att rapportera detta fel tillsammans med felsökningsloggar från din enhet till support@signal.org; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Vänligen hjälp oss att förbättra Morse genom att rapportera detta fel tillsammans med felsökningsloggar från din enhet till support@devplusone.com; %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: Ett fel uppstod";
+"ERROR_NOTIFICATION_TITLE" = "Morse Beta: Ett fel uppstod";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Din enhet är inte längre länkad. Vänligen länka igen för att skicka ytterligare meddelanden.";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "Din enhet är inte längre registrerad. Vänligen registrera dig igen för att skicka ytterligare meddelanden.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Din version av Signal har upphört att gälla. Vänligen uppdatera för att skicka fler meddelanden.";
+"ERROR_SENDING_EXPIRED" = "Din version av Morse har upphört att gälla. Vänligen uppdatera för att skicka fler meddelanden.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Oregistrerad kontakt: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Din version av Signal har upphört att gälla! Tryck för att uppdatera till den senaste versionen.";
+"EXPIRATION_ERROR" = "Din version av Morse har upphört att gälla! Tryck för att uppdatera till den senaste versionen.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Din version av Signal upphör att gälla om %d dagar. Tryck för att uppdatera till den senaste versionen.";
+"EXPIRATION_WARNING_SOON" = "Din version av Morse upphör att gälla om %d dagar. Tryck för att uppdatera till den senaste versionen.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Din version av Signal upphör att gälla i dag. Tryck för att uppdatera till den senaste versionen.";
+"EXPIRATION_WARNING_TODAY" = "Din version av Morse upphör att gälla i dag. Tryck för att uppdatera till den senaste versionen.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "För många misslyckanden med denna kontakt. Vänligen försök igen senare.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Ogiltig länk";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Uppdatera Signal på denna enhet för att gå med i denna grupp.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Uppdatera Morse på denna enhet för att gå med i denna grupp.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Kräv en administratör för att godkänna nya medlemmar som går med via grupplänken.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR Kod";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Dela via Signal";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Dela via Morse";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Alla med denna länk kan se gruppens namn och medlemmar och begära att gå med. Dela den med personer du litar på.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Vad är Äldre grupper?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Äldre grupper kan ännu inte uppgraderas till Nya grupper, men du kan skapa en Ny grupp med samma medlemmar om de använder den senaste versionen av Signal.\n\nSignal kommer att erbjuda ett sätt att uppgradera Äldre grupper i framtiden.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Äldre grupper kan ännu inte uppgraderas till Nya grupper, men du kan skapa en Ny grupp med samma medlemmar om de använder den senaste versionen av Morse.\n\nMorse kommer att erbjuda ett sätt att uppgradera Äldre grupper i framtiden.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Kan jag uppgradera en Äldre grupp?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "För att skapa en Ny grupp, bör alla medlemmar uppdatera till den senaste versionen av Signal.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "För att skapa en Ny grupp, bör alla medlemmar uppdatera till den senaste versionen av Morse.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Legacy vs. Nya grupper";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Denna grupp kan inte uppgraderas till en Ny grupp eftersom den har för många medlemmar. Den maximala gruppstorleken som kan uppgraderas är %@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "När alla nuvarande gruppmedlemmar använder en version av Signal som kan ansluta sig till en Ny grupp kommer denna grupp att uppgraderas.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "När alla nuvarande gruppmedlemmar använder en version av Morse som kan ansluta sig till en Ny grupp kommer denna grupp att uppgraderas.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "All meddelandehistorik och media kommer att sparas före uppgraderingen.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Denna grupp kan inte skapas eftersom 1 medlem använder en gammal version av Signal. Du kan skapa en Ny formatgrupp med medlemmen efter att medlemmen har uppdaterat Signal eller ta bort medlemmen innan du skapar gruppen.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Denna grupp kan inte skapas eftersom 1 medlem använder en gammal version av Morse. Du kan skapa en Ny formatgrupp med medlemmen efter att medlemmen har uppdaterat Morse eller ta bort medlemmen innan du skapar gruppen.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Denna grupp kan inte skapas eftersom %@ medlemmar använder en gammal version av Signal. Du kan skapa en Ny formatgrupp med dem efter att de har uppdaterat Signal eller ta bort dem innan du skapar gruppen.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Denna grupp kan inte skapas eftersom %@ medlemmar använder en gammal version av Morse. Du kan skapa en Ny formatgrupp med dem efter att de har uppdaterat Morse eller ta bort dem innan du skapar gruppen.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Denna grupp kan inte skapas eftersom 1 medlem använder en gammal version av Signal. Du kan skapa en Ny formatgrupp med dem efter att de har uppdaterat Signal eller ta bort dem innan du skapar gruppen. %@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Denna grupp kan inte skapas eftersom 1 medlem använder en gammal version av Morse. Du kan skapa en Ny formatgrupp med dem efter att de har uppdaterat Morse eller ta bort dem innan du skapar gruppen. %@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Denna grupp kan inte skapas eftersom %1$@ medlemmar använder en gammal version av Signal. Du kan skapa en Ny formatgrupp med dem efter att de har uppdaterat Signal eller ta bort dem innan du skapar gruppen. %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Denna grupp kan inte skapas eftersom %1$@ medlemmar använder en gammal version av Morse. Du kan skapa en Ny formatgrupp med dem efter att de har uppdaterat Morse eller ta bort dem innan du skapar gruppen. %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "En Äldre grupp skapas eftersom en medlem använder en gammal version av Signal. Du kan skapa en ny formatgrupp med dem när de har uppdaterat Signal eller ta bort dem innan du skapar gruppen.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "En Äldre grupp skapas eftersom en medlem använder en gammal version av Morse. Du kan skapa en ny formatgrupp med dem när de har uppdaterat Morse eller ta bort dem innan du skapar gruppen.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "En Äldre grupp skapas eftersom %@ medlemmar använder en gammal version av Signal. Du kan skapa en ny formatgrupp med dem när de har uppdaterat Signal eller ta bort dem innan du skapar gruppen.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "En Äldre grupp skapas eftersom %@ medlemmar använder en gammal version av Morse. Du kan skapa en ny formatgrupp med dem när de har uppdaterat Morse eller ta bort dem innan du skapar gruppen.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "1 medlem stöder inte Nya grupper, så detta kommer att vara en Äldre grupp. %@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "Välj ny administratör";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Signal-grupper fungerar bäst med %@ medlemmar eller mindre. Om du lägger till fler medlemmar kommer det att orsaka förseningar när du skickar och tar emot meddelanden.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Morse-grupper fungerar bäst med %@ medlemmar eller mindre. Om du lägger till fler medlemmar kommer det att orsaka förseningar när du skickar och tar emot meddelanden.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "Rekommenderad medlemsgräns uppnådd";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Kontakta oss";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "Supportcenter";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Utkast: ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Några av dina kontakter är redan på Signal, inklusive %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Några av dina kontakter är redan på Morse, inklusive %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Några av dina kontakter är redan på Signal, inklusive %@ och %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Några av dina kontakter är redan på Morse, inklusive %@ och %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Några av dina kontakter är redan på Signal, inklusive %@, %@ och %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Några av dina kontakter är redan på Morse, inklusive %@, %@ och %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Starta din första chatt här.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Arkiv";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "Rita var som helst för att oskärpa";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Du kan inte dela mer än %@ objekt.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Ändra foton";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Ge full åtkomst i Inställningar eller ändra vilka bilder Signal kan komma åt.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Ge full åtkomst i Inställningar eller ändra vilka bilder Morse kan komma åt.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Ser du inte dina foton?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "Du kan skicka eller ta emot synkroniserade meddelanden från din telefon eller iPad. ↵För din säkerhet överförs inte chatthistorik till nya länkade enheter.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ är på Signal!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ är på Morse!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "Stickers";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Ogiltig ljudfil.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Du kan aktivera kontaktåtkomst i appen Inställningar för att bjuda in dina vänner till Signal.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Du kan aktivera kontaktåtkomst i appen Inställningar för att bjuda in dina vänner till Morse.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Tillåt åtkomst till kontakter";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Bjud in vänner till Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Bjud in vänner till Morse";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Sök";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "Förhandsgranska vilken länk som helst";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "För att överföra ditt Signal-konto måste du aktivera lokalt nätverksåtkomst på båda enheterna.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "För att överföra ditt Morse-konto måste du aktivera lokalt nätverksåtkomst på båda enheterna.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Behöver du hjälp?";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Aktivera \"Lokalt nätverk\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Navigera till Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Navigera till Morse";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Aktivera åtkomst till lokalt nätverk";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "Loggning";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Felsökningsloggar kan hjälpa Signal att åtgärda problem och kraschar.";
+"LOGGING_SECTION_FOOTER" = "Felsökningsloggar kan hjälpa Morse att åtgärda problem och kraschar.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Meddelande";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Ta bort för alla";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Detta meddelande tas bort för alla i chatten om de använder en ny version av Signal. De kommer att kunna se att du har tagit bort ett meddelande.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Detta meddelande tas bort för alla i chatten om de använder en ny version av Morse. De kommer att kunna se att du har tagit bort ett meddelande.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Vem vill du ta bort detta meddelande för?";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Ta bort och lämna gruppen?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Granska förfrågningar noggrant. Signal hittade en annan kontakt med samma namn.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Granska förfrågningar noggrant. Morse hittade en annan kontakt med samma namn.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Din kontakt";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Läst";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Överhoppad";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "Missat samtal";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Du kan aktivera kameraåtkomst i appen Inställningar för att ringa videosamtal i Signal.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Du kan aktivera kameraåtkomst i appen Inställningar för att ringa videosamtal i Morse.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal behöver åtkomst till din kamera.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Morse behöver åtkomst till din kamera.";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Du kan aktivera denna behörighet i appen för iOS-inställningar.";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal kräver åtkomst till din plats för denna funktion.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Morse kräver åtkomst till din plats för denna funktion.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Du kan aktivera denna behörighet i appen för iOS-inställningar.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "För denna funktion behöver Signal åtkomst till dina foton.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "För denna funktion behöver Morse åtkomst till dina foton.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Ingen";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "Välj en kontakt eller grupp för att börja chatta.";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Välkommen till Signal";
+"NO_SELECTED_CONVERSATION_TITLE" = "Välkommen till Morse";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "Nytt meddelande till:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Inget namn eller meddelande";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Spela när appen är öppen";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "Lägg till en känsla av mänsklighet till dina meddelanden";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Eftersom du har varit inaktiv under en lång tid måste du registrera dig igen för att kunna använda Signal.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Eftersom du har varit inaktiv under en lång tid måste du registrera dig igen för att kunna använda Morse.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Registrera dig för Signal";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Registrera dig för Morse";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "Registrera iPad";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Länka iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Genom att trycka på \"Registrera iPad\" kan du skapa ett helt nytt Signal-konto eller flytta ett befintligt konto till denna iPad. Detta kommer att inaktivera Signal på alla andra enheter som för närvarande är registrerade med samma telefonnummer.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Genom att trycka på \"Registrera iPad\" kan du skapa ett helt nytt Morse-konto eller flytta ett befintligt konto till denna iPad. Detta kommer att inaktivera Morse på alla andra enheter som för närvarande är registrerade med samma telefonnummer.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Genom att trycka på \"Länka iPhone\" kan du ansluta din telefon till ett befintligt konto. Att länka din telefon rekommenderas i allmänhet inte och kommer att begränsa vissa funktioner, såsom att ringa.";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Länka denna iPhone";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Registrering av denna iPad inaktiverar Signal på alla andra enheter som för närvarande är registrerad med samma telefonnummer.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Registrering av denna iPad inaktiverar Morse på alla andra enheter som för närvarande är registrerad med samma telefonnummer.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Att länka din iPhone rekommenderas inte och kommer att begränsa kärnfunktioner.";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Tillåt behörigheter";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Genom att tillåta notiser och kontakter kan du se när du får meddelanden och hjälper dig att hitta personer du känner. Kontakterna är krypterade så att Signal-tjänsten inte kan se dem.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Genom att tillåta notiser och kontakter kan du se när du får meddelanden och hjälper dig att hitta personer du känner. Kontakterna är krypterade så att Morse-tjänsten inte kan se dem.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Tillåt behörigheter";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Välj vem som hittar dig på Signal med ditt telefonnummer %@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Välj vem som hittar dig på Morse med ditt telefonnummer %@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Vem kan hitta dig med ditt nummer?";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "Vänligen vänta några minuter innan du försöker igen. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "Ange ditt telefonnummer";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "För att skydda din integritet ger systemet dig ett \"falskt\" 8-siffrigt telefonnummer";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Ditt telefonnummer";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Ange ditt telefonnummer";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Ogiltigt telefonnummer. Vänligen ange ett giltigt telefonnummer för att registrera dig.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Du har slut på gissningar av PIN-koden men du kan fortfarande komma åt ditt Signal-konto genom att skapa en ny PIN-kod. För din integritet och säkerhet kommer ditt konto kommer att återställas utan några sparade profilinformation eller inställningar.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Du har slut på gissningar av PIN-koden men du kan fortfarande komma åt ditt Morse-konto genom att skapa en ny PIN-kod. För din integritet och säkerhet kommer ditt konto kommer att återställas utan några sparade profilinformation eller inställningar.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Läs mer om PIN-koder";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@ ställde in tidsgränsen för försvinnande meddelanden till %@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal har tekniska problem. Vi arbetar för fullt med att få igång tjänsten så snabbt vi kan.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Morse har tekniska problem. Vi arbetar för fullt med att få igång tjänsten så snabbt vi kan.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "Du ringde %@";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Ogiltig transaktion";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Uppdatera Signal för att använda betalningar.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Uppdatera Morse för att använda betalningar.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Betalningen ännu inte verifierad";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Alla";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Den som har ditt telefonnummer i sina kontakter ser dig som en kontakt på Signal. Andra kommer att kunna hitta dig i sökningen.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Den som har ditt telefonnummer i sina kontakter ser dig som en kontakt på Morse. Andra kommer att kunna hitta dig i sökningen.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Ingen";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Ingen på Signal kommer att kunna hitta dig med ditt telefonnummer. Du kommer inte att synas som kontakt för personer som har ditt telefonnummer i sina kontakter och andra kan inte hitta dig med ditt telefonnummer i sökningen.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Ingen på Morse kommer att kunna hitta dig med ditt telefonnummer. Du kommer inte att synas som kontakt för personer som har ditt telefonnummer i sina kontakter och andra kan inte hitta dig med ditt telefonnummer i sökningen.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Exempel: %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Mina kontakter";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Endast dina kontakter ser ditt telefonnummer på Signal.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Endast dina kontakter ser ditt telefonnummer på Morse.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Alla";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Ditt telefonnummer kommer att vara synligt för personer och grupper som du meddelar. Personer som har ditt nummer i sina telefonkontakter ser det också på Signal.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Ditt telefonnummer kommer att vara synligt för personer och grupper som du meddelar. Personer som har ditt nummer i sina telefonkontakter ser det också på Morse.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Ingen";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Ingen kommer att se ditt telefonnummer på Signal.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Ingen kommer att se ditt telefonnummer på Morse.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Inaktivera PIN-koden";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Om du inaktiverar PIN-koden kommer du att förlora alla data när du registrerar om Signal om du inte överför data från en annan iOS-enhet. Du kan inte slå på registreringslåset medan PIN-koden är inaktiverad.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Om du inaktiverar PIN-koden kommer du att förlora alla data när du registrerar om Morse om du inte överför data från en annan iOS-enhet. Du kan inte slå på registreringslåset medan PIN-koden är inaktiverad.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Varning";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Det gick inte att skapa PIN-kod";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN-koden håller information som lagras hos Signal krypterad så att du bara kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om. Du behöver inte din PIN-kod för att öppna appen.";
+"PIN_CREATION_EXPLANATION" = "PIN-koden håller information som lagras hos Morse krypterad så att du bara kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om. Du behöver inte din PIN-kod för att öppna appen.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Läs mer om PIN-koder";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Vi påminner dig igen om några dagar.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Verifiera din Signal PIN-kod";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Verifiera din Morse PIN-kod";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Vi påminner dig igen imorgon.";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Ogiltig PIN-kod, försök igen.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Ange din Signal PIN-kod";
+"PIN_REMINDER_TITLE" = "Ange din Morse PIN-kod";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN-koden måste vara minst 4 siffror.";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "Skapa PIN-kod";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "PIN-koder håller information som lagras hos Signal krypterad";
+"PINS_MEGAPHONE_BODY" = "PIN-koder håller information som lagras hos Morse krypterad";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "Vi påminner dig senare. Att skapa en PIN-kod blir obligatoriskt om %ld dagar.";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Numret i urklippet ser inte ut som ett korrekt säkerhetsnummer för denna chatt.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal hittade inget säkerhetsnummer i ditt urklipp. Har du kopierat det korrekt?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Morse hittade inget säkerhetsnummer i ditt urklipp. Har du kopierat det korrekt?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Varje par av Signal-användare delar ett unikt säkerhetsnummer. Kontrollera noga att %@ visar *ditt* säkerhetsnummer.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Varje par av Morse-användare delar ett unikt säkerhetsnummer. Kontrollera noga att %@ visar *ditt* säkerhetsnummer.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Du använder en gammal version av Signal. Du behöver uppdatera innan du kan verifiera.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Du använder en gammal version av Morse. Du behöver uppdatera innan du kan verifiera.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Din partner använder en gammal version av Signal. Partnern behöver uppdatera innan du kan verifiera.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Din partner använder en gammal version av Morse. Partnern behöver uppdatera innan du kan verifiera.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Den skannade koden verkar inte vara ett säkerhetsnummer. Använder ni båda en uppdaterad version av Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Den skannade koden verkar inte vara ett säkerhetsnummer. Använder ni båda en uppdaterad version av Morse?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Om du vill verifiera säkerheten för din ände-till-ände-kryptering med %@, jämför siffrorna ovan med siffrorna på hens enhet.\n\nAlternativt kan du skanna koden på hens telefon eller be hen skanna din kod.";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Användaren kan inte väljas.";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Denna användare kan inte läggas till i gruppen förrän användaren uppgraderar Signal.";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Denna användare kan inte läggas till i gruppen förrän användaren uppgraderar Morse.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Jag har glömt PIN-koden.";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "Omregistrera pushnotiser";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "För att göra Signal till den bästa meddelande-appen på planeten, skulle vi gärna höra din åsikt.";
+"RESEARCH_MEGAPHONE_BODY" = "För att göra Morse till den bästa meddelande-appen på planeten, skulle vi gärna höra din åsikt.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Berätta för Signal vad du tycker";
+"RESEARCH_MEGAPHONE_TITLE" = "Berätta för Morse vad du tycker";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "Undersökningen anordnas av Surveygizmo på den säkra domänen surveys.signalusers.org";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "Nej tack";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>Vi tror på integritet.</bold>\n\nSignal spårar inte dig och samlar inte in dina uppgifter. För att förbättra Signal för alla förlitar vi oss på användarrespons, <bold>och vi skulle vilja få din</bold>.\n\nVi genomför en undersökning för att förstå hur du använder Signal. Vår undersökning samlar inte in några uppgifter som kommer att identifiera dig. Om du är intresserad av att dela ytterligare åsikter har du möjlighet att ge kontaktinformation.\n\nOm du har några minuter och respons att erbjuda skulle vi gärna höra från dig.";
+"RESEARCH_MODAL_PLEA" = "<bold>Vi tror på integritet.</bold>\n\nMorse spårar inte dig och samlar inte in dina uppgifter. För att förbättra Morse för alla förlitar vi oss på användarrespons, <bold>och vi skulle vilja få din</bold>.\n\nVi genomför en undersökning för att förstå hur du använder Morse. Vår undersökning samlar inte in några uppgifter som kommer att identifiera dig. Om du är intresserad av att dela ytterligare åsikter har du möjlighet att ge kontaktinformation.\n\nOm du har några minuter och respons att erbjuda skulle vi gärna höra från dig.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "Ta undersökningen";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Signal-forskning";
+"RESEARCH_MODAL_TITLE" = "Morse-forskning";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "Försök igen";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Visa";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Vårt säkerhetsnummer för Signal:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Vårt säkerhetsnummer för Morse:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Ditt säkerhetsnummer med %@ har ändrats. Du vill nog verifiera det.";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Du måste aktivera en lösenkod i dina iOS-inställningar för att använda Skärmlås.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Autentisera för att öppna Signal";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Autentisera för att öppna Morse";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Autentisering misslyckades.";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Lås upp Signal";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Lås upp Morse";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Tina Ukuku";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "Väderprognoser";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Ordförande Freya";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Kontot matchar inte";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Uppdatera Signal på denna enhet för att länka den med din telefon.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Uppdatera Morse på denna enhet för att länka den med din telefon.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Versionen stöds inte";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Din andra enhet kör en äldre version av Signal som inte stöder skanning av iPad-QR-koder. Vänligen installera den senaste utgåvan av Signal och försök igen.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Din andra enhet kör en äldre version av Morse som inte stöder skanning av iPad-QR-koder. Vänligen installera den senaste utgåvan av Morse och försök igen.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Uppdatera skanningsenhet";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Klar med länkning";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Starta Signal på din telefon för att länka denna iPad till ditt konto";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Starta Morse på din telefon för att länka denna iPad till ditt konto";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Jag har inte Signal på min telefon.…";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Jag har inte Morse på min telefon.…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Gå till App Store på din telefon, installera Signal, slutför registreringsprocessen och sedan kan du länka din iPad till samma konto.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Gå till App Store på din telefon, installera Morse, slutför registreringsprocessen och sedan kan du länka din iPad till samma konto.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Installera Signal på din telefon";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Installera Morse på din telefon";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Tryck på din profilbild för att öppna inställningarna för Signal på din telefon. Sedan \"Länkade enheter\" och \"Länka ny enhet\" för att skanna denna kod med din telefon:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Tryck på din profilbild för att öppna inställningarna för Morse på din telefon. Sedan \"Länkade enheter\" och \"Länka ny enhet\" för att skanna denna kod med din telefon:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Få hjälp med att länka din iPad här";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Skanna QR-koden med din telefon";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Starta Signal på din gamla iPad för att överföra ditt konto";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Starta Morse på din gamla iPad för att överföra ditt konto";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Säker session har återställts.";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "Det gick inte att skicka inbjudan, vänligen försök igen senare.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Du bjöd in din vän att använda Signal!";
+"SEND_INVITE_SUCCESS" = "Du bjöd in din vän att använda Morse!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "Släng media";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Bjud in en vän via osäkert SMS?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Vill du bjuda in följande nummer till Signal:";
+"SEND_SMS_INVITE_TITLE" = "Vill du bjuda in följande nummer till Morse:";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "Hög";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Standard";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal använder ände-till-ände-kryptering och det kan behöva uppdatera din chattsession ibland. Detta påverkar inte din chatts säkerhet, men du kan ha missat ett meddelande från denna kontakt och du kan behöva be dem skicka det igen.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Morse använder ände-till-ände-kryptering och det kan behöva uppdatera din chattsession ibland. Detta påverkar inte din chatts säkerhet, men du kan ha missat ett meddelande från denna kontakt och du kan behöva be dem skicka det igen.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Chattsessionen uppdaterad";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Plats";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Om påslaget så kommer Signal försöka kringgå censur. Slå bara på denna funktion om du är på en plats där Signal censureras.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Om påslaget så kommer Morse försöka kringgå censur. Slå bara på denna funktion om du är på en plats där Morse censureras.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Kringgå censur har aktiverats baserat på ditt kontos telefonnummer";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Kringgå censur kan bara aktiveras när då internet är tillgängligt";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Kringgå censur är inte nödvändigt; du är redan ansluten till Signal-tjänsten.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Kringgå censur är inte nödvändigt; du är redan ansluten till Morse-tjänsten.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Aktivera felsökningslogg";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Lägg till en blockerad användare";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Du har inga kontakter med Signal.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Du har inga kontakter med Morse.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Inga sökresultat";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Vidarebefordra alltid samtal";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Vidarebefordra alla samtal genom en Signal-server för att undvika att avslöja ditt IP-nummer för din kontakt. Detta kommer att reducera samtalskvaliteten.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Vidarebefordra alla samtal genom en Morse-server för att undvika att avslöja ditt IP-nummer för din kontakt. Detta kommer att reducera samtalskvaliteten.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "Chattar";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Rensa chatthistorik";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Copyright Signal Messenger\nLicenserad under GPLv3";
+"SETTINGS_COPYRIGHT" = "Copyright Morse Messenger\nLicenserad under GPLv3";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Prenumeration";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Ställ in en standardtidsgräns för försvinnande meddelanden för alla nya chattar som du startar.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Donera till Signal";
+"SETTINGS_DONATE" = "Donera till Morse";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Hjälp";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "Bjud in dina vänner";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Du kan nå mig med @signalapp. Skaffa appen nu: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Du kan nå mig med @signalapp. Skaffa appen nu: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "Chattfärg och -bakgrund";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Notisinnehåll";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt ansluter sig till Signal";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt ansluter sig till Morse";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Meddela när...";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Aktivera";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Du kan använda Signal för att skicka och ta emot MobileCoin. Alla betalningar omfattas av användarvillkoren för MobileCoins och MobileCoin Wallet. Detta är en beta-funktion så att du kan stöta på vissa problem och betalningar eller saldon som du kan förlora kan inte återställas.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Du kan använda Morse för att skicka och ta emot MobileCoin. Alla betalningar omfattas av användarvillkoren för MobileCoins och MobileCoin Wallet. Detta är en beta-funktion så att du kan stöta på vissa problem och betalningar eller saldon som du kan förlora kan inte återställas.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Aktivera";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ i %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Betalningar i Signal är inte längre tillgängliga. Du kan fortfarande överföra pengar till en börs men du kan inte längre skicka och ta emot betalningar eller lägga till pengar.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Betalningar i Morse är inte längre tillgängliga. Du kan fortfarande överföra pengar till en börs men du kan inte längre skicka och ta emot betalningar eller lägga till pengar.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Det går inte att inaktivera betalningar eftersom ditt saldo inte är tillgängligt. Kontrollera din anslutning och försök igen.";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Betalningen kunde inte slutföras eftersom ditt saldo inte är tillgängligt. Kontrollera din anslutning och försök igen.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Betalningar i Signal är inte längre tillgängliga. Du kan fortfarande överföra pengar till en börs men du kan inte längre skicka och ta emot betalningar eller lägga till pengar.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Betalningar i Morse är inte längre tillgängliga. Du kan fortfarande överföra pengar till en börs men du kan inte längre skicka och ta emot betalningar eller lägga till pengar.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Betalningar i Signal är inte längre tillgängliga. Du kan fortfarande överföra pengar till en börs men du kan inte längre skicka och ta emot betalningar eller lägga till pengar.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Betalningar i Morse är inte längre tillgängliga. Du kan fortfarande överföra pengar till en börs men du kan inte längre skicka och ta emot betalningar eller lägga till pengar.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Växlingar är bara uppskattningar och kanske inte är korrekta.";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Inaktivera betalningar";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Du kommer inte att kunna skicka eller ta emot Mobilecoin i Signal om du inaktiverar betalningar.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Du kommer inte att kunna skicka eller ta emot Mobilecoin i Morse om du inaktiverar betalningar.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Inaktivera betalningar?";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Inaktivera betalningar";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Det rekommenderas att du överför dina pengar till en annan plånboksadress innan du inaktiverar betalningar. Om du väljer att inte överföra dina pengar nu förblir de kvar i din plånbok kopplad till Signal om du återaktiverar betalningar.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Det rekommenderas att du överför dina pengar till en annan plånboksadress innan du inaktiverar betalningar. Om du väljer att inte överföra dina pengar nu förblir de kvar i din plånbok kopplad till Morse om du återaktiverar betalningar.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Ditt saldo kommer att finnas kvar i din plånbok kopplad till Signal om du väljer att återaktivera betalningar.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Ditt saldo kommer att finnas kvar i din plånbok kopplad till Morse om du väljer att återaktivera betalningar.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Inaktivera utan att överföra?";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "Om MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Du kan lägga till pengar för användning i Signal genom att skicka MobileCoin till din plånboksadress.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Du kan lägga till pengar för användning i Morse genom att skicka MobileCoin till din plånboksadress.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Lägger till pengar";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Betalningar aktiverade.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Använd Signal för att skicka och ta emot MobileCoin, en ny digital valuta med fokus på integritet. Aktivera för att komma igång.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Använd Morse för att skicka och ta emot MobileCoin, en ny digital valuta med fokus på integritet. Aktivera för att komma igång.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Återaktivera betalningar";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "Introducerar betalningar (Beta)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Din saldo återställs automatiskt när du installerar om Signal om du bekräftar din Signal-PIN-kod. Du kan också återställa ditt saldo med en återställningsfras, som är en fras på 24 ord som är unik för dig. Skriv ner den och förvara den på ett säkert ställe.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Din saldo återställs automatiskt när du installerar om Morse om du bekräftar din Morse-PIN-kod. Du kan också återställa ditt saldo med en återställningsfras, som är en fras på 24 ord som är unik för dig. Skriv ner den och förvara den på ett säkert ställe.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "Lägga till pengar";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Betalningar";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Du kan inte överföra till din Signal-plånboksadress. Ange plånboksadressen från ditt konto vid en växling som stöds.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Du kan inte överföra till din Morse-plånboksadress. Ange plånboksadressen från ditt konto vid en växling som stöds.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "Du kan överföra MobileCoin genom att genomföra en överföring till plånboksadressen som tillhandahålls av börsen. Plånboksadressen är den sträng med siffror och bokstäver som oftast ligger under QR-koden.";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Stäng av påminnelser";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Se till att du lagrar din PIN-kod på ett säkert sätt, eftersom den inte kan återställas. Om du glömmer din PIN-kod kan du förlora data när du registrerar ditt Signal-konto igen.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Se till att du lagrar din PIN-kod på ett säkert sätt, eftersom den inte kan återställas. Om du glömmer din PIN-kod kan du förlora data när du registrerar ditt Morse-konto igen.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Bekräfta din Signal PIN-kod";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Bekräfta din Morse PIN-kod";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN-kodspåminnelser";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PIN-koder håller information som lagras hos Signal krypterad så bara du kan komma åt den. Din PIN-kod kan inte återställas. Din profil, inställningar och kontakter återställs när du installerar om Signal.";
+"SETTINGS_PINS_FOOTER" = "PIN-koder håller information som lagras hos Morse krypterad så bara du kan komma åt den. Din PIN-kod kan inte återställas. Din profil, inställningar och kontakter återställs när du installerar om Morse.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Ändra din PIN-kod";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Skapa en PIN-kod";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN-kod";
+"SETTINGS_PINS_TITLE" = "Morse PIN-kod";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Kringgå censur, reläsamtal och förseglade avsändarinställningar.";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Slå på";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Om du glömmer din PIN-kod när du registrerar dig hos Signal igen, kommer du att vara utelåst från ditt konto i 7 dagar. ";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Om du glömmer din PIN-kod när du registrerar dig hos Morse igen, kommer du att vara utelåst från ditt konto i 7 dagar. ";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Slå på registreringslås?";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Samtal";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Använd Touch ID, Face ID eller din iOS-enhets lösenkod för att låsa upp Signal.";
+"SETTINGS_SECURITY_DETAIL" = "Använd Touch ID, Face ID eller din iOS-enhets lösenkod för att låsa upp Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Använd Face ID för att låsa upp Signal.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Använd Face ID för att låsa upp Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Använd din enhets lösenkod för att låsa upp Signal.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Använd din enhets lösenkod för att låsa upp Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Använd Touch ID för att låsa upp Signal.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Använd Touch ID för att låsa upp Morse.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Appsäkerhet";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Dela kontakter med iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Tillåt iOS-åtkomst till Signal-kontakter och chattar för funktioner som delningsförslag.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Tillåt iOS-åtkomst till Morse-kontakter och chattar för funktioner som delningsförslag.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Tillåt iOS åtkomst till Signal-kontakter och chattar för funktioner som delningsförslag och aviseringar.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Tillåt iOS åtkomst till Morse-kontakter och chattar för funktioner som delningsförslag och aviseringar.";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signal Boost";
+"SETTINGS_SIGNAL_BOOST" = "Morse Boost";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Bli en Signal-upprätthållare";
+"SETTINGS_SUBSCRIPTION" = "Bli en Morse-upprätthållare";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Registreringslås";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Din Signal PIN-kod krävs för att omregistrera ditt telefonnummer hos Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Din Morse PIN-kod krävs för att omregistrera ditt telefonnummer hos Morse.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Skrivindikatorer";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "Läser in...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Starta appen Signal för att registrera.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Starta appen Morse för att registrera.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Inte registrerad";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Starta appen Signal för att uppdatera eller registrera.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Starta appen Morse för att uppdatera eller registrera.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Inte klar";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Laddar upp...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Det går inte att förbereda bilagan";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Dela till Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Dela till Morse";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Det gick inte att inaktivera delningsförslag.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Signal-chattar kan nu visas som förslag när du delar från andra appar.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Morse-chattar kan nu visas som förslag när du delar från andra appar.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "Dela enklare";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Visa chatt";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Jag vill gärna att du installerar Signal! Här är länken:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Jag vill gärna att du installerar Morse! Här är länken:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "Ljud & notiser";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Fortsätt utan att verifiera?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "För att förhindra skräppost på Signal, vänligen slutför verifieringen. \n\nEfter verifiering kan du fortsätta skicka meddelanden. Alla pausade meddelanden skickas automatiskt.";
+"SPAM_CAPTCHA_SHEET_BODY" = "För att förhindra skräppost på Morse, vänligen slutför verifieringen. \n\nEfter verifiering kan du fortsätta skicka meddelanden. Alla pausade meddelanden skickas automatiskt.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Verifiera för att fortsätta skicka meddelanden";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "Installera";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signal Artist Serier";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Morse Artist Serier";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Klistermärken du mottagit";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Bidra";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal drivs av människor som du. Bidra och få ett märke.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Morse drivs av människor som du. Bidra och få ett märke.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Nej tack";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Beskriv problemet för oss: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Vänligen skicka din supportförfrågan via e-post till support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Vänligen skicka din supportförfrågan via e-post till support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filter: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "Loggwebbadress: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal version: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Morse version: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Supportförfrågan för Signal iOS";
+"SUPPORT_EMAIL_SUBJECT" = "Supportförfrågan för Morse iOS";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Hur mår du? (valfritt)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "Har du läst våra Vanliga frågor ännu?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Läser in";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal är en ideell organisation utan annonsörer eller investerare, som endast upprätthålls av de personer som använder och värdesätter den. Ge ett återkommande månadsbidrag och få ett profilmärke för att dela ditt stöd.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Morse är en ideell organisation utan annonsörer eller investerare, som endast upprätthålls av de personer som använder och värdesätter den. Ge ett återkommande månadsbidrag och få ett profilmärke för att dela ditt stöd.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal är engagerad i att utveckla integritetsteknologi med öppen källkod som skyddar yttrandefriheten och möjliggör säker global kommunikation.\n\nDitt bidrag driver denna rättsfråga och betalar för utvecklingen och driften av en app som används av miljoner för privat kommunikation. Inga annonser. Inga spårare. Inget påhitt.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Morse är engagerad i att utveckla integritetsteknologi med öppen källkod som skyddar yttrandefriheten och möjliggör säker global kommunikation.\n\nDitt bidrag driver denna rättsfråga och betalar för utvecklingen och driften av en app som används av miljoner för privat kommunikation. Inga annonser. Inga spårare. Inget påhitt.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Stöd teknik som är byggd för dig - inte för din data - genom att gå med i gemenskapen som upprätthåller den.";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Bearbetar fortfarande";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Lägg till en Signal Boost";
+"SUSTAINER_VIEW_ADD_BOOST" = "Lägg till en Morse Boost";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Skaffa ett %@-märke";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "Inte nu";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Signal drivs av personer som du.";
+"SUSTAINER_VIEW_TITLE" = "Morse drivs av personer som du.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "Du kommer att debiteras hela beloppet (%@) av det nya prenumerationspriset idag. Ditt nya abonnemang förnyas varje månad.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "Okänt land";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "En av dina enheter skickade ett meddelande som inte kan bearbetas eller visas här eftersom den använder en ny Signal-funktion.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "En av dina enheter skickade ett meddelande som inte kan bearbetas eller visas här eftersom den använder en ny Morse-funktion.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ skickade dig ett meddelande som inte kan bearbetas eller visas eftersom det använder en ny Signal-funktion.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ skickade dig ett meddelande som inte kan bearbetas eller visas eftersom det använder en ny Morse-funktion.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Du fick ett meddelande som inte kan bearbetas eller visas eftersom det använder en ny Signal-funktion.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Du fick ett meddelande som inte kan bearbetas eller visas eftersom det använder en ny Morse-funktion.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Uppdatera Signal nu";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Uppdatera Morse nu";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Uppdaterad till den senaste versionen av Signal. Du kan nu ta emot denna meddelandetyp på din enhet.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Uppdaterad till den senaste versionen av Morse. Du kan nu ta emot denna meddelandetyp på din enhet.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Du kan be %@ att skicka detta meddelande igen nu när du använder en aktuell version av Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Du kan be %@ att skicka detta meddelande igen nu när du använder en aktuell version av Morse.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Du kan be avsändaren att skicka detta meddelande igen nu när du använder en aktuell version av Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Du kan be avsändaren att skicka detta meddelande igen nu när du använder en aktuell version av Morse.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Okänd";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Sluta länka \"%@\"?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Enheten är inte längre länkad. Länka igen Signal med din telefon för att fortsätta skicka meddelanden.";
+"UNLINKED_WARNING" = "Enheten är inte längre länkad. Länka igen Morse med din telefon för att fortsätta skicka meddelanden.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal kunde inte sluta länka din enhet.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Morse kunde inte sluta länka din enhet.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Namnlös enhet";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Denna funktion stöds inte på din enhet.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Ditt säkerhetsnummer med %@ ändrades troligtvis för att de installerade om Signal eller bytte enheter. Tryck på Verifiera för att bekräfta det nya säkerhetsnumret. Detta är valfritt.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Ditt säkerhetsnummer med %@ ändrades troligtvis för att de installerade om Morse eller bytte enheter. Tryck på Verifiera för att bekräfta det nya säkerhetsnumret. Detta är valfritt.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Verifiera";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "Läs mer om PIN-koder";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN-koden håller information som lagras hos Signal krypterad så att du bara kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om. Du behöver inte din PIN-kod för att öppna appen.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "PIN-koden håller information som lagras hos Morse krypterad så att du bara kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om. Du behöver inte din PIN-kod för att öppna appen.";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "Introducerar PIN-koder";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "Inaktivera PIN-koden";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal kommer snart att kräva iOS 11 eller senare. Vänligen uppgradera i appen Inställnings >> Allmänt >> Programuppdatering.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Morse kommer snart att kräva iOS 11 eller senare. Vänligen uppgradera i appen Inställnings >> Allmänt >> Programuppdatering.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Uppgradera iOS";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Användarnamn på Signal är valfritt. Om du väljer att skapa ett användarnamn kommer andra Signal-användare att kunna hitta dig genom detta användarnamn och kontakta dig utan att veta ditt telefonnummer.";
+"USERNAME_DESCRIPTION" = "Användarnamn på Morse är valfritt. Om du väljer att skapa ett användarnamn kommer andra Morse-användare att kunna hitta dig genom detta användarnamn och kontakta dig utan att veta ditt telefonnummer.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "Användarnamn får endast innehålla a-z, 0-9 och _";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "Ett fel uppstod när användarnamnet letades upp. Vänligen försök igen senare.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "%@ är inte en Signal-användare. Se till att du har angett det fullständiga användarnamnet.";
+"USERNAME_NOT_FOUND_FORMAT" = "%@ är inte en Morse-användare. Se till att du har angett det fullständiga användarnamnet.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "Användaren hittades inte";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Håll intryckt för att spela in.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Slutför länkningen i Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Slutför länkningen i Morse Desktop.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Kontaktnamn";

@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Όχι τώρα";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Σχετικά με το Signal";
+"ABOUT_SECTION_TITLE" = "Σχετικά με το Morse";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Αποδοχή νέου αριθμού ασφαλείας";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "Μήνυμα φωνής %@ δευτερόλεπτα";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Κλήση Signal";
+"ACTION_AUDIO_CALL" = "Κλήση Morse";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Πρόσκληση στο Signal";
+"ACTION_INVITE" = "Πρόσκληση στο Morse";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Αποστολή μηνύματος";
@@ -149,7 +149,7 @@
 "APN_Message" = "Ίσως έχεις νέα μηνύματα";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Το Signal δεν μπορεί να ανοίξει. Παρακαλώ στείλε ένα αρχείο καταγραφής σφαλμάτων στη διεύθυνση support@signal.org για να μπορέσουμε να λύσουμε το πρόβλημα.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Το Morse δεν μπορεί να ανοίξει. Παρακαλώ στείλε ένα αρχείο καταγραφής σφαλμάτων στη διεύθυνση support@devplusone.com για να μπορέσουμε να λύσουμε το πρόβλημα.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Σφάλμα";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Δεν φορτώθηκε η βάση δεδομένων";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Παρακαλώ αναβάθμισε το Signal στην τελευταία έκδοση";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Παρακαλώ αναβάθμισε το Morse στην τελευταία έκδοση";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Άγνωστη έκδοση βάσης δεδομένων";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Η επαναφορά των δεδομένων που μεταφέρθηκαν από την παλιά σου συσκευή ήταν αδύνατη. Παρακαλώ να στείλεις το αρχείο καταγραφής στο support@signal.org ώστε να επιλύσουμε το πρόβλημα. Εάν επανεγκαταστήσεις το Signal πιθανόν να χαθεί το ιστορικό μηνυμάτων σου.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Η επαναφορά των δεδομένων που μεταφέρθηκαν από την παλιά σου συσκευή ήταν αδύνατη. Παρακαλώ να στείλεις το αρχείο καταγραφής στο support@devplusone.com ώστε να επιλύσουμε το πρόβλημα. Εάν επανεγκαταστήσεις το Morse πιθανόν να χαθεί το ιστορικό μηνυμάτων σου.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Δεν ήταν δυνατή η ολοκλήρωση της μεταφοράς";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Η έκδοση %@ είναι διαθέσιμη στο App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Μια νέα έκδοση του Signal είναι διαθέσιμη";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Μια νέα έκδοση του Morse είναι διαθέσιμη";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Ενημέρωση";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "Σύστημα";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "Αρχειοθέτηση";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Αδυναμία εξαγωγής συνημμένου.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Αποτυχία αποθήκευσης";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Γίνε υποστηρικτής/τρια";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Δώσε Ενίσχυση στο Signal";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Δώσε Ενίσχυση στο Morse";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Signal but to support technology that is built for you, please consider becoming a monthly Sustainer.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can continue using Morse but to support technology that is built for you, please consider becoming a monthly Sustainer.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Your Boost badge has expired, and is no longer visible on your profile.\n\nYou can reactivate your Boost badge for another 30 days with a one-time contribution.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your Sustainer subscription was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Morse but to support the app and reactivate your badge, renew now.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Γίνε υποστηρικτής/τρια";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "Όταν έχεις πάνω από ένα έμβλημα, μπορείς να επιλέξεις ποιο μπορούν να δουν τα άλλα άτομα στο προφίλ σου.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "Κέρδισες το έμβλημα %@! Βοήθησε με την ευαισθητοποίηση για το Signal, επιδεικνύοντας το έμβλημα στο προφίλ σου.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Κέρδισες το έμβλημα %@! Βοήθησε με την ευαισθητοποίηση για το Morse, επιδεικνύοντας το έμβλημα στο προφίλ σου.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Κλείσιμο μηνύματος";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Επέλεξε ένα ποσό για δωρεά";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Δώσε Ενίσχυση στο Signal";
+"BOOST_VIEW_TITLE" = "Δώσε Ενίσχυση στο Morse";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Προσθήκη";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "Αναπάντητη ηχητική κλήση";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Μπορείς να ενεργοποιήσεις την πρόσβαση στο μικρόφωνο στην εφαρμογή Ρυθμίσεις του iOS για να κάνεις κλήσεις και να ηχογραφείς μηνύματα φωνής στο Signal.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Μπορείς να ενεργοποιήσεις την πρόσβαση στο μικρόφωνο στην εφαρμογή Ρυθμίσεις του iOS για να κάνεις κλήσεις και να ηχογραφείς μηνύματα φωνής στο Morse.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Απαιτείται πρόσβαση στο μικρόφωνο";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Δεν απάντησε";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Το Signal %@";
+"CALL_STATUS_FORMAT" = "Το Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Κλήση";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Η κάμερά σου είναι απενεργοποιημένη";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Χρήστης/τρια Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Χρήστης/τρια Morse";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Βγάλε μια φωτογραφία και στείλ' την";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Σύγκριση με το πρόχειρο";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Επέλεξε ή αναζήτησε κάποιον/α χρήστη Signal για να ξεκινήσεις μια συνομιλία.";
+"COMPOSE_BUTTON_HINT" = "Επέλεξε ή αναζήτησε κάποιον/α χρήστη Morse για να ξεκινήσεις μια συνομιλία.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Σύνθεση";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Εύρεση ονόματος χρήστη";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Μπορείς να ενεργοποιήσεις την πρόσβαση στις επαφές στην εφαρμογή Ρυθμίσεις του iOS για να δεις ποιές από τις επαφές σου χρησιμοποιούν το Signal.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Μπορείς να ενεργοποιήσεις την πρόσβαση στις επαφές στην εφαρμογή Ρυθμίσεις του iOS για να δεις ποιές από τις επαφές σου χρησιμοποιούν το Morse.";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "Αυτό θα επαναφέρει την εφαρμογή διαγράφοντας τα μηνύματά σου. Η εφαρμογή θα κλείσει αφού ολοκληρωθεί αυτή η διαδικασία.";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Κάτι δεν δουλεύει";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Υποστηρικτές & Ενίσχυση Signal";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Υποστηρικτές & Ενίσχυση Morse";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Υποστηρικτές & Ενίσχυση";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Το Signal δεν μπόρεσε να ολοκληρώσει το αίτημα υποστήριξής σου.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Το Morse δεν μπόρεσε να ολοκληρώσει το αίτημα υποστήριξής σου.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Ξαναδοκίμασε";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "φωνή";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Πάρε εμβλήματα για το προφίλ σου στηρίζοντας το Signal. Πάτα σε ένα έμβλημα για να μάθεις περισσότερα.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Πάρε εμβλήματα για το προφίλ σου στηρίζοντας το Morse. Πάτα σε ένα έμβλημα για να μάθεις περισσότερα.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Εμβλήματα";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Διαγραφή λογαριασμού";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Αυτό θα διαγράψει τον λογαριασμό Signal σου και θα επαναφέρει την εφαρμογή. Η εφαρμογή θα κλείσει αφού ολοκληρωθεί η διαδικασία.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Αυτό θα διαγράψει τον λογαριασμό Morse σου και θα επαναφέρει την εφαρμογή. Η εφαρμογή θα κλείσει αφού ολοκληρωθεί η διαδικασία.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Είσαι σίγουρος/η ότι θέλεις να διαγράψεις το λογαριασμό σου;";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Αριθμός τηλεφώνου";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Επαλήθευση του αριθμού Signal σου.";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Επαλήθευση του αριθμού Morse σου.";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Διαγραφή λογαριασμού";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Επανεγγραφή αριθμού τηλεφώνου";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Η συσκευή δεν είναι πλέον καταχωρημένη. Ο αριθμός τηλεφώνου σου μπορεί να έχει καταχωρηθεί στο Signal από διαφορετική συσκευή. Πάτα για επανεγγραφή.";
+"DEREGISTRATION_WARNING" = "Η συσκευή δεν είναι πλέον καταχωρημένη. Ο αριθμός τηλεφώνου σου μπορεί να έχει καταχωρηθεί στο Morse από διαφορετική συσκευή. Πάτα για επανεγγραφή.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Τελευταία ενεργός/ή %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Εάν έχεις παλιά συσκευή iOS, μπορείς να μεταφέρεις με ασφάλεια το λογαριασμό και τα μηνύματά σου σε αυτήν την συσκευή.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Εάν χρησιμοποιούσες το Signal σε συνδεδεμένο iPad, μπορείς να μεταφέρεις με ασφάλεια το λογαριασμό και τα μηνύματά σου σε αυτήν την συσκευή.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Εάν χρησιμοποιούσες το Morse σε συνδεδεμένο iPad, μπορείς να μεταφέρεις με ασφάλεια το λογαριασμό και τα μηνύματά σου σε αυτήν την συσκευή.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Συνέχεια χωρίς την μεταφορά του λογαριασμού και των μηνυμάτων σου";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Μεταφορά από συσκευή iOS";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Συνεχίζοντας θα απενεργοποιηθεί το Signal σε άλλες συσκευές εγγεγραμμένες με τον ίδιο αριθμό τηλεφώνου.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Συνεχίζοντας θα απενεργοποιηθεί το Morse σε άλλες συσκευές εγγεγραμμένες με τον ίδιο αριθμό τηλεφώνου.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Αδυναμία επαλήθευσης της νέας συσκευής σου, παρακαλώ δοκίμασε ξανά.";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Δεν υπάρχει αρκετός ελεύθερος χώρος για την ολοκλήρωση της μεταφοράς";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Ενημέρωσε το Signal στην τελευταία έκδοση και δοκίμασε ξανά";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Ενημέρωσε το Morse στην τελευταία έκδοση και δοκίμασε ξανά";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Μεταφορά του Signal λογαριασμού σου σε νέα συσκευή iOS. Βεβαιώσου πως η νέα σου συσκευή είναι κοντά και είναι ενεργοποιημένη.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Μεταφορά του Morse λογαριασμού σου σε νέα συσκευή iOS. Βεβαιώσου πως η νέα σου συσκευή είναι κοντά και είναι ενεργοποιημένη.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Μεταφορά Λογαριασμού";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Άνοιξε το Signal στην παλιά σου συσκευή, φέρ' την κοντά, και βεβαιώσου πως το Wi-Fi και το Bluetooth είναι ενεργοποιημένα και στις δύο συσκευές.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Άνοιξε το Morse στην παλιά σου συσκευή, φέρ' την κοντά, και βεβαιώσου πως το Wi-Fi και το Bluetooth είναι ενεργοποιημένα και στις δύο συσκευές.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Τοποθέτησε αυτόν τον κώδικα QR εντός του πλαισίου της άλλης συσκευής.";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Αναμονή για την Άλλη Συσκευή...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Κράτησε τις δύο συσκευές κοντά. Μην σβήσεις καμία συσκευή και κράτησε το Signal ανοικτό. Οι μεταφορές είναι κρυπτογραφημένες απ' άκρη σ' άκρη.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Κράτησε τις δύο συσκευές κοντά. Μην σβήσεις καμία συσκευή και κράτησε το Morse ανοικτό. Οι μεταφορές είναι κρυπτογραφημένες απ' άκρη σ' άκρη.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Λήψη δεδομένων";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Κράτησε την νέα σου συσκευή μπροστά στην κάμερα";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Κράτησε τις δύο συσκευές κοντά τη μία στην άλλη. Μην απενεργοποιήσεις καμιά συσκευή και κράτησε το Signal ανοικτό.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Κράτησε τις δύο συσκευές κοντά τη μία στην άλλη. Μην απενεργοποιήσεις καμιά συσκευή και κράτησε το Morse ανοικτό.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Μεταφορά δεδομένων";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Εισαγωγή προσαρμοσμένου ποσού";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Δωρεά στο Signal";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Δωρεά στο Morse";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "Άλλοι τρόποι δωρεάς";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "Ευχαριστούμε για την υποστήριξή σου!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Το Signal στηρίζεται σε άτομα σαν κι εσένα.";
+"DONATION_VIEW_TITLE" = "Το Morse στηρίζεται σε άτομα σαν κι εσένα.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Η ομάδα της Signal έχει δεσμευτεί στην αποστολή ανάπτυξης τεχνολογίας απορρήτου με ελεύθερο κώδικα που προστατεύει την ελεύθερη έκφραση και επιτρέπει την ασφαλή παγκόσμια επικοινωνία. Η συνεισφορά σας τροφοδοτεί αυτόν τον σκοπό. Χωρίς διαφημίσεις. Χωρίς ιχνηλάτες. Ναι, αλήθεια είναι.\n\nΗ δωρεά σας μας βοηθά να πληρώνουμε για την ανάπτυξη, τους διακομιστές και το εύρος ζώνης μιας εφαρμογής που χρησιμοποιείται από εκατομμύρια άτομα σε όλο τον κόσμο για ιδιωτική και άμεση επικοινωνία.";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Η ομάδα της Morse έχει δεσμευτεί στην αποστολή ανάπτυξης τεχνολογίας απορρήτου με ελεύθερο κώδικα που προστατεύει την ελεύθερη έκφραση και επιτρέπει την ασφαλή παγκόσμια επικοινωνία. Η συνεισφορά σας τροφοδοτεί αυτόν τον σκοπό. Χωρίς διαφημίσεις. Χωρίς ιχνηλάτες. Ναι, αλήθεια είναι.\n\nΗ δωρεά σας μας βοηθά να πληρώνουμε για την ανάπτυξη, τους διακομιστές και το εύρος ζώνης μιας εφαρμογής που χρησιμοποιείται από εκατομμύρια άτομα σε όλο τον κόσμο για ιδιωτική και άμεση επικοινωνία.";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "Γιατί να κάνω δωρεά;";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Μπορείς να δώσεις πρόσβαση στην εφαρμογή \"Ρυθμίσεις\" του iOS.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Το Signal χρειάζεται πρόσβαση στις επαφές για να επεξεργαστεί πληροφορίες επαφών";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Το Morse χρειάζεται πρόσβαση στις επαφές για να επεξεργαστεί πληροφορίες επαφών";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Επεξεργασία ομάδας";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Ο/Η χρήστης/τρια δεν μπορεί να προστεθεί στην ομάδα μέχρι να αναβαθμίσει το Signal.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Ο/Η χρήστης/τρια δεν μπορεί να προστεθεί στην ομάδα μέχρι να αναβαθμίσει το Morse.";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "Φτάσατε το μέγιστο μέγεθος %@ μελών της ομάδας.";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Αντιγραφή";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Γειά,\n\nΤον τελευταίο καιρό χρησιμοποιώ το Signal για να διατηρώ τις συνομιλίες στο iPhone μου ιδιωτικές. Θα ήθελα να το εγκαταστήσεις και εσύ, για να είμαστε σίγουροι οτι μόνο εμείς οι δυο μπορούμε να διαβάσουμε τα μηνύματα μας και να ακούσουμε τις συνομιλίες μας.\n\nΤο Signal είναι διαθέσιμο για iPhone και Android εδώ: %@\n\nΤο Signal λειτουργεί όπως η εφαρμογή μηνυμάτων που ήδη χρησιμοποιείς. Μπορούμε να στείλουμε φωτογραφίες και βίντεο, να κάνουμε κλήσεις, και να αρχίσουμε ομαδικές συνομιλίες. Το καλύτερο είναι ότι κανείς δεν θα μπορεί να τα δει, ούτε καν αυτοί που έφτιαξαν το Signal!\n\nΜπορείς να διαβάσεις περισσότερα για το Open Whisper Systems, τον οργανισμό που έφτιαξε το Signal, εδώ: %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "Γειά,\n\nΤον τελευταίο καιρό χρησιμοποιώ το Morse για να διατηρώ τις συνομιλίες στο iPhone μου ιδιωτικές. Θα ήθελα να το εγκαταστήσεις και εσύ, για να είμαστε σίγουροι οτι μόνο εμείς οι δυο μπορούμε να διαβάσουμε τα μηνύματα μας και να ακούσουμε τις συνομιλίες μας.\n\nΤο Morse είναι διαθέσιμο για iPhone και Android εδώ: %@\n\nΤο Morse λειτουργεί όπως η εφαρμογή μηνυμάτων που ήδη χρησιμοποιείς. Μπορούμε να στείλουμε φωτογραφίες και βίντεο, να κάνουμε κλήσεις, και να αρχίσουμε ομαδικές συνομιλίες. Το καλύτερο είναι ότι κανείς δεν θα μπορεί να τα δει, ούτε καν αυτοί που έφτιαξαν το Morse!\n\nΜπορείς να διαβάσεις περισσότερα για το Open Whisper Systems, τον οργανισμό που έφτιαξε το Morse, εδώ: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Έλα να χρησιμοποιήσουμε το Signal";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "Έλα να χρησιμοποιήσουμε το Morse";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Η συσκευή σου δεν είναι παραμετροποιημένη για να στέλνει email. Για να στείλεις ένα αίτημα υποστήριξης, ρύθμισε το email στη συσκευή σου ή στείλε email στο support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Η συσκευή σου δεν είναι παραμετροποιημένη για να στέλνει email. Για να στείλεις ένα αίτημα υποστήριξης, ρύθμισε το email στη συσκευή σου ή στείλε email στο support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Το email δεν είναι διαθέσιμο";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Ταξίδι & Τοποθεσίες";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Καμία από τις επαφές σου δεν έχει το Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Καμία από τις επαφές σου δεν έχει το Morse.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Θες να προσκαλέσεις κάποιον/α;";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Δεν μπορούμε να στείλουμε μήνυμα στον/στην χρήστη/τρια επειδή τον/την έχεις βάλει σε φραγή.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Το Signal δεν μπόρεσε να συνδεθεί στο ίντερνετ. Παρακαλώ ξαναδοκίμασε.";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Το Morse δεν μπόρεσε να συνδεθεί στο ίντερνετ. Παρακαλώ ξαναδοκίμασε.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Αποτυχία αποστολής μηνύματος λόγω απουσίας έγκυρων παραληπτών.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Μη έγκυρη απάντηση από την υπηρεσία.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Αυτή η συσκευή δεν είναι πλέον εγγεγραμμένη με τον αριθμό τηλεφώνου σου. Παρακαλώ επανεγκατέστησε το Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Αυτή η συσκευή δεν είναι πλέον εγγεγραμμένη με τον αριθμό τηλεφώνου σου. Παρακαλώ επανεγκατέστησε το Morse.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Σφάλμα διακομιστή. Παρακαλώ δοκίμασε αργότερα.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Παρουσιάστηκε ένα άγνωστο σφάλμα.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Η επαφή δεν χρησιμοποιεί Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Η επαφή δεν χρησιμοποιεί Morse.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Αποτυχία ανάκτησης του συνημμένου.";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "Σφάλμα δικτύου";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Παρακαλούμε βοήθησέ μας να βελτιώσουμε το Signal αναφέροντας αυτό το σφάλμα μαζί με τα αρχεία καταγραφής αποσφαλμάτωσης της συσκευής σου στο support@signal.org; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Παρακαλούμε βοήθησέ μας να βελτιώσουμε το Morse αναφέροντας αυτό το σφάλμα μαζί με τα αρχεία καταγραφής αποσφαλμάτωσης της συσκευής σου στο support@devplusone.com; %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: Παρουσιάστηκς κάποιο σφάλμα";
+"ERROR_NOTIFICATION_TITLE" = "Morse Beta: Παρουσιάστηκς κάποιο σφάλμα";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Η συσκευή σου δεν είναι πλέον συνδεμένη. Ξανασύνδεσέ την για να στείλεις μηνύματα.";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "Η συσκευή σου δεν είναι πλέον εγγεγραμμένη. Επανέγγραψέ την για να στείλεις μηνύματα.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Αυτή η έκδοση του Signal έχει λήξει. Παρακαλώ αναβάθμισέ την την για να στείλεις μηνύματα.";
+"ERROR_SENDING_EXPIRED" = "Αυτή η έκδοση του Morse έχει λήξει. Παρακαλώ αναβάθμισέ την την για να στείλεις μηνύματα.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Μη εγγεγραμμένος χρήστης/τρια: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Η έκδοση του Signal σου έχει λήξει! Πάτα για να αναβαθμίσεις στην πιο πρόσφατη έκδοση.";
+"EXPIRATION_ERROR" = "Η έκδοση του Morse σου έχει λήξει! Πάτα για να αναβαθμίσεις στην πιο πρόσφατη έκδοση.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Η έκδοση Signal σου θα λήξει σε %d ημέρες. Πάτα για αναβάθμιση στην πιο πρόσφατη έκδοση. ";
+"EXPIRATION_WARNING_SOON" = "Η έκδοση Morse σου θα λήξει σε %d ημέρες. Πάτα για αναβάθμιση στην πιο πρόσφατη έκδοση. ";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Η έκδοση του Signal σου θα λήξει σήμερα. Πάτα για αναβάθμιση στην πιο πρόσφατη έκδοση.";
+"EXPIRATION_WARNING_TODAY" = "Η έκδοση του Morse σου θα λήξει σήμερα. Πάτα για αναβάθμιση στην πιο πρόσφατη έκδοση.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Πάρα πολλές αποτυχίες με αυτή την επαφή. Παρακαλώ ξαναδοκίμασε αργότερα.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Μη έγκυρος σύνδεσμος";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Αναβάθμισε το Signal σε αυτή τη συσκευή για να μπεις στην ομάδα.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Αναβάθμισε το Morse σε αυτή τη συσκευή για να μπεις στην ομάδα.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Να απαιτείται η έγκριση απο διαχειριστή/τρια για νέα μέλη που μπαίνουν από το σύνδεσμο της ομάδας.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "Κωδικός QR";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Μοιράσου μέσω Signal";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Μοιράσου μέσω Morse";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Με αυτό τον σύνδεσμο, οποιοσδήποτε μπορεί να δεί το όνομα και τα μέλη αυτής της ομάδας, και να ζητήσει να μπει στην ομάδα. Μοιράσου τον μόνο με άτομα που εμπιστεύεσαι.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Τι είναι οι ομάδες παλαιού τύπου;";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Οι ομάδες παλαιού τύπου δεν μπορούν ακόμα να αναβαθμιστούν σε νέου τύπου, αλλά μπορείς να δημιουργήσεις μια καινούργια ομάδα νέου τύπου, με τα ίδια μέλη, εφ' όσον έχουν την πιο πρόσφατη έκδοση του Signal.\n\nΤο Signal θα παρέχει έναν τρόπο για αναβάθμιση ομαδών παλαιού τύπου, στο μέλλον.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Οι ομάδες παλαιού τύπου δεν μπορούν ακόμα να αναβαθμιστούν σε νέου τύπου, αλλά μπορείς να δημιουργήσεις μια καινούργια ομάδα νέου τύπου, με τα ίδια μέλη, εφ' όσον έχουν την πιο πρόσφατη έκδοση του Morse.\n\nΤο Morse θα παρέχει έναν τρόπο για αναβάθμιση ομαδών παλαιού τύπου, στο μέλλον.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Μπορώ να αναβαθμίσω μια ομάδα παλαιού τύπου;";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Για τη δημιουργία ομάδας νέου τύπου, όλα τα μέλη θα πρέπει να αναβαθμίσουν στην πιο πρόσφατη έκδοση του Signal.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Για τη δημιουργία ομάδας νέου τύπου, όλα τα μέλη θα πρέπει να αναβαθμίσουν στην πιο πρόσφατη έκδοση του Morse.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Ομάδες παλαιού τύπου και νέες ομάδες";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Αυτή η ομάδα δεν μπορεί να αναβαθμιστεί σε Ομάδα νέου τύπου γιατί έχει πάρα πολλά μέλη. Ο μέγιστος αριθμός μελών ομάδας που μπορεί να αναβαθμιστεί είναι %@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Όταν όλα τα τωρινά μέλη της ομάδας χρησιμοποιήσουν μια έκδοση του Signal που υποστηρίζει τις Ομάδες νέου τύπου, τότε η ομάδα θα αναβαθμιστεί.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Όταν όλα τα τωρινά μέλη της ομάδας χρησιμοποιήσουν μια έκδοση του Morse που υποστηρίζει τις Ομάδες νέου τύπου, τότε η ομάδα θα αναβαθμιστεί.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Όλο το ιστορικό των μηνυμάτων και τα πολυμέσα θα διατηρηθούν ως έχουν πριν την αναβάθμιση.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Αυτή η ομάδα δε μπορεί να δημιουργηθεί επειδή 1 μέλος χρησιμοποιεί μια παλιά έκδοση του Signal. Μπορείς να δημιουργήσεις μια Ομάδα νέου τύπου μαζί του/της αφού αναβαθμίσει το Signal, ή αλλιώς μπορείς να τον/την αφαιρέσεις πριν φτιάξεις την ομάδα.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Αυτή η ομάδα δε μπορεί να δημιουργηθεί επειδή 1 μέλος χρησιμοποιεί μια παλιά έκδοση του Morse. Μπορείς να δημιουργήσεις μια Ομάδα νέου τύπου μαζί του/της αφού αναβαθμίσει το Morse, ή αλλιώς μπορείς να τον/την αφαιρέσεις πριν φτιάξεις την ομάδα.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Αυτή η ομάδα δε μπορεί να δημιουργηθεί επειδή %@ μέλη χρησιμοποιούν μια παλιά έκδοση του Signal. Μπορείς να δημιουργήσεις μια Ομάδα νέου τύπου μαζί τους αφού αναβαθμίσουν το Signal, ή αλλιώς μπορείς να τους αφαιρέσεις πριν φτιάξεις την ομάδα.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Αυτή η ομάδα δε μπορεί να δημιουργηθεί επειδή %@ μέλη χρησιμοποιούν μια παλιά έκδοση του Morse. Μπορείς να δημιουργήσεις μια Ομάδα νέου τύπου μαζί τους αφού αναβαθμίσουν το Morse, ή αλλιώς μπορείς να τους αφαιρέσεις πριν φτιάξεις την ομάδα.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Αυτή η ομάδα δε μπορεί να δημιουργηθεί επειδή 1 μέλος χρησιμοποιεί μια παλιά έκδοση του Signal. Μπορείς να δημιουργήσεις μια Ομάδα νέου τύπου μαζί του/της αφού αναβαθμίσει το Signal, ή αλλιώς μπορείς να τον/την αφαιρέσεις πριν φτιάξεις την ομάδα. %@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Αυτή η ομάδα δε μπορεί να δημιουργηθεί επειδή 1 μέλος χρησιμοποιεί μια παλιά έκδοση του Morse. Μπορείς να δημιουργήσεις μια Ομάδα νέου τύπου μαζί του/της αφού αναβαθμίσει το Morse, ή αλλιώς μπορείς να τον/την αφαιρέσεις πριν φτιάξεις την ομάδα. %@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Αυτή η ομάδα δε μπορεί να δημιουργηθεί επειδή %1$@ μέλη χρησιμοποιούν μια παλιά έκδοση του Signal. Μπορείς να δημιουργήσεις μια Ομάδα νέου τύπου μαζί τους αφού αναβαθμίσουν το Signal, ή αλλιώς μπορείς να τους αφαιρέσεις πριν φτιάξεις την ομάδα. %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Αυτή η ομάδα δε μπορεί να δημιουργηθεί επειδή %1$@ μέλη χρησιμοποιούν μια παλιά έκδοση του Morse. Μπορείς να δημιουργήσεις μια Ομάδα νέου τύπου μαζί τους αφού αναβαθμίσουν το Morse, ή αλλιώς μπορείς να τους αφαιρέσεις πριν φτιάξεις την ομάδα. %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Θα δημιουργηθεί ομάδα παλαιού τύπου γιατί 1 μέλος χρησιμοποιεί μια παλιά έκδοση του Signal. Θα μπορείς να δημιουργήσεις ομάδα νέου τύπου μαζί τους αφού αναβαθμίσει το Signal, ή αν τον/την αφαιρέσεις πριν δημιουργήσεις την ομάδα.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Θα δημιουργηθεί ομάδα παλαιού τύπου γιατί 1 μέλος χρησιμοποιεί μια παλιά έκδοση του Morse. Θα μπορείς να δημιουργήσεις ομάδα νέου τύπου μαζί τους αφού αναβαθμίσει το Morse, ή αν τον/την αφαιρέσεις πριν δημιουργήσεις την ομάδα.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Θα δημιουργηθεί ομάδα παλαιού τύπου γιατί %@ μέλη χρησιμοποιούν μια παλιά έκδοση του Signal. Θα μπορείς να δημιουργήσεις ομάδα νέου τύπου μαζί τους αφού αναβαθμίσουν το Signal, ή αν τους αφαιρέσεις πριν δημιουργήσεις την ομάδα.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Θα δημιουργηθεί ομάδα παλαιού τύπου γιατί %@ μέλη χρησιμοποιούν μια παλιά έκδοση του Morse. Θα μπορείς να δημιουργήσεις ομάδα νέου τύπου μαζί τους αφού αναβαθμίσουν το Morse, ή αν τους αφαιρέσεις πριν δημιουργήσεις την ομάδα.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "1 μέλος δεν έχοει υποστήριξη για Νέες ομάδες, οπότε αυτή η ομάδα θα είναι παλαιού τύπου. %@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "Επιλογή νέου διαχειριστή";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Οι ομάδες του Signal λειτουργούν καλύτερα με %@ μέλη ή λιγότερα. Αν προσθέσεις παραπάνω μέλη, θα υπάρξουν καθυστερήσεις στην αποστολή και λήψη μηνυμάτων.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Οι ομάδες του Morse λειτουργούν καλύτερα με %@ μέλη ή λιγότερα. Αν προσθέσεις παραπάνω μέλη, θα υπάρξουν καθυστερήσεις στην αποστολή και λήψη μηνυμάτων.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "Έφτασες το προτεινόμενο όριο μελών";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Επικοινωνία";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "Κέντρο υποστήριξης";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Πρόχειρο:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Κάποιες από τις επαφές σου είναι ήδη στο Signal, όπως ο/η %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Κάποιες από τις επαφές σου είναι ήδη στο Morse, όπως ο/η %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Κάποιες από τις επαφές σου είναι ήδη στο Signal, όπως οι %@ και %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Κάποιες από τις επαφές σου είναι ήδη στο Morse, όπως οι %@ και %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Κάποιες από τις επαφές σου είναι ήδη στο Signal, όπως οι %@, %@ και %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Κάποιες από τις επαφές σου είναι ήδη στο Morse, όπως οι %@, %@ και %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Ξεκίνα την πρώτη σου συνομιλία εδώ.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Αρχείο";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "Ζωγράφισε οπουδήποτε για να θολώσεις";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Δεν μπορείς να κοινοποιήσεις πάνω από %@ αντικείμενα.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Αλλαγή φωτογραφιών";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Δώσε πλήρη πρόσβαση στις Ρυθμίσεις, ή άλλαξε σε ποιές φωτογραφίες έχει πρόσβαση το Signal.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Δώσε πλήρη πρόσβαση στις Ρυθμίσεις, ή άλλαξε σε ποιές φωτογραφίες έχει πρόσβαση το Morse.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Δεν βλέπεις τις φωτογραφίες σου;";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "Μπορείς να στέλνεις και να λαμβάνεις συγχρονισμένα μηνύματα απο το κινητό ή το iPad σου.\nΓια την ασφάλειά σου, το ιστορικό συνομιλίας δεν μεταφέρεται στις νέες συνδεμένες συσκευές.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "Ο/Η %@ ήρθε στο Signal!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "Ο/Η %@ ήρθε στο Morse!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "Αυτοκόλλητα";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Μη έγκυρο αρχείο ήχου.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Μπορείς να δώσεις πρόσβαση στις επαφές από την εφαρμογή Ρυθμίσεις του iOS, για να προσκαλέσεις τους φίλους και τις φίλες σου στο Signal.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Μπορείς να δώσεις πρόσβαση στις επαφές από την εφαρμογή Ρυθμίσεις του iOS, για να προσκαλέσεις τους φίλους και τις φίλες σου στο Morse.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Δώσε πρόσβαση στις επαφές";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Πρόσκληση φίλων στο Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Πρόσκληση φίλων στο Morse";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Αναζήτηση";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "Προεπισκόπηση κάθε συνδέσμου";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Για να μεταφέρεις τον λογαριασμό Signal σου, θα πρέπει να ενεργοποιήσεις την πρόσβαση στο τοπικό δίκτυο και στις δύο συσκευές.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Για να μεταφέρεις τον λογαριασμό Morse σου, θα πρέπει να ενεργοποιήσεις την πρόσβαση στο τοπικό δίκτυο και στις δύο συσκευές.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Χρειάζεσαι βοήθεια;";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Ενεργοποίησε το \"Τοπικό δίκτυο\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Πήγαινε στο Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Πήγαινε στο Morse";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Ενεργοποίησε τη Πρόσβαση στο τοπικό δίκτυο";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "Καταγραφή";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Τα αρχεία καταγραφής αποσφαλμάτωσης βοηθούν το Signal να επιδιορθώσει σφάλματα και κρασαρίσματα.";
+"LOGGING_SECTION_FOOTER" = "Τα αρχεία καταγραφής αποσφαλμάτωσης βοηθούν το Morse να επιδιορθώσει σφάλματα και κρασαρίσματα.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Μήνυμα";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Διαγραφή για όλους/ες";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Αυτό το μήνυμα θα διαγραφεί για όλους/ες στη συνομιλία, αν έχουν μια πρόσφατη έκδοση του Signal. Θα μπορούν να δούν ότι διέγραψες ένα μήνυμα.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Αυτό το μήνυμα θα διαγραφεί για όλους/ες στη συνομιλία, αν έχουν μια πρόσφατη έκδοση του Morse. Θα μπορούν να δούν ότι διέγραψες ένα μήνυμα.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Για ποιούς/ες θα ήθελες να διαγράψεις αυτό το μήνυμα;";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Διαγραφή και αποχώρηση απ' την ομάδα;";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Εξέτασε τα αιτήματα με προσοχή. Το Signal βρήκε μια άλλη επαφή με το ίδιο όνομα.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Εξέτασε τα αιτήματα με προσοχή. Το Morse βρήκε μια άλλη επαφή με το ίδιο όνομα.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Επαφή σου";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Διαβάστηκε";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Παραλείφθηκε";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "Αναπάντητη κλήση";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Μπορείς να δώσεις πρόσβαση στην κάμερα στην εφαρμογή Ρυθμίσεις του iOS, για να κάνεις βιντεοκλήσεις στο Signal.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Μπορείς να δώσεις πρόσβαση στην κάμερα στην εφαρμογή Ρυθμίσεις του iOS, για να κάνεις βιντεοκλήσεις στο Morse.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Το Signal χρειάζεται πρόσβαση στη κάμερα.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Το Morse χρειάζεται πρόσβαση στη κάμερα.";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Μπορείς να δώσεις αυτή την πρόσβαση από την εφαρμογή Ρυθμίσεις του iOS.";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Το Signal χρειάζεται πρόσβαση στην τοποθεσία σου για αυτήν τη λειτουργία.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Το Morse χρειάζεται πρόσβαση στην τοποθεσία σου για αυτήν τη λειτουργία.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Μπορείς να δώσεις αυτή την πρόσβαση από την εφαρμογή Ρυθμίσεις του iOS.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Το Signal χρειάζεται πρόσβαση στις φωτογραφίες σου για αυτήν τη λειτουργία.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Το Morse χρειάζεται πρόσβαση στις φωτογραφίες σου για αυτήν τη λειτουργία.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Κανένα";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "Διάλεξε μια επαφή ή μια ομάδα για να αρχίσεις να συζητάς.";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Καλωσήλθες στο Signal";
+"NO_SELECTED_CONVERSATION_TITLE" = "Καλωσήλθες στο Morse";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "Νέο μήνυμα προς:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Χωρίς όνομα ή περιεχόμενο";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Ήχοι εντός εφαρμογής";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "Βάλε μια ανθρώπινη πινελιά στα μηνύματά σου";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Επειδή ήσουν ανενεργός/ή για μεγάλο χρονικό διάστημα, πρέπει να εγγραφτείς ξανά για να χρησιμοποιήσεις το Signal.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Επειδή ήσουν ανενεργός/ή για μεγάλο χρονικό διάστημα, πρέπει να εγγραφτείς ξανά για να χρησιμοποιήσεις το Morse.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Εγγραφή στο Signal";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Εγγραφή στο Morse";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "Εγγραφή iPad";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Σύνδεση iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Πατώντας \"Εγγραφή iPad\" θα μπορέσεις να δημιουργήσεις ένα καινούριο λογαριασμό Signal ή να μεταφέρεις ένα προϋπάρχοντα λογαριασμό σε αυτό το iPad. Αυτό θα απενεργοποιήσει το Signal σε οποιαδήποτε άλλη συσκευή εγγεγραμμένη με τον ίδιο αριθμό τηλεφώνου.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Πατώντας \"Εγγραφή iPad\" θα μπορέσεις να δημιουργήσεις ένα καινούριο λογαριασμό Morse ή να μεταφέρεις ένα προϋπάρχοντα λογαριασμό σε αυτό το iPad. Αυτό θα απενεργοποιήσει το Morse σε οποιαδήποτε άλλη συσκευή εγγεγραμμένη με τον ίδιο αριθμό τηλεφώνου.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Πατώντας \"Σύνδεση iPhone\" θα μπορέσεις να συνδέσεις τον κινητό σου σε έναν υπάρχοντα λογαριασμό. Η σύνδεση του κινητού γενικά δεν προτείνεται και θα περιορίσει κάποια λειτουργίες, όπως τις κλήσεις.";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Σύνδεση του iPhone";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Με την εγγραφή αυτού του iPad θα απενεργοποιηθεί το Signal σε οποιαδήποτε άλλη συσκευή εγγεγραμμένη με τον ίδιο αριθμό τηλεφώνου.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Με την εγγραφή αυτού του iPad θα απενεργοποιηθεί το Morse σε οποιαδήποτε άλλη συσκευή εγγεγραμμένη με τον ίδιο αριθμό τηλεφώνου.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Η σύνδεση του iPhone δεν προτείνεται και θα περιορίσει βασική λειτουργικότητα.";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Να δοθούν δικαιώματα";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Δίνοντας δικαιώματα για ειδοποιήσεις και επαφές, θα μπορείς να δεις πότε λαμβάνεις μηνύματα και θα σε βοηθήσει να βρεις άτομα που γνωρίζεις. Οι επαφές κρυπτογραφούνται οπότε η υπηρεσία Signal δεν μπορεί να τις δει.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Δίνοντας δικαιώματα για ειδοποιήσεις και επαφές, θα μπορείς να δεις πότε λαμβάνεις μηνύματα και θα σε βοηθήσει να βρεις άτομα που γνωρίζεις. Οι επαφές κρυπτογραφούνται οπότε η υπηρεσία Morse δεν μπορεί να τις δει.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Να δοθούν δικαιώματα";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Επέλεξε ποιοί μπορούν να σε βρουν στο Signal χρησιμοποιώντας τον αριθμό σου %@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Επέλεξε ποιοί μπορούν να σε βρουν στο Morse χρησιμοποιώντας τον αριθμό σου %@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Ποιοί μπορούν να σε βρουν με τον αριθμό σου;";
@@ -3776,7 +3776,8 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "Παρακαλώ περίμενε μερικά λεπτά πριν ξαναπροσπαθήσεις. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "Εισαγωγή αριθμού τηλεφώνου";
+/* "ONBOARDING_PHONE_NUMBER_TITLE" = "Εισαγωγή αριθμού τηλεφώνου"; modified by hoon */
+"ONBOARDING_PHONE_NUMBER_TITLE" = "Για την προστασία του απορρήτου σας, το σύστημα σας παρέχει έναν «ψεύτικο» 8ψήφιο αριθμό τηλεφώνου";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
 "ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Ο Αριθμός Σας";
@@ -3785,7 +3786,7 @@
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Άκυροος αριθμός τηλεφώνου. Παρακαλώ γράψε έναν έγκυρο αριθμό τηλεφώνου για να εγγραφτείς.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Σου τέλειωσαν οι απόπειρες για το PIN, αλλά μπορείς να αποκτήσεις πρόσβαση στο λογαριασμό Signal σου δημιουργώντας νέο PIN. Για την ιδιωτικότητα και την ασφάλειά σου ο λογαριασμός δεν θα έχει προϋπάρχουσες πληροφορίες προφίλ και ρυθμίσεις.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Σου τέλειωσαν οι απόπειρες για το PIN, αλλά μπορείς να αποκτήσεις πρόσβαση στο λογαριασμό Morse σου δημιουργώντας νέο PIN. Για την ιδιωτικότητα και την ασφάλειά σου ο λογαριασμός δεν θα έχει προϋπάρχουσες πληροφορίες προφίλ και ρυθμίσεις.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Μάθε περισσότερα για τα PIN";
@@ -3859,8 +3860,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Ο/Η %@ όρισε τον χρόνο εξαφάνισης μηνυμάτων σε %@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Το Signal αντιμετωπίζει τεχνικές δυσκολίες. Εργαζόμαστε σκληρά για να αποκαταστήσουμε την υπηρεσία το συντομότερο δυνατό.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Το Morse αντιμετωπίζει τεχνικές δυσκολίες. Εργαζόμαστε σκληρά για να αποκαταστήσουμε την υπηρεσία το συντομότερο δυνατό.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "Κάλεσες τον/-ην %@";
@@ -3938,7 +3939,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Μη έγκυρη συναλλαγή";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Ενημερώστε το Signal για να χρησιμοποιήσετε τις πληρωμές.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Ενημερώστε το Morse για να χρησιμοποιήσετε τις πληρωμές.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Η πληρωμή δεν έχει επαληθευτεί ακόμη";
@@ -4172,13 +4173,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Όλοι";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Οποιοσδήποτε έχει τον αριθμό τηλεφώνου σου στις επαφές του/της, θα μπορεί να σε δει ως επαφή στο Signal. Άλλοι θα μπορούν να σε βρουν στην αναζήτηση.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Οποιοσδήποτε έχει τον αριθμό τηλεφώνου σου στις επαφές του/της, θα μπορεί να σε δει ως επαφή στο Morse. Άλλοι θα μπορούν να σε βρουν στην αναζήτηση.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Κανένας";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Κανένας στο Signal δεν θα μπορεί να σε βρει με τον αριθμό τηλεφώνου σου. Δεν θα είσαι ορατός/η ως επαφή σε άτομα που έχουν τον αριθμό σου στις επαφές τους, και άλλα άτομα δεν θα μπορούν να σε βρούν με τον αριθμό σου στην αναζήτηση.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Κανένας στο Morse δεν θα μπορεί να σε βρει με τον αριθμό τηλεφώνου σου. Δεν θα είσαι ορατός/η ως επαφή σε άτομα που έχουν τον αριθμό σου στις επαφές τους, και άλλα άτομα δεν θα μπορούν να σε βρούν με τον αριθμό σου στην αναζήτηση.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Παράδειγμα: %@";
@@ -4187,19 +4188,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Οι επαφές μου";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Μόνο οι επαφές σου θα βλέπουν τον αριθμό τηλεφώνου σου στο Signal.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Μόνο οι επαφές σου θα βλέπουν τον αριθμό τηλεφώνου σου στο Morse.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Όλοι";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Ο αριθμός τηλεφώνου σου θα είναι ορατός σε όλα τα άτομα και τις ομάδες που στέλνεις μηνύματα. Τα άτομα που έχουν τον αριθμό σου στις επαφές τους θα μπορούν επίσης να το δουν στο Signal.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Ο αριθμός τηλεφώνου σου θα είναι ορατός σε όλα τα άτομα και τις ομάδες που στέλνεις μηνύματα. Τα άτομα που έχουν τον αριθμό σου στις επαφές τους θα μπορούν επίσης να το δουν στο Morse.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Κανένας";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Κανένας δεν θα μπορεί να δει τον αριθμό τηλεφώνου σου στο Signal.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Κανένας δεν θα μπορεί να δει τον αριθμό τηλεφώνου σου στο Morse.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4275,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Απενεργοποίηση PIN";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Αν απενεργοποιήσεις το PIN, θα χάσεις όλα τα δεδομένα σου όταν επανεγγραφείς στο Signal, εκτός αν τα μεταφέρεις από άλλη iOS συσκευή. Δεν θα μπορείς να ενεργοποιήσεις το Κλείδωμα Εγγραφής όσο το PIN είναι απενεργοποιημένο. ";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Αν απενεργοποιήσεις το PIN, θα χάσεις όλα τα δεδομένα σου όταν επανεγγραφείς στο Morse, εκτός αν τα μεταφέρεις από άλλη iOS συσκευή. Δεν θα μπορείς να ενεργοποιήσεις το Κλείδωμα Εγγραφής όσο το PIN είναι απενεργοποιημένο. ";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Προσοχή";
@@ -4286,7 +4287,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Απέτυχε η δημιουργία PIN";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "Τα PIN κρατούν τις πληροφορίες που αποθηκεύονται στο Signal κρυπτογραφημένες, οπότε μόνο εσύ έχεις πρόσβαση σε αυτές. Το προφίλ σου, οι ρυθμίσεις και οι επαφές να επαναφερθούν όταν επανεγκαταστήσεις το Signal. Δεν θα χρειάζεται να γράψεις το PIN για να ανοίξεις την εφαρμογή.";
+"PIN_CREATION_EXPLANATION" = "Τα PIN κρατούν τις πληροφορίες που αποθηκεύονται στο Morse κρυπτογραφημένες, οπότε μόνο εσύ έχεις πρόσβαση σε αυτές. Το προφίλ σου, οι ρυθμίσεις και οι επαφές να επαναφερθούν όταν επανεγκαταστήσεις το Morse. Δεν θα χρειάζεται να γράψεις το PIN για να ανοίξεις την εφαρμογή.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Μάθε Περισσότερα για τα PIN";
@@ -4349,7 +4350,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Θα σου το υπενθυμίσουμε σε μερικές μέρες.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Επιβεβαίωσε το Signal PIN σου";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Επιβεβαίωσε το Morse PIN σου";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Θα σ' το υπενθυμίσουμε πάλι αύριο.";
@@ -4364,7 +4365,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Λάθος PIN, ξαναδοκίμασε.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Γράψε το Signal PIN σου";
+"PIN_REMINDER_TITLE" = "Γράψε το Morse PIN σου";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "Το ΡΙΝ πρέπει να έχει τουλάχιστον 4 ψηφία.";
@@ -4379,7 +4380,7 @@
 "PINS_MEGAPHONE_ACTION" = "Δημιουργία PIN";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Τα PIN κρατάνε κρυπτογραφημένες τις πληροφορίες που αποθηκεύονται στο Signal";
+"PINS_MEGAPHONE_BODY" = "Τα PIN κρατάνε κρυπτογραφημένες τις πληροφορίες που αποθηκεύονται στο Morse";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "Θα σ' το υπενθυμίσουμε αργότερα. Η δημιουργία PIN θα είναι υποχρεωτική σε %ld μέρες.";
@@ -4418,19 +4419,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Ο αριθμός στο πρόχειρο δεν μοιάζει με τον σωστό αριθμό ασφαλείας για αυτή τη συνομιλία.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Το Signal δεν βρήκε αριθμό ασφαλείας στο πρόχειρό σου. Τον αντέγραψες σωστά;";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Το Morse δεν βρήκε αριθμό ασφαλείας στο πρόχειρό σου. Τον αντέγραψες σωστά;";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Κάθε ζεύγος χρηστών Signal έχει έναν κοινό, μοναδικό αριθμό ασφαλείας. Βεβαιώσου ότι ο/η %@ σου δείχνει τον *δικό σας* ξεχωριστό αριθμό ασφαλείας.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Κάθε ζεύγος χρηστών Morse έχει έναν κοινό, μοναδικό αριθμό ασφαλείας. Βεβαιώσου ότι ο/η %@ σου δείχνει τον *δικό σας* ξεχωριστό αριθμό ασφαλείας.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Χρησιμοποιείς μια παλιά έκδοση του Signal. Πρέπει να το αναβαθμίσεις πριν μπορέσεις να επιβεβαιώσεις.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Χρησιμοποιείς μια παλιά έκδοση του Morse. Πρέπει να το αναβαθμίσεις πριν μπορέσεις να επιβεβαιώσεις.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Ο συνομιλητής σου χρησιμοποιεί μια παλιά έκδοση του Signal. Πρέπει να το αναβαθμίσει πριν μπορέσεις να επιβεβαιώσεις.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Ο συνομιλητής σου χρησιμοποιεί μια παλιά έκδοση του Morse. Πρέπει να το αναβαθμίσει πριν μπορέσεις να επιβεβαιώσεις.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Ο κωδικός που σκάναρες δεν μοιάζει με αριθμό ασφαλείας. Χρησιμοποιείτε και οι δύο την αναβαθμισμένη έκδοση του Signal;";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Ο κωδικός που σκάναρες δεν μοιάζει με αριθμό ασφαλείας. Χρησιμοποιείτε και οι δύο την αναβαθμισμένη έκδοση του Morse;";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Αν θέλεις να επιβεβαιώσεις την ασφάλεια της κρυπτογράφησης από άκρο σε άκρο με τον/την %@, σύγκρινε τους παραπάνω αριθμούς με τους αριθμούς στην συσκευή του/της.\n\nΕναλλακτικά, σκανάρεις τον κωδικό που εμφανίζεται στο τηλέφωνό του/της ή να του/της ζητήσεις να σκανάρουν τον δικό σου.";
@@ -4616,7 +4617,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Ο/Η χρήστης δεν μπορεί να επιλεχθεί.";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Ο/Η χρήστης/τρια δεν μπορεί να προστεθεί στην ομάδα μέχρι να αναβαθμίσει το Signal.";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Ο/Η χρήστης/τρια δεν μπορεί να προστεθεί στην ομάδα μέχρι να αναβαθμίσει το Morse.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Ξέχασα το ΡΙΝ μου.";
@@ -4745,10 +4746,10 @@
 "REREGISTER_FOR_PUSH" = "Επανεγγραφή στις Ειδοποιήσεις Push";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "Για να κάνουμε το Signal τη καλύτερη εφαρμογή επικοινωνίας στο κόσμο, θα εκτιμούσαμε πραγματικά να ακούσουμε τη γνώμη σου.";
+"RESEARCH_MEGAPHONE_BODY" = "Για να κάνουμε το Morse τη καλύτερη εφαρμογή επικοινωνίας στο κόσμο, θα εκτιμούσαμε πραγματικά να ακούσουμε τη γνώμη σου.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Πες στο Signal τη γνώμη σου";
+"RESEARCH_MEGAPHONE_TITLE" = "Πες στο Morse τη γνώμη σου";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "Αυτή η έρευνα φιλοξενείται από το Surveygizmo στον ασφαλή σύνδεσμο surveys.signalusers.org";
@@ -4757,13 +4758,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "Όχι, ευχαριστώ";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>Πιστεύουμε στην ιδιωτικότητα.</bold>\n\nΤο Signal δεν σε παρακολουθεί ούτε συλλέγει τα δεδομένα σου. Για να βελτιώσουμε το Signal για όλους, βασιζόμαστε στα σχόλια των χρηστών <bold>και θα εκτιμούσαμε πολύ να ακούσουμε τα δικά σου</bold>.\n\nΚάνουμε μαι έρευνα που θα μας βοηθήσει να καταλάβουμε πως χρησιμοποιείς το Signal. Η έρευνά μας δεν συλλέγει δεδομένα που θα μπορούσαν να αποκαλύψουν την ταυτότητά σου. Αν ενδιαφέρεσαι να μας βοηθήσεις με περαιτέρω πληροφορίες και σχόλια, μπορείς να μας δώσεις στοιχεία επικοινωνίας.\n\nΑν έχεις μερικά λεπτά διαθέσιμα, και έχεις κάτι να σχολιάσεις, με χαρά θα θέλαμε να το ακούσουμε.";
+"RESEARCH_MODAL_PLEA" = "<bold>Πιστεύουμε στην ιδιωτικότητα.</bold>\n\nΤο Morse δεν σε παρακολουθεί ούτε συλλέγει τα δεδομένα σου. Για να βελτιώσουμε το Morse για όλους, βασιζόμαστε στα σχόλια των χρηστών <bold>και θα εκτιμούσαμε πολύ να ακούσουμε τα δικά σου</bold>.\n\nΚάνουμε μαι έρευνα που θα μας βοηθήσει να καταλάβουμε πως χρησιμοποιείς το Morse. Η έρευνά μας δεν συλλέγει δεδομένα που θα μπορούσαν να αποκαλύψουν την ταυτότητά σου. Αν ενδιαφέρεσαι να μας βοηθήσεις με περαιτέρω πληροφορίες και σχόλια, μπορείς να μας δώσεις στοιχεία επικοινωνίας.\n\nΑν έχεις μερικά λεπτά διαθέσιμα, και έχεις κάτι να σχολιάσεις, με χαρά θα θέλαμε να το ακούσουμε.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "Πάρε μέρος στην έρευνα";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Έρευνα Signal";
+"RESEARCH_MODAL_TITLE" = "Έρευνα Morse";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "Επανάληψη";
@@ -4781,7 +4782,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Αποστολή παρ' όλα αυτά";
 
 /* Message for the 'safety number confirmation' view */
-"SAFETY_NUMBER_CONFIRMATION_MESSAGE" = "Τα παρακάτω άτομα ίσως επανεγκατεστησαν το Signal ή άλλαξαν συσκευή. Επαλήθευσε τους αριθμούς ασφαλείας με αυτά, για να διασφαλίσεις την ιδιωτικότητα.";
+"SAFETY_NUMBER_CONFIRMATION_MESSAGE" = "Τα παρακάτω άτομα ίσως επανεγκατεστησαν το Morse ή άλλαξαν συσκευή. Επαλήθευσε τους αριθμούς ασφαλείας με αυτά, για να διασφαλίσεις την ιδιωτικότητα.";
 
 /* Text explaining that the given contact previously had their safety number verified. */
 "SAFETY_NUMBER_CONFIRMATION_PREVIOUSLY_VERIFIED" = "Προηγουμένως Επιβεβαιωμένοι";
@@ -4793,7 +4794,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Εμφάνιση";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Ο αριθμός ασφαλείας Signal μας:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Ο αριθμός ασφαλείας Morse μας:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Ο αριθμός ασφαλείας με τον/την %@ άλλαξε. Ίσως θέλεις να τον επιβεβαιώσεις.";
@@ -4825,14 +4826,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Πρέπει να ενεργοποιήσεις έναν κωδικό πρόσβασης στις Ρυθμίσεις του iOS για να χρησιμοποιήσεις το Κλείδωμα Οθόνης.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Επαλήθευση ταυτότητας για άνοιγμα του Signal.";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Επαλήθευση ταυτότητας για άνοιγμα του Morse.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Η ταυτοποίηση απέτυχε";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Ξεκλείδωμα του Signal";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Ξεκλείδωμα του Morse";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Ντίνα Αλεξίου";
@@ -4882,7 +4883,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "Δελτία Καιρού";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Διευθύντρια Φρέγια";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5004,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Ο λογαριασμός δεν ταιριάζει";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Αναβάθμισε το Signal σε αυτή τη συσκευή για να το συνδέσεις με το τηλέφωνό σου.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Αναβάθμισε το Morse σε αυτή τη συσκευή για να το συνδέσεις με το τηλέφωνό σου.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Μη υποστηριζόμενη Έκδοση";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Η συσκευή σου τρέχει μια παλιά έκδοση του Signal, που δεν υποστηρίζει το σκανάρισμα κωδικών QR από iPad. Παρακαλώ εγκατάστησε την τελευταία έκδοση και ξαναδοκίμασε.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Η συσκευή σου τρέχει μια παλιά έκδοση του Morse, που δεν υποστηρίζει το σκανάρισμα κωδικών QR από iPad. Παρακαλώ εγκατάστησε την τελευταία έκδοση και ξαναδοκίμασε.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Ενημέρωσε τη συσκευή που σκανάρει";
@@ -5030,19 +5031,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Ολοκλήρωση σύνδεσης";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Άνοιξε το Signal στο τηλέφωνό σου για να συνδέσεις αυτό το iPad στο λογαριασμό σου";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Άνοιξε το Morse στο τηλέφωνό σου για να συνδέσεις αυτό το iPad στο λογαριασμό σου";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Δεν έχω το Signal στο τηλέφωνό μου...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Δεν έχω το Morse στο τηλέφωνό μου...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Πήγαινε στο App Store στο τηλέφωνό σου, εγκατάστησε το Signal, ολοκλήρωσε τη διαδικασία εγγραφής, και τότε θα μπορέσεις να συνδέσεις το iPad στον ίδιο λογαριασμό.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Πήγαινε στο App Store στο τηλέφωνό σου, εγκατάστησε το Morse, ολοκλήρωσε τη διαδικασία εγγραφής, και τότε θα μπορέσεις να συνδέσεις το iPad στον ίδιο λογαριασμό.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Εγκατάσταση του Signal στο τηλέφωνό σου";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Εγκατάσταση του Morse στο τηλέφωνό σου";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Πάτα τη φωτογραφία προφίλ σου για να ανοίξεις τις ρυθμίσεις του Signal στο τηλέφωνό σου. Μετά πήγαινε στο \"Συνδεμένες Συσκευές\" και \"Σύνδεση νέας συσκευής\" για να σκανάρεις τον κωδικό με το τηλέφωνό σου:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Πάτα τη φωτογραφία προφίλ σου για να ανοίξεις τις ρυθμίσεις του Morse στο τηλέφωνό σου. Μετά πήγαινε στο \"Συνδεμένες Συσκευές\" και \"Σύνδεση νέας συσκευής\" για να σκανάρεις τον κωδικό με το τηλέφωνό σου:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Βρες βοήθεια με τη σύνδεση του iPad σου εδώ";
@@ -5051,7 +5052,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Σκάναρε τον κωδικό QR με το τηλέφωνό σου";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Άνοιξε το Signal στο παλιό σου iPad για να μεταφέρεις το λογαριασμό σου";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Άνοιξε το Morse στο παλιό σου iPad για να μεταφέρεις το λογαριασμό σου";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Επαναφορά ασφαλούς συνεδρίας.";
@@ -5072,7 +5073,7 @@
 "SEND_INVITE_FAILURE" = "Η αποστολή της πρόσκλησης απέτυχε, παρακαλώ ξαναδοκίμασε αργότερα.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Προσκάλεσες τον/την φίλο/η σου στο Signal!";
+"SEND_INVITE_SUCCESS" = "Προσκάλεσες τον/την φίλο/η σου στο Morse!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "Απόρριψη πολυμέσων";
@@ -5087,7 +5088,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Πρόσκληση φίλου μέσω μη-ασφαλούς SMS;";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Θέλεις να προσκαλέσεις τον ακόλουθο αριθμό στο Signal:";
+"SEND_SMS_INVITE_TITLE" = "Θέλεις να προσκαλέσεις τον ακόλουθο αριθμό στο Morse:";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "Υψηλή";
@@ -5096,7 +5097,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Κανονική";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Το Signal χρησιμοποιεί κρυπτογράφηση από την πηγή μέχρι τον προορισμό (end to end) και έτσι ίσως χρειαστεί να ανανεώσει τις συνομιλίες σου ανά διαστήματα. Αυτό δεν επηρεάζει την ασφάλεια των συνομιλιών σου, αλλά ίσως δεν λάβεις κάποιο μήνυμα από τη συγκεκριμένη συνομιλία. Σε αυτή την περίπτωση μπορείς να ζητήσεις να σου ξαναστείλουν το μήνυμα.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Το Morse χρησιμοποιεί κρυπτογράφηση από την πηγή μέχρι τον προορισμό (end to end) και έτσι ίσως χρειαστεί να ανανεώσει τις συνομιλίες σου ανά διαστήματα. Αυτό δεν επηρεάζει την ασφάλεια των συνομιλιών σου, αλλά ίσως δεν λάβεις κάποιο μήνυμα από τη συγκεκριμένη συνομιλία. Σε αυτή την περίπτωση μπορείς να ζητήσεις να σου ξαναστείλουν το μήνυμα.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Η συνομιλία ανανεώθηκε";
@@ -5123,7 +5124,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Τοποθεσία";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Αν είναι ενεργοποιημένο, το Signal θα προσπαθήσει να παρακάμψει την λογοκρισία. Μην ενεργοποιήσεις αυτή την επιλογή εκτός και αν βρίσκεσαι σε περιοχή όπου το Signal έχει λογοκριθεί/μπλοκαριστεί.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Αν είναι ενεργοποιημένο, το Morse θα προσπαθήσει να παρακάμψει την λογοκρισία. Μην ενεργοποιήσεις αυτή την επιλογή εκτός και αν βρίσκεσαι σε περιοχή όπου το Morse έχει λογοκριθεί/μπλοκαριστεί.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Η παράκαμψη λογοκρισίας ενεργοποιήθηκε βάσει του αριθμού τηλεφώνου του λογαριασμού σου.";
@@ -5134,8 +5135,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Η παράκαμψη λογοκρισίας μπορεί να ενεργοποιηθεί μόνο όταν υπάρχει σύνδεση στο διαδίκτυο.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Η παράκαμψη λογοκρισίας δεν είναι απαραίτητη, είσαι ήδη συνδεμένος/η στις υπηρεσίες του Signal.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Η παράκαμψη λογοκρισίας δεν είναι απαραίτητη, είσαι ήδη συνδεμένος/η στις υπηρεσίες του Morse.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Ενεργοποίηση καταγραφής αποσφαλμάτωσης";
@@ -5176,8 +5177,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Προσθήκη φραγμένου χρήστη";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Δεν έχεις επαφές στο Signal.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Δεν έχεις επαφές στο Morse.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Δεν βρέθηκαν αποτελέσματα";
@@ -5189,7 +5190,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Αναμετάδοση όλων των κλήσεων ";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Αναμετάδοση όλων των κλήσεων μέσω ενός διακομιστή Signal για να μην αποκαλύπτεται η διεύθυνση IP σου στην επαφή σου. Η ενεργοποίηση θα μειώσει την ποιότητα των κλήσεων.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Αναμετάδοση όλων των κλήσεων μέσω ενός διακομιστή Morse για να μην αποκαλύπτεται η διεύθυνση IP σου στην επαφή σου. Η ενεργοποίηση θα μειώσει την ποιότητα των κλήσεων.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "Συνομιλίες";
@@ -5198,7 +5199,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Εκκαθάριση ιστορικού συνομιλιών";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Πνευματική ιδιοκτησία Signal Messenger\nΥπό την άδεια GPLv3";
+"SETTINGS_COPYRIGHT" = "Πνευματική ιδιοκτησία Morse Messenger\nΥπό την άδεια GPLv3";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Συνδρομή";
@@ -5270,7 +5271,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Ορισμός ενός προκαθορισμένου χρόνου εξαφάνισης μηνυμάτων για όλες τις συνομιλίες που ξεκινάς εσύ.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Κάνε μια δωρεά στο Signal";
+"SETTINGS_DONATE" = "Κάνε μια δωρεά στο Morse";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Βοήθεια";
@@ -5279,7 +5280,7 @@
 "SETTINGS_INVITE_TITLE" = "Πρόσκληση Φίλων";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Επικοινωνήστε μαζί μου με το @signalapp. Κατεβάστε το τώρα: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Επικοινωνήστε μαζί μου με το @signalapp. Κατεβάστε το τώρα: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "Χρώμα και ταπετσαρία συνομιλίας";
@@ -5339,7 +5340,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Περιεχόμενο ειδοποιήσεων";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Μια επαφή έρχεται στο Signal";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Μια επαφή έρχεται στο Morse";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Να ειδοποιούμαι όταν...";
@@ -5351,7 +5352,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Ενεργοποίηση";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Μπορείτε να χρησιμοποιήσετε το Signal για να στέλνετε και να λαμβάνετε MobileCoin. Όλες οι πληρωμές υπόκεινται στους Όρους Χρήσης για τα MobileCoins και το πορτοφόλι MobileCoin. Πρόκειται για μια λειτουργία beta, οπότε ενδέχεται να αντιμετωπίσετε κάποια προβλήματα και οι πληρωμές ή τα υπόλοιπα που ενδέχεται να χάσετε να μην μπορούν να ανακτηθούν.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Μπορείτε να χρησιμοποιήσετε το Morse για να στέλνετε και να λαμβάνετε MobileCoin. Όλες οι πληρωμές υπόκεινται στους Όρους Χρήσης για τα MobileCoins και το πορτοφόλι MobileCoin. Πρόκειται για μια λειτουργία beta, οπότε ενδέχεται να αντιμετωπίσετε κάποια προβλήματα και οι πληρωμές ή τα υπόλοιπα που ενδέχεται να χάσετε να μην μπορούν να ανακτηθούν.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Ενεργοποίηση";
@@ -5375,7 +5376,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ στις %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Οι πληρωμές στο Signal δεν είναι πλέον διαθέσιμες. Μπορείτε ακόμα να μεταφέρετε χρήματα προς ένα ανταλλακτήριο, αλλά δεν μπορείτε πλέον να στέλνετε και να λαμβάνετε πληρωμές ή να προσθέτετε χρήματα.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Οι πληρωμές στο Morse δεν είναι πλέον διαθέσιμες. Μπορείτε ακόμα να μεταφέρετε χρήματα προς ένα ανταλλακτήριο, αλλά δεν μπορείτε πλέον να στέλνετε και να λαμβάνετε πληρωμές ή να προσθέτετε χρήματα.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Δεν μπορούν να απενεργοποιηθούν οι πληρωμές επειδή το υπόλοιπό σας δεν είναι διαθέσιμο. Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.";
@@ -5384,10 +5385,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Δεν ήταν δυνατή η ολοκλήρωση της πληρωμής επειδή το υπόλοιπό σας δεν είναι διαθέσιμο. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Οι πληρωμές στο Signal δεν είναι πλέον διαθέσιμες. Μπορείτε ακόμα να μεταφέρετε χρήματα προς ένα ανταλλακτήριο, αλλά δεν μπορείτε πλέον να στέλνετε και να λαμβάνετε πληρωμές ή να προσθέτετε χρήματα.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Οι πληρωμές στο Morse δεν είναι πλέον διαθέσιμες. Μπορείτε ακόμα να μεταφέρετε χρήματα προς ένα ανταλλακτήριο, αλλά δεν μπορείτε πλέον να στέλνετε και να λαμβάνετε πληρωμές ή να προσθέτετε χρήματα.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Η υπηρεσία Payments in Signal δεν είναι πλέον διαθέσιμη. Μπορείτε ακόμα να μεταφέρετε χρήματα σε ένα ανταλλακτήριο, αλλά δεν μπορείτε πλέον να στέλνετε και να λαμβάνετε πληρωμές ή να προσθέτετε χρήματα.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Η υπηρεσία Payments in Morse δεν είναι πλέον διαθέσιμη. Μπορείτε ακόμα να μεταφέρετε χρήματα σε ένα ανταλλακτήριο, αλλά δεν μπορείτε πλέον να στέλνετε και να λαμβάνετε πληρωμές ή να προσθέτετε χρήματα.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Οι μετατροπές είναι απλώς εκτιμήσεις και μπορεί να μην είναι ακριβείς.";
@@ -5405,7 +5406,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Απενεργοποίηση πληρωμών";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Δεν θα μπορείτε να στείλετε ή να λάβετε Mobilecoin στο Signal εάν απενεργοποιήσετε τις πληρωμές.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Δεν θα μπορείτε να στείλετε ή να λάβετε Mobilecoin στο Morse εάν απενεργοποιήσετε τις πληρωμές.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Απενεργοποίηση πληρωμών;";
@@ -5414,10 +5415,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Απενεργοποίηση πληρωμών";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Συνιστάται να μεταφέρετε τα χρήματά σας σε άλλη διεύθυνση πορτοφολιού πριν απενεργοποιήσετε τις πληρωμές. Εάν επιλέξετε να μην μεταφέρετε τα χρήματά σας τώρα, θα παραμείνουν στο πορτοφόλι σας που είναι συνδεδεμένο με το Signal εάν ενεργοποιήσετε εκ νέου τις πληρωμές.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Συνιστάται να μεταφέρετε τα χρήματά σας σε άλλη διεύθυνση πορτοφολιού πριν απενεργοποιήσετε τις πληρωμές. Εάν επιλέξετε να μην μεταφέρετε τα χρήματά σας τώρα, θα παραμείνουν στο πορτοφόλι σας που είναι συνδεδεμένο με το Morse εάν ενεργοποιήσετε εκ νέου τις πληρωμές.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Το υπόλοιπό σας θα παραμείνει στο πορτοφόλι σας που είναι συνδεδεμένο με το Signal, σε περίπτωση που επιλέξετε να ενεργοποιήσετε ξανά τις πληρωμές.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Το υπόλοιπό σας θα παραμείνει στο πορτοφόλι σας που είναι συνδεδεμένο με το Morse, σε περίπτωση που επιλέξετε να ενεργοποιήσετε ξανά τις πληρωμές.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Απενεργοποίηση χωρίς μεταφορά;";
@@ -5441,7 +5442,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "Σχετικά με το MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Μπορείτε να προσθέσετε χρήματα για χρήση στο Signal στέλνοντας MobileCoin στη διεύθυνση του πορτοφολιού σας.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Μπορείτε να προσθέσετε χρήματα για χρήση στο Morse στέλνοντας MobileCoin στη διεύθυνση του πορτοφολιού σας.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Προσθήκη Χρημάτων";
@@ -5495,7 +5496,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Οι πληρωμές ενεργοποιήθηκαν.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Χρησιμοποιήστε το Signal για να στέλνετε και να λαμβάνετε MobileCoin, ένα νέο ψηφιακό νόμισμα που εστιάζει στην προστασία της ιδιωτικότητας. Ενεργοποιήστε το για να ξεκινήσετε.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Χρησιμοποιήστε το Morse για να στέλνετε και να λαμβάνετε MobileCoin, ένα νέο ψηφιακό νόμισμα που εστιάζει στην προστασία της ιδιωτικότητας. Ενεργοποιήστε το για να ξεκινήσετε.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Επανενεργοποίηση πληρωμών";
@@ -5504,7 +5505,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "Παρουσίαση των πληρωμών (Beta)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Το υπόλοιπό σας θα αποκατασταθεί αυτόματα όταν εγκαταστήσετε ξανά το Signal, εάν επιβεβαιώσετε το Signal PIN. Μπορείτε επίσης να επαναφέρετε το υπόλοιπό σας χρησιμοποιώντας μια φράση ανάκτησης, η οποία είναι μια φράση 24 λέξεων, μοναδική για εσάς. Σημειώστε την και αποθηκεύστε την σε ασφαλές μέρος.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Το υπόλοιπό σας θα αποκατασταθεί αυτόματα όταν εγκαταστήσετε ξανά το Morse, εάν επιβεβαιώσετε το Morse PIN. Μπορείτε επίσης να επαναφέρετε το υπόλοιπό σας χρησιμοποιώντας μια φράση ανάκτησης, η οποία είναι μια φράση 24 λέξεων, μοναδική για εσάς. Σημειώστε την και αποθηκεύστε την σε ασφαλές μέρος.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "Προσθήκη Χρημάτων";
@@ -5663,7 +5664,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Πληρωμές";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Δεν μπορείτε να πραγματοποιήσετε μεταφορά στη διεύθυνση του πορτοφολιού σας Signal. Εισαγάγετε τη διεύθυνση πορτοφολιού του λογαριασμού σας σε ένα υποστηριζόμενο ανταλλακτήριο.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Δεν μπορείτε να πραγματοποιήσετε μεταφορά στη διεύθυνση του πορτοφολιού σας Morse. Εισαγάγετε τη διεύθυνση πορτοφολιού του λογαριασμού σας σε ένα υποστηριζόμενο ανταλλακτήριο.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "Μπορείτε να μεταφέρετε MobileCoin ολοκληρώνοντας μια μεταφορά προς τη διεύθυνση πορτοφολιού που παρέχεται από το ανταλλακτήριο. Η διεύθυνση του πορτοφολιού είναι μια  σειρά από αριθμούς και γράμματα που συνήθως βρίσκονται κάτω από τον κωδικό QR.";
@@ -5756,16 +5757,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Απενεργοποίηση υπενθυμίσεων";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Βεβαιώσου πως θυμάσαι ή έχεις αποθηκεύσει με ασφάλεια το PIN σου καθώς δεν γίνεται να ανακληθεί. Αν ξεχάσεις το PIN μπορεί να χάσεις δεδομένα όταν επανεγγραφείς στο Signal.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Βεβαιώσου πως θυμάσαι ή έχεις αποθηκεύσει με ασφάλεια το PIN σου καθώς δεν γίνεται να ανακληθεί. Αν ξεχάσεις το PIN μπορεί να χάσεις δεδομένα όταν επανεγγραφείς στο Morse.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Επιβεβαίωση PIN Signal";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Επιβεβαίωση PIN Morse";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "Υπενθυμίσεις PIN";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "Τα PIN κρατούν τις πληροφορίες που αποθηκεύονται στο Signal κρυπτογραφημένες, οπότε μόνο εσύ έχεις πρόσβαση σε αυτές. Δεν έχεις τη δυνατότητα να επανακτήσεις το PIN σου. Το προφίλ σου, οι ρυθμίσεις και οι επαφές να επαναφερθούν όταν επανεγκαταστήσεις το Signal.";
+"SETTINGS_PINS_FOOTER" = "Τα PIN κρατούν τις πληροφορίες που αποθηκεύονται στο Morse κρυπτογραφημένες, οπότε μόνο εσύ έχεις πρόσβαση σε αυτές. Δεν έχεις τη δυνατότητα να επανακτήσεις το PIN σου. Το προφίλ σου, οι ρυθμίσεις και οι επαφές να επαναφερθούν όταν επανεγκαταστήσεις το Morse.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Αλλαγή του PIN σου";
@@ -5774,7 +5775,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Δημιουργία νέου PIN";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "PIN Signal";
+"SETTINGS_PINS_TITLE" = "PIN Morse";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Παράκαμψη λογοκρισίας, αναμετάδοση κλήσεων και ρυθμίσεις προστατευόμενου αποστολέα.";
@@ -5801,7 +5802,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Ενεργοποίηση";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Αν έχεις ξεχάσει το PIN του Signal σου όταν επανεγγραφτείς στο Signal, θα κλειδωθείς εκτός του λογαριασμού σου για 7 ημέρες.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Αν έχεις ξεχάσει το PIN του Morse σου όταν επανεγγραφτείς στο Morse, θα κλειδωθείς εκτός του λογαριασμού σου για 7 ημέρες.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Ενεργοποίηση του κλειδώματος εγγραφής;";
@@ -5831,16 +5832,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Κλήσεις";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Χρήση Touch ID, Face ID, ή του κωδικού της συσκευής iOS σου για ξεκλείδωμα του Signal.";
+"SETTINGS_SECURITY_DETAIL" = "Χρήση Touch ID, Face ID, ή του κωδικού της συσκευής iOS σου για ξεκλείδωμα του Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Χρήση Face ID για ξεκλείδωμα του Signal.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Χρήση Face ID για ξεκλείδωμα του Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Χρήση του κωδικού της συσκευής για ξεκλείδωμα του Signal.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Χρήση του κωδικού της συσκευής για ξεκλείδωμα του Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Χρήση Touch ID για ξεκλείδωμα Signal.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Χρήση Touch ID για ξεκλείδωμα Morse.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Ασφάλεια εφαρμογής";
@@ -5855,22 +5856,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Διαμοιρασμός επαφών με το iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Να επιτραπεί στο iOS η πρόσβαση στις επαφές και τις συνομιλίες του Signal, για χαρακτηριστικά όπως οι προτάσεις διαμοιρασμού.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Να επιτραπεί στο iOS η πρόσβαση στις επαφές και τις συνομιλίες του Morse, για χαρακτηριστικά όπως οι προτάσεις διαμοιρασμού.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Να επιτραπεί στο iOS η πρόσβαση στις επαφές και τις συνομιλίες του Signal, για χαρακτηριστικά όπως οι προτάσεις διαμοιρασμού και οι ειδοποιήσεις.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Να επιτραπεί στο iOS η πρόσβαση στις επαφές και τις συνομιλίες του Morse, για χαρακτηριστικά όπως οι προτάσεις διαμοιρασμού και οι ειδοποιήσεις.";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Ενίσχυση Signal";
+"SETTINGS_SIGNAL_BOOST" = "Ενίσχυση Morse";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Γίνε Υποστηρικτής/τρια Signal";
+"SETTINGS_SUBSCRIPTION" = "Γίνε Υποστηρικτής/τρια Morse";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Κλείδωμα εγγραφής";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Να απαιτείται το PIN Signal σου για να εγγραφτεί ο αριθμός τηλεφώνου σου ξανά στο Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Να απαιτείται το PIN Morse σου για να εγγραφτεί ο αριθμός τηλεφώνου σου ξανά στο Morse.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Δείκτες πληκτρολόγησης";
@@ -5909,13 +5910,13 @@
 "SHARE_EXTENSION_LOADING" = "Φορτώνει...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Άνοιξε την εφαρμογή Signal για να εγγραφτείς";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Άνοιξε την εφαρμογή Morse για να εγγραφτείς";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Μη εγγεγραμμένος";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Άνοιξε την εφαρμογή Signal για ενημέρωση ή εγγραφή.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Άνοιξε την εφαρμογή Morse για ενημέρωση ή εγγραφή.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Δεν είναι έτοιμο";
@@ -5929,17 +5930,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Ανεβαίνει...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Αδυναμία προετοιμασίας συνημμένου";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Κοινοποίηση στο Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Κοινοποίηση στο Morse";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Αποτυχία απενεργοποίησης προτάσεων διαμοιρασμού.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Οι συνομιλίες Signal μπορούν πλέον να εμφανίζονται ως προτάσεις όταν μοιράζεσαι από άλλες εφαρμογές.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Οι συνομιλίες Morse μπορούν πλέον να εμφανίζονται ως προτάσεις όταν μοιράζεσαι από άλλες εφαρμογές.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "Μοιράσου ευκολότερα";
@@ -5956,8 +5957,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Εμφάνιση συνομιλίας";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Σε προσκαλώ να εγκαταστήσεις το Signal! Να ο σύνδεσμος:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Σε προσκαλώ να εγκαταστήσεις το Morse! Να ο σύνδεσμος:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "Ήχοι & ειδοποιήσεις";
@@ -5975,7 +5976,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Συνέχεια χωρίς επιβεβαίωση;";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Για να περιορίσουμε τα spam στο Signal, παρακαλούμε ολοκλήρωσε την επιβεβαίωση.\n\nΑφού επιβεβαιώσεις, θα μπορέσεις να συνεχίσειες να συνομιλείς. Όσα μηνύματα βρίσκονται σε αναμονή θα αποσταλλούν αυτόματα";
+"SPAM_CAPTCHA_SHEET_BODY" = "Για να περιορίσουμε τα spam στο Morse, παρακαλούμε ολοκλήρωσε την επιβεβαίωση.\n\nΑφού επιβεβαιώσεις, θα μπορέσεις να συνεχίσειες να συνομιλείς. Όσα μηνύματα βρίσκονται σε αναμονή θα αποσταλλούν αυτόματα";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Επιβεβαίωσε για να συνεχίσεις να συνομιλείς";
@@ -6008,7 +6009,7 @@
 "STICKERS_INSTALL_BUTTON" = "Εγκατάσταση";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Σειρά καλλιτεχνών Signal";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Σειρά καλλιτεχνών Morse";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Αυτοκόλλητα που έχεις λάβει";
@@ -6056,7 +6057,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Συνεισφορά";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Το Signal βασίζεται σε άτομα σαν κι εσένα. Με τη συνεισφορά σου λαμβάνεις ένα έμβλημα.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Το Morse βασίζεται σε άτομα σαν κι εσένα. Με τη συνεισφορά σου λαμβάνεις ένα έμβλημα.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Όχι ευχαριστώ";
@@ -6080,7 +6081,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Πες μας για το θέμα σου:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Παρακαλώ στείλε το αίτημα υποστήριξής σου με email στο support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Παρακαλώ στείλε το αίτημα υποστήριξής σου με email στο support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Φίλτρο: %@";
@@ -6104,15 +6105,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "URL αρχείου καταγραφής: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Έκδοση Signal: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Έκδοση Morse: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Αίτημα Υποστήριξης Signal iOS";
+"SUPPORT_EMAIL_SUBJECT" = "Αίτημα Υποστήριξης Morse iOS";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Πώς αισθάνεσαι; (Προαιρετικό)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "Έχεις διαβάσει τις Συχνές ερωτήσεις μας;";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6123,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Φορτώνει";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Το Signal είναι μια ΜΚΟ χωρις διαφημίσεις και επενδυτές, που συντηρείται μόνο από τα άτομα που το χρησιμοποιούν και το θεωρούν σημαντικό. Με μια επαναλαμβανόμενη μηνιαία συνεισφορά παίρνεις ένα έμβλημα για το προφίλ σου, για να δείξεις την υποστήριξή σου.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Το Morse είναι μια ΜΚΟ χωρις διαφημίσεις και επενδυτές, που συντηρείται μόνο από τα άτομα που το χρησιμοποιούν και το θεωρούν σημαντικό. Με μια επαναλαμβανόμενη μηνιαία συνεισφορά παίρνεις ένα έμβλημα για το προφίλ σου, για να δείξεις την υποστήριξή σου.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Η Signal έχει δεσμευτεί να αναπτύσσει τεχνολογία απορρήτου με ελεύθερο κώδικα που προστατεύει την ελεύθερη έκφραση και επιτρέπει την ασφαλή παγκόσμια επικοινωνία.\n\nΗ συνεισφορά σας τροφοδοτεί αυτόν τον σκοπό και πληρώνει για την ανάπτυξη και τη λειτουργία μιας εφαρμογής που χρησιμοποιείται από εκατομμύρια άτομα για τις απόρρητες επικοινωνίες τους. Χωρίς διαφημίσεις. Χωρίς ιχνηλάτες. Ναι, αλήθεια είναι.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Η Morse έχει δεσμευτεί να αναπτύσσει τεχνολογία απορρήτου με ελεύθερο κώδικα που προστατεύει την ελεύθερη έκφραση και επιτρέπει την ασφαλή παγκόσμια επικοινωνία.\n\nΗ συνεισφορά σας τροφοδοτεί αυτόν τον σκοπό και πληρώνει για την ανάπτυξη και τη λειτουργία μιας εφαρμογής που χρησιμοποιείται από εκατομμύρια άτομα για τις απόρρητες επικοινωνίες τους. Χωρίς διαφημίσεις. Χωρίς ιχνηλάτες. Ναι, αλήθεια είναι.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Υποστηρίξτε την τεχνολογία που έχει δημιουργηθεί για εσάς —και όχι για τα δεδομένα σας— συμμετέχοντας στην κοινότητα που τη συντηρεί.";
@@ -6137,7 +6138,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Ακόμα επεξεργάζεται";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Προσθήκη Ενίσχυσης Signal";
+"SUSTAINER_VIEW_ADD_BOOST" = "Προσθήκη Ενίσχυσης Morse";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Πάρε ένα έμβλημα %@";
@@ -6209,7 +6210,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "Όχι τώρα";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Το Signal στηρίζεται σε άτομα σαν κι εσένα.";
+"SUSTAINER_VIEW_TITLE" = "Το Morse στηρίζεται σε άτομα σαν κι εσένα.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "Θα χρεωθείς το πλήρες ποσό (%@) της τιμής νέας συνδρομής σήμερα. Η συνδρομή σου θα ανανεώνεται μηνιαία.";
@@ -6335,25 +6336,25 @@
 "UNKNOWN_COUNTRY_NAME" = "Άγνωστη χώρα";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Μια από τις συσκευές σου έστειλε μήνυμα που δεν μπορεί να επεξεργαστεί ή προβληθεί εδώ επειδή χρησιμοποιεί μια νέα δυνατότητα του Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Μια από τις συσκευές σου έστειλε μήνυμα που δεν μπορεί να επεξεργαστεί ή προβληθεί εδώ επειδή χρησιμοποιεί μια νέα δυνατότητα του Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "Ο/Η %@ σου έστειλε μήνυμα που δεν μπορεί να επεξεργαστεί ή να εμφανιστεί γιατί χρησιμοποιεί μια νέα δυνατότητα του Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "Ο/Η %@ σου έστειλε μήνυμα που δεν μπορεί να επεξεργαστεί ή να εμφανιστεί γιατί χρησιμοποιεί μια νέα δυνατότητα του Morse.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Έλαβες μήνυμα που δεν μπορεί να επεξεργαστεί ή να προβληθεί γιατί χρησιμοποιεί μια νέα δυνατότητα του Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Έλαβες μήνυμα που δεν μπορεί να επεξεργαστεί ή να προβληθεί γιατί χρησιμοποιεί μια νέα δυνατότητα του Morse.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Αναβάθμιση του Signal τώρα";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Αναβάθμιση του Morse τώρα";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Αναβάθμισες στη πιο πρόσφατη έκδοση του Signal. Μπορείς πλέον να λαμβάνεις αυτόν τον τύπο μηνύματος στην συσκευή σου.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Αναβάθμισες στη πιο πρόσφατη έκδοση του Morse. Μπορείς πλέον να λαμβάνεις αυτόν τον τύπο μηνύματος στην συσκευή σου.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Μπορείς να ζητήσεις από τον/την %@ να σου ξαναστείλει το μήνυμα τώρα που χρησιμοποιείς την αναβαθμισμένη έκδοση του Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Μπορείς να ζητήσεις από τον/την %@ να σου ξαναστείλει το μήνυμα τώρα που χρησιμοποιείς την αναβαθμισμένη έκδοση του Morse.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Μπορείς να ζητήσεις από τον/την αποστολέα να σου ξαναστείλει το μήνυμα τώρα που χρησιμοποιείς την αναβαθμισμένη έκδοση του Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Μπορείς να ζητήσεις από τον/την αποστολέα να σου ξαναστείλει το μήνυμα τώρα που χρησιμοποιείς την αναβαθμισμένη έκδοση του Morse.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Άγνωστο";
@@ -6377,10 +6378,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Αποσύνδεση της \"%@\";";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Η συσκευή δεν είναι πια συνδεμένη. Ξανασύνδεσε το Signal με το τηλέφωνό σου για να συνεχίσει η λειτουργία του.";
+"UNLINKED_WARNING" = "Η συσκευή δεν είναι πια συνδεμένη. Ξανασύνδεσε το Morse με το τηλέφωνό σου για να συνεχίσει η λειτουργία του.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Το Signal δεν μπόρεσε να αποσυνδέσει τη συσκευή σου.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Το Morse δεν μπόρεσε να αποσυνδέσει τη συσκευή σου.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Ανώνυμη συσκευή";
@@ -6401,7 +6402,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Η συσκευή σου δεν υποστηρίζει αυτή τη λειτουργία.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Ο αριθμός ασφαλείας σου με τον/την %@ άλλαξε, πιθανώς επειδή επανεγκατέστησε το Signal ή άλλαξε συσκευή. Πάτα Επιβεβαίωση για να επιβεβαιώσεις τον νέο αριθμό ασφαλείας. Αυτό είναι προαιρετικό.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Ο αριθμός ασφαλείας σου με τον/την %@ άλλαξε, πιθανώς επειδή επανεγκατέστησε το Morse ή άλλαξε συσκευή. Πάτα Επιβεβαίωση για να επιβεβαιώσεις τον νέο αριθμό ασφαλείας. Αυτό είναι προαιρετικό.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Επιβεβαίωση";
@@ -6422,7 +6423,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "Μάθε Περισσότερα για τα PIN";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "Τα PIN κρατούν τις πληροφορίες που αποθηκεύονται στο Signal κρυπτογραφημένες, οπότε μόνο εσύ έχεις πρόσβαση σε αυτές. Το προφίλ σου, οι ρυθμίσεις και οι επαφές να επαναφερθούν όταν επανεγκαταστήσεις το Signal. Δεν θα χρειάζεται να γράψεις το PIN για να ανοίξεις την εφαρμογή.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "Τα PIN κρατούν τις πληροφορίες που αποθηκεύονται στο Morse κρυπτογραφημένες, οπότε μόνο εσύ έχεις πρόσβαση σε αυτές. Το προφίλ σου, οι ρυθμίσεις και οι επαφές να επαναφερθούν όταν επανεγκαταστήσεις το Morse. Δεν θα χρειάζεται να γράψεις το PIN για να ανοίξεις την εφαρμογή.";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "Υποδέξου τα PIN";
@@ -6431,13 +6432,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "Απενεργοποίηση PIN";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Το Signal σύντομα θα χρειάζεται την έκδοση iOS 11 ή νεότερη για να λειτουργήσει. Παρακαλώ αναβάθμισε τη συσκευή σου στην εφαρμογή Ρυθμίσεις > Γενικά > Αναβάθμιση Λογισμικού.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Το Morse σύντομα θα χρειάζεται την έκδοση iOS 11 ή νεότερη για να λειτουργήσει. Παρακαλώ αναβάθμισε τη συσκευή σου στην εφαρμογή Ρυθμίσεις > Γενικά > Αναβάθμιση Λογισμικού.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Αναβάθμιση λογισμικού iOS";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Τα ονόματα χρήστη του Signal είναι προαιρετικά. Αν διαλέξεις να δημιουργήσεις ένα όνομα χρήστη, τότε άλλοι χρήστες/τριες του Signal θα μπορούν να σε βρουν αναζητώντας σε με αυτό το όνομα χρήστη, και θα μπορούν να επικοινωνούν μαζί σου χωρίς να ξέρουν τον αριθμό τηλεφώνου σου.";
+"USERNAME_DESCRIPTION" = "Τα ονόματα χρήστη του Morse είναι προαιρετικά. Αν διαλέξεις να δημιουργήσεις ένα όνομα χρήστη, τότε άλλοι χρήστες/τριες του Morse θα μπορούν να σε βρουν αναζητώντας σε με αυτό το όνομα χρήστη, και θα μπορούν να επικοινωνούν μαζί σου χωρίς να ξέρουν τον αριθμό τηλεφώνου σου.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "Τα ονόματα χρήστη μπορούν να περιέχουν μόνο λατινικούς χαρακτήρες a-z, νούμερα 0-9 και την κάτω παύλα _";
@@ -6446,7 +6447,7 @@
 "USERNAME_LOOKUP_ERROR" = "Σφάλμα κατά την αναζήτηση του ονόματος χρήστη. Παρακαλώ ξαναδοκίμασε αργότερα.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "Ο/Η %@ δεν είναι χρήστης/τρια του Signal. Επιβεβαίωσε ότι έγραψες ολόκληρο το όνομα χρήστη.";
+"USERNAME_NOT_FOUND_FORMAT" = "Ο/Η %@ δεν είναι χρήστης/τρια του Morse. Επιβεβαίωσε ότι έγραψες ολόκληρο το όνομα χρήστη.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "Ο/Η χρήστης/τρια δεν βρέθηκε";
@@ -6521,7 +6522,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Πάτα και κράτα πατημένο για εγγραφή.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Ολοκλήρωσε την εγκατάσταση στο Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Ολοκλήρωσε την εγκατάσταση στο Morse Desktop.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Όνομα επαφής";

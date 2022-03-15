@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Nid nawr";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Ynghylch Signal";
+"ABOUT_SECTION_TITLE" = "Ynghylch Morse";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Derbyn y Rhif Diogelwch Newydd";
@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "Neges llais %@ eiliad";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Galwad Signal";
+"ACTION_AUDIO_CALL" = "Galwad Morse";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Gwahodd i Signal";
+"ACTION_INVITE" = "Gwahodd i Morse";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Anfon Neges";
@@ -149,7 +149,7 @@
 "APN_Message" = "Efallai fod gennych negeseuon newydd";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Ni all Signal lansio. Anfonwch cofnod dadfygio i support@signal.org fel y gallwn ddatrys y mater hwn.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Ni all Morse lansio. Anfonwch cofnod dadfygio i support@devplusone.com fel y gallwn ddatrys y mater hwn.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Gwall";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Methwyd Llwytho'r Cronfa Ddata";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Os gwelwch yn dda uwchraddio i'r fersiwn ddiweddaraf o Signal.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Os gwelwch yn dda uwchraddio i'r fersiwn ddiweddaraf o Morse.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Ferswin Anhysbys Cronfa Ddata ";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Ni ellid adfer y data a drosglwyddwyd o'ch hen ddyfais. Anfonwch gofnod dadfygio i support@signal.org fel y gallwn ddatrys y mater hwn. Os ydych chi'n ail-osod Signal efallai y bydd cofnod eich negeseuon yn cael ei golli.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Ni ellid adfer y data a drosglwyddwyd o'ch hen ddyfais. Anfonwch gofnod dadfygio i support@devplusone.com fel y gallwn ddatrys y mater hwn. Os ydych chi'n ail-osod Morse efallai y bydd cofnod eich negeseuon yn cael ei golli.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Methwyd Cwblhau y Trosglwyddiad";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Mae fersiwn %@ nawr ar gael yn yr App Store";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Mae Fersiwn Newydd o Signal Ar Gael";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Mae Fersiwn Newydd o Morse Ar Gael";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Diweddaru";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "System";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "Archif";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Methwyd allgludo'r atodiad.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Methwyd Cadw";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Dod yn Gynhaliwr";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Rhowch Hwb i Signal";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Rhowch Hwb i Morse";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Mae eich bathodyn Hwb wedi dod i ben, ac nid yw bellach i'w weld ar eich proffil.\n\nGallwch barhau i ddefnyddio Signal ond i gefnogi technoleg sydd wedi'i hadeiladu ar eich cyfer chi, ystyriwch ddod yn Gynhaliwr misol.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Mae eich bathodyn Hwb wedi dod i ben, ac nid yw bellach i'w weld ar eich proffil.\n\nGallwch barhau i ddefnyddio Morse ond i gefnogi technoleg sydd wedi'i hadeiladu ar eich cyfer chi, ystyriwch ddod yn Gynhaliwr misol.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Mae eich bathodyn Hwb wedi dod i ben, ac nid yw bellach i'w weld ar eich proffil.\n\nGallwch ail-greu eich bathodyn Hwb am 30 diwrnod arall gyda chyfraniad unigol.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Cafodd eich tanysgrifiad Cynhaliwr ei ganslo’n awtomatig oherwydd nad oeddech yn weithredol am gyfnod. Nid yw eich bathodyn %@ bellach i'w weld ar eich proffil.\n\nGallwch barhau i ddefnyddio Signal ond i gefnogi'r ap ac ail-greu'ch bathodyn, adnewyddwch nawr.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Cafodd eich tanysgrifiad Cynhaliwr ei ganslo’n awtomatig oherwydd nad oeddech yn weithredol am gyfnod. Nid yw eich bathodyn %@ bellach i'w weld ar eich proffil.\n\nGallwch barhau i ddefnyddio Morse ond i gefnogi'r ap ac ail-greu'ch bathodyn, adnewyddwch nawr.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Dod yn Gynhaliwr";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "Pan fydd gennych fwy nag un bathodyn, gallwch ddewis un i'w ddangos i eraill gael ei weld ar eich proffil.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "Rydych wedi ennill y bathodyn %@! Helpiwch Signal godi ymwybyddiaeth drwy ddangos y bathodyn hwn ar eich proffil.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Rydych wedi ennill y bathodyn %@! Helpiwch Morse godi ymwybyddiaeth drwy ddangos y bathodyn hwn ar eich proffil.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Cau baner";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Dewiswch swm i gyfrannu";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Rhowch Hwb i Signal";
+"BOOST_VIEW_TITLE" = "Rhowch Hwb i Morse";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Ychwanegu";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 Galwad sain coll";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Gallwch chi alluogi mynediad i'r meicroffon yn yr app Gosodiadau iOS i wneud galwadau a recordio negeseuon llais yn Signal.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Gallwch chi alluogi mynediad i'r meicroffon yn yr app Gosodiadau iOS i wneud galwadau a recordio negeseuon llais yn Morse.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Rhaid Cael Mynediad i'r Meicroffon";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Dim Ateb";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Galw";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Mae'ch fideo wedi'i ddiffodd";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Defnyddiwr Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Defnyddiwr Morse";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Tynnwch lun ac yna ei anfon";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Cymharu â Clipfwrdd";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Dewis neu chwilio am ddefnyddiwr Signal i ddechrau sgwrs â hwy.";
+"COMPOSE_BUTTON_HINT" = "Dewis neu chwilio am ddefnyddiwr Morse i ddechrau sgwrs â hwy.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Ysgrifennu";
@@ -758,7 +758,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Chwiliad enw defnyddiwr";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Gallwch chi alluogi mynediad i'ch cysylltiadau yn yr app Gosodiadau iOS i weld pa rai ohonynt sy'n ddefnyddwyr Signal.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Gallwch chi alluogi mynediad i'ch cysylltiadau yn yr app Gosodiadau iOS i weld pa rai ohonynt sy'n ddefnyddwyr Morse.";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TEXT" = "Bydd hyn yn ailosod yr ap gan ddileu eich negeseuon. Bydd yr ap yn cau ar ôl i'r broses hon gael ei chwblhau.";
@@ -890,7 +890,7 @@
 "CONTACT_SHARE_NO_FIELDS_SELECTED" = "Ni ddewisir unrhyw feysydd sy'n ymwneud â chysylltiadau.";
 
 /* Button text to initiate an email to signal support staff */
-"CONTACT_SUPPORT" = "Cysylltu â Chymorth Signal";
+"CONTACT_SUPPORT" = "Cysylltu â Chymorth Morse";
 
 /* The localized representation of the 'feature request' support filter. */
 "CONTACT_SUPPORT_FILTER_FEATURE_REQUEST" = "Hoffwn ofyn am nodwedd newydd";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Rhywbeth O'i Le";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Cynhalwyr a Hwb Signal";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Cynhalwyr a Hwb Morse";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Cynhalwyr a Hwb";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Nid oedd Signal yn gallu cwblhau eich cais am gymorth.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Nid oedd Morse yn gallu cwblhau eich cais am gymorth.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Rhoi Cynnig Arall Arni";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "sain";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Hawliwch fathodynnau i'ch proffil drwy gefnogi Signal. Tapiwch fathodyn i ddysgu rhagor.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Hawliwch fathodynnau i'ch proffil drwy gefnogi Morse. Tapiwch fathodyn i ddysgu rhagor.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Bathodynnau";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Dileu Cyfrif";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Bydd hyn yn dileu eich cyfrif Signal ac yn ail-osod yr ap. Bydd yr ap yn cau ar ôl i'r weithred gwblhau.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Bydd hyn yn dileu eich cyfrif Morse ac yn ail-osod yr ap. Bydd yr ap yn cau ar ôl i'r weithred gwblhau.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Ydych chi'n siŵr eich bod chi am ddileu'ch cyfrif?";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Rhif Ffôn";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Cadarnhau Eich Rhif Signal";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Cadarnhau Eich Rhif Morse";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Dileu Cyfrif";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Ailgofrestri'r rhif ffôn hwn";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Nid yw'r ddyfais wedi'i chofrestru mwyach. Efallai bod eich rhif ffôn wedi'i gofrestru gyda Signal ar ddyfais wahanol. Tapiwch i ailgofrestru.";
+"DEREGISTRATION_WARNING" = "Nid yw'r ddyfais wedi'i chofrestru mwyach. Efallai bod eich rhif ffôn wedi'i gofrestru gyda Morse ar ddyfais wahanol. Tapiwch i ailgofrestru.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Gwelwyd ddiwethaf %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Os oes gennych eich hen ddyfais iOS gallwch drowsglwyddo yn ddiogel eich cyfrif a negeseuon i'r ddyfais hon.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Os oeddech yn defnyddio Signal ar iPad cysylltiedig gallwch drowsglwyddo yn ddiogel eich cyfrif a negeseuon i'r ddyfais hon.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Os oeddech yn defnyddio Morse ar iPad cysylltiedig gallwch drowsglwyddo yn ddiogel eich cyfrif a negeseuon i'r ddyfais hon.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Parhau heb drosglwyddo eich cyfrif a negeseuon";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Trosglwyddo o ddyfais iOS";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Bydd parhau yn analluogi Signal ar ddyfeisiau eraill sydd wedi'u cofrestru â'r un rhif ffôn.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Bydd parhau yn analluogi Morse ar ddyfeisiau eraill sydd wedi'u cofrestru â'r un rhif ffôn.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Methu gwirio eich dyfais newydd, rhowch gynnig arall arni";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Dim digon o le ar gael i gwblhau'r trsoglwyddiad";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Diweddarwch i'r fersiwn mwyaf diweddar o Signal a rhowch gynnig arall arni.";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Diweddarwch i'r fersiwn mwyaf diweddar o Morse a rhowch gynnig arall arni.";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Trosglwyddwch eich cyfrif Signal i ddyfais iOS newydd. Gwnewch yn sicr bod eich dyfais newydd gyfagos ac ei fod ymlaen.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Trosglwyddwch eich cyfrif Morse i ddyfais iOS newydd. Gwnewch yn sicr bod eich dyfais newydd gyfagos ac ei fod ymlaen.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Trosglwyddo Cyfrif";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Agorwch Signal ar eich hen ddyfais, dewch a hi'n gyfagos a gwnewch yn siwr bod Wi-Fi a Bluetooth wedi'u galluogi ar y ddwy ddyfais.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Agorwch Morse ar eich hen ddyfais, dewch a hi'n gyfagos a gwnewch yn siwr bod Wi-Fi a Bluetooth wedi'u galluogi ar y ddwy ddyfais.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Lleoliwch y côd QR o fewn y ffram ar eich dyfais arall.";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Yn Aros am y Ddyfais Arall...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Cadwch y ddwy ddyfais gyfagos a'i gilydd. Peidiwch a diffodd y naill ddyfais neu'r llall a chadwch Signal yn agored. Mae trosglwyddo wedi'i hamgryptio o'r dechrau-i'r-diwedd.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Cadwch y ddwy ddyfais gyfagos a'i gilydd. Peidiwch a diffodd y naill ddyfais neu'r llall a chadwch Morse yn agored. Mae trosglwyddo wedi'i hamgryptio o'r dechrau-i'r-diwedd.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Yn Derbyn Data";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Daliwch Eich Dyfais Newydd o Flaen y Camera";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Cadwch y ddwy ddyfais gyfagos a'i gilydd. Peidiwch a diffodd y naill ddyfais neu'r llall a chadwch Signal yn agored.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Cadwch y ddwy ddyfais gyfagos a'i gilydd. Peidiwch a diffodd y naill ddyfais neu'r llall a chadwch Morse yn agored.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Yn Trosglwyddo Data";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Rhowch Swm Personol";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Cyfraniad at Signal";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Cyfraniad at Morse";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "Ffyrdd Eraill i Gyfrannu";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "Diolch am eich cefnogaeth!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "Mae nerth Signal mewn pobl fel chi.";
+"DONATION_VIEW_TITLE" = "Mae nerth Morse mewn pobl fel chi.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "Mae'r tîm yn Signal wedi ymrwymo i'r amcan o ddatblygu technoleg preifatrwydd ffynhonnell agored sy'n amddiffyn mynegiant rhydd ac yn galluogi cyfathrebu byd-eang diogel. Mae eich cyfraniad yn cynal yr achos hwn. Dim hysbysebion. Dim olrheinwyr. Dim malu awyr.\n\nMae eich rhodd yn helpu i dalu am ddatblygiad, gweinyddwyr a defnydd o led band ap gan filiynau ledled y byd ar gyfer cyfathrebu preifat ar unwaith.";
+"DONATION_VIEW_WHY_DONATE_BODY" = "Mae'r tîm yn Morse wedi ymrwymo i'r amcan o ddatblygu technoleg preifatrwydd ffynhonnell agored sy'n amddiffyn mynegiant rhydd ac yn galluogi cyfathrebu byd-eang diogel. Mae eich cyfraniad yn cynal yr achos hwn. Dim hysbysebion. Dim olrheinwyr. Dim malu awyr.\n\nMae eich rhodd yn helpu i dalu am ddatblygiad, gweinyddwyr a defnydd o led band ap gan filiynau ledled y byd ar gyfer cyfathrebu preifat ar unwaith.";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "Pam Cyfrannu?";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Gallwch chi alluogi mynediad yn yr app Gosodiadau iOS.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Mae Signal Angen Mynediad i Cysylltiadau i Olygu Gwybodaeth Cysylltiad";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Mae Morse Angen Mynediad i Cysylltiadau i Olygu Gwybodaeth Cysylltiad";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Golygu grŵp";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Ni ellir ychwanegu'r defnyddiwr hwn i'r grŵp nes iddynt ddiweddaru Signal.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Ni ellir ychwanegu'r defnyddiwr hwn i'r grŵp nes iddynt ddiweddaru Morse.";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "Cyrhaeddwyd uchafswm nifer aelodau grŵp o %@.";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Copïo";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Sumai/siwmae,\n\nYn ddiweddar rydw i wedi bod yn defnyddio Signal i gadw'r sgyrsiau ar fy iPhone yn breifat. Hoffwn i chi ei osod hefyd, felly gallwn fod yn hyderus mai dim ond chi a minnau sy'n gallu darllen ein negeseuon neu glywed ein galwadau.\n\nMae Signal ar gael ar gyfer iPhone ac Android. Cewch o yma: %@\n\nMae Signal yn gweithio fel eich app negeseuon presennol. Gallwn anfon lluniau a fideo, gwneud galwadau, a dechrau sgyrsiau grŵp. Y rhan orau yw, ni all unrhyw un arall weld dim ohono, nid hyd yn oed y bobl sy'n gwneud Signal!\n\nGallwch ddarllen mwy am Open Whisper Systems, y bobl sy'n gwneud Signal, yma: %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "Sumai/siwmae,\n\nYn ddiweddar rydw i wedi bod yn defnyddio Morse i gadw'r sgyrsiau ar fy iPhone yn breifat. Hoffwn i chi ei osod hefyd, felly gallwn fod yn hyderus mai dim ond chi a minnau sy'n gallu darllen ein negeseuon neu glywed ein galwadau.\n\nMae Morse ar gael ar gyfer iPhone ac Android. Cewch o yma: %@\n\nMae Morse yn gweithio fel eich app negeseuon presennol. Gallwn anfon lluniau a fideo, gwneud galwadau, a dechrau sgyrsiau grŵp. Y rhan orau yw, ni all unrhyw un arall weld dim ohono, nid hyd yn oed y bobl sy'n gwneud Morse!\n\nGallwch ddarllen mwy am Open Whisper Systems, y bobl sy'n gwneud Morse, yma: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Gadewch i ni newid i Signal";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "Gadewch i ni newid i Morse";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Nid yw'ch dyfais wedi'i ffurfweddu i anfon negeseuon e-bost. I anfon cais am gymorth, gosodwch e-bost ar eich dyfais neu anfonwch e-bost i support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Nid yw'ch dyfais wedi'i ffurfweddu i anfon negeseuon e-bost. I anfon cais am gymorth, gosodwch e-bost ar eich dyfais neu anfonwch e-bost i support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-bost ddim ar gael";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Teithio a Llefydd";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Nid oes gan unrhyw un o'ch cysylltiadau Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Nid oes gan unrhyw un o'ch cysylltiadau Morse.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Pam na wnewch chi wahodd rhywun?";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Methwyd anfon neges i'r defnyddiwr oherwydd i chi eu gwahardd.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Nid oedd Signal yn gallu cysylltu â'r rhyngrwyd. Rhowch gynnig arall arni os gwelwch yn dda.";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Nid oedd Morse yn gallu cysylltu â'r rhyngrwyd. Rhowch gynnig arall arni os gwelwch yn dda.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Methwyd anfon negeseuon oherwydd diffyg derbynwyr dilys.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Ymateb annilys o'r gwasanaeth.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Nid yw'r ddyfais hon bellach wedi'i chofrestru â'ch rhif ffôn. Ailosodwch Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Nid yw'r ddyfais hon bellach wedi'i chofrestru â'ch rhif ffôn. Ailosodwch Morse.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Gwall Gweinydd. Rhowch gynnig arall arni nes ymlaen.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Digwyddodd gwall anhysbys.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Nid yw'r cysylltiad yn ddefnyddiwr Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Nid yw'r cysylltiad yn ddefnyddiwr Morse.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Methwyd lawrlwytho atodiad.";
@@ -1778,10 +1778,10 @@
 "ERROR_NETWORK_FAILURE" = "Gwall Rhwydwaith";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Helpwch ni i wella Signal trwy adrodd y gwall hwn ynghyd â logiau dadfygio o'ch dyfais i support@signal.org; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Helpwch ni i wella Morse trwy adrodd y gwall hwn ynghyd â logiau dadfygio o'ch dyfais i support@devplusone.com; %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: Digwyddodd gwall";
+"ERROR_NOTIFICATION_TITLE" = "Morse Beta: Digwyddodd gwall";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Nid yw eich dyfais wedi'i chysylltu mwyach. Ail-gysylltwch i anfon negeseuon pellach.";
@@ -1790,19 +1790,19 @@
 "ERROR_SENDING_DEREGISTERED" = "Nid yw'ch dyfais wedi'i chofrestru mwyach. Ail-gofrestrwch i anfon negeseuon pellach.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Mae eich fersiwn chi o Signal wedi dod i ben. Diweddarwch i anfon negeseuon pellach.";
+"ERROR_SENDING_EXPIRED" = "Mae eich fersiwn chi o Morse wedi dod i ben. Diweddarwch i anfon negeseuon pellach.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Defnyddiwr Anghofrestredig: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Mae'ch fersiwn o Signal wedi dod i ben. Tapiwch i ddiweddaru i'r fersiwn ddiweddaraf.";
+"EXPIRATION_ERROR" = "Mae'ch fersiwn o Morse wedi dod i ben. Tapiwch i ddiweddaru i'r fersiwn ddiweddaraf.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Bydd eich fersiwn o Signal yn dod i ben ymhen %d diwrnod. Tapiwch i ddiweddaru i'r fersiwn ddiweddaraf.";
+"EXPIRATION_WARNING_SOON" = "Bydd eich fersiwn o Morse yn dod i ben ymhen %d diwrnod. Tapiwch i ddiweddaru i'r fersiwn ddiweddaraf.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Bydd eich fersiwn o Signal yn dod i ben heddiw. Tapiwch i ddiweddaru i'r fersiwn ddiweddaraf.";
+"EXPIRATION_WARNING_TODAY" = "Bydd eich fersiwn o Morse yn dod i ben heddiw. Tapiwch i ddiweddaru i'r fersiwn ddiweddaraf.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Gormod o fethiannau gyda'r cysylltiad hwn. Rhowch gynnig arall arni nes ymlaen.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Dolen Annilys";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Diweddarwch Signal ar y ddyfais hon i ymuno â'r grŵp hwn.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Diweddarwch Morse ar y ddyfais hon i ymuno â'r grŵp hwn.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Ei gwneud yn ofynnol i weinyddwr gymeradwyo aelodau newydd sy'n ymuno trwy'r ddolen grŵp.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "Cod QR";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Rhannu trwy Signal";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Rhannu trwy Morse";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Gall unrhyw un sydd â'r ddolen hon weld enw'r grŵp a'i aelodau ac anfon cais i ymuno. Rhannwch ef gyda phobl rydych chi'n ymddiried ynddynt.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Beth yw Hen Grwpiau?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Ni ellir uwchraddio Hen Grwpiau i Grwpiau Newydd eto, ond gallwch greu Grŵp Newydd gyda'r un aelodau os ydyn nhw ar y fersiwn ddiweddaraf o Signal.\n\nBydd Signal yn cynnig ffordd i uwchraddio Hen Grwpiau yn y dyfodol.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Ni ellir uwchraddio Hen Grwpiau i Grwpiau Newydd eto, ond gallwch greu Grŵp Newydd gyda'r un aelodau os ydyn nhw ar y fersiwn ddiweddaraf o Morse.\n\nBydd Morse yn cynnig ffordd i uwchraddio Hen Grwpiau yn y dyfodol.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Gai “uwchraddio” Hen Grŵp?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "I greu Grŵp Newydd, dylai'r holl aelodau ddiweddaru i'r fersiwn ddiweddaraf o Signal.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "I greu Grŵp Newydd, dylai'r holl aelodau ddiweddaru i'r fersiwn ddiweddaraf o Morse.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Hen Grŵp o'i gymharu â Grŵp Newydd";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Ni ellir uwchraddio'r grŵp hwn i Grŵp Newydd oherwydd ei fod â gormod o aelodau. Uchafswm maint y grŵp yw %@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Pan fydd holl aelodau presennol y grŵp yn defnyddio fersiwn o Signal sy'n gallu ymuno â Grŵp Newydd, bydd y grŵp hwn yn cael ei uwchraddio.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Pan fydd holl aelodau presennol y grŵp yn defnyddio fersiwn o Morse sy'n gallu ymuno â Grŵp Newydd, bydd y grŵp hwn yn cael ei uwchraddio.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Bydd holl hanes negeseuon a chyfryngau o cyn uwchraddio yn cael eu cadw.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Ni ellir creu y grŵp hwn oherwydd bod 1 aelod yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu'r grŵp.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Ni ellir creu y grŵp hwn oherwydd bod 1 aelod yn defnyddio hen fersiwn o Morse. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Morse, neu eu tynnu cyn creu'r grŵp.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Ni ellir creu y grŵp hwn oherwydd bod %@ aelod yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu'r grŵp.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Ni ellir creu y grŵp hwn oherwydd bod %@ aelod yn defnyddio hen fersiwn o Morse. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Morse, neu eu tynnu cyn creu'r grŵp.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Ni ellir creu y grŵp hwn oherwydd bod 1 aelod yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu'r grŵp. %@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Ni ellir creu y grŵp hwn oherwydd bod 1 aelod yn defnyddio hen fersiwn o Morse. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Morse, neu eu tynnu cyn creu'r grŵp. %@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Ni ellir creu y grŵp hwn oherwydd bod %1$@ aelod yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu'r grŵp. %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Ni ellir creu y grŵp hwn oherwydd bod %1$@ aelod yn defnyddio hen fersiwn o Morse. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Morse, neu eu tynnu cyn creu'r grŵp. %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Bydd Hen Grŵp yn cael ei greu oherwydd bod 1 aelod yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu'r grŵp.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Bydd Hen Grŵp yn cael ei greu oherwydd bod 1 aelod yn defnyddio hen fersiwn o Morse. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Morse, neu eu tynnu cyn creu'r grŵp.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Bydd Hen Grŵp yn cael ei greu oherwydd bod %@aelod yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu'r grŵp.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Bydd Hen Grŵp yn cael ei greu oherwydd bod %@aelod yn defnyddio hen fersiwn o Morse. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Morse, neu eu tynnu cyn creu'r grŵp.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "Nid yw 1 aelod yn cefnogi Grwpiau Newydd, felly Hen Grŵp fydd hwn. %@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "Dewiswch gweinyddwr newydd";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Mae grwpiau Signal yn gweithio orau gydag %@ aelod neu lai. Bydd ychwanegu mwy o aelodau yn achosi oedi wrth anfon a derbyn negeseuon.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "Mae grwpiau Morse yn gweithio orau gydag %@ aelod neu lai. Bydd ychwanegu mwy o aelodau yn achosi oedi wrth anfon a derbyn negeseuon.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "Mae'r terfyn aelodaeth a argymhellir wedi'i gyrraedd";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Cysylltu â Ni";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "Canolfan Cymorth";
 
 /* Label for 'archived conversations' button. */
@@ -2896,16 +2896,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Drafft:";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Mar rhai o'ch cysylltiadau eisoes ar Signal, yn cynnwys %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Mar rhai o'ch cysylltiadau eisoes ar Morse, yn cynnwys %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Mar rhai o'ch cysylltiadau eisoes ar Signal, yn cynnwys %@ a %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Mar rhai o'ch cysylltiadau eisoes ar Morse, yn cynnwys %@ a %@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Mar rhai o'ch cysylltiadau eisoes ar Signal, yn cynnwys %@, %@ a %@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Mar rhai o'ch cysylltiadau eisoes ar Morse, yn cynnwys %@, %@ a %@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Dechreuwch eich sgwrs gyntaf yma.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Archif";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "Llunio unrhyw le i bylu";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Nid oes modd rhannu mwy na %@ eitem.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Newid Lluniau";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Caniatáu mynediad llawn yn Gosodiadau neu newid pa luniau all Signal gyrchu.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Caniatáu mynediad llawn yn Gosodiadau neu newid pa luniau all Morse gyrchu.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Ddim yn gweld eich llyniau?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "Gallwch anfon neu dderbyn negeseuon cydamserol o'ch ffôn neu iPad.\nEr mwyn eich diogelwch, ni chaiff cofnod sgwrsio ei drosglwyddo i ddyfeisiau cysylltiedig newydd.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "Mae %@ ar Signal!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "Mae %@ ar Morse!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "Sticeri";
@@ -3005,13 +3005,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Ffeil sain annilys.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Gallwch chi alluogi mynediad i'ch cysylltiadau yn app Gosodiadau iOS i wahodd eich ffrindiau i ymuno â Signal.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Gallwch chi alluogi mynediad i'ch cysylltiadau yn app Gosodiadau iOS i wahodd eich ffrindiau i ymuno â Morse.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Caniatáu Mynediad Cysylltiadau";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Gwahodd Ffrindiau i Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Gwahodd Ffrindiau i Morse";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Chwilio";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "Rhagolwg o Unrhyw Ddolen";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Er mwyn trosglwyddo'ch cyfrif Signal bydd rhaid galluogi cyrchu rhwydwaith lleol ar y ddwy ddyfais.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Er mwyn trosglwyddo'ch cyfrif Morse bydd rhaid galluogi cyrchu rhwydwaith lleol ar y ddwy ddyfais.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Angen Cymorth?";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Galluogi \"Rhwydwaith Lleol\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Llywiwch at Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Llywiwch at Morse";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Galluogi Cyrchu Rhwydwaith Lleol";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "Cofnodi";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Gall cofnodion dadfygio roi cymorth i Signal drwsio problemau a chwaliadau.";
+"LOGGING_SECTION_FOOTER" = "Gall cofnodion dadfygio roi cymorth i Morse drwsio problemau a chwaliadau.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Neges";
@@ -3194,7 +3194,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Dileu i Bawb";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Bydd y neges hon yn cael ei dileu i bawb sydd yn y sgwrs os ydynt yn defnyddio fersiwn diweddar o Signal. Byddent yn gallu gweld eich bod wedi dileu neges.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Bydd y neges hon yn cael ei dileu i bawb sydd yn y sgwrs os ydynt yn defnyddio fersiwn diweddar o Morse. Byddent yn gallu gweld eich bod wedi dileu neges.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "I bwy yr hoffech chi ddileu'r neges hon?";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Dileu a Gadael Grŵp?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Adolygwch ceisiadau â gofal. Daeth Signal o hyd i gyswllt arall gyda'r un enw.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Adolygwch ceisiadau â gofal. Daeth Morse o hyd i gyswllt arall gyda'r un enw.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Eich cyswllt";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Darllen";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Hepgorwyd";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "Galwad coll";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Gallwch chi alluogi mynediad i'r camera yn yr app Gosodiadau iOS i wneud galwadau fideo yn Signal.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Gallwch chi alluogi mynediad i'r camera yn yr app Gosodiadau iOS i wneud galwadau fideo yn Morse.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Mae ar Signal angen mynediad i'ch camera.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Mae ar Morse angen mynediad i'ch camera.";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Gallwch chi alluogi yr hawl yma yn yr app Gosodiadau iOS.";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Mae ar Signal angen mynediad i'ch lleoliad ar gyfer y nodwedd hon.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Mae ar Morse angen mynediad i'ch lleoliad ar gyfer y nodwedd hon.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Gallwch chi alluogi yr hawl yma yn yr app Gosodiadau iOS.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Mae ar Signal angen mynediad i'ch lluniau ar gyfer y nodwedd hon.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Mae ar Morse angen mynediad i'ch lluniau ar gyfer y nodwedd hon.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Dim";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "Dewisa gyswllt neu grŵp i ddechrau sgwrsio.";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Croeso i Signal";
+"NO_SELECTED_CONVERSATION_TITLE" = "Croeso i Morse";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "Neges newydd i:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Dim Enw na Chynnwys";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Chwarae tra mae'r App ar Agor";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "Ychwanegwch dipyn o ddyniolaeth i'ch negeseuon";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Oherwydd eich bod wedi bod yn anweithredol am gyfnod hir, rhaid i chi gofrestru eto i ddefnyddio Signal.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Oherwydd eich bod wedi bod yn anweithredol am gyfnod hir, rhaid i chi gofrestru eto i ddefnyddio Morse.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Cofrestru am Signal";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Cofrestru am Morse";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "Cofrestru iPad";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Cysylltu iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Bydd tapio \"Cofrestru iPad\" yn caniatáu i chi greu cyfrif Signal newydd sbon neu symyd cyfrif sydd eisoes yn bodoli i'r iPad hon. Mi fydd hyn yn analluogi Signal ar unrhyw ddyfais sydd wedi'i gofrestri a'r un rhif ffôn.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Bydd tapio \"Cofrestru iPad\" yn caniatáu i chi greu cyfrif Morse newydd sbon neu symyd cyfrif sydd eisoes yn bodoli i'r iPad hon. Mi fydd hyn yn analluogi Morse ar unrhyw ddyfais sydd wedi'i gofrestri a'r un rhif ffôn.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Bydd tapio \"Cysylltu iPhone\" yn caniatáu i chi gysylltu'ch ffôn i unrhyw gyfrif sydd eisoes yn bodoli. Nid yw cysylltu eich ffôn yn gyffredinol yn gymeradwy a bydd yn cyfyngu rhai nodweddion, megis galw.";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Cysylltu'r iPhone hon?";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Bydd cofrestru'r iPad hon yn analluogi Signal ar unrhyw ddyfais arall sydd ar hyn o bryd wedi'i gofrestri a'r un rhif ffôn.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Bydd cofrestru'r iPad hon yn analluogi Morse ar unrhyw ddyfais arall sydd ar hyn o bryd wedi'i gofrestri a'r un rhif ffôn.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Nid yw cysylltu eich iPhone yn gymeradwy a bydd yn cyfyngu nodweddion craidd.";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Galluogi Cantiatâd";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Mae caniatáu hysbysiadau a chysylltiadau yn gadael ichi weld pan fydd negeseuon yn cyrraedd ac yn eich helpu i ddod o hyd i bobl rydych chi'n eu hadnabod. Mae cysylltiadau wedi'u hamgryptio fel na all y gwasanaeth Signal eu gweld.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Mae caniatáu hysbysiadau a chysylltiadau yn gadael ichi weld pan fydd negeseuon yn cyrraedd ac yn eich helpu i ddod o hyd i bobl rydych chi'n eu hadnabod. Mae cysylltiadau wedi'u hamgryptio fel na all y gwasanaeth Morse eu gweld.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Galluogi Cantiatâd";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Dewiswch pwy all ddod o hyd i chi ar Signal gyda'ch rhif ffôn %@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Dewiswch pwy all ddod o hyd i chi ar Morse gyda'ch rhif ffôn %@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Pwy all ddod o hyd i chi gyda'ch rhif?";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "Arhoswch am funud neu ddwy cyn rhoi cynnig arall arni. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "Rhowch eich rhif ffôn";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "Er mwyn amddiffyn eich preifatrwydd, mae'r system yn rhoi rhif ffôn 8 digid 'ffug' i chi";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Eich Rhif Ffôn";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Rhowch eich rhif ffôn";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Rhif ffôn anilys. Rhowch rhif ffôn dilys er mwyn cofrestru.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Rydych wedi cyrraedd terfyn dyfalu PIN, ond fedrwch barhau i ddefnyddio eich cyfrif Signal wrth greu PIN newydd. Er lles eich preifatrwydd a diogelwch bydd eich cyfrif yn cael ei adfer heb unrhwy wybodaeth proffil neu gosodiadau a gedwid.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Rydych wedi cyrraedd terfyn dyfalu PIN, ond fedrwch barhau i ddefnyddio eich cyfrif Morse wrth greu PIN newydd. Er lles eich preifatrwydd a diogelwch bydd eich cyfrif yn cael ei adfer heb unrhwy wybodaeth proffil neu gosodiadau a gedwid.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Dysgu mwy am PINiau";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Gosododd %@ cyfnod negeseuon byrhoedlog i %@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Mae Signal yn profi anawsterau technegol. Rydym yn gweithio'n galed i adfer y gwasanaeth cyn gynted ā phosib.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "Mae Morse yn profi anawsterau technegol. Rydym yn gweithio'n galed i adfer y gwasanaeth cyn gynted ā phosib.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "Galwoch chi %@";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Trafodyn Annilys";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Diweddaru Signal i ddefnyddio taliadau.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Diweddaru Morse i ddefnyddio taliadau.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Taliad heb ei wirio";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Pawb";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Bydd unrhyw un sydd â'ch rhif ffôn yn eu cysylltiadau yn eich gweld fel cyswllt ar Signal. Bydd eraill yn gallu dod o hyd i chi wrth chwilio.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Bydd unrhyw un sydd â'ch rhif ffôn yn eu cysylltiadau yn eich gweld fel cyswllt ar Morse. Bydd eraill yn gallu dod o hyd i chi wrth chwilio.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Neb";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Ni fydd neb ar Signal yn gallu dod o hyd i chi gyda'ch rhif ffôn. Ni fyddwch i'w weld fel cyswllt i bobl sydd â'ch rhif ffôn yn eu cysylltiadau ac ni fydd eraill yn gallu dod o hyd i chi gyda'ch rhif ffôn wrth chwilio.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Ni fydd neb ar Morse yn gallu dod o hyd i chi gyda'ch rhif ffôn. Ni fyddwch i'w weld fel cyswllt i bobl sydd â'ch rhif ffôn yn eu cysylltiadau ac ni fydd eraill yn gallu dod o hyd i chi gyda'ch rhif ffôn wrth chwilio.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Esiample: %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Fy Nghysylltiadau";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Dim ond eich cysylltiadau fydd yn gweld eich rhif ffôn ar Signal.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Dim ond eich cysylltiadau fydd yn gweld eich rhif ffôn ar Morse.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Pawb";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Bydd eich rhif ffôn i'w weld gan y bobl a'r grwpiau rydych chi'n anfon negeseuon atyn. Bydd pobl sydd â'ch rhif yn eu cysylltiadau ffôn hefyd yn ei weld ar Signal.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Bydd eich rhif ffôn i'w weld gan y bobl a'r grwpiau rydych chi'n anfon negeseuon atyn. Bydd pobl sydd â'ch rhif yn eu cysylltiadau ffôn hefyd yn ei weld ar Morse.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Neb";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Bydd neb yn gweld eich rhif ffôn ar Signal.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Bydd neb yn gweld eich rhif ffôn ar Morse.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Analluogi'r PIN?";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Os fyddwch yn analluogi'r PIN, byddwch yn colli'r holl ddata pan fyddwch yn ailgofrestru Signal oni bai eich bod yn ei drosglwyddo o ddyfais iOS arall. Ni fyddwch yn gallu galluogi Cloi Cofrestru tra bod y PIN wedi ei analluogi.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Os fyddwch yn analluogi'r PIN, byddwch yn colli'r holl ddata pan fyddwch yn ailgofrestru Morse oni bai eich bod yn ei drosglwyddo o ddyfais iOS arall. Ni fyddwch yn gallu galluogi Cloi Cofrestru tra bod y PIN wedi ei analluogi.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Rhybudd";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Methodd creu'r PIN";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "Mae PINau'n cadw gwybodaeth wedi'i storio gyda Signal wedi'i hamgryptio felly dim ond i chi gael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod y rhaglen. Nid oes angen eich PIN arnoch i agor yr ap.";
+"PIN_CREATION_EXPLANATION" = "Mae PINau'n cadw gwybodaeth wedi'i storio gyda Morse wedi'i hamgryptio felly dim ond i chi gael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod y rhaglen. Nid oes angen eich PIN arnoch i agor yr ap.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Dysgu Rhagor Am PINiau";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Byddwn yn eich atgoffa eto ymhen ychydig ddyddiau.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Dilyswch eich PIN Signal";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Dilyswch eich PIN Morse";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Byddwn yn eich atgoffa eto yfory.";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "PIN annilys. Rhowch gynnig arall arni.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Rhowch eich PIN Signal";
+"PIN_REMINDER_TITLE" = "Rhowch eich PIN Morse";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "Rhaid i PIN fod o leiaf 4 digid.";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "Crëwch PIN";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Mae PINiau yn cadw gwybodaeth sydd wedi'i storio gyda Signal wedi'i hamgryptio.";
+"PINS_MEGAPHONE_BODY" = "Mae PINiau yn cadw gwybodaeth sydd wedi'i storio gyda Morse wedi'i hamgryptio.";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "Byddwn yn eich atgoffa nes ymlaen. Bydd creu PIN yn dod yn orfodol ymhen %ld diwrnod.";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Nid yw'r rhif yn eich clipfwrdd yn debyg i'r rhif diogelwch cywir ar gyfer y sgwrs hon.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Ni chanfuwyd Signal unrhyw rif diogelwch yn eich clipfwrdd. Ydych chi wedi ei gopïo'n gywir?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Ni chanfuwyd Morse unrhyw rif diogelwch yn eich clipfwrdd. Ydych chi wedi ei gopïo'n gywir?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Mae pob par o ddefnyddwyr Signal yn rhannu rhif diogelwch unigryw. Gwiriwch bod %@ yn dangos eich rhif unigryw *chi*.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Mae pob par o ddefnyddwyr Morse yn rhannu rhif diogelwch unigryw. Gwiriwch bod %@ yn dangos eich rhif unigryw *chi*.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Rydych yn rhedeg hen fersiwn o Signal. Mae'n rhaid i chi ei ddiweddaru cyn gallwch wirio.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Rydych yn rhedeg hen fersiwn o Morse. Mae'n rhaid i chi ei ddiweddaru cyn gallwch wirio.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Mae'ch partner yn rhedeg hen fersiwn o Signal. Maen rhaid iddynt ei ddiweddaru cyn gallwch wirio.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Mae'ch partner yn rhedeg hen fersiwn o Morse. Maen rhaid iddynt ei ddiweddaru cyn gallwch wirio.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Nid yw'r côd a sganwyd yn debyg i rif diogelwch. Ydych chi'ch dau ar y fersiwn mwyaf diweddar o Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Nid yw'r côd a sganwyd yn debyg i rif diogelwch. Ydych chi'ch dau ar y fersiwn mwyaf diweddar o Morse?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Os dymunwch wirio diogelwch o'ch amgryptio dechrau-i'r-diwedd â %@, cymharwch y rhifau uchod â' rhifau ar eu dyfais nhw.\n\nFel arall, gallwch sganio'r côd ar eu ffôn, neu gofyn iddynt sganio'r côd ar eich ffôn chi.";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Ni ellid dewis defnyddiwr.";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Ni ellir ychwanegu'r defnyddiwr hwn i'r grŵp nes iddynt ddiweddaru Signal.";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "Ni ellir ychwanegu'r defnyddiwr hwn i'r grŵp nes iddynt ddiweddaru Morse.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Wedi anghofio fy PIN";
@@ -4745,10 +4745,10 @@
 "REREGISTER_FOR_PUSH" = "Ailgofrestru Hysbysiadau Gwthio";
 
 /* Body for research megaphone */
-"RESEARCH_MEGAPHONE_BODY" = "I wneud Signal yr ap negeseuon gorau ar y planed, hoffwn glywed eich adborth.";
+"RESEARCH_MEGAPHONE_BODY" = "I wneud Morse yr ap negeseuon gorau ar y planed, hoffwn glywed eich adborth.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Dywedwch wrth Signal beth you eich barn";
+"RESEARCH_MEGAPHONE_TITLE" = "Dywedwch wrth Morse beth you eich barn";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "Surveygizmo sydd yn cynnal yr arolwg yn y parth diogel surveys.signalusers.org";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "Dim diolch";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>Credwn mewn preifatrwydd.</bold>\n\nNid yw Signal yn eich olrhain nac yn casglu eich data. Er mwyn gwella Signal i bawb, rydym yn dibynnu ar adborth defnyddwyr, <bold>a byddem wrth ein bod â'ch adborth chi</bold>.\n\nRydyn ni'n cynnal arolwg i ddeall sut rydych chi'n defnyddio Signal. Nid yw ein harolwg yn casglu unrhyw ddata a fydd yn eich adnabod chi. Os oes gennych ddiddordeb mewn rhannu adborth ychwanegol, bydd gennych yr opsiwn i ddarparu gwybodaeth gyswllt.\n\nOs oes gennych ychydig funudau ac adborth i'w gynnig, byddem wrth ein bodd yn clywed gennych.";
+"RESEARCH_MODAL_PLEA" = "<bold>Credwn mewn preifatrwydd.</bold>\n\nNid yw Morse yn eich olrhain nac yn casglu eich data. Er mwyn gwella Morse i bawb, rydym yn dibynnu ar adborth defnyddwyr, <bold>a byddem wrth ein bod â'ch adborth chi</bold>.\n\nRydyn ni'n cynnal arolwg i ddeall sut rydych chi'n defnyddio Morse. Nid yw ein harolwg yn casglu unrhyw ddata a fydd yn eich adnabod chi. Os oes gennych ddiddordeb mewn rhannu adborth ychwanegol, bydd gennych yr opsiwn i ddarparu gwybodaeth gyswllt.\n\nOs oes gennych ychydig funudau ac adborth i'w gynnig, byddem wrth ein bodd yn clywed gennych.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "Cymryd yr Arolwg";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Ymchwil Signal";
+"RESEARCH_MODAL_TITLE" = "Ymchwil Morse";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "Ailgynnig";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Golwg";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Ein Rhif Diogelwch Signal:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Ein Rhif Diogelwch Morse:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Mae'ch rhif diogelwch gyda %@ wedi newid. Efallai hoffech ei wirio.";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Mae'n rhaid i chi alluogi cyfrinair yn Gosodiadau iOS er mwyn defnyddion Clo Sgrîn.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Dilyswch i agor Signal.";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Dilyswch i agor Morse.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Methwyd Dilysu";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Datgloi Signal";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Datgloi Morse";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Tegwen Haf";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "Rhagolygon Tywydd";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Arlwydd Freia";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,13 +5003,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Nid yw'r Cyfrif yn Cyfateb";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Diweddarwch Signal ar y ddyfais hon i'w gysylltu a'ch ffôn.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Diweddarwch Morse ar y ddyfais hon i'w gysylltu a'ch ffôn.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Fersiwn na Chefnogir";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Mae'ch dyfais arall yn rhedeg hen fersiwn o Signal na all sganio côd QR iPad. Gosodwch y fersiwn diweddaraf o Signal a rhowch gynnig arall arni.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Mae'ch dyfais arall yn rhedeg hen fersiwn o Morse na all sganio côd QR iPad. Gosodwch y fersiwn diweddaraf o Morse a rhowch gynnig arall arni.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Diweddarwch Dyfais Sganio";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Gorffen Cysylltu";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Lansiwch Signal ar eich ffôn er mwyn cysylltu yr iPad hon i'ch cyfrif";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Lansiwch Morse ar eich ffôn er mwyn cysylltu yr iPad hon i'ch cyfrif";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Nid oes gen i Signal ar fy ffôn...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Nid oes gen i Morse ar fy ffôn...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Ewch i'r App Store are eich ffôn, gosodwch Signal, cwblhewch y broses cofrestru, a wedyn gallwch gysylltu eich iPad i'r un cyfrif.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Ewch i'r App Store are eich ffôn, gosodwch Morse, cwblhewch y broses cofrestru, a wedyn gallwch gysylltu eich iPad i'r un cyfrif.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Gosodwch Signal ar Eich Ffôn";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Gosodwch Morse ar Eich Ffôn";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Tapiwch ar eich llun proffil i agor Gosodiadau Signal ar eich ffôn. Wedyn \"Dyfeisiau Cysylltiedig\" a \"Cysylltu Dyfais Newydd\" i sganio'r côd hwn gyda'ch ffôn:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Tapiwch ar eich llun proffil i agor Gosodiadau Morse ar eich ffôn. Wedyn \"Dyfeisiau Cysylltiedig\" a \"Cysylltu Dyfais Newydd\" i sganio'r côd hwn gyda'ch ffôn:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Cewch gymorth i gysylltu eich iPad yma";
@@ -5072,7 +5072,7 @@
 "SEND_INVITE_FAILURE" = "Methwyd anfon gwahoddiad, rhowch gynnig arall arni nes ymlaen.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Gwahoddasoch eich ffrind i ddefnyddio Signal!";
+"SEND_INVITE_SUCCESS" = "Gwahoddasoch eich ffrind i ddefnyddio Morse!";
 
 /* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "SEND_MEDIA_CONFIRM_ABANDON_ALBUM" = "Taflu Cyfryngau";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Gwahodd ffrind trwy SMS anniogel?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Hoffech wahodd y rhif canlynol i Signal:";
+"SEND_SMS_INVITE_TITLE" = "Hoffech wahodd y rhif canlynol i Morse:";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "Uchel";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Safonol";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Defnyddir Signal amgryptio dechrau-i'r-diwedd ac efallai bydd rhaid iddo adnewyddu eich sesiwn sgwrsio o dro i dro. Nid yw hyn yn cael effaith ar ddiogelwch eich sgyrsiau ond efallai byddwch wedi methu neges gan y cysylltiad yma a gallwch ofyn iddynt ail-anfon.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Defnyddir Morse amgryptio dechrau-i'r-diwedd ac efallai bydd rhaid iddo adnewyddu eich sesiwn sgwrsio o dro i dro. Nid yw hyn yn cael effaith ar ddiogelwch eich sgyrsiau ond efallai byddwch wedi methu neges gan y cysylltiad yma a gallwch ofyn iddynt ail-anfon.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Adnewyddwyd sesiwn sgwrsio";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Lleoliad";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Os y galluogir, bydd Signal yn rhoi cynnig ar osgoi sensoriaeth. Peidiwch a galluogi y nodwedd hon os nad ydych mewn lleoliad lle sensorir Signal.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Os y galluogir, bydd Morse yn rhoi cynnig ar osgoi sensoriaeth. Peidiwch a galluogi y nodwedd hon os nad ydych mewn lleoliad lle sensorir Morse.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Mae osgoi sensoriaeth wedi'i ysgogi oherwydd y rhif ffôn ar eich cyfrif.";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Gall osgoi sensorieth ond ei ysgogi pan wedi cysylltu â'r rhyngrywd.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Nid oes angen osgoi sensoriaeth, rydych eisoes wedi cysylltu â gwasanaeth Signal.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Nid oes angen osgoi sensoriaeth, rydych eisoes wedi cysylltu â gwasanaeth Morse.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Galluogi Cofnod Dadfygio";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Ychwanegu Defynddiwr a Rwystrir";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Does gennych chi ddim cysylltiadau yn defnyddio Signal.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Does gennych chi ddim cysylltiadau yn defnyddio Morse.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Dim Canlyniadau Chwilio";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Trosglwyddo Galwadau Bob Amser";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Trsoglwyddo pob galwad trwy gweinydd Signal i osgoi datgelu eich cyfeiriad IP i'ch cysylltiad. Bydd galluogi yn dirywio ansawdd galwadau.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Trsoglwyddo pob galwad trwy gweinydd Morse i osgoi datgelu eich cyfeiriad IP i'ch cysylltiad. Bydd galluogi yn dirywio ansawdd galwadau.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "Sgyrsiau";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Clirio Hanes Sgwrsio";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Hawlfraint Signal Messenger\nDan drwydded GPLv3";
+"SETTINGS_COPYRIGHT" = "Hawlfraint Morse Messenger\nDan drwydded GPLv3";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Tanysgrifiad";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Gosod cyfnod negeseuon byrhoedlog diofyn ar gyfer holl sgyrsiau newydd a ddechreuir ganddoch chi.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Cyfrannu at Signal";
+"SETTINGS_DONATE" = "Cyfrannu at Morse";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Cymorth";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "Gwahodd Eich Ffrindiau";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Gallwch gysylltu a fi yn defnyddio @signalapp. Ei gael yma: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Gallwch gysylltu a fi yn defnyddio @signalapp. Ei gael yma: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "Lliw a Phapur Wal Sgwrsio";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Cynnwys Hysbysiadau";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Cysylltiad yn ymuno â Signal";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Cysylltiad yn ymuno â Morse";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Rhoi gwybod pan…";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Ysgogi";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Gallwch ddefnyddio Signal i anfon a derbyn MobileCoin. Mae'r holl daliadau yn ddarostyngedig i'r Telerau Defnyddio ar gyfer MobileCoins a'r Waled MobileCoin. Mae hon yn nodwedd beta felly efallai cewch drafferthion a nad oes modd adfer taliadau neu falansau y bydd yn cael eu colli.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Gallwch ddefnyddio Morse i anfon a derbyn MobileCoin. Mae'r holl daliadau yn ddarostyngedig i'r Telerau Defnyddio ar gyfer MobileCoins a'r Waled MobileCoin. Mae hon yn nodwedd beta felly efallai cewch drafferthion a nad oes modd adfer taliadau neu falansau y bydd yn cael eu colli.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Cychwyn";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ ar gyfradd %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Nid yw taliadau yn Signal ar gael bellach. Gallwch barhau i drosglwyddo arian i gyfnewidfa ond ni allwch anfon a derbyn taliadau mwyach nac ychwanegu arian.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Nid yw taliadau yn Morse ar gael bellach. Gallwch barhau i drosglwyddo arian i gyfnewidfa ond ni allwch anfon a derbyn taliadau mwyach nac ychwanegu arian.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Ni ellir diffodd taliadau oherwydd nid yw eich balans ar gael. Gwiriwch eich cysylltiad a rhoi cynnig arall arni.";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Methwyd cwblhau y taliad oherwydd nid yw eich balans ar gael. Gwiriwch eich cysylltiad a rhoi cynnig arall arni.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Nid yw taliadau yn Signal ar gael bellach. Gallwch barhau i drosglwyddo arian i gyfnewidfa ond ni allwch anfon a derbyn taliadau mwyach nac ychwanegu arian.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Nid yw taliadau yn Morse ar gael bellach. Gallwch barhau i drosglwyddo arian i gyfnewidfa ond ni allwch anfon a derbyn taliadau mwyach nac ychwanegu arian.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Nid yw taliadau yn Signal ar gael bellach. Gallwch barhau i drosglwyddo arian i gyfnewidfa ond ni allwch anfon a derbyn taliadau mwyach nac ychwanegu arian.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Nid yw taliadau yn Morse ar gael bellach. Gallwch barhau i drosglwyddo arian i gyfnewidfa ond ni allwch anfon a derbyn taliadau mwyach nac ychwanegu arian.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Amcangyfrifon yn unig yw trosiadau ac efallai na fyddan nhw'n gywir.";
@@ -5405,7 +5405,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Diffodd Taliadau";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Ni fydd modd i chi anfon na derbyn MobileCoin yn Signal os byddwch yn diffodd taliadau.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Ni fydd modd i chi anfon na derbyn MobileCoin yn Morse os byddwch yn diffodd taliadau.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Dadweithredu Taliadau?";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Diffodd Taliadau";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Argymhellir eich bod yn trosglwyddo'ch arian i gyfeiriad waled arall cyn diffodd taliadau. Os nad ydych am drosglwyddo'ch arian nawr, bydd yn aros yn y waled sy'n gysylltiedig â Signal os byddwch yn troi taliadau yn ôl ymlaen.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Argymhellir eich bod yn trosglwyddo'ch arian i gyfeiriad waled arall cyn diffodd taliadau. Os nad ydych am drosglwyddo'ch arian nawr, bydd yn aros yn y waled sy'n gysylltiedig â Morse os byddwch yn troi taliadau yn ôl ymlaen.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Bydd eich balans yn aros yn eich waled sy'n gysylltiedig â Signal os byddwch chi'n dewis ail weithredu eich taliadau.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Bydd eich balans yn aros yn eich waled sy'n gysylltiedig â Morse os byddwch chi'n dewis ail weithredu eich taliadau.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Diffodd Heb Drosglwyddo";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "Ynghylch MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Gallwch ychwanegu arian i'w ddefnyddio yn Signal trwy anfon MobileCoin i'ch cyfeiriad waled.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Gallwch ychwanegu arian i'w ddefnyddio yn Morse trwy anfon MobileCoin i'ch cyfeiriad waled.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Ychwanegu Arian";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Taliadau yn weithredol";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Defnyddiwch Signal i anfon a derbyn MobileCoin, arian cyfred digidol newydd sy'n canolbwyntio ar breifatrwydd. Gweithredwch i ddechrau.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Defnyddiwch Morse i anfon a derbyn MobileCoin, arian cyfred digidol newydd sy'n canolbwyntio ar breifatrwydd. Gweithredwch i ddechrau.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Ailysgogi Taliadau";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "Yn Cyflwyno Taliadau (Beta)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Bydd eich balans yn adfer yn awtomatig pan fyddwch yn ailosod Signal os byddwch yn cadarnhau eich PIN Signal. Gallwch hefyd adfer eich balans gan ddefnyddio ymadrodd adfer, sy'n ymadrodd 24-gair sy'n unigryw i chi. Ysgrifennwch ef i lawr a'i storio mewn man diogel.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Bydd eich balans yn adfer yn awtomatig pan fyddwch yn ailosod Morse os byddwch yn cadarnhau eich PIN Morse. Gallwch hefyd adfer eich balans gan ddefnyddio ymadrodd adfer, sy'n ymadrodd 24-gair sy'n unigryw i chi. Ysgrifennwch ef i lawr a'i storio mewn man diogel.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "Ychwanegu Arian";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Taliadau";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Nid oes modd i chi drosglwyddo i'ch cyfeiriad waled Signal eich hun. Rhowch gyfeiriad y waled o'ch cyfrif mewn cyfnewidfa â gefnogir.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Nid oes modd i chi drosglwyddo i'ch cyfeiriad waled Morse eich hun. Rhowch gyfeiriad y waled o'ch cyfrif mewn cyfnewidfa â gefnogir.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "Gallwch drosglwyddo MobileCoin trwy gwblhau trosglwyddiad i'r cyfeiriad waled sy'n cael ei ddarparu gan y gyfnewidfa. Cyfeiriad y waled yw'r llinyn rhifau a llythrennau sydd fel arfer o dan y cod QR.";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Diffodd Atgoffwyr";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Gwnewch yn siŵr eich bod yn cofio neu'n cadw eich PIN yn ddiogel gan nad oes modd ei adfer. Os fyddwch yn anghofio eich PIN, efallai y byddwch yn colli data wrth ailgofrestru eich cyfrif Signal.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Gwnewch yn siŵr eich bod yn cofio neu'n cadw eich PIN yn ddiogel gan nad oes modd ei adfer. Os fyddwch yn anghofio eich PIN, efallai y byddwch yn colli data wrth ailgofrestru eich cyfrif Morse.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Cadarnhewch eich PIN Signal";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Cadarnhewch eich PIN Morse";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "Atgoffwyr PIN";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "Mae PIN yn cadw gwybodaeth wedi'i storio gyda Signal wedi'i hamgryptio felly dim ond chi sy'n cael mynediad ati. Ni allwch adfer y PIN. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod Signal.";
+"SETTINGS_PINS_FOOTER" = "Mae PIN yn cadw gwybodaeth wedi'i storio gyda Morse wedi'i hamgryptio felly dim ond chi sy'n cael mynediad ati. Ni allwch adfer y PIN. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod Morse.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Newid eich PIN";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Crëwch PIN";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "PIN Signal";
+"SETTINGS_PINS_TITLE" = "PIN Morse";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Osgoi sesnoriaeth, trosgwlyddo galwadau a gosodiadau anfonwyr dan sel.";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Galluogi";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Os byddwch chi'n anghofio'ch PIN Signal wrth gofrestru gyda Signal eto, byddwch yn cael eich cloi allan o'ch cyfrif am 7 diwrnod.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Os byddwch chi'n anghofio'ch PIN Morse wrth gofrestru gyda Morse eto, byddwch yn cael eich cloi allan o'ch cyfrif am 7 diwrnod.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Troi y Clo Cofrestru ymlaen?";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Galwadau";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Defnyddio Touch ID, Face ID, neu'ch cyfrinair dyfais iOS i ddatgloi Signal.";
+"SETTINGS_SECURITY_DETAIL" = "Defnyddio Touch ID, Face ID, neu'ch cyfrinair dyfais iOS i ddatgloi Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Defnyddio Face ID i ddatgloi Signal.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Defnyddio Face ID i ddatgloi Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Defnyddio eich cyfrinair dyfais iOS i ddatgloi Signal.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Defnyddio eich cyfrinair dyfais iOS i ddatgloi Morse.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Defnyddio Touch ID i ddatgloi Signal.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Defnyddio Touch ID i ddatgloi Morse.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Diogelwch Ap";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Rhannu Cysylltiadau â iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Caniatáu mynediad i iOS i gysylltiadau a sgyrsiau Signal ar gyfer nodweddion fel awgrymiadau rhannu.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Caniatáu mynediad i iOS i gysylltiadau a sgyrsiau Morse ar gyfer nodweddion fel awgrymiadau rhannu.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Caniatáu mynediad i iOS i gysylltiadau a sgyrsiau Signal ar gyfer nodweddion fel awgrymiadau rhannu a hysbysiadau.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Caniatáu mynediad i iOS i gysylltiadau a sgyrsiau Morse ar gyfer nodweddion fel awgrymiadau rhannu a hysbysiadau.";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signal Boost";
+"SETTINGS_SIGNAL_BOOST" = "Morse Boost";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Dod yn Gynhaliwr Signal";
+"SETTINGS_SUBSCRIPTION" = "Dod yn Gynhaliwr Morse";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Clo Cofrestru";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Gwneud eich PIN Signal yn ofynnol i gorestru eich ffôn eto â Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Gwneud eich PIN Morse yn ofynnol i gorestru eich ffôn eto â Morse.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Dangosyddion Teipio";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "Llwytho...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Lansiwch ap Signal i gorestru.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Lansiwch ap Morse i gorestru.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Heb Gofrestru";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Lansiwch ap Signal i ddiewddaru neu gorestru.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Lansiwch ap Morse i ddiewddaru neu gorestru.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Ddim yn Barod";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Yn Uwchlwytho...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Methu Paratoi Atodiad";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Rhannu i Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Rhannu i Morse";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Methwyd analluogi awgrymiadau rhannu.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Gellir dangos sgyrsiau Signal fel awgrymiadau pan yn rhannu o apiau eraill.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Gellir dangos sgyrsiau Morse fel awgrymiadau pan yn rhannu o apiau eraill.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "Rhannu yn Rhwyddach";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Dangos Sgwrsio";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Rwy'n eich gwahodd i osod Signal! Dyma'r ddolen:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Rwy'n eich gwahodd i osod Morse! Dyma'r ddolen:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "Seiniau & Hysbysiadau";
@@ -5975,7 +5975,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Parhau Heb Wirio?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Er mwyn helpu i atal sothach ar Signal, cwblhewch y gwiriad.\n\nAr ôl gwirio, gallwch barhau i sgwrsio. Bydd unrhyw negeseuon sydd wedi'u oedi yn cael eu hanfon yn awtomatig.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Er mwyn helpu i atal sothach ar Morse, cwblhewch y gwiriad.\n\nAr ôl gwirio, gallwch barhau i sgwrsio. Bydd unrhyw negeseuon sydd wedi'u oedi yn cael eu hanfon yn awtomatig.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Gwiriwch i Barhau Sgwrsio";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "Gosod";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Cyfres Artistiaid Signal";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Cyfres Artistiaid Morse";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Sticeri rydych wedi'u Derbyn";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Cyfrannu";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Mae grym Signal mewn pobl fel chi. Cyfrannwch a hawlio bathodyn.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Mae grym Morse mewn pobl fel chi. Cyfrannwch a hawlio bathodyn.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Dim Diolch";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Rhowch wybod i ni am y broblem:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Anfonwch eich cais am gymorth mewn e-bost i support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Anfonwch eich cais am gymorth mewn e-bost i support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Hidlydd: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "URL Cofnod: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Fersiwn Signal: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Fersiwn Morse: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Cais Cymorth Signal iOS";
+"SUPPORT_EMAIL_SUBJECT" = "Cais Cymorth Morse iOS";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Sut ydych ch'n teimlo? (Dewisol)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "Ydych chi wedi darllen ein Cwestiynau Cyffredin eto?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Llwytho";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Mae Signal yn gorff ddim-er-elw heb unrhyw hysbysebwyr na buddsoddwyr, sy'n cael ei gynnal dim ond gan y bobl sy'n ei ddefnyddio a'i werthfawrogi. Gwnewch gyfraniad misol cylchol a derbyn bathodyn proffil i rannu'ch cefnogaeth.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Mae Morse yn gorff ddim-er-elw heb unrhyw hysbysebwyr na buddsoddwyr, sy'n cael ei gynnal dim ond gan y bobl sy'n ei ddefnyddio a'i werthfawrogi. Gwnewch gyfraniad misol cylchol a derbyn bathodyn proffil i rannu'ch cefnogaeth.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Mae Signal wedi ymrwymo i ddatblygu technoleg preifatrwydd ffynhonnell agored sy'n amddiffyn mynegiant rhydd ac yn galluogi cyfathrebu byd-eang diogel.\n\nMae eich cyfraniad yn cefnogi'r achos hwn ac yn talu am ddatblygu a gweithredu ap a ddefnyddir gan filiynau ar gyfer cyfathrebu preifat. Dim hysbysebion. Dim olrheinwyr. Dim lol.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Mae Morse wedi ymrwymo i ddatblygu technoleg preifatrwydd ffynhonnell agored sy'n amddiffyn mynegiant rhydd ac yn galluogi cyfathrebu byd-eang diogel.\n\nMae eich cyfraniad yn cefnogi'r achos hwn ac yn talu am ddatblygu a gweithredu ap a ddefnyddir gan filiynau ar gyfer cyfathrebu preifat. Dim hysbysebion. Dim olrheinwyr. Dim lol.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Cefnogwch dechnoleg sydd wedi'i hadeiladu ar eich cyfer chi - nid ar gyfer eich data - trwy ymuno â'r gymuned sy'n ei chynnal.";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Dal Yn Prosesu";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Ychwanegu Hwb Signal";
+"SUSTAINER_VIEW_ADD_BOOST" = "Ychwanegu Hwb Morse";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Hawliwch fathodyn %@";
@@ -6158,7 +6158,7 @@
 "SUSTAINER_VIEW_CANT_ADD_BADGE" = "Methwyd ychwanegu bathodyn %@";
 
 /* Action sheet message for Couldn't Add Badge sheet */
-"SUSTAINER_VIEW_CANT_ADD_BADGE_MESSAGE" = "Methwyd ychwanegu eich bathodyn i'ch cyfrif. Cyslltwch â chymorth Signal.";
+"SUSTAINER_VIEW_CANT_ADD_BADGE_MESSAGE" = "Methwyd ychwanegu eich bathodyn i'ch cyfrif. Cyslltwch â chymorth Morse.";
 
 /* Action sheet title for Couldn't Add Badge sheet */
 "SUSTAINER_VIEW_CANT_ADD_BADGE_TITLE" = "Methwyd Ychwanegu Bathodyn";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "Nid nawr";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "Mae nerth Signal mewn pobl fel chi.";
+"SUSTAINER_VIEW_TITLE" = "Mae nerth Morse mewn pobl fel chi.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "Bydd swm llawn y pris tanysgrifio newydd (%@) yn cael ei godi arnoch heddiw. Bydd eich tanysgrifiad yn adnewyddu yn fisol.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "Gwlad Anhysbys";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Anfonodd un o'ch dyfeisiau neges na ellir ei phrosesu na'i ddangos oherwydd ei bod yn defnyddio nodwedd Signal newydd.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Anfonodd un o'ch dyfeisiau neges na ellir ei phrosesu na'i ddangos oherwydd ei bod yn defnyddio nodwedd Morse newydd.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "Anfonodd %@ neges atoch na ellir ei phrosesu na'i ddangos oherwydd ei bod yn defnyddio nodwedd Signal newydd.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "Anfonodd %@ neges atoch na ellir ei phrosesu na'i ddangos oherwydd ei bod yn defnyddio nodwedd Morse newydd.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Cawsoch neges na ellir ei phrosesu na'i ddangos oherwydd ei bod yn defnyddio nodwedd Signal newydd.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Cawsoch neges na ellir ei phrosesu na'i ddangos oherwydd ei bod yn defnyddio nodwedd Morse newydd.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Diweddaru Signal Nawr";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Diweddaru Morse Nawr";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Diweddarwyd Signal i'r fersiwn diweddaraf. Gallwch nawr dderbyn neges or math hwn ar eich dyfais.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Diweddarwyd Morse i'r fersiwn diweddaraf. Gallwch nawr dderbyn neges or math hwn ar eich dyfais.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Gallwch ofyn i %@ ail-anfon y neges hon nawr eich bod yn defnyddio'r fersiwn ddiweddaraf o Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Gallwch ofyn i %@ ail-anfon y neges hon nawr eich bod yn defnyddio'r fersiwn ddiweddaraf o Morse.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Gallwch ofyn i'r anfonwr ail-anfon y neges hon nawr eich bod yn defnyddio'r fersiwn ddiweddaraf o Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Gallwch ofyn i'r anfonwr ail-anfon y neges hon nawr eich bod yn defnyddio'r fersiwn ddiweddaraf o Morse.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Anhysbys";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Datgysylltu '%@'?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Nid yw'r ddyfais wedi'i chysylltu mwyach. Ail-gysylltwch Signal a'ch ffôn i barhau i anfon negeseuon.";
+"UNLINKED_WARNING" = "Nid yw'r ddyfais wedi'i chysylltu mwyach. Ail-gysylltwch Morse a'ch ffôn i barhau i anfon negeseuon.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Nid oedd Signal yn gallu datgysylltu eich dyfais.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Nid oedd Morse yn gallu datgysylltu eich dyfais.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Dyfais Ddienw";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Nid yw eich dyfais yn cefnogi y weithred hon.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Newidiodd eich Rhif Diogelwch gyda %@, yn debygol oherwydd eu bod wedi ailosod Signal neu newid dyfeisiau. Tapiwch Dilysu i gadarnhau'r rhif diogelwch newydd. Mae hyn yn ddewisol.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Newidiodd eich Rhif Diogelwch gyda %@, yn debygol oherwydd eu bod wedi ailosod Morse neu newid dyfeisiau. Tapiwch Dilysu i gadarnhau'r rhif diogelwch newydd. Mae hyn yn ddewisol.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Dilysu";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "Dysgu Rhagor Am PINiau";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "Mae PINau'n cadw gwybodaeth wedi'i storio gyda Signal wedi'i hamgryptio felly dim ond i chi gael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod y rhaglen. Nid oes angen eich PIN arnoch i agor yr ap.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "Mae PINau'n cadw gwybodaeth wedi'i storio gyda Morse wedi'i hamgryptio felly dim ond i chi gael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod y rhaglen. Nid oes angen eich PIN arnoch i agor yr ap.";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "Yn Cyflwyno PIN";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "Analluogi'r PIN?";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Bydd Signal cyn hir yn gorfodi o leiaf iOS 11. Uwchraddiwch yn ap Settings >> General >> Software Update.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Bydd Morse cyn hir yn gorfodi o leiaf iOS 11. Uwchraddiwch yn ap Settings >> General >> Software Update.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Uwchraddio iOS";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Mae enwau defnyddwyr ar Signal yn ddewisol. Os dewiswch greu enw defnyddiwr, bydd defnyddwyr Signal eraill yn gallu dod o hyd i chi yn ôl yr enw defnyddiwr hwn a chysylltu â chi heb wybod eich rhif ffôn.";
+"USERNAME_DESCRIPTION" = "Mae enwau defnyddwyr ar Morse yn ddewisol. Os dewiswch greu enw defnyddiwr, bydd defnyddwyr Morse eraill yn gallu dod o hyd i chi yn ôl yr enw defnyddiwr hwn a chysylltu â chi heb wybod eich rhif ffôn.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "Gall enwau defnyddwyr ond cynnwys a-Z, 0-9, a _.";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "Digwyddodd gwall tra'n chwilio am yr enw defnyddiwr. Rhowch gynnig aralla arni.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "Nid yw %@ yn ddefnyddiwr Signal. Gwiriwch yr enw defnyddiwr.";
+"USERNAME_NOT_FOUND_FORMAT" = "Nid yw %@ yn ddefnyddiwr Morse. Gwiriwch yr enw defnyddiwr.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "Ni Chanfuwyd Defnyddiwr";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Pwyso a dal i recordio.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Cwblhau'r gosodiad ar Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Cwblhau'r gosodiad ar Morse Desktop.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Enw Cysylltiad";

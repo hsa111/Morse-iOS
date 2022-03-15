@@ -686,7 +686,8 @@ const CGFloat kMaxIPadTextViewHeight = 142;
     }
 
     void (^updateBlock)(void) = ^{
-        BOOL hideStickerButton = hasTextInput || isShowingVoiceMemoUI || self.quotedReply != nil;
+        //BOOL hideStickerButton = hasTextInput || isShowingVoiceMemoUI || self.quotedReply != nil;
+        BOOL hideStickerButton = true;
         ensureViewHiddenState(self.stickerButton, hideStickerButton);
         if (!hideStickerButton) {
             self.stickerButton.imageView.tintColor

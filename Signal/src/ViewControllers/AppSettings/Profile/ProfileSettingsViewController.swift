@@ -71,9 +71,9 @@ class ProfileSettingsViewController: OWSTableViewController2 {
             NSLocalizedString("PROFILE_VIEW_PROFILE_DESCRIPTION",
                               comment: "Description of the user profile."),
             " ",
-            CommonStrings.learnMore.styled(
-                with: .link(URL(string: "https://support.signal.org/hc/articles/360007459591")!)
-            )
+//            CommonStrings.learnMore.styled(
+//                with: .link(URL(string: "https://support.devplusone.com/hc/articles/360007459591")!)
+//            )
         ]).styled(
             with: .font(.ows_dynamicTypeCaption1Clamped),
             .color(Theme.secondaryTextAndIconColor)

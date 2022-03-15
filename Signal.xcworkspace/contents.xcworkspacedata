@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Signal.xcodeproj">
+      location = "group:/Users/zhenghongli/work/test/SignalPlus-iOS/Signal.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

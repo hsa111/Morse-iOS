@@ -416,7 +416,7 @@ public class NewGroupConfirmViewController: OWSTableViewController2 {
     }
 
     private class func showLearnMoreView() {
-        guard let url = URL(string: "https://support.signal.org/hc/articles/360007319331") else {
+        guard let url = URL(string: "https://support.devplusone.com/hc/articles/360007319331") else {
             owsFailDebug("Invalid url.")
             return
         }

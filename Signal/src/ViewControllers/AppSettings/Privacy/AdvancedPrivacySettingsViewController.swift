@@ -166,7 +166,7 @@ class AdvancedPrivacySettingsViewController: OWSTableViewController2 {
             ),
             " ",
             CommonStrings.learnMore.styled(
-                with: .link(URL(string: "https://signal.org/blog/sealed-sender/")!)
+                with: .link(URL(string: "https://devplusone.com/blog/sealed-sender/")!)
             )
         ]).styled(
             with: .font(.ows_dynamicTypeCaption1Clamped),

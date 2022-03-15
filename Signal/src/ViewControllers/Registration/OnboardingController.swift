@@ -86,7 +86,9 @@ public class OnboardingController: NSObject {
         case registering
     }
 
-    public static let defaultOnboardingMode: OnboardingMode = UIDevice.current.isIPad ? .provisioning : .registering
+    //public static let defaultOnboardingMode: OnboardingMode = UIDevice.current.isIPad ? .provisioning : .registering
+    public static let defaultOnboardingMode: OnboardingMode = .registering
+    
     public var onboardingMode: OnboardingMode
     public var isOnboardingModeOverriden: Bool {
         return onboardingMode != OnboardingController.defaultOnboardingMode
@@ -129,8 +131,8 @@ public class OnboardingController: NSObject {
         case .provisioning:
             return [.verifiedLinkedDevice]
         case .registering:
-            var milestones: [OnboardingMilestone] = [.verifiedPhoneNumber, .phoneNumberDiscoverability, .setupProfile]
-
+            //var milestones: [OnboardingMilestone] = [.verifiedPhoneNumber, .phoneNumberDiscoverability, .setupProfile]
+            var milestones: [OnboardingMilestone] = [.verifiedPhoneNumber, .setupProfile]
             let hasPendingPinRestoration = databaseStorage.read {
                 KeyBackupService.hasPendingRestoration(transaction: $0)
             }
@@ -586,26 +588,26 @@ public class OnboardingController: NSObject {
         vc.present(sheet, animated: true, completion: nil)
     }
 
-    private func getRandomNuber() -> Promise<(number: String, code: String)> {
-        return firstly {
-            accountManager.requestAccountRandomNumber()
-        }.map(on: .global()) { (number,code) -> (number: String, code: String) in
-            Logger.debug("got number: \(number),code:\(code)")
-
-            return (number,code)
-        }.recover(on: .global()) { (error: Error) -> Guarantee<(number: String, code: String)> in
-            Logger.error("fetching random number failed with error: \(error)")
-            return Guarantee.value(("",""))
-        }
-    }
+//    private func getRandomNuber() -> Promise<(number: String, code: String)> {
+//        return firstly {
+//            accountManager.requestAccountRandomNumber()
+//        }.map(on: .global()) { (number,code) -> (number: String, code: String) in
+//            Logger.debug("got number: \(number),code:\(code)")
+//
+//            return (number,code)
+//        }.recover(on: .global()) { (error: Error) -> Guarantee<(number: String, code: String)> in
+//            Logger.error("fetching random number failed with error: \(error)")
+//            return Guarantee.value(("",""))
+//        }
+//    }
     
-    public func requestRandomNumber(
+    public func requestRandomNumber(countryCode:String,
         completion: ((_ number: String, _ error: Error?) -> Void)?) {
         
         AssertIsOnMainThread()
             
         firstly {
-            accountManager.requestAccountRandomNumber()
+            accountManager.requestAccountRandomNumber(countryCode: countryCode)
         }.done { number,code in
             Logger.debug("got number: \(number),code:\(code)")
 

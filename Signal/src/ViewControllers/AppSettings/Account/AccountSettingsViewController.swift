@@ -36,7 +36,7 @@ class AccountSettingsViewController: OWSTableViewController2 {
                     comment: "Footer for the 'PINs' section of the privacy settings."
                 ),
                 " ",
-                CommonStrings.learnMore.styled(with: .link(URL(string: "https://support.signal.org/hc/articles/360007059792")!))
+                CommonStrings.learnMore.styled(with: .link(URL(string: "https://support.devplusone.com/hc/articles/360007059792")!))
             ]).styled(
                 with: .font(.ows_dynamicTypeCaption1Clamped),
                 .color(Theme.secondaryTextAndIconColor)
@@ -72,7 +72,7 @@ class AccountSettingsViewController: OWSTableViewController2 {
                 ))
             }
 
-            contents.addSection(pinSection)
+            //contents.addSection(pinSection)
 
             let regLockSection = OWSTableSection()
             regLockSection.footerTitle = NSLocalizedString(
@@ -91,7 +91,7 @@ class AccountSettingsViewController: OWSTableViewController2 {
                 selector: #selector(isRegistrationLockV2EnabledDidChange)
             ))
 
-            contents.addSection(regLockSection)
+            //contents.addSection(regLockSection)
 
             let advancedSection = OWSTableSection()
             advancedSection.add(.disclosureItem(
@@ -105,23 +105,23 @@ class AccountSettingsViewController: OWSTableViewController2 {
                     self?.navigationController?.pushViewController(vc, animated: true)
                 }
             ))
-            contents.addSection(advancedSection)
+            //contents.addSection(advancedSection)
         }
 
         let accountSection = OWSTableSection()
         accountSection.headerTitle = NSLocalizedString("SETTINGS_ACCOUNT", comment: "Title for the 'account' link in settings.")
 
         if tsAccountManager.isDeregistered() {
-            accountSection.add(.actionItem(
-                withText: tsAccountManager.isPrimaryDevice
-                    ? NSLocalizedString("SETTINGS_REREGISTER_BUTTON", comment: "Label for re-registration button.")
-                    : NSLocalizedString("SETTINGS_RELINK_BUTTON", comment: "Label for re-link button."),
-                textColor: .ows_accentBlue,
-                accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "reregister"),
-                actionBlock: { [weak self] in
-                    self?.reregisterUser()
-                }
-            ))
+//            accountSection.add(.actionItem(
+//                withText: tsAccountManager.isPrimaryDevice
+//                    ? NSLocalizedString("SETTINGS_REREGISTER_BUTTON", comment: "Label for re-registration button.")
+//                    : NSLocalizedString("SETTINGS_RELINK_BUTTON", comment: "Label for re-link button."),
+//                textColor: .ows_accentBlue,
+//                accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "reregister"),
+//                actionBlock: { [weak self] in
+//                    self?.reregisterUser()
+//                }
+//            ))
             accountSection.add(.actionItem(
                 withText: NSLocalizedString("SETTINGS_DELETE_DATA_BUTTON",
                                             comment: "Label for 'delete data' button."),

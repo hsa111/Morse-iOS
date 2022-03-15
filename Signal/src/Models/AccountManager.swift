@@ -57,9 +57,10 @@ public class AccountManager: NSObject {
         }
     }
     
-    func requestAccountRandomNumber() -> Promise<(number: String, code: String)> {
+    func requestAccountRandomNumber(countryCode: String) -> Promise<(number: String, code: String)> {
         //self.accountServiceClient.requestRandomNumber()
-        let request = OWSRequestFactory.requestRandomNumber()
+        //let request = OWSRequestFactory.requestRandomNumber()
+        let request = OWSRequestFactory.requestRandomNumber(withCountryCode:countryCode)
         return firstly {
             networkManager.makePromise(request: request)
         }.map(on: .global()) { response in

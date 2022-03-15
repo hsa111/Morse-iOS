@@ -112,7 +112,7 @@ public class PaymentsDeactivateViewController: OWSViewController {
             text: NSLocalizedString("SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION",
                                     comment: "Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings."),
             font: .ows_dynamicTypeBody2Clamped,
-            learnMoreUrl: "https://support.signal.org/hc/en-us/articles/360057625692#payments_deactivate")
+            learnMoreUrl: "https://support.devplusone.com/hc/en-us/articles/360057625692#payments_deactivate")
         explanationLabel.backgroundColor = backgroundColor
         explanationLabel.textAlignment = .center
 

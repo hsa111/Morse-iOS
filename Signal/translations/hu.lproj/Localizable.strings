@@ -35,10 +35,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO_FORMAT" = "Hangüzenet %@ másodperc";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal hívás";
+"ACTION_AUDIO_CALL" = "Morse hívás";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Meghívás Signalba";
+"ACTION_INVITE" = "Meghívás Morseba";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Üzenet küldése";
@@ -149,7 +149,7 @@
 "APN_Message" = "Új üzenet érkezett";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal indítási hiba. Kérlek küldj egy hibanapló fájlt a support@signal.org címre, hogy megvizsgálhassuk, mi történt.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Morse indítási hiba. Kérlek küldj egy hibanapló fájlt a support@devplusone.com címre, hogy megvizsgálhassuk, mi történt.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Hiba";
@@ -158,13 +158,13 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Adatbázis betöltési hiba";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Kérlek frissíts a legújabb Signal verzióra.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Kérlek frissíts a legújabb Morse verzióra.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Ismeretlen adatbázis verzió.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "A régi eszközödről hozott adat nem helyreállítható. Kérlek küldj egy hibanapló fájlt a support@signal.org címre, hogy megvizsgálhassuk, mi történt. Ha újra telepíted a Signalt, az üzenet előzményeid elveszhetnek.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "A régi eszközödről hozott adat nem helyreállítható. Kérlek küldj egy hibanapló fájlt a support@devplusone.com címre, hogy megvizsgálhassuk, mi történt. Ha újra telepíted a Morset, az üzenet előzményeid elveszhetnek.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Az adatok visszaállítása sikertelen.";
@@ -179,7 +179,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "A %@ verzió elérhető az App Store-ban.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Új Signal verzió elérhető";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Új Morse verzió elérhető";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Frissítés";
@@ -194,7 +194,7 @@
 "APPEARANCE_SETTINGS_SYSTEM_THEME_NAME" = "Rendszer";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Morse";
 
 /* Label for the archive button for conversations list view */
 "ARCHIVE_ACTION" = "Archiválás";
@@ -211,7 +211,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Nem sikerült a csatolmány exportálása.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Morse was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Mentés sikertelen";
 
 /* Format string for file extension label in call interstitial view */
@@ -383,16 +383,16 @@
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Válj Fenntartóvá";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Adj egy Lökést a Signalnak";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Adj egy Lökést a Morsenak";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "A Lökés Kitűző lejárt és így többé nem látható a profilképeden.\n\nA Signal további használata nem változik, de ha hosszútávon is támogatnád ezt a mindenki számára fejlesztett technológiát, akkor fontold meg a havi Fenntartóvá válást.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "A Lökés Kitűző lejárt és így többé nem látható a profilképeden.\n\nA Morse további használata nem változik, de ha hosszútávon is támogatnád ezt a mindenki számára fejlesztett technológiát, akkor fontold meg a havi Fenntartóvá válást.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "A Lökés Kitűző lejárt és így többé nem látható a profilképeden.\n\nA Lökés Kitűző újabb 30 napra történő aktiválását egy ismételt egyszeri hozzájárulással tudod megtenni.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Fenntartói előfizetésed automatikusan törlésre került, mert túl sokáig voltál inaktív. A %@ kitűződ már nem látható profilképeden.\n\nA Signal használata nem változik, de ha fenntartanád a támogatásod és újraaktiválnád a kitűződet, akkor előfizetésed megújítása szükséges.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Fenntartói előfizetésed automatikusan törlésre került, mert túl sokáig voltál inaktív. A %@ kitűződ már nem látható profilképeden.\n\nA Morse használata nem változik, de ha fenntartanád a támogatásod és újraaktiválnád a kitűződet, akkor előfizetésed megújítása szükséges.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Válj Fenntartóvá!";
@@ -425,7 +425,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "Ha egynél több jelvényed van, választhatsz, hogy melyiket tűzöd ki a profilképedre.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "Elnyerted a %@ kitűzőt! Segítsd a Signalt a tudatosság terjesztésében a kitűződ megjelenítésével profilképeden.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Elnyerted a %@ kitűzőt! Segítsd a Morset a tudatosság terjesztésében a kitűződ megjelenítésével profilképeden.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Tájékoztató bezárása";
@@ -527,7 +527,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Válassz egy adomány összeget";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Adj egy Lökést a Signalnak";
+"BOOST_VIEW_TITLE" = "Adj egy Lökést a Morsenak";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Hozzáadás";
@@ -593,7 +593,7 @@
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 Nem fogadott hanghívás";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "A hanghívások és hangüzenetekek küldéséhez az iOS beállításokban mikrofon hozzáférés adása szükséges a Signal alkalmazás számára.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "A hanghívások és hangüzenetekek küldéséhez az iOS beállításokban mikrofon hozzáférés adása szükséges a Morse alkalmazás számára.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Mikrofon hozzáférés szükséges";
@@ -608,7 +608,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Sikertelen hívás";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Morse %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Hívás";
@@ -662,7 +662,7 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "A kamerád ki van kapcsolva";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal felhasználó";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Morse felhasználó";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Készíts egy képet és küldd el";
@@ -740,7 +740,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Összehasonlítás vágólappal";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Válassz egyet a Signal kontaktok közül akivel beszélgetést kezdeményeznél.";
+"COMPOSE_BUTTON_HINT" = "Válassz egyet a Morse kontaktok közül akivel beszélgetést kezdeményeznél.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Új üzenet írása";
@@ -758,10 +758,10 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Felhasználónév keresés";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Engedélyezd a kontaktokhoz való hozzáférést az iOS Beállításokban, hogy lásd kik Signal felhasználók közülük.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Engedélyezd a kontaktokhoz való hozzáférést az iOS Beállításokban, hogy lásd kik Morse felhasználók közülük.";
 
 /* No comment provided by engineer. */
-"CONFIRM_DELETE_DATA_TEXT" = "Üzeneteid törlésével az alkalmazás alaphelyzetbe áll. A Signal a folyamat végén bezárásra kerül.";
+"CONFIRM_DELETE_DATA_TEXT" = "Üzeneteid törlésével az alkalmazás alaphelyzetbe áll. A Morse a folyamat végén bezárásra kerül.";
 
 /* No comment provided by engineer. */
 "CONFIRM_DELETE_DATA_TITLE" = "Biztosan törölni akarsz minden adatot?";
@@ -931,14 +931,14 @@
 /* A brief localized representation of the 'something not working' support filter. */
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Valami nem működik";
 
-/* The localized representation of the 'Sustainers & Signal Boost' support filter. */
-"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Fenntartók és Signal Lökés";
+/* The localized representation of the 'Sustainers & Morse Boost' support filter. */
+"CONTACT_SUPPORT_FILTER_SUSTAINERS" = "Fenntartók és Morse Lökés";
 
-/* A brief localized representation of the 'Sustainers & Signal Boost' support filter. */
+/* A brief localized representation of the 'Sustainers & Morse Boost' support filter. */
 "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT" = "Fenntartók & Lökés";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "A Signal nem volt képes segítségkérésed elküldésére.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "A Morse nem volt képes segítségkérésed elküldésére.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Újrapróbálkozás";
@@ -1049,7 +1049,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "hang";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Szerezz kitűzőket profilképedre a Signal anyagi támogatásával. Koppints az egyik kitűzőre a további tudnivalókért.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Szerezz kitűzőket profilképedre a Morse anyagi támogatásával. Koppints az egyik kitűzőre a további tudnivalókért.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Jelvények";
@@ -1346,7 +1346,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Fiók törlése";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Ez törölni fogja a Signal fiókod és alaphelyzetbe állítja az alkalmazást. A Signal a folyamat végén bezárásra kerül.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Ez törölni fogja a Morse fiókod és alaphelyzetbe állítja az alkalmazást. A Morse a folyamat végén bezárásra kerül.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Biztosan törölni akarod a fiókod?";
@@ -1370,7 +1370,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Telefonszám";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Erősítsd meg Signalos telefonszámodat";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Erősítsd meg Morseos telefonszámodat";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Fiók törlése";
@@ -1394,9 +1394,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Telefonszám újraregisztrálása";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Ez az eszköz nincs regisztrálva. A telefonszámod - mint egyedi azonosítód - azonban más eszközeiden ettől függetlenül még regisztrálva lehet a Signal alkalmazás számára. Koppints az újraregisztráláshoz.";
+"DEREGISTRATION_WARNING" = "Ez az eszköz nincs regisztrálva. A telefonszámod - mint egyedi azonosítód - azonban más eszközeiden ettől függetlenül még regisztrálva lehet a Morse alkalmazás számára. Koppints az újraregisztráláshoz.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Morse Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Utoljára aktív: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -1418,7 +1418,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Régi iOS eszközödről biztonságosan átmozgathatod azonosítódat és üzeneteidet erre az eszközre.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Ha korábban egy társított iPad eszközön használtad a Signalt, akkor biztonságosan átmozgathatod róla azonosítódat és üzeneteidet erre az eszközre.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Ha korábban egy társított iPad eszközön használtad a Morset, akkor biztonságosan átmozgathatod róla azonosítódat és üzeneteidet erre az eszközre.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Folytatás az azonosító és régi üzenetek átmozgatása nélkül";
@@ -1448,7 +1448,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Átmozgatás iOS eszközről";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "A folytatással letiltod a Signalt a másik eszközön ami ugyanezzel a telefonszámmal került regisztrálásra.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "A folytatással letiltod a Morset a másik eszközön ami ugyanezzel a telefonszámmal került regisztrálásra.";
 
 /* An error indicating that we were unable to verify the indentity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Nem sikerült ellenőrizni az eszközödet. Kérjük próbáld újra!";
@@ -1466,16 +1466,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Nincs elég szabad terület a teljes átmozgatáshoz";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Frissíts a legújabb Signal verzióra és próbáld újra!";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Frissíts a legújabb Morse verzióra és próbáld újra!";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Signal fiókod átvitele új iOS eszközre. Figyelj rá, hogy az eszköz a közelben legyen és be legyen kapcsolva.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Morse fiókod átvitele új iOS eszközre. Figyelj rá, hogy az eszköz a közelben legyen és be legyen kapcsolva.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Fiók átmozgatása";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Nyisd meg a Signalt a régi eszközödön, helyezd el a közelben és ellenőrizd hogy a Wi-Fi és Bluetooth mindkét eszközön bekapcsolt állapotban van.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Nyisd meg a Morset a régi eszközödön, helyezd el a közelben és ellenőrizd hogy a Wi-Fi és Bluetooth mindkét eszközön bekapcsolt állapotban van.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Igazítsd a QR kódot a keretbe a másik eszközön.";
@@ -1487,7 +1487,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Várakozás a másik eszközre...";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Tartsd a két eszközt egymás közelében. Ne kapcsold ki egyik eszközt sem és tartsd a Signalt nyitva. Az adatvitel végpontok között titkosított.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Tartsd a két eszközt egymás közelében. Ne kapcsold ki egyik eszközt sem és tartsd a Morset nyitva. Az adatvitel végpontok között titkosított.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Adat fogadása";
@@ -1502,7 +1502,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Tartsd fel új eszközödet a kamera elé";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Tartsd a két eszközt egymás közelében. Ne kapcsold ki egyik eszközt sem és tartsd a Signalt nyitva.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Tartsd a két eszközt egymás közelében. Ne kapcsold ki egyik eszközt sem és tartsd a Morset nyitva.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Adat átvitele";
@@ -1561,8 +1561,8 @@
 /* Default text for the custom amount field of the donation view. */
 "DONATION_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Egyedi összeg";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Adomány a Signal számára";
+/* Text describing to the user that they're going to pay a donation to Morse */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Adomány a Morse számára";
 
 /* Text explaining there are other ways to donate on the donation view. */
 "DONATION_VIEW_OTHER_WAYS" = "Egyéb adomány lehetőségek";
@@ -1580,25 +1580,25 @@
 "DONATION_VIEW_THANKS_FOR_YOUR_SUPPORT" = "Köszönjük a támogatásodat!";
 
 /* Title for the donate to signal view */
-"DONATION_VIEW_TITLE" = "A Signalt hozzád hasonló emberek működtetik.";
+"DONATION_VIEW_TITLE" = "A Morset hozzád hasonló emberek működtetik.";
 
 /* The body of the 'Why Donate' section of the donate to signal view */
-"DONATION_VIEW_WHY_DONATE_BODY" = "A Signal csapata elkötelezett, hogy nyílt forrású fejlesztéseivel előmozdítsa a privát technológiák térnyerését, amelyek a szólásszabadságot és a biztonságos globális kommunikáció elterjedését biztosítják. Adományod ebben segít nekünk. Nincs reklám. Nincs követés. Nincs trükk.\n\nAdományoddal hozzájárulhatsz a fejlesztés, a szerverek és a sávszélesség költségeihez, amelyek a milliók által világszerte használt azonnali privát kommunikációt megteremtő alkalmazás működtetéséhez szükségesek.";
+"DONATION_VIEW_WHY_DONATE_BODY" = "A Morse csapata elkötelezett, hogy nyílt forrású fejlesztéseivel előmozdítsa a privát technológiák térnyerését, amelyek a szólásszabadságot és a biztonságos globális kommunikáció elterjedését biztosítják. Adományod ebben segít nekünk. Nincs reklám. Nincs követés. Nincs trükk.\n\nAdományoddal hozzájárulhatsz a fejlesztés, a szerverek és a sávszélesség költségeihez, amelyek a milliók által világszerte használt azonnali privát kommunikációt megteremtő alkalmazás működtetéséhez szükségesek.";
 
 /* The title of the 'Why Donate' section of the donate to signal view */
 "DONATION_VIEW_WHY_DONATE_TITLE" = "Miért támogassam?";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Hozzáférés az iOS Beállításokban adható.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "A Signalnak hozzáférésre van szüksége Kontakt listádhoz hogy szerkeszthesd az elemeit";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Morse contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "A Morsenak hozzáférésre van szüksége Kontakt listádhoz hogy szerkeszthesd az elemeit";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Csoport szerkesztése";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "A felhasználó nem adható a csoporthoz, amíg nem frissíti a Signalt.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "A felhasználó nem adható a csoporthoz, amíg nem frissíti a Morset.";
 
 /* Format for the 'group full' error alert when a user can't be added to a group because the group is full. Embeds {{ the maximum number of members in a group }}. */
 "EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_FORMAT" = "A csoport elérte a maximális, %@ fős tag létszámot.";
@@ -1618,14 +1618,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Másolás";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Szia,\n\nújabban privát csevegéseimet a Signal üzenetküldő alkalmazással bonyolítom iPhone-on. Örülnék, ha te is telepítenéd, így biztosak lehetünk benne, hogy amit írunk, vagy mondunk a telefonba, az köztünk marad.\n\nA Signal elérhető iPhone és Android telefonokra is innen: %@\n\nA Signal az ismert csevegőprogramokhoz hasonlóan működik: küldhetünk képeket, videókat, hívhatjuk egymást, csoportos csevegést indíthatunk. A legjobb, hogy a fentiekbe senkinek, még a Signal fejlesztőinek sincs semmilyen betekintési, belehallgatási lehetősége.\n\nHa érdekel a készítő gárda (az Open Whisper Systems), vagy hogy kik is az emberek, akik a Signal fejlesztését végzik, akkor látogass el ide: %@";
+/* body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}} */
+"EMAIL_INVITE_BODY" = "Szia,\n\nújabban privát csevegéseimet a Morse üzenetküldő alkalmazással bonyolítom iPhone-on. Örülnék, ha te is telepítenéd, így biztosak lehetünk benne, hogy amit írunk, vagy mondunk a telefonba, az köztünk marad.\n\nA Morse elérhető iPhone és Android telefonokra is innen: %@\n\nA Morse az ismert csevegőprogramokhoz hasonlóan működik: küldhetünk képeket, videókat, hívhatjuk egymást, csoportos csevegést indíthatunk. A legjobb, hogy a fentiekbe senkinek, még a Morse fejlesztőinek sincs semmilyen betekintési, belehallgatási lehetősége.\n\nHa érdekel a készítő gárda (az Open Whisper Systems), vagy hogy kik is az emberek, akik a Morse fejlesztését végzik, akkor látogass el ide: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Váltsunk Signalra!";
+/* subject of email sent to contacts when inviting to install Morse */
+"EMAIL_INVITE_SUBJECT" = "Váltsunk Morsera!";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Készülékeden nincs beállítva levelező kliens. Vagy állítsd be, vagy támogatási kérelmedet emailben küldd el erre a címre: support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Készülékeden nincs beállítva levelező kliens. Vagy állítsd be, vagy támogatási kérelmedet emailben küldd el erre a címre: support@devplusone.com";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Email küldés nem elérhető";
@@ -1658,7 +1658,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Utazás és Helyek";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Nincs kontaktlistádban Signal felhasználó";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Nincs kontaktlistádban Morse felhasználó";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Miért nem hívsz meg valakit?";
@@ -1705,8 +1705,8 @@
 /* Error message indicating that message send failed due to block list */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Letiltott felhasználónak próbáltál volna üzenetet küldeni.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "A Signal nem tudott kapcsolódni az internethez. Kérlek, próbáld újra!";
+/* Generic error used whenever Morse can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "A Morse nem tudott kapcsolódni az internethez. Kérlek, próbáld újra!";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Érvénytelen címzettnek próbáltál volna üzenetet küldeni.";
@@ -1721,7 +1721,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Érvénytelen szerver válasz.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Ez az eszköz a telefonszámoddal többé nincs regisztrálva. Telepítsd újra a Signal alkalmazást.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Ez az eszköz a telefonszámoddal többé nincs regisztrálva. Telepítsd újra a Morse alkalmazást.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Szerver hiba. Próbálkozz újra később.";
@@ -1733,7 +1733,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Ismeretlen hiba történt.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Ez a kontakt nem Signal felhasználó.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Ez a kontakt nem Morse felhasználó.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Melléklet letöltése sikertelen.";
@@ -1778,31 +1778,31 @@
 "ERROR_NETWORK_FAILURE" = "Hálózati hiba";
 
 /* Format string for an error alert notification message. Embes {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Segítsd a Signal fejlesztését a hiba leírásával és a hibanapló beküldésével a support@signal.org címre; %@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Segítsd a Morse fejlesztését a hiba leírásával és a hibanapló beküldésével a support@devplusone.com címre; %@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: hiba történt";
+"ERROR_NOTIFICATION_TITLE" = "Morse Beta: hiba történt";
 
 /* Error indicating a send failure due to a delinked application. */
-"ERROR_SENDING_DELINKED" = "Ez az eszköz többé nincs társítva. Végezd el újra a társítást a Signal használatának folytatásához.";
+"ERROR_SENDING_DELINKED" = "Ez az eszköz többé nincs társítva. Végezd el újra a társítást a Morse használatának folytatásához.";
 
 /* Error indicating a send failure due to a deregistered application. */
-"ERROR_SENDING_DEREGISTERED" = "Ez az eszköz többé nincs regisztrálva. Regisztráld újra a Signal használatának folytatásához.";
+"ERROR_SENDING_DEREGISTERED" = "Ez az eszköz többé nincs regisztrálva. Regisztráld újra a Morse használatának folytatásához.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Elavult Signal verziót használsz, kérlek frissíts a további használat érdekében.";
+"ERROR_SENDING_EXPIRED" = "Elavult Morse verziót használsz, kérlek frissíts a további használat érdekében.";
 
 /* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Nem regisztrált felhasználó: %@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "A Signal verziója elavult. Koppints ide a legfrissebb verzióra történő frissítéshez.";
+"EXPIRATION_ERROR" = "A Morse verziója elavult. Koppints ide a legfrissebb verzióra történő frissítéshez.";
 
 /* Label warning the user that the app will expire soon. */
-"EXPIRATION_WARNING_SOON" = "Ez a Signal verzió %d nap múlva lejár. Koppints a legújabb verzióra történő frissítéshez.";
+"EXPIRATION_WARNING_SOON" = "Ez a Morse verzió %d nap múlva lejár. Koppints a legújabb verzióra történő frissítéshez.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Ez a Signal verzió ma lejár. Koppints a legújabb verzióra történő frissítéshez.";
+"EXPIRATION_WARNING_TODAY" = "Ez a Morse verzió ma lejár. Koppints a legújabb verzióra történő frissítéshez.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Túl sok sikertelen küldési kísérlet. Kérlek próbáld újra később.";
@@ -2270,7 +2270,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Érvénytelen hivatkozás";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "A csoportba való belépéshez frissítened kell a Signalod.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "A csoportba való belépéshez frissítened kell a Morseod.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "A csoporthivatkozással belépő tagok felvételéhez admin jóváhagyása szükséges.";
@@ -2329,8 +2329,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR kód";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Megosztás Signallal";
+/* Label for the 'share group link via Morse' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Megosztás Morselal";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Ennek a linknek a birtokában bárki láthatja a csoportnevet és a tagok listáját, továbbá belépési kéréssel fordulhat a csoport felé. Azokkal oszd csak meg, akikben megbízol.";
@@ -2702,13 +2702,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Mik azok a régi típusú csoportok?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "A régi típusú csoportokat nem lehet új típusúvá alakítani, viszont lehetőséged van egy új típusú csoport létrehozására a régivel megegyező csoporttagsággal.\n\nEgy jövőbeli Signal verzióban lesz mód a régiek újra alakítására.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "A régi típusú csoportokat nem lehet új típusúvá alakítani, viszont lehetőséged van egy új típusú csoport létrehozására a régivel megegyező csoporttagsággal.\n\nEgy jövőbeli Morse verzióban lesz mód a régiek újra alakítására.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Tudom frissíteni a régi csoport típusomat újra?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Az új típusú csoport létrehozásához az összes tagnak frissítenie kell a Signal legújabb verziójára.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Az új típusú csoport létrehozásához az összes tagnak frissítenie kell a Morse legújabb verziójára.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Régi vs. új csoportok";
@@ -2723,28 +2723,28 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Sajnos nem lehet új típusú csoportra frissíteni, mert túl nagy a csoport létszáma. A maximális taglétszám új típusú csoportban %@ fő.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Amikor minden csoport tag frissített új típusú csoportokat kezelni képes Signal verzióra, akkor a konverzió automatikusan megtörténik.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Amikor minden csoport tag frissített új típusú csoportokat kezelni képes Morse verzióra, akkor a konverzió automatikusan megtörténik.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Megtartottuk a frissítés előtti üzenet-előzményeket és médiafájlokat.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Ez a csoport sajnos nem hozható létre, mivel 1 tag még a Signal egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ő is frissítette a Signalt, vagy ha eltávolítod őt a felvételre kerülő tagok közül.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_1" = "Ez a csoport sajnos nem hozható létre, mivel 1 tag még a Morse egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ő is frissítette a Morset, vagy ha eltávolítod őt a felvételre kerülő tagok közül.";
 
 /* Title for alert that explains that a new group cannot be created 1 member does not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Ez a csoport sajnos nem hozható létre, mivel %@ tag még a Signal egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ők is frissítették a Signalt, vagy ha eltávolítod őket a felvételre kerülő tagok közül.";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_ALERT_TITLE_N_FORMAT" = "Ez a csoport sajnos nem hozható létre, mivel %@ tag még a Morse egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ők is frissítették a Morset, vagy ha eltávolítod őket a felvételre kerülő tagok közül.";
 
 /* Indicates that a new group cannot be created because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Ez a csoport sajnos nem hozható létre, mivel 1 tag még a Signal egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ő is frissítette a Signalt, vagy ha eltávolítod őt a felvételre kerülő tagok közül. %@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_1" = "Ez a csoport sajnos nem hozható létre, mivel 1 tag még a Morse egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ő is frissítette a Morset, vagy ha eltávolítod őt a felvételre kerülő tagok közül. %@";
 
 /* Indicates that a new group cannot be created because multiple members do not support v2 groups. Embeds {{ %1$@ the number of members who do not support v2 groups, %2$@ a \"learn more\" link. }}. */
-"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Ez a csoport sajnos nem hozható létre, mivel %1$@ tag még a Signal egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ők is frissítették a Signalt, vagy ha eltávolítod őket a felvételre kerülő tagok közül. %2$@";
+"GROUPS_LEGACY_GROUP_CREATION_ERROR_FORMAT_N" = "Ez a csoport sajnos nem hozható létre, mivel %1$@ tag még a Morse egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ők is frissítették a Morset, vagy ha eltávolítod őket a felvételre kerülő tagok közül. %2$@";
 
 /* Title for alert that explains that a new group will be a legacy group because 1 member does not support v2 groups. */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Régi típusú csoport lesz létrehozva, mivel 1 tag a Signal egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ő is frissítette a Signalt, vagy ha eltávolítod őt a felvételre kerülő tagok közül.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_1" = "Régi típusú csoport lesz létrehozva, mivel 1 tag a Morse egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ő is frissítette a Morset, vagy ha eltávolítod őt a felvételre kerülő tagok közül.";
 
 /* Title for alert that explains that a new group will be a legacy group because multiple members do not support v2 groups. Embeds {{ the number of members which do not support v2 groups. }} */
-"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Régi típusú csoport lesz létrehozva, mivel %@ tag a Signal egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ők is frissítették a Signalt, vagy ha eltávolítod őket a felvételre kerülő tagok közül.";
+"GROUPS_LEGACY_GROUP_CREATION_WARNING_ALERT_TITLE_N_FORMAT" = "Régi típusú csoport lesz létrehozva, mivel %@ tag a Morse egy régi verzióját használja. Új típusú csoportot csak azután fogsz tudni létrehozni, hogy ők is frissítették a Morset, vagy ha eltávolítod őket a felvételre kerülő tagok közül.";
 
 /* Indicates that a new group will be a legacy group because a member does not support v2 groups. Embeds {{ a \"learn more\" link. }}. */
 "GROUPS_LEGACY_GROUP_CREATION_WARNING_FORMAT_1" = "1 tag nem támogatja az új típusú csoportokat, ezért a csoport továbbra is régi típusú marad. %@";
@@ -2864,7 +2864,7 @@
 "GROUPS_REPLACE_ADMIN_BUTTON" = "Új admin választása";
 
 /* Format for the alert warning the user that they've reached the recommended limit on how many members can be in a group when creating a new group. Embeds {{ the maximum number of recommended members in a group }}. */
-"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "A Signal csoportok %@ vagy kevesebb taggal működnek hatékonyan. Ennél több tag esetén lassulások tapasztalhatóak az üzenetek küldése és fogadása során.";
+"GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_FORMAT" = "A Morse csoportok %@ vagy kevesebb taggal működnek hatékonyan. Ennél több tag esetén lassulások tapasztalhatóak az üzenetek küldése és fogadása során.";
 
 /* Title for alert warning the user that they've reached the recommended limit on how many members can be in a group. */
 "GROUPS_TOO_MANY_MEMBERS_ALERT_TITLE" = "Elérted a javasolt létszám limitet";
@@ -2881,7 +2881,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Kapcsolat";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Morse support website */
 "HELP_SUPPORT_CENTER" = "Támogatási Központ";
 
 /* Label for 'archived conversations' button. */
@@ -2896,17 +2896,17 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Vázlat: ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "A kontaklistádból %@ szintén Signal felhasználó.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Morse contact.  Embeds {{The name of 1 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "A kontaklistádból %@ szintén Morse felhasználó.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "A kontaktlistádból többen is Signal felhasználók, mint például %@ és %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Morse contacts.  Embeds {{The names of 2 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "A kontaktlistádból többen is Morse felhasználók, mint például %@ és %@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "A kontaktlistádból többen is Signal felhasználók, mint például %@, %@ és %@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Morse contacts.  Embeds {{The names of 3 of your Morse contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "A kontaktlistádból többen is Morse felhasználók, mint például %@, %@ és %@.";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Indítsd el első Signal beszélgetésed!";
+/* A label offering to start a new conversation with your contacts, if you have no Morse contacts. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Indítsd el első Morse beszélgetésed!";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
 "HOME_VIEW_MESSAGE_REQUEST_ADDED_TO_GROUP_FORMAT" = "%@ hozzáadott a csoporthoz";
@@ -2921,7 +2921,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Archiválás";
 
 /* Title for the conversation list's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Morse";
 
 /* The image editor hint that you can draw blur */
 "IMAGE_EDITOR_BLUR_HINT" = "Rajzolj bárhová az elhomályosításhoz";
@@ -2935,11 +2935,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "A maximum megosztási limit %@ db.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Morse has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Fotók módosítása";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Az iPhone Beállításokban adj teljes hozzáférést, vagy add meg egyedileg, mely fotókhoz férhet hozzá a Signal.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Az iPhone Beállításokban adj teljes hozzáférést, vagy add meg egyedileg, mely fotókhoz férhet hozzá a Morse.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Nem látod a fotóid?";
@@ -2989,8 +2989,8 @@
 /* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "INFO_MESSAGE_SYNCED_THREAD" = "Társított telefonodról, vagy iPad-edről is tudsz üzeneteket küldeni.\nBiztonsági okokból a beszélgetéseid előzményei nem kerültek átszinkronizálásra.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ már elérhető Signalon!";
+/* Shown in inbox and conversation when a user joins Morse, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%@ már elérhető Morseon!";
 
 /* accessibility label for the button which shows the sticker picker */
 "INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL" = "Matricák";
@@ -3005,7 +3005,7 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Érvénytelen hangfájl.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Engedélyezheted a kontaktokhoz való hozzáférést az iOS Beállításokban, így barátaidat is meghívhatod, hogy csatlakozzanak a Signal közösséghez.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Engedélyezheted a kontaktokhoz való hozzáférést az iOS Beállításokban, így barátaidat is meghívhatod, hogy csatlakozzanak a Morse közösséghez.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Kontaktokhoz hozzáférés engedélyezése";
@@ -3086,7 +3086,7 @@
 "LINK_DEVICE_INVALID_CODE_TITLE" = "Készülék társítása sikertelen";
 
 /* confirm the users intent to link a new device */
-"LINK_DEVICE_PERMISSION_ALERT_BODY" = "Ez az eszköz a továbbiakban hozzáfér a Signal beszélgetéseidhez, a kontakt és csoportlistádhoz, valamint képes lesz üzenetet küldeni a nevedben.";
+"LINK_DEVICE_PERMISSION_ALERT_BODY" = "Ez az eszköz a továbbiakban hozzáfér a Morse beszélgetéseidhez, a kontakt és csoportlistádhoz, valamint képes lesz üzenetet küldeni a nevedben.";
 
 /* confirm the users intent to link a new device */
 "LINK_DEVICE_PERMISSION_ALERT_TITLE" = "Társítod ezt a készüléket?";
@@ -3122,7 +3122,7 @@
 "LINKPREVIEWS_MEGAPHONE_TITLE" = "Link előnézet bármire";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Hogy át tudd mozgatni Signal azonosítódat, mindkét eszközön engedélyezd a helyi hálózathoz való hozzáférést.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Hogy át tudd mozgatni Morse azonosítódat, mindkét eszközön engedélyezd a helyi hálózathoz való hozzáférést.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Segítség?";
@@ -3134,7 +3134,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Kapcsold be: \"Helyi hálózat\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Keresd meg a Signal alkalmazást";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Keresd meg a Morse alkalmazást";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Helyi hálózati hozzáférés bekapcsolása";
@@ -3149,7 +3149,7 @@
 "LOGGING_SECTION" = "Naplózás";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Hibanaplók segítségével könnyebb a Signal hibák és összeomlások nyomozása.";
+"LOGGING_SECTION_FOOTER" = "Hibanaplók segítségével könnyebb a Morse hibák és összeomlások nyomozása.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Üzenet";
@@ -3368,7 +3368,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Csoport törlése és elhagyása?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Légy óvatos a csevegési felkérésekkel. A Signal talált egy újabb kontaktot azonos névvel.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Légy óvatos a csevegési felkérésekkel. A Morse talált egy újabb kontaktot azonos névvel.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Saját profil";
@@ -3463,7 +3463,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Elolvasva";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Morse account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Kihagyva";
 
 /* Label indicating that a message failed to send. */
@@ -3506,22 +3506,22 @@
 "MISSED_CALL" = "Nem fogadott hívás";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Videóhívások indításához az iOS beállításokban kamera hozzáférés adása szükséges a Signal alkalmazás számára.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Videóhívások indításához az iOS beállításokban kamera hozzáférés adása szükséges a Morse alkalmazás számára.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "A Signal szeretne hozzáférni a kamerádhoz.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "A Morse szeretne hozzáférni a kamerádhoz.";
 
 /* Alert body indicating the user has denied location permissios */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Engedélyezheted az iOS Beállításokban.";
 
 /* Alert title indicating the user has denied location permissios */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Ehhez a művelethez a Signalnak helymeghatározási hozzáférés kell.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Ehhez a művelethez a Morsenak helymeghatározási hozzáférés kell.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Engedélyezheted az iOS Beállításokban.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "A Signal hozzáférést igényel a fotóidhoz.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "A Morse hozzáférést igényel a fotóidhoz.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Egyik sem";
@@ -3623,7 +3623,7 @@
 "NO_SELECTED_CONVERSATION_DESCRIPTION" = "Válassz ki egy kontaktot vagy csoportot a beszélgetés elkezdéséhez!";
 
 /* Title welcoming to the app */
-"NO_SELECTED_CONVERSATION_TITLE" = "Üdvözöl a Signal!";
+"NO_SELECTED_CONVERSATION_TITLE" = "Üdvözöl a Morse!";
 
 /* A string prompting the user to send a new mesaage to a user */
 "NON_CONTACT_TABLE_CELL_NEW_MESSAGE" = "Új üzenet neki:";
@@ -3670,7 +3670,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Se név, se szöveg";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Morse will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Hang megnyitott alkalmazásnál";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -3725,10 +3725,10 @@
 "ONBOARDING_CAPTCHA_TITLE" = "Most bizonyíthatod emberi mivoltodat";
 
 /* Explanation on the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Mivel hosszú ideig inaktív voltál, újra kell regisztrálnod, hogy ismét használhatsd a Signalt.";
+"ONBOARDING_DROPPED_YDB_EXPLANATION" = "Mivel hosszú ideig inaktív voltál, újra kell regisztrálnod, hogy ismét használhatsd a Morset.";
 
 /* Title of the 'onboarding after dropped YDB' view. */
-"ONBOARDING_DROPPED_YDB_TITLE" = "Signal regisztráció";
+"ONBOARDING_DROPPED_YDB_TITLE" = "Morse regisztráció";
 
 /* button indicating that the user will register their ipad */
 "ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING" = "iPad regisztrálása";
@@ -3737,7 +3737,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "iPhone társítása";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Az \"iPad regisztrálása\" menüponttal egy új Signal fiókot hozhatsz létre, vagy mozgathatsz át egy meglevőt erre az eszközre. Ez a művelet a többi meglevő eszközödön letiltja ezzel a telefonszámmal korábban regisztrált Signal fiókjaidat.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Az \"iPad regisztrálása\" menüponttal egy új Morse fiókot hozhatsz létre, vagy mozgathatsz át egy meglevőt erre az eszközre. Ez a művelet a többi meglevő eszközödön letiltja ezzel a telefonszámmal korábban regisztrált Morse fiókjaidat.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Az \"iPhone társítása\" menüponttal egy meglevő fiókhoz társíthatod készüléked. Telefon társítása jelenleg nem ajánlott, mivel jelentősen lekorlátozza az alkalmazás képességeit (mint pl. a hang és videóhívás).";
@@ -3749,7 +3749,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "iPhone társítása";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Ezen iPad regisztrálása letiltja a Signalt az ezzel a telefonszámmal regisztrált egyéb eszközökön.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Ezen iPad regisztrálása letiltja a Morset az ezzel a telefonszámmal regisztrált egyéb eszközökön.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Ezen iPhone társítása nem javasolt - erősen korlátozná az alkalmazás teljeskörű működését.";
@@ -3758,13 +3758,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Jogosultságok engedélyezése";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Az értesítések és a kapcsolatok engedélyezésével láthatod mikor érkeznek az üzenetek, és segít ismerősöket találni. A kapcsolatok titkosítottak, így a Signal szolgáltatás nem látja őket.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Az értesítések és a kapcsolatok engedélyezésével láthatod mikor érkeznek az üzenetek, és segít ismerősöket találni. A kapcsolatok titkosítottak, így a Morse szolgáltatás nem látja őket.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Jogosultságok engedélyezése";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Válassz, hogy az alábbi telefonszámod alapján ki találhat meg Signalon: %@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Válassz, hogy az alábbi telefonszámod alapján ki találhat meg Morseon: %@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Ki találhat meg telefonszámod alapján?";
@@ -3776,16 +3776,16 @@
 "ONBOARDING_PHONE_NUMBER_RATE_LIMIT_WARNING_FORMAT" = "Kérlek várj egy pár percet mielőtt újra megpróbálnád. (%@)";
 
 /* Title of the 'onboarding phone number' view. */
-"ONBOARDING_PHONE_NUMBER_TITLE" = "Add meg telefonszámodat";
+"ONBOARDING_PHONE_NUMBER_TITLE" = "Személyes adatainak védelme érdekében a rendszer egy \„hamis\” 8 számjegyű telefonszámot biztosít Önnek";
 
 /* Title of the 'onboarding phone number' view when the user is re-registering. */
-"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Telefonszámod";
+"ONBOARDING_PHONE_NUMBER_TITLE_REREGISTERING" = "Add meg telefonszámodat";
 
 /* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Érvénytelen telefonszám. Adj meg egy valós telefonszámot a regisztrációhoz.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Kifogytál a PIN megadási lehetőségekből, de továbbra is hozzáférhetsz Signal fiókodhoz, amennyiben létrehozol egy új PIN-t. A magánszférád védelmének és saját biztonságod érdekében fiókod csak a mentett profilbeállítások nélkül állítható vissza.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Kifogytál a PIN megadási lehetőségekből, de továbbra is hozzáférhetsz Morse fiókodhoz, amennyiben létrehozol egy új PIN-t. A magánszférád védelmének és saját biztonságod érdekében fiókod csak a mentett profilbeállítások nélkül állítható vissza.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Bővebben a PIN kódokról";
@@ -3859,8 +3859,8 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%@ beállította az eltűnő üzenetek idejét erre: %@";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "A Signal technikai nehézségekkel küzd. Keményen dolgozunk a gyors helyreállásért.";
+/* Label warning the user that the Morse service may be down. */
+"OUTAGE_WARNING" = "A Morse technikai nehézségekkel küzd. Keményen dolgozunk a gyors helyreállásért.";
 
 /* info message text in conversation view. {embeds callee name} */
 "OUTGOING_CALL_FORMAT" = "Hívtad: %@";
@@ -3938,7 +3938,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Érvénytelen tranzakció";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Frissítsd a Signalt a fizetések használatához!";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Frissítsd a Morset a fizetések használatához!";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "A fizetés még nem került ellenőrzésre";
@@ -4172,13 +4172,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Mindenki";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Bárkinek, akinek benne vagy a telefonja kontaktlistájában megjelensz a Signal kontaktjai között is. Akiknek pedig nincs meg a számod, azok megtalálhatnak a Keresés funkció használatával.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Bárkinek, akinek benne vagy a telefonja kontaktlistájában megjelensz a Morse kontaktjai között is. Akiknek pedig nincs meg a számod, azok megtalálhatnak a Keresés funkció használatával.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Senki";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Telefonszámod alapján senki nem fog megtalálni Signalon. Azok számára sem jelensz meg Signal kontaktként, akiknél telefonszámoddal szerepelsz készülékük kontaktlistájában. Továbbá senki számára nem jelensz meg a Keresés funkció találatai között.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Telefonszámod alapján senki nem fog megtalálni Morseon. Azok számára sem jelensz meg Morse kontaktként, akiknél telefonszámoddal szerepelsz készülékük kontaktlistájában. Továbbá senki számára nem jelensz meg a Keresés funkció találatai között.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Például: %@";
@@ -4187,19 +4187,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Kontaktjaim";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Csak kontaktjaid láthatják Signalban a telefonszámodat.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Csak kontaktjaid láthatják Morseban a telefonszámodat.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Mindenki";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Telefonszámod látható lesz az ismerősök és csoportok számára, akikkel üzenetet váltasz. Azoknál, akinél szerepelsz készülékük kontaktlistájában, megjelensz Signal kontakjaik között is.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Telefonszámod látható lesz az ismerősök és csoportok számára, akikkel üzenetet váltasz. Azoknál, akinél szerepelsz készülékük kontaktlistájában, megjelensz Morse kontakjaik között is.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Senki";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Telefonszámodat Signalban senki nem láthatja.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Telefonszámodat Morseban senki nem láthatja.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%@ %@";
@@ -4274,7 +4274,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "PIN letiltása";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Ha letiltod a PIN kódot, a Signal újraregisztrálásakor minden adatot elvesztesz, hacsak nem közvetlenül az adatátvitel funkcióval költöztetted át adataidat régi telefonodról. A Regisztrációs zár funkciót csak bekapcsolt PIN funkcióval használhatod. A PIN használata az üzenetek megőrzését nem biztosítja (csak kontaktlistádat, beállításaidat), azokat régi telefonodról viheted csak át újraregisztráláskor.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Ha letiltod a PIN kódot, a Morse újraregisztrálásakor minden adatot elvesztesz, hacsak nem közvetlenül az adatátvitel funkcióval költöztetted át adataidat régi telefonodról. A Regisztrációs zár funkciót csak bekapcsolt PIN funkcióval használhatod. A PIN használata az üzenetek megőrzését nem biztosítja (csak kontaktlistádat, beállításaidat), azokat régi telefonodról viheted csak át újraregisztráláskor.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Figyelmeztetés";
@@ -4286,7 +4286,7 @@
 "PIN_CREATION_ERROR_TITLE" = "PIN létrehozása sikertelen.";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "A PIN-nek köszönhetően a Signal által tárolt információk titkosítva lesznek, így csak te férhetsz hozzájuk. Újratelepítés esetén profilod, beállításaid és kontaktjaid visszaállításra kerülnek. Az alkalmazás megnyitásához nincs szükség a PIN kódra.";
+"PIN_CREATION_EXPLANATION" = "A PIN-nek köszönhetően a Morse által tárolt információk titkosítva lesznek, így csak te férhetsz hozzájuk. Újratelepítés esetén profilod, beállításaid és kontaktjaid visszaállításra kerülnek. Az alkalmazás megnyitásához nincs szükség a PIN kódra.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Bővebben a PIN kódokról";
@@ -4349,7 +4349,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Pár napon belül újra emlékeztetünk.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Signal PIN kód hitelesítése";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Morse PIN kód hitelesítése";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Holnap újra emlékeztetünk.";
@@ -4364,7 +4364,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Hibás PIN, próbáld újra.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Add meg Signal PIN kódodat";
+"PIN_REMINDER_TITLE" = "Add meg Morse PIN kódodat";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "A PIN kódnak legalább 4 számjegyből kell állnia.";
@@ -4379,7 +4379,7 @@
 "PINS_MEGAPHONE_ACTION" = "PIN létrehozása";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "A PIN-nek köszönhetően a Signal által tárolt információk titkosítva vannak.";
+"PINS_MEGAPHONE_BODY" = "A PIN-nek köszönhetően a Morse által tárolt információk titkosítva vannak.";
 
 /* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "PINS_MEGAPHONE_SNOOZE_TOAST_FORMAT" = "Később újra emlékeztetünk. PIN kódod létrehozása %ld nap múlva kötelezővé válik.";
@@ -4418,19 +4418,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "A vágólapon levő szám nem hasonlít ehhez a beszélgetéshez passzoló biztonsági azonosítóra.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "A Signal nem talált semmilyen biztonsági azonosítót a vágólapodon. Biztos elvégezted a másolást?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "A Morse nem talált semmilyen biztonsági azonosítót a vágólapodon. Biztos elvégezted a másolást?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Minden Signal felhasználó-pár egyedi biztonsági azonosító páron osztozik. Kérlek ellenőrizd, hogy %@ ismerősöd a *te* egyedi azonosítódat jelzi ki.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Minden Morse felhasználó-pár egyedi biztonsági azonosító páron osztozik. Kérlek ellenőrizd, hogy %@ ismerősöd a *te* egyedi azonosítódat jelzi ki.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "A Signal egy régebbi verzióját használod. A megerősítéshez frissítsd az alkalmazást.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "A Morse egy régebbi verzióját használod. A megerősítéshez frissítsd az alkalmazást.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "A kontaktod a Signal egy régebbi verzióját futtatja. Kérd meg, hogy frissítsen a biztonsági szám ellenőrzése előtt.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "A kontaktod a Morse egy régebbi verzióját futtatja. Kérd meg, hogy frissítsen a biztonsági szám ellenőrzése előtt.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "A beolvasott QR kód nem hasonlít biztonsági azonosítóra. Mindketten a Signal legújabb verzióját használjátok?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "A beolvasott QR kód nem hasonlít biztonsági azonosítóra. Mindketten a Morse legújabb verzióját használjátok?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Ha szeretnéd ellenőrizni a végpontok közti titkosítás biztonságát %@ ismerősöddel, hasonlítsd össze a fenti számokat az ő készülékén található számokkal. Gyorsabb alternatívaként, be is olvashatod a QR kódot a telefonján, vagy megkérheted, hogy olvassa be ő a te kódodat.";
@@ -4616,7 +4616,7 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "A felhasználó nem kiválasztható.";
 
 /* Error message indicating that a user can't be selected until they upgrade their app. */
-"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "A felhasználó nem adható a csoporthoz, amíg nem frissíti a Signalt.";
+"RECIPIENT_PICKER_ERROR_USER_HAS_OUTDATED_CLIENT" = "A felhasználó nem adható a csoporthoz, amíg nem frissíti a Morset.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Elfelejtettem a PIN kódom.";
@@ -4625,10 +4625,10 @@
 "REGISTER_2FA_FORGOT_PIN_ALERT_TITLE" = "Segítség?";
 
 /* Alert body for a forgotten SVR (V2) PIN */
-"REGISTER_2FA_FORGOT_SVR_PIN_ALERT_MESSAGE" = "Signal PIN kódod 4+ karakter hosszú és szám, vagy alfanumerikus formátumú. Ha nem emlékszel rá, sajnos 7 napot várnod kell, míg újraregisztrálhatod a fiókodat.";
+"REGISTER_2FA_FORGOT_SVR_PIN_ALERT_MESSAGE" = "Morse PIN kódod 4+ karakter hosszú és szám, vagy alfanumerikus formátumú. Ha nem emlékszel rá, sajnos 7 napot várnod kell, míg újraregisztrálhatod a fiókodat.";
 
 /* Alert body for a forgotten SVR (V2) PIN when the user doesn't have reglock */
-"REGISTER_2FA_FORGOT_SVR_PIN_WITHOUT_REGLOCK_ALERT_MESSAGE" = "Signal PIN kódod egy általad létrehozott 4+ jegyű kód, amely lehet numerikus és alfanumerikus is. Amennyiben nem emlékszel PIN kódodra, lehetőséged van létrehozni egy újat. Ezután regisztrálhatsz, majd használhatod a fiókodat, de mentett beállításaid egy része, mint például a profilinformációid elvesznek.";
+"REGISTER_2FA_FORGOT_SVR_PIN_WITHOUT_REGLOCK_ALERT_MESSAGE" = "Morse PIN kódod egy általad létrehozott 4+ jegyű kód, amely lehet numerikus és alfanumerikus is. Amennyiben nem emlékszel PIN kódodra, lehetőséged van létrehozni egy újat. Ezután regisztrálhatsz, majd használhatod a fiókodat, de mentett beállításaid egy része, mint például a profilinformációid elvesznek.";
 
 /* Alert body for a forgotten V1 PIN */
 "REGISTER_2FA_FORGOT_V1_PIN_ALERT_MESSAGE" = "Létrehozott PIN kódod egy 4+ karakter hosszú számsor. Ha nem emlékszel rá, sajnos 7 napot várnod kell, míg újraregisztrálhatod a fiókodat.";
@@ -4748,7 +4748,7 @@
 "RESEARCH_MEGAPHONE_BODY" = "A legjobb csevegőalkalmazás címének eléréséhez szívesen vennének a visszajelzéseidet.";
 
 /* Title for research megaphone */
-"RESEARCH_MEGAPHONE_TITLE" = "Üzenj a Signal fejlesztőknek";
+"RESEARCH_MEGAPHONE_TITLE" = "Üzenj a Morse fejlesztőknek";
 
 /* Text for the research modal footer */
 "RESEARCH_MODAL_FOOTER" = "A kérdőív a Surveygizmo jóvoltából érhető el a surveys.signalusers.org biztonságos domain alatt.";
@@ -4757,13 +4757,13 @@
 "RESEARCH_MODAL_NO_THANKS" = "Nem, köszönöm";
 
 /* Text explaining why the user should take the survey */
-"RESEARCH_MODAL_PLEA" = "<bold>Hiszünk a személyes adatok privát birtoklásának jogában.</bold>\n\nA Signal nem gyűjt senkiről semmilyen felhasználói viselkedést érintő adatot. Ezért hogy valahogy képbe kerüljünk az igényeket illetően, szükségünk lenne a programot használók véleményére - <bold>például a tiédre</bold>.\n\nElindítottunk egy kérdőíves felmérést, hogy megértsük a felhasználói szokásokat. A kitöltés során semmilyen téged beazonosító adat nem kerül birtokunkba. Viszont ha a jövőben is szeretnél további visszajezéssel a segítségünkre lenni, akkor megadhatsz magadról kapcsolattartáshoz szükséges információkat is.\n\nHa van pár perced, örömmel vennénk, ha segítenél a kérdőív kitöltésével.";
+"RESEARCH_MODAL_PLEA" = "<bold>Hiszünk a személyes adatok privát birtoklásának jogában.</bold>\n\nA Morse nem gyűjt senkiről semmilyen felhasználói viselkedést érintő adatot. Ezért hogy valahogy képbe kerüljünk az igényeket illetően, szükségünk lenne a programot használók véleményére - <bold>például a tiédre</bold>.\n\nElindítottunk egy kérdőíves felmérést, hogy megértsük a felhasználói szokásokat. A kitöltés során semmilyen téged beazonosító adat nem kerül birtokunkba. Viszont ha a jövőben is szeretnél további visszajezéssel a segítségünkre lenni, akkor megadhatsz magadról kapcsolattartáshoz szükséges információkat is.\n\nHa van pár perced, örömmel vennénk, ha segítenél a kérdőív kitöltésével.";
 
 /* Button text for taking the research survey */
 "RESEARCH_MODAL_TAKE_SURVEY" = "Kérdőív kitöltése";
 
 /* Title for the research megaphone modal */
-"RESEARCH_MODAL_TITLE" = "Signal kutatás";
+"RESEARCH_MODAL_TITLE" = "Morse kutatás";
 
 /* Generic text for button that retries whatever the last action was. */
 "RETRY_BUTTON_TEXT" = "Újra";
@@ -4781,7 +4781,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Küldés ennek ellenére";
 
 /* Message for the 'safety number confirmation' view */
-"SAFETY_NUMBER_CONFIRMATION_MESSAGE" = "A következő személyek lehet, hogy újratelepítették a Signalt vagy készüléket cseréltek. Ellenőrizd biztonsági számotokat a privacy biztosítása érdekében!";
+"SAFETY_NUMBER_CONFIRMATION_MESSAGE" = "A következő személyek lehet, hogy újratelepítették a Morset vagy készüléket cseréltek. Ellenőrizd biztonsági számotokat a privacy biztosítása érdekében!";
 
 /* Text explaining that the given contact previously had their safety number verified. */
 "SAFETY_NUMBER_CONFIRMATION_PREVIOUSLY_VERIFIED" = "Már Ellenőrzött";
@@ -4793,7 +4793,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Megtekintés";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Signal biztonsági azonosítónk:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Morse biztonsági azonosítónk:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Biztonsági azonosítód megváltozott a következő ismerősöddel: %@. Érdemes lenne leellenőrizni.";
@@ -4825,14 +4825,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Engedélyezned kell a jelkód használatát az iOS Beállításokban a képernyőzár használatához.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Signal: azonosítás szükséges";
+/* Description of how and why Morse iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Morse: azonosítás szükséges";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "A hitelesítés sikertelen";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Signal feloldása";
+/* Label for button on lock screen that lets users unlock Morse. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Morse feloldása";
 
 /* This is a contact's name. Replace the name for a more common name in your locale if this sounds too foreign. This should be a unique non-public figure's name. This will have a female profile photo. */
 "SCREENSHOT_NAME_CONTACT_EIGHT" = "Tina Ukuku";
@@ -4882,7 +4882,7 @@
 /* This is for a group chat for people who want weather updates. */
 "SCREENSHOT_NAME_GROUP_TWO" = "Időjárás előrejelzés";
 
-/* This appears in Signal > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
+/* This appears in Morse > Settings. A female leadership/presidential/chairwoman position + female name Freyja or similar spelling. This will have a cat profile photo. */
 "SCREENSHOT_NAME_LOCAL_PROFILE" = "Freya elnökasszony";
 
 /* This is a message expressing support/happiness/awe/shock. */
@@ -5003,16 +5003,16 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Nem egyező fiók";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "A telefonod párosításához frissítsd a Signalt ezen az eszközön!";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "A telefonod párosításához frissítsd a Morset ezen az eszközön!";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Nem támogatott verzió";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Ez az eszköz a Signal egy régebbi verzióját futtatja, ami még nem képes iOS QR kód beolvasására. Kérlek frissíts a legújabb verzióra és próbáld újra.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Ez az eszköz a Morse egy régebbi verzióját futtatja, ami még nem képes iOS QR kód beolvasására. Kérlek frissíts a legújabb verzióra és próbáld újra.";
 
 /* alert title for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Frissítsd a Signalt a társítandó eszközön";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Frissítsd a Morset a társítandó eszközön";
 
 /* alert title */
 "SECONDARY_LINKING_ERROR_WAITING_FOR_SCAN" = "Nem sikerült a készülék társítása";
@@ -5030,19 +5030,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Társítás véglegesítése";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Nyisd meg a telefonodon a Signalt ezen iPad társításához";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Nyisd meg a telefonodon a Morset ezen iPad társításához";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Nincs Signal a telefonomon...";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Nincs Morse a telefonomon...";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Telepítsd a Signal alkalmazást az App Store alól, végezd el a regisztrációs folyamatot, ez után már képes leszel ugyan ahhoz a fiókhoz társítani az iPad készüléked.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Telepítsd a Morse alkalmazást az App Store alól, végezd el a regisztrációs folyamatot, ez után már képes leszel ugyan ahhoz a fiókhoz társítani az iPad készüléked.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Telepítsd a Signalt a telefonodra";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Telepítsd a Morset a telefonodra";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Koppints a telefonod Signal alkalmazásában a profilképedre, majd a \"Társított eszközök\", végül az \"Új Készülék Társítása\" menüpontra. A megnyíló kameranézetben olvasd be ezt a QR kódot.";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Koppints a telefonod Morse alkalmazásában a profilképedre, majd a \"Társított eszközök\", végül az \"Új Készülék Társítása\" menüpontra. A megnyíló kameranézetben olvasd be ezt a QR kódot.";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Segítség az iPad társításához";
@@ -5051,7 +5051,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Olvasd be a QR kódot a telefonoddal";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Indítsd el a Signalt régi Ipad-eden a fiók átmozgatásához";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Indítsd el a Morset régi Ipad-eden a fiók átmozgatásához";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Biztonságos munkamenet alaphelyzetbe állítva.";
@@ -5087,7 +5087,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Szeretnéd meghívni egy barátodat nem-biztonságos SMS-en keresztül?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Szeretnél Signal meghívót küldeni az alábbi számok tulajdonosainak?";
+"SEND_SMS_INVITE_TITLE" = "Szeretnél Morse meghívót küldeni az alábbi számok tulajdonosainak?";
 
 /* String describing high quality sent media */
 "SENT_MEDIA_QUALITY_HIGH" = "Magas";
@@ -5096,7 +5096,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Normál";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "A Signal végpontok közti titkosítást használ és nagy ritkán újra be kell állítania a két végpont közti adatkapcsolatot. Ennek nincs hatása a biztonságra, de előfordulhat, hogy pont ezalatt nem kaptál meg egy üzenetet ettől a kontakttól. Ilyenkor az újraküldés kérése ajánlott.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "A Morse végpontok közti titkosítást használ és nagy ritkán újra be kell állítania a két végpont közti adatkapcsolatot. Ennek nincs hatása a biztonságra, de előfordulhat, hogy pont ezalatt nem kaptál meg egy üzenetet ettől a kontakttól. Ilyenkor az újraküldés kérése ajánlott.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "A munkamenet alaphelyzetbe állt";
@@ -5123,7 +5123,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Hely";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ha engedélyezed, a Signal megpróbálja megkerülni az állami blokkolást. Ne engedélyezd ezt a funkciót, ha a tartózkodási helyeden a Signal nincs cenzúrázva.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ha engedélyezed, a Morse megpróbálja megkerülni az állami blokkolást. Ne engedélyezd ezt a funkciót, ha a tartózkodási helyeden a Morse nincs cenzúrázva.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "A cenzúra megkerülés funkció aktiválva lett a telefonszámod alapján.";
@@ -5134,8 +5134,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "A cenzúra megkerülés funkció csak aktív internetkapcsolat esetén aktiválható.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Cenzúra megkerülés funkció nem szükséges; a Signal szolgáltatás aktív.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Morse service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Cenzúra megkerülés funkció nem szükséges; a Morse szolgáltatás aktív.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Hibanapló engedélyezés";
@@ -5176,8 +5176,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Felhasználó letiltása";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nincsenek Signal felhasználó kontaktjaid.";
+/* A label that indicates the user has no Morse contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nincsenek Morse felhasználó kontaktjaid.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Nincs találat";
@@ -5189,7 +5189,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Minden hívás átjátszása";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Minden hívás a Signal kiszolgálón keresztül haladjon - ezzel elfedhető IP címed a hívott fél számára. A funkció engedélyezése csökkentheti a hívásminőséget.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Minden hívás a Morse kiszolgálón keresztül haladjon - ezzel elfedhető IP címed a hívott fél számára. A funkció engedélyezése csökkentheti a hívásminőséget.";
 
 /* Title for the 'chats' link in settings. */
 "SETTINGS_CHATS" = "Beszélgetések";
@@ -5198,7 +5198,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Összes beszélgetés törlése";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Copyright Signal Messenger \nLicenc típusa: GPLv3";
+"SETTINGS_COPYRIGHT" = "Copyright Morse Messenger \nLicenc típusa: GPLv3";
 
 /* Title for the 'Subscription' link in settings. */
 "SETTINGS_CURRENT_SUBSCRIPTION" = "Előfizetés";
@@ -5270,7 +5270,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Állítsd be az alapértelmezett időzítőt újonnan indított csevegéseid eltűnő üzeneteihez.";
 
 /* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Adomány a Signal számára";
+"SETTINGS_DONATE" = "Adomány a Morse számára";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Súgó";
@@ -5279,7 +5279,7 @@
 "SETTINGS_INVITE_TITLE" = "Hívd meg barátaidat";
 
 /* content of tweet when inviting via twitter - please do not translate URL */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Elérhető vagyok már @signalapp platformon is. Töltsd le te is innen: https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Elérhető vagyok már @signalapp platformon is. Töltsd le te is innen: https://devplusone.com/download/";
 
 /* Label for settings view that allows user to change the chat color and wallpaper. */
 "SETTINGS_ITEM_COLOR_AND_WALLPAPER" = "Csevegés színek és háttérkép";
@@ -5339,7 +5339,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Értesítés tartalma";
 
 /* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Ismerős csatlakozott Signalon";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Ismerős csatlakozott Morseon";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Értesítsen mikor...";
@@ -5351,7 +5351,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Aktiválás";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "A Signal segítségével MobileCoin kriptovalutát küldhetsz és fogadhatsz. Minden fizetést a MobileCoins és a MobileCoin Wallet szolgáltatási feltételek szabályoznak. Ez egy béta funkció, így előfordulhat, hogy hibákkal találkozol, az elveszett fizetések és egyenlegek nem helyreállíthatóak.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "A Morse segítségével MobileCoin kriptovalutát küldhetsz és fogadhatsz. Minden fizetést a MobileCoins és a MobileCoin Wallet szolgáltatási feltételek szabályoznak. Ez egy béta funkció, így előfordulhat, hogy hibákkal találkozol, az elveszett fizetések és egyenlegek nem helyreállíthatóak.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Aktiválás";
@@ -5375,7 +5375,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ @ %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "A Fizetés a Signalban a továbbiakban nem elérhető. Továbbra is átviheted egyenlegedet egy átváltó szolgáltatáson, de a továbbiakban már nem tudsz küldeni vagy fogadni fizetéseket, vagy feltölteni az egyenleged.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "A Fizetés a Morseban a továbbiakban nem elérhető. Továbbra is átviheted egyenlegedet egy átváltó szolgáltatáson, de a továbbiakban már nem tudsz küldeni vagy fogadni fizetéseket, vagy feltölteni az egyenleged.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Nem deaktiválható a fizetés, mert az egyenleged nem elérhető. Ellenőrizd a kapcsolatod és próbáld újra.";
@@ -5384,10 +5384,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Nem végrehajtható a fizetés, mert az egyenleged nem elérhető. Ellenőrizd a kapcsolatod és próbáld újra.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "A fizetés funkció a Signalban a továbbiakban nem elérhető. Továbbra is átviheted egyenlegedet egy átváltó szolgáltatáson, de a továbbiakban már nem tudsz küldeni vagy fogadni fizetéseket, vagy feltölteni az egyenleged.adni fizetéseket vagy feltölteni az egyenleged.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "A fizetés funkció a Morseban a továbbiakban nem elérhető. Továbbra is átviheted egyenlegedet egy átváltó szolgáltatáson, de a továbbiakban már nem tudsz küldeni vagy fogadni fizetéseket, vagy feltölteni az egyenleged.adni fizetéseket vagy feltölteni az egyenleged.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "A Fizetések funkció a Signalban a továbbiakban nem elérhető. Átviheted az egyenleged egy átváltó tőzsdére, de a továbbiakban már nem tudsz küldeni vagy fogadni fizetéseket vagy feltölteni az egyenleged.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "A Fizetések funkció a Morseban a továbbiakban nem elérhető. Átviheted az egyenleged egy átváltó tőzsdére, de a továbbiakban már nem tudsz küldeni vagy fogadni fizetéseket vagy feltölteni az egyenleged.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "A pénznem váltás csak becslés és elképzelhető, hogy nem pontos.";
@@ -5414,10 +5414,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Fizetések deaktiválása";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Ajánlott, hogy küld át az alaptőkédet egy másik tárca címre, mielőtt deaktiválod a fizetéseket. Ha azt választod, hogy nem utalod át az alaptőkédet, akkor benne marad a tárcádban, ami a Signalhoz kapcsolt, ha reaktiválod a fizetéseket.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Ajánlott, hogy küld át az alaptőkédet egy másik tárca címre, mielőtt deaktiválod a fizetéseket. Ha azt választod, hogy nem utalod át az alaptőkédet, akkor benne marad a tárcádban, ami a Morsehoz kapcsolt, ha reaktiválod a fizetéseket.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Az egyenleged a tárcádban marad, ami a Signalhoz kapcsolt, ha a fizetések reaktiválását választod.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Az egyenleged a tárcádban marad, ami a Morsehoz kapcsolt, ha a fizetések reaktiválását választod.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Deaktiválás átutalás nélkül?";
@@ -5441,7 +5441,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "A MobileCoin valutáról";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Alaptőkét úgy adhatsz a Signalhoz, hogy MobileCoint küldesz a pénztárca címedre.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Alaptőkét úgy adhatsz a Morsehoz, hogy MobileCoint küldesz a pénztárca címedre.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Alaptőke hozzáadása";
@@ -5495,7 +5495,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Fizetések aktiválva.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "A Signalt m'r használhatod MobileCoin - egy új adatvédelmi fókuszú digitális pénznem - küldésére és fogadására is. Aktiváld a kezdéshez.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "A Morset m'r használhatod MobileCoin - egy új adatvédelmi fókuszú digitális pénznem - küldésére és fogadására is. Aktiváld a kezdéshez.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Fizetések újraaktiválása";
@@ -5504,7 +5504,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_TITLE" = "Bemutatkozik a Fizetések (Béta)";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Az egyenleged automatikusan helyreáll, mikor újratelepíted a Signalt, mikor megadod a Signal PIN kódodat. Egyenleged egy helyreállítási kifejezéssel is helyreállíthatod, ami egy 24 szavas, egyedi mondat. Írd le és tárold biztonságos helyen.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Az egyenleged automatikusan helyreáll, mikor újratelepíted a Morset, mikor megadod a Morse PIN kódodat. Egyenleged egy helyreállítási kifejezéssel is helyreállíthatod, ami egy 24 szavas, egyedi mondat. Írd le és tárold biztonságos helyen.";
 
 /* Label for the 'add money' button in the 'send payment' UI. */
 "SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY" = "Alaptőke hozzáadása";
@@ -5663,7 +5663,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Fizetések";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Nem küldhetsz a Signal tárca címedre. Add meg a támogatott átváltói tőzsdei fiókhoz tartozó tárca címedet!";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Nem küldhetsz a Morse tárca címedre. Add meg a támogatott átváltói tőzsdei fiókhoz tartozó tárca címedet!";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "Átutalhatsz MobileCoint a tőzsdéd által megadott digitális pénztárca címére. A tárca cím egy szöveg, számokkal és betűkkel, amely legtöbbször a QR kód alatt található.";
@@ -5756,16 +5756,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Emlékeztetők kikapcsolása";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Bizonyosodj meg róla, hogy PIN kódodat megjegyezted vagy biztonságos helyre eltároltad, ugyanis a PIN kódot nem lehet visszaállítani. Amennyiben elfelejted PIN kódodat, akkor a Signal fiókod újraregisztrációja során adataid elveszhetnek.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Bizonyosodj meg róla, hogy PIN kódodat megjegyezted vagy biztonságos helyre eltároltad, ugyanis a PIN kódot nem lehet visszaállítani. Amennyiben elfelejted PIN kódodat, akkor a Morse fiókod újraregisztrációja során adataid elveszhetnek.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Erősítsd meg Signal PIN kódodat";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Erősítsd meg Morse PIN kódodat";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN emlékeztetők";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "A PIN kódnak köszönhetően a Signal által tárolt információk titkosítva vannak, így csak te férhetsz hozzájuk. A PIN nem visszaállítható, de általad felülírható. Újratelepítés esetén profilod, beállításaid és kontaktjaid visszaállításra kerülnek.";
+"SETTINGS_PINS_FOOTER" = "A PIN kódnak köszönhetően a Morse által tárolt információk titkosítva vannak, így csak te férhetsz hozzájuk. A PIN nem visszaállítható, de általad felülírható. Újratelepítés esetén profilod, beállításaid és kontaktjaid visszaállításra kerülnek.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Adj meg egy új PIN kódot";
@@ -5774,7 +5774,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "PIN létrehozása";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN";
+"SETTINGS_PINS_TITLE" = "Morse PIN";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Cenzúra megkerülés, hívások átjátszása, biztonságos feladó kijelzés beállítások.";
@@ -5801,7 +5801,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Bekapcsolás";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Amennyiben elfelejted Signal PIN kódodat a következő Signal regisztáció alkalmával, 7 napra ki leszel zárva a fiókodból.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Amennyiben elfelejted Morse PIN kódodat a következő Morse regisztáció alkalmával, 7 napra ki leszel zárva a fiókodból.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Bekapcsolod a regisztrációs zárat?";
@@ -5822,7 +5822,7 @@
 "SETTINGS_SCREEN_SECURITY" = "Képernyővédelem";
 
 /* Footer for table section */
-"SETTINGS_SECTION_FOOTER_CALLING" = "A Signal hívások meg fognak jelenni az iOS hívás Előzményekben.";
+"SETTINGS_SECTION_FOOTER_CALLING" = "A Morse hívások meg fognak jelenni az iOS hívás Előzményekben.";
 
 /* Header Label for the sounds section of settings views. */
 "SETTINGS_SECTION_SOUNDS" = "Hangok";
@@ -5831,16 +5831,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Hívás";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Touch ID, FaceID, jelkód használata a Signal feloldásához.";
+"SETTINGS_SECURITY_DETAIL" = "Touch ID, FaceID, jelkód használata a Morse feloldásához.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Face ID használata a Signal feloldásához.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Face ID használata a Morse feloldásához.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Jelkód használata a Signal feloldásához.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Jelkód használata a Morse feloldásához.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Touch ID használata a Signal feloldásához.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Touch ID használata a Morse feloldásához.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Biztonság";
@@ -5855,22 +5855,22 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Kontaktmegosztás engedélyezése iOS-en";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Az iOS hozzáférhet a Signal kontaktjaidhoz és csevegéseidhez olyan képességek eléréséhez mint például a megosztási javaslatok.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Az iOS hozzáférhet a Morse kontaktjaidhoz és csevegéseidhez olyan képességek eléréséhez mint például a megosztási javaslatok.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Az iOS hozzáférhet a Signal kontaktjaidhoz és csevegéseidhez olyan képességek eléréséhez mint például a megosztási javaslatok vagy az értesítések.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Az iOS hozzáférhet a Morse kontaktjaidhoz és csevegéseidhez olyan képességek eléréséhez mint például a megosztási javaslatok vagy az értesítések.";
 
 /* Title for the 'signal boost' link in settings. */
-"SETTINGS_SIGNAL_BOOST" = "Signal Lökés";
+"SETTINGS_SIGNAL_BOOST" = "Morse Lökés";
 
 /* Title for the 'become a sustainer' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Válj Signal Fenntartóvá";
+"SETTINGS_SUBSCRIPTION" = "Válj Morse Fenntartóvá";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Regisztrációs zár";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Telefonszámod újraregisztrációját Signal PIN kódod megadásához kötheted.";
+/* Footer for the 'two factor auth' section of the privacy settings when Morse PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Telefonszámod újraregisztrációját Morse PIN kódod megadásához kötheted.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Gépelés mutatása";
@@ -5909,13 +5909,13 @@
 "SHARE_EXTENSION_LOADING" = "Betöltés...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Indítsd el a Signalt a regisztrálás elvégzéséhez.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Indítsd el a Morset a regisztrálás elvégzéséhez.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Nincs regisztrálva";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Indítsd el a Signal alkalmazást a regisztrálás beállításához.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Indítsd el a Morse alkalmazást a regisztrálás beállításához.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Nem elérhető";
@@ -5929,17 +5929,17 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Feltöltés folyamatban...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Morse user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "A csatolmány előkészítése sikertelen";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Megosztás: Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Megosztás: Morse";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Nem sikerült letiltani a megosztási javaslatokat.";
 
 /* Body for sharing suggestions megaphone */
-"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Signal beszélgetések megjelenhetnek a más alkalmazásokból történő megosztási javaslatok közt.";
+"SHARING_SUGGESTIONS_MEGAPHONE_BODY" = "Morse beszélgetések megjelenhetnek a más alkalmazásokból történő megosztási javaslatok közt.";
 
 /* Title for sharing suggestions megaphone */
 "SHARING_SUGGESTIONS_MEGAPHONE_TITLE" = "Könnyebb megoszthatóság";
@@ -5956,8 +5956,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Beszélgetés mutatása";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Szia, használd te is a Signalt! Innen telepítheted:";
+/* body sent to contacts when inviting to Install Morse */
+"SMS_INVITE_BODY" = "Szia, használd te is a Morset! Innen telepítheted:";
 
 /* table cell label in conversation settings */
 "SOUND_AND_NOTIFICATION_SETTINGS" = "Hangok és Értesítések";
@@ -6008,7 +6008,7 @@
 "STICKERS_INSTALL_BUTTON" = "Telepítés";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signal Művészi Sorozat";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Morse Művészi Sorozat";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Beérkezett matricák";
@@ -6056,7 +6056,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Hozzájárulás";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "A Signalt hozzád hasonló emberek működtetik. Hozzájárulásoddal kitűzőhöz juthatsz.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "A Morset hozzád hasonló emberek működtetik. Hozzájárulásoddal kitűzőhöz juthatsz.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Köszönöm, nem!";
@@ -6080,7 +6080,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Írj pár szót a problémáról:";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Kérjük küldd támogatási kérésedet erre a címre: support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Kérjük küldd támogatási kérésedet erre a címre: support@devplusone.com";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Szűrő: %@";
@@ -6104,15 +6104,15 @@
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "Naplófájl URL: %@";
 
 /* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal verzió: %@";
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Morse verzió: %@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS támogatási kérés";
+"SUPPORT_EMAIL_SUBJECT" = "Morse iOS támogatási kérés";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Hogy érzed magad? (opcionális)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Morse FAQ */
 "SUPPORT_FAQ_PROMPT" = "Láttad már a GYIK-et?";
 
 /* Label describing support switch to attach debug logs */
@@ -6122,10 +6122,10 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Betöltés";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "A Signal egy nonprofit, hirdetők és befektetők nélküli, csak felhasználók és rajongók által fenntartott szoftver. Indíts havi, rendszeres támogatást és cserébe kitűzőt kapsz profilképedre, amivel láthatóvá teheted támogatásodat.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "A Morse egy nonprofit, hirdetők és befektetők nélküli, csak felhasználók és rajongók által fenntartott szoftver. Indíts havi, rendszeres támogatást és cserébe kitűzőt kapsz profilképedre, amivel láthatóvá teheted támogatásodat.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "A Signal csapata elkötelezett, hogy nyílt forrású fejlesztéseivel előmozdítsa a privát technológiák térnyerését, amelyek a szólásszabadságot és a biztonságos globális kommunikáció elterjedését biztosítják. \n\nAdományoddal hozzájárulhatsz a fejlesztés és üzemeltetés költségeihez, amelyek a milliók által világszerte használt azonnali privát kommunikációt megteremtő alkalmazás működtetéséhez szükségesek. Nincs reklám. Nincs követés. Nincs trükk.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "A Morse csapata elkötelezett, hogy nyílt forrású fejlesztéseivel előmozdítsa a privát technológiák térnyerését, amelyek a szólásszabadságot és a biztonságos globális kommunikáció elterjedését biztosítják. \n\nAdományoddal hozzájárulhatsz a fejlesztés és üzemeltetés költségeihez, amelyek a milliók által világszerte használt azonnali privát kommunikációt megteremtő alkalmazás működtetéséhez szükségesek. Nincs reklám. Nincs követés. Nincs trükk.";
 
 /* Title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_TITLE" = "Támogasd a technológiát, ami számodra, nem pedig adataid megszerzéséért készült. A fenntartók, támogatók közössége vár.";
@@ -6137,7 +6137,7 @@
 "SUSTAINER_STILL_PROCESSING_BADGE_TITLE" = "Még dolgozunk";
 
 /* Sustainer view Add Boost button title */
-"SUSTAINER_VIEW_ADD_BOOST" = "Signal Lökés adása";
+"SUSTAINER_VIEW_ADD_BOOST" = "Morse Lökés adása";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
 "SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Szerezz egy %@ kitűzőt";
@@ -6209,7 +6209,7 @@
 "SUSTAINER_VIEW_SUBSCRIPTION_CONFIRMATION_NOT_NOW" = "Később";
 
 /* Title for the signal sustainer view */
-"SUSTAINER_VIEW_TITLE" = "A Signalt hozzád hasonló emberek működtetik.";
+"SUSTAINER_VIEW_TITLE" = "A Morset hozzád hasonló emberek működtetik.";
 
 /* Update Subscription? Action sheet message, embeds {{Price}} */
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "A következő teljes árú előfizetői díj (%@) ma kerül levonásra. Az új előfizetésed havonta fog megújulni.";
@@ -6335,25 +6335,25 @@
 "UNKNOWN_COUNTRY_NAME" = "Ismeretlen ország";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Az egyik eszközödről olyan üzenetet küldtél, melyet nem lehet feldolgozni vagy megjeleníteni ezen az eszközön, mivel olyan funkciót tartalmaz, mely csak a Signal egy újabb verziójában érhető el.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Az egyik eszközödről olyan üzenetet küldtél, melyet nem lehet feldolgozni vagy megjeleníteni ezen az eszközön, mivel olyan funkciót tartalmaz, mely csak a Morse egy újabb verziójában érhető el.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ ismerősödtől egy olyan üzenetet kaptál, melyet nem lehet feldolgozni vagy megjeleníteni ezen az eszközön, mivel olyan funkciót tartalmaz, mely csak a Signal egy újabb verziójában érhető el.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%@ ismerősödtől egy olyan üzenetet kaptál, melyet nem lehet feldolgozni vagy megjeleníteni ezen az eszközön, mivel olyan funkciót tartalmaz, mely csak a Morse egy újabb verziójában érhető el.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Olyan üzenetet kaptál, melyet nem lehet feldolgozni vagy megjeleníteni ezen az eszközön, mivel olyan funkciót tartalmaz, mely csak a Signal egy újabb verziójában érhető el.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Olyan üzenetet kaptál, melyet nem lehet feldolgozni vagy megjeleníteni ezen az eszközön, mivel olyan funkciót tartalmaz, mely csak a Morse egy újabb verziójában érhető el.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Signal frissítése most";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Morse frissítése most";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Sikeresen frissítetted a Signal alkalmazást. Ezen túl már képes leszel ezt a fajta üzenetet is fogadni.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Sikeresen frissítetted a Morse alkalmazást. Ezen túl már képes leszel ezt a fajta üzenetet is fogadni.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Most már megkérheted %@ ismerősödet, hogy küldje újra ezt az üzenetet, mivel már a Signal legfrissebb verzióját használod.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Most már megkérheted %@ ismerősödet, hogy küldje újra ezt az üzenetet, mivel már a Morse legfrissebb verzióját használod.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Most már megkérheted a küldő felet, hogy küldje újra ezt az üzenetet, mivel már a Signal legfrissebb verzióját használod.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Most már megkérheted a küldő felet, hogy küldje újra ezt az üzenetet, mivel már a Morse legfrissebb verzióját használod.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Ismeretlen";
@@ -6377,10 +6377,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Társítás megszüntetése ezzel: \"%@\"?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Az eszköz társítása megszűnt. A Signal használatának folytatásához a társítás ismételt elvégzése szükséges.";
+"UNLINKED_WARNING" = "Az eszköz társítása megszűnt. A Morse használatának folytatásához a társítás ismételt elvégzése szükséges.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "A Signal nem tudja megszüntetni a társítást a készülékeddel.";
+"UNLINKING_FAILED_ALERT_TITLE" = "A Morse nem tudja megszüntetni a társítást a készülékeddel.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Megnevezetlen készülék";
@@ -6401,7 +6401,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Készüléked nem támogatja ezt a funkciót.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Biztonsági azonosítód %@ kontaktoddal megváltozott, valószínűleg újratelepítette a Signalt, vagy új eszközre váltott. Opcionálisan koppinthatsz az új azonosító ellenőrzöttnek jelöléséhez.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Biztonsági azonosítód %@ kontaktoddal megváltozott, valószínűleg újratelepítette a Morset, vagy új eszközre váltott. Opcionálisan koppinthatsz az új azonosító ellenőrzöttnek jelöléséhez.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Hitelesítés";
@@ -6422,7 +6422,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE" = "Bővebben a PIN kódokról";
 
 /* Body text for PINs splash screen */
-"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "A PIN-nek köszönhetően a Signal által tárolt információk titkosítva lesznek, így csak te férhetsz hozzájuk. Újratelepítés esetén profilod, beállításaid és kontaktjaid visszaállításra kerülnek. Az alkalmazás megnyitásához nincs szükség a PIN kódra.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION" = "A PIN-nek köszönhetően a Morse által tárolt információk titkosítva lesznek, így csak te férhetsz hozzájuk. Újratelepítés esetén profilod, beállításaid és kontaktjaid visszaállításra kerülnek. Az alkalmazás megnyitásához nincs szükség a PIN kódra.";
 
 /* Header for PINs splash screen */
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE" = "A PIN kódok bemutatása";
@@ -6431,13 +6431,13 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PINS_SKIP" = "PIN letiltása";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "A Signal hamarosan iOS 11-et vagy későbbit igényel. Kérjük frissítsen a Beállítások app >> Általános >> Szoftver frissítés menüpont alatt.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "A Morse hamarosan iOS 11-et vagy későbbit igényel. Kérjük frissítsen a Beállítások app >> Általános >> Szoftver frissítés menüpont alatt.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "iOS frissítése";
 
 /* An explanation of how usernames work on the username view. */
-"USERNAME_DESCRIPTION" = "Signalban a felhasználónév nem kötelező. Ha mégis beállítod, más felhasználók a jövőben név alapján is megtalálhatnak, a telefonszámod ismerete nélkül.";
+"USERNAME_DESCRIPTION" = "Morseban a felhasználónév nem kötelező. Ha mégis beállítod, más felhasználók a jövőben név alapján is megtalálhatnak, a telefonszámod ismerete nélkül.";
 
 /* An error indicating that the supplied username contains disallowed characters. */
 "USERNAME_INVALID_CHARACTERS_ERROR" = "A felhasználónevek csak az alábbi karaktereket tartalmazhatják: a-z, 0-9, _";
@@ -6446,7 +6446,7 @@
 "USERNAME_LOOKUP_ERROR" = "Felhasználónév elérhetősége nem ellenőrizhető, kérlek próbáld meg később.";
 
 /* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
-"USERNAME_NOT_FOUND_FORMAT" = "%@ nem Signal felhasználó. Kérlek ellenőrizd a felhasználónevet, majd próbáld újra.";
+"USERNAME_NOT_FOUND_FORMAT" = "%@ nem Morse felhasználó. Kérlek ellenőrizd a felhasználónevet, majd próbáld újra.";
 
 /* A message indicating that the given username was not registered with signal. */
 "USERNAME_NOT_FOUND_TITLE" = "Nincs ilyen felhasználó";
@@ -6521,7 +6521,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Tartsd nyomva a felvételhez.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Fejezd be a telepítést a Signal Desktop -ban.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Fejezd be a telepítést a Morse Desktop -ban.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Kontakt név";

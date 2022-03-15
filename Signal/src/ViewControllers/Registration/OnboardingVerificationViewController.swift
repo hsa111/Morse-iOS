@@ -191,6 +191,7 @@ private class OnboardingCodeView: UIView {
         // Move cursor to end of text.
         let newPosition = textfield.endOfDocument
         textfield.selectedTextRange = textfield.textRange(from: newPosition, to: newPosition)
+        textfield.isEnabled = false
     }
 
     @discardableResult
@@ -330,7 +331,8 @@ public class OnboardingVerificationViewController: OnboardingBaseViewController 
                                        selector: #selector(backLinkTapped))
         self.backLink = backLink
         backLink.accessibilityIdentifier = "onboarding.verification." + "backLink"
-
+        backLink.isHiddenInStackView = true
+        
         onboardingCodeView.delegate = self
 
         errorLabel.text = NSLocalizedString("ONBOARDING_VERIFICATION_INVALID_CODE",
@@ -340,7 +342,8 @@ public class OnboardingVerificationViewController: OnboardingBaseViewController 
         errorLabel.textAlignment = .center
         errorLabel.autoSetDimension(.height, toSize: errorLabel.font.lineHeight)
         errorLabel.accessibilityIdentifier = "onboarding.verification." + "errorLabel"
-
+        errorLabel.isHiddenInStackView = true
+        
         // Wrap the error label in a row so that we can show/hide it without affecting view layout.
         let errorRow = UIView()
         errorRow.addSubview(errorLabel)
@@ -349,11 +352,13 @@ public class OnboardingVerificationViewController: OnboardingBaseViewController 
         let resendCodeButton = self.linkButton(title: "", selector: #selector(resendCodeButtonTapped))
         resendCodeButton.enableMultilineLabel()
         resendCodeButton.accessibilityIdentifier = "onboarding.verification." + "resendCodeButton"
+        resendCodeButton.isHiddenInStackView = true
         self.resendCodeButton = resendCodeButton
 
         let callMeButton = self.linkButton(title: "", selector: #selector(callMeButtonTapped))
         callMeButton.enableMultilineLabel()
         callMeButton.accessibilityIdentifier = "onboarding.verification." + "callMeButton"
+        callMeButton.isHiddenInStackView = true
         self.callMeButton = callMeButton
 
         let buttonStack = UIStackView(arrangedSubviews: [

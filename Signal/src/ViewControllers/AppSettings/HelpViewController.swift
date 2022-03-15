@@ -28,13 +28,13 @@ final class HelpViewController: OWSTableViewController2 {
         contents.title = helpTitle
 
         let helpSection = OWSTableSection()
-        helpSection.add(.disclosureItem(
-            withText: supportCenterLabel,
-            actionBlock: { [weak self] in
-                let vc = SFSafariViewController(url: SupportConstants.supportURL)
-                self?.present(vc, animated: true, completion: nil)
-            }
-        ))
+//        helpSection.add(.disclosureItem(
+//            withText: supportCenterLabel,
+//            actionBlock: { [weak self] in
+//                let vc = SFSafariViewController(url: SupportConstants.supportURL)
+//                self?.present(vc, animated: true, completion: nil)
+//            }
+//        ))
         helpSection.add(.disclosureItem(
             withText: contactLabel,
             actionBlock: {

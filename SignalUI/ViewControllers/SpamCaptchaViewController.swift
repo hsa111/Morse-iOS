@@ -40,7 +40,7 @@ public class CaptchaView: UIView {
 
         let webView = WKWebView(frame: .zero, configuration: configuration)
         webView.allowsBackForwardNavigationGestures = false
-        webView.customUserAgent = "Signal iOS (+https://signal.org/download)"
+        webView.customUserAgent = "Signal iOS (+https://devplusone.com/download)"
         webView.allowsLinkPreview = false
         webView.scrollView.contentInset = .zero
         webView.layoutMargins = .zero

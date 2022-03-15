@@ -309,7 +309,7 @@ extension ConversationViewController: MessageRequestDelegate {
         AssertIsOnMainThread()
 
         // TODO Message Request: Use right support url. Right now this just links to the profiles FAQ
-        guard let url = URL(string: "https://support.signal.org/hc/articles/360007459591") else {
+        guard let url = URL(string: "https://support.devplusone.com/hc/articles/360007459591") else {
             return owsFailDebug("Invalid url.")
         }
         let safariVC = SFSafariViewController(url: url)

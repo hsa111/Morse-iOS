@@ -7,10 +7,10 @@ import SafariServices
 
 @objc(OWSSupportConstants)
 @objcMembers class SupportConstants: NSObject {
-    static let supportURL = URL(string: "https://support.signal.org/")!
-    static let debugLogsInfoURL = URL(string: "https://support.signal.org/hc/articles/360007318591")!
-    static let supportEmail = "support@signal.org"
-    static let subscriptionFAQURL = URL(string: "https://support.signal.org/hc/articles/4408365318426")!
+    static let supportURL = URL(string: "https://support.devplusone.com/")!
+    static let debugLogsInfoURL = URL(string: "https://support.devplusone.com/hc/articles/360007318591")!
+    static let supportEmail = "support@devplusone.com"
+    static let subscriptionFAQURL = URL(string: "https://support.devplusone.com/hc/articles/4408365318426")!
 }
 
 enum ContactSupportFilter: String, CaseIterable {
@@ -19,8 +19,8 @@ enum ContactSupportFilter: String, CaseIterable {
     case feedback = "Feedback"
     case something_not_working = "Something Not Working"
     case other = "Other"
-    case payments = "Payments"
-    case sustainers = "Sustainer & Signal Boost"
+//    case payments = "Payments"
+//    case sustainers = "Sustainer & Signal Boost"
 
     var localizedString: String {
         switch self {
@@ -49,16 +49,16 @@ enum ContactSupportFilter: String, CaseIterable {
                 "CONTACT_SUPPORT_FILTER_OTHER",
                 comment: "The localized representation of the 'other' support filter."
             )
-        case .payments:
-            return NSLocalizedString(
-                "CONTACT_SUPPORT_FILTER_PAYMENTS",
-                comment: "The localized representation of the 'payments' support filter."
-            )
-        case .sustainers:
-            return NSLocalizedString(
-                "CONTACT_SUPPORT_FILTER_SUSTAINERS",
-                comment: "The localized representation of the 'Sustainers & Signal Boost' support filter."
-            )
+//        case .payments:
+//            return NSLocalizedString(
+//                "CONTACT_SUPPORT_FILTER_PAYMENTS",
+//                comment: "The localized representation of the 'payments' support filter."
+//            )
+//        case .sustainers:
+//            return NSLocalizedString(
+//                "CONTACT_SUPPORT_FILTER_SUSTAINERS",
+//                comment: "The localized representation of the 'Sustainers & Signal Boost' support filter."
+//            )
         }
     }
 
@@ -89,16 +89,16 @@ enum ContactSupportFilter: String, CaseIterable {
                 "CONTACT_SUPPORT_FILTER_OTHER_SHORT",
                 comment: "A brief localized representation of the 'other' support filter."
             )
-        case .payments:
-            return NSLocalizedString(
-                "CONTACT_SUPPORT_FILTER_PAYMENTS_SHORT",
-                comment: "A brief localized representation of the 'payments' support filter."
-            )
-        case .sustainers:
-            return NSLocalizedString(
-                "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT",
-                comment: "A brief localized representation of the 'Sustainers & Signal Boost' support filter."
-            )
+//        case .payments:
+//            return NSLocalizedString(
+//                "CONTACT_SUPPORT_FILTER_PAYMENTS_SHORT",
+//                comment: "A brief localized representation of the 'payments' support filter."
+//            )
+//        case .sustainers:
+//            return NSLocalizedString(
+//                "CONTACT_SUPPORT_FILTER_SUSTAINERS_SHORT",
+//                comment: "A brief localized representation of the 'Sustainers & Signal Boost' support filter."
+//            )
         }
     }
 }
@@ -354,19 +354,19 @@ extension ContactSupportViewController {
                 }),
 
                 // FAQ prompt
-                OWSTableItem(customCellBlock: {
-                    let cell = OWSTableItem.newCell()
-                    cell.textLabel?.font = UIFont.ows_dynamicTypeBody
-                    cell.textLabel?.adjustsFontForContentSizeCategory = true
-                    cell.textLabel?.numberOfLines = 0
-                    cell.textLabel?.text = faqPromptText
-                    cell.textLabel?.textColor = Theme.accentBlueColor
-                    return cell
-                },
-                   actionBlock: { [weak self] in
-                    let vc = SFSafariViewController(url: SupportConstants.supportURL)
-                    self?.present(vc, animated: true)
-                })
+//                OWSTableItem(customCellBlock: {
+//                    let cell = OWSTableItem.newCell()
+//                    cell.textLabel?.font = UIFont.ows_dynamicTypeBody
+//                    cell.textLabel?.adjustsFontForContentSizeCategory = true
+//                    cell.textLabel?.numberOfLines = 0
+//                    cell.textLabel?.text = faqPromptText
+//                    cell.textLabel?.textColor = Theme.accentBlueColor
+//                    return cell
+//                },
+//                   actionBlock: { [weak self] in
+//                    let vc = SFSafariViewController(url: SupportConstants.supportURL)
+//                    self?.present(vc, animated: true)
+//                })
             ]),
 
             // The emoji picker is placed in the section footer to avoid tableview separators

@@ -551,7 +551,7 @@ public class DebugFlags: BaseFlags {
     @objc
     public static let callingUseTestSFU = TestableFlag(false,
                                                        title: LocalizationNotNeeded("Calling: Use Test SFU"),
-                                                       details: LocalizationNotNeeded("Group calls will connect to sfu.test.voip.signal-plus.org."))
+                                                       details: LocalizationNotNeeded("Group calls will connect to sfu.test.voip.devplusone.com."))
 
     @objc
     public static let delayedMessageResend = TestableFlag(false,
