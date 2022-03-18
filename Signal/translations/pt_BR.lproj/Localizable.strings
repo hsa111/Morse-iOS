@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Vincular o seu iPhone não é recomendado e irá limitar funcionalidades importantes.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Autorizar";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Continuar";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Ao autorizar informações e contatos, você poderá ver quando as mensagens chegarem e ficará mais fácil encontrar as pessoas que você conhece. A sua lista de contatos é criptografada e o Morse não pode vê-la.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Ezen iPhone társítása nem javasolt - erősen korlátozná az alkalmazás teljeskörű működését.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Jogosultságok engedélyezése";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Folytatni";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Az értesítések és a kapcsolatok engedélyezésével láthatod mikor érkeznek az üzenetek, és segít ismerősöket találni. A kapcsolatok titkosítottak, így a Morse szolgáltatás nem látja őket.";

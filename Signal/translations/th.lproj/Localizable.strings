@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "การเชื่อมโยงกับ iPhone นั้นไม่แนะนำ และมันจะจำกัดความสามารถหลัก";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "อนุญาต";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "ทำต่อ";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "การอนุญาตการแจ้งเตือนและรายชื่อผู้ติดต่อจะช่วยให้คุณเห็นเมื่อข้อความมาถึงและช่วยให้คุณหาผู้คนที่คุณรู้จัก ซึ่งรายชื่อผู้ติดต่อได้ถูกเข้ารหัสไว้ บริการ Morse จึงไม่สามารถค้นพบรายชื่อเหล่านี้ได้";

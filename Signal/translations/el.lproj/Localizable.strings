@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Η σύνδεση του iPhone δεν προτείνεται και θα περιορίσει βασική λειτουργικότητα.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Να δοθούν δικαιώματα";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Συνέχεια";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Δίνοντας δικαιώματα για ειδοποιήσεις και επαφές, θα μπορείς να δεις πότε λαμβάνεις μηνύματα και θα σε βοηθήσει να βρεις άτομα που γνωρίζεις. Οι επαφές κρυπτογραφούνται οπότε η υπηρεσία Morse δεν μπορεί να τις δει.";

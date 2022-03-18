@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Lidhja e iPhone-it tuaj nuk këshillohet dhe do të kufizojë funksionet bazë.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Jepi Lejet";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Vazhdo";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Lejimi i njoftimeve dhe kontakteve ju bën të mundur të shihni kur mbërrijnë mesazhe dhe ju ndihmon të gjeni njerëz që i njihni. Kontaktet janë të fshehtëzuar, ndaj shërbimi Morse s’mund t’i shohë.";

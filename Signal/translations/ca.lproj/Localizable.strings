@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "No es recomana enllaçar l'iPhone i això limitarà funcionalitat principal.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Permisos";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Continua";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Permetre les notificacions i contactes us permet veure quan arriben els missatges i us ajuda a trobar persones que coneixeu. Els contactes estan encriptats de manera que el servei del Morse no els pot veure.";

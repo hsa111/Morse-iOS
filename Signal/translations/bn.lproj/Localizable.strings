@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "আপনার iPhone লিঙ্ক করার পরামর্শ দেওয়া হয় না এবং মূল কার্যকারিতা সীমাবদ্ধ করবে।";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "অনুমতি দিন";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "চলতে থাকুন";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "নোটিফিকেশন ও কন্ট্যাক্টগুলিকে অনুমতি দিলে আপনি কখন মেসেজ আসে সেটি দেখতে পারেন এবং এটি আপনার পরিচিত ব্যক্তিদের খুঁজতে সাহায্য করে। কন্ট্যাক্টগুলি এনক্রিপ্ট করা হয়েছে, যার ফলে Morse পরিষেবা সেগুলি দেখতে পারে না।";

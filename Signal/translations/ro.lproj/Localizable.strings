@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Asocierea iPhone-ului tău nu este recomandată și va limita funcții de bază.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Activare permisiuni";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Continua";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Activarea notificărilor și a contactelor îți permite să vezi când sosesc mesaje și te ajută să găsești persoane pe care le cunoști. Contactele sunt criptate, astfel încât serviciul Morse nu le poate vedea.";

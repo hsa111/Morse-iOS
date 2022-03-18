@@ -214,7 +214,7 @@ private class TSConstantsProduction: TSConstantsProtocol {
     // checking earlier enclaves.
     public let keyBackupPreviousEnclaves = [KeyBackupEnclave]()
 
-    public let applicationGroup = "group.org.signal-plus.signaltest1"
+    public let applicationGroup = "group.com.devplusone.morse"
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)
@@ -285,7 +285,7 @@ private class TSConstantsStaging: TSConstantsProtocol {
         )
     ]
 
-    public let applicationGroup = "group.org.signal-plus.signaltest1.staging"
+    public let applicationGroup = "group.com.devplusone.morse.staging"
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "このiPhoneをリンクすることは、機能が制限されるため、推奨されません。";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "アクセスを許可する";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "続ける";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "通知と連絡先を許可すると、メッセージの着信を確認でき、知り合いを見つけるのに役立ちます。連絡先は暗号化されているため、Morseのサービス側では見ることができません。";

@@ -210,7 +210,7 @@ class InviteFlow: NSObject, MFMessageComposeViewControllerDelegate, MFMailCompos
         messageComposeViewController.messageComposeDelegate = self
         messageComposeViewController.recipients = phoneNumbers
 
-        let inviteText = NSLocalizedString("SMS_INVITE_BODY", comment: "body sent to contacts when inviting to Install Signal")
+        let inviteText = NSLocalizedString("SMS_INVITE_BODY", comment: "body sent to contacts when inviting to Install Morse")
         messageComposeViewController.body = inviteText.appending(" \(self.installUrl)")
         presentingViewController?.present(messageComposeViewController, animated: true)
     }
@@ -264,8 +264,8 @@ class InviteFlow: NSObject, MFMessageComposeViewControllerDelegate, MFMailCompos
         mailComposeViewController.mailComposeDelegate = self
         mailComposeViewController.setBccRecipients(recipientEmails)
 
-        let subject = NSLocalizedString("EMAIL_INVITE_SUBJECT", comment: "subject of email sent to contacts when inviting to install Signal")
-        let bodyFormat = NSLocalizedString("EMAIL_INVITE_BODY", comment: "body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}}")
+        let subject = NSLocalizedString("EMAIL_INVITE_SUBJECT", comment: "subject of email sent to contacts when inviting to install Morse")
+        let bodyFormat = NSLocalizedString("EMAIL_INVITE_BODY", comment: "body of email sent to contacts when inviting to install Morse. Embeds {{link to install Morse}} and {{link to the Morse home page}}")
         let body = String.init(format: bodyFormat, installUrl, homepageUrl)
         mailComposeViewController.setSubject(subject)
         mailComposeViewController.setMessageBody(body, isHTML: false)

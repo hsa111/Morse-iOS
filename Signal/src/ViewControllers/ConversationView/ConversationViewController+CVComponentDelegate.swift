@@ -666,7 +666,7 @@ extension ConversationViewController: CVComponentDelegate {
     public func cvc_didTapShowUpgradeAppUI() {
         AssertIsOnMainThread()
 
-        let url = "https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8"
+        let url = "https://itunes.apple.com/us/app/mooorse-messenger/id1614558280?mt=8"
         UIApplication.shared.open(URL(string: url)!, options: [:], completionHandler: nil)
     }
 

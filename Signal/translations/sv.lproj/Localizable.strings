@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Att länka din iPhone rekommenderas inte och kommer att begränsa kärnfunktioner.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Tillåt behörigheter";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Fortsätt";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Genom att tillåta notiser och kontakter kan du se när du får meddelanden och hjälper dig att hitta personer du känner. Kontakterna är krypterade så att Morse-tjänsten inte kan se dem.";

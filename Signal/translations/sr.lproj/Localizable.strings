@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Повезивање вашег телефона није препоручено јер ускраћује неке основне могућности.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Дозволити дозволе";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Настави";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Допуштање обавештења и контаката омогућава вам да видите када поруке стигну и помаже вам да пронађете људе које познајете. Контакти су шифрирани тако да их Morse не може видети.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "हम आपका iPhone लिंक करने का सुझाव नहीं देंगे, ऐसा करने से मूल कार्यक्षमता सीमित हो जाएँगी।";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "अनुमतियाँ दें";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "आगे ";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "सूचनाएँ और संपर्क की अनुमति देने से संदेशों के आने पर उन्हें देख पाते हैं और आपकी पहचान के लोगों को ढूँढने में आपको मदद मिलती है। संपर्क एन्क्रिप्टेड होते हैं इसलिए Morse सेवा उन्हें नहीं देख सकती।";

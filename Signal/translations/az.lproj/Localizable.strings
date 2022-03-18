@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhone ilə əlaqələndirmək məsləhət görülmür və təməl funksionallıqlara məhdudiyyət qoyur.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "İcazə ver";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Davam et";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Bildirişlərə və əlaqələrə icazə vermək, mesajların nə vaxt çatdığını bilməyinizə icazə verir və tanıdığınız insanları tapmağınıza kömək edir. Əlaqələr şifrələndiyi üçün Morse xidməti onu görə bilmir.";

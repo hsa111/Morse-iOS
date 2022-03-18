@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Il n’est pas recommandé de relier votre iPhone, ce qui limitera les fonctions principales.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Accorder les autorisations";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Continuez";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Autoriser les notifications et les contacts vous permet de savoir qu’un message est reçu et vous aide à trouver les personnes que vous connaissez. Les contacts sont chiffrés et le service Morse ne peut pas les voir.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Povezivanje vašeg iPhonea se ne preporučuje i ograničiti će osnovne funkcionalnosti.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Omogući dozvole";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Nastaviti";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Omogućavanje obavijesti i kontakata dopušta vam da vidite kada stižu poruke i pomaže vam pronaći osobe koje poznajete. Kontakti su šifrirani, tako da ih Morse ne može vidjeti.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Het wordt afgeraden om je iPhone te koppelen omdat dit kernfunctionaliteit zal beperken.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Geef toestemmingen";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Doorgaan";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Door meldingen toe te staan kan Morse je laten weten wanneer je een bericht hebt ontvangen. Door het lezen van je adresboek toe te staan kan Morse je contactpersonen weergeven als je een gesprek met ze wil starten. Alle informatie over je contactpersonen blijft altijd versleuteld, zelf Morses ontwikkelaars kunnen de telefoonnummers en andere informatie over je contactpersonen nooit lezen.";

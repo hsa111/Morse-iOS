@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Das Koppeln deines iPhones wird nicht empfohlen und wichtige Funktionen einschränken.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Berechtigungen gewähren";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Weiter";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Die Erlaubnis für Benachrichtigungen und Kontakte ermöglicht, dich über den Eingang von Nachrichten zu informieren, und hilft dir dabei, dir bekannte Personen zu finden. Kontakte sind verschlüsselt, sodass der Morse-Dienst sie nicht sehen kann.";

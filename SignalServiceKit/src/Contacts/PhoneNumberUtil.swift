@@ -103,7 +103,7 @@ fileprivate extension PhoneNumberUtilWrapper {
     }
 
     func examplePhoneNumber(forCountryCode countryCode: String) -> String? {
-        // Signal users are very likely using mobile devices, so prefer that kind of example.
+        // Morse users are very likely using mobile devices, so prefer that kind of example.
         do {
             func findExamplePhoneNumber() -> NBPhoneNumber? {
                 if let nbPhoneNumber = PhoneNumberUtil.getExampleNumber(forType: countryCode,

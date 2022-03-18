@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "ستاسې د ایفون د لینک کولو سپارښتنه نه کېږي او دا کار به د هغه اصلي کارکړنه را محدوده کړي.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "اجازې ورکړئ";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "ادامه";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "خبرتیاوو او مخاطبینو ته اجازه ورکول تاسې ته دا اجازه درکوي تر څو کله چې بیغامونه راځي هغه ووینئ او له تاسې سره مرسته کوي تر څو هغه خلک ومومئ چې تاسې یې پیژنئ. مخاطبین ټول انکریپټ دي یعنې د Morse خدمات نشي کولای هغه وویني.";

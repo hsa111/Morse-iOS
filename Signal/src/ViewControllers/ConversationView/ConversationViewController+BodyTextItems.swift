@@ -295,9 +295,9 @@ extension ConversationViewController {
         //       Ideally we could detect whether this email address supported these actions.
         // TODO: We could show an "add to contact" action for this email address.
         //       Ideally we could detect whether this email address is already in a system contact.
-        // TODO: We could show (Send Signal Message/Signal call) actions for this email address.
+        // TODO: We could show (Send Morse Message/Morse call) actions for this email address.
         //       Ideally we could detect whether this email address corresponds to a system contact
-        //       which is a registered Signal user.
+        //       which is a registered Morse user.
         // TODO: We could show an "share" action for this email address.
 
         actionSheet.addAction(OWSActionSheets.cancelAction)

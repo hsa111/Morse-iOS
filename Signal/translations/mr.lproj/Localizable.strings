@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "आपला फोन लिंक करणे शिफारसीय नाही आणि ते मुलभूत कार्यक्षमता मर्यादित करेल.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "परवानग्यांची अनुमती द्या";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "सुरू ठेवा";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "सूचना आणि संपर्क अनुमत केल्यास आपण प्राप्त झाल्यावर संदेश पाहू शकता आणि याच्याने आपल्याला आपल्या ओळखीचे लोक शोधण्यात मदत मिळते. संपर्क एन्क्रिप्टेड असतात म्हणून Morse सेवा त्यांना पाहू शकत नाही.";

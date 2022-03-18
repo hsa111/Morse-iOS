@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "我们并不建议关联您的iPhone，它会使某些关键功能受限。";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "授予权限";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "继续";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "授予通知和读取联系人权限后，您可以收到消息提醒，并轻松地找到您认识的用户。联系人信息将被加密，不会被 Morse 服务端解密读取。";

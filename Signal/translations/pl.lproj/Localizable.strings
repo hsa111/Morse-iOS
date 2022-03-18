@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Łączenie Twojego iPhone nie jest zalecane i ograniczy podstawową funkcjonalność.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Włącz uprawnienia";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Kontyntynuj";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Zezwolenie na wyświetlanie powiadomień i dostęp do kontaktów pozwala Ci zobaczyć, kiedy przychodzą nowe wiadomości i znaleźć ludzi, których znasz. Kontakty są zaszyfrowane i usługa Morse nie ma do nich dostępu.";

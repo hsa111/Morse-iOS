@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "మీ ఐఫోన్‌ను లింక్ చేయడం సిఫారసు చేయబడలేదు మరియు కోర్ కార్యాచరణను పరిమితం చేస్తుంది.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "అనుమతులను అనుమతించండి";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "కొనసాగించు";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "నోటిఫికేషన్‌లు మరియు పరిచయాలను అనుమతించడం సందేశాలు వచ్చినప్పుడు చూడటానికి మిమ్మల్ని అనుమతిస్తుంది మరియు మీకు తెలిసిన వ్యక్తులను కనుగొనడంలో మీకు సహాయపడుతుంది. పరిచయాలు గుప్తీకరించబడ్డాయి కాబట్టి Morse సేవ వాటిని చూడదు.";

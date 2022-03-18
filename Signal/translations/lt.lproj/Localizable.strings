@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhone susiejimas nėra rekomenduojamas ir apribos pagrindinį funkcionalumą.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Suteikti leidimus";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Tęsti";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Leidę prieigą prie pranešimų ir adresatų, matysite žinutes, kai jos atkeliaus ir lengviau rasite pažįstamus žmones. Adresatai yra šifruoti, todėl Morse paslauga negali jų matyti.";

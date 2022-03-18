@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhone'unuzu bağlamak önerilmez ve bazı temel fonksiyonları sınırlar.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "İzinleri Etkinleştir";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Devam et";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Bildirimlere ve kişilere izin verilmesi, iletiler ulaştığında görmenize ve tanıdığınız kişileri bulmanıza yardımcı olur. Kişiler şifrelenmiştir, bu nedenle Morse hizmeti tarafından okunamazlar.";

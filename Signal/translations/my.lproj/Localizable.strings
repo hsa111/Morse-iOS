@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "သင့်ဖုန်းနှင့် ချိတ်ခြင်းကို အကြံမပြုပါ။ ၎င်းလုပ်ခြင်းသည် အဓိကလုပ်ဆောင်နိုင်စွမ်းများကို ကန့်သတ်နိုင်ပါသည်။";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "ခွင့်ပြုချက်များ ပေးမယ်";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "ဆက်လက်၍";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "အသိပေးချက်များ နှင့် အဆက်အသွယ်များကို ခွင့်ပြုထားလျှင် မက်ဆေ့ချ်များ မည်သည့်အချိန်တွင် ရရှိသည်ကို သိနိုင်ပြီး သင်သိသောလူများကို ရှာဖွေရန် ကူညီပါသည်။ အဆက်အသွယ် အချက်အလက်များကို အစမှအဆုံးထိ ကုဒ်ဖြင့်ဝှက်ထား၍ Morse မှ ၎င်းတို့ကို မတွေ့ရှိနိုင်ပါ။";

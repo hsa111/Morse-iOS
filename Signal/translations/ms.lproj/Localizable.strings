@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Memautkan iPhone anda tidak dicadangkan dan akan mengehadkan fungsi teras.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Benarkan Kebenaran";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" ="Teruskan";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Membenarkan pemberitahuan dan kenalan membolehkan anda nampak apabila mesej tiba dan membantu anda mencari orang yang anda kenali. Kenalan disulitkan supaya perkhidmatan Morse tidak dapat melihatnya.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Liên kết iPhone không được khuyên dùng và sẽ hạn chế một số tính năng.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Đồng ý Cho phép";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Tiếp tục";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Cho phép thông báo và liên hệ sẽ cho phép bạn thấy khi tin nhắn đến và giúp bạn tìm được những người mình quen biết. Các liên hệ được mã hoá nên dịch vụ Morse sẽ không thấy được thông tin này.";

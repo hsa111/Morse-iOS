@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhone'i ühendamine ei ole soovitatud ja limiteerib põhifunktsionaalsust.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Õiguste lubamine";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Jätka";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Teavituste ja kontaktide lubamine võimaldavad sul näha sõnumite saabumist ja aitavad leida isikuid, keda tunned. Kontaktid on krüptitud, nii et Morse teenus ei näe neid.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Propojení vašeho iPhonu není doporučené a omezí některé klíčové funkce.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Povolit oprávnění";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Pokračovat";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Povolení oznámení a kontaktů vám umožní zjistit, když zprávy dorazí, a pomůže vám najít lidi, které znáte. Kontakty jsou šifrovány, takže služba Morse je nemůže vidět.";

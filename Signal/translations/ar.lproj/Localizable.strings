@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "لا يُوصى بربط الـiPhone الخاص بك، إذ سيحدّ من بعض الوظف الأساسية.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "السَّماح بالصَّلاحيَّات";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "الاِستِمرار";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "يُتيحُ لكَ السَّماح بالإشعارات وجِهات الاتصال المَعرفة عِندَ وصول الرَّسائل ويُساعدك في العُثور على الأشخاص الذين تعرفهم. يتم تعمِيَة جهات الاتصال بحيث لا يُمكن لخدمة Morse رؤيتَها.";

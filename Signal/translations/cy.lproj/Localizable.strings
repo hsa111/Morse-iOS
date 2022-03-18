@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Nid yw cysylltu eich iPhone yn gymeradwy a bydd yn cyfyngu nodweddion craidd.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Galluogi Cantiatâd";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Parhau";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Mae caniatáu hysbysiadau a chysylltiadau yn gadael ichi weld pan fydd negeseuon yn cyrraedd ac yn eich helpu i ddod o hyd i bobl rydych chi'n eu hadnabod. Mae cysylltiadau wedi'u hamgryptio fel na all y gwasanaeth Morse eu gweld.";

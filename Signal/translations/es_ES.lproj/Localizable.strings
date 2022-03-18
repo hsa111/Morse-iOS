@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Enlazar tu iPhone no está recomendado ya que limitará funcionalidades importantes.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Activar permisos";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Adelante";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Al permitir notificaciones y acceso a tus contactos te permite saber cuándo recibes un mensaje de una amistad y encontrar a personas que conoces. Tu lista de contactos está cifrada y solo tú tienes acceso. Nadie más, ni siquiera la gente de Morse tiene acceso a ella.";

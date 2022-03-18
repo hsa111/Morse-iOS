@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "پیوند دادن آیفون شما پیشنهاد نمی شود و عملکرد اصلی را محدود می کند.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "اجازه مجوزها";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "ادامه دادن";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "اجازه دادن به اعلان‌ها و مخاطبین به شما اجازه می‌دهد ببینید که پیام‌ها چه زمانی می‌رسند و به پیدا کردن افرادی که می‌شناسید کمک می‌کند. مخاطبین سرتاسر رمزگذاری شده‌اند تا سرویس سیگنال قادر به دیدن آن‌ها نباشد.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhone piesaistīšana nav ieteicama, un tā ierobežos galvenās funkcijas.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Sniegt atļaujas";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Turpināt";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Sniedzot paziņojumu un kontaktpersonu atļaujas, varat redzēt, kad tiek saņemtas ziņas, kā arī meklēt pazīstamus cilvēkus. Kontaktpersonas ir šifrētas, tāpēc Morse pakalpojums tās nevar redzēt.";

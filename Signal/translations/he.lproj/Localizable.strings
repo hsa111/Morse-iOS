@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "קישור iPhone שלך אינו מומלץ ויגביל תפקודיות ליבה.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "התר הרשאות";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "המשך";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "התרה של התראות ואנשי קשר מאפשרת לך לראות מתי הודעות מגיעות ועוזרת לך למצוא אנשים שאתה מכיר. אנשי קשר מוצפנים כך ששירות Morse אינו יכול לראות אותם.";

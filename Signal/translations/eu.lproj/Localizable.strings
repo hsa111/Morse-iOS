@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Zure iPhone-a lotzea ez dago gomendatuta eta oinarrizko funtzionalitatea mugatuko du.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Onartu Baimenak";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Jarraitu";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Jakinarazpenak eta kontaktuak baimentzeak mezuak heltzen direnean jakinarazpena jasotzea eta ezagutzen duzun jendea bilatzen lagunduko dizu. Kontaktuak zifratuta da beraz Morse zerbitzuak ezin ditu ikusi.";

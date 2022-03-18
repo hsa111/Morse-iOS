@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Prepojenie vášho iPhonu sa neodporúča a obmedzí to základnú funkcionalitu.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Povoliť povolenia";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Pokračovať";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Povolenie hlásení a kontaktov vám umožní  vidieť prichádzajúce správy a nájsť osoby, ktoré poznáte. Kontakty sú zašifrované, a tak ich služba Morse nevidí.";

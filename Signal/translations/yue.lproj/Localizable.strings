@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "唔建議您連結 iPhone，因為核心功能會受限制。";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "允許權限";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "繼續";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "允許「通知」同「聯絡人」權限：當有新訊息入嚟嘅時候等您知道，並且協助您搵到您認識嘅人。聯絡人資訊係經過加密，因此 Morse 服務並唔會睇到。";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Kuunganisha iPhone yako hakupendekezwi na kutapunguza utendaji wake msingi.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Kubali Ruhusa";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Endelea";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Kuruhusu arifa na anwani kutakuwezesha kuona wakati ujumbe unawasili na kutakusaidia kuwapata watu unaowajua. Anwani zimesimbwa kwa njia fiche ili huduma ya Morse isiweze kuziona.";

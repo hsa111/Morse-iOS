@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "இணைத்தல் உங்கள் ஐபோன் பரிந்துரைக்கப்படவில்லை மற்றும் முக்கிய செயல்பாட்டைக் கட்டுப்படுத்தும்.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "அனுமதி அனுமதிகள்";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "தொடர்ந்து செல் ";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "அனுமதிக்கிறது அறிவிப்புகள் மற்றும் தொடர்புகள் செய்திகளை எப்போது வரும் என்பதைக் காண உங்களை அனுமதிக்கிறது மற்றும் கண்டுபிடிக்க உதவுகிறது மக்கள்உங்களுக்குத் தெரியும். தொடர்புகள் மறையாக்கப்பட்ட அதனால் Morse சேவை முடியாது அவர்களை பார்.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Associare il tuo iPhone non è consigliato e limiterà le funzionalità di base.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Consenti permessi";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Continua";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Consentire notifiche e contatti ti permette di vedere quando arrivano i messaggi e ti aiuta a trovare le persone che conosci. I contatti sono crittografati in modo che il servizio Morse non possa vederli.";

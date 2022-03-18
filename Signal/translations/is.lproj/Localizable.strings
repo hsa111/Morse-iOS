@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Að tengja iPhone-símann þinn er eitthvað sem ekki er mælt með og sem mun takmarka ýmsa kjarnaeiginleika.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Gefa heimildir";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Áfram";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Með því að leyfa tilkynningar og tengiliði muntu geta séð þegar skilaboð berast og auðveldar þér að finna fólk sem þú þekkir. Tengiliðir eru dulritaðir þannig að Morse-þjónustan sér þá ekki.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "તમારા iPhone ને લિંક કરવાની ભલામણ કરવામાં આવતી નથી અને તે મૂળ કાર્યક્ષમતાને મર્યાદિત કરશે.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "પરવાનગીઓને મંજૂરી આપો";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "ચાલુ રાખો";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "સૂચનાઓ અને સંપર્કોને મંજૂરી આપવાથી તમે મેસેજ ક્યારે આવે છે તે જોવા દે છે અને તમે ઓળખો છો તે લોકોને શોધવામાં મદદ કરે છે. સંપર્કો એનક્રિપ્ટ થયેલ છે જેથી Morse સર્વિસ તેમને જોઈ શકતી નથી.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "നിങ്ങളുടെ ഫോൺ ലിങ്ക് ചെയ്യുന്നത്  ശുപാർശ ചെയ്യുന്നില്ല, അത് ചില പ്രധാന പ്രവർത്തന സംവിധാനങ്ങളെ പരിമിതപ്പെടുത്തും.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "അനുമതികൾ അനുവദിക്കുക";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "തുടരുക";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "അറിയിപ്പുകളും കോൺ‌ടാക്റ്റുകൾ-ളും അനുവദിക്കുന്നത് സന്ദേശങ്ങള്‍ വരുമ്പോൾ കാണാനും നിങ്ങൾക്ക് അറിയാവുന്ന ആളുകളെ കണ്ടെത്താൻ നിങ്ങളെ സഹായിക്കാനും നിങ്ങളെ അനുവദിക്കുന്നു. കോൺ‌ടാക്റ്റുകൾ എൻക്രിപ്റ്റ് ചെയ്തിരിക്കുന്നു, അതിനാൽ Morse സേവനത്തിന് അവ കാണാൻ കഴിയില്ല";

@@ -562,7 +562,7 @@ public class ShareViewController: UIViewController, ShareViewDelegate, SAEFailed
                 alertMessage = nil
             } else {
                 alertTitle = NSLocalizedString("SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE",
-                                               comment: "Shown when trying to share content to a Signal user for the share extension. Followed by failure details.")
+                                               comment: "Shown when trying to share content to a Morse user for the share extension. Followed by failure details.")
                 alertMessage = error.userErrorDescription
             }
 

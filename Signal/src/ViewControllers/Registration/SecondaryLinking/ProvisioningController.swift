@@ -148,7 +148,7 @@ public class ProvisioningController: NSObject {
                     let updateAction = ActionSheetAction(title: updateButtonText,
                                                          accessibilityIdentifier: "alert.update",
                                                          style: .default) { _ in
-                                                            let url = URL(string: "https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8")!
+                                                            let url = URL(string: "https://itunes.apple.com/us/app/mooorse-messenger/id1614558280?mt=8")!
                                                             UIApplication.shared.open(url, options: [:])
                     }
                     alert.addAction(updateAction)

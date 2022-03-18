@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhone نىڭىزنى باغلاش ئادەتتە تەۋسىيە قىلىنمايدۇ ۋە بەزى نۇقتىلىق ئىقتىدارلار چەكلىنىپ قالىدۇ.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "ھوقۇق بېرىڭ";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "داۋاملىق";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "ئۇقتۇرۇشلار ۋە ئالاقىداشلارغا رۇخسەت بېرىش - ئۇچۇرلىرىڭىزنىڭ قاچان كەلگەنلىكىنى كۆرەلىشىڭىز ۋە تونۇيدىغان كىشىلەرنى تېپىشىڭىزغا ياردەم بېرىدۇ. ئالاقىداشلار مەخپىيلەشتۈرۈلىدىغان بولغاچقا، Morse مۇلازىمىتى ئۇلارنى كۆرەلمەيدۇ.";

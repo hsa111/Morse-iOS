@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhonen yhdistämistä ei suositella. Se rajoittaa myös ydintoimintoja.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Myönnä käyttöoikeudet";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Jatkaa";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Ilmoitusten ja yhteystietojen salliminen mahdollistaa uusista viesteistä tiedottamisen ja tuntemiesi ihmisten löytämisen. Yhteystiedot salataan, eikä Morse-sovellus käsittele niitä.";

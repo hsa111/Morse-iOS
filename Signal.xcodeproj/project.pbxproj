@@ -2241,6 +2241,7 @@
 		A5E7C674248C5442007C949A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = translations/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC12B5FAA0E45C608224A310 /* OWSAddToContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWSAddToContactViewController.swift; sourceTree = "<group>"; };
 		ACC519FE3DF79E0AF9BB1CD6 /* Pods-SignalNSE.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalNSE.app store release.xcconfig"; path = "Pods/Target Support Files/Pods-SignalNSE/Pods-SignalNSE.app store release.xcconfig"; sourceTree = "<group>"; };
+		ADC05BED27E177F800B51C80 /* SignalShareExtensionTestable Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SignalShareExtensionTestable Release.entitlements"; sourceTree = "<group>"; };
 		ADE74DAB27C8C501002C6FDB /* SignalDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignalDebug.entitlements; sourceTree = "<group>"; };
 		ADE74DAC27C8C596002C6FDB /* SignalProfiling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignalProfiling.entitlements; sourceTree = "<group>"; };
 		ADE74DAD27C8CA77002C6FDB /* SignalShareExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignalShareExtensionDebug.entitlements; sourceTree = "<group>"; };
@@ -3598,6 +3599,7 @@
 		453518691FC635DD00210559 /* SignalShareExtension */ = {
 			isa = PBXGroup;
 			children = (
+				ADC05BED27E177F800B51C80 /* SignalShareExtensionTestable Release.entitlements */,
 				ADE74DAD27C8CA77002C6FDB /* SignalShareExtensionDebug.entitlements */,
 				4535186F1FC635DD00210559 /* Info.plist */,
 				4535186C1FC635DD00210559 /* MainInterface.storyboard */,
@@ -6691,7 +6693,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalNSE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalNSE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -6763,7 +6765,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalNSE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalNSE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -6837,7 +6839,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalNSE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalNSE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6911,7 +6913,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalNSE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalNSE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6974,7 +6976,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -7056,7 +7058,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7139,7 +7141,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7223,7 +7225,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7552,7 +7554,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DDEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.shareextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.shareextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -7621,7 +7623,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.shareextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.shareextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -7681,7 +7683,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalMessaging";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalMessaging;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
@@ -7760,7 +7762,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalMessaging";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalMessaging;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
@@ -7920,8 +7922,9 @@
 					"$(SRCROOT)",
 				);
 				LLVM_LTO = NO;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse;
 				PRODUCT_NAME = Signal;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -7929,7 +7932,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Signal/src/Signal-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -8033,7 +8036,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = SignalShareExtension/SignalShareExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "SignalShareExtension/SignalShareExtensionTestable Release.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
@@ -8060,7 +8063,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.shareextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.shareextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -8139,7 +8142,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalMessaging";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalMessaging;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
@@ -8492,8 +8495,9 @@
 					"$(SRCROOT)",
 				);
 				LLVM_LTO = NO;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse;
 				PRODUCT_NAME = Signal;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -8501,7 +8505,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Signal/src/Signal-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -8630,7 +8634,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.shareextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.shareextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -8709,7 +8713,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1.SignalMessaging";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse.SignalMessaging;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
@@ -9015,9 +9019,10 @@
 					"$(SRCROOT)",
 				);
 				LLVM_LTO = NO;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse;
 				PRODUCT_NAME = Signal;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -9026,7 +9031,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Signal/src/Signal-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -9085,8 +9090,9 @@
 					"$(SRCROOT)",
 				);
 				LLVM_LTO = NO;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.signal-plus.signaltest1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devplusone.morse;
 				PRODUCT_NAME = Signal;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -9094,7 +9100,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Signal/src/Signal-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};

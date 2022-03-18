@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Om u iPhone te koppel word nie aanbeveel nie en sal sekere kernfunksies beperk.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Laat toestemmings toe";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Gaan voort";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Deur kennisgewings en kontakte toe te laat kan u sien wanneer boodskappe aankom en dit help om metse wat u ken te vinf. Kontakte is geëinkripteer sodat die Morse-diens dit nie kan sien nie.";

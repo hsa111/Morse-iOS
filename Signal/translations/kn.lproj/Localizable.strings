@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "ನಿಮ್ಮ ಐಫೋನ್ ಲಿಂಕ್ ಮಾಡಲು ಶಿಫಾರಸು ಮಾಡಲಾಗಿಲ್ಲ ಮತ್ತು ಇದು ಮುಖ್ಯ ಕಾರ್ಯವನ್ನು ಮಿತಗೊಳಿಸುತ್ತದೆ.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "ಅನುಮತಿಗಳನ್ನು ಅನುಮತಿಸಿ";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "ಮುಂದುವರಿಸಿ";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "ನೋಟಿಫಿಕೇಶನ್‌ಗಳ ಮತ್ತು ಸಂಪರ್ಕಗಳ ಅನುಮತಿಸುವಿಕೆಯು ಸಂದೇಶಗಳು ಯಾವಾಗ ಬಂದಿವೆ ಎಂಬುದನ್ನು ನೋಡಲು ಹಾಗೂ ನಿಮಗೆ ತಿಳಿದಿರುವ ಜನರನ್ನು ಹುಡುಕಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಸಂಪರ್ಕಗಳನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿರುವುದರಿಂದ Morse ಸೇವೆಯು ಅದನ್ನು ನೋಡಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.";

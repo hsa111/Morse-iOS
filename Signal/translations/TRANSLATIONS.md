@@ -17,10 +17,10 @@ files into our English localization file:
 At this point you should see your new strings, untranslated in only the English
 (en) localization.
 
-Edit Signal/translations/en.lproj/Localizable.strings to translate your strings.
+Edit Morse/translations/en.lproj/Localizable.strings to translate your strings.
 
 Commit these English translations with your work. Do not touch the non-English
-localizations. Those are updated as part of our release process by Signal
+localizations. Those are updated as part of our release process by Morse
 Staff.
 
 ### Writing Good Translatable Strings
@@ -50,7 +50,7 @@ provided. For example, is it an alert title, which can be a few words, a
 button, which must be *very* short, or an alert message, which can be a
 little longer?
 
-## For Maintainers (Signal Staff)
+## For Maintainers (Morse Staff)
 
 Translations are solicited on Transifex[https://www.transifex.com/signalapp/signal-ios/]. We
 upload our source language (US English) to Transifex, where our

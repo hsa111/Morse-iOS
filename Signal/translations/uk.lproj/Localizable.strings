@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Прив'язка вашого iPhone не рекомендована і обмежить основну функціональність.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Надати дозвіл";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Продовжити";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Дозволивши сповіщення та доступ до контактів допоможе вам бачити, коли надходять повідомлення та відшукувати людей, яких ви знаете. Контакти зашифровано, тому Morse не бачить їх.";

@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "آپ کے iPhone کو جوڑنے کی سفارش نہیں کی جاتی ہے اور بنیادی فعالیت کو محدود کردے گی۔";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "اجازت کو منظور کریں";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "جاری رکھیں";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "اطلاعات اور رابطوں کی اجازت دینا آپ کو یہ دیکھنے دیتا ہے کہ جب پیغامات آتے ہیں اور آپ کو جانتے لوگوں کو تلاش کرنے میں مدد کرتا ہے۔ رابطے کو خفیہ کردیا گیا ہے تاکہ Morse سروس انہیں نہیں دیکھ سکتی ہے۔";

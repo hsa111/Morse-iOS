@@ -3755,7 +3755,7 @@
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Menautkan iPhone tidak dianjurkan dan akan membatasi fungsi-fungsi Morse.";
 
 /* Label for the 'give access' button in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Berikan Perizinan";
+"ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Lanjut";
 
 /* Explanation in the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_EXPLANATION" = "Mengizinkan pemberitahuan dan akses kontak memungkinkan Anda melihat saat pesan sampai dan membantu Anda menemukan orang yang Anda cari. Kontak-kontak dienkripsi sehingga layanan Morse tidak dapat melihatnya.";

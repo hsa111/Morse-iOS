@@ -156,7 +156,7 @@ class DebugUIGroupsV2: DebugUIPage {
         let signalAccounts = self.contactsManagerImpl.unsortedSignalAccounts(transaction: transaction)
 
         // These will fail if you aren't registered or
-        // don't have some Signal users in your contacts.
+        // don't have some Morse users in your contacts.
         let localAddress = tsAccountManager.localAddress!
         var allAddresses = signalAccounts.map { $0.recipientAddress }
         if groupsVersion == .V2 {
@@ -164,7 +164,7 @@ class DebugUIGroupsV2: DebugUIPage {
             allAddresses = allAddresses.filter { $0.uuid != nil }
         }
         guard allAddresses.count >= 3 else {
-            return owsFailDebug("Not enough Signal users in your contacts.")
+            return owsFailDebug("Not enough Morse users in your contacts.")
         }
         let updaterAddress: SignalServiceAddress?
         if isAnonymousUpdate {
