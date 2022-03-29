@@ -991,6 +991,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
 
 - (void)presentGetStartedBannerIfNecessary
 {
+    return; //disable startedBanner
     if (self.getStartedBanner || self.homeViewMode != HomeViewModeInbox) {
         return;
     }
