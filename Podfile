@@ -80,7 +80,7 @@ def ui_pods
   pod 'MobileCoin', git: 'https://github.com/mobilecoinofficial/MobileCoin-Swift.git', :tag => 'v1.1.0'
 end
 
-target 'Signal' do
+target 'Morse' do
   project 'Signal.xcodeproj', 'Debug' => :debug, 'Release' => :release
 
   # Pods only available inside the main Signal app
@@ -242,7 +242,7 @@ end
 #conversation process, by ensuring symlinks are properly respected in the XCFramework. 
 #See https://github.com/CocoaPods/CocoaPods/issues/7587
 def update_frameworks_script(installer)
-    fw_script = File.read('Pods/Target Support Files/Pods-Signal/Pods-Signal-frameworks.sh')
+    fw_script = File.read('Pods/Target Support Files/Pods-Morse/Pods-Morse-frameworks.sh')
     fw_script_mod = fw_script.gsub('      lipo -remove "$arch" -output "$binary" "$binary"
 ', '      realBinary="${binary}"
       if [ -L "${realBinary}" ]; then
@@ -251,7 +251,7 @@ def update_frameworks_script(installer)
         realBinary="${dirname}/$(readlink "${realBinary}")"
       fi
       lipo -remove "${arch}" -output "${realBinary}" "${realBinary}" || exit 1')
-    File.open('Pods/Target Support Files/Pods-Signal/Pods-Signal-frameworks.sh', "w") { |file| file << fw_script_mod }
+    File.open('Pods/Target Support Files/Pods-Morse/Pods-Morse-frameworks.sh', "w") { |file| file << fw_script_mod }
 end
 
 # Disable warnings on any Pod not currently being modified
@@ -287,7 +287,7 @@ def disable_non_development_pod_warnings(installer)
 end
 
 def copy_acknowledgements
-  raw_acknowledgements = File.read('Pods/Target Support Files/Pods-Signal/Pods-Signal-Acknowledgements.plist')
+  raw_acknowledgements = File.read('Pods/Target Support Files/Pods-Morse/Pods-Morse-Acknowledgements.plist')
   formatted_acknowledgements = raw_acknowledgements.gsub(/(?<!>)(?<!\n)\n( *)(?![ \*])(?![ -])(?!\n)(?!<)/, ' ')
   File.open('Signal/Settings.bundle/Acknowledgements.plist', "w") { |file| file.puts formatted_acknowledgements }
 end
