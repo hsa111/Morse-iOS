@@ -4,8 +4,16 @@
 <dict>
 	<key>BuildDetails</key>
 	<dict>
+		<key>DateTime</key>
+		<string>Wed Mar 30 13:55:09 UTC 2022</string>
+		<key>SignalCommit</key>
+		<string>6d9b7aa11e142334952c78d76fc3768ea0268684 update podfiles</string>
+		<key>Timestamp</key>
+		<string>1648648509</string>
 		<key>WebRTCCommit</key>
 		<string>1ab326495ab7915dbd74fc3049c45a05fa038b37 Production build of v2.15.0</string>
+		<key>XCodeVersion</key>
+		<string>1300.1320</string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
