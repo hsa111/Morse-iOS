@@ -402,28 +402,6 @@ public class SendPaymentCompletionActionSheet: ActionSheetController {
         addRow(title: recipientDescription,
                value: formatMobileCoinAmount(paymentInfo.paymentAmount))
 
-        if let currencyConversion = paymentInfo.currencyConversion {
-            if let fiatAmountString = PaymentsFormat.formatAsFiatCurrency(paymentAmount: paymentInfo.paymentAmount,
-                                                                        currencyConversionInfo: currencyConversion) {
-                let fiatFormat = NSLocalizedString("PAYMENTS_NEW_PAYMENT_FIAT_CONVERSION_FORMAT",
-                                                   comment: "Format for the 'fiat currency conversion estimate' indicator. Embeds {{ the fiat currency code }}.")
-
-                let currencyConversionInfoView = UIImageView.withTemplateImageName("info-outline-24",
-                                                                                   tintColor: Theme.secondaryTextAndIconColor)
-                currencyConversionInfoView.autoSetDimensions(to: .square(16))
-                currencyConversionInfoView.setCompressionResistanceHigh()
-
-                let row = addRow(title: String(format: fiatFormat, currencyConversion.currencyCode),
-                                 value: fiatAmountString,
-                                 titleIconView: currencyConversionInfoView)
-
-                row.isUserInteractionEnabled = true
-                row.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapCurrencyConversionInfo)))
-            } else {
-                owsFailDebug("Could not convert to fiat.")
-            }
-        }
-
         addRow(title: NSLocalizedString("PAYMENTS_NEW_PAYMENT_ESTIMATED_FEE",
                                         comment: "Label for the 'payment estimated fee' indicator."),
                value: formatMobileCoinAmount(paymentInfo.estimatedFeeAmount))
@@ -454,77 +432,13 @@ public class SendPaymentCompletionActionSheet: ActionSheetController {
     }
 
     private func recipientDescriptionWithSneakyTransaction(paymentInfo: PaymentInfo) -> String {
-        guard let recipient = paymentInfo.recipient as? SendPaymentRecipientImpl else {
-            owsFailDebug("Invalid recipient.")
-            return ""
-        }
-        let otherUserName: String
-        switch recipient {
-        case .address(let recipientAddress):
-            otherUserName = databaseStorage.read { transaction in
-                self.contactsManager.displayName(for: recipientAddress, transaction: transaction)
-            }
-        case .publicAddress(let recipientPublicAddress):
-            otherUserName = PaymentsImpl.formatAsBase58(publicAddress: recipientPublicAddress)
-        }
-        let userFormat = NSLocalizedString("PAYMENTS_NEW_PAYMENT_RECIPIENT_AMOUNT_FORMAT",
-                                           comment: "Format for the 'payment recipient amount' indicator. Embeds {{ the name of the recipient of the payment }}.")
-        return String(format: userFormat, otherUserName)
+        owsFailDebug("Invalid recipient.")
+        return ""
     }
 
     public static func formatPaymentFailure(_ error: Error, withErrorPrefix: Bool) -> String {
-        let errorDescription: String = {
-            switch error {
-            case let paymentsError as PaymentsError:
-                switch paymentsError {
-                case .insufficientFunds:
-                    if let paymentBalance = self.paymentsSwift.currentPaymentBalance {
-                        let formattedBalance = PaymentsFormat.format(paymentAmount: paymentBalance.amount,
-                                                                     isShortForm: false)
-                        let format = NSLocalizedString("PAYMENTS_NEW_PAYMENT_ERROR_INSUFFICIENT_FUNDS_FORMAT",
-                                                       comment: "Indicates that a payment failed due to insufficient funds. Embeds {{ current balance }}.")
-                        return String(format: format, formattedBalance)
-                    } else {
-                        return NSLocalizedString("PAYMENTS_NEW_PAYMENT_ERROR_INSUFFICIENT_FUNDS",
-                                                 comment: "Indicates that a payment failed due to insufficient funds.")
-                    }
-                case .outgoingVerificationTakingTooLong:
-                    return NSLocalizedString("PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG",
-                                             comment: "Indicates that an outgoing payment could not be verified in a timely way.")
-                case .timeout,
-                     .connectionFailure,
-                     .serverRateLimited,
-                     .authorizationFailure,
-                     .invalidServerResponse,
-                     .attestationVerificationFailed:
-                    return NSLocalizedString("PAYMENTS_NEW_PAYMENT_ERROR_CONNECTIVITY_FAILURE",
-                                             comment: "Indicates that a payment failed due to a connectivity failure.")
-                case .outdatedClient:
-                    return NSLocalizedString("PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT",
-                                             comment: "Indicates that a payment failed due to an outdated client.")
-                case .userHasNoPublicAddress,
-                     .invalidCurrency,
-                     .invalidAmount,
-                     .invalidFee,
-                     .invalidModel,
-                     .invalidInput:
-                    return NSLocalizedString("PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION",
-                                             comment: "Indicates that a payment failed due to being invalid.")
-                default:
-                    return NSLocalizedString("PAYMENTS_NEW_PAYMENT_ERROR_UNKNOWN",
+        return NSLocalizedString("PAYMENTS_NEW_PAYMENT_ERROR_UNKNOWN",
                                              comment: "Indicates that an unknown error occurred while sending a payment or payment request.")
-                }
-            default:
-                return NSLocalizedString("PAYMENTS_NEW_PAYMENT_ERROR_UNKNOWN",
-                                                     comment: "Indicates that an unknown error occurred while sending a payment or payment request.")
-            }
-        }()
-
-        guard withErrorPrefix else {
-            return errorDescription
-        }
-        // We don't use error prefixes for now.
-        return errorDescription
     }
 
     private func buildConfirmPaymentButtons() -> UIView {
@@ -545,97 +459,13 @@ public class SendPaymentCompletionActionSheet: ActionSheetController {
         helper.updateBalanceLabel(balanceLabel)
     }
 
-    private let preparedPaymentPromise = AtomicOptional<Promise<PreparedPayment>>(nil)
-
     private func tryToPreparePayment(paymentInfo: PaymentInfo) {
-        let promise: Promise<PreparedPayment> = firstly(on: .global()) { () -> Promise<PreparedPayment> in
-            // NOTE: We should not pre-prepare a payment if defragmentation
-            // is required.
-            Self.paymentsSwift.prepareOutgoingPayment(recipient: paymentInfo.recipient,
-                                                      paymentAmount: paymentInfo.paymentAmount,
-                                                      memoMessage: paymentInfo.memoMessage,
-                                                      paymentRequestModel: paymentInfo.paymentRequestModel,
-                                                      isOutgoingTransfer: paymentInfo.isOutgoingTransfer,
-                                                      canDefragment: false)
-        }
-
-        preparedPaymentPromise.set(promise)
-
-        firstly {
-            promise
-        }.done(on: .global()) { (_: PreparedPayment) in
-            Logger.info("Pre-prepared payment ready.")
-        }.catch(on: .global()) { error in
-            if case PaymentsError.defragmentationRequired = error {
-                Logger.warn("Error: \(error)")
-            } else {
-                owsFailDebugUnlessMCNetworkFailure(error)
-            }
-        }
+        
     }
 
     private func tryToSendPayment(paymentInfo: PaymentInfo) {
 
-        self.currentStep = .progressPay(paymentInfo: paymentInfo)
-
-        ModalActivityIndicatorViewController.presentAsInvisible(fromViewController: self) { [weak self] modalActivityIndicator in
-            guard let self = self else { return }
-
-            firstly(on: .global()) { () -> Promise<PreparedPayment> in
-                guard let promise = self.preparedPaymentPromise.get() else {
-                    throw OWSAssertionError("Missing preparedPaymentPromise.")
-                }
-                return firstly(on: .global()) { () -> Promise<PreparedPayment> in
-                    return promise
-                }.recover(on: .global()) { (error: Error) -> Promise<PreparedPayment> in
-                    if case PaymentsError.defragmentationRequired = error {
-                        // NOTE: We will always follow this code path if defragmentation
-                        // is required.
-                        Logger.info("Defragmentation required.")
-                        return Self.paymentsSwift.prepareOutgoingPayment(recipient: paymentInfo.recipient,
-                                                                         paymentAmount: paymentInfo.paymentAmount,
-                                                                         memoMessage: paymentInfo.memoMessage,
-                                                                         paymentRequestModel: paymentInfo.paymentRequestModel,
-                                                                         isOutgoingTransfer: paymentInfo.isOutgoingTransfer,
-                                                                         canDefragment: true)
-
-                    } else {
-                        throw error
-                    }
-                }
-            }.then(on: .global()) { (preparedPayment: PreparedPayment) in
-                Self.paymentsSwift.initiateOutgoingPayment(preparedPayment: preparedPayment)
-            }.then { (paymentModel: TSPaymentModel) -> Promise<Void> in
-                // Try to wait (with a timeout) for submission and verification to complete.
-                let blockInterval: TimeInterval = kSecondInterval * 60
-                return firstly(on: .global()) { () -> Promise<Void> in
-                    Self.paymentsSwift.blockOnOutgoingVerification(paymentModel: paymentModel).asVoid()
-                }.timeout(seconds: blockInterval, description: "Payments Verify Submission") {
-                    PaymentsError.outgoingVerificationTakingTooLong
-                }.recover(on: .global()) { (error: Error) -> Guarantee<()> in
-                    Logger.warn("Could not verify outgoing payment: \(error).")
-                    if let paymentsError = error as? PaymentsError,
-                       paymentsError.isNetworkFailureOrTimeout {
-                        return Guarantee.value(())
-                    } else {
-                        throw error
-                    }
-                }
-            }.done { _ in
-                AssertIsOnMainThread()
-
-                self.didSucceedPayment(paymentInfo: paymentInfo)
-
-                modalActivityIndicator.dismiss {}
-            }.catch { error in
-                AssertIsOnMainThread()
-                owsFailDebugUnlessMCNetworkFailure(error)
-
-                self.didFailPayment(paymentInfo: paymentInfo, error: error)
-
-                modalActivityIndicator.dismiss {}
-            }
-        }
+        
     }
 
     private static let autoDismissDelay: TimeInterval = 2.5
@@ -667,29 +497,7 @@ public class SendPaymentCompletionActionSheet: ActionSheetController {
     // TODO: Add support for requests.
     private func tryToSendPaymentRequest(requestInfo: RequestInfo) {
 
-        ModalActivityIndicatorViewController.present(fromViewController: self, canCancel: false) { [weak self] modalActivityIndicator in
-            guard let self = self else { return }
-
-            firstly {
-                PaymentsImpl.sendPaymentRequestMessagePromise(address: requestInfo.recipientAddress,
-                                                              paymentAmount: requestInfo.paymentAmount,
-                                                              memoMessage: requestInfo.memoMessage)
-            }.done { _ in
-                AssertIsOnMainThread()
-
-                modalActivityIndicator.dismiss {
-                    self.dismiss(animated: true)
-                }
-            }.catch { error in
-                AssertIsOnMainThread()
-                owsFailDebug("Error: \(error)")
-
-                // TODO: Add support for requests.
-                // self.currentStep = .failureRequest
-
-                modalActivityIndicator.dismiss {}
-            }
-        }
+       
     }
 
     // MARK: - Events

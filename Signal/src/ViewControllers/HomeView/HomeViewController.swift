@@ -138,42 +138,6 @@ public extension HomeViewController {
     func configureUnreadPaymentsBannerSingle(_ paymentsReminderView: UIView,
                                              paymentModel: TSPaymentModel,
                                              transaction: SDSAnyReadTransaction) {
-
-        guard paymentModel.isIncoming,
-              !paymentModel.isUnidentified,
-              let address = paymentModel.address,
-              let paymentAmount = paymentModel.paymentAmount,
-              paymentAmount.isValid else {
-            configureUnreadPaymentsBannerMultiple(paymentsReminderView, unreadCount: 1)
-            return
-        }
-        guard nil != TSContactThread.getWithContactAddress(address, transaction: transaction) else {
-            configureUnreadPaymentsBannerMultiple(paymentsReminderView, unreadCount: 1)
-            return
-        }
-
-        let userName = contactsManager.shortDisplayName(for: address, transaction: transaction)
-        let formattedAmount = PaymentsFormat.format(paymentAmount: paymentAmount,
-                                                    isShortForm: true,
-                                                    withCurrencyCode: true,
-                                                    withSpace: true)
-        let format = NSLocalizedString("PAYMENTS_NOTIFICATION_BANNER_1_WITH_DETAILS_FORMAT",
-                                       comment: "Format for the payments notification banner for a single payment notification with details. Embeds: {{ %1$@ the name of the user who sent you the payment, %2$@ the amount of the payment }}.")
-        let title = String(format: format, userName, formattedAmount)
-
-        let avatarView = ConversationAvatarView(sizeClass: .customDiameter(Self.paymentsBannerAvatarSize), localUserDisplayMode: .asUser)
-        avatarView.update(transaction) { config in
-            config.dataSource = .address(address)
-        }
-
-        let paymentsHistoryItem = PaymentsHistoryItem(paymentModel: paymentModel,
-                                                      displayName: userName)
-
-        configureUnreadPaymentsBanner(paymentsReminderView,
-                                      title: title,
-                                      avatarView: avatarView) { [weak self] in
-            self?.showAppSettings(mode: .payment(paymentsHistoryItem: paymentsHistoryItem))
-        }
     }
 
     func configureUnreadPaymentsBannerMultiple(_ paymentsReminderView: UIView,

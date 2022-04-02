@@ -125,18 +125,6 @@ class InternalSettingsViewController: OWSTableViewController2 {
         infoSection.add(.label(withText: "Audio Category: \(AVAudioSession.sharedInstance().category.rawValue.replacingOccurrences(of: "AVAudioSessionCategory", with: ""))"))
         infoSection.add(.label(withText: "Local Profile Key: \(profileManager.localProfileKey().keyData.hexadecimalString)"))
 
-        infoSection.add(.label(withText: "MobileCoin Environment: \(MobileCoinAPI.Environment.current)"))
-        infoSection.add(.label(withText: "Payments EnabledKey: \(paymentsHelper.arePaymentsEnabled ? "Yes" : "No")"))
-        if let paymentsEntropy = paymentsSwift.paymentsEntropy {
-            infoSection.add(.copyableItem(label: "Payments Entropy", value: paymentsEntropy.hexadecimalString))
-            if let passphrase = paymentsSwift.passphrase {
-                infoSection.add(.copyableItem(label: "Payments mnemonic", value: passphrase.asPassphrase))
-            }
-            if let walletAddressBase58 = paymentsSwift.walletAddressBase58() {
-                infoSection.add(.copyableItem(label: "Payments Address b58", value: walletAddressBase58))
-            }
-        }
-
         infoSection.add(.copyableItem(label: "iOS Version", value: AppVersion.iOSVersionString))
         infoSection.add(.copyableItem(label: "Device Model", value: AppVersion.hardwareInfoString))
 

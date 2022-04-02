@@ -208,7 +208,6 @@ class PaymentsDetailViewController: OWSTableViewController2 {
         // Type/Amount
         if let paymentAmount = paymentItem.paymentAmount,
            !paymentAmount.isZero {
-            let title: String
             if let address = paymentModel.address {
                 let username = Self.contactsManager.displayName(for: address)
                 let titleFormat: String
@@ -230,26 +229,9 @@ class PaymentsDetailViewController: OWSTableViewController2 {
                 }
             }
 
-            let value = PaymentsFormat.format(paymentAmount: paymentAmount,
-                                              isShortForm: false,
-                                              withCurrencyCode: true,
-                                              withSpace: true)
-
-            section.add(buildStatusItem(topText: title,
-                                        bottomText: value))
+            
         }
 
-        // Fee
-        if paymentModel.isOutgoing,
-           let feeAmount = paymentItem.paymentModel.mobileCoin?.feeAmount {
-            let value = PaymentsFormat.format(paymentAmount: feeAmount,
-                                                   isShortForm: false,
-                                                   withCurrencyCode: true,
-                                                   withSpace: true)
-            section.add(buildStatusItem(topText: NSLocalizedString("SETTINGS_PAYMENTS_PAYMENT_DETAILS_FEE",
-                                                                   comment: "Label for the 'MobileCoin network fee' in the payment details view in the app settings."),
-                                        bottomText: value))
-        }
 
         // TODO: We might not want to include dates if an incoming
         //       transaction has not yet been verified.
@@ -439,10 +421,6 @@ class PaymentsDetailViewController: OWSTableViewController2 {
 
         if paymentItem.isFailed {
             amountLabel.text = nil
-        } else if let paymentAmount = paymentItem.paymentAmount {
-            amountLabel.attributedText = PaymentsFormat.attributedFormat(paymentAmount: paymentAmount,
-                                                                         isShortForm: false,
-                                                                         paymentType: paymentItem.paymentType)
         } else {
             amountLabel.text = " "
 
@@ -480,10 +458,6 @@ class PaymentsDetailViewController: OWSTableViewController2 {
 
     @objc
     private func didTapRemove() {
-        databaseStorage.write { transaction in
-            self.payments.replaceAsUnidentified(paymentModel: self.paymentItem.paymentModel,
-                                                transaction: transaction)
-        }
         navigationController?.popViewController(animated: true)
     }
 }

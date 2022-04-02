@@ -41,7 +41,6 @@ public class SendPaymentViewController: OWSViewController {
     @objc
     public weak var delegate: SendPaymentViewDelegate?
 
-    private let recipient: SendPaymentRecipient
     private let paymentRequestModel: TSPaymentRequestModel?
     private let isOutgoingTransfer: Bool
 
@@ -72,15 +71,13 @@ public class SendPaymentViewController: OWSViewController {
     private var currentCurrencyConversion: CurrencyConversionInfo? { helper?.currentCurrencyConversion }
 
     private var isIdentifiedPayment: Bool {
-        recipient.isIdentifiedPayment
+        false
     }
 
-    public required init(recipient: SendPaymentRecipient,
-                         paymentRequestModel: TSPaymentRequestModel?,
+    public required init(paymentRequestModel: TSPaymentRequestModel?,
                          initialPaymentAmount: TSPaymentAmount?,
                          isOutgoingTransfer: Bool,
                          mode: SendPaymentMode) {
-        self.recipient = recipient
         self.mode = mode
         self.isOutgoingTransfer = isOutgoingTransfer
 
@@ -100,28 +97,14 @@ public class SendPaymentViewController: OWSViewController {
             if let paymentRequestModel = paymentRequestModel {
                 owsAssertDebug(paymentRequestModel.paymentAmount.currency == .mobileCoin)
 
-                if let requestAmountString = PaymentsFormat.formatAsDoubleString(picoMob: paymentRequestModel.paymentAmount.picoMob) {
-                    let inputString = InputString.parseString(requestAmountString, isFiat: false)
-                    amounts.set(currentAmount: .mobileCoin(inputString: inputString,
-                                                           exactAmount: nil),
-                                otherCurrencyAmount: nil)
-                } else {
-                    owsFailDebug("Could not apply request amount.")
-                }
+                owsFailDebug("Could not apply request amount.")
             }
         }
 
         if let initialPaymentAmount = initialPaymentAmount {
             owsAssertDebug(initialPaymentAmount.currency == .mobileCoin)
 
-            if let amountString = PaymentsFormat.formatAsDoubleString(picoMob: initialPaymentAmount.picoMob) {
-                let inputString = InputString.parseString(amountString, isFiat: false)
-                amounts.set(currentAmount: .mobileCoin(inputString: inputString,
-                                                       exactAmount: initialPaymentAmount),
-                            otherCurrencyAmount: nil)
-            } else {
-                owsFailDebug("Could not apply initial amount.")
-            }
+            owsFailDebug("Could not apply initial amount.")
         }
 
         super.init()
@@ -249,29 +232,7 @@ public class SendPaymentViewController: OWSViewController {
                                                    initialPaymentAmount: TSPaymentAmount? = nil,
                                                    isOutgoingTransfer: Bool,
                                                    mode: SendPaymentMode) {
-
-        let recipientHasPaymentsEnabled = databaseStorage.read { transaction in
-            Self.paymentsHelper.arePaymentsEnabled(for: recipientAddress, transaction: transaction)
-        }
-        guard recipientHasPaymentsEnabled else {
-            showRecipientNotEnabledAlert()
-            return
-        }
-
-        let recipient: SendPaymentRecipientImpl = .address(address: recipientAddress)
-        let view = SendPaymentViewController(recipient: recipient,
-                                             paymentRequestModel: paymentRequestModel,
-                                             initialPaymentAmount: initialPaymentAmount,
-                                             isOutgoingTransfer: isOutgoingTransfer,
-                                             mode: mode)
-        view.delegate = delegate
-        switch presentationMode {
-        case .fromConversationView(let fromViewController):
-            let navigationController = OWSNavigationController(rootViewController: view)
-            fromViewController.presentFormSheet(navigationController, animated: true)
-        case .inNavigationController(let navigationController):
-            navigationController.pushViewController(view, animated: true)
-        }
+        return
     }
 
     public static func showRecipientNotEnabledAlert() {
@@ -662,62 +623,6 @@ public class SendPaymentViewController: OWSViewController {
     }
 
     private func updateAmountLabels() {
-
-        let isZero = amount.inputString.isZero
-
-        func hideConversionLabelOrShowWarning() {
-            let shouldHaveValidValue = (!isZero && currentCurrencyConversion != nil)
-            smallAmountLabel.text = (shouldHaveValidValue
-                                        ? NSLocalizedString("PAYMENTS_NEW_PAYMENT_INVALID_AMOUNT",
-                                                            comment: "Label for the 'invalid amount' button.")
-                                        : " ")
-            smallAmountLabel.textColor = UIColor.ows_accentRed
-            currencyConversionInfoView.tintColor = .clear
-        }
-
-        func enableSmallLabel(_ text: String) {
-            smallAmountLabel.text = text
-            smallAmountLabel.textColor = Theme.secondaryTextAndIconColor
-            currencyConversionInfoView.tintColor = Theme.secondaryTextAndIconColor
-        }
-
-        bigAmountLabel.attributedText = amount.formatAsKeyboardInputAttributed(withSpace: false)
-
-        switch amount {
-        case .mobileCoin:
-            if let otherCurrencyAmount = self.otherCurrencyAmount,
-               let currencyConversion = otherCurrencyAmount.currencyConversion {
-                let formattedAmount = otherCurrencyAmount.formatForDisplay(withSpace: true).string
-                enableSmallLabel(Self.formatWithConversionFreshness(formattedAmount: formattedAmount,
-                                                                    currencyConversion: currencyConversion,
-                                                                    isZero: isZero))
-            } else if let currencyConversion = currentCurrencyConversion,
-                      let fiatCurrencyAmount = currencyConversion.convertToFiatCurrency(paymentAmount: parsedPaymentAmount),
-                      let fiatString = PaymentsFormat.attributedFormat(fiatCurrencyAmount: fiatCurrencyAmount,
-                                                                       currencyCode: currencyConversion.currencyCode,
-                                                                       withSpace: true) {
-                enableSmallLabel(Self.formatWithConversionFreshness(formattedAmount: fiatString.string,
-                                                                    currencyConversion: currencyConversion,
-                                                                    isZero: isZero))
-            } else {
-                hideConversionLabelOrShowWarning()
-            }
-        case .fiatCurrency(_, let currencyConversion):
-            if let otherCurrencyAmount = self.otherCurrencyAmount {
-                let formattedAmount = otherCurrencyAmount.formatForDisplay(withSpace: true).string
-                enableSmallLabel(Self.formatWithConversionFreshness(formattedAmount: formattedAmount,
-                                                                    currencyConversion: currencyConversion,
-                                                                    isZero: isZero))
-            } else {
-                let paymentAmount = currencyConversion.convertFromFiatCurrencyToMOB(amount.asDouble)
-                let formattedAmount = PaymentsFormat.attributedFormat(paymentAmount: paymentAmount,
-                                                                      isShortForm: false,
-                                                                      withSpace: true).string
-                enableSmallLabel(Self.formatWithConversionFreshness(formattedAmount: formattedAmount,
-                                                                    currencyConversion: currencyConversion,
-                                                                    isZero: isZero))
-            }
-        }
     }
 
     static func formatWithConversionFreshness(formattedAmount: String,
@@ -774,42 +679,7 @@ public class SendPaymentViewController: OWSViewController {
 
     @objc
     func didTapSwapCurrency() {
-        // If users repeatedly swap input currency, we don't want the
-        // values to drift due to rounding errors.  So we keep around
-        // the "other" currency amount and use it to swap if no changes
-        // have been made since the last switch.
-        if let otherCurrencyAmount = otherCurrencyAmount {
-            amounts.set(currentAmount: updateAmount(otherCurrencyAmount),
-                        otherCurrencyAmount: updateAmount(self.amount))
-            return
-        }
-
-        switch amount {
-        case .mobileCoin:
-            if let currencyConversion = currentCurrencyConversion,
-               let fiatCurrencyAmount = currencyConversion.convertToFiatCurrency(paymentAmount: parsedPaymentAmount),
-               let fiatString = PaymentsFormat.formatAsDoubleString(fiatCurrencyAmount) {
-                // Store the otherCurrencyAmount.
-                amounts.set(currentAmount: .fiatCurrency(inputString: InputString.parseString(fiatString, isFiat: true),
-                                                         currencyConversion: currencyConversion),
-                            otherCurrencyAmount: self.amount)
-            } else {
-                owsFailDebug("Could not switch to fiat currency.")
-                resetContents()
-            }
-        case .fiatCurrency(_, let currencyConversion):
-            let paymentAmount = currencyConversion.convertFromFiatCurrencyToMOB(amount.asDouble)
-            if let mobString = PaymentsFormat.formatAsDoubleString(picoMob: paymentAmount.picoMob) {
-                // Store the otherCurrencyAmount.
-                amounts.set(currentAmount: .mobileCoin(inputString: InputString.parseString(mobString,
-                                                                                            isFiat: false),
-                                                       exactAmount: nil),
-                            otherCurrencyAmount: self.amount)
-            } else {
-                owsFailDebug("Could not switch from fiat currency.")
-                resetContents()
-            }
-        }
+        
     }
 
     @objc
@@ -864,85 +734,15 @@ public class SendPaymentViewController: OWSViewController {
     }
 
     private func getEstimatedFeeAndSubmit(paymentAmount: TSPaymentAmount) {
-        ModalActivityIndicatorViewController.presentAsInvisible(fromViewController: self) { modalActivityIndicator in
-            firstly {
-                Self.paymentsSwift.getEstimatedFee(forPaymentAmount: paymentAmount)
-            }.done { (estimatedFeeAmount: TSPaymentAmount) in
-                AssertIsOnMainThread()
-
-                modalActivityIndicator.dismiss {
-                    self.tryToShowPaymentCompletionUI(paymentAmount: paymentAmount,
-                                                      estimatedFeeAmount: estimatedFeeAmount)
-                }
-            }.catch { error in
-                AssertIsOnMainThread()
-                if case PaymentsError.insufficientFunds = error {
-                    Logger.warn("Error: \(error)")
-                } else {
-                    owsFailDebugUnlessMCNetworkFailure(error)
-                }
-
-                modalActivityIndicator.dismiss {
-                    AssertIsOnMainThread()
-
-                    OWSActionSheets.showErrorAlert(
-                        message: SendPaymentCompletionActionSheet.formatPaymentFailure(error,
-                                                                                       withErrorPrefix: false)
-                    )
-                }
-            }
-        }
+       
     }
 
     private func tryToShowPaymentCompletionUI(paymentAmount: TSPaymentAmount,
                                               estimatedFeeAmount: TSPaymentAmount) {
-        guard paymentAmount.isValidAmount(canBeEmpty: false),
-              estimatedFeeAmount.isValidAmount(canBeEmpty: false) else {
-            showInvalidAmountAlert()
-            return
-        }
-        let totalAmount = paymentAmount.plus(estimatedFeeAmount)
-        guard let paymentBalance = paymentsSwift.currentPaymentBalance else {
-            OWSActionSheets.showErrorAlert(message: NSLocalizedString("SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE",
-                                                                      comment: "Error message indicating that a payment could not be sent because the current balance is unavailable."))
-            return
-        }
-        guard paymentBalance.amount.picoMob >= totalAmount.picoMob else {
-            showInsufficientBalanceUI(paymentBalance: paymentBalance)
-            return
-        }
-
-        showPaymentCompletionUI(paymentAmount: paymentAmount,
-                                estimatedFeeAmount: estimatedFeeAmount)
+       
     }
 
-    private func showInsufficientBalanceUI(paymentBalance: PaymentBalance) {
-        let messageFormat = NSLocalizedString("SETTINGS_PAYMENTS_PAYMENT_INSUFFICIENT_BALANCE_ALERT_MESSAGE_FORMAT",
-                                              comment: "Message for the 'insufficient balance for payment' alert. Embeds: {{ The current payments balance }}.")
-        let message = String(format: messageFormat, PaymentsFormat.format(paymentAmount: paymentBalance.amount,
-                                                                          isShortForm: false,
-                                                                          withCurrencyCode: true,
-                                                                          withSpace: true))
-
-        let actionSheet = ActionSheetController(title: NSLocalizedString("SETTINGS_PAYMENTS_PAYMENT_INSUFFICIENT_BALANCE_ALERT_TITLE",
-                                                                         comment: "Title for the 'insufficient balance for payment' alert."),
-                                                message: message)
-
-        // There's no point doing a "transfer in" transaction in order to
-        // enable a "transfer out".
-        if mode != .fromTransferOutFlow {
-            actionSheet.addAction(ActionSheetAction(title: NSLocalizedString("SETTINGS_PAYMENTS_PAYMENT_ADD_MONEY",
-                                                                             comment: "Label for the 'add money' button in the 'send payment' UI."),
-                                                    accessibilityIdentifier: "payments.settings.add_money",
-                                                    style: .default) { [weak self] _ in
-                self?.didTapAddMoneyButton()
-            })
-        }
-
-        actionSheet.addAction(OWSActionSheets.cancelAction)
-
-        presentActionSheet(actionSheet)
-    }
+   
 
     private func didTapAddMoneyButton() {
         switch mode {
@@ -978,23 +778,7 @@ public class SendPaymentViewController: OWSViewController {
 
     private func showPaymentCompletionUI(paymentAmount: TSPaymentAmount,
                                          estimatedFeeAmount: TSPaymentAmount) {
-        // Snapshot the conversion rate.
-        let currencyConversion = self.currentCurrencyConversion
-
-        Logger.verbose("paymentAmount: \(paymentAmount)")
-        Logger.verbose("estimatedFeeAmount: \(estimatedFeeAmount)")
-
-        let paymentInfo = PaymentInfo(recipient: recipient,
-                                      paymentAmount: paymentAmount,
-                                      estimatedFeeAmount: estimatedFeeAmount,
-                                      currencyConversion: currencyConversion,
-                                      paymentRequestModel: paymentRequestModel,
-                                      memoMessage: memoMessage,
-                                      isOutgoingTransfer: isOutgoingTransfer)
-        let actionSheet = SendPaymentCompletionActionSheet(mode: .payment(paymentInfo: paymentInfo),
-                                                           delegate: self)
-        self.actionSheet = actionSheet
-        actionSheet.present(fromViewController: self)
+        
     }
 
     private static func showEnablePaymentsActionSheet() {
@@ -1201,50 +985,11 @@ private enum Amount {
     }
 
     var formatForDisplay: String {
-        switch self {
-        case .mobileCoin:
-            guard let mobString = PaymentsFormat.format(mob: asDouble,
-                                                        isShortForm: false) else {
-                owsFailDebug("Couldn't format MOB string: \(inputString.asString(formatMode: .parsing))")
-                return inputString.asString(formatMode: .display)
-            }
-            return mobString
-        case .fiatCurrency:
-            guard let fiatString = PaymentsFormat.format(fiatCurrencyAmount: asDouble,
-                                                         minimumFractionDigits: 0) else {
-                owsFailDebug("Couldn't format fiat string: \(inputString.asString(formatMode: .parsing))")
-                return inputString.asString(formatMode: .display)
-            }
-            return fiatString
-        }
+        return inputString.asString(formatMode: .display)
     }
 
     var formatAsKeyboardInput: String {
         inputString.formatAsKeyboardInput
-    }
-
-    func formatForDisplay(withSpace: Bool) -> NSAttributedString {
-        switch self {
-        case .mobileCoin:
-            return PaymentsFormat.attributedFormat(mobileCoinString: formatForDisplay,
-                                                   withSpace: withSpace)
-        case .fiatCurrency(_, let currencyConversion):
-            return PaymentsFormat.attributedFormat(currencyString: formatForDisplay,
-                                                   currencyCode: currencyConversion.currencyCode,
-                                                   withSpace: withSpace)
-        }
-    }
-
-    func formatAsKeyboardInputAttributed(withSpace: Bool) -> NSAttributedString {
-        switch self {
-        case .mobileCoin:
-            return PaymentsFormat.attributedFormat(mobileCoinString: formatAsKeyboardInput,
-                                                   withSpace: withSpace)
-        case .fiatCurrency(_, let currencyConversion):
-            return PaymentsFormat.attributedFormat(currencyString: formatAsKeyboardInput,
-                                                   currencyCode: currencyConversion.currencyCode,
-                                                   withSpace: withSpace)
-        }
     }
 }
 
@@ -1350,11 +1095,7 @@ private struct InputString: Equatable {
     }
 
     static func forDouble(_ value: Double, isFiat: Bool) -> InputString {
-        guard let stringValue = PaymentsFormat.formatAsDoubleString(value) else {
-            owsFailDebug("Couldn't format double: \(value)")
-            return Self.defaultString(isFiat: isFiat)
-        }
-        return parseString(stringValue, isFiat: isFiat)
+        return Self.defaultString(isFiat: isFiat)
     }
 
     static func parseString(_ stringValue: String, isFiat: Bool) -> InputString {

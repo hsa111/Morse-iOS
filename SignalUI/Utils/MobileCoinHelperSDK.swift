@@ -4,19 +4,21 @@
 
 import Foundation
 import SignalServiceKit
-import MobileCoin
+//import MobileCoin
 
 @objc
 public class MobileCoinHelperSDK: NSObject, MobileCoinHelper {
 
     public func info(forReceiptData receiptData: Data) throws -> MobileCoinReceiptInfo {
-        guard let receipt = MobileCoin.Receipt(serializedData: receiptData) else {
-            throw OWSAssertionError("Invalid receipt.")
-        }
-        return MobileCoinReceiptInfo(txOutPublicKey: receipt.txOutPublicKey)
+        throw OWSAssertionError("Invalid receipt.")
+//        guard let receipt = MobileCoin.Receipt(serializedData: receiptData) else {
+//            throw OWSAssertionError("Invalid receipt.")
+//        }
+//        return MobileCoinReceiptInfo(txOutPublicKey: receipt.txOutPublicKey)
     }
 
     public func isValidMobileCoinPublicAddress(_ addressData: Data) -> Bool {
-        MobileCoin.PublicAddress(serializedData: addressData) != nil
+        return true
+        //MobileCoin.PublicAddress(serializedData: addressData) != nil
     }
 }

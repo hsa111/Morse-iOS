@@ -95,21 +95,7 @@ public class PaymentModelCell: UITableViewCell {
 
         nameLabel.text = paymentItem.displayName
 
-        // We don't want to render the amount for incoming
-        // transactions until they are verified.
-        if let paymentAmount = paymentModel.paymentAmount {
-            var totalAmount = paymentAmount
-            if let feeAmount = paymentModel.mobileCoin?.feeAmount {
-                totalAmount = totalAmount.plus(feeAmount)
-            }
-            amountLabel.text = PaymentsFormat.format(paymentAmount: totalAmount,
-                                                     isShortForm: true,
-                                                     withCurrencyCode: true,
-                                                     withSpace: false,
-                                                     withPaymentType: paymentModel.paymentType)
-        } else {
-            amountLabel.text = ""
-        }
+        amountLabel.text = ""
 
         arrangedSubviews.append(vStack)
         arrangedSubviews.append(amountLabel)

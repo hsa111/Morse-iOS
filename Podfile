@@ -76,8 +76,8 @@ def ui_pods
   pod 'Starscream', git: 'https://github.com/signalapp/Starscream.git', branch: 'signal-release'
   # pod 'Starscream', path: '../Starscream'
 
-  pod 'LibMobileCoin', git: 'https://github.com/signalapp/libmobilecoin-ios-artifacts.git', branch: 'signal/1.1.0'
-  pod 'MobileCoin', git: 'https://github.com/mobilecoinofficial/MobileCoin-Swift.git', :tag => 'v1.1.0'
+  #pod 'LibMobileCoin', git: 'https://github.com/signalapp/libmobilecoin-ios-artifacts.git', branch: 'signal/1.1.0'
+  #pod 'MobileCoin', git: 'https://github.com/mobilecoinofficial/MobileCoin-Swift.git', :tag => 'v1.1.0'
 end
 
 target 'Morse' do
@@ -100,7 +100,7 @@ end
 # These extensions inherit all of the common pods
 
 target 'SignalMessaging' do 
-  pod 'MobileCoinMinimal', git: 'https://github.com/signalapp/MobileCoin-Swift.git', branch: 'charlesmchen/mobileCoinMinimal', testspecs: ["Tests"]
+  #pod 'MobileCoinMinimal', git: 'https://github.com/signalapp/MobileCoin-Swift.git', branch: 'charlesmchen/mobileCoinMinimal', testspecs: ["Tests"]
   # pod 'MobileCoinMinimal', path: '../MobileCoinMinimal', testspecs: ["Tests"]
 end
 

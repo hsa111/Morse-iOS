@@ -34,8 +34,6 @@ class PaymentsTransferInViewController: OWSTableViewController2 {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
 
-        // We may have just transferred in; update the balance.
-        paymentsSwift.updateCurrentPaymentBalance()
     }
 
     public override func applyTheme() {
@@ -116,81 +114,13 @@ class PaymentsTransferInViewController: OWSTableViewController2 {
 
             configureWithSubviews(subviews: [label])
         }
-
-        guard let walletAddressBase58 = payments.walletAddressBase58(),
-              let walletAddressBase58Data = walletAddressBase58.data(using: .utf8) else {
-            configureForError()
-            return
-        }
-        let qrImage: UIImage
-        do {
-            qrImage = try QRCodeView.buildQRImage(data: walletAddressBase58Data,
-                                                  forExport: true)
-        } catch {
-            owsFailDebug("Error: \(error)")
-            configureForError()
-            return
-        }
-
-        let qrCodeView = UIImageView(image: qrImage)
-        // Don't antialias QR Codes.
-        qrCodeView.layer.magnificationFilter = .nearest
-        qrCodeView.layer.minificationFilter = .nearest
-        let viewSize = view.bounds.size
-        let qrCodeSize = min(viewSize.width, viewSize.height) * 0.5
-        qrCodeView.autoSetDimensions(to: .square(qrCodeSize))
-        qrCodeView.layer.cornerRadius = 8
-        qrCodeView.layer.masksToBounds = true
-
-        let titleLabel = UILabel()
-        titleLabel.text = NSLocalizedString("SETTINGS_PAYMENTS_WALLET_ADDRESS_LABEL",
-                                            comment: "Label for the payments wallet address.")
-        titleLabel.textColor = Theme.primaryTextColor
-        titleLabel.font = UIFont.ows_dynamicTypeBody2Clamped.ows_semibold
-        titleLabel.textAlignment = .center
-
-        let walletAddressLabel = UILabel()
-        walletAddressLabel.text = walletAddressBase58
-        walletAddressLabel.textColor = Theme.secondaryTextAndIconColor
-        walletAddressLabel.font = UIFont.ows_monospacedDigitFont(withSize: UIFont.ows_dynamicTypeBody2Clamped.pointSize)
-        walletAddressLabel.lineBreakMode = .byTruncatingMiddle
-        walletAddressLabel.textAlignment = .center
-
-        let copyLabel = UILabel()
-        copyLabel.text = CommonStrings.copyButton
-        copyLabel.textColor = Theme.accentBlueColor
-        copyLabel.font = UIFont.ows_dynamicTypeSubheadlineClamped.ows_semibold
-
-        let copyStack = UIStackView(arrangedSubviews: [copyLabel])
-        copyStack.axis = .vertical
-        copyStack.layoutMargins = UIEdgeInsets(hMargin: 30, vMargin: 4)
-        copyStack.isLayoutMarginsRelativeArrangement = true
-        copyStack.addPillBackgroundView(backgroundColor: Theme.secondaryBackgroundColor)
-
-        configureWithSubviews(subviews: [
-            qrCodeView,
-            UIView.spacer(withHeight: 20),
-            titleLabel,
-            UIView.spacer(withHeight: 8),
-            walletAddressLabel,
-            UIView.spacer(withHeight: 20),
-            copyStack
-        ])
     }
 
     // MARK: - Events
 
     private func didTapCopyAddress() {
         AssertIsOnMainThread()
-
-        guard let walletAddressBase58 = payments.walletAddressBase58() else {
-            owsFailDebug("Missing walletAddressBase58.")
-            return
-        }
-        UIPasteboard.general.string = walletAddressBase58
-
-        presentToast(text: NSLocalizedString("SETTINGS_PAYMENTS_ADD_MONEY_WALLET_ADDRESS_COPIED",
-                                             comment: "Indicator that the payments wallet address has been copied to the pasteboard."))
+        return
     }
 
     @objc
@@ -200,10 +130,6 @@ class PaymentsTransferInViewController: OWSTableViewController2 {
 
     @objc
     func didTapShare() {
-        guard let walletAddressBase58 = payments.walletAddressBase58() else {
-            owsFailDebug("Missing walletAddressBase58.")
-            return
-        }
-        AttachmentSharing.showShareUI(forText: walletAddressBase58, sender: self)
+        return
     }
 }

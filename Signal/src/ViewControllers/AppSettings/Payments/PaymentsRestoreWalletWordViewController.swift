@@ -22,11 +22,7 @@ public class PaymentsRestoreWalletWordViewController: OWSViewController {
         isValidWord(wordText)
     }
     private func isValidWord(_ wordText: String?) -> Bool {
-        guard let wordText = wordText,
-              !wordText.isEmpty else {
-            return false
-        }
-        return Self.paymentsSwift.isValidPassphraseWord(wordText)
+        return false
     }
 
     private let warningLabel = UILabel()

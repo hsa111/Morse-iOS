@@ -3,7 +3,6 @@
 //
 
 import Foundation
-import MobileCoin
 
 @objc
 class TestingViewController: OWSTableViewController2 {

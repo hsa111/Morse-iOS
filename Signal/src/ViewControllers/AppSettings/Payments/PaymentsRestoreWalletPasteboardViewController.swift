@@ -132,16 +132,7 @@ public class PaymentsRestoreWalletPasteboardViewController: OWSViewController {
             return
         }
         func tryToParsePassphrase() -> PaymentsPassphrase? {
-            guard let passphraseText = self.passphraseText else {
-                return nil
-            }
-            do {
-                return try PaymentsPassphrase.parse(passphrase: passphraseText,
-                                                    validateWords: true)
-            } catch {
-                Logger.warn("Error: \(error)")
-                return nil
-            }
+            return nil
         }
         guard let passphrase = tryToParsePassphrase() else {
             OWSActionSheets.showErrorAlert(message: NSLocalizedString("SETTINGS_PAYMENTS_RESTORE_WALLET_WORD_INVALID_PASSPHRASE",

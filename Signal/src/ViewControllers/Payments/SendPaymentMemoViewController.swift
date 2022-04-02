@@ -132,19 +132,6 @@ public class SendPaymentMemoViewController: OWSViewController {
     // MARK: -
 
     fileprivate func updateMemoCharacterCount() {
-        guard let strippedMemoMessage = memoTextField.text,
-              strippedMemoMessage.count > 0 else {
-            // Use whitespace to reserve space in the layout
-            // to avoid jitter.
-            memoCharacterCountLabel.text = " "
-            return
-        }
-
-        let format = NSLocalizedString("PAYMENTS_NEW_PAYMENT_MESSAGE_COUNT_FORMAT",
-                                       comment: "Format for the 'message character count indicator' for the 'new payment or payment request' view. Embeds {{ %1$@ the number of characters in the message, %2$@ the maximum number of characters in the message }}.")
-        memoCharacterCountLabel.text = String(format: format,
-                                              OWSFormat.formatInt(strippedMemoMessage.count),
-                                              OWSFormat.formatInt(PaymentsImpl.maxPaymentMemoMessageLength))
     }
 
     // MARK: - Events
@@ -171,22 +158,6 @@ public class SendPaymentMemoViewController: OWSViewController {
 
 extension SendPaymentMemoViewController: UITextFieldDelegate {
     public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString: String) -> Bool {
-        // Truncate the replacement to fit.
-        let left: String = (textField.text ?? "").substring(to: range.location)
-        let right: String = (textField.text ?? "").substring(from: range.location + range.length)
-        let maxReplacementLength = PaymentsImpl.maxPaymentMemoMessageLength - Int(left.count + right.count)
-        let center = replacementString.substring(to: maxReplacementLength)
-        textField.text = (left + center + right)
-
-        updateMemoCharacterCount()
-
-        // Place the cursor after the truncated replacement.
-        let positionAfterChange = left.count + center.count
-        guard let position = textField.position(from: textField.beginningOfDocument, offset: positionAfterChange) else {
-            owsFailDebug("Invalid position")
-            return false
-        }
-        textField.selectedTextRange = textField.textRange(from: position, to: position)
         return false
     }
 }

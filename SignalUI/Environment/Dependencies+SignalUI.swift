@@ -35,14 +35,6 @@ public extension NSObject {
     static var chatColors: ChatColors {
         SUIEnvironment.shared.chatColorsRef
     }
-
-    var payments: Payments {
-        SUIEnvironment.shared.paymentsRef
-    }
-
-    static var payments: Payments {
-        SUIEnvironment.shared.paymentsRef
-    }
 }
 
 // MARK: - Obj-C Dependencies
@@ -74,55 +66,5 @@ public extension Dependencies {
 
     static var chatColors: ChatColors {
         SUIEnvironment.shared.chatColorsRef
-    }
-
-    var payments: Payments {
-        SUIEnvironment.shared.paymentsRef
-    }
-
-    static var payments: Payments {
-        SUIEnvironment.shared.paymentsRef
-    }
-}
-
-// MARK: - Swift-only Dependencies
-
-public extension NSObject {
-
-    final var paymentsSwift: PaymentsSwift {
-        SUIEnvironment.shared.paymentsRef as! PaymentsSwift
-    }
-
-    static var paymentsSwift: PaymentsSwift {
-        SUIEnvironment.shared.paymentsRef as! PaymentsSwift
-    }
-
-    final var paymentsImpl: PaymentsImpl {
-        SUIEnvironment.shared.paymentsRef as! PaymentsImpl
-    }
-
-    static var paymentsImpl: PaymentsImpl {
-        SUIEnvironment.shared.paymentsRef as! PaymentsImpl
-    }
-}
-
-// MARK: - Swift-only Dependencies
-
-public extension Dependencies {
-
-    var paymentsSwift: PaymentsSwift {
-        SUIEnvironment.shared.paymentsRef as! PaymentsSwift
-    }
-
-    static var paymentsSwift: PaymentsSwift {
-        SUIEnvironment.shared.paymentsRef as! PaymentsSwift
-    }
-
-    var paymentsImpl: PaymentsImpl {
-        SUIEnvironment.shared.paymentsRef as! PaymentsImpl
-    }
-
-    static var paymentsImpl: PaymentsImpl {
-        SUIEnvironment.shared.paymentsRef as! PaymentsImpl
     }
 }

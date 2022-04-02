@@ -4,7 +4,6 @@
 
 import Foundation
 import Lottie
-import MobileCoin
 
 @objc
 public class PaymentsTransferOutViewController: OWSTableViewController2 {
@@ -69,8 +68,6 @@ public class PaymentsTransferOutViewController: OWSTableViewController2 {
     public override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-        paymentsSwift.updateCurrentPaymentBalance()
-        paymentsCurrencies.updateConversationRatesIfStale()
 
         addressTextfield.becomeFirstResponder()
     }
@@ -143,42 +140,13 @@ public class PaymentsTransferOutViewController: OWSTableViewController2 {
 
     @objc
     private func didTapNext() {
-        guard let publicAddress = tryToParseAddress() else {
+        
             OWSActionSheets.showActionSheet(title: NSLocalizedString("SETTINGS_PAYMENTS_TRANSFER_OUT_INVALID_PUBLIC_ADDRESS_TITLE",
                                                                      comment: "Title for error alert indicating that MobileCoin public address is not valid."),
                                             message: NSLocalizedString("SETTINGS_PAYMENTS_TRANSFER_OUT_INVALID_PUBLIC_ADDRESS",
                                                                        comment: "Error indicating that MobileCoin public address is not valid."))
             return
-        }
-        let recipientAddressBase58 = PaymentsImpl.formatAsBase58(publicAddress: publicAddress)
-        guard let localWalletAddressBase58 = payments.walletAddressBase58(),
-              localWalletAddressBase58 != recipientAddressBase58 else {
-            OWSActionSheets.showActionSheet(title: NSLocalizedString("SETTINGS_PAYMENTS_TRANSFER_OUT_INVALID_PUBLIC_ADDRESS_TITLE",
-                                                                     comment: "Title for error alert indicating that MobileCoin public address is not valid."),
-                                            message: NSLocalizedString("SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF",
-                                                                       comment: "Error indicating that it is not valid to send yourself a payment."))
-            return
-        }
-
-        let recipient: SendPaymentRecipientImpl = .publicAddress(publicAddress: publicAddress)
-        let view = SendPaymentViewController(recipient: recipient,
-                                             paymentRequestModel: nil,
-                                             initialPaymentAmount: transferAmount,
-                                             isOutgoingTransfer: true,
-                                             mode: .fromTransferOutFlow)
-        view.delegate = self
-        navigationController?.pushViewController(view, animated: true)
-    }
-
-    private func tryToParseAddress() -> MobileCoin.PublicAddress? {
-        guard let text = addressTextfield.text?.ows_stripped() else {
-            return nil
-        }
-        if let publicAddress = PaymentsImpl.parse(publicAddressBase58: text) {
-            return publicAddress
-        }
-        owsFailDebug("Could not parse value.")
-        return nil
+        
     }
 
     @objc

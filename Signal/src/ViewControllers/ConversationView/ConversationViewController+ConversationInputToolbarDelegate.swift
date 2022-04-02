@@ -379,12 +379,6 @@ extension ConversationViewController: ConversationInputToolbarDelegate {
 
         dismissKeyBoard()
 
-        if payments.isKillSwitchActive {
-            OWSActionSheets.showErrorAlert(message: NSLocalizedString("SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH",
-                                                                      comment: "Error message indicating that payments cannot be sent because the feature is not currently available."))
-            return
-        }
-
         SendPaymentViewController.presentFromConversationView(self,
                                                               delegate: self,
                                                               recipientAddress: contactThread.contactAddress,

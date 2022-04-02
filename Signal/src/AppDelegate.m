@@ -157,7 +157,7 @@ void uncaughtExceptionHandler(NSException *exception)
     if (SSKDebugFlags.audibleErrorLogging) {
         [DebugLogger.sharedLogger enableErrorReporting];
     }
-    [DebugLogger configureSwiftLogging];
+    //[DebugLogger configureSwiftLogging];
 
 #ifdef DEBUG
     [SSKFeatureFlags logFlags];
@@ -212,7 +212,7 @@ void uncaughtExceptionHandler(NSException *exception)
         return YES;
     }
 
-    [AppSetup setupEnvironmentWithPaymentsEvents:[PaymentsEventsMainApp new]
+    [AppSetup setupEnvironmentWithPaymentsEvents:[PaymentsEventsNoop new]
                                 mobileCoinHelper:[MobileCoinHelperSDK new]
                                 webSocketFactory:[WebSocketFactoryHybrid new]
                        appSpecificSingletonBlock:^{

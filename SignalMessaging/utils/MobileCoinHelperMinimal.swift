@@ -4,17 +4,18 @@
 
 import Foundation
 import SignalServiceKit
-import MobileCoinMinimal
+//import MobileCoinMinimal
 
 @objc
 public class MobileCoinHelperMinimal: NSObject, MobileCoinHelper {
 
     public func info(forReceiptData receiptData: Data) throws -> MobileCoinReceiptInfo {
-        let txOutPublicKey = try MobileCoinMinimal.txOutPublicKey(forReceiptData: receiptData)
-        return MobileCoinReceiptInfo(txOutPublicKey: txOutPublicKey)
+//        let txOutPublicKey = try MobileCoinMinimal.txOutPublicKey(forReceiptData: receiptData)
+        return MobileCoinReceiptInfo(txOutPublicKey: receiptData)
     }
 
     public func isValidMobileCoinPublicAddress(_ addressData: Data) -> Bool {
-        MobileCoinMinimal.isValidMobileCoinPublicAddress(addressData)
+        return true
+//        MobileCoinMinimal.isValidMobileCoinPublicAddress(addressData)
     }
 }

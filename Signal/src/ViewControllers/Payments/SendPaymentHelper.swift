@@ -6,7 +6,6 @@ import Foundation
 import UIKit
 
 public struct SendPaymentInfo {
-    let recipient: SendPaymentRecipient
     let paymentAmount: TSPaymentAmount
     let estimatedFeeAmount: TSPaymentAmount
     let currencyConversion: CurrencyConversionInfo?
@@ -64,12 +63,7 @@ class SendPaymentHelper: Dependencies {
     }
 
     private func addObservers() {
-        NotificationCenter.default.addObserver(
-            self,
-            selector: #selector(currentPaymentBalanceDidChange),
-            name: PaymentsImpl.currentPaymentBalanceDidChange,
-            object: nil
-        )
+
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(paymentConversionRatesDidChange),
@@ -81,7 +75,6 @@ class SendPaymentHelper: Dependencies {
     public func refreshObservedValues() {
         updateCurrentCurrencyConversion()
 
-        Self.paymentsSwift.updateCurrentPaymentBalance()
         paymentsCurrencies.updateConversationRatesIfStale()
     }
 
@@ -150,22 +143,6 @@ class SendPaymentHelper: Dependencies {
     }
 
     private func updateMaximumPaymentAmount() {
-        firstly {
-            Self.paymentsSwift.maximumPaymentAmount()
-        }.done(on: .main) { [weak self] maximumPaymentAmount in
-            guard let self = self else { return }
-            self.maximumPaymentAmount = maximumPaymentAmount
-            self.delegate?.balanceDidChange()
-        }.catch(on: .global()) { [weak self] error in
-            if case PaymentsError.insufficientFunds = error {
-                guard let self = self else { return }
-                self.maximumPaymentAmount = TSPaymentAmount(currency: .mobileCoin, picoMob: 0)
-                self.delegate?.balanceDidChange()
-            } else {
-                owsFailDebugUnlessMCNetworkFailure(error)
-            }
-        }
-
         delegate?.balanceDidChange()
     }
 
@@ -198,8 +175,7 @@ class SendPaymentHelper: Dependencies {
         owsAssertDebug(paymentAmount.currency == .mobileCoin)
         owsAssertDebug(paymentAmount.picoMob >= 0)
 
-        let formattedAmount = PaymentsFormat.format(paymentAmount: paymentAmount,
-                                                    isShortForm: false)
+        let formattedAmount = 111222
         let format = NSLocalizedString("PAYMENTS_NEW_PAYMENT_CURRENCY_FORMAT",
                                        comment: "Format for currency amounts in the 'send payment' UI. Embeds {{ %1$@ the current payments balance, %2$@ the currency indicator }}.")
         return String(format: format,

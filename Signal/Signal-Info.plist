@@ -5,11 +5,9 @@
 	<key>BuildDetails</key>
 	<dict>
 		<key>DateTime</key>
-		<string>Wed Mar 30 13:55:09 UTC 2022</string>
-		<key>SignalCommit</key>
-		<string>6d9b7aa11e142334952c78d76fc3768ea0268684 update podfiles</string>
+		<string>Sat Apr  2 05:48:33 UTC 2022</string>
 		<key>Timestamp</key>
-		<string>1648648509</string>
+		<string>1648878513</string>
 		<key>WebRTCCommit</key>
 		<string>1ab326495ab7915dbd74fc3049c45a05fa038b37 Production build of v2.15.0</string>
 		<key>XCodeVersion</key>
@@ -57,7 +55,7 @@
 	<key>LOGS_EMAIL</key>
 	<string>support@devplusone.com</string>
 	<key>LOGS_URL</key>
-	<string>https://github.com/hsa111/SignalPlus-iOS/issues</string>
+	<string>https://github.com/hsa111/Morse-iOS/issues</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.social-networking</string>
 	<key>LSApplicationQueriesSchemes</key>

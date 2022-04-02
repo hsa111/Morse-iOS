@@ -88,15 +88,6 @@ class AdvancedPinSettingsTableViewController: OWSTableViewController2 {
     }
 
     private func showRecordPaymentsPassphraseUI() {
-        guard let passphrase = paymentsSwift.passphrase else {
-            owsFailDebug("Missing passphrase.")
-            return
-        }
-        let view = PaymentsViewPassphraseSplashViewController(passphrase: passphrase,
-                                                              shouldShowConfirm: true,
-                                                              viewPassphraseDelegate: self)
-        let navigationVC = OWSNavigationController(rootViewController: view)
-        present(navigationVC, animated: true)
     }
 }
 

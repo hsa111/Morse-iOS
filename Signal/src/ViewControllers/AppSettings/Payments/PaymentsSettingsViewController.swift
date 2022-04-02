@@ -62,10 +62,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
     }
 
     private static func updateBalanceTimerDidFire() {
-        guard CurrentAppContext().isMainAppAndActive else {
-            return
-        }
-        Self.paymentsSwift.updateCurrentPaymentBalance()
+        return
     }
 
     // MARK: - Help Cards
@@ -91,11 +88,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
         // Order matters as we build this list.
         var helpCards = [HelpCard]()
         let hasSignificantBalance: Bool = {
-            guard let paymentBalance = Self.paymentsSwift.currentPaymentBalance else {
-                return false
-            }
-            let significantPicoMob = 500 * PaymentsConstants.picoMobPerMob
-            return paymentBalance.amount.picoMob >= significantPicoMob
+            return false
         }()
         if hasSignificantBalance {
             helpCards.append(.viewRecoveryPhrase)
@@ -188,9 +181,6 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
     public override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-        paymentsSwift.updateCurrentPaymentBalance()
-        paymentsCurrencies.updateConversationRatesIfStale()
-
         startUpdateBalanceTimer()
     }
 
@@ -218,12 +208,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
             name: PaymentsConstants.arePaymentsEnabledDidChange,
             object: nil
         )
-        NotificationCenter.default.addObserver(
-            self,
-            selector: #selector(updateTableContents),
-            name: PaymentsImpl.currentPaymentBalanceDidChange,
-            object: nil
-        )
+        
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(updateTableContents),
@@ -331,29 +316,20 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
             conversionInfoView.tintColor = .clear
         }
 
-        if let paymentBalance = Self.paymentsSwift.currentPaymentBalance {
-            balanceLabel.attributedText = PaymentsFormat.attributedFormat(paymentAmount: paymentBalance.amount,
-                                                                          isShortForm: false)
+        
+        // Use an empty string to avoid jitter in layout between the
+        // "pending balance" and "has balance" states.
+        balanceLabel.text = " "
 
-            if let balanceConversionText = Self.buildBalanceConversionText(paymentBalance: paymentBalance) {
-                conversionLabel.text = balanceConversionText
-            } else {
-                hideConversions()
-            }
-        } else {
-            // Use an empty string to avoid jitter in layout between the
-            // "pending balance" and "has balance" states.
-            balanceLabel.text = " "
+        let activityIndicator = UIActivityIndicatorView(style: Theme.isDarkThemeEnabled
+                                                            ? .white
+                                                            : .gray)
+        balanceStack.addSubview(activityIndicator)
+        activityIndicator.autoCenterInSuperview()
+        activityIndicator.startAnimating()
 
-            let activityIndicator = UIActivityIndicatorView(style: Theme.isDarkThemeEnabled
-                                                                ? .white
-                                                                : .gray)
-            balanceStack.addSubview(activityIndicator)
-            activityIndicator.autoCenterInSuperview()
-            activityIndicator.startAnimating()
-
-            hideConversions()
-        }
+        hideConversions()
+        
 
         let addMoneyButton = buildHeaderButton(title: NSLocalizedString("SETTINGS_PAYMENTS_ADD_MONEY",
                                                                         comment: "Label for 'add money' view in the payment settings."),
@@ -386,11 +362,6 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
         headerStack.isLayoutMarginsRelativeArrangement = true
         cell.contentView.addSubview(headerStack)
         headerStack.autoPinEdgesToSuperviewEdges()
-
-        headerStack.addTapGesture {
-            Self.paymentsSwift.updateCurrentPaymentBalance()
-            Self.paymentsCurrencies.updateConversationRatesIfStale()
-        }
     }
 
     private func buildHeaderButton(title: String, iconName: String, selector: Selector) -> UIView {
@@ -424,28 +395,6 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
         backgroundView.autoPinEdgesToSuperviewEdges()
 
         return stack
-    }
-
-    private static func buildBalanceConversionText(paymentBalance: PaymentBalance) -> String? {
-        let localCurrencyCode = paymentsCurrencies.currentCurrencyCode
-        guard let currencyConversionInfo = paymentsCurrenciesSwift.conversionInfo(forCurrencyCode: localCurrencyCode)  else {
-            return nil
-        }
-        guard let fiatAmountString = PaymentsFormat.formatAsFiatCurrency(paymentAmount: paymentBalance.amount,
-                                                                       currencyConversionInfo: currencyConversionInfo) else {
-            return nil
-        }
-
-        // NOTE: conversion freshness is different than the balance freshness.
-        //
-        // We format the conversion freshness date using the local locale.
-        // We format the currency using the EN/US locale.
-        //
-        // It is sufficient to format as a time, currency conversions go stale in less than a day.
-        let conversionFreshnessString = DateUtil.formatDate(asTime: currencyConversionInfo.conversionDate)
-        let formatString = NSLocalizedString("SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT",
-                                             comment: "Format string for the 'local balance converted into local currency' indicator. Embeds: {{ %1$@ the local balance in the local currency, %2$@ the local currency code, %3$@ the date the currency conversion rate was obtained. }}..")
-        return String(format: formatString, fiatAmountString, localCurrencyCode, conversionFreshnessString)
     }
 
     private func configureHistorySection(_ section: OWSTableSection,
@@ -577,51 +526,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
         bodyLabel.lineBreakMode = .byWordWrapping
         bodyLabel.textAlignment = .center
 
-        let buttonTitle = (Self.payments.paymentsEntropy != nil
-                            ? NSLocalizedString("SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON",
-                                                comment: "Label for 'activate' button in the 'payments opt-in' view in the app settings.")
-                            : NSLocalizedString("SETTINGS_PAYMENTS_OPT_IN_ACTIVATE_BUTTON",
-                                                comment: "Label for 'activate' button in the 'payments opt-in' view in the app settings."))
-        let activateButton = OWSFlatButton.button(title: buttonTitle,
-                                                  font: UIFont.ows_dynamicTypeBody.ows_semibold,
-                                                  titleColor: .white,
-                                                  backgroundColor: .ows_accentBlue,
-                                                  target: self,
-                                                  selector: #selector(didTapEnablePaymentsButton))
-        activateButton.autoSetHeightUsingFont()
-
-        let stack = UIStackView(arrangedSubviews: [
-            titleLabel,
-            UIView.spacer(withHeight: 24),
-            heroImageView,
-            UIView.spacer(withHeight: 20),
-            bodyLabel,
-            UIView.spacer(withHeight: 20),
-            activateButton
-        ])
-
-        if Self.payments.paymentsEntropy == nil {
-            let buttonTitle = NSLocalizedString("SETTINGS_PAYMENTS_RESTORE_PAYMENTS_BUTTON",
-                                                comment: "Label for 'restore payments' button in the payments settings.")
-            let restorePaymentsButton = OWSFlatButton.button(title: buttonTitle,
-                                                             font: UIFont.ows_dynamicTypeBody.ows_semibold,
-                                                             titleColor: .ows_accentBlue,
-                                                             backgroundColor: self.tableBackgroundColor,
-                                                             target: self,
-                                                             selector: #selector(didTapRestorePaymentsButton))
-            restorePaymentsButton.autoSetHeightUsingFont()
-            stack.addArrangedSubviews([
-                UIView.spacer(withHeight: 8),
-                restorePaymentsButton
-            ])
-        }
-
-        stack.axis = .vertical
-        stack.alignment = .fill
-        stack.layoutMargins = UIEdgeInsets(top: 20, leading: 0, bottom: 32, trailing: 0)
-        stack.isLayoutMarginsRelativeArrangement = true
-        cell.contentView.addSubview(stack)
-        stack.autoPinEdgesToSuperviewMargins()
+        
     }
 
     private func addHelpCards(contents: OWSTableContents,
@@ -833,8 +738,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
 
     @objc
     private func didTapConversionRefresh() {
-        paymentsSwift.updateCurrentPaymentBalance()
-        paymentsCurrencies.updateConversationRatesIfStale()
+        
     }
 
     @objc
@@ -905,21 +809,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
     }
 
     private func enablePayments() {
-        AssertIsOnMainThread()
-
-        guard !payments.isKillSwitchActive else {
-            OWSActionSheets.showErrorAlert(message: NSLocalizedString("SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH",
-                                                                      comment: "Error message indicating that payments could not be activated because the feature is not currently available."))
-            return
-        }
-
-        databaseStorage.asyncWrite { transaction in
-            Self.paymentsHelperSwift.enablePayments(transaction: transaction)
-
-            transaction.addAsyncCompletionOnMain {
-                self.showPaymentsActivatedToast()
-            }
-        }
+        
     }
 
     private func showPaymentsActivatedToast() {
@@ -931,16 +821,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
 
     @objc
     func didTapRestorePaymentsButton() {
-        AssertIsOnMainThread()
-
-        guard Self.payments.paymentsEntropy == nil else {
-            owsFailDebug("paymentsEntropy already set.")
-            return
-        }
-
-        let view = PaymentsRestoreWalletSplashViewController(restoreWalletDelegate: self)
-        let navigationVC = OWSNavigationController(rootViewController: view)
-        present(navigationVC, animated: true)
+       
     }
 
     @objc
@@ -964,16 +845,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
     }
 
     private func showViewPaymentsPassphraseUI() {
-        guard let passphrase = paymentsSwift.passphrase else {
-            owsFailDebug("Missing passphrase.")
-            return
-        }
-        let shouldShowConfirm = !Self.hasReviewedPassphraseWithSneakyTransaction()
-        let view = PaymentsViewPassphraseSplashViewController(passphrase: passphrase,
-                                                              shouldShowConfirm: shouldShowConfirm,
-                                                              viewPassphraseDelegate: self)
-        let navigationVC = OWSNavigationController(rootViewController: view)
-        present(navigationVC, animated: true)
+        
     }
 
     private func didTapDeactivatePaymentsButton() {
@@ -981,20 +853,7 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
     }
 
     private func didTapConfirmDeactivatePaymentsButton() {
-        guard let paymentBalance = self.paymentsSwift.currentPaymentBalance else {
-            OWSActionSheets.showErrorAlert(message: NSLocalizedString("SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE",
-                                                                      comment: "Error message indicating that payments could not be deactivated because the current balance is unavailable."))
-            return
-        }
-        guard paymentBalance.amount.picoMob > 0 else {
-            databaseStorage.write { transaction in
-                Self.paymentsHelperSwift.disablePayments(transaction: transaction)
-            }
-            return
-        }
-        let vc = PaymentsDeactivateViewController(paymentBalance: paymentBalance)
-        let navigationVC = OWSNavigationController(rootViewController: vc)
-        present(navigationVC, animated: true)
+        
     }
 
     private func didTapHelpButton() {
@@ -1017,26 +876,12 @@ public class PaymentsSettingsViewController: OWSTableViewController2 {
 
     @objc
     func didTapAddMoneyButton(sender: UIGestureRecognizer) {
-        guard !payments.isKillSwitchActive else {
-            OWSActionSheets.showErrorAlert(message: NSLocalizedString("SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH",
-                                                                      comment: "Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available."))
-            return
-        }
-        let view = PaymentsTransferInViewController()
-        let navigationController = OWSNavigationController(rootViewController: view)
-        present(navigationController, animated: true, completion: nil)
+        
     }
 
     @objc
     func didTapSendPaymentButton(sender: UIGestureRecognizer) {
-        guard !payments.isKillSwitchActive else {
-            OWSActionSheets.showErrorAlert(message: NSLocalizedString("SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH",
-                                                                      comment: "Error message indicating that payments cannot be sent because the feature is not currently available."))
-            return
-        }
-        PaymentsSendRecipientViewController.presentAsFormSheet(fromViewController: self,
-                                                               isOutgoingTransfer: false,
-                                                               paymentRequestModel: nil)
+        
     }
 
     private func didTapPaymentItem(paymentItem: PaymentsHistoryItem) {

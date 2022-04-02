@@ -329,13 +329,7 @@
 		3465947E2434CCC100E5C510 /* NewGroupConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465947D2434CCC100E5C510 /* NewGroupConfirmViewController.swift */; };
 		346594802434D49F00E5C510 /* NewGroupState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465947F2434D49F00E5C510 /* NewGroupState.swift */; };
 		346594822434D5E000E5C510 /* GroupAttributesEditorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346594812434D5E000E5C510 /* GroupAttributesEditorHelper.swift */; };
-		3465F4D527287677001663AF /* PaymentsReconciliation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465F4D027287674001663AF /* PaymentsReconciliation.swift */; };
-		3465F4D627287677001663AF /* PaymentsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465F4D127287674001663AF /* PaymentsProcessor.swift */; };
-		3465F4D727287677001663AF /* MobileCoinAPI+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465F4D227287675001663AF /* MobileCoinAPI+Configuration.swift */; };
-		3465F4D827287677001663AF /* PaymentsImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465F4D327287675001663AF /* PaymentsImpl.swift */; };
-		3465F4D927287677001663AF /* MobileCoinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465F4D427287675001663AF /* MobileCoinAPI.swift */; };
 		3465F4DB27287859001663AF /* PaymentsHelperImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465F4DA27287858001663AF /* PaymentsHelperImpl.swift */; };
-		3465F4DD2728812B001663AF /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465F4DC2728812A001663AF /* Payments.swift */; };
 		34661FB820C1C0D60056EDD6 /* message_sent.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 34661FB720C1C0D60056EDD6 /* message_sent.aiff */; };
 		34684DAF25C2228D00C5A93C /* determinate_spinner_white.json in Resources */ = {isa = PBXBuildFile; fileRef = 34684DAB25C2228C00C5A93C /* determinate_spinner_white.json */; };
 		34684DB025C2228D00C5A93C /* determinate_spinner_blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 34684DAC25C2228D00C5A93C /* determinate_spinner_blue.json */; };
@@ -516,8 +510,6 @@
 		34A955B3271B53F600B05242 /* BlockListUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A955B0271B53F600B05242 /* BlockListUIUtils.m */; };
 		34A955B4271B53F600B05242 /* BlockListUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A955B1271B53F600B05242 /* BlockListUIUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34A955B6271B54BD00B05242 /* UIColor+OWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A955B5271B54BC00B05242 /* UIColor+OWS.swift */; };
-		34A955B9271B553D00B05242 /* PaymentsFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A955B8271B553D00B05242 /* PaymentsFormat.swift */; };
-		34A955BB271B55BA00B05242 /* PaymentsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A955BA271B55BA00B05242 /* PaymentsUI.swift */; };
 		34A955BD271B560000B05242 /* NameCollisionFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A955BC271B560000B05242 /* NameCollisionFinder.swift */; };
 		34B0796D1FCF46B100E248C2 /* MainAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B0796B1FCF46B000E248C2 /* MainAppContext.m */; };
 		34B14D8B24F0012100CC3A9A /* GroupsPerfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B14D8A24F0012100CC3A9A /* GroupsPerfTest.swift */; };
@@ -556,7 +548,6 @@
 		34D1F0841F8678AA0066283D /* ConversationInputToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D1F06A1F8678AA0066283D /* ConversationInputToolbar.m */; };
 		34D1F0B41F86D31D0066283D /* ConversationCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D1F0B31F86D31D0066283D /* ConversationCollectionView.m */; };
 		34D1F0C01F8EC1760066283D /* MessageRecipientStatusUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1F0BF1F8EC1760066283D /* MessageRecipientStatusUtils.swift */; };
-		34D21DA227297FBF00D891F4 /* DebugLogger+Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D21DA127297FBE00D891F4 /* DebugLogger+Payments.swift */; };
 		34D2CCDA2062E7D000CB1A14 /* OWSScreenLockUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2CCD92062E7D000CB1A14 /* OWSScreenLockUI.m */; };
 		34D2CCDF206939B400CB1A14 /* DebugUIMessagesAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2CCDB206939B100CB1A14 /* DebugUIMessagesAction.m */; };
 		34D2CCE0206939B400CB1A14 /* DebugUIMessagesAssetLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2CCDC206939B200CB1A14 /* DebugUIMessagesAssetLoader.m */; };
@@ -1345,13 +1336,7 @@
 		3465947D2434CCC100E5C510 /* NewGroupConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGroupConfirmViewController.swift; sourceTree = "<group>"; };
 		3465947F2434D49F00E5C510 /* NewGroupState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGroupState.swift; sourceTree = "<group>"; };
 		346594812434D5E000E5C510 /* GroupAttributesEditorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupAttributesEditorHelper.swift; sourceTree = "<group>"; };
-		3465F4D027287674001663AF /* PaymentsReconciliation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsReconciliation.swift; sourceTree = "<group>"; };
-		3465F4D127287674001663AF /* PaymentsProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsProcessor.swift; sourceTree = "<group>"; };
-		3465F4D227287675001663AF /* MobileCoinAPI+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MobileCoinAPI+Configuration.swift"; sourceTree = "<group>"; };
-		3465F4D327287675001663AF /* PaymentsImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsImpl.swift; sourceTree = "<group>"; };
-		3465F4D427287675001663AF /* MobileCoinAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileCoinAPI.swift; sourceTree = "<group>"; };
 		3465F4DA27287858001663AF /* PaymentsHelperImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsHelperImpl.swift; sourceTree = "<group>"; };
-		3465F4DC2728812A001663AF /* Payments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payments.swift; sourceTree = "<group>"; };
 		34661FB720C1C0D60056EDD6 /* message_sent.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = message_sent.aiff; path = Signal/AudioFiles/message_sent.aiff; sourceTree = SOURCE_ROOT; };
 		34684DAB25C2228C00C5A93C /* determinate_spinner_white.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = determinate_spinner_white.json; sourceTree = "<group>"; };
 		34684DAC25C2228D00C5A93C /* determinate_spinner_blue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = determinate_spinner_blue.json; sourceTree = "<group>"; };
@@ -1669,8 +1654,6 @@
 		34A955B0271B53F600B05242 /* BlockListUIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockListUIUtils.m; sourceTree = "<group>"; };
 		34A955B1271B53F600B05242 /* BlockListUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockListUIUtils.h; sourceTree = "<group>"; };
 		34A955B5271B54BC00B05242 /* UIColor+OWS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+OWS.swift"; sourceTree = "<group>"; };
-		34A955B8271B553D00B05242 /* PaymentsFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsFormat.swift; sourceTree = "<group>"; };
-		34A955BA271B55BA00B05242 /* PaymentsUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsUI.swift; sourceTree = "<group>"; };
 		34A955BC271B560000B05242 /* NameCollisionFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameCollisionFinder.swift; sourceTree = "<group>"; };
 		34B0796B1FCF46B000E248C2 /* MainAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainAppContext.m; sourceTree = "<group>"; };
 		34B0796C1FCF46B000E248C2 /* MainAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainAppContext.h; sourceTree = "<group>"; };
@@ -1716,7 +1699,6 @@
 		34D1F0B21F86D31D0066283D /* ConversationCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationCollectionView.h; sourceTree = "<group>"; };
 		34D1F0B31F86D31D0066283D /* ConversationCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationCollectionView.m; sourceTree = "<group>"; };
 		34D1F0BF1F8EC1760066283D /* MessageRecipientStatusUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageRecipientStatusUtils.swift; sourceTree = "<group>"; };
-		34D21DA127297FBE00D891F4 /* DebugLogger+Payments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DebugLogger+Payments.swift"; sourceTree = "<group>"; };
 		34D2CCD82062E7D000CB1A14 /* OWSScreenLockUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSScreenLockUI.h; sourceTree = "<group>"; };
 		34D2CCD92062E7D000CB1A14 /* OWSScreenLockUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSScreenLockUI.m; sourceTree = "<group>"; };
 		34D2CCDB206939B100CB1A14 /* DebugUIMessagesAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugUIMessagesAction.m; sourceTree = "<group>"; };
@@ -3042,7 +3024,6 @@
 				34A954D2271B4F3E00B05242 /* Appearance */,
 				34A954E9271B4FB000B05242 /* Categories */,
 				3402A9D8271D953A0084CBAE /* Environment */,
-				34A955B7271B553D00B05242 /* Payments */,
 				34A954CE271B4D0700B05242 /* SignalUI-Prefix.pch */,
 				34A954AB271A471300B05242 /* SignalUI.docc */,
 				34A954AA271A471300B05242 /* SignalUI.h */,
@@ -3358,22 +3339,6 @@
 				34A955AA271B510500B05242 /* Wallpaper+Constants.swift */,
 			);
 			path = Wallpapers;
-			sourceTree = "<group>";
-		};
-		34A955B7271B553D00B05242 /* Payments */ = {
-			isa = PBXGroup;
-			children = (
-				34D21DA127297FBE00D891F4 /* DebugLogger+Payments.swift */,
-				3465F4D427287675001663AF /* MobileCoinAPI.swift */,
-				3465F4D227287675001663AF /* MobileCoinAPI+Configuration.swift */,
-				3465F4DC2728812A001663AF /* Payments.swift */,
-				34A955B8271B553D00B05242 /* PaymentsFormat.swift */,
-				3465F4D327287675001663AF /* PaymentsImpl.swift */,
-				3465F4D127287674001663AF /* PaymentsProcessor.swift */,
-				3465F4D027287674001663AF /* PaymentsReconciliation.swift */,
-				34A955BA271B55BA00B05242 /* PaymentsUI.swift */,
-			);
-			path = Payments;
 			sourceTree = "<group>";
 		};
 		34B3F8331E8DF1700035BE1A /* ViewControllers */ = {
@@ -5269,34 +5234,11 @@
 				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
 				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 				"${BUILT_PRODUCTS_DIR}/BonMot/BonMot.framework",
-				"${BUILT_PRODUCTS_DIR}/CGRPCZlib/CGRPCZlib.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIOAtomics/CNIOAtomics.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIOBoringSSL/CNIOBoringSSL.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIOBoringSSLShims/CNIOBoringSSLShims.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIODarwin/CNIODarwin.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIOHTTPParser/CNIOHTTPParser.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIOLinux/CNIOLinux.framework",
-				"${BUILT_PRODUCTS_DIR}/CNIOWindows/CNIOWindows.framework",
-				"${BUILT_PRODUCTS_DIR}/LibMobileCoin/LibMobileCoin.framework",
-				"${BUILT_PRODUCTS_DIR}/Logging/Logging.framework",
-				"${BUILT_PRODUCTS_DIR}/MobileCoin/MobileCoin.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
 				"${BUILT_PRODUCTS_DIR}/SignalRingRTC/SignalRingRTC.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIO/NIO.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOConcurrencyHelpers/NIOConcurrencyHelpers.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOExtras/NIOExtras.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOFoundationCompat/NIOFoundationCompat.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOHPACK/NIOHPACK.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOHTTP1/NIOHTTP1.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOHTTP2/NIOHTTP2.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOSSL/NIOSSL.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOTLS/NIOTLS.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNIOTransportServices/NIOTransportServices.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Swift/GRPC.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
-				"${BUILT_PRODUCTS_DIR}/MobileCoinMinimal/MobileCoinMinimal.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SignalRingRTC/WebRTC/WebRTC.framework/WebRTC",
 			);
@@ -5322,34 +5264,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BonMot.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGRPCZlib.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOAtomics.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOBoringSSL.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOBoringSSLShims.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIODarwin.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOHTTPParser.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOLinux.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOWindows.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LibMobileCoin.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobileCoin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SignalRingRTC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIO.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOConcurrencyHelpers.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOExtras.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOFoundationCompat.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOHPACK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOHTTP1.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOHTTP2.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOSSL.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOTLS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOTransportServices.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobileCoinMinimal.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
 			);
@@ -5402,8 +5321,6 @@
 				"${BUILT_PRODUCTS_DIR}/blurhash/blurhash.framework",
 				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
 				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
-				"${BUILT_PRODUCTS_DIR}/Logging/Logging.framework",
-				"${BUILT_PRODUCTS_DIR}/MobileCoinMinimal/MobileCoinMinimal.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -5427,8 +5344,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/blurhash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobileCoinMinimal.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5524,8 +5439,6 @@
 				"${BUILT_PRODUCTS_DIR}/blurhash/blurhash.framework",
 				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
 				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
-				"${BUILT_PRODUCTS_DIR}/Logging/Logging.framework",
-				"${BUILT_PRODUCTS_DIR}/MobileCoinMinimal/MobileCoinMinimal.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -5549,8 +5462,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/blurhash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobileCoinMinimal.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5639,14 +5550,12 @@
 				3402AA54271D9DCD0084CBAE /* LinearHorizontalLayout.swift in Sources */,
 				34A954DE271B4F3E00B05242 /* ChatColors.swift in Sources */,
 				34A954E7271B4F6A00B05242 /* AttachmentSharing.m in Sources */,
-				34A955BB271B55BA00B05242 /* PaymentsUI.swift in Sources */,
 				3402AA4A271D9DCD0084CBAE /* AttachmentApprovalViewController.swift in Sources */,
 				3402AA63271D9DEC0084CBAE /* ContactShareViewModel.swift in Sources */,
 				34A954E2271B4F3E00B05242 /* ColorOrGradientSwatchView.swift in Sources */,
 				3402AA79271D9E180084CBAE /* PermissiveGestureRecognizer.swift in Sources */,
 				3402AA47271D9DCD0084CBAE /* StickerHorizontalListView.swift in Sources */,
 				3402AAB4271D9E180084CBAE /* VideoPlayerView.swift in Sources */,
-				34A955B9271B553D00B05242 /* PaymentsFormat.swift in Sources */,
 				3402AA36271D9DCD0084CBAE /* AttachmentCaptionToolbar.swift in Sources */,
 				342FFE62271DB2E7000AC89F /* AppContext+SignalUI.swift in Sources */,
 				3402AA31271D9DCD0084CBAE /* TextApprovalViewController.swift in Sources */,
@@ -5660,13 +5569,10 @@
 				3402AA59271D9DCD0084CBAE /* OWSViewController.m in Sources */,
 				3402AA03271D9DB50084CBAE /* ConversationStyle.swift in Sources */,
 				3402AA62271D9DEC0084CBAE /* ThreadUtil+SignalUI.swift in Sources */,
-				3465F4D627287677001663AF /* PaymentsProcessor.swift in Sources */,
 				3402A9EC271D98440084CBAE /* AttachmentMultisend.swift in Sources */,
 				3402AA9C271D9E180084CBAE /* ManualLayoutView.swift in Sources */,
-				3465F4D927287677001663AF /* MobileCoinAPI.swift in Sources */,
 				3402AA89271D9E180084CBAE /* ImageEditorPinchGestureRecognizer.swift in Sources */,
 				3402AA33271D9DCD0084CBAE /* ConversationPicker.swift in Sources */,
-				3465F4D727287677001663AF /* MobileCoinAPI+Configuration.swift in Sources */,
 				3402A9E8271D97090084CBAE /* UIView+SignalUI.swift in Sources */,
 				3402AA8A271D9E180084CBAE /* ImageEditorCanvasView.swift in Sources */,
 				3402AA83271D9E180084CBAE /* OWSFlatButton.swift in Sources */,
@@ -5733,18 +5639,14 @@
 				3402AA4B271D9DCD0084CBAE /* AttachmentApprovalToolbar.swift in Sources */,
 				3402AA9A271D9E180084CBAE /* ImageEditorBrushViewController.swift in Sources */,
 				34A954CB271B4BE600B05242 /* ShareViewDelegate.swift in Sources */,
-				3465F4DD2728812B001663AF /* Payments.swift in Sources */,
 				3402AA7A271D9E180084CBAE /* CVUtils.swift in Sources */,
-				3465F4D527287677001663AF /* PaymentsReconciliation.swift in Sources */,
 				3402AAAB271D9E180084CBAE /* OWSActionSheets.swift in Sources */,
 				3402AAA8271D9E180084CBAE /* MentionTextView.swift in Sources */,
-				34D21DA227297FBF00D891F4 /* DebugLogger+Payments.swift in Sources */,
 				34A954FC271B4FB000B05242 /* UIFont+OWS.m in Sources */,
 				3402AA75271D9E180084CBAE /* ConversationAvatarView.swift in Sources */,
 				3402AA70271D9E180084CBAE /* OWSStackView.swift in Sources */,
 				34A955BD271B560000B05242 /* NameCollisionFinder.swift in Sources */,
 				3402AA3F271D9DCD0084CBAE /* ApprovalRailCellView.swift in Sources */,
-				3465F4D827287677001663AF /* PaymentsImpl.swift in Sources */,
 				3402AA4E271D9DCD0084CBAE /* ApprovalFooterView.swift in Sources */,
 				3402AA82271D9E180084CBAE /* DisappearingTimerConfigurationView.swift in Sources */,
 				3402AA76271D9E180084CBAE /* ImageEditorStrokeItem.swift in Sources */,
