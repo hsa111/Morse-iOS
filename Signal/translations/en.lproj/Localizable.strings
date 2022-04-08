@@ -5113,6 +5113,12 @@
 /* Title for the 'account' link in settings. */
 "SETTINGS_ACCOUNT" = "Account";
 
+/* Title for the 'unlock password' link in settings. */
+"SETTINGS_UNLOCK_PASSWORD" = "Unlock Password";
+
+/* Title for the 'destory password' link in settings. */
+"SETTINGS_DESTORY_PASSWORD" = "Destory Password";
+
 /* Title for the 'add to block list' view. */
 "SETTINGS_ADD_TO_BLOCK_LIST_TITLE" = "Block";
 
@@ -6618,3 +6624,108 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "You set disappearing message time to %@.";
+
+/* Label indicating the user must use at least 4 characters */
+"DESTORY_PASSWORD_CREATION_ALPHANUMERIC_HINT" = "DESTORY PASSWORD must be at least 4 characters";
+
+/* Title of the 'destory-password creation' recreation view. */
+"DESTORY_PASSWORD_CREATION_CHANGING_TITLE" = "Change your DESTORY PASSWORD";
+
+/* Title of the 'destory-password creation' confirmation view. */
+"DESTORY_PASSWORD_CREATION_CONFIRM_TITLE" = "Confirm your DESTORY PASSWORD";
+
+/* The explanation of confirmation in the 'destory-password creation' view. */
+"DESTORY_PASSWORD_CREATION_CONFIRMATION_EXPLANATION" = "Enter the DESTORY PASSWORD you just created.";
+
+/* Button asking if the user would like to create an alphanumeric DESTORY-PASSWORD */
+"DESTORY_PASSWORD_CREATION_CREATE_ALPHANUMERIC" = "Create Alphanumeric DESTORY PASSWORD";
+
+/* Button asking if the user would like to create an numeric DESTORY-PASSWORD */
+"DESTORY_PASSWORD_CREATION_CREATE_NUMERIC" = "Create Numeric DESTORY PASSWORD";
+
+/* Label indication the user must confirm their DESTORY-PASSWORD. */
+"DESTORY_PASSWORD_CREATION_DESTORY_PASSWORD_CONFIRMATION_HINT" = "Re-enter DESTORY PASSWORD";
+
+/* Indicates the work we are doing while creating the user's destory-password */
+"DESTORY_PASSWORD_CREATION_DESTORY_PASSWORD_PROGRESS" = "Creating DESTORY PASSWORD...";
+
+/* The explanation in the 'destory-password creation' view. */
+"DESTORY_PASSWORD_CREATION_EXPLANATION" = "DESTORY_PASSWORD_CREATION_EXPLANATION";
+
+/* Label indicating that the attempted DESTORY-PASSWORD does not match the first DESTORY-PASSWORD */
+"DESTORY_PASSWORD_CREATION_MISMATCH_ERROR" = "DESTORY PASSWORD don’t match. Try again.";
+
+/* Label indicating the user must use at least 4 digits */
+"DESTORY_PASSWORD_CREATION_NUMERIC_HINT" = "DESTORY PASSWORD must be at least 4 digits";
+
+/* The re-creation explanation in the 'destory-password creation' view. */
+"DESTORY_PASSWORD_CREATION_RECREATION_EXPLANATION" = "DESTORY_PASSWORD_CREATION_RECREATION_EXPLANATION";
+
+/* Title of the 'destory-password creation' recreation view. */
+"DESTORY_PASSWORD_CREATION_RECREATION_TITLE" = "Change your DESTORY PASSWORD";
+
+/* Title of the 'destory-password creation' view. */
+"DESTORY_PASSWORD_CREATION_TITLE" = "Create your DESTORY PASSWORD";
+
+/* Label indicating that the attempted DESTORY-PASSWORD is too weak */
+"DESTORY_PASSWORD_CREATION_WEAK_ERROR" = "Choose a stronger DESTORY PASSWORD";
+
+/* The explanation for the 'password reminder' dialog. */
+"PASSWORD_REMINDER_EXPLANATION" = "PASSWORD_REMINDER_EXPLANATION";
+
+/* Text asking if the user forgot their password for the 'password reminder' dialog. */
+"PASSWORD_REMINDER_FORGOT_PASSWORD" = "Forgot your PASSWORD";
+
+/* Label indicating that the attempted PASSWORD does not match the user's PASSWORD */
+"PASSWORD_REMINDER_MISMATCH_ERROR" = "Invalid PASSWORD, try again.";
+
+/* The title for the 'password reminder' dialog. */
+"PASSWORD_REMINDER_TITLE" = "Enter your Morse PASSWORD";
+
+/* Label indicating that the attempted PASSWORD is too short */
+"PASSWORD_REMINDER_TOO_SHORT_ERROR" = "PASSWORD must be at least 4 digits.";
+
+/* Label indicating the user must use at least 4 characters */
+"UNLOCK_PASSWORD_CREATION_ALPHANUMERIC_HINT" = "UNLOCK PASSWORD must be at least 4 characters";
+
+/* Title of the 'unlock-password creation' recreation view. */
+"UNLOCK_PASSWORD_CREATION_CHANGING_TITLE" = "Change your UNLOCK PASSWORD";
+
+/* Title of the 'unlock-password creation' confirmation view. */
+"UNLOCK_PASSWORD_CREATION_CONFIRM_TITLE" = "Confirm your UNLOCK PASSWORD";
+
+/* The explanation of confirmation in the 'unlock-password creation' view. */
+"UNLOCK_PASSWORD_CREATION_CONFIRMATION_EXPLANATION" = "Enter the UNLOCK PASSWORD you just created.";
+
+/* Button asking if the user would like to create an alphanumeric UNLOCK-PASSWORD */
+"UNLOCK_PASSWORD_CREATION_CREATE_ALPHANUMERIC" = "Create Alphanumeric UNLOCK PASSWORD";
+
+/* Button asking if the user would like to create an numeric UNLOCK-PASSWORD */
+"UNLOCK_PASSWORD_CREATION_CREATE_NUMERIC" = "Create Numeric UNLOCK PASSWORD";
+
+/* The explanation in the 'unlock-password creation' view. */
+"UNLOCK_PASSWORD_CREATION_EXPLANATION" = "UNLOCK_PASSWORD_CREATION_EXPLANATION";
+
+/* Label indicating that the attempted UNLOCK-PASSWORD does not match the first UNLOCK-PASSWORD */
+"UNLOCK_PASSWORD_CREATION_MISMATCH_ERROR" = "UNLOCK PASSWORD don’t match. Try again.";
+
+/* Label indicating the user must use at least 4 digits */
+"UNLOCK_PASSWORD_CREATION_NUMERIC_HINT" = "UNLOCK PASSWORD must be at least 4 digits";
+
+/* The re-creation explanation in the 'unlock-password creation' view. */
+"UNLOCK_PASSWORD_CREATION_RECREATION_EXPLANATION" = "UNLOCK_PASSWORD_CREATION_RECREATION_EXPLANATION";
+
+/* Title of the 'unlock-password creation' recreation view. */
+"UNLOCK_PASSWORD_CREATION_RECREATION_TITLE" = "Change your UNLOCK PASSWORD";
+
+/* Title of the 'unlock-password creation' view. */
+"UNLOCK_PASSWORD_CREATION_TITLE" = "Create your UNLOCK PASSWORD";
+
+/* Label indication the user must confirm their UNLOCK-PASSWORD. */
+"UNLOCK_PASSWORD_CREATION_UNLOCK_PASSWORD_CONFIRMATION_HINT" = "Re-enter UNLOCK PASSWORD";
+
+/* Indicates the work we are doing while creating the user's unlock-password */
+"UNLOCK_PASSWORD_CREATION_UNLOCK_PASSWORD_PROGRESS" = "Creating UNLOCK PASSWORD...";
+
+/* Label indicating that the attempted UNLOCK-PASSWORD is too weak */
+"UNLOCK_PASSWORD_CREATION_WEAK_ERROR" = "Choose a stronger UNLOCK PASSWORD";

@@ -359,6 +359,21 @@ public extension HomeViewController {
         navigationController.setViewControllers(viewControllers, animated: false)
         presentFormSheet(navigationController, animated: true, completion: completion)
     }
+    
+    @objc
+    func checkHasAndShowPwd() {
+        let unlockPwd = UserDefaults.standard.string(forKey: kUnlockPassword)
+        let destoryPwd = UserDefaults.standard.string(forKey: kDestoryPassword)
+        
+        print("unlockPwd: ", unlockPwd ?? "null", "destoryPwd:", destoryPwd ?? "null")
+        
+        if unlockPwd != nil || destoryPwd != nil {
+            let vc = UnlockPasswordReminderViewController(completionHandler: nil)
+            let navigationController = OWSNavigationController(rootViewController: vc)
+            navigationController.modalPresentationStyle = .currentContext
+            presentFormSheet(navigationController, animated: true, completion: nil)
+        }
+    }
 }
 
 extension HomeViewController: BadgeExpirationSheetDelegate {

@@ -5114,6 +5114,12 @@
 /* Title for the 'account' link in settings. */
 "SETTINGS_ACCOUNT" = "帐户";
 
+/* Title for the 'unlock password' link in settings. */
+"SETTINGS_UNLOCK_PASSWORD" = "解锁密码";
+
+/* Title for the 'destory password' link in settings. */
+"SETTINGS_DESTORY_PASSWORD" = "销毁密码";
+
 /* Title for the 'add to block list' view. */
 "SETTINGS_ADD_TO_BLOCK_LIST_TITLE" = "加入黑名单";
 
@@ -6619,3 +6625,108 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "您设置了消息%@后消失。";
+
+/* Label indicating the user must use at least 4 characters */
+"DESTORY_PASSWORD_CREATION_ALPHANUMERIC_HINT" = "销毁密码至少要有4个字符。";
+
+/* Title of the 'destory-password creation' recreation view. */
+"DESTORY_PASSWORD_CREATION_CHANGING_TITLE" = "更改销毁密码";
+
+/* Title of the 'destory-password creation' confirmation view. */
+"DESTORY_PASSWORD_CREATION_CONFIRM_TITLE" = "确认销毁密码";
+
+/* The explanation of confirmation in the 'destory-password creation' view. */
+"DESTORY_PASSWORD_CREATION_CONFIRMATION_EXPLANATION" = "输入你刚刚创建的销毁密码。";
+
+/* Button asking if the user would like to create an alphanumeric DESTORY-PASSWORD */
+"DESTORY_PASSWORD_CREATION_CREATE_ALPHANUMERIC" = "创建字母与数字混合的销毁密码";
+
+/* Button asking if the user would like to create an numeric DESTORY-PASSWORD */
+"DESTORY_PASSWORD_CREATION_CREATE_NUMERIC" = "创建纯数字销毁密码";
+
+/* Label indication the user must confirm their DESTORY-PASSWORD. */
+"DESTORY_PASSWORD_CREATION_DESTORY_PASSWORD_CONFIRMATION_HINT" = "重新输入销毁密码";
+
+/* Indicates the work we are doing while creating the user's destory-password */
+"DESTORY_PASSWORD_CREATION_DESTORY_PASSWORD_PROGRESS" = "正在创建销毁密码...";
+
+/* The explanation in the 'destory-password creation' view. */
+"DESTORY_PASSWORD_CREATION_EXPLANATION" = "DESTORY_PASSWORD_CREATION_EXPLANATION";
+
+/* Label indicating that the attempted DESTORY-PASSWORD does not match the first DESTORY-PASSWORD */
+"DESTORY_PASSWORD_CREATION_MISMATCH_ERROR" = "销毁密码不匹配。请重试。";
+
+/* Label indicating the user must use at least 4 digits */
+"DESTORY_PASSWORD_CREATION_NUMERIC_HINT" = "销毁密码至少需要4位数。";
+
+/* The re-creation explanation in the 'destory-password creation' view. */
+"DESTORY_PASSWORD_CREATION_RECREATION_EXPLANATION" = "DESTORY_PASSWORD_CREATION_RECREATION_EXPLANATION";
+
+/* Title of the 'destory-password creation' recreation view. */
+"DESTORY_PASSWORD_CREATION_RECREATION_TITLE" = "更改销毁密码";
+
+/* Title of the 'destory-password creation' view. */
+"DESTORY_PASSWORD_CREATION_TITLE" = "创建您的销毁密码";
+
+/* Label indicating that the attempted DESTORY-PASSWORD is too weak */
+"DESTORY_PASSWORD_CREATION_WEAK_ERROR" = "此销毁密码过于简单";
+
+/* The explanation for the 'password reminder' dialog. */
+"PASSWORD_REMINDER_EXPLANATION" = "PASSWORD_REMINDER_EXPLANATION";
+
+/* Text asking if the user forgot their password for the 'password reminder' dialog. */
+"PASSWORD_REMINDER_FORGOT_PASSWORD" = "忘记了密码？";
+
+/* Label indicating that the attempted PASSWORD does not match the user's PASSWORD */
+"PASSWORD_REMINDER_MISMATCH_ERROR" = "密码无效，请重新尝试。";
+
+/* The title for the 'password reminder' dialog. */
+"PASSWORD_REMINDER_TITLE" = "请输入您的 Morse密码";
+
+/* Label indicating that the attempted PASSWORD is too short */
+"PASSWORD_REMINDER_TOO_SHORT_ERROR" = "密码最少需要4位数字";
+
+/* Label indicating the user must use at least 4 characters */
+"UNLOCK_PASSWORD_CREATION_ALPHANUMERIC_HINT" = "解锁密码至少要有4个字符。";
+
+/* Title of the 'unlock-password creation' recreation view. */
+"UNLOCK_PASSWORD_CREATION_CHANGING_TITLE" = "更改解锁密码";
+
+/* Title of the 'unlock-password creation' confirmation view. */
+"UNLOCK_PASSWORD_CREATION_CONFIRM_TITLE" = "确认解锁密码";
+
+/* The explanation of confirmation in the 'unlock-password creation' view. */
+"UNLOCK_PASSWORD_CREATION_CONFIRMATION_EXPLANATION" = "输入你刚刚创建的解锁密码。";
+
+/* Button asking if the user would like to create an alphanumeric UNLOCK-PASSWORD */
+"UNLOCK_PASSWORD_CREATION_CREATE_ALPHANUMERIC" = "创建字母与数字混合的解锁密码";
+
+/* Button asking if the user would like to create an numeric UNLOCK-PASSWORD */
+"UNLOCK_PASSWORD_CREATION_CREATE_NUMERIC" = "创建纯数字解锁密码";
+
+/* The explanation in the 'unlock-password creation' view. */
+"UNLOCK_PASSWORD_CREATION_EXPLANATION" = "UNLOCK_PASSWORD_CREATION_EXPLANATION";
+
+/* Label indicating that the attempted UNLOCK-PASSWORD does not match the first UNLOCK-PASSWORD */
+"UNLOCK_PASSWORD_CREATION_MISMATCH_ERROR" = "解锁密码不匹配。请重试。";
+
+/* Label indicating the user must use at least 4 digits */
+"UNLOCK_PASSWORD_CREATION_NUMERIC_HINT" = "解锁密码至少需要4位数。";
+
+/* The re-creation explanation in the 'unlock-password creation' view. */
+"UNLOCK_PASSWORD_CREATION_RECREATION_EXPLANATION" = "UNLOCK_PASSWORD_CREATION_RECREATION_EXPLANATION";
+
+/* Title of the 'unlock-password creation' recreation view. */
+"UNLOCK_PASSWORD_CREATION_RECREATION_TITLE" = "更改解锁密码";
+
+/* Title of the 'unlock-password creation' view. */
+"UNLOCK_PASSWORD_CREATION_TITLE" = "创建您的解锁密码";
+
+/* Label indication the user must confirm their UNLOCK-PASSWORD. */
+"UNLOCK_PASSWORD_CREATION_UNLOCK_PASSWORD_CONFIRMATION_HINT" = "重新输入解锁密码";
+
+/* Indicates the work we are doing while creating the user's unlock-password */
+"UNLOCK_PASSWORD_CREATION_UNLOCK_PASSWORD_PROGRESS" = "正在创建解锁密码...";
+
+/* Label indicating that the attempted UNLOCK-PASSWORD is too weak */
+"UNLOCK_PASSWORD_CREATION_WEAK_ERROR" = "此解锁密码过于简单";

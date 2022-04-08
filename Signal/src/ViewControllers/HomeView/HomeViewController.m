@@ -534,6 +534,8 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     [self updateBarButtonItems];
 
     [self applyTheme];
+    
+    [self checkHasAndShowPwd];
 }
 
 - (void)viewDidAppear:(BOOL)animated
