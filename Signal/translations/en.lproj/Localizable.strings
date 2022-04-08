@@ -6670,6 +6670,9 @@
 /* Label indicating that the attempted DESTORY-PASSWORD is too weak */
 "DESTORY_PASSWORD_CREATION_WEAK_ERROR" = "Choose a stronger DESTORY PASSWORD";
 
+/* Label indicating that the attempted DESTORY-PASSWORD is the same as UNLOCK-PASSWORD. */
+"DESTORY_PASSWORD_CREATION_UNLOCK_PASSWORD_SAME_ERROR" = "DESTORY PASSWORD is the same as UNLOCK PASSWORD";
+
 /* The explanation for the 'password reminder' dialog. */
 "PASSWORD_REMINDER_EXPLANATION" = "PASSWORD_REMINDER_EXPLANATION";
 
@@ -6729,3 +6732,6 @@
 
 /* Label indicating that the attempted UNLOCK-PASSWORD is too weak */
 "UNLOCK_PASSWORD_CREATION_WEAK_ERROR" = "Choose a stronger UNLOCK PASSWORD";
+
+/* Label indicating that the attempted UNLOCK-PASSWORD is the same as DESTORY-PASSWORD. */
+"UNLOCK_PASSWORD_CREATION_DESTORY_PASSWORD_SAME_ERROR" = "UNLOCK PASSWORD is the same as DESTORY PASSWORD";

@@ -165,6 +165,7 @@ public class DestoryPasswordSetupViewController: OWSViewController {
         case tooShort
         case mismatch
         case weak
+        case same
 
         var isInvalid: Bool {
             return self != .valid
@@ -395,6 +396,12 @@ public class DestoryPasswordSetupViewController: OWSViewController {
             validationState = .weak
             return
         }
+        
+        let unlockPwd = UserDefaults.standard.string(forKey: kUnlockPassword)
+        if unlockPwd != nil && pin == unlockPwd {
+            validationState = .same
+            return
+        }
 
         switch mode {
         case .creating, .changing, .recreating:
@@ -465,6 +472,9 @@ public class DestoryPasswordSetupViewController: OWSViewController {
         case .weak:
             validationWarningLabel.text = NSLocalizedString("DESTORY_PASSWORD_CREATION_WEAK_ERROR",
                                                             comment: "Label indicating that the attempted DESTORY-PASSWORD is too weak")
+        case .same:
+            validationWarningLabel.text = NSLocalizedString("DESTORY_PASSWORD_CREATION_UNLOCK_PASSWORD_SAME_ERROR",
+                                                            comment: "Label indicating that the attempted DESTORY-PASSWORD is the same as UNLOCK-PASSWORD")
         default:
             break
         }
