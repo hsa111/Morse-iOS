@@ -185,7 +185,7 @@ class ExperienceUpgradeManager: NSObject {
              .subscriptionMegaphone,
              .chatColors,
              .avatarBuilder:
-            return true
+            return false
         case .groupsV2AndMentionsSplash2:
             return false
         default:

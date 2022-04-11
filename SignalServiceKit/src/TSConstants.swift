@@ -46,7 +46,13 @@ public struct KeyBackupEnclave: Equatable {
 
 @objc
 public class TSConstants: NSObject {
-
+    public static var mainServerDomain = "devplusone.com"
+    
+    @objc
+    public static func setMainServerDomain(serverDomain:String){
+        mainServerDomain = serverDomain;
+    }
+    
     @objc
     public static let EnvironmentDidChange = Notification.Name("EnvironmentDidChange")
 
@@ -163,31 +169,25 @@ public class TSConstants: NSObject {
 
 private class TSConstantsProduction: TSConstantsProtocol {
 
-    public var mainServiceWebSocketAPI_identified: String {
-        FeatureFlags.newHostNames
-            ? "wss://chat.devplusone.com/v1/websocket/"
-            : "wss://chat.devplusone.com/v1/websocket/"
-    }
-    public var mainServiceWebSocketAPI_unidentified: String {
-        FeatureFlags.newHostNames
-            ? "wss://chat.devplusone.com/v1/websocket/"
-            : "wss://chat.devplusone.com/v1/websocket/"
-    }
-    public var mainServiceURL: String {
-        FeatureFlags.newHostNames
-            ? "https://chat.devplusone.com/"
-            : "https://chat.devplusone.com/"
-    }
-    public let textSecureCDN0ServerURL = "https://cdn.devplusone.com"
-    public let textSecureCDN2ServerURL = "https://cdn2.devplusone.com"
-    public let contactDiscoveryURL = "https://api.directory.devplusone.com"
-    public let keyBackupURL = "https://api.backup.devplusone.com"
-    public let storageServiceURL = "https://storage.devplusone.com"
-    public let sfuURL = "https://sfu.voip.devplusone.com"
-    public let sfuTestURL = "https://sfu.test.voip.devplusone.com"
-    public let kUDTrustRoot = "BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH"
-    public let updates2URL = "https://updates2.devplusone.com"
+    public var mainServiceWebSocketAPI_identified =
+        "wss://chat." + TSConstants.mainServerDomain + "/v1/websocket/"
 
+    public var mainServiceWebSocketAPI_unidentified =
+        "wss://chat." + TSConstants.mainServerDomain + "/v1/websocket/"
+
+    public var mainServiceURL =
+        "https://chat." + TSConstants.mainServerDomain + "/"
+
+    public var textSecureCDN0ServerURL = "https://cdn." + TSConstants.mainServerDomain
+    public var textSecureCDN2ServerURL = "https://cdn2." + TSConstants.mainServerDomain
+    public var contactDiscoveryURL = "https://api.directory." + TSConstants.mainServerDomain
+    public var keyBackupURL = "https://api.backup." + TSConstants.mainServerDomain
+    public var storageServiceURL = "https://storage." + TSConstants.mainServerDomain
+    public var sfuURL = "https://sfu.voip." + TSConstants.mainServerDomain
+    public var sfuTestURL = "https://sfu.test.voip." + TSConstants.mainServerDomain
+    public var updates2URL = "https://updates2." + TSConstants.mainServerDomain
+    public let kUDTrustRoot = "BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH"
+    
     public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
 
     public let serviceCensorshipPrefix = "service"
@@ -225,33 +225,27 @@ private class TSConstantsProduction: TSConstantsProtocol {
 
 private class TSConstantsStaging: TSConstantsProtocol {
 
-    public var mainServiceWebSocketAPI_identified: String {
-        FeatureFlags.newHostNames
-            ? "wss://chat.staging.devplusone.com/v1/websocket/"
-            : "wss://textsecure-service-staging.whispersystems.org/v1/websocket/"
-    }
-    public var mainServiceWebSocketAPI_unidentified: String {
-        FeatureFlags.newHostNames
-            ? "wss://ud-chat.staging.devplusone.com/v1/websocket/"
-            : "wss://textsecure-service-staging.whispersystems.org/v1/websocket/"
-    }
-    public var mainServiceURL: String {
-        FeatureFlags.newHostNames
-            ? "https://chat.staging.devplusone.com/"
-            : "https://textsecure-service-staging.whispersystems.org/"
-    }
-    public let textSecureCDN0ServerURL = "https://cdn-staging.devplusone.com"
-    public let textSecureCDN2ServerURL = "https://cdn2-staging.devplusone.com"
-    public let contactDiscoveryURL = "https://api-staging.directory.devplusone.com"
-    public let keyBackupURL = "https://api-staging.backup.devplusone.com"
-    public let storageServiceURL = "https://storage-staging.devplusone.com"
-    public let sfuURL = "https://sfu.staging.voip.devplusone.com"
-    // There's no separate test SFU for staging.
-    public let sfuTestURL = "https://sfu.test.voip.devplusone.com"
-    public let kUDTrustRoot = "BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH"
-    // There's no separate updates endpoint for staging.
-    public let updates2URL = "https://updates2.devplusone.com"
+    public var mainServiceWebSocketAPI_identified =
+        "wss://chat.staging." + TSConstants.mainServerDomain + "/v1/websocket/"
 
+    public var mainServiceWebSocketAPI_unidentified =
+        "wss://chat.staging." + TSConstants.mainServerDomain + "/v1/websocket/"
+
+    public var mainServiceURL =
+        "https://chat.staging." + TSConstants.mainServerDomain + "/"
+
+    public var textSecureCDN0ServerURL = "https://cdn.staging." + TSConstants.mainServerDomain
+    public let textSecureCDN2ServerURL = "https://cdn2-staging." + TSConstants.mainServerDomain
+    public let contactDiscoveryURL = "https://api-staging.directory." + TSConstants.mainServerDomain
+    public let keyBackupURL = "https://api-staging.backup." + TSConstants.mainServerDomain
+    public let storageServiceURL = "https://storage-staging." + TSConstants.mainServerDomain
+    public let sfuURL = "https://sfu.staging.voip." + TSConstants.mainServerDomain
+    // There's no separate test SFU for staging.
+    public let sfuTestURL = "https://sfu.test.voip." + TSConstants.mainServerDomain
+    // There's no separate updates endpoint for staging.
+    public let updates2URL = "https://updates2." + TSConstants.mainServerDomain
+    public let kUDTrustRoot = "BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH"
+    
     public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
 
     public let serviceCensorshipPrefix = "service-staging"

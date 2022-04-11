@@ -44,7 +44,7 @@
 NSString *const AppDelegateStoryboardMain = @"Main";
 
 static NSString *const kInitialViewControllerIdentifier = @"UserInitialViewController";
-NSString *const kURLSchemeSGNLKey = @"sgnl";
+NSString *const kURLSchemeSGNLKey = @"mrse";
 static NSString *const kURLHostVerifyPrefix             = @"verify";
 static NSString *const kURLHostAddStickersPrefix = @"addstickers";
 NSString *const kURLHostTransferPrefix = @"transfer";
@@ -284,6 +284,7 @@ void uncaughtExceptionHandler(NSException *exception)
 
     [OWSAnalytics appLaunchDidBegin];
 
+    [TSConstants setMainServerDomainWithServerDomain:(Environment.shared.preferences.getServerDomain)];
     return YES;
 }
 
@@ -631,6 +632,8 @@ void uncaughtExceptionHandler(NSException *exception)
         return;
     }
 
+    //[TSConstants setMainServerDomainWithServerDomain:(Environment.shared.preferences.getServerDomain)];
+    
     AppReadinessRunNowOrWhenAppDidBecomeReadySync(^{ [self handleActivation]; });
 
     // Clear all notifications whenever we become active.

@@ -103,6 +103,9 @@ extern NSString *const OWSPreferencesCallLoggingDidChangeNotification;
 - (void)setVoipToken:(nullable NSString *)value;
 - (nullable NSString *)getVoipToken;
 
+- (void)setServerDomain:(nullable NSString *)value;
+- (nullable NSString *)getServerDomain;
+
 - (void)unsetRecordedAPNSTokens;
 
 @end

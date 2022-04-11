@@ -6,7 +6,7 @@ import Foundation
 
 @objc
 class SignalMe: NSObject {
-    private static let pattern = try! NSRegularExpression(pattern: "^(?:https|\(kURLSchemeSGNLKey))://signal.me/#p/(\\+[0-9]+)$", options: [])
+    private static let pattern = try! NSRegularExpression(pattern: "^(?:https|\(kURLSchemeSGNLKey))://morse.me.devplusone.com/#p/(\\+[0-9]+)$", options: [])
 
     @objc
     static func isPossibleUrl(_ url: URL) -> Bool {

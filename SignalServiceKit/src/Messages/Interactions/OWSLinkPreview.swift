@@ -715,7 +715,7 @@ fileprivate extension OWSLinkPreviewManager {
             return stickerPackShareDomain(forUrl: url)
         }
         if GroupManager.isPossibleGroupInviteLink(url) {
-            return "devplusone.com"
+            return TSConstants.mainServerDomain
         }
         return url.host
     }

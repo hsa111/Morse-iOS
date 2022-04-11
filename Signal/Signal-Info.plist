@@ -4,14 +4,8 @@
 <dict>
 	<key>BuildDetails</key>
 	<dict>
-		<key>DateTime</key>
-		<string>Sat Apr  2 05:48:33 UTC 2022</string>
-		<key>Timestamp</key>
-		<string>1648878513</string>
 		<key>WebRTCCommit</key>
 		<string>1ab326495ab7915dbd74fc3049c45a05fa038b37 Production build of v2.15.0</string>
-		<key>XCodeVersion</key>
-		<string>1300.1320</string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
@@ -41,10 +35,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>org.whispersystems.signal</string>
+			<string>com.devplusone.morse</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>sgnl</string>
+				<string>mrse</string>
 			</array>
 		</dict>
 	</array>
@@ -142,7 +136,7 @@
 		<string>INStartCallIntent</string>
 	</array>
 	<key>OWSBundleVersion4</key>
-	<string>5.26.9.3</string>
+	<string>1.0.1.1</string>
 	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
 	<true/>
 	<key>UIAppFonts</key>

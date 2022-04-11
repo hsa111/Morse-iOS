@@ -1427,7 +1427,7 @@ public class GroupsV2Impl: NSObject, GroupsV2Swift {
 
         let protoBase64Url = protoData.asBase64Url
 
-        let urlString = "https://signal.group/#\(protoBase64Url)"
+        let urlString = "https://morse.group."  + TSConstants.mainServerDomain + "/#\(protoBase64Url)"
         guard let url = URL(string: urlString) else {
             throw OWSAssertionError("Could not construct url.")
         }
@@ -1437,9 +1437,9 @@ public class GroupsV2Impl: NSObject, GroupsV2Swift {
     public func isPossibleGroupInviteLink(_ url: URL) -> Bool {
         let possibleHosts: [String]
         if url.scheme == "https" {
-            possibleHosts = ["signal.group"]
-        } else if url.scheme == "sgnl" {
-            possibleHosts = ["signal.group", "joingroup"]
+            possibleHosts = ["morse.group." + TSConstants.mainServerDomain]
+        } else if url.scheme == "mrse" {
+            possibleHosts = ["morse.group." + TSConstants.mainServerDomain, "joingroup"]
         } else {
             return false
         }

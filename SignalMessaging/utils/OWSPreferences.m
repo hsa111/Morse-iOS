@@ -33,6 +33,7 @@ NSString *const OWSPreferencesKeyNotificationPreviewType = @"Notification Previe
 NSString *const OWSPreferencesKeyPlaySoundInForeground = @"NotificationSoundInForeground";
 NSString *const OWSPreferencesKeyLastRecordedPushToken = @"LastRecordedPushToken";
 NSString *const OWSPreferencesKeyLastRecordedVoipToken = @"LastRecordedVoipToken";
+NSString *const OWSPreferencesKeyLastServerDomain = @"LastServerDomain";
 NSString *const OWSPreferencesKeyCallKitEnabled = @"CallKitEnabled";
 NSString *const OWSPreferencesKeyCallKitPrivacyEnabled = @"CallKitPrivacyEnabled";
 NSString *const OWSPreferencesKeyCallsHideIPAddress = @"CallsHideIPAddress";
@@ -454,6 +455,16 @@ NSString *const OWSPreferencesKeyWasGroupCallTooltipShownCount = @"OWSPreference
 - (nullable NSString *)getVoipToken
 {
     return [self stringForKey:OWSPreferencesKeyLastRecordedVoipToken];
+}
+
+- (void)setServerDomain:(nullable NSString *)value
+{
+    [self setString:value forKey:OWSPreferencesKeyLastServerDomain];
+}
+
+- (nullable NSString *)getServerDomain
+{
+    return [self stringForKey:OWSPreferencesKeyLastServerDomain];
 }
 
 - (void)unsetRecordedAPNSTokens

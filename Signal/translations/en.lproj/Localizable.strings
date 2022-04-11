@@ -6618,3 +6618,5 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "You set disappearing message time to %@.";
+"SERVER_VIEW_TITLE" = "Server Main Domain";
+"SERVER_VIEW_DESCRIPTION" = "Morse messenger connected to servers by server's domain。you can change domain to connect to different server,or still connected to morse server by different domain name when old domain was blocked in some country.";
