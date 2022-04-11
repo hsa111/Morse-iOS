@@ -139,6 +139,8 @@ public enum ThemeIcon: UInt {
     case sealedSenderIndicator
     case accessoryCheckmark
     case empty
+    
+    case contact24
 }
 
 // MARK: - Colors
@@ -429,6 +431,9 @@ public extension Theme {
             return "accessory-checkmark-24"
         case .empty:
             return "empty-24"
+            
+        case .contact24:
+            return isDarkThemeEnabled ? "contact-solid-24" : "contact-outline-24"
         }
     }
 }

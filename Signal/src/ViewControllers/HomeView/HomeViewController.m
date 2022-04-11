@@ -198,6 +198,97 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
                 forControlEvents:UIControlEventValueChanged];
     self.tableView.refreshControl = pullToRefreshView;
     SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, pullToRefreshView);
+    
+    
+    // camera button
+    UIButton *cameraButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    cameraButton.accessibilityLabel = NSLocalizedString(@"CAMERA_BUTTON_LABEL", @"Accessibility label for camera button.");
+    [cameraButton
+        setImage:[[Theme iconImage:ThemeIconAttachmentCamera] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+        forState:UIControlStateNormal];
+    [cameraButton addTarget:self action:@selector(showCameraView) forControlEvents:UIControlEventTouchUpInside];
+
+////    UIView *cameraImageView = [[UIImageView alloc] initWithImage:[Theme iconImage:ThemeIconCompose24]];
+//    UIView *cameraImageView = [self createAvatarBarButtonViewWithSneakyTransaction];
+//    [cameraButton addSubview:cameraImageView];
+//    [cameraImageView autoPinEdgesToSuperviewEdges];
+
+//    UIView *cameraWrapper = [UIView containerView];
+//    [cameraWrapper addSubview:cameraButton];
+//    [cameraButton autoPinEdgesToSuperviewEdges];
+    
+    [self.view addSubview:cameraButton];
+//    [cameraButton autoPinToTopLayoutGuideOfViewController:self withInset:0.f];
+    [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeTrailing withInset:6.f];
+    [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeLeading
+                                                    withInset:10
+                                                     relation:NSLayoutRelationGreaterThanOrEqual];
+    [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:48.f];
+    [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeTop
+                                                    withInset:10
+                                                     relation:NSLayoutRelationGreaterThanOrEqual];
+//    [cameraButton autoPinEdgeToSuperviewMargin:ALEdgeBottom
+//                                                       relation:NSLayoutRelationGreaterThanOrEqual];
+    SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, cameraButton);
+    
+    // compose button
+    UIButton *composeButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    composeButton.accessibilityLabel = NSLocalizedString(@"COMPOSE_BUTTON_LABEL", @"Accessibility label from compose button.");
+    [composeButton
+        setImage:[[Theme iconImage:ThemeIconCompose32] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+        forState:UIControlStateNormal];
+    [composeButton addTarget:self action:@selector(showNewConversationView) forControlEvents:UIControlEventTouchUpInside];
+
+//    UIView *composeImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"avatar_book"]];
+//    [composeButton addSubview:composeImageView];
+//    [composeImageView autoPinEdgesToSuperviewEdges];
+
+//    UIView *composeWrapper = [UIView containerView];
+//    [composeWrapper addSubview:composeButton];
+//    [composeButton autoPinEdgesToSuperviewEdges];
+    
+    [self.view addSubview:composeButton];
+//    [composeButton autoPinToTopLayoutGuideOfViewController:self withInset:0.f];
+    [composeButton autoPinEdgeToSuperviewEdge:ALEdgeTrailing withInset:6.f];
+    [composeButton autoPinEdgeToSuperviewEdge:ALEdgeLeading
+                                                    withInset:10
+                                                     relation:NSLayoutRelationGreaterThanOrEqual];
+    [composeButton autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:12.f];
+    [composeButton autoPinEdgeToSuperviewEdge:ALEdgeTop
+                                                    withInset:10
+                                                     relation:NSLayoutRelationGreaterThanOrEqual];
+//    [composeButton autoPinEdgeToSuperviewMargin:ALEdgeBottom
+//                                                       relation:NSLayoutRelationGreaterThanOrEqual];
+    SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, composeButton);
+    
+    // Settings button.
+//    UIButton *avatarButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//    avatarButton.accessibilityLabel = CommonStrings.openSettingsButton;
+//    [avatarButton addTarget:self action:@selector(showAppSettings) forControlEvents:UIControlEventTouchUpInside];
+//
+//    UIView *avatarImageView = [self createAvatarBarButtonViewWithSneakyTransaction];
+//    [avatarButton addSubview:avatarImageView];
+//    [avatarImageView autoPinEdgesToSuperviewEdges];
+//
+////    UIView *avatarWrapper = [UIView containerView];
+////    [avatarWrapper addSubview:avatarButton];
+////    [avatarButton autoPinEdgesToSuperviewEdges];
+//
+//    [self.view addSubview:avatarButton];
+////    [avatarButton autoPinToTopLayoutGuideOfViewController:self withInset:0.f];
+//    [avatarButton autoPinEdgeToSuperviewEdge:ALEdgeTrailing withInset:6.f];
+//    [avatarButton autoPinEdgeToSuperviewEdge:ALEdgeLeading
+//                                                    withInset:10
+//                                                     relation:NSLayoutRelationGreaterThanOrEqual];
+//    [avatarButton autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:12.f];
+//    [avatarButton autoPinEdgeToSuperviewEdge:ALEdgeTop
+//                                                    withInset:10
+//                                                     relation:NSLayoutRelationGreaterThanOrEqual];
+////    [avatarButton autoPinEdgeToSuperviewMargin:ALEdgeBottom
+////                                                       relation:NSLayoutRelationGreaterThanOrEqual];
+//
+//    SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, avatarButton);
+    
 }
 
 - (UIView *)createEmptyInboxView
@@ -443,6 +534,8 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     [self updateBarButtonItems];
 
     [self applyTheme];
+    
+    [self checkHasAndShowPwd];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -523,7 +616,8 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     self.navigationItem.leftBarButtonItem = settingsButton;
     SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, settingsButton);
 
-    UIBarButtonItem *compose = [[UIBarButtonItem alloc] initWithImage:[Theme iconImage:ThemeIconCompose24]
+    // [Theme iconImage:ThemeIconCompose24]
+    UIBarButtonItem *compose = [[UIBarButtonItem alloc] initWithImage:[Theme iconImage:ThemeIconContact24]
                                                                 style:UIBarButtonItemStylePlain
                                                                target:self
                                                                action:@selector(showNewConversationView)];
@@ -945,7 +1039,9 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
         hasSavedThread = [SSKPreferences hasSavedThreadWithTransaction:transaction];
     }];
 
-    return self.shouldShowEmptyInboxView && !hasSavedThread;
+//    return self.shouldShowEmptyInboxView && !hasSavedThread;
+    // 2022-04-02 强制不显示首次提醒
+    return NO;
 }
 
 - (BOOL)shouldShowEmptyInboxView

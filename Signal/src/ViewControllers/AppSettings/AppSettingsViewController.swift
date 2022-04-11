@@ -98,6 +98,30 @@ class AppSettingsViewController: OWSTableViewController2 {
                 self?.navigationController?.pushViewController(vc, animated: true)
             }
         ))
+        section1.add(.disclosureItem(
+            icon: .settingsPrivacy,
+            name: NSLocalizedString("SETTINGS_UNLOCK_PASSWORD", comment: "Title for the 'unlock password' link in settings."),
+            accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "unlock-password"),
+            actionBlock: { [weak self] in
+                let unlockPwd = UserDefaults.standard.string(forKey: kUnlockPassword)
+                let vc = UnlockPasswordSetupViewController(mode: unlockPwd == nil ? .creating : .changing) { [weak self] pinSetupVC, _ in
+                    self?.navigationController?.popToViewController(self!, animated: true)
+                }
+                self?.navigationController?.pushViewController(vc, animated: true)
+            }
+        ))
+        section1.add(.disclosureItem(
+            icon: .settingsPrivacy,
+            name: NSLocalizedString("SETTINGS_DESTORY_PASSWORD", comment: "Title for the 'destory password' link in settings."),
+            accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "destory-password"),
+            actionBlock: { [weak self] in
+                let destoryPwd = UserDefaults.standard.string(forKey: kDestoryPassword)
+                let vc = DestoryPasswordSetupViewController(mode: destoryPwd == nil ? .creating : .changing) { [weak self] pinSetupVC, _ in
+                    self?.navigationController?.popToViewController(self!, animated: true)
+                }
+                self?.navigationController?.pushViewController(vc, animated: true)
+            }
+        ))
 //        section1.add(.disclosureItem(
 //            icon: .settingsLinkedDevices,
 //            name: NSLocalizedString("LINKED_DEVICES_TITLE", comment: "Menu item and navbar title for the device manager"),
