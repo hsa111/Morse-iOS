@@ -459,12 +459,19 @@ NSString *const OWSPreferencesKeyWasGroupCallTooltipShownCount = @"OWSPreference
 
 - (void)setServerDomain:(nullable NSString *)value
 {
-    [self setString:value forKey:OWSPreferencesKeyLastServerDomain];
+    [NSUserDefaults.appUserDefaults setObject:value forKey:OWSPreferencesKeyLastServerDomain];
+    [NSUserDefaults.appUserDefaults synchronize];
+    
+    //[self setString:value forKey:OWSPreferencesKeyLastServerDomain];
 }
 
 - (nullable NSString *)getServerDomain
 {
-    return [self stringForKey:OWSPreferencesKeyLastServerDomain];
+    //return [self stringForKey:OWSPreferencesKeyLastServerDomain];
+    NSString *_Nullable persistedValue =
+        [NSUserDefaults.appUserDefaults stringForKey:OWSPreferencesKeyLastServerDomain];
+
+    return persistedValue;
 }
 
 - (void)unsetRecordedAPNSTokens

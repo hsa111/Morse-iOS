@@ -46,19 +46,19 @@ class ServerSettingsViewController: OWSTableViewController2 {
             with: .font(.ows_dynamicTypeCaption1Clamped),
             .color(Theme.secondaryTextAndIconColor)
         )
-        
-        if RemoteConfig.usernames {
-            mainSection.add(.disclosureItem(
-                icon: .settingsMention,
-                name: serverDomain ?? TSConstants.mainServerDomain,
-                accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "username"),
-                actionBlock: { [weak self] in
-                    guard let self = self else { return }
-                    let vc = ServerDomainViewController(serverDomain: self.serverDomain,serverDomainDelegate: self)
-                    self.presentFormSheet(OWSNavigationController(rootViewController: vc), animated: true)
-                }
-            ))
-        }
+
+        mainSection.add(.disclosureItem(
+            icon: .settingsMention,
+            name: serverDomain ?? TSConstants.mainServerDomain,
+            accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "username"),
+            actionBlock: { [weak self] in
+                guard let self = self else { return }
+                let vc = ServerDomainViewController(
+                    serverDomain: self.serverDomain ?? TSConstants.mainServerDomain,
+                    serverDomainDelegate: self)
+                self.presentFormSheet(OWSNavigationController(rootViewController: vc), animated: true)
+            }
+        ))
         
         contents.addSection(mainSection)
 
@@ -119,11 +119,6 @@ extension ServerSettingsViewController: ServerDomainViewControllerDelegate {
     func serverDomainViewDidComplete(serverDomain: String?) {
         self.serverDomain = serverDomain
 
-        if self.serverDomain != nil && !(self.serverDomain?.elementsEqual(TSConstants.mainServerDomain))! {
-            //print(TSConstants.mainServerDomain)
-            TSConstants.mainServerDomain = self.serverDomain ?? TSConstants.mainServerDomain
-            //print(TSConstants.mainServerDomain)
-        }
         updateTableContents()
     }
 }

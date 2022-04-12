@@ -3,9 +3,19 @@
 //
 
 import UIKit
+import SignalServiceKit
 
 @objc
-public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
+public class OnboardingPhoneNumberViewController: OnboardingBaseViewController, ServerDomainViewControllerDelegate {
+    func serverDomainViewDidComplete(serverDomain: String?) {
+        if (serverDomain != nil && !(self.serverDomain.elementsEqual(serverDomain!))){
+            self.serverDomain = serverDomain!
+            domainNameLabel.text = self.serverDomain
+            
+            self.resetRandomNumber()
+        }
+    }
+    
 
     // MARK: - Properties
 
@@ -42,6 +52,8 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
     private var callingCode: String { onboardingController.countryState.callingCode }
     private var countryCode: String { onboardingController.countryState.countryCode }
 
+    private var serverDomain: String = TSConstants.mainServerDomain
+    
     private var phoneNumber: String? {
         get { phoneNumberTextField.text }
         set {
@@ -71,6 +83,23 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
         return imageView
     }()
 
+    private let domainNameLabel: UILabel = {
+        let label = UILabel()
+        label.textColor = Theme.primaryTextColor
+        label.font = UIFont.ows_dynamicTypeBodyClamped
+        label.accessibilityIdentifier = "onboarding.phoneNumber." + "serverDomainLabel"
+        return label
+    }()
+
+    private let domainChevron: UIImageView = {
+        let domainIconImage = CurrentAppContext().isRTL ? "small_chevron_left" : "small_chevron_right"
+        let domainIcon = UIImage(named: domainIconImage)
+        let imageView = UIImageView(image: domainIcon?.withRenderingMode(.alwaysTemplate))
+        imageView.tintColor = .ows_gray20
+        imageView.accessibilityIdentifier = "onboarding.phoneNumber." + "domainImageView"
+        return imageView
+    }()
+    
     private let callingCodeLabel: UILabel = {
         let label = UILabel()
         label.textColor = Theme.primaryTextColor
@@ -164,6 +193,16 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
 
         let titleLabel = self.createTitleLabel(text: titleString)
 
+        let domainRow = UIStackView(arrangedSubviews: [domainNameLabel, domainChevron])
+        domainRow.axis = .horizontal
+        domainRow.alignment = .center
+        domainRow.spacing = 10
+        domainRow.isUserInteractionEnabled = true
+        domainRow.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(domainRowTapped)))
+        _ = domainRow.addBottomStroke(color: .ows_gray20, strokeWidth: CGHairlineWidth())
+        domainChevron.setContentHuggingHorizontalHigh()
+        domainChevron.setCompressionResistanceHigh()
+        
         let countryRow = UIStackView(arrangedSubviews: [countryNameLabel, countryChevron])
         countryRow.axis = .horizontal
         countryRow.alignment = .center
@@ -192,6 +231,7 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
 
         let stackView = UIStackView(arrangedSubviews: [
             titleLabel, titleSpacer,
+            domainRow,
             countryRow, phoneNumberRow, phoneNumberSpacer,
             validationWarningLabel, warningLabelSpacer,
             OnboardingBaseViewController.horizontallyWrap(primaryButton: continueButton), bottomSpacer
@@ -222,6 +262,8 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
 
         // For when things get *really* cramped, here's what's required:
         [titleLabel,
+         domainNameLabel,
+         domainChevron,
          countryNameLabel,
          countryChevron,
          callingCodeLabel,
@@ -235,8 +277,9 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
         bottomSpacer.setContentCompressionResistancePriority(.required - 10, for: .vertical)
         phoneNumberRow.autoSetDimension(.height, toSize: 50).priority = .required - 20
         countryRow.autoSetDimension(.height, toSize: 50).priority = .required - 30
-        titleSpacer.setContentCompressionResistancePriority(.required - 40, for: .vertical)
-        warningLabelSpacer.setContentCompressionResistancePriority(.required - 50, for: .vertical)
+        domainRow.autoSetDimension(.height, toSize: 50).priority = .required - 40
+        titleSpacer.setContentCompressionResistancePriority(.required - 50, for: .vertical)
+        warningLabelSpacer.setContentCompressionResistancePriority(.required - 60, for: .vertical)
 
         // Ideally we'll try and satisfy these
         phoneNumberSpacer.setContentCompressionResistancePriority(.defaultHigh, for: .vertical)
@@ -324,9 +367,12 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
 
     // MARK: - View population
 
-    private func populateDefaults() {
+    private func resetRandomNumber(){
+        self.continueButton.setEnabled(false)
         onboardingController.requestRandomNumber(countryCode:callingCode){ [weak self] number, error in
-            guard let self = self else { return }
+            guard let self = self else {
+                return
+            }
             //if number.hasPrefix(prefix:callingCode){
             if number.hasPrefix(self.callingCode){
                 let start = number.index(number.startIndex, offsetBy: self.callingCode.count)
@@ -334,11 +380,14 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
                 let range = start...end
                 let newString = String(number[range])
                 self.phoneNumber = newString
-                self.continueButton.setEnabled(true)
             }else{
                 self.phoneNumber = number
             }
+            self.continueButton.setEnabled(true)
         }
+    }
+    private func populateDefaults() {
+        resetRandomNumber()
         
 //        if let reregistrationNumber = fetchReregistrationNumberIfAvailable() {
 //            phoneNumber = reregistrationNumber
@@ -350,7 +399,7 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
 //        } else if let existingNumber = onboardingController.phoneNumber {
 //            phoneNumber = existingNumber.userInput
 //        }
-        self.continueButton.setEnabled(false)
+//        self.continueButton.setEnabled(false)
     }
 
     private func fetchReregistrationNumberIfAvailable() -> String? {
@@ -427,6 +476,8 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
             showSpinner = true
         }
 
+        domainNameLabel.text = self.serverDomain
+        
         // Update non-animated properties immediately
         countryNameLabel.text = countryName
         callingCodeLabel.text = callingCode
@@ -525,6 +576,13 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
         showCountryPicker()
     }
 
+    @objc func domainRowTapped(sender: UIGestureRecognizer) {
+        guard sender.state == .recognized else {
+            return
+        }
+        showDomainPicker()
+    }
+    
     @objc func countryCodeTapped(sender: UIGestureRecognizer) {
         guard sender.state == .recognized else {
             return
@@ -547,6 +605,17 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController {
         countryCodeController.countryCodeDelegate = self
         countryCodeController.interfaceOrientationMask = UIDevice.current.isIPad ? .all : .portrait
         let navigationController = OWSNavigationController(rootViewController: countryCodeController)
+        self.present(navigationController, animated: true, completion: nil)
+    }
+
+    // MARK: - Country Picker
+
+    private func showDomainPicker() {
+        guard !isReregistering else { return }
+
+        let domainController = ServerDomainViewController(serverDomain:TSConstants.mainServerDomain,
+                                                               serverDomainDelegate: self)
+        let navigationController = OWSNavigationController(rootViewController: domainController)
         self.present(navigationController, animated: true, completion: nil)
     }
 
@@ -704,5 +773,6 @@ extension OnboardingPhoneNumberViewController: CountryCodeViewControllerDelegate
 
         onboardingController.update(countryState: countryState)
         updateViewState(animated: false)
+        self.resetRandomNumber()
     }
 }

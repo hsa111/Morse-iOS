@@ -49,8 +49,10 @@ public class TSConstants: NSObject {
     public static var mainServerDomain = "devplusone.com"
     
     @objc
-    public static func setMainServerDomain(serverDomain:String){
-        mainServerDomain = serverDomain;
+    public static func setMainServerDomain(serverDomain:String?){
+        if (serverDomain != nil){
+            mainServerDomain = serverDomain!;
+        }
     }
     
     @objc

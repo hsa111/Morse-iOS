@@ -139,10 +139,16 @@ class ServerDomainViewController: OWSTableViewController2 {
         }
 
         footerComponents.append(NSLocalizedString(
-            "SERVERDOMAIN_DESCRIPTION",
+            "SERVERDOMAIN_ATTENTION",
+            comment: "attent to need reboot app."
+        ).styled(with:.color(.ows_accentRed)))
+        footerComponents.append("\n\n")
+
+        footerComponents.append(NSLocalizedString(
+            "SERVER_VIEW_DESCRIPTION",
             comment: "An explanation of how server domain work on the domain view."
         ))
-
+        
         section.footerAttributedTitle = NSAttributedString.composed(of: footerComponents).styled(
             with: .font(.ows_dynamicTypeCaption1Clamped),
             .color(Theme.secondaryTextAndIconColor)
@@ -178,18 +184,18 @@ class ServerDomainViewController: OWSTableViewController2 {
             return nil
         case .tooShort:
             return NSLocalizedString(
-                "USERNAME_TOO_SHORT_ERROR",
-                comment: "An error indicating that the supplied username is too short."
+                "DOMAIN_TOO_SHORT_ERROR",
+                comment: "An error indicating that the supplied domain is too short."
             )
         case .invalidCharacters:
             return NSLocalizedString(
-                "USERNAME_INVALID_CHARACTERS_ERROR",
-                comment: "An error indicating that the supplied username contains disallowed characters."
+                "DOMAIN_INVALID_CHARACTERS_ERROR",
+                comment: "An error indicating that the supplied domain contains disallowed characters."
             )
         case .notMainDomain:
             let unavailableErrorFormat = NSLocalizedString(
-                "USERNAME_UNAVAIALBE_ERROR_FORMAT",
-                comment: "An error indicating that the supplied username is in use by another user. Embeds {{requested username}}."
+                "DOMAIN_ERROR_FORMAT",
+                comment: "An error indicating that the supplied domain is not main domain. Embeds {{requested username}}."
             )
 
             return String(format: unavailableErrorFormat, normalizedServerDomain ?? "")
@@ -227,10 +233,12 @@ class ServerDomainViewController: OWSTableViewController2 {
         guard serverDomainIsValid() else { return }
 
         self.preferences.setServerDomain(normalizedServerDomain)
+        TSConstants.mainServerDomain = normalizedServerDomain!
         
-        serverDomainDelegate?.serverDomainViewDidComplete(serverDomain: normalizedServerDomain)
+        //serverDomainDelegate?.serverDomainViewDidComplete(serverDomain: normalizedServerDomain)
+        //dismiss(animated: true)
         
-        dismiss(animated: true)
+        exit(0)
     }
 
     func serverDomainIsValid() -> Bool {
