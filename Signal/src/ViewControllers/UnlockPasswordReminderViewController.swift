@@ -165,12 +165,12 @@ public class UnlockPasswordReminderViewController: OWSViewController {
         submitButton.accessibilityIdentifier = "passwordReminder.submitButton"
 
         // Secondary button
-        let forgotButton = UIButton()
-        forgotButton.setTitle(NSLocalizedString("PASSWORD_REMINDER_FORGOT_PASSWORD", comment: "Text asking if the user forgot their password for the 'password reminder' dialog."), for: .normal)
-        forgotButton.setTitleColor(Theme.accentBlueColor, for: .normal)
-        forgotButton.titleLabel?.font = .ows_dynamicTypeSubheadlineClamped
-        forgotButton.addTarget(self, action: #selector(forgotPressed), for: .touchUpInside)
-        forgotButton.accessibilityIdentifier = "passwordReminder.forgotButton"
+//        let forgotButton = UIButton()
+//        forgotButton.setTitle(NSLocalizedString("PASSWORD_REMINDER_FORGOT_PASSWORD", comment: "Text asking if the user forgot their password for the 'password reminder' dialog."), for: .normal)
+//        forgotButton.setTitleColor(Theme.accentBlueColor, for: .normal)
+//        forgotButton.titleLabel?.font = .ows_dynamicTypeSubheadlineClamped
+//        forgotButton.addTarget(self, action: #selector(forgotPressed), for: .touchUpInside)
+//        forgotButton.accessibilityIdentifier = "passwordReminder.forgotButton"
 
         let topSpacer = UIView.vStretchingSpacer()
         let bottomSpacer = UIView.vStretchingSpacer()
@@ -184,7 +184,7 @@ public class UnlockPasswordReminderViewController: OWSViewController {
             bottomSpacer,
             submitButton,
             UIView.spacer(withHeight: 10),
-            forgotButton,
+//            forgotButton,
             UIView.spacer(withHeight: 300)
         ])
         stackView.axis = .vertical
@@ -274,10 +274,10 @@ public class UnlockPasswordReminderViewController: OWSViewController {
            overlayView.autoPinEdgesToSuperviewEdges()
 
            let progressView = AnimatedProgressView(
-               loadingText: NSLocalizedString(
-                   "DELETE_ACCOUNT_CONFIRMATION_IN_PROGRESS",
-                   comment: "Indicates the work we are doing while deleting the account"
-               )
+//               loadingText: NSLocalizedString(
+//                   "DELETE_ACCOUNT_CONFIRMATION_IN_PROGRESS",
+//                   comment: "Indicates the work we are doing while deleting the account"
+//               )
            )
            self.navigationController?.view.addSubview(progressView)
            progressView.autoCenterInSuperview()
