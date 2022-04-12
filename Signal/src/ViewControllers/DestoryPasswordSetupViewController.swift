@@ -27,7 +27,7 @@ public class DestoryPasswordSetupViewController: OWSViewController {
             explanationText = NSLocalizedString("DESTORY_PASSWORD_CREATION_EXPLANATION",
                                                 comment: "The explanation in the 'destory-password creation' view.")
         case .recreating, .changing:
-            explanationText = NSLocalizedString("DESTORY_PASSWORD_CREATION_RECREATION_EXPLANATION",
+            explanationText = NSLocalizedString("DESTORY_PASSWORD_CREATION_EXPLANATION",
                                                 comment: "The re-creation explanation in the 'destory-password creation' view.")
         case .confirming:
             explanationText = NSLocalizedString("DESTORY_PASSWORD_CREATION_CONFIRMATION_EXPLANATION",

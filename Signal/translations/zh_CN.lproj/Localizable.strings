@@ -6626,6 +6626,27 @@
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "您设置了消息%@后消失。";
 
+/* The title for the username view. */
+"SERVER_VIEW_TITLE" = "服务器的主域名";
+
+/* An explanation of how domain work on the app*/
+"SERVER_VIEW_DESCRIPTION" = "Morse messenger 通过主域名配置url后连接到后台服务器。可以通过修改主域名连接到不同的后台服务器；或者仍然连接到相同的服务器，但这些服务器的先前域名已经被某些国家的防火墙阻塞了.";
+
+/* The title for the username view. */
+"SERVERDOMAIN_TITLE" = "更改主域名";
+
+/* An explanation of how domain work on the app*/
+"SERVERDOMAIN_ATTENTION" = "[注意] 更改主域名需要重启APP.\n修改主域名务必仔细检查确认正确性！";
+
+/* An error indicating that the supplied domain contains disallowed characters. */
+"DOMAIN_INVALID_CHARACTERS_ERROR" = "域名只允许字母，数字和 '.' ， '-' 两个特殊字符";
+
+/* An error indicating that the supplied domain is too short. */
+"DOMAIN_TOO_SHORT_ERROR" = "域名必须至少3个字符.";
+
+/* An error indicating that the supplied domain is not main domain. */
+"DOMAIN_ERROR_FORMAT" = "%@ 不是主域名.";
+
 /* Label indicating the user must use at least 4 characters */
 "DESTORY_PASSWORD_CREATION_ALPHANUMERIC_HINT" = "销毁密码至少要有4个字符。";
 
@@ -6651,16 +6672,13 @@
 "DESTORY_PASSWORD_CREATION_DESTORY_PASSWORD_PROGRESS" = "正在创建销毁密码...";
 
 /* The explanation in the 'destory-password creation' view. */
-"DESTORY_PASSWORD_CREATION_EXPLANATION" = "DESTORY_PASSWORD_CREATION_EXPLANATION";
+"DESTORY_PASSWORD_CREATION_EXPLANATION" = "销毁密码用于在输入密码时，静默删除账号，这样就清理了所有的消息痕迹。";
 
 /* Label indicating that the attempted DESTORY-PASSWORD does not match the first DESTORY-PASSWORD */
 "DESTORY_PASSWORD_CREATION_MISMATCH_ERROR" = "销毁密码不匹配。请重试。";
 
 /* Label indicating the user must use at least 4 digits */
 "DESTORY_PASSWORD_CREATION_NUMERIC_HINT" = "销毁密码至少需要4位数。";
-
-/* The re-creation explanation in the 'destory-password creation' view. */
-"DESTORY_PASSWORD_CREATION_RECREATION_EXPLANATION" = "DESTORY_PASSWORD_CREATION_RECREATION_EXPLANATION";
 
 /* Title of the 'destory-password creation' recreation view. */
 "DESTORY_PASSWORD_CREATION_RECREATION_TITLE" = "更改销毁密码";
@@ -6675,7 +6693,7 @@
 "DESTORY_PASSWORD_CREATION_UNLOCK_PASSWORD_SAME_ERROR" = "销毁密码与解锁密码相同";
 
 /* The explanation for the 'password reminder' dialog. */
-"PASSWORD_REMINDER_EXPLANATION" = "PASSWORD_REMINDER_EXPLANATION";
+"PASSWORD_REMINDER_EXPLANATION" = "请输入你已经设置的解锁密码。";
 
 /* Text asking if the user forgot their password for the 'password reminder' dialog. */
 "PASSWORD_REMINDER_FORGOT_PASSWORD" = "忘记了密码？";
@@ -6708,16 +6726,13 @@
 "UNLOCK_PASSWORD_CREATION_CREATE_NUMERIC" = "创建纯数字解锁密码";
 
 /* The explanation in the 'unlock-password creation' view. */
-"UNLOCK_PASSWORD_CREATION_EXPLANATION" = "UNLOCK_PASSWORD_CREATION_EXPLANATION";
+"UNLOCK_PASSWORD_CREATION_EXPLANATION" = "解锁密码用于Morse Messenger启动时登陆系统。";
 
 /* Label indicating that the attempted UNLOCK-PASSWORD does not match the first UNLOCK-PASSWORD */
 "UNLOCK_PASSWORD_CREATION_MISMATCH_ERROR" = "解锁密码不匹配。请重试。";
 
 /* Label indicating the user must use at least 4 digits */
 "UNLOCK_PASSWORD_CREATION_NUMERIC_HINT" = "解锁密码至少需要4位数。";
-
-/* The re-creation explanation in the 'unlock-password creation' view. */
-"UNLOCK_PASSWORD_CREATION_RECREATION_EXPLANATION" = "UNLOCK_PASSWORD_CREATION_RECREATION_EXPLANATION";
 
 /* Title of the 'unlock-password creation' recreation view. */
 "UNLOCK_PASSWORD_CREATION_RECREATION_TITLE" = "更改解锁密码";

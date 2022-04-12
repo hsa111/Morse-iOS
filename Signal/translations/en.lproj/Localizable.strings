@@ -6638,13 +6638,13 @@
 "SERVERDOMAIN_ATTENTION" = "[ATTENTION] change server domain need to reboot app.\nPlease modify the main domain name carefully";
 
 /* An error indicating that the supplied domain contains disallowed characters. */
-"DOMAIN_INVALID_CHARACTERS_ERROR" = "Usernames may only contain a-z, 0-9, and _";
+"DOMAIN_INVALID_CHARACTERS_ERROR" = "domain may only contain a-z, 0-9,'.' and '-' ";
 
 /* An error indicating that the supplied domain is too short. */
-"DOMAIN_TOO_SHORT_ERROR" = "Usernames must have at least 4 characters.";
+"DOMAIN_TOO_SHORT_ERROR" = "domain must have at least 3 characters.";
 
 /* An error indicating that the supplied domain is not main domain. */
-"DOMAIN_ERROR_FORMAT" = "%@ is taken.";
+"DOMAIN_ERROR_FORMAT" = "%@ is not main domain.";
 
 /* Label indicating the user must use at least 4 characters */
 "DESTORY_PASSWORD_CREATION_ALPHANUMERIC_HINT" = "DESTORY PASSWORD must be at least 4 characters";
@@ -6671,16 +6671,13 @@
 "DESTORY_PASSWORD_CREATION_DESTORY_PASSWORD_PROGRESS" = "Creating DESTORY PASSWORD...";
 
 /* The explanation in the 'destory-password creation' view. */
-"DESTORY_PASSWORD_CREATION_EXPLANATION" = "DESTORY_PASSWORD_CREATION_EXPLANATION";
+"DESTORY_PASSWORD_CREATION_EXPLANATION" = "DESTORY PASSWORD is used to delete the account silently when the password is entered, thus clearing all traces of messages. if not set UNLOCK PASSWORD, any not DESTORY PASSWORD can be UNLOCK PASSWORD!";
 
 /* Label indicating that the attempted DESTORY-PASSWORD does not match the first DESTORY-PASSWORD */
 "DESTORY_PASSWORD_CREATION_MISMATCH_ERROR" = "DESTORY PASSWORD don’t match. Try again.";
 
 /* Label indicating the user must use at least 4 digits */
 "DESTORY_PASSWORD_CREATION_NUMERIC_HINT" = "DESTORY PASSWORD must be at least 4 digits";
-
-/* The re-creation explanation in the 'destory-password creation' view. */
-"DESTORY_PASSWORD_CREATION_RECREATION_EXPLANATION" = "DESTORY_PASSWORD_CREATION_RECREATION_EXPLANATION";
 
 /* Title of the 'destory-password creation' recreation view. */
 "DESTORY_PASSWORD_CREATION_RECREATION_TITLE" = "Change your DESTORY PASSWORD";
@@ -6695,7 +6692,7 @@
 "DESTORY_PASSWORD_CREATION_UNLOCK_PASSWORD_SAME_ERROR" = "DESTORY PASSWORD is the same as UNLOCK PASSWORD";
 
 /* The explanation for the 'password reminder' dialog. */
-"PASSWORD_REMINDER_EXPLANATION" = "PASSWORD_REMINDER_EXPLANATION";
+"PASSWORD_REMINDER_EXPLANATION" = "Please enter UNLOCK PASSWORD you have set!";
 
 /* Text asking if the user forgot their password for the 'password reminder' dialog. */
 "PASSWORD_REMINDER_FORGOT_PASSWORD" = "Forgot your PASSWORD";
@@ -6728,16 +6725,13 @@
 "UNLOCK_PASSWORD_CREATION_CREATE_NUMERIC" = "Create Numeric UNLOCK PASSWORD";
 
 /* The explanation in the 'unlock-password creation' view. */
-"UNLOCK_PASSWORD_CREATION_EXPLANATION" = "UNLOCK_PASSWORD_CREATION_EXPLANATION";
+"UNLOCK_PASSWORD_CREATION_EXPLANATION" = "UNLOCK PASSWORD is used to login to the system when Morse Messenger starts.";
 
 /* Label indicating that the attempted UNLOCK-PASSWORD does not match the first UNLOCK-PASSWORD */
 "UNLOCK_PASSWORD_CREATION_MISMATCH_ERROR" = "UNLOCK PASSWORD don’t match. Try again.";
 
 /* Label indicating the user must use at least 4 digits */
 "UNLOCK_PASSWORD_CREATION_NUMERIC_HINT" = "UNLOCK PASSWORD must be at least 4 digits";
-
-/* The re-creation explanation in the 'unlock-password creation' view. */
-"UNLOCK_PASSWORD_CREATION_RECREATION_EXPLANATION" = "UNLOCK_PASSWORD_CREATION_RECREATION_EXPLANATION";
 
 /* Title of the 'unlock-password creation' recreation view. */
 "UNLOCK_PASSWORD_CREATION_RECREATION_TITLE" = "Change your UNLOCK PASSWORD";

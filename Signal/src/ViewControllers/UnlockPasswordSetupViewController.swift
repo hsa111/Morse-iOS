@@ -27,7 +27,7 @@ public class UnlockPasswordSetupViewController: OWSViewController {
             explanationText = NSLocalizedString("UNLOCK_PASSWORD_CREATION_EXPLANATION",
                                                 comment: "The explanation in the 'unlock-password creation' view.")
         case .recreating, .changing:
-            explanationText = NSLocalizedString("UNLOCK_PASSWORD_CREATION_RECREATION_EXPLANATION",
+            explanationText = NSLocalizedString("UNLOCK_PASSWORD_CREATION_EXPLANATION",
                                                 comment: "The re-creation explanation in the 'unlock-password creation' view.")
         case .confirming:
             explanationText = NSLocalizedString("UNLOCK_PASSWORD_CREATION_CONFIRMATION_EXPLANATION",
