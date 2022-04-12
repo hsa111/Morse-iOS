@@ -204,8 +204,15 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     UIButton *cameraButton = [UIButton buttonWithType:UIButtonTypeCustom];
     cameraButton.accessibilityLabel = NSLocalizedString(@"CAMERA_BUTTON_LABEL", @"Accessibility label for camera button.");
     [cameraButton
-        setImage:[[Theme iconImage:ThemeIconAttachmentCamera] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+        setImage:[[Theme iconImage:ThemeIconCameraButton] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
         forState:UIControlStateNormal];
+    [cameraButton autoSetDimensionsToSize:CGSizeMake(50, 50)];
+    cameraButton.backgroundColor = [UIColor ows_gray15Color];
+    cameraButton.layer.cornerRadius = 25;
+//    cameraButton.layer.masksToBounds = true;
+    cameraButton.layer.shadowOffset = CGSizeMake(0, 5);
+    cameraButton.layer.shadowColor = [UIColor blackColor].CGColor;
+    cameraButton.layer.shadowOpacity = 0.3f;
     [cameraButton addTarget:self action:@selector(showCameraView) forControlEvents:UIControlEventTouchUpInside];
 
 ////    UIView *cameraImageView = [[UIImageView alloc] initWithImage:[Theme iconImage:ThemeIconCompose24]];
@@ -223,7 +230,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeLeading
                                                     withInset:10
                                                      relation:NSLayoutRelationGreaterThanOrEqual];
-    [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:48.f];
+    [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:86.f];
     [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeTop
                                                     withInset:10
                                                      relation:NSLayoutRelationGreaterThanOrEqual];
@@ -235,8 +242,15 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     UIButton *composeButton = [UIButton buttonWithType:UIButtonTypeCustom];
     composeButton.accessibilityLabel = NSLocalizedString(@"COMPOSE_BUTTON_LABEL", @"Accessibility label from compose button.");
     [composeButton
-        setImage:[[Theme iconImage:ThemeIconCompose32] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+        setImage:[[Theme iconImage:ThemeIconCompose24] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
         forState:UIControlStateNormal];
+    [composeButton autoSetDimensionsToSize:CGSizeMake(50, 50)];
+    composeButton.backgroundColor = [UIColor ows_signalBlueColor];
+    composeButton.layer.cornerRadius = 25;
+//    composeButton.layer.masksToBounds = true;
+    composeButton.layer.shadowOffset = CGSizeMake(0, 5);
+    composeButton.layer.shadowColor = [UIColor blackColor].CGColor;
+    composeButton.layer.shadowOpacity = 0.3f;
     [composeButton addTarget:self action:@selector(showNewConversationView) forControlEvents:UIControlEventTouchUpInside];
 
 //    UIView *composeImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"avatar_book"]];
@@ -253,7 +267,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     [composeButton autoPinEdgeToSuperviewEdge:ALEdgeLeading
                                                     withInset:10
                                                      relation:NSLayoutRelationGreaterThanOrEqual];
-    [composeButton autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:12.f];
+    [composeButton autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:24.f];
     [composeButton autoPinEdgeToSuperviewEdge:ALEdgeTop
                                                     withInset:10
                                                      relation:NSLayoutRelationGreaterThanOrEqual];
