@@ -54,6 +54,8 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
 
 @property (nonatomic) BOOL hasEverPresentedExperienceUpgrade;
 
+@property (nonatomic) UIToolbar *footBar;
+
 @end
 
 #pragma mark -
@@ -164,6 +166,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
 
     [self.view addSubview:self.tableView];
     [self.tableView autoPinEdgesToSuperviewEdges];
+    [self.tableView autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:80.f];
     SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, self.tableView);
     SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, self.searchBar);
 
@@ -198,111 +201,6 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
                 forControlEvents:UIControlEventValueChanged];
     self.tableView.refreshControl = pullToRefreshView;
     SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, pullToRefreshView);
-    
-    
-    // camera button
-    UIButton *cameraButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    cameraButton.accessibilityLabel = NSLocalizedString(@"CAMERA_BUTTON_LABEL", @"Accessibility label for camera button.");
-    [cameraButton
-        setImage:[[Theme iconImage:ThemeIconCameraButton] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
-        forState:UIControlStateNormal];
-    [cameraButton autoSetDimensionsToSize:CGSizeMake(50, 50)];
-    cameraButton.backgroundColor = [UIColor ows_gray15Color];
-    cameraButton.layer.cornerRadius = 25;
-//    cameraButton.layer.masksToBounds = true;
-    cameraButton.layer.shadowOffset = CGSizeMake(0, 5);
-    cameraButton.layer.shadowColor = [UIColor blackColor].CGColor;
-    cameraButton.layer.shadowOpacity = 0.3f;
-    [cameraButton addTarget:self action:@selector(showCameraView) forControlEvents:UIControlEventTouchUpInside];
-
-////    UIView *cameraImageView = [[UIImageView alloc] initWithImage:[Theme iconImage:ThemeIconCompose24]];
-//    UIView *cameraImageView = [self createAvatarBarButtonViewWithSneakyTransaction];
-//    [cameraButton addSubview:cameraImageView];
-//    [cameraImageView autoPinEdgesToSuperviewEdges];
-
-//    UIView *cameraWrapper = [UIView containerView];
-//    [cameraWrapper addSubview:cameraButton];
-//    [cameraButton autoPinEdgesToSuperviewEdges];
-    
-    [self.view addSubview:cameraButton];
-//    [cameraButton autoPinToTopLayoutGuideOfViewController:self withInset:0.f];
-    [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeTrailing withInset:6.f];
-    [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeLeading
-                                                    withInset:10
-                                                     relation:NSLayoutRelationGreaterThanOrEqual];
-    [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:86.f];
-    [cameraButton autoPinEdgeToSuperviewEdge:ALEdgeTop
-                                                    withInset:10
-                                                     relation:NSLayoutRelationGreaterThanOrEqual];
-//    [cameraButton autoPinEdgeToSuperviewMargin:ALEdgeBottom
-//                                                       relation:NSLayoutRelationGreaterThanOrEqual];
-    SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, cameraButton);
-    
-    // compose button
-    UIButton *composeButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    composeButton.accessibilityLabel = NSLocalizedString(@"COMPOSE_BUTTON_LABEL", @"Accessibility label from compose button.");
-    [composeButton
-        setImage:[[Theme iconImage:ThemeIconCompose24] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
-        forState:UIControlStateNormal];
-    [composeButton autoSetDimensionsToSize:CGSizeMake(50, 50)];
-    composeButton.backgroundColor = [UIColor ows_signalBlueColor];
-    composeButton.layer.cornerRadius = 25;
-//    composeButton.layer.masksToBounds = true;
-    composeButton.layer.shadowOffset = CGSizeMake(0, 5);
-    composeButton.layer.shadowColor = [UIColor blackColor].CGColor;
-    composeButton.layer.shadowOpacity = 0.3f;
-    [composeButton addTarget:self action:@selector(showNewConversationView) forControlEvents:UIControlEventTouchUpInside];
-
-//    UIView *composeImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"avatar_book"]];
-//    [composeButton addSubview:composeImageView];
-//    [composeImageView autoPinEdgesToSuperviewEdges];
-
-//    UIView *composeWrapper = [UIView containerView];
-//    [composeWrapper addSubview:composeButton];
-//    [composeButton autoPinEdgesToSuperviewEdges];
-    
-    [self.view addSubview:composeButton];
-//    [composeButton autoPinToTopLayoutGuideOfViewController:self withInset:0.f];
-    [composeButton autoPinEdgeToSuperviewEdge:ALEdgeTrailing withInset:6.f];
-    [composeButton autoPinEdgeToSuperviewEdge:ALEdgeLeading
-                                                    withInset:10
-                                                     relation:NSLayoutRelationGreaterThanOrEqual];
-    [composeButton autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:24.f];
-    [composeButton autoPinEdgeToSuperviewEdge:ALEdgeTop
-                                                    withInset:10
-                                                     relation:NSLayoutRelationGreaterThanOrEqual];
-//    [composeButton autoPinEdgeToSuperviewMargin:ALEdgeBottom
-//                                                       relation:NSLayoutRelationGreaterThanOrEqual];
-    SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, composeButton);
-    
-    // Settings button.
-//    UIButton *avatarButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//    avatarButton.accessibilityLabel = CommonStrings.openSettingsButton;
-//    [avatarButton addTarget:self action:@selector(showAppSettings) forControlEvents:UIControlEventTouchUpInside];
-//
-//    UIView *avatarImageView = [self createAvatarBarButtonViewWithSneakyTransaction];
-//    [avatarButton addSubview:avatarImageView];
-//    [avatarImageView autoPinEdgesToSuperviewEdges];
-//
-////    UIView *avatarWrapper = [UIView containerView];
-////    [avatarWrapper addSubview:avatarButton];
-////    [avatarButton autoPinEdgesToSuperviewEdges];
-//
-//    [self.view addSubview:avatarButton];
-////    [avatarButton autoPinToTopLayoutGuideOfViewController:self withInset:0.f];
-//    [avatarButton autoPinEdgeToSuperviewEdge:ALEdgeTrailing withInset:6.f];
-//    [avatarButton autoPinEdgeToSuperviewEdge:ALEdgeLeading
-//                                                    withInset:10
-//                                                     relation:NSLayoutRelationGreaterThanOrEqual];
-//    [avatarButton autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:12.f];
-//    [avatarButton autoPinEdgeToSuperviewEdge:ALEdgeTop
-//                                                    withInset:10
-//                                                     relation:NSLayoutRelationGreaterThanOrEqual];
-////    [avatarButton autoPinEdgeToSuperviewMargin:ALEdgeBottom
-////                                                       relation:NSLayoutRelationGreaterThanOrEqual];
-//
-//    SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, avatarButton);
-    
 }
 
 - (UIView *)createEmptyInboxView
@@ -631,15 +529,15 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, settingsButton);
 
     // [Theme iconImage:ThemeIconCompose24]
-    UIBarButtonItem *compose = [[UIBarButtonItem alloc] initWithImage:[Theme iconImage:ThemeIconContact24]
-                                                                style:UIBarButtonItemStylePlain
-                                                               target:self
-                                                               action:@selector(showNewConversationView)];
-    compose.accessibilityLabel
-        = NSLocalizedString(@"COMPOSE_BUTTON_LABEL", @"Accessibility label from compose button.");
-    compose.accessibilityHint = NSLocalizedString(
-        @"COMPOSE_BUTTON_HINT", @"Accessibility hint describing what you can do with the compose button");
-    compose.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"compose");
+//    UIBarButtonItem *compose = [[UIBarButtonItem alloc] initWithImage:[Theme iconImage:ThemeIconContact24]
+//                                                                style:UIBarButtonItemStylePlain
+//                                                               target:self
+//                                                               action:@selector(showNewConversationView)];
+//    compose.accessibilityLabel
+//        = NSLocalizedString(@"COMPOSE_BUTTON_LABEL", @"Accessibility label from compose button.");
+//    compose.accessibilityHint = NSLocalizedString(
+//        @"COMPOSE_BUTTON_HINT", @"Accessibility hint describing what you can do with the compose button");
+//    compose.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"compose");
 
     UIBarButtonItem *camera = [[UIBarButtonItem alloc] initWithImage:[Theme iconImage:ThemeIconCameraButton]
                                                                style:UIBarButtonItemStylePlain
@@ -650,7 +548,93 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
         @"CAMERA_BUTTON_HINT", @"Accessibility hint describing what you can do with the camera button");
     camera.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"camera");
 
-    self.navigationItem.rightBarButtonItems = @[ compose, camera ];
+    self.navigationItem.rightBarButtonItems = @[ camera ];
+    
+    if (self.footBar != NULL) {
+        [self.footBar removeFromSuperview];
+    }
+    
+    // foot toolBar
+    UIToolbar *footBar = [UIToolbar new];
+    [footBar autoSetDimension:ALDimensionHeight toSize:80.f];
+//    [footBar setBackgroundColor:[UIColor ows_signalBlueColor]];
+    [self.view addSubview:footBar];
+    [footBar autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero excludingEdge:ALEdgeTop];
+    [footBar setTranslucent:YES];
+    
+    // message button
+    UIButton *messageBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    messageBtn.titleLabel.font = [UIFont systemFontOfSize:12.0];
+    [messageBtn setTitleColor:UIColor.ows_gray45Color forState:UIControlStateNormal];
+    [messageBtn setTintColor:UIColor.ows_gray60Color];
+    [messageBtn setEnabled:NO];
+    [messageBtn autoSetDimensionsToSize:CGSizeMake(120, 50)];
+    [messageBtn set:[Theme iconImage:ThemeIconSettingsChats]
+                title:NSLocalizedString(@"LONG_TEXT_VIEW_TITLE", @"Title for the 'long text message' view.")
+                titlePosition:UIViewContentModeBottom
+                additionalSpacing:0.f state:UIControlStateNormal];
+    UIBarButtonItem *messages = [[UIBarButtonItem alloc] initWithCustomView:messageBtn];
+    [messages setEnabled:NO];
+    messages.accessibilityLabel
+        = NSLocalizedString(@"LONG_TEXT_VIEW_TITLE", @"Title for the 'long text message' view.");
+    messages.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"messages");
+    
+    //compose button
+    UIButton *composeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    composeBtn.titleLabel.font = [UIFont systemFontOfSize:12.0];
+    [composeBtn setTitleColor:UIColor.ows_signalBlueColor forState:UIControlStateNormal];
+    [composeBtn autoSetDimensionsToSize:CGSizeMake(120, 50)];
+    [composeBtn set:[Theme iconImage:ThemeIconContact24]
+                title:NSLocalizedString(@"ACCESSIBILITY_LABEL_CONTACT", @"Accessibility label for contact.")
+                titlePosition:UIViewContentModeBottom
+                additionalSpacing:0.f state:UIControlStateNormal];
+    [composeBtn addTarget:self action:@selector(showNewConversationView) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *compose = [[UIBarButtonItem alloc] initWithCustomView:composeBtn];
+    compose.accessibilityLabel
+        = NSLocalizedString(@"COMPOSE_BUTTON_LABEL", @"Accessibility label from compose button.");
+    compose.accessibilityHint = NSLocalizedString(
+        @"COMPOSE_BUTTON_HINT", @"Accessibility hint describing what you can do with the compose button");
+    compose.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"compose");
+    
+    // settins button
+    UIButton *settingsBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    settingsBtn.titleLabel.font = [UIFont systemFontOfSize:12.0];
+    [settingsBtn setTitleColor:UIColor.ows_signalBlueColor forState:UIControlStateNormal];
+//    [settingsBtn setTitle:@"Settings" forState:UIControlStateNormal];
+//    [settingsBtn setImage:[[Theme iconImage:ThemeIconSettingsProfile] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+//                 forState:UIControlStateNormal];
+    [settingsBtn autoSetDimensionsToSize:CGSizeMake(120, 50)];
+    [settingsBtn set:[Theme iconImage:ThemeIconSettingsProfile]
+                    title:NSLocalizedString(@"OPEN_SETTINGS_BUTTON", @"Button text which opens the settings app")
+                    titlePosition:UIViewContentModeBottom
+                    additionalSpacing:0.f
+                    state: UIControlStateNormal];
+    [settingsBtn addTarget:self action:@selector(showAppSettings) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *settings = [[UIBarButtonItem alloc] initWithCustomView:settingsBtn];
+//    UIBarButtonItem *settings = [[UIBarButtonItem alloc] initWithImage:[Theme iconImage:ThemeIconSettingsProfile]
+//                                                                style:UIBarButtonItemStylePlain
+//                                                               target:self
+//                                                               action:@selector(showAppSettings)];
+//    [settings setTitle:NSLocalizedString(@"OPEN_SETTINGS_BUTTON", @"Button text which opens the settings app")];
+    settings.accessibilityLabel = CommonStrings.openSettingsButton;
+    settings.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"settings");
+    
+    UIBarButtonItem *gap0 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
+                                                                          target:nil
+                                                                          action:nil];
+    UIBarButtonItem *gap1 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
+                                                                          target:nil
+                                                                          action:nil];
+    UIBarButtonItem *gap2 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
+                                                                          target:nil
+                                                                          action:nil];
+    UIBarButtonItem *gap3 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
+                                                                          target:nil
+                                                                          action:nil];
+    
+    footBar.items = @[gap0, messages, gap1, compose, gap2, settings, gap3];
+    
+    self.footBar = footBar;
 }
 
 - (void)showNewConversationView
