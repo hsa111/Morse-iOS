@@ -183,9 +183,9 @@ public class UnlockPasswordReminderViewController: OWSViewController {
             explanationLabel,
             bottomSpacer,
             submitButton,
-            UIView.spacer(withHeight: 10),
+            UIView.spacer(withHeight: 10)
 //            forgotButton,
-            UIView.spacer(withHeight: 300)
+//            UIView.spacer(withHeight: 300)
         ])
         stackView.axis = .vertical
         stackView.alignment = .fill
