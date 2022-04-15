@@ -570,7 +570,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     [messageBtn setEnabled:NO];
     [messageBtn autoSetDimensionsToSize:CGSizeMake(120, 50)];
     [messageBtn set:[Theme iconImage:ThemeIconSettingsChats]
-                title:NSLocalizedString(@"LONG_TEXT_VIEW_TITLE", @"Title for the 'long text message' view.")
+                title:NSLocalizedString(@"SETTINGS_CHATS", @"Title for the 'chats' link in settings.")
                 titlePosition:UIViewContentModeBottom
                 additionalSpacing:0.f state:UIControlStateNormal];
     UIBarButtonItem *messages = [[UIBarButtonItem alloc] initWithCustomView:messageBtn];
@@ -585,7 +585,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     [composeBtn setTitleColor:UIColor.ows_signalBlueColor forState:UIControlStateNormal];
     [composeBtn autoSetDimensionsToSize:CGSizeMake(120, 50)];
     [composeBtn set:[Theme iconImage:ThemeIconContact24]
-                title:NSLocalizedString(@"ACCESSIBILITY_LABEL_CONTACT", @"Accessibility label for contact.")
+                title:NSLocalizedString(@"COMPOSE_MESSAGE_CONTACT_SECTION_TITLE", @"Table section header for contact listing when composing a new message")
                 titlePosition:UIViewContentModeBottom
                 additionalSpacing:0.f state:UIControlStateNormal];
     [composeBtn addTarget:self action:@selector(showNewConversationView) forControlEvents:UIControlEventTouchUpInside];
