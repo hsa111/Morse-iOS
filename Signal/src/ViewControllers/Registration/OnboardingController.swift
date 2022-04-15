@@ -519,6 +519,8 @@ public class OnboardingController: NSObject {
     private static let kKeychainKey_LastRegisteredCountryCode = "kKeychainKey_LastRegisteredCountryCode"
     private static let kKeychainKey_LastRegisteredPhoneNumber = "kKeychainKey_LastRegisteredPhoneNumber"
 
+    private static let kKeychainKey_LastServerMainDomain = "kKeychainKey_ServerMainDomain"
+
     private class func debugValue(forKey key: String) -> String? {
         AssertIsOnMainThread()
 

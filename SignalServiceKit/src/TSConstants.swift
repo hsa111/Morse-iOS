@@ -182,11 +182,11 @@ private class TSConstantsProduction: TSConstantsProtocol {
 
     public var textSecureCDN0ServerURL = "https://cdn." + TSConstants.mainServerDomain
     public var textSecureCDN2ServerURL = "https://cdn2." + TSConstants.mainServerDomain
-    public var contactDiscoveryURL = "https://api.directory." + TSConstants.mainServerDomain
-    public var keyBackupURL = "https://api.backup." + TSConstants.mainServerDomain
+    public var contactDiscoveryURL = "https://api-directory." + TSConstants.mainServerDomain
+    public var keyBackupURL = "https://api-backup." + TSConstants.mainServerDomain
     public var storageServiceURL = "https://storage." + TSConstants.mainServerDomain
-    public var sfuURL = "https://sfu.voip." + TSConstants.mainServerDomain
-    public var sfuTestURL = "https://sfu.test.voip." + TSConstants.mainServerDomain
+    public var sfuURL = "https://sfu-voip." + TSConstants.mainServerDomain
+    public var sfuTestURL = "https://sfu-test-voip." + TSConstants.mainServerDomain
     public var updates2URL = "https://updates2." + TSConstants.mainServerDomain
     public let kUDTrustRoot = "BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH"
     

@@ -122,6 +122,18 @@ class AppSettingsViewController: OWSTableViewController2 {
                 self?.navigationController?.pushViewController(vc, animated: true)
             }
         ))
+        
+        section1.add(.disclosureItem(
+            //icon: .settingsAdvanced,
+            icon: .settingsMention,
+            name: "Morse Server",
+            accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "MorseServer"),
+            actionBlock: { [weak self] in
+                let vc = ServerSettingsViewController()
+                self?.navigationController?.pushViewController(vc, animated: true)
+            }
+        ))
+        
 //        section1.add(.disclosureItem(
 //            icon: .settingsLinkedDevices,
 //            name: NSLocalizedString("LINKED_DEVICES_TITLE", comment: "Menu item and navbar title for the device manager"),
@@ -343,35 +355,20 @@ class AppSettingsViewController: OWSTableViewController2 {
 
         //contents.addSection(section4)
 
-        if DebugFlags.internalSettings {
-            let internalSection = OWSTableSection()
-            internalSection.add(.disclosureItem(
-                icon: .settingsAdvanced,
-                name: "Internal",
-                accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "internal"),
-                actionBlock: { [weak self] in
-                    let vc = InternalSettingsViewController()
-                    self?.navigationController?.pushViewController(vc, animated: true)
-                }
-            ))
-            contents.addSection(internalSection)
-        }
+//        if DebugFlags.internalSettings {
+//            let internalSection = OWSTableSection()
+//            internalSection.add(.disclosureItem(
+//                icon: .settingsAdvanced,
+//                name: "Internal",
+//                accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "internal"),
+//                actionBlock: { [weak self] in
+//                    let vc = InternalSettingsViewController()
+//                    self?.navigationController?.pushViewController(vc, animated: true)
+//                }
+//            ))
+//            contents.addSection(internalSection)
+//        }
 
-        if true {
-            let internalSection = OWSTableSection()
-            internalSection.add(.disclosureItem(
-                //icon: .settingsAdvanced,
-                icon: .settingsMention,
-                name: "Morse Server",
-                accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "MorseServer"),
-                actionBlock: { [weak self] in
-                    let vc = ServerSettingsViewController()
-                    self?.navigationController?.pushViewController(vc, animated: true)
-                }
-            ))
-            contents.addSection(internalSection)
-        }
-        
         self.contents = contents
     }
 

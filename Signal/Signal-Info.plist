@@ -136,7 +136,7 @@
 		<string>INStartCallIntent</string>
 	</array>
 	<key>OWSBundleVersion4</key>
-	<string>1.0.1.1</string>
+	<string>1.0.2.1</string>
 	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
 	<true/>
 	<key>UIAppFonts</key>
