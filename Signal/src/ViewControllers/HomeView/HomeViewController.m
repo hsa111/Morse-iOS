@@ -565,8 +565,9 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     // message button
     UIButton *messageBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     messageBtn.titleLabel.font = [UIFont systemFontOfSize:12.0];
-    [messageBtn setTitleColor:UIColor.ows_gray45Color forState:UIControlStateNormal];
-    [messageBtn setTintColor:UIColor.ows_gray60Color];
+    [messageBtn setTitleColor:UIColor.ows_signalBlueColor forState:UIControlStateNormal];
+    [messageBtn setTintColor:UIColor.ows_signalBlueColor];
+    messageBtn.adjustsImageWhenDisabled = NO;
     [messageBtn setEnabled:NO];
     [messageBtn autoSetDimensionsToSize:CGSizeMake(120, 50)];
     [messageBtn set:[Theme iconImage:ThemeIconSettingsChats]
@@ -582,7 +583,8 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     //compose button
     UIButton *composeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     composeBtn.titleLabel.font = [UIFont systemFontOfSize:12.0];
-    [composeBtn setTitleColor:UIColor.ows_signalBlueColor forState:UIControlStateNormal];
+    [composeBtn setTitleColor:UIColor.ows_gray45Color forState:UIControlStateNormal];
+    [composeBtn setTintColor:UIColor.ows_gray45Color];
     [composeBtn autoSetDimensionsToSize:CGSizeMake(120, 50)];
     [composeBtn set:[Theme iconImage:ThemeIconContact24]
                 title:NSLocalizedString(@"COMPOSE_MESSAGE_CONTACT_SECTION_TITLE", @"Table section header for contact listing when composing a new message")
@@ -599,7 +601,8 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     // settins button
     UIButton *settingsBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     settingsBtn.titleLabel.font = [UIFont systemFontOfSize:12.0];
-    [settingsBtn setTitleColor:UIColor.ows_signalBlueColor forState:UIControlStateNormal];
+    [settingsBtn setTitleColor:UIColor.ows_gray45Color forState:UIControlStateNormal];
+    [settingsBtn setTintColor:UIColor.ows_gray45Color];
 //    [settingsBtn setTitle:@"Settings" forState:UIControlStateNormal];
 //    [settingsBtn setImage:[[Theme iconImage:ThemeIconSettingsProfile] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
 //                 forState:UIControlStateNormal];
