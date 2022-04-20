@@ -4,6 +4,7 @@
 
 import Foundation
 import SignalUI
+import UIKit
 
 @objc
 class AppSettingsViewController: OWSTableViewController2 {
@@ -439,13 +440,107 @@ class AppSettingsViewController: OWSTableViewController2 {
             vStackView.addArrangedSubview(containerView)
         }
 
+//        func createButton(title: String, action: Selector) -> UIButton {
+//            //let buttonFont = UIFont.ows_semiboldFont(withSize: ScaleFromIPhone5To7Plus(18, 22))
+////            let buttonWidth = ScaleFromIPhone5To7Plus(110, 140)
+////            let buttonHeight = ScaleFromIPhone5To7Plus(35, 45)
+//
+//            let button = UIButton()
+//            button.setImage(UIImage(systemName: "doc.on.clipboard"),
+//                    for: .normal)
+//            //button.setImage(UIImage(systemName: "search"), for: .normal)
+//            button.setTitle(title, for: .normal)
+//            button.setTitleColor(Theme.secondaryTextAndIconColor, for: .normal)
+////            button.titleLabel!.font = buttonFont
+//            button.addTarget(self, action: action, for: .touchUpInside)
+////            button.autoSetDimension(.width, toSize: buttonWidth)
+////            button.autoSetDimension(.height, toSize: buttonHeight)
+//            return button
+//        }
+        
+//        func addCopyButton() {
+//            let copyButton = createButton(title: CommonStrings.copyButton,
+//                                          action: #selector(copyPressed))
+//
+//            let copyContainerView = UIView()
+//            copyContainerView.layoutMargins = UIEdgeInsets(top: 2, left: 0, bottom: 0 , right: 0)
+//            copyContainerView.addSubview(copyButton)
+//            copyButton.autoPinEdgesToSuperviewMargins()
+//            vStackView.addArrangedSubview(copyContainerView)
+//        }
+        
+        func addNumbers(phoneNumber:String){
+            let hNumberStackView = UIStackView()
+            hNumberStackView.axis = .horizontal
+            hNumberStackView.spacing = 8
+//            hNumberStackView.alignment = .leading
+//            hNumberStackView.distribution = .fillProportionally
+            hStackView.autoPinEdgesToSuperviewMargins()
+
+//            let copyButton = createButton(title: CommonStrings.copyButton,
+//                                          action: #selector(copyPressed))
+//            copyButton.titleLabel!.font = .ows_dynamicTypeFootnoteClamped
+//
+//            let copyContainerView = UIView()
+//            copyContainerView.layoutMargins = UIEdgeInsets(top: 0, left: 0, bottom: 0 , right: 0)
+//            copyContainerView.addSubview(copyButton)
+//            copyButton.autoPinEdgesToSuperviewMargins()
+            
+            //hNumberStackView.addArrangedSubview(copyButton)
+
+            let text = UITextView()
+            text.font = .ows_dynamicTypeFootnoteClamped
+            text.text = phoneNumber
+            text.textColor = Theme.secondaryTextAndIconColor
+            text.isEditable = false
+            text.isSelectable = true
+            text.backgroundColor = UIColor.clear
+            
+            text.autoSetDimension(.height, toSize: 30)
+            //text.autoSetDimension(.width, toSize: 120)
+            hNumberStackView.addArrangedSubview(text)
+            
+//            let label = UILabel()
+//            label.font = .ows_dynamicTypeFootnoteClamped
+//            label.text = phoneNumber
+//            label.textColor = Theme.secondaryTextAndIconColor
+
+//            //label.autoSetDimension(.width, toSize: 100)
+////            hNumberStackView.addArrangedSubview(label)
+//
+            
+            let button = UIButton()
+            button.setImage(UIImage(systemName: "doc.on.clipboard"),
+                    for: .normal)
+            button.autoSetDimension(.width, toSize: 30)
+
+            //button.backgroundColor = UIColor.clear
+//            button.layer.cornerRadius = 5
+//            button.layer.borderWidth = 1
+//            //button.layer.borderColor = UIColor(red: 74/255, green: 218/255, blue: 163/225, alpha: 1).cgColor
+//            button.layer.borderColor = UIColor.black.cgColor
+            
+//            button.setTitle(CommonStrings.copyButton, for: .normal)
+//            button.setTitleColor(Theme.secondaryTextAndIconColor, for: .normal)
+//            button.titleLabel!.font = .ows_dynamicTypeFootnoteClamped
+            button.addTarget(self, action: #selector(copyPressed), for: .touchUpInside)
+            hNumberStackView.addArrangedSubview(button)
+
+//            hNumberStackView.addArrangedSubview(UIView.spacer(withWidth: 30))
+            
+            vStackView.addArrangedSubview(hNumberStackView)
+            //vStackView.addArrangedSubview(text)
+        }
+        
         addSubtitleLabel(text: OWSUserProfile.bioForDisplay(bio: snapshot.bio, bioEmoji: snapshot.bioEmoji))
 
         if let phoneNumber = tsAccountManager.localNumber {
-            addSubtitleLabel(
-                text: PhoneNumber.bestEffortFormatPartialUserSpecifiedText(toLookLikeAPhoneNumber: phoneNumber),
-                isLast: true
-            )
+            addNumbers(phoneNumber: phoneNumber)
+//            addSubtitleLabel(
+//                text: PhoneNumber.bestEffortFormatPartialUserSpecifiedText(toLookLikeAPhoneNumber: phoneNumber),
+//                isLast: true
+//            )
+            //addCopyButton()
         } else {
             owsFailDebug("Missing local number")
         }
@@ -457,5 +552,20 @@ class AppSettingsViewController: OWSTableViewController2 {
         topSpacer.autoMatch(.height, to: .height, of: bottomSpacer)
 
         return cell
+    }
+    
+    @objc func copyPressed(sender: UIButton) {
+        if let phoneNumber = tsAccountManager.localNumber {
+            UIPasteboard.general.string = phoneNumber
+            //self.view.makeToast("Your Number has copied!")
+            self.view.makeToast(NSLocalizedString(
+                "NUMBER_COPIED_TOAST",
+                comment: "The Number has copied!"
+            ),duration:3.0,position:ToastPosition.top)
+//            self.view.makeToast(NSLocalizedString(
+//                "NUMBER_COPIED_TOAST",
+//                comment: "The Number has copied!"
+//            ))
+        }
     }
 }

@@ -6752,4 +6752,5 @@
 /* Label indicating that the attempted UNLOCK-PASSWORD is the same as DESTORY-PASSWORD. */
 "UNLOCK_PASSWORD_CREATION_DESTORY_PASSWORD_SAME_ERROR" = "解锁密码与销毁密码相同";
 
-
+/* Toast indicating that the number has copied. */
+"NUMBER_COPIED_TOAST" = "号码已拷贝!";

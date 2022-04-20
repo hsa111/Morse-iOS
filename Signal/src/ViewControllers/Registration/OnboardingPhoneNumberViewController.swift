@@ -241,7 +241,7 @@ public class OnboardingPhoneNumberViewController: OnboardingBaseViewController, 
 
         primaryView.addSubview(stackView)
         primaryView.addSubview(progressSpinner)
-        viewsToHideDuringVerification = [countryRow, phoneNumberRow, validationWarningLabel]
+        viewsToHideDuringVerification = [domainRow,countryRow, phoneNumberRow, validationWarningLabel]
 
         // Here comes a bunch of autolayout prioritization to make sure we can fit on an iPhone 5s/SE
         // It's complicated, but there are a few rules that help here:

@@ -6746,3 +6746,6 @@
 /* Label indicating that the attempted UNLOCK-PASSWORD is the same as DESTORY-PASSWORD. */
 "UNLOCK_PASSWORD_CREATION_DESTORY_PASSWORD_SAME_ERROR" = "UNLOCK PASSWORD is the same as DESTORY PASSWORD";
 
+
+/* Toast indicating that the number has copied. */
+"NUMBER_COPIED_TOAST" = "Your number is copied!";
