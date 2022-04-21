@@ -81,7 +81,7 @@ def ui_pods
 end
 
 target 'Morse' do
-  project 'Signal.xcodeproj', 'Debug' => :debug, 'Release' => :release
+  project 'Morse.xcodeproj', 'Debug' => :debug, 'Release' => :release
 
   # Pods only available inside the main Signal app
   pod 'SSZipArchive', :inhibit_warnings => true
@@ -156,7 +156,7 @@ end
 # We want some warning to be treated as errors.
 #
 # NOTE: We have to manually keep this list in sync with what's in our
-# Signal.xcodeproj config in Xcode go to:
+# Morse.xcodeproj config in Xcode go to:
 #   Signal Project > Build Settings > Other Warning Flags
 def configure_warning_flags(installer)
   installer.pods_project.targets.each do |target|

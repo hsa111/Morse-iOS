@@ -4,7 +4,7 @@
 
 #import "MediaDetailViewController.h"
 #import "ConversationViewController.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 #import <AVKit/AVKit.h>
 #import <MediaPlayer/MPMoviePlayerViewController.h>
 #import <MediaPlayer/MediaPlayer.h>

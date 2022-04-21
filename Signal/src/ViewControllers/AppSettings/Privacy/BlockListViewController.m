@@ -3,7 +3,7 @@
 //
 
 #import "BlockListViewController.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 #import <SignalMessaging/Environment.h>
 #import <SignalMessaging/OWSContactsManager.h>
 #import <SignalMessaging/SignalMessaging-Swift.h>

@@ -3,7 +3,7 @@
 //
 
 #import "ConversationInputToolbar.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 #import <SignalCoreKit/SignalCoreKit-Swift.h>
 #import <SignalMessaging/Environment.h>
 #import <SignalMessaging/OWSContactsManager.h>

@@ -5,7 +5,7 @@
 #import "DebugUIScreenshots.h"
 #import "DebugContactsUtils.h"
 #import "DebugUIContacts.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 #import <SignalCoreKit/NSDate+OWS.h>
 #import <SignalCoreKit/Randomness.h>
 #import <SignalMessaging/Environment.h>

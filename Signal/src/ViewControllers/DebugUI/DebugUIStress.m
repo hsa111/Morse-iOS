@@ -3,7 +3,7 @@
 //
 
 #import "DebugUIStress.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 #import "SignalApp.h"
 #import <SignalCoreKit/Cryptography.h>
 #import <SignalCoreKit/NSDate+OWS.h>

@@ -7,7 +7,7 @@
 #import "DebugUIContacts.h"
 #import "DebugUIMessagesAction.h"
 #import "DebugUIMessagesAssetLoader.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 #import <MobileCoreServices/UTCoreTypes.h>
 #import <SignalCoreKit/NSDate+OWS.h>
 #import <SignalCoreKit/Randomness.h>

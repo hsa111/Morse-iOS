@@ -3,7 +3,7 @@
 //
 
 #import "FingerprintViewScanController.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 #import <SignalMessaging/Environment.h>
 #import <SignalMessaging/OWSContactsManager.h>
 #import <SignalServiceKit/OWSError.h>

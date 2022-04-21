@@ -3,7 +3,7 @@
 //
 
 #import "RecipientPickerViewController.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 #import "SignalApp.h"
 #import <MessageUI/MessageUI.h>
 #import <SignalCoreKit/SignalCoreKit-Swift.h>

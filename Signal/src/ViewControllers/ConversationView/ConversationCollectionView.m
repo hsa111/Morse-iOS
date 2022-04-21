@@ -3,7 +3,7 @@
 //
 
 #import "ConversationCollectionView.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

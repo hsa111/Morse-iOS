@@ -31,7 +31,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D221A088169C9E5E00537ABF"
                BuildableName = "Signal.app"
-               BlueprintName = "Morse"
+               BlueprintName = "Signal"
                ReferencedContainer = "container:Signal.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D221A088169C9E5E00537ABF"
             BuildableName = "Signal.app"
-            BlueprintName = "Morse"
+            BlueprintName = "Signal"
             ReferencedContainer = "container:Signal.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -3,7 +3,7 @@
 //
 
 #import "Pastelog.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 #import "zlib.h"
 #import <SSZipArchive/SSZipArchive.h>
 #import <SignalCoreKit/Threading.h>

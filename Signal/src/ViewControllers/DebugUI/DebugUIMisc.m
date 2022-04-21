@@ -4,7 +4,7 @@
 
 #import "DebugUIMisc.h"
 #import "DebugUIMessagesAssetLoader.h"
-#import "Signal-Swift.h"
+#import "Morse-Swift.h"
 #import <SignalCoreKit/Randomness.h>
 #import <SignalMessaging/Environment.h>
 #import <SignalMessaging/ThreadUtil.h>
