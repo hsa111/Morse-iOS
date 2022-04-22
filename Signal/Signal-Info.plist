@@ -4,14 +4,8 @@
 <dict>
 	<key>BuildDetails</key>
 	<dict>
-		<key>DateTime</key>
-		<string>Thu Apr 21 07:15:07 UTC 2022</string>
-		<key>Timestamp</key>
-		<string>1650525307</string>
 		<key>WebRTCCommit</key>
 		<string>1ab326495ab7915dbd74fc3049c45a05fa038b37 Production build of v2.15.0</string>
-		<key>XCodeVersion</key>
-		<string>1300.1320</string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
