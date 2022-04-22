@@ -78,7 +78,9 @@ public class UnlockPasswordReminderViewController: OWSViewController {
         containerView.backgroundColor = Theme.backgroundColor
 
         view.addSubview(containerView)
-        containerView.autoPinWidthToSuperview()
+        // 2022-04-22 containerView changed to full screen
+//        containerView.autoPinWidthToSuperview()
+        containerView.autoPinEdgesToSuperviewEdges()
         autoPinView(toBottomOfViewControllerOrKeyboard: containerView, avoidNotch: true)
 
         // We want the background to extend to the bottom of the screen
