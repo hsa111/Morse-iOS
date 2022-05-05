@@ -108,8 +108,8 @@ extension ConversationViewController: MessageActionsDelegate {
         }
         actionSheetController.addAction(deleteForMeAction)
 
-        if canBeRemotelyDeleted(item: itemViewModel),
-           let message = itemViewModel.interaction as? TSOutgoingMessage {
+        if canBeRemotelyDeleted(item: itemViewModel) {
+           if let message = itemViewModel.interaction as? TSOutgoingMessage {
 
             let deleteForEveryoneAction = ActionSheetAction(
                 title: NSLocalizedString(
@@ -134,6 +134,31 @@ extension ConversationViewController: MessageActionsDelegate {
                 }
             }
             actionSheetController.addAction(deleteForEveryoneAction)
+           }else if let message = itemViewModel.interaction as? TSIncomingMessage{
+               let deleteForEveryoneAction = ActionSheetAction(
+                   title: NSLocalizedString(
+                       "MESSAGE_ACTION_DELETE_FOR_EVERYONE",
+                       comment: "The title for the action that deletes a message for all users in the conversation."
+                   ),
+                   style: .destructive
+               ) { [weak self] _ in
+                   self?.showDeleteForEveryoneConfirmationIfNecessary {
+                       guard let self = self else { return }
+
+                       let deleteMessage = TSOutgoingDeleteMessage(thread: self.thread, message: message)
+
+                       self.databaseStorage.write { transaction in
+                           // Reset the sending states, so we can render the sending state of the deleted message.
+                           // TSOutgoingDeleteMessage will automatically pass through it's send state to the message
+                           // record that it is deleting.
+                           message.updateWith(recipientAddressStates: deleteMessage.recipientAddressStates, transaction: transaction)
+                           message.updateWithRemotelyDeletedAndRemoveRenderableContent(with: transaction)
+                           Self.messageSenderJobQueue.add(message: deleteMessage.asPreparer, transaction: transaction)
+                       }
+                   }
+               }
+               actionSheetController.addAction(deleteForEveryoneAction)
+           }
         }
 
         actionSheetController.addAction(OWSActionSheets.cancelAction)

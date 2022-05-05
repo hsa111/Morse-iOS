@@ -1598,12 +1598,19 @@ NS_ASSUME_NONNULL_BEGIN
                 OWSFailDebug(@"Could not process delete from sync transcript.");
                 return;
             }
+            bool isAuthorAdmin = false;
+            if ([thread isKindOfClass:[TSGroupThread class]]) {
+                TSGroupThread *groupThread = (TSGroupThread *)thread;
+                isAuthorAdmin = [GroupManager isGroupAdministratorWithGroupThread:groupThread groupMember:envelope.sourceAddress];
+            }
+            
             OWSRemoteDeleteProcessingResult result =
                 [TSMessage tryToRemotelyDeleteMessageFromAddress:envelope.sourceAddress
                                                  sentAtTimestamp:dataMessage.delete.targetSentTimestamp
                                                   threadUniqueId:thread.uniqueId
                                                  serverTimestamp:envelope.serverTimestamp
-                                                     transaction:transaction];
+                                                     transaction:transaction
+                                                    isGroupAdmin:isAuthorAdmin];
 
             switch (result) {
                 case OWSRemoteDeleteProcessingResultSuccess:
@@ -1921,12 +1928,19 @@ NS_ASSUME_NONNULL_BEGIN
     }
 
     if (dataMessage.delete) {
+        bool isAuthorAdmin = false;
+        if ([thread isKindOfClass:[TSGroupThread class]]) {
+            TSGroupThread *groupThread = (TSGroupThread *)thread;
+            isAuthorAdmin = [GroupManager isGroupAdministratorWithGroupThread:groupThread groupMember:envelope.sourceAddress];
+        }
+        
         OWSRemoteDeleteProcessingResult result =
             [TSMessage tryToRemotelyDeleteMessageFromAddress:envelope.sourceAddress
                                              sentAtTimestamp:dataMessage.delete.targetSentTimestamp
                                               threadUniqueId:thread.uniqueId
                                              serverTimestamp:envelope.serverTimestamp
-                                                 transaction:transaction];
+                                                 transaction:transaction
+                                                isGroupAdmin:isAuthorAdmin];
 
         switch (result) {
             case OWSRemoteDeleteProcessingResultSuccess:

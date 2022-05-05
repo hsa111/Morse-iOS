@@ -248,13 +248,43 @@ extension ConversationViewController {
     //  * you haven't already remotely deleted this message
     //  * it has been less than 3 hours since you sent the message
     func canBeRemotelyDeleted(item: CVItemViewModel) -> Bool {
-        guard let outgoingMessage = item.interaction as? TSOutgoingMessage else { return false }
+        let isGroupAdmin = isLocalAcctAdministrator
+        
+        guard let outgoingMessage = item.interaction as? TSOutgoingMessage else {
+            //incoming message only group administrator can delete
+            if !isGroupAdmin(){
+                return false
+            }else{
+                return true
+            }
+        }
         guard !outgoingMessage.wasRemotelyDeleted else { return false }
-        guard Date.ows_millisecondTimestamp() - outgoingMessage.timestamp <= (kHourInMs * 3) else { return false }
+        if !(Date.ows_millisecondTimestamp() - outgoingMessage.timestamp <= (kHourInMs * 3)){
+            if !isGroupAdmin(){
+                return false
+            }
+        }
 
         return true
     }
 
+    func isLocalAcctAdministrator() -> Bool{
+        var isGroupAdmin = false
+
+        guard let groupThread = thread as? TSGroupThread else {
+            return false
+        }
+        guard let groupModelV2 = groupThread.groupModel as? TSGroupModelV2 else {
+            return false
+        }
+        guard let localAddress = tsAccountManager.localAddress else {
+            return false
+        }
+        
+        isGroupAdmin = GroupManager.isGroupAdministrator(groupThread: groupThread, groupMember: localAddress)
+        return isGroupAdmin
+    }
+    
     func showDeleteForEveryoneConfirmationIfNecessary(completion: @escaping () -> Void) {
         guard !Self.preferences.wasDeleteForEveryoneConfirmationShown() else { return completion() }
 

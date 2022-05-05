@@ -147,19 +147,32 @@ public extension TSMessage {
         sentAtTimestamp: UInt64,
         threadUniqueId: String,
         serverTimestamp: UInt64,
-        transaction: SDSAnyWriteTransaction
+        transaction: SDSAnyWriteTransaction,
+        isGroupAdmin:Bool
     ) -> RemoteDeleteProcessingResult {
-        guard let messageToDelete = InteractionFinder.findMessage(
+        guard let messageToDelete = InteractionFinder.findMessage2Delete(
             withTimestamp: sentAtTimestamp,
             threadId: threadUniqueId,
             author: authorAddress,
-            transaction: transaction
+            transaction: transaction,
+            isGroupAdmin: isGroupAdmin
         ) else {
             // The message doesn't exist locally, so nothing to do.
             Logger.info("Attempted to remotely delete a message that doesn't exist \(sentAtTimestamp)")
             return .deletedMessageMissing
         }
 
+        if (isGroupAdmin){
+            if messageToDelete is TSOutgoingMessage {
+                messageToDelete.markMessageAsRemotelyDeleted(transaction: transaction)
+                return .success
+            } else if let incomingMessageToDelete = messageToDelete as? TSIncomingMessage{
+                incomingMessageToDelete.markMessageAsRemotelyDeleted(transaction: transaction)
+
+                return .success
+            }
+        }
+        
         if messageToDelete is TSOutgoingMessage, authorAddress.isLocalAddress {
             messageToDelete.markMessageAsRemotelyDeleted(transaction: transaction)
             return .success

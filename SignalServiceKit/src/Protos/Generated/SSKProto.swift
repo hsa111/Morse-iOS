@@ -5695,6 +5695,11 @@ public class SSKProtoDataMessageDelete: NSObject, Codable, NSSecureCoding {
         return SSKProtoDataMessageDeleteBuilder(targetSentTimestamp: targetSentTimestamp)
     }
 
+    @objc
+    public static func builder(targetSentTimestamp: UInt64,authorNumber: String) -> SSKProtoDataMessageDeleteBuilder {
+        return SSKProtoDataMessageDeleteBuilder(targetSentTimestamp: targetSentTimestamp,authorNumber:authorNumber)
+    }
+    
     // asBuilder() constructs a builder that reflects the proto's contents.
     @objc
     public func asBuilder() -> SSKProtoDataMessageDeleteBuilder {
@@ -5721,10 +5726,23 @@ public class SSKProtoDataMessageDelete: NSObject, Codable, NSSecureCoding {
         }
 
         @objc
+        fileprivate init(targetSentTimestamp: UInt64,authorNumber:String) {
+            super.init()
+
+            setTargetSentTimestamp(targetSentTimestamp)
+        }
+        
+        @objc
         public func setTargetSentTimestamp(_ valueParam: UInt64) {
             proto.targetSentTimestamp = valueParam
         }
 
+        @objc
+        public func setTargetSentTimestamp(_ valueParam: UInt64,authorNumber:String) {
+            proto.targetSentTimestamp = valueParam
+            proto.authorNumber = authorNumber
+        }
+        
         public func setUnknownFields(_ unknownFields: SwiftProtobuf.UnknownStorage) {
             proto.unknownFields = unknownFields
         }
@@ -5745,6 +5763,9 @@ public class SSKProtoDataMessageDelete: NSObject, Codable, NSSecureCoding {
     @objc
     public let targetSentTimestamp: UInt64
 
+    @objc
+    public let authorNumber: String
+    
     public var hasUnknownFields: Bool {
         return !proto.unknownFields.data.isEmpty
     }
@@ -5754,9 +5775,11 @@ public class SSKProtoDataMessageDelete: NSObject, Codable, NSSecureCoding {
     }
 
     private init(proto: SignalServiceProtos_DataMessage.Delete,
-                 targetSentTimestamp: UInt64) {
+                 targetSentTimestamp: UInt64,
+                 authorNumber: String) {
         self.proto = proto
         self.targetSentTimestamp = targetSentTimestamp
+        self.authorNumber = authorNumber
     }
 
     @objc
@@ -5774,6 +5797,12 @@ public class SSKProtoDataMessageDelete: NSObject, Codable, NSSecureCoding {
         guard proto.hasTargetSentTimestamp else {
             throw SSKProtoError.invalidProtobuf(description: "\(Self.logTag()) missing required field: targetSentTimestamp")
         }
+        
+        var authorNumber = ""
+        if proto.hasAuthorNumber  {
+            authorNumber = proto.authorNumber
+        }
+        
         let targetSentTimestamp = proto.targetSentTimestamp
 
         // MARK: - Begin Validation Logic for SSKProtoDataMessageDelete -
@@ -5781,7 +5810,8 @@ public class SSKProtoDataMessageDelete: NSObject, Codable, NSSecureCoding {
         // MARK: - End Validation Logic for SSKProtoDataMessageDelete -
 
         self.init(proto: proto,
-                  targetSentTimestamp: targetSentTimestamp)
+                  targetSentTimestamp: targetSentTimestamp,
+                  authorNumber: authorNumber)
     }
 
     public required convenience init(from decoder: Swift.Decoder) throws {

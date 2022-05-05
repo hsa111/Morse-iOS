@@ -2329,6 +2329,12 @@ public class GroupManager: NSObject {
                                                   transaction: transaction)
     }
 
+    @objc
+    public static func isGroupAdministrator(groupThread:TSGroupThread, groupMember:SignalServiceAddress) -> Bool {
+        let isAdmin = groupThread.groupMembership.isFullMemberAndAdministrator(groupMember)
+        return isAdmin
+    }
+    
     // MARK: - Profiles
 
     private static func autoWhitelistGroupIfNecessary(oldGroupModel: TSGroupModel?,
