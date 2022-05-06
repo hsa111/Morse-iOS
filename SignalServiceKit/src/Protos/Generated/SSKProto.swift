@@ -5729,7 +5729,7 @@ public class SSKProtoDataMessageDelete: NSObject, Codable, NSSecureCoding {
         fileprivate init(targetSentTimestamp: UInt64,authorNumber:String) {
             super.init()
 
-            setTargetSentTimestamp(targetSentTimestamp)
+            setTargetSentTimestamp(targetSentTimestamp,authorNumber:authorNumber)
         }
         
         @objc

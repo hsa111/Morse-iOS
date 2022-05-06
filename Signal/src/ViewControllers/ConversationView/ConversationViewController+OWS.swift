@@ -255,6 +255,10 @@ extension ConversationViewController {
             if !isGroupAdmin(){
                 return false
             }else{
+                guard let incomingMessage = item.interaction as? TSIncomingMessage else {
+                    return false;
+                }
+                guard !incomingMessage.wasRemotelyDeleted else { return false }
                 return true
             }
         }

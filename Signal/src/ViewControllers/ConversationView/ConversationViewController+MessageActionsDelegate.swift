@@ -145,13 +145,13 @@ extension ConversationViewController: MessageActionsDelegate {
                    self?.showDeleteForEveryoneConfirmationIfNecessary {
                        guard let self = self else { return }
 
-                       let deleteMessage = TSOutgoingDeleteMessage(thread: self.thread, message: message)
+                       let deleteMessage = TSIncomingDeleteMessage(thread: self.thread, message: message)
 
                        self.databaseStorage.write { transaction in
                            // Reset the sending states, so we can render the sending state of the deleted message.
                            // TSOutgoingDeleteMessage will automatically pass through it's send state to the message
                            // record that it is deleting.
-                           message.updateWith(recipientAddressStates: deleteMessage.recipientAddressStates, transaction: transaction)
+//                           message.updateWith(recipientAddressStates: deleteMessage.recipientAddressStates, transaction: transaction)
                            message.updateWithRemotelyDeletedAndRemoveRenderableContent(with: transaction)
                            Self.messageSenderJobQueue.add(message: deleteMessage.asPreparer, transaction: transaction)
                        }
