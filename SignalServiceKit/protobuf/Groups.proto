@@ -26,6 +26,7 @@ message Member {
         UNKNOWN       = 0;
         DEFAULT       = 1; // Normal member
         ADMINISTRATOR = 2; // Group admin
+        LISTENER      = 3; // Group listener
     }
 
     bytes  userId           = 1; // The UuidCiphertext
@@ -75,7 +76,9 @@ message Group {
              bytes            inviteLinkPassword        = 10;
              bytes            descriptionBytes          = 11;
              bool             announcementsOnly         = 12;
-             // next: 13
+             bool             addFriendsAdminOnly       = 13;
+             bool             viewMembersAdminOnly      = 14;
+             // next: 15
 }
 
 message GroupChange {
@@ -165,6 +168,14 @@ message GroupChange {
             bool announcementsOnly = 1;
         }
 
+        message ModifyAddFriendsAdminOnlyAction {
+            bool addFriendsAdminOnly = 1;
+        }
+        
+        message ModifyViewMembersAdminOnlyAction {
+            bool viewMembersAdminOnly = 1;
+        }
+        
                  bytes                                      sourceUuid                      = 1; // Who made the change
                  uint32                                     revision                        = 2; // The change revision number
         repeated AddMemberAction                            addMembers                      = 3; // Members added
@@ -186,6 +197,8 @@ message GroupChange {
                  ModifyInviteLinkPasswordAction             modifyInviteLinkPassword        = 19;  // change epoch = 1
                  ModifyDescriptionAction                    modifyDescription               = 20;  // change epoch = 2
                  ModifyAnnouncementsOnlyAction              modifyAnnouncementsOnly         = 21;  // change epoch = 3
+        ModifyAddFriendsAdminOnlyAction              modifyAddFriendsAdminOnly        = 22;  // change epoch = 4
+        ModifyViewMembersAdminOnlyAction             modifyViewMembersAdminOnly        = 23;  // change epoch = 5
     }
 
     bytes  actions         = 1; // The serialized actions

@@ -280,6 +280,7 @@ public enum GroupsProtoMemberRole: SwiftProtobuf.Enum {
     case unknown // 0
     case `default` // 1
     case administrator // 2
+    case listener // 3
     case UNRECOGNIZED(Int)
 
     public init() {
@@ -291,6 +292,7 @@ public enum GroupsProtoMemberRole: SwiftProtobuf.Enum {
             case 0: self = .unknown
             case 1: self = .`default`
             case 2: self = .administrator
+            case 3: self = .listener
             default: self = .UNRECOGNIZED(rawValue)
         }
     }
@@ -300,6 +302,7 @@ public enum GroupsProtoMemberRole: SwiftProtobuf.Enum {
             case .unknown: return 0
             case .`default`: return 1
             case .administrator: return 2
+            case .listener: return 3
             case .UNRECOGNIZED(let i): return i
         }
     }
@@ -310,6 +313,7 @@ private func GroupsProtoMemberRoleWrap(_ value: GroupsProtos_Member.Role) -> Gro
     case .unknown: return .unknown
     case .default: return .default
     case .administrator: return .administrator
+    case .listener: return .listener
     case .UNRECOGNIZED(let i): return .UNRECOGNIZED(i)
     }
 }
@@ -319,6 +323,7 @@ private func GroupsProtoMemberRoleUnwrap(_ value: GroupsProtoMemberRole) -> Grou
     case .unknown: return .unknown
     case .default: return .default
     case .administrator: return .administrator
+    case .listener: return .listener
     case .UNRECOGNIZED(let i): return .UNRECOGNIZED(i)
     }
 }
@@ -3956,6 +3961,198 @@ public struct GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyAction: Codabl
     }
 }
 
+public struct GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyAction: Codable, CustomDebugStringConvertible {
+
+    // MARK: - GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyActionBuilder
+
+    public static func builder() -> GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyActionBuilder {
+        return GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyActionBuilder()
+    }
+
+    // asBuilder() constructs a builder that reflects the proto's contents.
+    public func asBuilder() -> GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyActionBuilder {
+        var builder = GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyActionBuilder()
+        if hasAddFriendsAdminOnly {
+            builder.setAddFriendsAdminOnly(addFriendsAdminOnly)
+        }
+        if let _value = unknownFields {
+            builder.setUnknownFields(_value)
+        }
+        return builder
+    }
+
+    public struct GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyActionBuilder {
+
+        private var proto = GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction()
+
+        fileprivate init() {}
+
+        public mutating func setAddFriendsAdminOnly(_ valueParam: Bool) {
+            proto.addFriendsAdminOnly = valueParam
+        }
+
+        public mutating func setUnknownFields(_ unknownFields: SwiftProtobuf.UnknownStorage) {
+            proto.unknownFields = unknownFields
+        }
+
+        public func build() throws -> GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyAction {
+            return try GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyAction(proto)
+        }
+
+        public func buildSerializedData() throws -> Data {
+            return try GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyAction(proto).serializedData()
+        }
+    }
+
+    fileprivate let proto: GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction
+
+    public var addFriendsAdminOnly: Bool {
+        return proto.addFriendsAdminOnly
+    }
+    public var hasAddFriendsAdminOnly: Bool {
+        return true
+    }
+
+    public var hasUnknownFields: Bool {
+        return !proto.unknownFields.data.isEmpty
+    }
+    public var unknownFields: SwiftProtobuf.UnknownStorage? {
+        guard hasUnknownFields else { return nil }
+        return proto.unknownFields
+    }
+
+    private init(proto: GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction) {
+        self.proto = proto
+    }
+
+    public func serializedData() throws -> Data {
+        return try self.proto.serializedData()
+    }
+
+    public init(serializedData: Data) throws {
+        let proto = try GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction(serializedData: serializedData)
+        try self.init(proto)
+    }
+
+    fileprivate init(_ proto: GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction) throws {
+        // MARK: - Begin Validation Logic for GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyAction -
+
+        // MARK: - End Validation Logic for GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyAction -
+
+        self.init(proto: proto)
+    }
+
+    public init(from decoder: Swift.Decoder) throws {
+        let singleValueContainer = try decoder.singleValueContainer()
+        let serializedData = try singleValueContainer.decode(Data.self)
+        try self.init(serializedData: serializedData)
+    }
+    public func encode(to encoder: Swift.Encoder) throws {
+        var singleValueContainer = encoder.singleValueContainer()
+        try singleValueContainer.encode(try serializedData())
+    }
+
+    public var debugDescription: String {
+        return "\(proto)"
+    }
+}
+
+public struct GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyAction: Codable, CustomDebugStringConvertible {
+
+    // MARK: - GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyActionBuilder
+
+    public static func builder() -> GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyActionBuilder {
+        return GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyActionBuilder()
+    }
+
+    // asBuilder() constructs a builder that reflects the proto's contents.
+    public func asBuilder() -> GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyActionBuilder {
+        var builder = GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyActionBuilder()
+        if hasViewMembersAdminOnly {
+            builder.setViewMembersAdminOnly(viewMembersAdminOnly)
+        }
+        if let _value = unknownFields {
+            builder.setUnknownFields(_value)
+        }
+        return builder
+    }
+
+    public struct GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyActionBuilder {
+
+        private var proto = GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction()
+
+        fileprivate init() {}
+
+        public mutating func setViewMembersAdminOnly(_ valueParam: Bool) {
+            proto.viewMembersAdminOnly = valueParam
+        }
+
+        public mutating func setUnknownFields(_ unknownFields: SwiftProtobuf.UnknownStorage) {
+            proto.unknownFields = unknownFields
+        }
+
+        public func build() throws -> GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyAction {
+            return try GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyAction(proto)
+        }
+
+        public func buildSerializedData() throws -> Data {
+            return try GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyAction(proto).serializedData()
+        }
+    }
+
+    fileprivate let proto: GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction
+
+    public var viewMembersAdminOnly: Bool {
+        return proto.viewMembersAdminOnly
+    }
+    public var hasViewMembersAdminOnly: Bool {
+        return true
+    }
+
+    public var hasUnknownFields: Bool {
+        return !proto.unknownFields.data.isEmpty
+    }
+    public var unknownFields: SwiftProtobuf.UnknownStorage? {
+        guard hasUnknownFields else { return nil }
+        return proto.unknownFields
+    }
+
+    private init(proto: GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction) {
+        self.proto = proto
+    }
+
+    public func serializedData() throws -> Data {
+        return try self.proto.serializedData()
+    }
+
+    public init(serializedData: Data) throws {
+        let proto = try GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction(serializedData: serializedData)
+        try self.init(proto)
+    }
+
+    fileprivate init(_ proto: GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction) throws {
+        // MARK: - Begin Validation Logic for GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyAction -
+
+        // MARK: - End Validation Logic for GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyAction -
+
+        self.init(proto: proto)
+    }
+
+    public init(from decoder: Swift.Decoder) throws {
+        let singleValueContainer = try decoder.singleValueContainer()
+        let serializedData = try singleValueContainer.decode(Data.self)
+        try self.init(serializedData: serializedData)
+    }
+    public func encode(to encoder: Swift.Encoder) throws {
+        var singleValueContainer = encoder.singleValueContainer()
+        try singleValueContainer.encode(try serializedData())
+    }
+
+    public var debugDescription: String {
+        return "\(proto)"
+    }
+}
+
 #if TESTABLE_BUILD
 
 extension GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyAction {
@@ -4276,6 +4473,10 @@ public struct GroupsProtoGroupChangeActions: Codable, CustomDebugStringConvertib
     public let modifyDescription: GroupsProtoGroupChangeActionsModifyDescriptionAction?
 
     public let modifyAnnouncementsOnly: GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyAction?
+    
+    public let modifyAddFriendsAdminOnly: GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyAction?
+
+    public let modifyViewMembersAdminOnly: GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyAction?
 
     public var sourceUuid: Data? {
         guard hasSourceUuid else {
@@ -4321,7 +4522,9 @@ public struct GroupsProtoGroupChangeActions: Codable, CustomDebugStringConvertib
                  promoteRequestingMembers: [GroupsProtoGroupChangeActionsPromoteRequestingMemberAction],
                  modifyInviteLinkPassword: GroupsProtoGroupChangeActionsModifyInviteLinkPasswordAction?,
                  modifyDescription: GroupsProtoGroupChangeActionsModifyDescriptionAction?,
-                 modifyAnnouncementsOnly: GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyAction?) {
+                 modifyAnnouncementsOnly: GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyAction?,
+                 modifyAddFriendsAdminOnly: GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyAction?,
+                 modifyViewMembersAdminOnly: GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyAction?) {
         self.proto = proto
         self.addMembers = addMembers
         self.deleteMembers = deleteMembers
@@ -4342,6 +4545,8 @@ public struct GroupsProtoGroupChangeActions: Codable, CustomDebugStringConvertib
         self.modifyInviteLinkPassword = modifyInviteLinkPassword
         self.modifyDescription = modifyDescription
         self.modifyAnnouncementsOnly = modifyAnnouncementsOnly
+        self.modifyAddFriendsAdminOnly = modifyAddFriendsAdminOnly
+        self.modifyViewMembersAdminOnly = modifyViewMembersAdminOnly
     }
 
     public func serializedData() throws -> Data {
@@ -4429,6 +4634,16 @@ public struct GroupsProtoGroupChangeActions: Codable, CustomDebugStringConvertib
             modifyAnnouncementsOnly = try GroupsProtoGroupChangeActionsModifyAnnouncementsOnlyAction(proto.modifyAnnouncementsOnly)
         }
 
+        var modifyAddFriendsAdminOnly: GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyAction?
+        if proto.hasModifyAddFriendsAdminOnly {
+            modifyAddFriendsAdminOnly = try GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyAction(proto.modifyAddFriendsAdminOnly)
+        }
+        
+        var modifyViewMembersAdminOnly: GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyAction?
+        if proto.hasModifyViewMembersAdminOnly {
+            modifyViewMembersAdminOnly = try GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyAction(proto.modifyViewMembersAdminOnly)
+        }
+        
         // MARK: - Begin Validation Logic for GroupsProtoGroupChangeActions -
 
         // MARK: - End Validation Logic for GroupsProtoGroupChangeActions -
@@ -4452,7 +4667,9 @@ public struct GroupsProtoGroupChangeActions: Codable, CustomDebugStringConvertib
                   promoteRequestingMembers: promoteRequestingMembers,
                   modifyInviteLinkPassword: modifyInviteLinkPassword,
                   modifyDescription: modifyDescription,
-                  modifyAnnouncementsOnly: modifyAnnouncementsOnly)
+                  modifyAnnouncementsOnly: modifyAnnouncementsOnly,
+                  modifyAddFriendsAdminOnly:modifyAddFriendsAdminOnly,
+                  modifyViewMembersAdminOnly:modifyViewMembersAdminOnly)
     }
 
     public init(from decoder: Swift.Decoder) throws {

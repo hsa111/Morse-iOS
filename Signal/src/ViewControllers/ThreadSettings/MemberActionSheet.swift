@@ -240,6 +240,39 @@ class MemberActionSheet: InteractiveSheetViewController {
                     }
                 ))
             }
+            
+            if groupViewHelper.memberActionSheetCanMakeGroupListener(address: address) {
+                section.add(.actionItem(
+                    icon: .settingsViewMakeGroupAdmin,
+                    name: NSLocalizedString(
+                        "CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_BUTTON",
+                        comment: "Label for 'make group listener' button in conversation settings view."
+                    ),
+                    accessibilityIdentifier: "MemberActionSheet.makeGroupListener",
+                    actionBlock: { [weak self] in
+                        guard let self = self else { return }
+                        self.dismiss(animated: true) {
+                            self.groupViewHelper?.memberActionSheetMakeGroupListenerWasSelected(address: self.address)
+                        }
+                    }
+                ))
+            }
+            if groupViewHelper.memberActionSheetCanRevokeGroupListener(address: address) {
+                section.add(.actionItem(
+                    icon: .settingsViewRevokeGroupAdmin,
+                    name: NSLocalizedString(
+                        "CONVERSATION_SETTINGS_REVOKE_GROUP_LISTENER_BUTTON",
+                        comment: "Label for 'revoke group listener' button in conversation settings view."
+                    ),
+                    accessibilityIdentifier: "MemberActionSheet.revokeGroupListener",
+                    actionBlock: { [weak self] in
+                        guard let self = self else { return }
+                        self.dismiss(animated: true) {
+                            self.groupViewHelper?.memberActionSheetRevokeGroupListenerWasSelected(address: self.address)
+                        }
+                    }
+                ))
+            }
         }
 
         section.add(.actionItem(

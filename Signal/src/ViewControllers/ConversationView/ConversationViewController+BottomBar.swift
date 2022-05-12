@@ -15,6 +15,7 @@ enum CVCBottomViewType: Equatable {
     case selection
     case blockingGroupMigration
     case announcementOnlyGroup
+    case blockingGroupListener
 }
 
 // MARK: -
@@ -65,7 +66,9 @@ public extension ConversationViewController {
                 return .blockingGroupMigration
             } else if isBlockedFromSendingByAnnouncementOnlyGroup {
                 return .announcementOnlyGroup
-            } else {
+            } else if isLocalUserGroupListener {
+                return .blockingGroupListener
+            }else {
                 switch uiMode {
                 case .search:
                     return .search
@@ -126,6 +129,11 @@ public extension ConversationViewController {
                                                                     fromViewController: self)
             requestView = announcementOnlyView
             bottomView = announcementOnlyView
+        case .blockingGroupListener:
+            let blockingGroupListenerView = BlockingGroupListenerView(threadViewModel: threadViewModel,
+                                                                    fromViewController: self)
+            requestView = blockingGroupListenerView
+            bottomView = blockingGroupListenerView
         }
 
         for subView in bottomBar.subviews {
@@ -368,5 +376,12 @@ public extension ConversationViewController {
 
     private var isBlockedFromSendingByAnnouncementOnlyGroup: Bool {
         thread.isBlockedByAnnouncementOnly
+    }
+    
+    private var isLocalUserGroupListener: Bool {
+        guard let groupThread = thread as? TSGroupThread else {
+            return false
+        }
+        return groupThread.isLocalUserFullMemberAndListener
     }
 }

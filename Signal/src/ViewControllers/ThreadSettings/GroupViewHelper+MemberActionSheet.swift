@@ -133,6 +133,101 @@ extension GroupViewHelper {
         }.asVoid()
     }
 
+    // MARK: - Make Group listener
+    
+    func memberActionSheetCanMakeGroupListener(address: SignalServiceAddress) -> Bool {
+        guard let groupThread = thread as? TSGroupThread,
+            groupThread.isGroupV2Thread else {
+                return false
+        }
+        guard let localAddress = tsAccountManager.localAddress else {
+            owsFailDebug("Missing localAddress.")
+            return false
+        }
+        let isLocalUserAdmin = groupThread.groupModel.groupMembership.isFullMemberAndAdministrator(localAddress)
+        let groupMembership = groupThread.groupModel.groupMembership
+        let canBecomeListener = (groupMembership.isFullMember(address) &&
+            !groupMembership.isFullMemberAndListener(address))
+        return (canEditConversationMembership && isLocalUserAdmin && canBecomeListener)
+    }
+    
+    func memberActionSheetMakeGroupListenerWasSelected(address: SignalServiceAddress) {
+        let titleFormat = NSLocalizedString("CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_TITLE_FORMAT",
+                                            comment: "Format for title for 'make group listener' confirmation alert. Embeds {user to make an listener}.")
+        let actionTitle =  NSLocalizedString("CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_BUTTON",
+                                             comment: "Label for 'make group listener' button in conversation settings view.")
+        showMemberActionConfirmationActionSheet(address: address,
+                                                titleFormat: titleFormat,
+                                                actionTitle: actionTitle) {
+                                                    self.makeGroupListenerPromise(address: address)
+        }
+    }
+    
+    private func makeGroupListenerPromise(address: SignalServiceAddress) -> Promise<Void> {
+        guard let oldGroupModel = delegate?.currentGroupModel as? TSGroupModelV2 else {
+            return Promise(error: OWSAssertionError("Missing group model."))
+        }
+        guard oldGroupModel.groupMembership.isMemberOfAnyKind(address) else {
+            return Promise(error: OWSAssertionError("Not a group member."))
+        }
+        guard let uuid = address.uuid else {
+            return Promise(error: OWSAssertionError("Invalid member address."))
+        }
+        return firstly {
+            return GroupManager.messageProcessingPromise(for: oldGroupModel,
+                                                         description: "Make group Listener")
+        }.then(on: .global()) {
+            GroupManager.changeMemberRoleV2(groupModel: oldGroupModel, uuid: uuid, role: .listener)
+        }.asVoid()
+    }
+
+    // MARK: - Revoke Group Listener
+
+    func memberActionSheetCanRevokeGroupListener(address: SignalServiceAddress) -> Bool {
+        guard let groupThread = thread as? TSGroupThread,
+            groupThread.isGroupV2Thread else {
+                return false
+        }
+        guard let localAddress = tsAccountManager.localAddress else {
+            owsFailDebug("Missing localAddress.")
+            return false
+        }
+        let groupMembership = groupThread.groupModel.groupMembership
+        let isLocalUserAdmin = groupMembership.isFullMemberAndAdministrator(localAddress)
+        let canRevokeListener = groupMembership.isFullMemberAndListener(address)
+        return (canEditConversationMembership && isLocalUserAdmin && canRevokeListener)
+    }
+
+    func memberActionSheetRevokeGroupListenerWasSelected(address: SignalServiceAddress) {
+        let titleFormat = NSLocalizedString("CONVERSATION_SETTINGS_REVOKE_GROUP_LISTENER_TITLE_FORMAT",
+                                            comment: "Format for title for 'revoke group admin' confirmation alert. Embeds {user to revoke admin status from}.")
+        let actionTitle =  NSLocalizedString("CONVERSATION_SETTINGS_REVOKE_GROUP_LISTENER_BUTTON",
+                                             comment: "Label for 'revoke group admin' button in conversation settings view.")
+        showMemberActionConfirmationActionSheet(address: address,
+                                                titleFormat: titleFormat,
+                                                actionTitle: actionTitle) {
+                                                    self.revokeGroupListenerPromise(address: address)
+        }
+    }
+
+    private func revokeGroupListenerPromise(address: SignalServiceAddress) -> Promise<Void> {
+        guard let oldGroupModel = delegate?.currentGroupModel as? TSGroupModelV2 else {
+            return Promise(error: OWSAssertionError("Missing group model."))
+        }
+        guard oldGroupModel.groupMembership.isMemberOfAnyKind(address) else {
+            return Promise(error: OWSAssertionError("Not a group member."))
+        }
+        guard let uuid = address.uuid else {
+            return Promise(error: OWSAssertionError("Invalid member address."))
+        }
+        return firstly {
+            return GroupManager.messageProcessingPromise(for: oldGroupModel,
+                                                         description: "Revoke group listener")
+        }.then(on: .global()) {
+            GroupManager.changeMemberRoleV2(groupModel: oldGroupModel, uuid: uuid, role: .normal)
+        }.asVoid()
+    }
+
     // MARK: - Remove From Group
 
     // This action can be used to remove members _or_ revoke invites.

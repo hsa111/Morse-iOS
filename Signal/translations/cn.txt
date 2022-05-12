@@ -1,0 +1,49 @@
+
+/* Label for 'make group listener' button in conversation settings view. */
+"CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_BUTTON" = "禁言";
+
+/* Format for title for 'make group listener' confirmation alert. Embeds {user to make an admin}. */
+"CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_TITLE_FORMAT" = "%@ 将被禁言.";
+
+/* Label for 'revoke group listener' button in conversation settings view. */
+"CONVERSATION_SETTINGS_REVOKE_GROUP_LISTENER_BUTTON" = "取消禁言";
+
+/* Format for title for 'revoke group listener' confirmation alert. Embeds {user to revoke admin status from}. */
+"CONVERSATION_SETTINGS_REVOKE_GROUP_LISTENER_TITLE_FORMAT" = "取消 %@ 禁言?";
+
+/* Message indicating that a remote user was granted listener role. Embeds {{remote user name}}. */
+"GROUP_REMOTE_USER_GRANTED_LISTENER" = "%@ 已被禁言";
+
+/* Message indicating that a remote user was granted listener role by local user. Embeds {{remote user name}}. */
+"GROUP_REMOTE_USER_GRANTED_LISTENER_BY_LOCAL_USER" = "你已将 %@ 禁言.";
+
+/* Message indicating that a remote user was granted listener role by another user. Embeds {{ %1$@ user who granted, %2$@ user who was granted administrator role}}. */
+"GROUP_REMOTE_USER_GRANTED_LISTENER_BY_REMOTE_USER_FORMAT" = "%1$@ 将 %2$@ 禁言.";
+
+/* Message indicating that the local user was granted listener role. */
+"GROUP_LOCAL_USER_GRANTED_LISTENER" = "你已被禁言.";
+
+/* Message indicating that the local user was granted listener role by another user. Embeds {{remote user name}}. */
+"GROUP_LOCAL_USER_GRANTED_LISTENER_BY_REMOTE_USER_FORMAT" = "%@ 将你禁言.";
+
+/* Message indicating that a remote user had their listener role revoked. Embeds {{remote user name}}. */
+"GROUP_REMOTE_USER_REVOKED_LISTENER" = "%@ 已取消禁言.";
+
+/* Message indicating that a remote user had their listener role revoked by local user. Embeds {{remote user name}}. */
+"GROUP_REMOTE_USER_REVOKED_LISTENER_BY_LOCAL_USER" = "你已取消 %@ 的禁言.";
+
+/* Message indicating that a remote user had their listener role revoked by another user. Embeds {{ %1$@ user who revoked, %2$@ user who was granted listener role}}. */
+"GROUP_REMOTE_USER_REVOKED_LISTENER_BY_REMOTE_USER_FORMAT" = "%1$@ 已取消 %2$@ 的禁言.";
+
+/* Message indicating that the local user had their listener role revoked. */
+"GROUP_LOCAL_USER_REVOKED_LISTENER" = "已取消你的禁言.";
+
+/* Message indicating that the local user had their listener role revoked by another user. Embeds {{remote user name}}. */
+"GROUP_LOCAL_USER_REVOKED_LISTENER_BY_REMOTE_USER_FORMAT" = "%@ 取消你的禁言.";
+
+/* Label indicating that a group member is an listener. */
+"GROUP_MEMBER_LISTENER_INDICATOR" = "禁言";
+
+/* Format for indicator that only group administrators can starts a group call and sends messages to an 'announcement-only' group. Embeds {{ a \"admins\" link. }}. */
+"GROUPS_LISTENER_BLOCKING_SEND_OR_CALL_FORMAT" = "你已被 %@ 禁言";
+

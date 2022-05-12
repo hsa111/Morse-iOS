@@ -509,10 +509,10 @@ class AppSettingsViewController: OWSTableViewController2 {
 ////            hNumberStackView.addArrangedSubview(label)
 //
             
-            let button = UIButton()
-            button.setImage(UIImage(systemName: "doc.on.clipboard"),
-                    for: .normal)
-            button.autoSetDimension(.width, toSize: 30)
+//            let button = UIButton()
+//            button.setImage(UIImage(systemName: "doc.on.clipboard"),
+//                    for: .normal)
+//            button.autoSetDimension(.width, toSize: 30)
 
             //button.backgroundColor = UIColor.clear
 //            button.layer.cornerRadius = 5
@@ -523,8 +523,8 @@ class AppSettingsViewController: OWSTableViewController2 {
 //            button.setTitle(CommonStrings.copyButton, for: .normal)
 //            button.setTitleColor(Theme.secondaryTextAndIconColor, for: .normal)
 //            button.titleLabel!.font = .ows_dynamicTypeFootnoteClamped
-            button.addTarget(self, action: #selector(copyPressed), for: .touchUpInside)
-            hNumberStackView.addArrangedSubview(button)
+//            button.addTarget(self, action: #selector(copyPressed), for: .touchUpInside)
+//            hNumberStackView.addArrangedSubview(button)
 
 //            hNumberStackView.addArrangedSubview(UIView.spacer(withWidth: 30))
             

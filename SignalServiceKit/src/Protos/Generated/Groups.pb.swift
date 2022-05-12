@@ -79,6 +79,9 @@ struct GroupsProtos_Member {
 
     /// Group admin
     case administrator // = 2
+
+    /// Group listener
+    case listener // = 3
     case UNRECOGNIZED(Int)
 
     init() {
@@ -90,6 +93,7 @@ struct GroupsProtos_Member {
       case 0: self = .unknown
       case 1: self = .default
       case 2: self = .administrator
+      case 3: self = .listener
       default: self = .UNRECOGNIZED(rawValue)
       }
     }
@@ -99,6 +103,7 @@ struct GroupsProtos_Member {
       case .unknown: return 0
       case .default: return 1
       case .administrator: return 2
+      case .listener: return 3
       case .UNRECOGNIZED(let i): return i
       }
     }
@@ -116,6 +121,7 @@ extension GroupsProtos_Member.Role: CaseIterable {
     .unknown,
     .default,
     .administrator,
+    .listener,
   ]
 }
 
@@ -280,8 +286,12 @@ struct GroupsProtos_Group {
 
   var descriptionBytes: Data = Data()
 
-  /// next: 13
   var announcementsOnly: Bool = false
+
+  var addFriendsAdminOnly: Bool = false
+
+  /// next: 15
+  var viewMembersAdminOnly: Bool = false
 
   var unknownFields = SwiftProtobuf.UnknownStorage()
 
@@ -471,6 +481,26 @@ struct GroupsProtos_GroupChange {
     var hasModifyAnnouncementsOnly: Bool {return _storage._modifyAnnouncementsOnly != nil}
     /// Clears the value of `modifyAnnouncementsOnly`. Subsequent reads from it will return its default value.
     mutating func clearModifyAnnouncementsOnly() {_uniqueStorage()._modifyAnnouncementsOnly = nil}
+
+    /// change epoch = 4
+    var modifyAddFriendsAdminOnly: GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction {
+      get {return _storage._modifyAddFriendsAdminOnly ?? GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction()}
+      set {_uniqueStorage()._modifyAddFriendsAdminOnly = newValue}
+    }
+    /// Returns true if `modifyAddFriendsAdminOnly` has been explicitly set.
+    var hasModifyAddFriendsAdminOnly: Bool {return _storage._modifyAddFriendsAdminOnly != nil}
+    /// Clears the value of `modifyAddFriendsAdminOnly`. Subsequent reads from it will return its default value.
+    mutating func clearModifyAddFriendsAdminOnly() {_uniqueStorage()._modifyAddFriendsAdminOnly = nil}
+
+    /// change epoch = 5
+    var modifyViewMembersAdminOnly: GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction {
+      get {return _storage._modifyViewMembersAdminOnly ?? GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction()}
+      set {_uniqueStorage()._modifyViewMembersAdminOnly = newValue}
+    }
+    /// Returns true if `modifyViewMembersAdminOnly` has been explicitly set.
+    var hasModifyViewMembersAdminOnly: Bool {return _storage._modifyViewMembersAdminOnly != nil}
+    /// Clears the value of `modifyViewMembersAdminOnly`. Subsequent reads from it will return its default value.
+    mutating func clearModifyViewMembersAdminOnly() {_uniqueStorage()._modifyViewMembersAdminOnly = nil}
 
     var unknownFields = SwiftProtobuf.UnknownStorage()
 
@@ -741,6 +771,30 @@ struct GroupsProtos_GroupChange {
       // methods supported on all messages.
 
       var announcementsOnly: Bool = false
+
+      var unknownFields = SwiftProtobuf.UnknownStorage()
+
+      init() {}
+    }
+
+    struct ModifyAddFriendsAdminOnlyAction {
+      // SwiftProtobuf.Message conformance is added in an extension below. See the
+      // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+      // methods supported on all messages.
+
+      var addFriendsAdminOnly: Bool = false
+
+      var unknownFields = SwiftProtobuf.UnknownStorage()
+
+      init() {}
+    }
+
+    struct ModifyViewMembersAdminOnlyAction {
+      // SwiftProtobuf.Message conformance is added in an extension below. See the
+      // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+      // methods supported on all messages.
+
+      var viewMembersAdminOnly: Bool = false
 
       var unknownFields = SwiftProtobuf.UnknownStorage()
 
@@ -1102,6 +1156,7 @@ extension GroupsProtos_Member.Role: SwiftProtobuf._ProtoNameProviding {
     0: .same(proto: "UNKNOWN"),
     1: .same(proto: "DEFAULT"),
     2: .same(proto: "ADMINISTRATOR"),
+    3: .same(proto: "LISTENER"),
   ]
 }
 
@@ -1272,6 +1327,8 @@ extension GroupsProtos_Group: SwiftProtobuf.Message, SwiftProtobuf._MessageImple
     10: .same(proto: "inviteLinkPassword"),
     11: .same(proto: "descriptionBytes"),
     12: .same(proto: "announcementsOnly"),
+    13: .same(proto: "addFriendsAdminOnly"),
+    14: .same(proto: "viewMembersAdminOnly"),
   ]
 
   mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
@@ -1292,6 +1349,8 @@ extension GroupsProtos_Group: SwiftProtobuf.Message, SwiftProtobuf._MessageImple
       case 10: try { try decoder.decodeSingularBytesField(value: &self.inviteLinkPassword) }()
       case 11: try { try decoder.decodeSingularBytesField(value: &self.descriptionBytes) }()
       case 12: try { try decoder.decodeSingularBoolField(value: &self.announcementsOnly) }()
+      case 13: try { try decoder.decodeSingularBoolField(value: &self.addFriendsAdminOnly) }()
+      case 14: try { try decoder.decodeSingularBoolField(value: &self.viewMembersAdminOnly) }()
       default: break
       }
     }
@@ -1338,6 +1397,12 @@ extension GroupsProtos_Group: SwiftProtobuf.Message, SwiftProtobuf._MessageImple
     if self.announcementsOnly != false {
       try visitor.visitSingularBoolField(value: self.announcementsOnly, fieldNumber: 12)
     }
+    if self.addFriendsAdminOnly != false {
+      try visitor.visitSingularBoolField(value: self.addFriendsAdminOnly, fieldNumber: 13)
+    }
+    if self.viewMembersAdminOnly != false {
+      try visitor.visitSingularBoolField(value: self.viewMembersAdminOnly, fieldNumber: 14)
+    }
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -1354,6 +1419,8 @@ extension GroupsProtos_Group: SwiftProtobuf.Message, SwiftProtobuf._MessageImple
     if lhs.inviteLinkPassword != rhs.inviteLinkPassword {return false}
     if lhs.descriptionBytes != rhs.descriptionBytes {return false}
     if lhs.announcementsOnly != rhs.announcementsOnly {return false}
+    if lhs.addFriendsAdminOnly != rhs.addFriendsAdminOnly {return false}
+    if lhs.viewMembersAdminOnly != rhs.viewMembersAdminOnly {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -1427,6 +1494,8 @@ extension GroupsProtos_GroupChange.Actions: SwiftProtobuf.Message, SwiftProtobuf
     19: .same(proto: "modifyInviteLinkPassword"),
     20: .same(proto: "modifyDescription"),
     21: .same(proto: "modifyAnnouncementsOnly"),
+    22: .same(proto: "modifyAddFriendsAdminOnly"),
+    23: .same(proto: "modifyViewMembersAdminOnly"),
   ]
 
   fileprivate class _StorageClass {
@@ -1451,6 +1520,8 @@ extension GroupsProtos_GroupChange.Actions: SwiftProtobuf.Message, SwiftProtobuf
     var _modifyInviteLinkPassword: GroupsProtos_GroupChange.Actions.ModifyInviteLinkPasswordAction? = nil
     var _modifyDescription: GroupsProtos_GroupChange.Actions.ModifyDescriptionAction? = nil
     var _modifyAnnouncementsOnly: GroupsProtos_GroupChange.Actions.ModifyAnnouncementsOnlyAction? = nil
+    var _modifyAddFriendsAdminOnly: GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction? = nil
+    var _modifyViewMembersAdminOnly: GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction? = nil
 
     static let defaultInstance = _StorageClass()
 
@@ -1478,6 +1549,8 @@ extension GroupsProtos_GroupChange.Actions: SwiftProtobuf.Message, SwiftProtobuf
       _modifyInviteLinkPassword = source._modifyInviteLinkPassword
       _modifyDescription = source._modifyDescription
       _modifyAnnouncementsOnly = source._modifyAnnouncementsOnly
+      _modifyAddFriendsAdminOnly = source._modifyAddFriendsAdminOnly
+      _modifyViewMembersAdminOnly = source._modifyViewMembersAdminOnly
     }
   }
 
@@ -1517,6 +1590,8 @@ extension GroupsProtos_GroupChange.Actions: SwiftProtobuf.Message, SwiftProtobuf
         case 19: try { try decoder.decodeSingularMessageField(value: &_storage._modifyInviteLinkPassword) }()
         case 20: try { try decoder.decodeSingularMessageField(value: &_storage._modifyDescription) }()
         case 21: try { try decoder.decodeSingularMessageField(value: &_storage._modifyAnnouncementsOnly) }()
+        case 22: try { try decoder.decodeSingularMessageField(value: &_storage._modifyAddFriendsAdminOnly) }()
+        case 23: try { try decoder.decodeSingularMessageField(value: &_storage._modifyViewMembersAdminOnly) }()
         default: break
         }
       }
@@ -1592,6 +1667,12 @@ extension GroupsProtos_GroupChange.Actions: SwiftProtobuf.Message, SwiftProtobuf
       try { if let v = _storage._modifyAnnouncementsOnly {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 21)
       } }()
+      try { if let v = _storage._modifyAddFriendsAdminOnly {
+        try visitor.visitSingularMessageField(value: v, fieldNumber: 22)
+      } }()
+      try { if let v = _storage._modifyViewMembersAdminOnly {
+        try visitor.visitSingularMessageField(value: v, fieldNumber: 23)
+      } }()
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -1622,6 +1703,8 @@ extension GroupsProtos_GroupChange.Actions: SwiftProtobuf.Message, SwiftProtobuf
         if _storage._modifyInviteLinkPassword != rhs_storage._modifyInviteLinkPassword {return false}
         if _storage._modifyDescription != rhs_storage._modifyDescription {return false}
         if _storage._modifyAnnouncementsOnly != rhs_storage._modifyAnnouncementsOnly {return false}
+        if _storage._modifyAddFriendsAdminOnly != rhs_storage._modifyAddFriendsAdminOnly {return false}
+        if _storage._modifyViewMembersAdminOnly != rhs_storage._modifyViewMembersAdminOnly {return false}
         return true
       }
       if !storagesAreEqual {return false}
@@ -2296,6 +2379,70 @@ extension GroupsProtos_GroupChange.Actions.ModifyAnnouncementsOnlyAction: SwiftP
 
   static func ==(lhs: GroupsProtos_GroupChange.Actions.ModifyAnnouncementsOnlyAction, rhs: GroupsProtos_GroupChange.Actions.ModifyAnnouncementsOnlyAction) -> Bool {
     if lhs.announcementsOnly != rhs.announcementsOnly {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = GroupsProtos_GroupChange.Actions.protoMessageName + ".ModifyAddFriendsAdminOnlyAction"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "addFriendsAdminOnly"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      // The use of inline closures is to circumvent an issue where the compiler
+      // allocates stack space for every case branch when no optimizations are
+      // enabled. https://github.com/apple/swift-protobuf/issues/1034
+      switch fieldNumber {
+      case 1: try { try decoder.decodeSingularBoolField(value: &self.addFriendsAdminOnly) }()
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    if self.addFriendsAdminOnly != false {
+      try visitor.visitSingularBoolField(value: self.addFriendsAdminOnly, fieldNumber: 1)
+    }
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction, rhs: GroupsProtos_GroupChange.Actions.ModifyAddFriendsAdminOnlyAction) -> Bool {
+    if lhs.addFriendsAdminOnly != rhs.addFriendsAdminOnly {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = GroupsProtos_GroupChange.Actions.protoMessageName + ".ModifyViewMembersAdminOnlyAction"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "viewMembersAdminOnly"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      // The use of inline closures is to circumvent an issue where the compiler
+      // allocates stack space for every case branch when no optimizations are
+      // enabled. https://github.com/apple/swift-protobuf/issues/1034
+      switch fieldNumber {
+      case 1: try { try decoder.decodeSingularBoolField(value: &self.viewMembersAdminOnly) }()
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    if self.viewMembersAdminOnly != false {
+      try visitor.visitSingularBoolField(value: self.viewMembersAdminOnly, fieldNumber: 1)
+    }
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction, rhs: GroupsProtos_GroupChange.Actions.ModifyViewMembersAdminOnlyAction) -> Bool {
+    if lhs.viewMembersAdminOnly != rhs.viewMembersAdminOnly {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }

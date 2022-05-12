@@ -714,15 +714,23 @@ extension GroupUpdateCopy {
         let oldIsAdministrator = oldGroupMembership.isFullMemberAndAdministrator(address)
         let newIsAdministrator = newGroupMembership.isFullMemberAndAdministrator(address)
 
-        guard oldIsAdministrator != newIsAdministrator else {
-            // Role didn't change.
-            return
-        }
-
-        if newIsAdministrator {
-            addUserWasGrantedAdministrator(for: address)
-        } else {
-            addUserWasRevokedAdministrator(for: address)
+        if oldIsAdministrator != newIsAdministrator {
+            if newIsAdministrator {
+                addUserWasGrantedAdministrator(for: address)
+            } else {
+                addUserWasRevokedAdministrator(for: address)
+            }
+        }else {
+            let oldIsListener = oldGroupMembership.isFullMemberAndListener(address)
+            let newIsListener = newGroupMembership.isFullMemberAndListener(address)
+            guard oldIsListener != newIsListener else {
+                return
+            }
+            if newIsListener {
+                addUserWasGrantedListener(for: address)
+            } else {
+                addUserWasRevokedListener(for: address)
+            }
         }
     }
 
@@ -867,6 +875,154 @@ extension GroupUpdateCopy {
             case .unknown:
                 let format = NSLocalizedString("GROUP_REMOTE_USER_REVOKED_ADMINISTRATOR",
                                                comment: "Message indicating that a remote user had their administrator role revoked. Embeds {{remote user name}}.")
+                addItem(.userRole,
+                        address: address,
+                        format: format, userName)
+            }
+        }
+    }
+
+    mutating func addUserWasGrantedListener(for address: SignalServiceAddress) {
+
+        if let newGroupModelV2 = newGroupModel as? TSGroupModelV2,
+            newGroupModelV2.wasJustMigrated {
+            // All v1 group members become admins when the
+            // group is migrated to v2. We don't need to
+            // surface this to the user.
+            return
+        }
+
+        let isLocalUser = localAddress == address
+        if isLocalUser {
+            switch updater {
+            case .localUser:
+                if !DebugFlags.permissiveGroupUpdateInfoMessages {
+                    owsFailDebug("Local user made themself listener.")
+                } else {
+                    addItem(.debug, copy: "Error: Local user made themself listener.")
+                }
+                addItem(.userRole,
+                        address: address,
+                        copy: NSLocalizedString("GROUP_LOCAL_USER_GRANTED_LISTENER",
+                                                comment: "Message indicating that the local user was granted listener role."))
+            case .otherUser(let updaterName, let updaterAddress):
+                if updaterAddress == address {
+                    if !DebugFlags.permissiveGroupUpdateInfoMessages {
+                        owsFailDebug("Remote user made themself listener.")
+                    } else {
+                        addItem(.debug, copy: "Error: Remote user made themself listener.")
+                    }
+                    addItem(.userRole,
+                            address: address,
+                            copy: NSLocalizedString("GROUP_LOCAL_USER_GRANTED_LISTENER",
+                                                    comment: "Message indicating that the local user was granted listener role."))
+                } else {
+                    let format = NSLocalizedString("GROUP_LOCAL_USER_GRANTED_LISTENER_BY_REMOTE_USER_FORMAT",
+                                                   comment: "Message indicating that the local user was granted listener role by another user. Embeds {{remote user name}}.")
+                    addItem(.userRole,
+                            address: address,
+                            format: format, updaterName)
+                }
+            case .unknown:
+                addItem(.userRole,
+                        address: address,
+                        copy: NSLocalizedString("GROUP_LOCAL_USER_GRANTED_LISTENER",
+                                                comment: "Message indicating that the local user was granted listener role."))
+            }
+        } else {
+            let userName = self.contactsManager.displayName(for: address, transaction: transaction)
+
+            switch updater {
+            case .localUser:
+                let format = NSLocalizedString("GROUP_REMOTE_USER_GRANTED_LISTENER_BY_LOCAL_USER",
+                                               comment: "Message indicating that a remote user was granted listener role by local user. Embeds {{remote user name}}.")
+                addItem(.userRole,
+                        address: address,
+                        format: format, userName)
+            case .otherUser(let updaterName, let updaterAddress):
+                if updaterAddress == address {
+                    if !DebugFlags.permissiveGroupUpdateInfoMessages {
+                        owsFailDebug("Remote user made themself listener.")
+                    } else {
+                        addItem(.debug, copy: "Error: Remote user made themself listener.")
+                    }
+                    let format = NSLocalizedString("GROUP_REMOTE_USER_GRANTED_LISTENER",
+                                                   comment: "Message indicating that a remote user was granted listener role. Embeds {{remote user name}}.")
+                    addItem(.userRole,
+                            address: address,
+                            format: format, userName)
+                } else {
+                    let format = NSLocalizedString("GROUP_REMOTE_USER_GRANTED_LISTENER_BY_REMOTE_USER_FORMAT",
+                                                   comment: "Message indicating that a remote user was granted listener role by another user. Embeds {{ %1$@ user who granted, %2$@ user who was granted administrator role}}.")
+                    addItem(.userRole,
+                            address: address,
+                            format: format, updaterName, userName)
+                }
+            case .unknown:
+                let format = NSLocalizedString("GROUP_REMOTE_USER_GRANTED_LISTENER",
+                                               comment: "Message indicating that a remote user was granted listener role. Embeds {{remote user name}}.")
+                addItem(.userRole,
+                        address: address,
+                        format: format, userName)
+            }
+        }
+    }
+
+    mutating func addUserWasRevokedListener(for address: SignalServiceAddress) {
+        let isLocalUser = localAddress == address
+        if isLocalUser {
+            switch updater {
+            case .localUser:
+                addItem(.userRole,
+                        address: address,
+                        copy: NSLocalizedString("GROUP_LOCAL_USER_REVOKED_LISTENER",
+                                                comment: "Message indicating that the local user had their listener role revoked."))
+            case .otherUser(let updaterName, let updaterAddress):
+                if updaterAddress == address {
+                    addItem(.userRole,
+                            address: address,
+                            copy: NSLocalizedString("GROUP_LOCAL_USER_REVOKED_LISTENER",
+                                                    comment: "Message indicating that the local user had their listener role revoked."))
+                } else {
+                    let format = NSLocalizedString("GROUP_LOCAL_USER_REVOKED_LISTENER_BY_REMOTE_USER_FORMAT",
+                                                   comment: "Message indicating that the local user had their listener role revoked by another user. Embeds {{remote user name}}.")
+                    addItem(.userRole,
+                            address: address,
+                            format: format, updaterName)
+                }
+            case .unknown:
+                addItem(.userRole,
+                        address: address,
+                        copy: NSLocalizedString("GROUP_LOCAL_USER_REVOKED_LISTENER",
+                                                comment: "Message indicating that the local user had their listener role revoked."))
+            }
+        } else {
+            let userName = contactsManager.displayName(for: address, transaction: transaction)
+
+            switch updater {
+            case .localUser:
+                let format = NSLocalizedString("GROUP_REMOTE_USER_REVOKED_LISTENER_BY_LOCAL_USER",
+                                               comment: "Message indicating that a remote user had their listener role revoked by local user. Embeds {{remote user name}}.")
+                addItem(.userRole,
+                        address: address,
+                        format: format, userName)
+            case .otherUser(let updaterName, let updaterAddress):
+                if updaterAddress == address {
+                    let format = NSLocalizedString("GROUP_REMOTE_USER_REVOKED_LISTENER",
+                                                   comment: "Message indicating that a remote user had their listener role revoked. Embeds {{remote user name}}.")
+                    addItem(.userRole,
+                            address: address,
+                            format: format, userName)
+                } else {
+                    let format = NSLocalizedString("GROUP_REMOTE_USER_REVOKED_LISTENER_BY_REMOTE_USER_FORMAT",
+                                                   comment: "Message indicating that a remote user had their listener role revoked by another user. Embeds {{ %1$@ user who revoked, %2$@ user who was granted administrator role}}.")
+                    addItem(.userRole,
+                            address: address,
+                            format: format, updaterName, userName)
+                }
+            case .unknown:
+                let format = NSLocalizedString("GROUP_REMOTE_USER_REVOKED_LISTENER",
+                                               comment: "Message indicating that a remote user had their listener role revoked. Embeds {{remote user name}}.")
                 addItem(.userRole,
                         address: address,
                         format: format, userName)

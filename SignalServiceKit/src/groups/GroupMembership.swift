@@ -11,6 +11,8 @@ public extension TSGroupMemberRole {
             return .normal
         case .administrator:
             return .administrator
+        case .listener:
+            return .listener
         default:
             owsFailDebug("Invalid value: \(value.rawValue)")
             return nil
@@ -23,6 +25,8 @@ public extension TSGroupMemberRole {
             return .`default`
         case .administrator:
             return .administrator
+        case .listener:
+            return .listener
         }
     }
 }
@@ -55,6 +59,10 @@ private enum GroupMemberState: Equatable {
         role == .administrator
     }
 
+    var isListener: Bool {
+        role == .listener
+    }
+    
     var isFullMember: Bool {
         switch self {
         case .fullMember:
@@ -467,6 +475,14 @@ public extension GroupMembership {
         }
         return memberState.isAdministrator && memberState.isFullMember
     }
+    
+    @objc
+    func isFullMemberAndListener(_ address: SignalServiceAddress) -> Bool {
+        guard let memberState = memberStates[address] else {
+            return false
+        }
+        return memberState.isListener && memberState.isFullMember
+    }
 
     func isFullMemberAndAdministrator(_ uuid: UUID) -> Bool {
         return isFullMemberAndAdministrator(SignalServiceAddress(uuid: uuid))
@@ -794,5 +810,12 @@ public extension GroupMembership {
             return false
         }
         return isFullMemberAndAdministrator(localAddress)
+    }
+    
+    var isLocalUserFullMemberAndListener: Bool {
+        guard let localAddress = TSAccountManager.localAddress else {
+            return false
+        }
+        return isFullMemberAndListener(localAddress)
     }
 }

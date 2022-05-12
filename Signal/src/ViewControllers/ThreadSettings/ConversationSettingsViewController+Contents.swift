@@ -531,9 +531,13 @@ extension ConversationSettingsViewController {
                     let isVerified = verificationState == .verified
                     let isNoLongerVerified = verificationState == .noLongerVerified
                     let isBlocked = helper.isSignalServiceAddressBlocked(memberAddress)
+                    let isGroupListener = groupMembership.isFullMemberAndListener(memberAddress)
                     if isGroupAdmin {
                         configuration.accessoryMessage = NSLocalizedString("GROUP_MEMBER_ADMIN_INDICATOR",
                                                                            comment: "Label indicating that a group member is an admin.")
+                    }else if isGroupListener {
+                        configuration.accessoryMessage = NSLocalizedString("GROUP_MEMBER_LISTENER_INDICATOR",
+                                                                           comment: "Label indicating that a group member is an listener.")
                     } else if isNoLongerVerified {
                         configuration.accessoryMessage = NSLocalizedString("CONTACT_CELL_IS_NO_LONGER_VERIFIED",
                                                                            comment: "An indicator that a contact is no longer verified.")

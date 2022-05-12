@@ -37,6 +37,10 @@ public extension TSGroupThread {
         groupMembership.isLocalUserFullMemberAndAdministrator
     }
 
+    var isLocalUserFullMemberAndListener: Bool {
+        groupMembership.isLocalUserFullMemberAndListener
+    }
+    
     private static let groupThreadUniqueIdPrefix = "g"
 
     private static let uniqueIdMappingStore = SDSKeyValueStore(collection: "TSGroupThread.uniqueIdMappingStore")
