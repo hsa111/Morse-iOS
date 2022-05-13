@@ -107,6 +107,30 @@ public class DestoryPasswordSetupViewController: OWSViewController {
         nextButton.accessibilityIdentifier = "destoryPasswordCreation.nextButton"
         return nextButton
     }()
+    
+    private lazy var clearButton: OWSFlatButton = {
+        let text = NSLocalizedString("DESTORY_PASSWORD_CANCEL", comment: "Label for the 'cancel destory-password' button. ")
+        let attributedString = NSMutableAttributedString(string: text)
+        attributedString.addAttribute(NSAttributedString.Key.underlineStyle, value: NSUnderlineStyle.single.rawValue, range: NSRange(location: 0, length: text.count))
+        
+        let clearButton = OWSFlatButton()
+        clearButton.setTitle(
+            title: text,
+            font: .ows_dynamicTypeSubheadlineClamped,
+            titleColor: Theme.accentBlueColor
+        )
+        clearButton.setAttributedTitle(attributedString)
+        clearButton.setBackgroundColors(upColor: .clear)
+
+        clearButton.enableMultilineLabel()
+        clearButton.button.clipsToBounds = true
+        clearButton.button.layer.cornerRadius = 8
+        clearButton.contentEdgeInsets = UIEdgeInsets(hMargin: 4, vMargin: 8)
+
+        clearButton.addTarget(target: self, selector: #selector(clearHandler))
+        clearButton.accessibilityIdentifier = "destoryPasswordCreation.clearButton"
+        return clearButton
+    }()
 
     private let validationWarningLabel: UILabel = {
         let validationWarningLabel = UILabel()
@@ -292,6 +316,7 @@ public class DestoryPasswordSetupViewController: OWSViewController {
         let pinFieldSpacer = SpacerView(preferredHeight: 11)
         let bottomSpacer = SpacerView(preferredHeight: 10)
         let pinToggleSpacer = SpacerView(preferredHeight: 24)
+        let clearSpacer = SpacerView(preferredHeight: 8)
         let buttonSpacer = SpacerView(preferredHeight: 32)
 
         let stackView = UIStackView(arrangedSubviews: [
@@ -306,9 +331,12 @@ public class DestoryPasswordSetupViewController: OWSViewController {
             bottomSpacer,
             pinTypeToggle,
             pinToggleSpacer,
-            OnboardingBaseViewController.horizontallyWrap(primaryButton: nextButton),
-            buttonSpacer
+            OnboardingBaseViewController.horizontallyWrap(primaryButton: nextButton)
         ])
+        if (initialMode.isChanging) {
+            stackView.addArrangedSubviews([clearSpacer, clearButton])
+        }
+        stackView.addArrangedSubview(buttonSpacer)
         stackView.axis = .vertical
         stackView.alignment = .center
         view.addSubview(stackView)
@@ -320,7 +348,7 @@ public class DestoryPasswordSetupViewController: OWSViewController {
             $0.autoSetDimension(.width, toSize: 227)
         }
 
-        [titleLabel, explanationLabel, pinTextField, validationWarningLabel, recommendationLabel, pinTypeToggle, nextButton]
+        [titleLabel, explanationLabel, pinTextField, validationWarningLabel, recommendationLabel, pinTypeToggle, nextButton, clearButton]
             .forEach { $0.setCompressionResistanceVerticalHigh() }
 
         // Reduce priority of compression resistance for the spacer views
@@ -377,6 +405,11 @@ public class DestoryPasswordSetupViewController: OWSViewController {
         Logger.info("")
 
         tryToContinue()
+    }
+    
+    @objc func clearHandler() {
+        UserDefaults.standard.removeObject(forKey: kDestoryPassword)
+        self.completionHandler(self, nil)
     }
 
     private func tryToContinue() {
