@@ -80,8 +80,9 @@ public class UnlockPasswordReminderViewController: OWSViewController {
         view.addSubview(containerView)
         // 2022-04-22 containerView changed to full screen
 //        containerView.autoPinWidthToSuperview()
+//        autoPinView(toBottomOfViewControllerOrKeyboard: containerView, avoidNotch: true)
         containerView.autoPinEdgesToSuperviewEdges()
-        autoPinView(toBottomOfViewControllerOrKeyboard: containerView, avoidNotch: true)
+        autoPinView(toBottomOfViewControllerOrKeyboard: containerView, avoidNotch: false)
 
         // We want the background to extend to the bottom of the screen
         // behind the safe area, so we add that inset to our bottom inset
