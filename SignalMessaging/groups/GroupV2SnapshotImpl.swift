@@ -30,6 +30,10 @@ public struct GroupV2SnapshotImpl: GroupV2Snapshot {
 
     public let isAnnouncementsOnly: Bool
 
+    public let isViewMembersAdminOnly: Bool
+
+    public let isAddFriendsAdminOnly: Bool
+
     public let profileKeys: [UUID: Data]
 
     public var debugDescription: String {
@@ -48,6 +52,8 @@ public struct GroupV2SnapshotImpl: GroupV2Snapshot {
                 inviteLinkPassword: Data?,
                 disappearingMessageToken: DisappearingMessageToken,
                 isAnnouncementsOnly: Bool,
+                isAddFriendsAdminOnly: Bool,
+                isViewMembersAdminOnly: Bool,
                 profileKeys: [UUID: Data]) {
 
         self.groupSecretParamsData = groupSecretParamsData
@@ -62,6 +68,8 @@ public struct GroupV2SnapshotImpl: GroupV2Snapshot {
         self.inviteLinkPassword = inviteLinkPassword
         self.disappearingMessageToken = disappearingMessageToken
         self.isAnnouncementsOnly = isAnnouncementsOnly
+        self.isAddFriendsAdminOnly = isAddFriendsAdminOnly
+        self.isViewMembersAdminOnly = isViewMembersAdminOnly
         self.profileKeys = profileKeys
     }
 }

@@ -608,6 +608,8 @@ public class ProfileFetcherJob: NSObject {
                                              hasGroupsV2Capability: profile.supportsGroupsV2,
                                              hasGroupsV2MigrationCapability: profile.supportsGroupsV2Migration,
                                              hasAnnouncementOnlyGroupsCapability: profile.supportsAnnouncementOnlyGroups,
+                                             hasAddFriendsAdminOnlyGroupsCapability: profile.supportsAddFriendsAdminOnlyGroups,
+                                             hasViewMembersAdminOnlyGroupsCapability: profile.supportsViewMembersAdminOnlyGroups,
                                              hasSenderKeyCapability: profile.supportsSenderKey,
                                              transaction: transaction)
 

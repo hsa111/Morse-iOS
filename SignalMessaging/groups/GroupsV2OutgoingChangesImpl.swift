@@ -90,6 +90,12 @@ public class GroupsV2OutgoingChangesImpl: NSObject, GroupsV2OutgoingChanges {
     // Non-nil if the value changed.
     private var isAnnouncementsOnly: Bool?
 
+    // Non-nil if the value changed.
+    private var isAddFriendsAdminOnly: Bool?
+    
+    // Non-nil if the value changed.
+    private var isViewMembersAdminOnly: Bool?
+    
     private var shouldUpdateLocalProfileKey = false
 
     private var newLinkMode: GroupsV2LinkMode?
@@ -347,6 +353,18 @@ public class GroupsV2OutgoingChangesImpl: NSObject, GroupsV2OutgoingChanges {
         self.isAnnouncementsOnly = isAnnouncementsOnly
     }
 
+    public func setIsViewMembersAdminOnly(_ isViewMembersAdminOnly: Bool) {
+        owsAssertDebug(self.isViewMembersAdminOnly == nil)
+
+        self.isViewMembersAdminOnly = isViewMembersAdminOnly
+    }
+    
+    public func setIsAddFriendsAdminOnly(_ isAddFriendsAdminOnly: Bool) {
+        owsAssertDebug(self.isAddFriendsAdminOnly == nil)
+
+        self.isAddFriendsAdminOnly = isAddFriendsAdminOnly
+    }
+    
     // MARK: - Change Protos
 
     private typealias ProfileKeyCredentialMap = [UUID: ProfileKeyCredential]

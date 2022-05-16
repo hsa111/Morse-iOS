@@ -6807,3 +6807,16 @@
 
 /* Format for indicator that only group administrators can starts a group call and sends messages to an 'announcement-only' group. Embeds {{ a \"admins\" link. }}. */
 "GROUPS_LISTENER_BLOCKING_SEND_OR_CALL_FORMAT" = "You have been set as a listener by %@";
+
+/* Label for button that sets 'view members permission' for a group to 'all members'. */
+"CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_ALL_MEMBERS" = "All Members";
+
+/* Footer for the 'view members' section in conversation settings permissions view. */
+"CONVERSATION_SETTINGS_VIEW_MEMBERS_FOOTER" = "Choose who can sview members in this group.";
+
+/* Label for 'view members' action in conversation settings permissions view. */
+"CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_HEADER" = "View Members";
+
+/* Label for button that sets 'view members permission' for a group to 'administrators only'. */
+"CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_ONLY_ADMINS" = "Only Admins";
+

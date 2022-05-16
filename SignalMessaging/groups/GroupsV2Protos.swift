@@ -396,6 +396,12 @@ public class GroupsV2Protos {
         let isAnnouncementsOnly = (groupProto.hasAnnouncementsOnly
                                     ? groupProto.announcementsOnly
                                     : false)
+        let isAddFriendsAdminOnly = (groupProto.hasAddFriendsAdminOnly
+                                    ? groupProto.addFriendsAdminOnly
+                                    : false)
+        let isViewMembersAdminOnly = (groupProto.hasViewMembersAdminOnly
+                                      ? groupProto.viewMembersAdminOnly
+                                    : false)
 
         guard let accessControl = groupProto.accessControl else {
             throw OWSAssertionError("Missing accessControl.")
@@ -434,6 +440,8 @@ public class GroupsV2Protos {
                                    inviteLinkPassword: inviteLinkPassword,
                                    disappearingMessageToken: disappearingMessageToken,
                                    isAnnouncementsOnly: isAnnouncementsOnly,
+                                   isAddFriendsAdminOnly: isAddFriendsAdminOnly,
+                                   isViewMembersAdminOnly: isViewMembersAdminOnly,
                                    profileKeys: profileKeys)
     }
 

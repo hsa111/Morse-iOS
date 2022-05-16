@@ -197,6 +197,10 @@ public protocol GroupsV2OutgoingChanges: AnyObject {
 
     func setIsAnnouncementsOnly(_ isAnnouncementsOnly: Bool)
 
+    func setIsViewMembersAdminOnly(_ isViewMembersAdminOnly: Bool)
+
+    func setIsAddFriendsAdminOnly(_ isAddFriendsAdminOnly: Bool)
+
     func buildGroupChangeProto(currentGroupModel: TSGroupModelV2,
                                currentDisappearingMessageToken: DisappearingMessageToken) -> Promise<GroupsProtoGroupChangeActions>
 }
@@ -315,6 +319,11 @@ public protocol GroupV2Snapshot {
     var inviteLinkPassword: Data? { get }
 
     var isAnnouncementsOnly: Bool { get }
+    
+    var isViewMembersAdminOnly: Bool { get }
+    
+    var isAddFriendsAdminOnly: Bool { get }
+    
 }
 
 // MARK: -

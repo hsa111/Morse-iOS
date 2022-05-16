@@ -28,6 +28,11 @@ public class TSGroupModelV2: TSGroupModel {
     public var inviteLinkPassword: Data?
     @objc
     public var isAnnouncementsOnly: Bool = false
+    @objc
+    public var isViewMembersAdminOnly: Bool = false
+    @objc
+    public var isAddFriendsAdminOnly: Bool = false
+    
     // We sometimes create "placeholder" models to reflect
     // groups that we don't have access to on the service.
     @objc
@@ -55,6 +60,8 @@ public class TSGroupModelV2: TSGroupModel {
                          avatarUrlPath: String?,
                          inviteLinkPassword: Data?,
                          isAnnouncementsOnly: Bool,
+                         isAddFriendsAdminOnly: Bool,
+                         isViewMembersAdminOnly: Bool,
                          isPlaceholderModel: Bool,
                          wasJustMigrated: Bool,
                          wasJustCreatedByLocalUser: Bool,
@@ -71,6 +78,8 @@ public class TSGroupModelV2: TSGroupModel {
         self.avatarUrlPath = avatarUrlPath
         self.inviteLinkPassword = inviteLinkPassword
         self.isAnnouncementsOnly = isAnnouncementsOnly
+        self.isAddFriendsAdminOnly = isAddFriendsAdminOnly
+        self.isViewMembersAdminOnly = isViewMembersAdminOnly
         self.isPlaceholderModel = isPlaceholderModel
         self.wasJustMigrated = wasJustMigrated
         self.wasJustCreatedByLocalUser = wasJustCreatedByLocalUser
@@ -150,6 +159,12 @@ public class TSGroupModelV2: TSGroupModel {
         guard other.isAnnouncementsOnly == isAnnouncementsOnly else {
             return false
         }
+        guard other.isAddFriendsAdminOnly == isAddFriendsAdminOnly else {
+            return false
+        }
+        guard other.isViewMembersAdminOnly == isViewMembersAdminOnly else {
+            return false
+        }
         guard other.droppedMembers.stableSort() == droppedMembers.stableSort() else {
             return false
         }
@@ -176,6 +191,8 @@ public class TSGroupModelV2: TSGroupModel {
         result += "avatarUrlPath: \(String(describing: avatarUrlPath)),\n"
         result += "inviteLinkPassword: \(inviteLinkPassword?.hexadecimalString ?? "None"),\n"
         result += "isAnnouncementsOnly: \(isAnnouncementsOnly),\n"
+        result += "isViewMembersAdminOnly: \(isViewMembersAdminOnly),\n"
+        result += "isAddFriendsAdminOnly: \(isAddFriendsAdminOnly),\n"
         result += "addedByAddress: \(addedByAddress?.debugDescription ?? "None"),\n"
         result += "isPlaceholderModel: \(isPlaceholderModel),\n"
         result += "wasJustMigrated: \(wasJustMigrated),\n"

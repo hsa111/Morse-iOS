@@ -1157,6 +1157,12 @@ public struct GroupsProtoGroup: Codable, CustomDebugStringConvertible {
         if hasAnnouncementsOnly {
             builder.setAnnouncementsOnly(announcementsOnly)
         }
+        if hasAddFriendsAdminOnly {
+            builder.setAddFriendsAdminOnly(addFriendsAdminOnly)
+        }
+        if hasViewMembersAdminOnly {
+            builder.setViewMembersAdminOnly(viewMembersAdminOnly)
+        }
         if let _value = unknownFields {
             builder.setUnknownFields(_value)
         }
@@ -1271,6 +1277,14 @@ public struct GroupsProtoGroup: Codable, CustomDebugStringConvertible {
             proto.announcementsOnly = valueParam
         }
 
+        public mutating func setAddFriendsAdminOnly(_ valueParam: Bool) {
+            proto.addFriendsAdminOnly = valueParam
+        }
+        
+        public mutating func setViewMembersAdminOnly(_ valueParam: Bool) {
+            proto.viewMembersAdminOnly = valueParam
+        }
+        
         public mutating func setUnknownFields(_ unknownFields: SwiftProtobuf.UnknownStorage) {
             proto.unknownFields = unknownFields
         }
@@ -1368,6 +1382,19 @@ public struct GroupsProtoGroup: Codable, CustomDebugStringConvertible {
         return true
     }
 
+    public var addFriendsAdminOnly: Bool {
+        return proto.addFriendsAdminOnly
+    }
+    public var hasAddFriendsAdminOnly: Bool {
+        return true
+    }
+    public var viewMembersAdminOnly: Bool {
+        return proto.viewMembersAdminOnly
+    }
+    public var hasViewMembersAdminOnly: Bool {
+        return true
+    }
+    
     public var hasUnknownFields: Bool {
         return !proto.unknownFields.data.isEmpty
     }

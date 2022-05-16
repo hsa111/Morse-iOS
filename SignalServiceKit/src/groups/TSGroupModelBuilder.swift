@@ -19,6 +19,8 @@ public struct TSGroupModelBuilder: Dependencies {
     public var avatarUrlPath: String?
     public var inviteLinkPassword: Data?
     public var isAnnouncementsOnly: Bool = false
+    public var isViewMembersAdminOnly: Bool = false
+    public var isAddFriendsAdminOnly: Bool = false
     public var isPlaceholderModel: Bool = false
     public var addedByAddress: SignalServiceAddress?
     public var wasJustMigrated: Bool = false
@@ -43,6 +45,8 @@ public struct TSGroupModelBuilder: Dependencies {
         self.avatarUrlPath = groupV2Snapshot.avatarUrlPath
         self.inviteLinkPassword = groupV2Snapshot.inviteLinkPassword
         self.isAnnouncementsOnly = groupV2Snapshot.isAnnouncementsOnly
+        self.isViewMembersAdminOnly = groupV2Snapshot.isViewMembersAdminOnly
+        self.isAddFriendsAdminOnly = groupV2Snapshot.isAddFriendsAdminOnly
         self.isPlaceholderModel = false
         self.wasJustMigrated = false
         self.wasJustCreatedByLocalUser = false
@@ -195,6 +199,8 @@ public struct TSGroupModelBuilder: Dependencies {
                                   avatarUrlPath: avatarUrlPath,
                                   inviteLinkPassword: inviteLinkPassword,
                                   isAnnouncementsOnly: isAnnouncementsOnly,
+                                  isAddFriendsAdminOnly: isAddFriendsAdminOnly,
+                                  isViewMembersAdminOnly: isViewMembersAdminOnly,
                                   isPlaceholderModel: isPlaceholderModel,
                                   wasJustMigrated: wasJustMigrated,
                                   wasJustCreatedByLocalUser: wasJustCreatedByLocalUser,
@@ -292,6 +298,8 @@ public extension TSGroupModel {
             builder.avatarUrlPath = v2.avatarUrlPath
             builder.inviteLinkPassword = v2.inviteLinkPassword
             builder.isAnnouncementsOnly = v2.isAnnouncementsOnly
+            builder.isViewMembersAdminOnly = v2.isViewMembersAdminOnly
+            builder.isAddFriendsAdminOnly = v2.isAddFriendsAdminOnly
             builder.droppedMembers = v2.droppedMembers
             builder.descriptionText = v2.descriptionText
 

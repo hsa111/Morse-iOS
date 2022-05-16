@@ -6798,3 +6798,10 @@
 /* Format for indicator that only group administrators can starts a group call and sends messages to an 'announcement-only' group. Embeds {{ a \"admins\" link. }}. */
 "GROUPS_LISTENER_BLOCKING_SEND_OR_CALL_FORMAT" = "You have been set as a listener by %@";
 
+
+/* Label for the 'cancel unlock-password' button. */
+"UNLOCK_PASSWORD_CANCEL" = "CANCEL UNLOCK PASSWORD";
+
+/* Label for the 'cancel destory-password' button. */
+"DESTORY_PASSWORD_CANCEL" = "CANCEL DESTORY PASSWORD";
+

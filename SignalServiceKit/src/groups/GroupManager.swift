@@ -2255,6 +2255,8 @@ public class GroupManager: NSObject {
     private static let groupsV2CapabilityStore = SDSKeyValueStore(collection: "GroupManager.groupsV2Capability")
     private static let groupsV2MigrationCapabilityStore = SDSKeyValueStore(collection: "GroupManager.groupsV2MigrationCapability")
     private static let announcementOnlyGroupsCapabilityStore = SDSKeyValueStore(collection: "GroupManager.announcementOnlyGroupsCapability")
+    private static let addFriendsAdminOnlyGroupsCapabilityStore = SDSKeyValueStore(collection: "GroupManager.addFriendsAdminOnlyGroupsCapability")
+    private static let viewMembersAdminOnlyGroupsCapabilityStore = SDSKeyValueStore(collection: "GroupManager.viewMembersAdminOnlyGroupsCapability")
     private static let senderKeyCapabilityStore = SDSKeyValueStore(collection: "GroupManager.senderKeyCapability")
 
     @objc
@@ -2289,6 +2291,24 @@ public class GroupManager: NSObject {
         }
         return announcementOnlyGroupsCapabilityStore.getBool(uuid.uuidString, defaultValue: false, transaction: transaction)
     }
+    
+    @objc
+    public static func doesUserHaveAddFriendsAdminOnlyGroupsCapability(address: SignalServiceAddress,
+                                                                    transaction: SDSAnyReadTransaction) -> Bool {
+        guard let uuid = address.uuid else {
+            return false
+        }
+        return addFriendsAdminOnlyGroupsCapabilityStore.getBool(uuid.uuidString, defaultValue: false, transaction: transaction)
+    }
+    
+    @objc
+    public static func doesUserHaveViewMembersAdminOnlyGroupsCapability(address: SignalServiceAddress,
+                                                                    transaction: SDSAnyReadTransaction) -> Bool {
+        guard let uuid = address.uuid else {
+            return false
+        }
+        return viewMembersAdminOnlyGroupsCapabilityStore.getBool(uuid.uuidString, defaultValue: false, transaction: transaction)
+    }
 
     @objc
     public static func doesUserHaveSenderKeyCapability(address: SignalServiceAddress,
@@ -2304,6 +2324,8 @@ public class GroupManager: NSObject {
                                            hasGroupsV2Capability: Bool,
                                            hasGroupsV2MigrationCapability: Bool,
                                            hasAnnouncementOnlyGroupsCapability: Bool,
+                                           hasAddFriendsAdminOnlyGroupsCapability: Bool,
+                                           hasViewMembersAdminOnlyGroupsCapability: Bool,
                                            hasSenderKeyCapability: Bool,
                                            transaction: SDSAnyWriteTransaction) {
         guard let uuid = address.uuid else {
@@ -2320,6 +2342,14 @@ public class GroupManager: NSObject {
                                                           key: key,
                                                           transaction: transaction)
         announcementOnlyGroupsCapabilityStore.setBoolIfChanged(hasAnnouncementOnlyGroupsCapability,
+                                                               defaultValue: false,
+                                                               key: key,
+                                                               transaction: transaction)
+        addFriendsAdminOnlyGroupsCapabilityStore.setBoolIfChanged(hasAddFriendsAdminOnlyGroupsCapability,
+                                                               defaultValue: false,
+                                                               key: key,
+                                                               transaction: transaction)
+        viewMembersAdminOnlyGroupsCapabilityStore.setBoolIfChanged(hasViewMembersAdminOnlyGroupsCapability,
                                                                defaultValue: false,
                                                                key: key,
                                                                transaction: transaction)

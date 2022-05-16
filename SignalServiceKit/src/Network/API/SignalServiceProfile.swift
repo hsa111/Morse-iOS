@@ -26,6 +26,8 @@ public class SignalServiceProfile: NSObject {
     public let supportsGroupsV2: Bool
     public let supportsGroupsV2Migration: Bool
     public let supportsAnnouncementOnlyGroups: Bool
+    public let supportsAddFriendsAdminOnlyGroups: Bool
+    public let supportsViewMembersAdminOnlyGroups: Bool
     public let supportsSenderKey: Bool
     public let credential: Data?
     public let badges: [(OWSUserProfileBadgeInfo, ProfileBadge)]
@@ -81,6 +83,12 @@ public class SignalServiceProfile: NSObject {
                                                                   params: params,
                                                                   requireCapability: true)
         self.supportsAnnouncementOnlyGroups = Self.parseCapabilityFlag(capabilityKey: "announcementGroup",
+                                                                       params: params,
+                                                                       requireCapability: true)
+        self.supportsAddFriendsAdminOnlyGroups = Self.parseCapabilityFlag(capabilityKey: "addFriendsGroup",
+                                                                       params: params,
+                                                                       requireCapability: true)
+        self.supportsViewMembersAdminOnlyGroups = Self.parseCapabilityFlag(capabilityKey: "viewMembersGroup",
                                                                        params: params,
                                                                        requireCapability: true)
         self.supportsSenderKey = Self.parseCapabilityFlag(capabilityKey: "senderKey",
