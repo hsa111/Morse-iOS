@@ -219,7 +219,7 @@ extension GroupViewHelper {
                 canAddToOtherGroup = false
             }
         }
-        return (canEditConversationMembership && canAddToOtherGroup)
+        return canAddToOtherGroup
     }
     
     func memberActionSheetRevokeGroupListenerWasSelected(address: SignalServiceAddress) {
