@@ -6764,7 +6764,7 @@
 "CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_BUTTON" = "Make Listener";
 
 /* Format for title for 'make group listener' confirmation alert. Embeds {user to make an admin}. */
-"CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_TITLE_FORMAT" = "%@ will be only receives messages.";
+"CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_TITLE_FORMAT" = "%@ will only receive messages.";
 
 /* Label for 'revoke group listener' button in conversation settings view. */
 "CONVERSATION_SETTINGS_REVOKE_GROUP_LISTENER_BUTTON" = "Remove as Listener";
@@ -6812,7 +6812,7 @@
 "CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_ALL_MEMBERS" = "All Members";
 
 /* Footer for the 'view members' section in conversation settings permissions view. */
-"CONVERSATION_SETTINGS_VIEW_MEMBERS_FOOTER" = "Choose who can sview members in this group.";
+"CONVERSATION_SETTINGS_VIEW_MEMBERS_FOOTER" = "Choose who can view members in this group.";
 
 /* Label for 'view members' action in conversation settings permissions view. */
 "CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_HEADER" = "View Members";
@@ -6820,3 +6820,50 @@
 /* Label for button that sets 'view members permission' for a group to 'administrators only'. */
 "CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_ONLY_ADMINS" = "Only Admins";
 
+/* Message indicating that 'view members' mode was disabled. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_DISABLED" = "The group settings were changed to allow all members to view members.";
+
+/* Message indicating that 'view members' mode was disabled by the local user. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_DISABLED_BY_LOCAL_USER" = "You changed the group settings to allow all members to view members.";
+
+/* Message indicating that 'view members' mode was disabled by a remote user. Embeds {{ user who disabled 'view members' mode }}. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_DISABLED_BY_REMOTE_USER_FORMAT" = "%@ changed the group settings to allow all members to view members.";
+
+/* Message indicating that 'view members' mode was enabled. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_ENABLED" = "The group settings were changed to only allow admins to view members.";
+
+/* Message indicating that 'view members' mode was enabled by the local user. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_ENABLED_BY_LOCAL_USER" = "You changed the group settings to only allow admins to view members.";
+
+/* Message indicating that 'view members' mode was enabled by a remote user. Embeds {{ user who enabled 'view members' mode }}. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_ENABLED_BY_REMOTE_USER_FORMAT" = "%@ changed the group settings to only allow admins to view members.";
+
+/* Label for button that sets 'add friends permission' for a group to 'all members'. */
+"CONVERSATION_SETTINGS_ADD_FRIENDS_SECTION_ALL_MEMBERS" = "All Members";
+
+/* Footer for the 'add friends' section in conversation settings permissions view. */
+"CONVERSATION_SETTINGS_ADD_FRIENDS_FOOTER" = "Choose who can add friends in this group.";
+
+/* Label for 'add friends' action in conversation settings permissions view. */
+"CONVERSATION_SETTINGS_ADD_FRIENDS_HEADER" = "Add Friends";
+
+/* Label for button that sets 'add friends permission' for a group to 'administrators only'. */
+"CONVERSATION_SETTINGS_ADD_FRIENDS_SECTION_ONLY_ADMINS" = "Only Admins";
+
+/* Message indicating that 'add friends' mode was disabled. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED" = "The group settings were changed to allow all members to add friends.";
+
+/* Message indicating that 'add friends' mode was disabled by the local user. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED_BY_LOCAL_USER" = "You changed the group settings to allow all members to add friends.";
+
+/* Message indicating that 'add friends' mode was disabled by a remote user. Embeds {{ user who disabled 'add friends' mode }}. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED_BY_REMOTE_USER_FORMAT" = "%@ changed the group settings to allow all members to add friends.";
+
+/* Message indicating that 'add friends' mode was enabled. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_ENABLED" = "The group settings were changed to only allow admins to add friends.";
+
+/* Message indicating that 'add friends' mode was enabled by the local user. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_ENABLED_BY_LOCAL_USER" = "You changed the group settings to only allow admins to add friends.";
+
+/* Message indicating that 'add friends' mode was enabled by a remote user. Embeds {{ user who enabled 'add members' mode }}. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_ENABLED_BY_REMOTE_USER_FORMAT" = "%@ changed the group settings to only allow admins to add friends.";

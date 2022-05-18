@@ -73,12 +73,21 @@ class MemberActionSheet: InteractiveSheetViewController {
     }
 
     private weak var fromViewController: UIViewController?
+    private weak var fromThread: TSThread?
+
     @objc(presentFromViewController:)
     func present(from viewController: UIViewController) {
         fromViewController = viewController
         viewController.present(self, animated: true)
     }
 
+    @objc
+    func presentThread(from viewController: UIViewController,fromThread:TSThread) {
+        fromViewController = viewController
+        self.fromThread = fromThread
+        viewController.present(self, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -150,7 +159,8 @@ class MemberActionSheet: InteractiveSheetViewController {
             for: thread,
             sizeClass: .eighty,
             options: [.message, .videoCall, .audioCall],
-            delegate: self
+            delegate: self,
+            actionSheetFromThread:fromThread
         )
 
         // If the local user, show no options.
@@ -191,6 +201,7 @@ class MemberActionSheet: InteractiveSheetViewController {
             }
         ))
 
+        var canAddFriendsInGroup = true
         if let groupViewHelper = self.groupViewHelper, groupViewHelper.isFullOrInvitedMember(address) {
             if groupViewHelper.canRemoveFromGroup(address: address) {
                 section.add(.actionItem(
@@ -273,94 +284,98 @@ class MemberActionSheet: InteractiveSheetViewController {
                     }
                 ))
             }
+            
+            canAddFriendsInGroup = groupViewHelper.memberActionSheetCanAddFriendsInGroup(address: address)
         }
-
-        section.add(.actionItem(
-            icon: .settingsAddToGroup,
-            name: NSLocalizedString(
-                "ADD_TO_GROUP",
-                comment: "Label for button or row which allows users to add to another group."
-            ),
-            accessibilityIdentifier: "MemberActionSheet.add_to_group",
-            actionBlock: { [weak self] in
-                guard let self = self, let fromViewController = self.fromViewController else { return }
-                self.dismiss(animated: true) {
-                    AddToGroupViewController.presentForUser(self.address, from: fromViewController)
+        
+        if canAddFriendsInGroup {
+            section.add(.actionItem(
+                icon: .settingsAddToGroup,
+                name: NSLocalizedString(
+                    "ADD_TO_GROUP",
+                    comment: "Label for button or row which allows users to add to another group."
+                ),
+                accessibilityIdentifier: "MemberActionSheet.add_to_group",
+                actionBlock: { [weak self] in
+                    guard let self = self, let fromViewController = self.fromViewController else { return }
+                    self.dismiss(animated: true) {
+                        AddToGroupViewController.presentForUser(self.address, from: fromViewController)
+                    }
+                }
+            ))
+        
+            if contactsManagerImpl.supportsContactEditing {
+                let isSystemContact = databaseStorage.read { transaction in
+                    contactsManager.isSystemContact(address: address, transaction: transaction)
+                }
+                if isSystemContact {
+                    section.add(.actionItem(
+                        icon: .settingsUserInContacts,
+                        name: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_VIEW_IS_SYSTEM_CONTACT",
+                            comment: "Indicates that user is in the system contacts list."
+                        ),
+                        accessibilityIdentifier: "MemberActionSheet.contact",
+                        actionBlock: { [weak self] in
+                            guard let self = self,
+                                  let fromViewController = self.fromViewController,
+                                  let navController = fromViewController.navigationController else { return }
+                            self.dismiss(animated: true) {
+                                guard let contactVC = self.contactsViewHelper.contactViewController(
+                                    for: self.address,
+                                    editImmediately: false
+                                ) else {
+                                    return owsFailDebug("unexpectedly failed to present contact view")
+                                 }
+                                 self.strongSelf = self
+                                 contactVC.delegate = self
+                                 navController.pushViewController(contactVC, animated: true)
+                            }
+                        }
+                    ))
+                } else {
+                    section.add(.actionItem(
+                        icon: .settingsAddToContacts,
+                        name: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_ADD_TO_SYSTEM_CONTACTS",
+                                                comment: "button in conversation settings view."
+                        ),
+                        accessibilityIdentifier: "MemberActionSheet.add_to_contacts",
+                        actionBlock: { [weak self] in
+                            guard let self = self,
+                                  let fromViewController = self.fromViewController,
+                                  let navController = fromViewController.navigationController else { return }
+                            self.dismiss(animated: true) {
+                                guard let contactVC = self.contactsViewHelper.contactViewController(
+                                    for: self.address,
+                                    editImmediately: true
+                                ) else {
+                                    return owsFailDebug("unexpectedly failed to present contact view")
+                                 }
+                                 self.strongSelf = self
+                                 contactVC.delegate = self
+                                 navController.pushViewController(contactVC, animated: true)
+                            }
+                        }
+                    ))
                 }
             }
-        ))
 
-        if contactsManagerImpl.supportsContactEditing {
-            let isSystemContact = databaseStorage.read { transaction in
-                contactsManager.isSystemContact(address: address, transaction: transaction)
-            }
-            if isSystemContact {
-                section.add(.actionItem(
-                    icon: .settingsUserInContacts,
-                    name: NSLocalizedString(
-                        "CONVERSATION_SETTINGS_VIEW_IS_SYSTEM_CONTACT",
-                        comment: "Indicates that user is in the system contacts list."
-                    ),
-                    accessibilityIdentifier: "MemberActionSheet.contact",
-                    actionBlock: { [weak self] in
-                        guard let self = self,
-                              let fromViewController = self.fromViewController,
-                              let navController = fromViewController.navigationController else { return }
-                        self.dismiss(animated: true) {
-                            guard let contactVC = self.contactsViewHelper.contactViewController(
-                                for: self.address,
-                                editImmediately: false
-                            ) else {
-                                return owsFailDebug("unexpectedly failed to present contact view")
-                             }
-                             self.strongSelf = self
-                             contactVC.delegate = self
-                             navController.pushViewController(contactVC, animated: true)
-                        }
+            section.add(.actionItem(
+                icon: .settingsViewSafetyNumber,
+                name: NSLocalizedString(
+                    "VERIFY_PRIVACY",
+                    comment: "Label for button or row which allows users to verify the safety number of another user."
+                ),
+                accessibilityIdentifier: "MemberActionSheet.safety_number",
+                actionBlock: { [weak self] in
+                    guard let self = self, let fromViewController = self.fromViewController else { return }
+                    self.dismiss(animated: true) {
+                        FingerprintViewController.present(from: fromViewController, address: self.address)
                     }
-                ))
-            } else {
-                section.add(.actionItem(
-                    icon: .settingsAddToContacts,
-                    name: NSLocalizedString(
-                        "CONVERSATION_SETTINGS_ADD_TO_SYSTEM_CONTACTS",
-                                            comment: "button in conversation settings view."
-                    ),
-                    accessibilityIdentifier: "MemberActionSheet.add_to_contacts",
-                    actionBlock: { [weak self] in
-                        guard let self = self,
-                              let fromViewController = self.fromViewController,
-                              let navController = fromViewController.navigationController else { return }
-                        self.dismiss(animated: true) {
-                            guard let contactVC = self.contactsViewHelper.contactViewController(
-                                for: self.address,
-                                editImmediately: true
-                            ) else {
-                                return owsFailDebug("unexpectedly failed to present contact view")
-                             }
-                             self.strongSelf = self
-                             contactVC.delegate = self
-                             navController.pushViewController(contactVC, animated: true)
-                        }
-                    }
-                ))
-            }
-        }
-
-        section.add(.actionItem(
-            icon: .settingsViewSafetyNumber,
-            name: NSLocalizedString(
-                "VERIFY_PRIVACY",
-                comment: "Label for button or row which allows users to verify the safety number of another user."
-            ),
-            accessibilityIdentifier: "MemberActionSheet.safety_number",
-            actionBlock: { [weak self] in
-                guard let self = self, let fromViewController = self.fromViewController else { return }
-                self.dismiss(animated: true) {
-                    FingerprintViewController.present(from: fromViewController, address: self.address)
                 }
-            }
-        ))
+            ))
+        }
     }
 }
 

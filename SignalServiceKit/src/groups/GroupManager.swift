@@ -84,7 +84,9 @@ public class GroupManager: NSObject {
     // Epoch 1: Group Links
     // Epoch 2: Group Description
     // Epoch 3: Announcement-Only Groups
-    public static let changeProtoEpoch: UInt32 = 3
+    // Epoch 4: AddFriendsAdminOnly Groups
+    // Epoch 5: ViewMembersAdminOnly Groups
+    public static let changeProtoEpoch: UInt32 = 5
 
     // This matches kOversizeTextMessageSizeThreshold.
     public static let maxEmbeddedChangeProtoLength: UInt = 2 * 1024
@@ -1408,6 +1410,22 @@ public class GroupManager: NSObject {
         }
     }
 
+    public static func setIsAddFriendsAdminOnly(groupModel: TSGroupModelV2,
+                                              isAddFriendsAdminOnly: Bool) -> Promise<TSGroupThread> {
+        updateGroupV2(groupModel: groupModel,
+                      description: "Update isAddFriendsAdminOnly") { groupChangeSet in
+            groupChangeSet.setIsAddFriendsAdminOnly(isAddFriendsAdminOnly)
+        }
+    }
+    
+    public static func setIsViewMembersAdminOnly(groupModel: TSGroupModelV2,
+                                              isViewMembersAdminOnly: Bool) -> Promise<TSGroupThread> {
+        updateGroupV2(groupModel: groupModel,
+                      description: "Update isViewMembersAdminOnly") { groupChangeSet in
+            groupChangeSet.setIsViewMembersAdminOnly(isViewMembersAdminOnly)
+        }
+    }
+    
     // MARK: - Generic Group Change
 
     public static func updateGroupV2(groupModel: TSGroupModelV2,

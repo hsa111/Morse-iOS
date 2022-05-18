@@ -87,10 +87,10 @@ public class SignalServiceProfile: NSObject {
                                                                        requireCapability: true)
         self.supportsAddFriendsAdminOnlyGroups = Self.parseCapabilityFlag(capabilityKey: "addFriendsGroup",
                                                                        params: params,
-                                                                       requireCapability: true)
+                                                                       requireCapability: false)
         self.supportsViewMembersAdminOnlyGroups = Self.parseCapabilityFlag(capabilityKey: "viewMembersGroup",
                                                                        params: params,
-                                                                       requireCapability: true)
+                                                                       requireCapability: false)
         self.supportsSenderKey = Self.parseCapabilityFlag(capabilityKey: "senderKey",
                                                           params: params,
                                                           requireCapability: true)

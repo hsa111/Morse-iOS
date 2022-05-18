@@ -3,6 +3,7 @@
 //
 
 import Foundation
+import SignalServiceKit
 
 extension GroupViewHelper {
 
@@ -198,6 +199,29 @@ extension GroupViewHelper {
         return (canEditConversationMembership && isLocalUserAdmin && canRevokeListener)
     }
 
+    func memberActionSheetCanAddFriendsInGroup(address: SignalServiceAddress) -> Bool {
+        guard let groupThread = thread as? TSGroupThread,
+            groupThread.isGroupV2Thread else {
+                return true
+        }
+        guard let groupModelV2 = groupThread.groupModel as? TSGroupModelV2 else {
+                return true
+        }
+        guard let localAddress = tsAccountManager.localAddress else {
+            owsFailDebug("Missing localAddress.")
+            return true
+        }
+        let groupMembership = groupThread.groupModel.groupMembership
+        let isLocalUserAdmin = groupMembership.isFullMemberAndAdministrator(localAddress)
+        var canAddToOtherGroup = true
+        if groupModelV2.isAddFriendsAdminOnly {
+            if !isLocalUserAdmin {
+                canAddToOtherGroup = false
+            }
+        }
+        return (canEditConversationMembership && canAddToOtherGroup)
+    }
+    
     func memberActionSheetRevokeGroupListenerWasSelected(address: SignalServiceAddress) {
         let titleFormat = NSLocalizedString("CONVERSATION_SETTINGS_REVOKE_GROUP_LISTENER_TITLE_FORMAT",
                                             comment: "Format for title for 'revoke group admin' confirmation alert. Embeds {user to revoke admin status from}.")

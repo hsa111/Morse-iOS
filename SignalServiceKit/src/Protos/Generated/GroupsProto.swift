@@ -4448,6 +4448,14 @@ public struct GroupsProtoGroupChangeActions: Codable, CustomDebugStringConvertib
             proto.modifyAnnouncementsOnly = valueParam.proto
         }
 
+        public mutating func setModifyAddFriendsAdminOnly(_ valueParam: GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyAction) {
+            proto.modifyAddFriendsAdminOnly = valueParam.proto
+        }
+        
+        public mutating func setModifyViewMembersAdminOnly(_ valueParam: GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyAction) {
+            proto.modifyViewMembersAdminOnly = valueParam.proto
+        }
+        
         public mutating func setUnknownFields(_ unknownFields: SwiftProtobuf.UnknownStorage) {
             proto.unknownFields = unknownFields
         }

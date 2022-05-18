@@ -850,6 +850,28 @@ public class GroupsV2OutgoingChangesImpl: NSObject, GroupsV2OutgoingChanges {
             }
         }
 
+        if let isAddFriendsAdminOnly = self.isAddFriendsAdminOnly {
+            if isAddFriendsAdminOnly == currentGroupModel.isAddFriendsAdminOnly {
+                // Redundant change, not a conflict.
+            } else {
+                var actionBuilder = GroupsProtoGroupChangeActionsModifyAddFriendsAdminOnlyAction.builder()
+                actionBuilder.setAddFriendsAdminOnly(isAddFriendsAdminOnly)
+                actionsBuilder.setModifyAddFriendsAdminOnly(try actionBuilder.build())
+                didChange = true
+            }
+        }
+        
+        if let isViewMembersAdminOnly = self.isViewMembersAdminOnly {
+            if isViewMembersAdminOnly == currentGroupModel.isViewMembersAdminOnly {
+                // Redundant change, not a conflict.
+            } else {
+                var actionBuilder = GroupsProtoGroupChangeActionsModifyViewMembersAdminOnlyAction.builder()
+                actionBuilder.setViewMembersAdminOnly(isViewMembersAdminOnly)
+                actionsBuilder.setModifyViewMembersAdminOnly(try actionBuilder.build())
+                didChange = true
+            }
+        }
+        
         if shouldUpdateLocalProfileKey {
             guard let profileKeyCredential = profileKeyCredentialMap[localUuid] else {
                 throw OWSAssertionError("Missing profile key credential: \(localUuid)")

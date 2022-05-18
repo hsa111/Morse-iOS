@@ -21,10 +21,14 @@ class GroupPermissionsSettingsViewController: OWSTableViewController2 {
     private var oldAccessMembers: GroupV2Access { groupModelV2.access.members }
     private var oldAccessAttributes: GroupV2Access { groupModelV2.access.attributes }
     private var oldIsAnnouncementsOnly: Bool { groupModelV2.isAnnouncementsOnly }
+    private var oldIsAddFriendsAdminOnly: Bool { groupModelV2.isAddFriendsAdminOnly }
+    private var oldIsViewMembersAdminOnly: Bool { groupModelV2.isViewMembersAdminOnly }
 
     private lazy var newAccessMembers = oldAccessMembers
     private lazy var newAccessAttributes = oldAccessAttributes
     private lazy var newIsAnnouncementsOnly = oldIsAnnouncementsOnly
+    private lazy var newIsAddFriendsAdminOnly = oldIsAddFriendsAdminOnly
+    private lazy var newIsViewMembersAdminOnly = oldIsViewMembersAdminOnly
 
     private enum AnnouncementOnlyCapabilityState: Equatable {
         case enabled
@@ -117,7 +121,9 @@ class GroupPermissionsSettingsViewController: OWSTableViewController2 {
 
         return (oldAccessMembers != newAccessMembers ||
             oldAccessAttributes != newAccessAttributes ||
-            oldIsAnnouncementsOnly != newIsAnnouncementsOnly)
+            oldIsAnnouncementsOnly != newIsAnnouncementsOnly ||
+            oldIsAddFriendsAdminOnly != newIsAddFriendsAdminOnly ||
+            oldIsViewMembersAdminOnly != newIsViewMembersAdminOnly)
     }
 
     // Don't allow interactive dismiss when there are unsaved changes.
@@ -258,6 +264,84 @@ class GroupPermissionsSettingsViewController: OWSTableViewController2 {
 
             contents.addSection(announcementOnlySection)
         }
+        
+        // Always show the addFriendsAdminOnly UI
+        let canAddFriendsAdminOnly = true
+        if canAddFriendsAdminOnly || newIsAddFriendsAdminOnly {
+            let isAddFriendsAdminOnly = self.newIsAddFriendsAdminOnly
+
+            let addFriendsAdminOnlySection = OWSTableSection()
+            addFriendsAdminOnlySection.headerTitle = NSLocalizedString(
+                "CONVERSATION_SETTINGS_ADD_FRIENDS_HEADER",
+                comment: "Label for 'add friends' action in conversation settings permissions view."
+            )
+            addFriendsAdminOnlySection.footerTitle = NSLocalizedString(
+                "CONVERSATION_SETTINGS_ADD_FRIENDS_FOOTER",
+                comment: "Footer for the 'add friends' section in conversation settings permissions view."
+            )
+
+            addFriendsAdminOnlySection.add(.init(
+                text: NSLocalizedString(
+                    "CONVERSATION_SETTINGS_ADD_FRIENDS_SECTION_ALL_MEMBERS",
+                    comment: "Label for button that sets 'add friends permission' for a group to 'all members'."
+                ),
+                actionBlock: { [weak self] in
+                    self?.tryToSetIsAddFriendsAdminOnly(false)
+                },
+                accessoryType: !isAddFriendsAdminOnly ? .checkmark : .none
+            ))
+            addFriendsAdminOnlySection.add(.init(
+                text: NSLocalizedString(
+                    "CONVERSATION_SETTINGS_ADD_FRIENDS_SECTION_ONLY_ADMINS",
+                    comment: "Label for button that sets 'add friends permission' for a group to 'administrators only'."
+                ),
+                actionBlock: { [weak self] in
+                    self?.tryToSetIsAddFriendsAdminOnly(true)
+                },
+                accessoryType: isAddFriendsAdminOnly ? .checkmark : .none
+            ))
+
+            contents.addSection(addFriendsAdminOnlySection)
+        }
+        
+        // Always show the addFriendsAdminOnly UI
+        let canViewMembersAdminOnly = true
+        if canViewMembersAdminOnly || newIsViewMembersAdminOnly {
+            let isViewMembersAdminOnly = self.newIsViewMembersAdminOnly
+
+            let viewMembersAdminOnlySection = OWSTableSection()
+            viewMembersAdminOnlySection.headerTitle = NSLocalizedString(
+                "CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_HEADER",
+                comment: "Label for 'view members' action in conversation settings permissions view."
+            )
+            viewMembersAdminOnlySection.footerTitle = NSLocalizedString(
+                "CONVERSATION_SETTINGS_VIEW_MEMBERS_FOOTER",
+                comment: "Footer for the 'view members' section in conversation settings permissions view."
+            )
+
+            viewMembersAdminOnlySection.add(.init(
+                text: NSLocalizedString(
+                    "CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_ALL_MEMBERS",
+                    comment: "Label for button that sets 'view members permission' for a group to 'all members'."
+                ),
+                actionBlock: { [weak self] in
+                    self?.tryToSetIsViewMembersAdminOnly(false)
+                },
+                accessoryType: !isViewMembersAdminOnly ? .checkmark : .none
+            ))
+            viewMembersAdminOnlySection.add(.init(
+                text: NSLocalizedString(
+                    "CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_ONLY_ADMINS",
+                    comment: "Label for button that sets 'view members permission' for a group to 'administrators only'."
+                ),
+                actionBlock: { [weak self] in
+                    self?.tryToSetIsViewMembersAdminOnly(true)
+                },
+                accessoryType: isViewMembersAdminOnly ? .checkmark : .none
+            ))
+
+            contents.addSection(viewMembersAdminOnlySection)
+        }
     }
 
     private func tryToSetAccessMembers(_ value: GroupV2Access) {
@@ -290,6 +374,26 @@ class GroupPermissionsSettingsViewController: OWSTableViewController2 {
         updateNavigation()
     }
 
+    private func tryToSetIsAddFriendsAdminOnly(_ value: Bool) {
+        guard groupViewHelper.canEditPermissions else {
+            showAdminOnlyWarningAlert()
+            return
+        }
+        newIsAddFriendsAdminOnly = value
+        updateTableContents()
+        updateNavigation()
+    }
+    
+    private func tryToSetIsViewMembersAdminOnly(_ value: Bool) {
+        guard groupViewHelper.canEditPermissions else {
+            showAdminOnlyWarningAlert()
+            return
+        }
+        newIsViewMembersAdminOnly = value
+        updateTableContents()
+        updateNavigation()
+    }
+    
     private func showAdminOnlyWarningAlert() {
         let message = NSLocalizedString("GROUP_ADMIN_ONLY_WARNING",
                                         comment: "Message indicating that a feature can only be used by group admins.")
@@ -379,6 +483,24 @@ class GroupPermissionsSettingsViewController: OWSTableViewController2 {
                         return GroupManager.setIsAnnouncementsOnly(
                             groupModel: self.groupModelV2,
                             isAnnouncementsOnly: self.newIsAnnouncementsOnly
+                        ).asVoid()
+                    } else {
+                        return Promise.value(())
+                    }
+                }.then { () -> Promise<Void> in
+                    if self.newIsAddFriendsAdminOnly != self.oldIsAddFriendsAdminOnly {
+                        return GroupManager.setIsAddFriendsAdminOnly(
+                            groupModel: self.groupModelV2,
+                            isAddFriendsAdminOnly: self.newIsAddFriendsAdminOnly
+                        ).asVoid()
+                    } else {
+                        return Promise.value(())
+                    }
+                }.then { () -> Promise<Void> in
+                    if self.newIsViewMembersAdminOnly != self.oldIsViewMembersAdminOnly {
+                        return GroupManager.setIsViewMembersAdminOnly(
+                            groupModel: self.groupModelV2,
+                            isViewMembersAdminOnly: self.newIsViewMembersAdminOnly
                         ).asVoid()
                     } else {
                         return Promise.value(())

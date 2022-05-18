@@ -53,6 +53,8 @@ public enum GroupUpdateType: Int {
     case disappearingMessagesState_disabled
     case groupInviteLink
     case isAnnouncementOnly
+    case isAddFriendsAdminOnly
+    case isViewMembersAdminOnly
     case generic
     case groupMigrated
     case groupMigrated_usersDropped
@@ -184,6 +186,9 @@ struct GroupUpdateCopy: Dependencies {
                 addGroupInviteLinkUpdates(oldGroupModel: oldGroupModel)
 
                 addIsAnnouncementOnlyLinkUpdates(oldGroupModel: oldGroupModel)
+                
+                addIsAddFriendsAdminOnlyUpdates(oldGroupModel: oldGroupModel)
+                addIsViewMembersAdminOnlyUpdates(oldGroupModel: oldGroupModel)
             }
         } else {
             // We're just learning of the group.
@@ -1928,6 +1933,102 @@ extension GroupUpdateCopy {
         }
     }
 
+    mutating func addIsAddFriendsAdminOnlyUpdates(oldGroupModel: TSGroupModel) {
+        guard let oldGroupModel = oldGroupModel as? TSGroupModelV2 else {
+            return
+        }
+        guard let newGroupModel = newGroupModel as? TSGroupModelV2 else {
+            owsFailDebug("Invalid group model.")
+            return
+        }
+        let oldIsAddFriendsAdminOnly = oldGroupModel.isAddFriendsAdminOnly
+        let newIsAddFriendsAdminOnly = newGroupModel.isAddFriendsAdminOnly
+
+        guard oldIsAddFriendsAdminOnly != newIsAddFriendsAdminOnly else {
+            return
+        }
+
+        if newIsAddFriendsAdminOnly {
+            switch updater {
+            case .localUser:
+                let format = NSLocalizedString("GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_ENABLED_BY_LOCAL_USER",
+                                               comment: "Message indicating that 'AddFriendsAdminOnly' mode was enabled by the local user.")
+                addItem(.isAddFriendsAdminOnly, format: format)
+            case .otherUser(let updaterName, _):
+                let format = NSLocalizedString("GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_ENABLED_BY_REMOTE_USER_FORMAT",
+                                               comment: "Message indicating that 'AddFriendsAdminOnly' mode was enabled by a remote user. Embeds {{ user who enabled 'AddFriendsAdminOnly' mode }}.")
+                addItem(.isAddFriendsAdminOnly, format: format, updaterName)
+            case .unknown:
+                let format = NSLocalizedString("GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_ENABLED",
+                                               comment: "Message indicating that 'AddFriendsAdminOnly' mode was enabled.")
+                addItem(.isAddFriendsAdminOnly, format: format)
+            }
+        } else {
+            switch updater {
+            case .localUser:
+                let format = NSLocalizedString("GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED_BY_LOCAL_USER",
+                                               comment: "Message indicating that 'AddFriendsAdminOnly' mode was disabled by the local user.")
+                addItem(.isAddFriendsAdminOnly, format: format)
+            case .otherUser(let updaterName, _):
+                let format = NSLocalizedString("GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED_BY_REMOTE_USER_FORMAT",
+                                               comment: "Message indicating that 'AddFriendsAdminOnly' mode was disabled by a remote user. Embeds {{ user who disabled 'AddFriendsAdminOnly' mode }}.")
+                addItem(.isAddFriendsAdminOnly, format: format, updaterName)
+            case .unknown:
+                let format = NSLocalizedString("GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED",
+                                               comment: "Message indicating that 'AddFriendsAdminOnly' mode was disabled.")
+                addItem(.isAddFriendsAdminOnly, format: format)
+            }
+        }
+    }
+    
+    mutating func addIsViewMembersAdminOnlyUpdates(oldGroupModel: TSGroupModel) {
+        guard let oldGroupModel = oldGroupModel as? TSGroupModelV2 else {
+            return
+        }
+        guard let newGroupModel = newGroupModel as? TSGroupModelV2 else {
+            owsFailDebug("Invalid group model.")
+            return
+        }
+        let oldIsViewMembersAdminOnly = oldGroupModel.isViewMembersAdminOnly
+        let newIsViewMembersAdminOnly = newGroupModel.isViewMembersAdminOnly
+
+        guard oldIsViewMembersAdminOnly != newIsViewMembersAdminOnly else {
+            return
+        }
+
+        if newIsViewMembersAdminOnly {
+            switch updater {
+            case .localUser:
+                let format = NSLocalizedString("GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_ENABLED_BY_LOCAL_USER",
+                                               comment: "Message indicating that 'ViewMembersAdminOnly' mode was enabled by the local user.")
+                addItem(.isViewMembersAdminOnly, format: format)
+            case .otherUser(let updaterName, _):
+                let format = NSLocalizedString("GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_ENABLED_BY_REMOTE_USER_FORMAT",
+                                               comment: "Message indicating that 'ViewMembersAdminOnly' mode was enabled by a remote user. Embeds {{ user who enabled 'ViewMembersAdminOnly' mode }}.")
+                addItem(.isViewMembersAdminOnly, format: format, updaterName)
+            case .unknown:
+                let format = NSLocalizedString("GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_ENABLED",
+                                               comment: "Message indicating that 'ViewMembersAdminOnly' mode was enabled.")
+                addItem(.isViewMembersAdminOnly, format: format)
+            }
+        } else {
+            switch updater {
+            case .localUser:
+                let format = NSLocalizedString("GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_DISABLED_BY_LOCAL_USER",
+                                               comment: "Message indicating that 'ViewMembersAdminOnly' mode was disabled by the local user.")
+                addItem(.isViewMembersAdminOnly, format: format)
+            case .otherUser(let updaterName, _):
+                let format = NSLocalizedString("GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_DISABLED_BY_REMOTE_USER_FORMAT",
+                                               comment: "Message indicating that 'ViewMembersAdminOnly' mode was disabled by a remote user. Embeds {{ user who disabled 'ViewMembersAdminOnly' mode }}.")
+                addItem(.isViewMembersAdminOnly, format: format, updaterName)
+            case .unknown:
+                let format = NSLocalizedString("GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_DISABLED",
+                                               comment: "Message indicating that 'ViewMembersAdminOnly' mode was disabled.")
+                addItem(.isViewMembersAdminOnly, format: format)
+            }
+        }
+    }
+    
     // MARK: -
 
     mutating func addGroupWasInserted() {

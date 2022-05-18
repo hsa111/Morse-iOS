@@ -164,7 +164,7 @@ struct ConversationHeaderBuilder: Dependencies {
             label.lineBreakMode = .byWordWrapping
             label.textAlignment = .center
         }
-
+        
         let threadName = delegate.threadName(
             renderLocalUserAsNoteToSelf: options.contains(.renderLocalUserAsNoteToSelf),
             transaction: transaction
@@ -213,6 +213,151 @@ struct ConversationHeaderBuilder: Dependencies {
         return builder.build()
     }
 
+    static func buildHeader(
+        for thread: TSThread,
+        sizeClass: ConversationAvatarView.Configuration.SizeClass,
+        options: Options,
+        delegate: ConversationHeaderDelegate,
+        actionSheetFromThread:TSThread?
+    ) -> UIView {
+        if let groupThread = thread as? TSGroupThread {
+            return ConversationHeaderBuilder.buildHeaderForGroup(
+                groupThread: groupThread,
+                sizeClass: sizeClass,
+                options: options,
+                delegate: delegate
+            )
+        } else if let contactThread = thread as? TSContactThread {
+            return ConversationHeaderBuilder.buildHeaderForContact(
+                contactThread: contactThread,
+                sizeClass: sizeClass,
+                options: options,
+                delegate: delegate,
+                actionSheetFromThread:actionSheetFromThread
+            )
+        } else {
+            owsFailDebug("Invalid thread.")
+            return UIView()
+        }
+    }
+    
+    static func buildHeaderForContact(
+        contactThread: TSContactThread,
+        sizeClass: ConversationAvatarView.Configuration.SizeClass,
+        options: Options,
+        delegate: ConversationHeaderDelegate,
+        actionSheetFromThread:TSThread?
+    ) -> UIView {
+        // Make sure the view is loaded before we open a transaction,
+        // because it can end up creating a transaction within.
+        _ = delegate.view
+        return databaseStorage.read { transaction in
+            self.buildHeaderForContact(
+                contactThread: contactThread,
+                sizeClass: sizeClass,
+                options: options,
+                delegate: delegate,
+                transaction: transaction,
+                actionSheetFromThread:actionSheetFromThread
+            )
+        }
+    }
+
+    static func buildHeaderForContact(
+        contactThread: TSContactThread,
+        sizeClass: ConversationAvatarView.Configuration.SizeClass,
+        options: Options,
+        delegate: ConversationHeaderDelegate,
+        transaction: SDSAnyReadTransaction,
+        actionSheetFromThread:TSThread?
+    ) -> UIView {
+        var builder = ConversationHeaderBuilder(
+            delegate: delegate,
+            sizeClass: sizeClass,
+            options: options,
+            transaction: transaction
+        )
+
+        if !contactThread.contactAddress.isLocalAddress,
+           let bioText = profileManagerImpl.profileBioForDisplay(
+            for: contactThread.contactAddress,
+            transaction: transaction
+           ) {
+            let label = builder.addSubtitleLabel(text: bioText)
+            label.numberOfLines = 0
+            label.lineBreakMode = .byWordWrapping
+            label.textAlignment = .center
+        }
+
+        if let groupThread = actionSheetFromThread as? TSGroupThread {
+            if let groupModelV2 = groupThread.groupModel as? TSGroupModelV2 {
+                if groupModelV2.isAddFriendsAdminOnly && !groupModelV2.groupMembership.isLocalUserFullMemberAndAdministrator{
+                    return builder.build()
+                }
+            }
+        }
+        
+//        if (actionSheetFromThread != nil){
+//            if actionSheetFromThread!.isGroupThread {
+//                if let groupThread = actionSheetFromThread as? TSGroupThread {
+//                    if let groupModelV2 = groupThread.groupModel as? TSGroupModelV2 {
+//                        if groupModelV2.isAddFriendsAdminOnly && !groupModelV2.groupMembership.isLocalUserFullMemberAndAdministrator{
+//                            return builder.build()
+//                        }
+//                    }
+//                }
+//            }
+//        }
+        
+        let threadName = delegate.threadName(
+            renderLocalUserAsNoteToSelf: options.contains(.renderLocalUserAsNoteToSelf),
+            transaction: transaction
+        )
+        let recipientAddress = contactThread.contactAddress
+        if let phoneNumber = recipientAddress.phoneNumber {
+            let formattedPhoneNumber =
+                PhoneNumber.bestEffortFormatPartialUserSpecifiedText(toLookLikeAPhoneNumber: phoneNumber)
+            if threadName != formattedPhoneNumber {
+                func copyContactPhoneNumber(delegate: ConversationHeaderDelegate?) {
+                    guard let delegate = delegate else {
+                        owsFailDebug("Missing delegate.")
+                        return
+                    }
+                    UIPasteboard.general.string = recipientAddress.phoneNumber
+
+                    let toast = NSLocalizedString("COPIED_TO_CLIPBOARD",
+                                                  comment: "Indicator that a value has been copied to the clipboard.")
+                    delegate.tableViewController.presentToast(text: toast)
+                }
+                let label = builder.addSubtitleLabel(text: formattedPhoneNumber)
+                label.addTapGesture { [weak delegate] in
+                    copyContactPhoneNumber(delegate: delegate)
+                }
+                label.addLongPressGesture { [weak delegate] in
+                    copyContactPhoneNumber(delegate: delegate)
+                }
+            }
+        }
+
+        let isVerified = identityManager.verificationState(
+            for: recipientAddress,
+            transaction: transaction
+        ) == .verified
+        if isVerified {
+            let subtitle = NSMutableAttributedString()
+            subtitle.appendTemplatedImage(named: "check-12", font: .ows_dynamicTypeSubheadlineClamped)
+            subtitle.append(" ")
+            subtitle.append(NSLocalizedString("PRIVACY_IDENTITY_IS_VERIFIED_BADGE",
+                                              comment: "Badge indicating that the user is verified."))
+            builder.addSubtitleLabel(attributedText: subtitle)
+        }
+
+        builder.addButtons()
+
+        return builder.build()
+    }
+
+    
     init(delegate: ConversationHeaderDelegate,
          sizeClass: ConversationAvatarView.Configuration.SizeClass,
          options: Options,

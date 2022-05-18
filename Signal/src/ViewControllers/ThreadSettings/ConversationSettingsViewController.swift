@@ -308,7 +308,8 @@ class ConversationSettingsViewController: OWSTableViewController2, BadgeCollecti
             return
         }
         let memberActionSheet = MemberActionSheet(address: memberAddress, groupViewHelper: groupViewHelper)
-        memberActionSheet.present(from: self)
+        //memberActionSheet.present(from: self)
+        memberActionSheet.presentThread(from: self, fromThread: groupViewHelper.thread)
     }
 
     func showAddToSystemContactsActionSheet(contactThread: TSContactThread) {

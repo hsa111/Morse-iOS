@@ -64,10 +64,14 @@ extension ConversationSettingsViewController {
         addBadgesItemIfNecessary(to: contents)
 
         if let groupModel = currentGroupModel, !groupModel.isPlaceholder {
-            contents.addSection(buildGroupMembershipSection(groupModel: groupModel, sectionIndex: contents.sections.count))
-
             if let groupModelV2 = groupModel as? TSGroupModelV2 {
+                if (!groupModelV2.isViewMembersAdminOnly ||
+                    groupModelV2.isViewMembersAdminOnly && groupModel.groupMembership.isLocalUserFullMemberAndAdministrator){
+                    contents.addSection(buildGroupMembershipSection(groupModel: groupModel, sectionIndex: contents.sections.count))
+                }
                 buildGroupSettingsSection(groupModelV2: groupModelV2, contents: contents)
+            }else{
+                contents.addSection(buildGroupMembershipSection(groupModel: groupModel, sectionIndex: contents.sections.count))
             }
         } else if isContactThread, hasGroupThreads, !isNoteToSelf {
             contents.addSection(buildMutualGroupsSection(sectionIndex: contents.sections.count))

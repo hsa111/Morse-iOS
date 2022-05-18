@@ -85,6 +85,8 @@ public class GroupsV2IncomingChanges: Dependencies {
         var newAvatarUrlPath = oldGroupModel.avatarUrlPath
         var newInviteLinkPassword: Data? = oldGroupModel.inviteLinkPassword
         var newIsAnnouncementsOnly: Bool = oldGroupModel.isAnnouncementsOnly
+        var newIsAddFriendsAdminOnly: Bool = oldGroupModel.isAddFriendsAdminOnly
+        var newIsViewMembersAdminOnly: Bool = oldGroupModel.isViewMembersAdminOnly
         var didJustAddSelfViaGroupLink = false
 
         let oldGroupMembership = oldGroupModel.groupMembership
@@ -134,6 +136,8 @@ public class GroupsV2IncomingChanges: Dependencies {
         let canEditAccess = isChangeAuthorAdmin
         let canEditInviteLinks = isChangeAuthorAdmin
         let canEditIsAnnouncementsOnly = isChangeAuthorAdmin
+        let canEditIsAddFriendsAdminOnly = isChangeAuthorAdmin
+        let canEditIsViewMembersAdminOnly = isChangeAuthorAdmin
 
         // This client can learn of profile keys from parsing group state protos.
         // After parsing, we should fill in profileKeys in the profile manager.
@@ -574,12 +578,28 @@ public class GroupsV2IncomingChanges: Dependencies {
 
         if let action = changeActionsProto.modifyAnnouncementsOnly {
             if !canEditIsAnnouncementsOnly {
-                owsFailDebug("Cannot modify inviteLinkPassword.")
+                owsFailDebug("Cannot modify announcementsOnly.")
             }
 
             newIsAnnouncementsOnly = action.announcementsOnly
         }
+        
+        if let action = changeActionsProto.modifyAddFriendsAdminOnly {
+            if !canEditIsAddFriendsAdminOnly {
+                owsFailDebug("Cannot modify addFriendsAdminOnly.")
+            }
 
+            newIsAddFriendsAdminOnly = action.addFriendsAdminOnly
+        }
+        
+        if let action = changeActionsProto.modifyViewMembersAdminOnly {
+            if !canEditIsViewMembersAdminOnly {
+                owsFailDebug("Cannot modify viewMembersAdminOnly.")
+            }
+
+            newIsViewMembersAdminOnly = action.viewMembersAdminOnly
+        }
+        
         let newGroupMembership = groupMembershipBuilder.build()
         let newGroupAccess = GroupAccess(members: newMembersAccess, attributes: newAttributesAccess, addFromInviteLink: newAddFromInviteLinkAccess)
 
@@ -595,6 +615,8 @@ public class GroupsV2IncomingChanges: Dependencies {
         builder.avatarUrlPath = newAvatarUrlPath
         builder.inviteLinkPassword = newInviteLinkPassword
         builder.isAnnouncementsOnly = newIsAnnouncementsOnly
+        builder.isAddFriendsAdminOnly = newIsAddFriendsAdminOnly
+        builder.isViewMembersAdminOnly = newIsViewMembersAdminOnly
 
         builder.didJustAddSelfViaGroupLink = didJustAddSelfViaGroupLink
 

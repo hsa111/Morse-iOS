@@ -147,7 +147,8 @@ extension ConversationViewController: CVComponentDelegate {
         groupViewHelper.delegate = self
         let actionSheet = MemberActionSheet(address: incomingMessage.authorAddress,
                                             groupViewHelper: groupViewHelper)
-        actionSheet.present(from: self)
+        //actionSheet.present(from: self)
+        actionSheet.presentThread(from: self, fromThread: self.thread)
     }
 
     public func cvc_shouldAllowReplyForItem(_ itemViewModel: CVItemViewModelImpl) -> Bool {

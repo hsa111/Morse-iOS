@@ -414,8 +414,18 @@ public class CVComponentThreadDetails: CVComponentBase, CVRootComponent {
                 return nil
             }
 
-            let memberCount = groupThread.groupModel.groupMembership.fullMembers.count
-            return GroupViewUtils.formatGroupMembersLabel(memberCount: memberCount)
+            if let groupModelV2 = groupThread.groupModel as? TSGroupModelV2 {
+                if !groupModelV2.isViewMembersAdminOnly ||
+                    groupModelV2.groupMembership.isLocalUserFullMemberAndAdministrator {
+                    let memberCount = groupThread.groupModel.groupMembership.fullMembers.count
+                    return GroupViewUtils.formatGroupMembersLabel(memberCount: memberCount)
+                }else{
+                    return nil
+                }
+            }else{
+                let memberCount = groupThread.groupModel.groupMembership.fullMembers.count
+                return GroupViewUtils.formatGroupMembersLabel(memberCount: memberCount)
+            }
         }()
 
         let descriptionText: String? = {

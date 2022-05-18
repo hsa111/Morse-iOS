@@ -6765,7 +6765,7 @@
 "CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_BUTTON" = "禁言";
 
 /* Format for title for 'make group listener' confirmation alert. Embeds {user to make an admin}. */
-"CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_TITLE_FORMAT" = "%@ 将被禁言.";
+"CONVERSATION_SETTINGS_MAKE_GROUP_LISTENER_TITLE_FORMAT" = "%@ 将只能接收消息.";
 
 /* Label for 'revoke group listener' button in conversation settings view. */
 "CONVERSATION_SETTINGS_REVOKE_GROUP_LISTENER_BUTTON" = "取消禁言";
@@ -6808,3 +6808,64 @@
 
 /* Format for indicator that only group administrators can starts a group call and sends messages to an 'announcement-only' group. Embeds {{ a \"admins\" link. }}. */
 "GROUPS_LISTENER_BLOCKING_SEND_OR_CALL_FORMAT" = "你已被 %@ 禁言";
+
+/* Label for button that sets 'view members permission' for a group to 'all members'. */
+"CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_ALL_MEMBERS" = "全部成员";
+
+/* Footer for the 'view members' section in conversation settings permissions view. */
+"CONVERSATION_SETTINGS_VIEW_MEMBERS_FOOTER" = "选择谁能查看群成员.";
+
+/* Label for 'view members' action in conversation settings permissions view. */
+"CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_HEADER" = "查看群成员";
+
+/* Label for button that sets 'view members permission' for a group to 'administrators only'. */
+"CONVERSATION_SETTINGS_VIEW_MEMBERS_SECTION_ONLY_ADMINS" = "仅限管理员";
+
+/* Message indicating that 'view members' mode was disabled. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_DISABLED" = "群组设置已修改为允许全部成员查看群成员.";
+
+/* Message indicating that 'view members' mode was disabled by the local user. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_DISABLED_BY_LOCAL_USER" = "你已将群组设置修改为允许全部成员查看群成员.";
+
+/* Message indicating that 'view members' mode was disabled by a remote user. Embeds {{ user who disabled 'view members' mode }}. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_DISABLED_BY_REMOTE_USER_FORMAT" = "%@ 已将群组设置修改为允许全部成员查看群成员.";
+
+/* Message indicating that 'view members' mode was enabled. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_ENABLED" = "群组设置已修改为仅允许管理员查看群成员.";
+
+/* Message indicating that 'view members' mode was enabled by the local user. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_ENABLED_BY_LOCAL_USER" = "你已将群组设置修改为仅允许管理员查看群成员.";
+
+/* Message indicating that 'view members' mode was enabled by a remote user. Embeds {{ user who enabled 'view members' mode }}. */
+"GROUP_IS_VIEW_MEMBERS_ADMIN_ONLY_ENABLED_BY_REMOTE_USER_FORMAT" = "%@ 已将群组设置修改为仅允许管理员查看群成员.";
+
+/* Label for button that sets 'add friends permission' for a group to 'all members'. */
+"CONVERSATION_SETTINGS_ADD_FRIENDS_SECTION_ALL_MEMBERS" = "全部成员";
+
+/* Footer for the 'add friends' section in conversation settings permissions view. */
+"CONVERSATION_SETTINGS_ADD_FRIENDS_FOOTER" = "选择谁能在群组中加好友.";
+
+/* Label for 'add friends' action in conversation settings permissions view. */
+"CONVERSATION_SETTINGS_ADD_FRIENDS_HEADER" = "群组中加好友";
+
+/* Label for button that sets 'add friends permission' for a group to 'administrators only'. */
+"CONVERSATION_SETTINGS_ADD_FRIENDS_SECTION_ONLY_ADMINS" = "仅限管理员";
+
+/* Message indicating that 'add friends' mode was disabled. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED" = "群组设置已修改为允许全部成员在群组中加好友.";
+
+/* Message indicating that 'add friends' mode was disabled by the local user. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED_BY_LOCAL_USER" = "你已将群组设置修改为允许全部成员在群组中加好友.";
+
+/* Message indicating that 'add friends' mode was disabled by a remote user. Embeds {{ user who disabled 'add friends' mode }}. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED_BY_REMOTE_USER_FORMAT" = "%@ 已将群组设置修改为允许全部成员在群组中加好友..";
+
+/* Message indicating that 'add friends' mode was enabled. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_ENABLED" = "群组设置已修改为仅允许管理员在群组中加好友.";
+
+/* Message indicating that 'add friends' mode was enabled by the local user. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_ENABLED_BY_LOCAL_USER" = "你已将群组设置修改为仅允许管理员在群组中加好友.";
+
+/* Message indicating that 'add friends' mode was enabled by a remote user. Embeds {{ user who enabled 'add members' mode }}. */
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_ENABLED_BY_REMOTE_USER_FORMAT" = "%@ 已将群组设置修改为仅允许管理员在群组中加好友.";
+
