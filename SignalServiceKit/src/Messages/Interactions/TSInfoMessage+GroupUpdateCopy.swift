@@ -146,7 +146,8 @@ struct GroupUpdateCopy: Dependencies {
                     // This can happen due to a number of valid scenarios.
                     Logger.warn("Missing updater info.")
                 } else {
-                    addItem(.debug, copy: "Error: Missing updater info.")
+                    //addItem(.debug, copy: "Error: Missing updater info.")
+                    Logger.warn("Missing updater info.")
                 }
             }
         default:

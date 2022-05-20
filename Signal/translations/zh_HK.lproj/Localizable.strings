@@ -6853,7 +6853,7 @@
 "GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED_BY_LOCAL_USER" = "你已将群组设置修改为允许全部成员在群组中加好友.";
 
 /* Message indicating that 'add friends' mode was disabled by a remote user. Embeds {{ user who disabled 'add friends' mode }}. */
-"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED_BY_REMOTE_USER_FORMAT" = "%@ 已将群组设置修改为允许全部成员在群组中加好友..";
+"GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_DISABLED_BY_REMOTE_USER_FORMAT" = "%@ 已将群组设置修改为允许全部成员在群组中加好友.";
 
 /* Message indicating that 'add friends' mode was enabled. */
 "GROUP_IS_ADD_FRIENDS_ADMIN_ONLY_ENABLED" = "群组设置已修改为仅允许管理员在群组中加好友.";
