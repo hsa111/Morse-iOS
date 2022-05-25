@@ -249,9 +249,21 @@ class GroupInviteLinksActionSheet: ActionSheetController {
         let groupName = groupInviteLinkPreview.title.filterForDisplay?.nilIfEmpty
             ?? TSGroupThread.defaultGroupName
         groupTitleLabel.text = groupName
-        groupSubtitleLabel.text = GroupViewUtils.formatGroupMembersLabel(
-            memberCount: Int(groupInviteLinkPreview.memberCount)
-        )
+        
+        // If the group already exists in the database, open it.
+        var isShowMembers = false
+//        if let existingGroupThread = (databaseStorage.read { transaction in
+//            TSGroupThread.fetch(groupId: groupV2ContextInfo.groupId, transaction: transaction)
+//        }), existingGroupThread.isViewMembersAdminOnly && !existingGroupThread.isLocalUserFullMemberAndAdministrator {
+//            isShowMembers = false
+//        }
+        
+        if isShowMembers {
+            groupSubtitleLabel.text = GroupViewUtils.formatGroupMembersLabel(
+                memberCount: Int(groupInviteLinkPreview.memberCount)
+            )
+        }
+        
         if let descriptionText = groupInviteLinkPreview.descriptionText?.filterForDisplay?.nilIfEmpty {
             groupDescriptionPreview.descriptionText = descriptionText
             groupDescriptionPreview.groupName = groupName

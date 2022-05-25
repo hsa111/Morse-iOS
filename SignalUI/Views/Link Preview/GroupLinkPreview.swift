@@ -120,8 +120,14 @@ public class LinkPreviewGroupLink: NSObject, LinkPreviewState {
         }
         let groupIndicator = NSLocalizedString("GROUP_LINK_ACTION_SHEET_VIEW_GROUP_INDICATOR",
                                                comment: "Indicator for group conversations in the 'group invite link' action sheet.")
-        let memberCount = GroupViewUtils.formatGroupMembersLabel(memberCount: Int(groupInviteLinkPreview.memberCount))
-        return groupIndicator + " | " + memberCount
+//        let memberCount = GroupViewUtils.formatGroupMembersLabel(memberCount: Int(groupInviteLinkPreview.memberCount))
+//
+//        return groupIndicator + " | " + memberCount
+        if  groupInviteLinkPreview.descriptionText == nil || groupInviteLinkPreview.description.isEmpty {
+            return groupIndicator
+        } else {
+            return groupIndicator + " | " + (groupInviteLinkPreview.descriptionText ?? "")
+        }
     }
 
     public func date() -> Date? {

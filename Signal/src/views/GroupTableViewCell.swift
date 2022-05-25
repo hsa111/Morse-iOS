@@ -58,8 +58,21 @@ import SignalUI
             self.nameLabel.text = MessageStrings.newGroupDefaultTitle
         }
 
+        var isShowGroupMembersCount = true
+        if let groupModelV2 = thread.groupModel as? TSGroupModelV2 {
+            if groupModelV2.isViewMembersAdminOnly && !thread.groupModel.groupMembership.isLocalUserFullMemberAndAdministrator {
+                isShowGroupMembersCount = false
+            }
+        }
+        
         let groupMembersCount = thread.groupModel.groupMembership.fullMembers.count
-        self.subtitleLabel.text = customSubtitle ?? GroupViewUtils.formatGroupMembersLabel(memberCount: groupMembersCount)
+        
+        var membersCntText = GroupViewUtils.formatGroupMembersLabel(memberCount: groupMembersCount)
+        if !isShowGroupMembersCount {
+            membersCntText = ""
+        }
+        self.subtitleLabel.text = customSubtitle ?? membersCntText
+//        self.subtitleLabel.text = customSubtitle ?? GroupViewUtils.formatGroupMembersLabel(memberCount: groupMembersCount)
 
         self.avatarView.updateWithSneakyTransactionIfNecessary { config in
             config.dataSource = .thread(thread)

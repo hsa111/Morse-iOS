@@ -88,7 +88,10 @@ struct ConversationHeaderBuilder: Dependencies {
         )
 
         var isShowingGroupDescription = false
+        var isViewMembersAdminOnly = false
+
         if let groupModel = groupThread.groupModel as? TSGroupModelV2 {
+            isViewMembersAdminOnly = groupModel.isViewMembersAdminOnly
             if let descriptionText = groupModel.descriptionText {
                 isShowingGroupDescription = true
                 builder.addGroupDescriptionPreview(text: descriptionText)
@@ -99,16 +102,18 @@ struct ConversationHeaderBuilder: Dependencies {
         }
 
         if !isShowingGroupDescription && !groupThread.groupModel.isPlaceholder {
-            let memberCount = groupThread.groupModel.groupMembership.fullMembers.count
-            var groupMembersText = GroupViewUtils.formatGroupMembersLabel(memberCount: memberCount)
-            if groupThread.isGroupV1Thread {
-                groupMembersText.append(" ")
-                groupMembersText.append("•")
-                groupMembersText.append(" ")
-                groupMembersText.append(NSLocalizedString("GROUPS_LEGACY_GROUP_INDICATOR",
-                                                          comment: "Label indicating a legacy group."))
+            if (!isViewMembersAdminOnly || isViewMembersAdminOnly && groupThread.groupModel.groupMembership.isLocalUserFullMemberAndAdministrator){
+                let memberCount = groupThread.groupModel.groupMembership.fullMembers.count
+                var groupMembersText = GroupViewUtils.formatGroupMembersLabel(memberCount: memberCount)
+                if groupThread.isGroupV1Thread {
+                    groupMembersText.append(" ")
+                    groupMembersText.append("•")
+                    groupMembersText.append(" ")
+                    groupMembersText.append(NSLocalizedString("GROUPS_LEGACY_GROUP_INDICATOR",
+                                                              comment: "Label indicating a legacy group."))
+                }
+                builder.addSubtitleLabel(text: groupMembersText)
             }
-            builder.addSubtitleLabel(text: groupMembersText)
         }
 
         if groupThread.isGroupV1Thread {

@@ -102,9 +102,20 @@ class MessageActions: NSObject {
     class func textActions(itemViewModel: CVItemViewModelImpl, shouldAllowReply: Bool, delegate: MessageActionsDelegate) -> [MessageAction] {
         var actions: [MessageAction] = []
 
-        let showDetailsAction = MessageActionBuilder.showDetails(itemViewModel: itemViewModel, delegate: delegate)
-        actions.append(showDetailsAction)
-
+        var shouldShowDetail = true
+        if itemViewModel.thread.isGroupThread {
+            if let groupV2Model = itemViewModel.thread.groupModelIfGroupThread as? TSGroupModelV2 {
+                if groupV2Model.isViewMembersAdminOnly && !groupV2Model.groupMembership.isLocalUserFullMemberAndAdministrator {
+                    shouldShowDetail = false
+                }
+            }
+        }
+        
+        if shouldShowDetail {
+            let showDetailsAction = MessageActionBuilder.showDetails(itemViewModel: itemViewModel, delegate: delegate)
+            actions.append(showDetailsAction)
+        }
+        
         let deleteAction = MessageActionBuilder.deleteMessage(itemViewModel: itemViewModel, delegate: delegate)
         actions.append(deleteAction)
 

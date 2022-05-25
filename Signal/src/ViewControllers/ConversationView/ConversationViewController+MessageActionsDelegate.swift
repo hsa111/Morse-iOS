@@ -32,6 +32,13 @@ extension ConversationViewController: MessageActionsDelegate {
             return
         }
 
+//        let threadModel = viewState.threadViewModel
+//        if let groupV2Model = threadModel.threadRecord.groupModelIfGroupThread as? TSGroupModelV2 {
+//            if (groupV2Model.isViewMembersAdminOnly && !groupV2Model.groupMembership.isLocalUserFullMemberAndAdministrator){
+//                return
+//            }
+//        }
+        
         let panHandler = viewState.panHandler
 
         let detailVC: MessageDetailViewController

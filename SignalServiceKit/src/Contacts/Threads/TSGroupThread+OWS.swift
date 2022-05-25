@@ -37,6 +37,13 @@ public extension TSGroupThread {
         groupMembership.isLocalUserFullMemberAndAdministrator
     }
 
+    var isViewMembersAdminOnly: Bool {
+        if let groupModelV2 = groupModel as? TSGroupModelV2 {
+            return groupModelV2.isViewMembersAdminOnly
+        }
+        return false
+    }
+    
     var isLocalUserFullMemberAndListener: Bool {
         groupMembership.isLocalUserFullMemberAndListener
     }
