@@ -2178,7 +2178,7 @@ public class GroupManager: NSObject {
                                                            transaction: transaction)
             if let infoMessage = infoMessage,
                DebugFlags.internalLogging {
-                owsAssertDebug(!infoMessage.isEmptyGroupUpdate(transaction: transaction))
+                //owsAssertDebug(!infoMessage.isEmptyGroupUpdate(transaction: transaction))
             }
         default:
             break
