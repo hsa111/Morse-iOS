@@ -519,7 +519,7 @@ public class CVMediaAlbumView: ManualStackViewWithLayer {
                                          viewSizePoints: CGSize) -> AttachmentThumbnailQuality {
         guard mediaSizePoints.isNonEmpty,
               viewSizePoints.isNonEmpty else {
-            owsFailDebug("Invalid sizes. mediaSizePoints: \(mediaSizePoints), viewSizePoints: \(viewSizePoints).")
+//            owsFailDebug("Invalid sizes. mediaSizePoints: \(mediaSizePoints), viewSizePoints: \(viewSizePoints).")
             return .medium
         }
         // Determine render size for .scaleAspectFill.

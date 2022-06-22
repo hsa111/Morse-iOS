@@ -445,7 +445,8 @@ class MediaViewAdapterVideo: MediaViewAdapterSwift {
                                             future.resolve(image)
                                         },
                                         failure: {
-                                            future.reject(OWSAssertionError("Could not load thumbnail"))
+//                                            future.reject(OWSAssertionError("Could not load thumbnail"))
+            future.reject(ReusableMediaError.invalidMedia)
                                         })
         return promise
     }

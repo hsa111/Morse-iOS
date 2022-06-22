@@ -754,13 +754,15 @@ NSString *const MessageSenderSpamChallengeResolvedException = @"SpamChallengeRes
     }
     
     if (!canSendToThread) {
-        if (message.shouldBeSaved) {
-            return failureHandler(OWSErrorMakeAssertionError(@"Sending to thread blocked."));
-        } else {
-            // Pretend to succeed for non-visible messages like read receipts, etc.
-            successHandler();
-            return;
-        }
+//        if (message.shouldBeSaved) {
+//            return failureHandler(OWSErrorMakeAssertionError(@"Sending to thread blocked."));
+//        } else {
+//            // Pretend to succeed for non-visible messages like read receipts, etc.
+//            successHandler();
+//            return;
+//        }
+        successHandler();
+        return;
     }
 
     if ([thread isKindOfClass:[TSContactThread class]]) {
