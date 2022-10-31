@@ -211,7 +211,7 @@ struct GroupUpdateCopy: Dependencies {
                 if !DebugFlags.permissiveGroupUpdateInfoMessages {
                     owsFailDebug("Group update without any items.")
                 } else {
-                    addItem(.debug, copy: "Error: Group update without any items.")
+                    //addItem(.debug, copy: "Error: Group update without any items.")
                 }
                 isEmptyUpdate = true
             }

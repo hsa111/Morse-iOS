@@ -163,7 +163,7 @@ public extension ContactDiscoveryTask {
         }.done(on: callbackQueue) { (results) in
             success(results)
         }.catch(on: callbackQueue) { error in
-            failure(error)
+            //failure(error)
         }
     }
 }
