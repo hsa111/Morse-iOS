@@ -11,7 +11,7 @@
 	</array>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)com.devplusone.morse.shareextension</string>
+		<string>$(AppIdentifierPrefix)com.devplusone.morse</string>
 	</array>
 </dict>
 </plist>

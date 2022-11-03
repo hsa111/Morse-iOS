@@ -844,6 +844,21 @@ public class SignalAttachment: NSObject {
 
         var imageUploadQuality = imageQuality.startingTier
 
+        
+        let maxSize = imageUploadQuality.maxEdgeSize
+        let pixelSize = dataSource.imageMetadata.pixelSize
+        if pixelSize.width > maxSize || pixelSize.height > maxSize {
+            //有超大图片
+            //if dataSource.dataLength <= imageQuality.maxFileSize, dataSource.dataLength <= kMaxFileSizeImage {
+            if dataSource.dataLength <= kMaxFileSizeImage {
+                //文件不是很大
+                if pixelSize.width / pixelSize.height > 5 || pixelSize.width *  1.0 / pixelSize.height < 0.2 {
+                    //图形比例超过1：5
+                    return attachment
+                }
+            }
+        }
+        
         while true {
             let outcome = convertAndCompressImageAttempt(dataSource: dataSource,
                                                          attachment: attachment,

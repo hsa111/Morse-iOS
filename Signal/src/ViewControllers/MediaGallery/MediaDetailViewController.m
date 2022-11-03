@@ -72,8 +72,15 @@ NS_ASSUME_NONNULL_BEGIN
     self.shouldAutoPlayVideo = shouldAutoPlayVideo;
 
     // We cache the image data in case the attachment stream is deleted.
-    self.image = [galleryItemBox.attachmentStream thumbnailImageLargeSync];
-
+    CGSize size = galleryItemBox.attachmentStream.imageSizePixels;
+    UInt32 byteCount = galleryItemBox.attachmentStream.byteCount;
+    if (byteCount < 8 * 1024 * 1024 &&
+        (size.width / size.height > 5 || size.width * 1.0 / size.height < 0.2 )) {
+        self.image = galleryItemBox.attachmentStream.originalImage;
+    }else{
+        self.image = [galleryItemBox.attachmentStream thumbnailImageLargeSync];
+    }
+    
     return self;
 }
 

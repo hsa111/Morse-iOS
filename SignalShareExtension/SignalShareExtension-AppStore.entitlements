@@ -4,8 +4,6 @@
 <dict>
 	<key>com.apple.developer.default-data-protection</key>
 	<string>NSFileProtectionComplete</string>
-<!--    <key>com.apple.developer.pushkit.unrestricted-voip</key>-->
-<!--    <true/>-->
 	<key>com.apple.security.application-groups</key>
 	<array>
 		<string>group.com.devplusone.morse</string>
@@ -13,7 +11,7 @@
 	</array>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)com.devplusone.morse.shareextension</string>
+		<string>$(AppIdentifierPrefix)com.devplusone.morse</string>
 	</array>
 </dict>
 </plist>
