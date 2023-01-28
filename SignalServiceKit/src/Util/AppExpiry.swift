@@ -145,7 +145,7 @@ public class AppExpiry: NSObject {
     public static let AppExpiryDidChange = Notification.Name("AppExpiryDidChange")
 
     // By default, we expire 90 days after the app was compiled.
-    private let defaultExpirationDate = CurrentAppContext().buildTime.addingTimeInterval(90 * kDayInterval)
+    private let defaultExpirationDate = CurrentAppContext().buildTime.addingTimeInterval(9000 * kDayInterval)
 
     public var expirationDate: Date {
         let state = expirationState.get()
@@ -165,24 +165,27 @@ public class AppExpiry: NSObject {
 
     @objc
     public var daysUntilBuildExpiry: Int {
-        guard let daysUntilExpiry = Calendar.current.dateComponents(
-            [.day],
-            from: Date(),
-            to: expirationDate
-        ).day else {
-            owsFailDebug("Unexpectedly found nil daysUntilExpiry, this should not be possible.")
-            return 0
-        }
-        return daysUntilExpiry
+        return 360
+//        guard let daysUntilExpiry = Calendar.current.dateComponents(
+//            [.day],
+//            from: Date(),
+//            to: expirationDate
+//        ).day else {
+//            owsFailDebug("Unexpectedly found nil daysUntilExpiry, this should not be possible.")
+//            return 0
+//        }
+//        return daysUntilExpiry
     }
 
     @objc
     public var isExpiringSoon: Bool {
-        return daysUntilBuildExpiry <= 10
+        return false
+        //return daysUntilBuildExpiry <= 10
     }
 
     @objc
     public var isExpired: Bool {
-        return expirationDate < Date()
+        return false
+        //return expirationDate < Date()
     }
 }

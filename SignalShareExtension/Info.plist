@@ -63,9 +63,9 @@
                 SUBQUERY (
                 $extensionItem.attachments,
                 $attachment,
-                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data"
-                || ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url"
-                || ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.apple.pkpass"
+                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.data&quot;
+                || ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.url&quot;
+                || ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;com.apple.pkpass&quot;
                 ).@count &gt;= 1
                 ).@count == 1
             </string>
@@ -76,7 +76,7 @@
 		<string>com.apple.share-services</string>
 	</dict>
 	<key>OWSBundleVersion4</key>
-	<string>1.0.9.1</string>
+	<string>1.0.11.1</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>fontawesome-webfont.ttf</string>

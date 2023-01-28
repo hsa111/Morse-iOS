@@ -198,7 +198,7 @@ public class OWSMediaUtils: NSObject {
     @objc
     public static let kMaxFileSizeAnimatedImage = UInt(25 * 1024 * 1024)
     @objc
-    public static let kMaxFileSizeImage = UInt(8 * 1024 * 1024)
+    public static let kMaxFileSizeImage = UInt(50 * 1024 * 1024)
     // Cloudflare limits uploads to 100 MB. To avoid hitting those limits,
     // we use limits that are 5% lower for the unencrypted content.
     @objc

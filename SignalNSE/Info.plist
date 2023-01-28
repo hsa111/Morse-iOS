@@ -57,7 +57,7 @@
 		<string>$(PRODUCT_MODULE_NAME).NotificationService</string>
 	</dict>
 	<key>OWSBundleVersion4</key>
-	<string>1.0.9.1</string>
+	<string>1.0.11.1</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Inter-Medium.otf</string>
