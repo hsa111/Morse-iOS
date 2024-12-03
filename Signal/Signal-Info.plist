@@ -4,8 +4,16 @@
 <dict>
 	<key>BuildDetails</key>
 	<dict>
+		<key>DateTime</key>
+		<string>Tue Dec  3 08:27:42 UTC 2024</string>
+		<key>SignalCommit</key>
+		<string>6e8c6e05d8cbca3f0dad6c658bab462024ae8d4f supported new xcode 16.1 and ios 18</string>
+		<key>Timestamp</key>
+		<string>1733214462</string>
 		<key>WebRTCCommit</key>
 		<string>1ab326495ab7915dbd74fc3049c45a05fa038b37 Production build of v2.15.0</string>
+		<key>XCodeVersion</key>
+		<string>1600.1610</string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
