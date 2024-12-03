@@ -165,7 +165,7 @@ class AvatarEditViewController: OWSTableViewController2 {
         headerTextField.autocorrectionType = .no
         headerTextField.spellCheckingType = .no
         headerImageView.addSubview(headerTextField)
-        headerTextField.autoPinEdgesToSuperviewEdges(with: AvatarBuilder.avatarTextMargins(diameter: Self.headerAvatarSize))
+        headerTextField.autoPinEdgesToSuperviewEdgesSignal(with: AvatarBuilder.avatarTextMargins(diameter: Self.headerAvatarSize))
         headerTextField.isHidden = true
 
         headerImageView.autoSetDimensions(to: CGSize(square: Self.headerAvatarSize))
@@ -413,8 +413,8 @@ private class OptionView: UIView {
 
     func updateSelectionState() {
         colorViewInsetConstraints?.forEach { $0.isActive = false }
-        colorViewInsetConstraints = colorView.autoPinEdgesToSuperviewEdges(
-            withInsets: isSelected ? UIEdgeInsets(margin: 4) : .zero
+        colorViewInsetConstraints = colorView.autoPinEdgesToSuperviewEdgesSignal(
+            with: isSelected ? UIEdgeInsets(margin: 4) : .zero
         )
 
         if isSelected {

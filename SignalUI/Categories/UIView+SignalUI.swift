@@ -281,7 +281,8 @@ public extension UIView {
     }
 
     @discardableResult
-    func autoPinEdgesToSuperviewEdges(withInsets insets: UIEdgeInsets) -> [NSLayoutConstraint] {
+    //func autoPinEdgesToSuperviewEdges(withInsets insets: UIEdgeInsets) -> [NSLayoutConstraint] {
+    func autoPinEdgesToSuperviewEdgesSignal(with insets: UIEdgeInsets = .zero) -> [NSLayoutConstraint] {
         [
             autoPinEdge(toSuperviewEdge: .top, withInset: insets.top),
             autoPinEdge(toSuperviewEdge: .bottom, withInset: insets.bottom),

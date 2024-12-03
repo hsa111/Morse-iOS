@@ -515,7 +515,7 @@ class SubscriptionViewController: OWSTableViewController2 {
                 titleLabel.font = .ows_dynamicTypeBody.ows_semibold
                 titleLabel.numberOfLines = 0
                 cell.contentView.addSubview(titleLabel)
-                titleLabel.autoPinEdgesToSuperviewEdges(with: UIEdgeInsets(top: 0, leading: 24, bottom: 14, trailing: 24))
+                titleLabel.autoPinEdgesToSuperviewEdgesSignal(with: UIEdgeInsets(top: 0, leading: 24, bottom: 14, trailing: 24))
                 return cell
             },
             actionBlock: {}
@@ -544,7 +544,7 @@ class SubscriptionViewController: OWSTableViewController2 {
                     background.backgroundColor = self.cellBackgroundColor
                     background.layer.cornerRadius = 12
                     containerStackView.addSubview(background)
-                    background.autoPinEdgesToSuperviewEdges(withInsets: UIEdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16))
+                    background.autoPinEdgesToSuperviewEdgesSignal(with: UIEdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16))
 
                     let stackView = UIStackView()
                     stackView.axis = .horizontal
@@ -822,7 +822,7 @@ class SubscriptionViewController: OWSTableViewController2 {
                     background.layer.cornerRadius = 12
                     stackView.addSubview(background)
                     cell.cellBackgroundView = background
-                    background.autoPinEdgesToSuperviewEdges(withInsets: UIEdgeInsets(top: index == 0 ? 0 : 12, leading: 24, bottom: 0, trailing: 24))
+                    background.autoPinEdgesToSuperviewEdges(with: UIEdgeInsets(top: index == 0 ? 0 : 12, leading: 24, bottom: 0, trailing: 24))
 
                     let badge = subscription.badge
                     let imageView = UIImageView()

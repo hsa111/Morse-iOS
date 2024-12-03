@@ -252,12 +252,81 @@ class ModernContactDiscoveryOperation: ContactDiscovering {
         return output
     }
 
+  
+    
     class func uuidArray(from data: Data) -> [UUID] {
-        return data.withUnsafeBytes {
-            [uuid_t]($0.bindMemory(to: uuid_t.self))
-        }.map {
-            UUID(uuid: $0)
-        }
+//        return data.withUnsafeBytes {
+//            [uuid_t]($0.bindMemory(to: uuid_t.self))
+//        }.map {
+//            UUID(uuid: $0)
+//        }
+        //chatgpt修改后的版本
+//        return (0.stride(to: data.count, by: MemoryLayout<UUID>.stride))
+//                .compactMap { index in
+//                    guard let uuid = try? UUID(uuid: data.withUnsafeBytes({ $0.advanced(by: index).pointee })) else {
+//                        return nil
+//                    }
+//                    return uuid
+//                }
+        //还是没对，editor就检查出两个错误，stride方法错误，return nil也错了
+//        var uuids: [UUID] = []
+//            for index in stride(from: 0, to: data.count, by: MemoryLayout<UUID>.size) {
+//                let uuidData = data.subdata(in: index..<(index + MemoryLayout<UUID>.size))
+//                if let uuid = UUID(data: uuidData) {
+//                    uuids.append(uuid)
+//                }
+//            }
+//            return uuids
+        //Argument passed to call that takes no arguments。 UUID(data: uuidData)错了
+//        var uuids: [UUID] = []
+//            for index in stride(from: 0, to: data.count, by: MemoryLayout<UUID>.size) {
+//                let uuidBytes = data.subdata(in: index..<(index + MemoryLayout<UUID>.size))
+//                let uuid = UUID(uuid: uuidBytes)
+//                uuids.append(uuid)
+//            }
+//            return uuids
+        //Cannot convert value of type 'Data' to expected argument type 'uuid_t' (aka '(UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8)') UUID(uuid: uuidBytes)
+//        var uuids: [UUID] = []
+//            for index in stride(from: 0, to: data.count, by: MemoryLayout<uuid_t>.size) {
+//                var uuid_bytes: uuid_t = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+//                data.copyBytes(to: &uuid_bytes, from: index..<(index + MemoryLayout<uuid_t>.size))
+//                let uuid = UUID(uuid: uuid_bytes)
+//                uuids.append(uuid)
+//            }
+//            return uuids
+        //Cannot convert value of type 'uuid_t' (aka '(UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8)') to expected argument type 'UnsafeMutableRawBufferPointer'
+//        var uuids: [UUID] = []
+//            for index in stride(from: 0, to: data.count, by: MemoryLayout<uuid_t>.size) {
+//                var uuid_bytes = [UInt8](repeating: 0, count: MemoryLayout<uuid_t>.size)
+//                data.copyBytes(to: &uuid_bytes, from: index..<(index + MemoryLayout<uuid_t>.size))
+//                let uuid = UUID(uuid: uuid_bytes)
+//                uuids.append(uuid)
+//            }
+//            return uuids
+        ///Users/zhenghongli/work/morse/Morse-iOS/SignalServiceKit/src/Contacts/Discovery/ModernContactDiscoveryOperation.swift:300:39 Cannot convert value of type '[UInt8]' to expected argument type 'uuid_t' (aka '(UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8, UInt8)')
+//        var uuids: [UUID] = []
+//            for index in stride(from: 0, to: data.count, by: MemoryLayout<uuid_t>.size) {
+//                var uuid_bytes: uuid_t = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+//                data.withUnsafeMutableBytes { (buffer: UnsafeMutableRawBufferPointer) in
+//                    let destPtr = buffer.baseAddress!.advanced(by: index)
+//                    buffer.copyBytes(from: destPtr, count: MemoryLayout<uuid_t>.size)
+//                }
+//                let uuid = UUID(uuid: uuid_bytes)
+//                uuids.append(uuid)
+//            }
+//            return uuids
+        //最后coze 修改的版本，至少editor语法没有错误，看看编译情况
+        return data.withUnsafeBytes { (rawBufferPointer) -> [UUID] in
+                // Ensure the raw pointer is bound to the correct type
+                let bufferPointer = rawBufferPointer.bindMemory(to: uuid_t.self)
+                
+                // Convert the buffer pointer to an array of uuid_t
+                let uuidArray = Array(bufferPointer)
+                
+                // Map the array of uuid_t to an array of UUID
+                return uuidArray.map { UUID(uuid: $0) }
+            }
+        
     }
 
     /// Parse the error and, if appropriate, construct an error appropriate to return upwards

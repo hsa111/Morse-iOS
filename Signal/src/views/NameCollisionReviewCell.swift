@@ -156,7 +156,7 @@ class NameCollisionCell: UITableViewCell {
         hairline.autoSetDimension(.height, toSize: CGHairlineWidth())
         let separator = UIView()
         separator.addSubview(hairline)
-        hairline.autoPinEdgesToSuperviewEdges(with: UIEdgeInsets(hMargin: 0, vMargin: 12))
+        hairline.autoPinEdgesToSuperviewEdgesSignal(with: UIEdgeInsets(hMargin: 0, vMargin: 12))
         return separator
     }()
 

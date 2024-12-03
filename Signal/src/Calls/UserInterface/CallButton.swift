@@ -123,7 +123,7 @@ class CallButton: UIButton {
         circleView.layer.shadowPath = UIBezierPath(
             ovalIn: CGRect(origin: .zero, size: .square(currentIconSize))
         ).cgPath
-        currentConstraints += iconView.autoPinEdgesToSuperviewEdges(with: currentIconInsets)
+        currentConstraints += iconView.autoPinEdgesToSuperviewEdgesSignal(with: currentIconInsets)
         if let dropdownIconView = dropdownIconView {
             currentConstraints.append(dropdownIconView.autoPinEdge(.leading, to: .trailing, of: iconView, withOffset: isSmall ? 0 : 2))
         }

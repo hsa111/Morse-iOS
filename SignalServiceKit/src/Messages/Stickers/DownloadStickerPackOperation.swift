@@ -25,51 +25,51 @@ class DownloadStickerPackOperation: CDNDownloadOperation {
 
     override public func run() {
         return
-        if let stickerPack = StickerManager.fetchStickerPack(stickerPackInfo: stickerPackInfo) {
-            Logger.verbose("Skipping redundant operation: \(stickerPackInfo).")
-            success(stickerPack)
-            self.reportSuccess()
-            return
-        }
-
-        Logger.verbose("Downloading: \(stickerPackInfo).")
-
-        // https://cdn.devplusone.com/stickers/<pack_id>/manifest.proto
-        let urlPath = "stickers/\(stickerPackInfo.packId.hexadecimalString)/manifest.proto"
-
-        firstly {
-            try tryToDownload(urlPath: urlPath, maxDownloadSize: kMaxStickerPackDownloadSize)
-        }.done(on: .global()) { [weak self] (url: URL) in
-            guard let self = self else {
-                return
-            }
-
-            do {
-                let url = try StickerManager.decrypt(at: url, packKey: self.stickerPackInfo.packKey)
-                let plaintext = try Data(contentsOf: url)
-
-                let stickerPack = try self.parseStickerPackManifest(stickerPackInfo: self.stickerPackInfo,
-                                                                    manifestData: plaintext)
-
-                self.success(stickerPack)
-                self.reportSuccess()
-            } catch {
-                owsFailDebug("Decryption failed: \(error)")
-
-                self.markUrlPathAsCorrupt(urlPath)
-
-                // Fail immediately; do not retry.
-                return self.reportError(SSKUnretryableError.stickerDecryptionFailure)
-            }
-        }.catch(on: .global()) { [weak self] error in
-            guard let self = self else {
-                return
-            }
-            if error.hasFatalHttpStatusCode() {
-                StickerManager.markStickerPackAsMissing(stickerPackInfo: self.stickerPackInfo)
-            }
-            return self.reportError(withUndefinedRetry: error)
-        }
+//        if let stickerPack = StickerManager.fetchStickerPack(stickerPackInfo: stickerPackInfo) {
+//            Logger.verbose("Skipping redundant operation: \(stickerPackInfo).")
+//            success(stickerPack)
+//            self.reportSuccess()
+//            return
+//        }
+//
+//        Logger.verbose("Downloading: \(stickerPackInfo).")
+//
+//        // https://cdn.devplusone.com/stickers/<pack_id>/manifest.proto
+//        let urlPath = "stickers/\(stickerPackInfo.packId.hexadecimalString)/manifest.proto"
+//
+//        firstly {
+//            try tryToDownload(urlPath: urlPath, maxDownloadSize: kMaxStickerPackDownloadSize)
+//        }.done(on: .global()) { [weak self] (url: URL) in
+//            guard let self = self else {
+//                return
+//            }
+//
+//            do {
+//                let url = try StickerManager.decrypt(at: url, packKey: self.stickerPackInfo.packKey)
+//                let plaintext = try Data(contentsOf: url)
+//
+//                let stickerPack = try self.parseStickerPackManifest(stickerPackInfo: self.stickerPackInfo,
+//                                                                    manifestData: plaintext)
+//
+//                self.success(stickerPack)
+//                self.reportSuccess()
+//            } catch {
+//                owsFailDebug("Decryption failed: \(error)")
+//
+//                self.markUrlPathAsCorrupt(urlPath)
+//
+//                // Fail immediately; do not retry.
+//                return self.reportError(SSKUnretryableError.stickerDecryptionFailure)
+//            }
+//        }.catch(on: .global()) { [weak self] error in
+//            guard let self = self else {
+//                return
+//            }
+//            if error.hasFatalHttpStatusCode() {
+//                StickerManager.markStickerPackAsMissing(stickerPackInfo: self.stickerPackInfo)
+//            }
+//            return self.reportError(withUndefinedRetry: error)
+//        }
     }
 
     private func parseStickerPackManifest(stickerPackInfo: StickerPackInfo,

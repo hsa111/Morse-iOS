@@ -225,7 +225,7 @@ class PhotoCaptureViewController: OWSViewController, InteractiveDismissDelegate 
             super.init(frame: .zero)
 
             addSubview(navStack)
-            navStack.autoPinEdgesToSuperviewEdges(with: UIEdgeInsets(top: 4, leading: 0, bottom: 0, trailing: 16))
+            navStack.autoPinEdgesToSuperviewEdgesSignal(with: UIEdgeInsets(top: 4, leading: 0, bottom: 0, trailing: 16))
 
             addSubview(recordingTimerView)
             recordingTimerView.isHidden = true

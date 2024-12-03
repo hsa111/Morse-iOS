@@ -148,7 +148,7 @@ class NameCollisionResolutionViewController: OWSTableViewController2 {
             }
 
             view.addSubview(label)
-            label.autoPinEdgesToSuperviewEdges(with: UIEdgeInsets(top: 24, leading: 16, bottom: 16, trailing: 16))
+            label.autoPinEdgesToSuperviewEdgesSignal(with: UIEdgeInsets(top: 24, leading: 16, bottom: 16, trailing: 16))
             return view
         })
     }
